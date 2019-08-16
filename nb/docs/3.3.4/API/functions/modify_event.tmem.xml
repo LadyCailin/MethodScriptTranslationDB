@@ -1,0 +1,73 @@
+<translations>
+<comment></comment>
+<translationBlock>
+	<id>nb-445</id>
+	<key><![CDATA[Yes]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-952</id>
+	<key><![CDATA[parameter, value, %s[%sthrowOnFailure%s]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2878</id>
+	<key><![CDATA[Examples]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3788</id>
+	<key><![CDATA[Vital Info]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3789</id>
+	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.%s (Note this page is automatically generated from the documentation in the source code.)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3791</id>
+	<key><![CDATA[Usages]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3792</id>
+	<key><![CDATA[Sorry, there are no examples for this function! :(]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3813</id>
+	<key><![CDATA[None]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-4523</id>
+	<key><![CDATA[If an invalid parameter name is passed in, nothing will happen. If this function is called from outside an event handler, a BindException is thrown. Note that modifying the underlying event will NOT update the event object passed in to the event handler. The function returns whether or not the parameter was updated successfully. It could fail to modify the event if a higher priority handler has locked this parameter, or if updating the underlying event failed. If throwOnFailure is true, instead of returning false, it will throw a BindException. The default for throwOnFailure is false. If a monitor level handler even attempts to modify an event, an exception will be thrown.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-4524</id>
+	<key><![CDATA[Modifies the underlying event object, if applicable. The documentation for each event will explain what parameters can be modified, and what their expected values are.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+</translations>

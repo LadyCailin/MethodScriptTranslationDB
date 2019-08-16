@@ -1,0 +1,115 @@
+<translations>
+<comment></comment>
+<translationBlock>
+	<id>ko-311</id>
+	<key><![CDATA[No]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-548</id>
+	<key><![CDATA[array, %s[%snumber, [getKeys%s]%s]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2878</id>
+	<key><![CDATA[Examples]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3788</id>
+	<key><![CDATA[Vital Info]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3789</id>
+	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.%s (Note this page is automatically generated from the documentation in the source code.)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3791</id>
+	<key><![CDATA[Usages]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3795</id>
+	<key><![CDATA[Example 1]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3796</id>
+	<key><![CDATA[Given the following code:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3797</id>
+	<key><![CDATA[Example 2]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3803</id>
+	<key><![CDATA[Example 3]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3810</id>
+	<key><![CDATA[The output might be:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3833</id>
+	<key><![CDATA[[[%s|NO_SIDE_EFFECTS]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3887</id>
+	<key><![CDATA[Usage with an associative array]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3888</id>
+	<key><![CDATA[Usage with a normal array]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3889</id>
+	<key><![CDATA[Usage with a normal array, using getKeys false, and returning 2 results]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3890</id>
+	<key><![CDATA[Returns a random selection of keys or values from an array. The array may be either normal or associative. Number defaults to 1, and getKey defaults to true. If number is greater than the size of the array, a RangeException is thrown. No value will be returned twice from the array however, one it is "drawn" from the array, it is not placed back in. The order of the elements in the array will also be random, if order is important, use array_sort().]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+</translations>

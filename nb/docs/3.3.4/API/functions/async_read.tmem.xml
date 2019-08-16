@@ -1,0 +1,73 @@
+<translations>
+<comment></comment>
+<translationBlock>
+	<id>nb-445</id>
+	<key><![CDATA[Yes]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-951</id>
+	<key><![CDATA[file, callback]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2878</id>
+	<key><![CDATA[Examples]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3788</id>
+	<key><![CDATA[Vital Info]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3789</id>
+	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.%s (Note this page is automatically generated from the documentation in the source code.)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3791</id>
+	<key><![CDATA[Usages]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3792</id>
+	<key><![CDATA[Sorry, there are no examples for this function! :(]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3813</id>
+	<key><![CDATA[None]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3930</id>
+	<key><![CDATA[Asyncronously reads in a file.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3931</id>
+	<key><![CDATA[This may be a remote file accessed with an SCP style path. (See the [[%s|wiki article]] about SCP credentials for more information.) If the file is not found, or otherwise can't be read in, an IOException is thrown. If the file specified is not within base-dir (as specified in the preferences file), a SecurityException is thrown. (This is not applicable for remote files) The line endings for the string returned will always be \n, even if they originally were \r\n. This method will immediately return, and asynchronously read in the file, and finally send the contents to the callback once the task completes. The callback should have the following signature: closure(@contents, @exception){ &lt;code&gt; }. If @contents is %s, that indicates that an exception occured, and @exception will not be %s, but instead have an exeption array. Otherwise, @contents will contain the file's contents, and @exception will be %s. This method is useful to use in two cases, either you need a remote file via SCP, or a local file is big enough that you notice a delay when simply using the read() function. async_read is threadsafe.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+</translations>

@@ -1,0 +1,171 @@
+<translations>
+<comment></comment>
+<translationBlock>
+	<id>nb-311</id>
+	<key><![CDATA[No]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-841</id>
+	<key><![CDATA[array, %s[%ssortType%s]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2878</id>
+	<key><![CDATA[Examples]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3787</id>
+	<key><![CDATA[[[%s|OPTIMIZE_DYNAMIC]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3788</id>
+	<key><![CDATA[Vital Info]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3789</id>
+	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.%s (Note this page is automatically generated from the documentation in the source code.)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3791</id>
+	<key><![CDATA[Usages]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3794</id>
+	<key><![CDATA[The output would be:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3795</id>
+	<key><![CDATA[Example 1]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3796</id>
+	<key><![CDATA[Given the following code:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3797</id>
+	<key><![CDATA[Example 2]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3803</id>
+	<key><![CDATA[Example 3]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3804</id>
+	<key><![CDATA[Example 4]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3831</id>
+	<key><![CDATA[Example 5]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3860</id>
+	<key><![CDATA[Example 6]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3901</id>
+	<key><![CDATA[String sort]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3902</id>
+	<key><![CDATA[Ignore case sort]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3903</id>
+	<key><![CDATA[Sorts an array in place, and also returns a reference to the array.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3904</id>
+	<key><![CDATA[Regular sort]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3905</id>
+	<key><![CDATA[Custom sort]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3906</id>
+	<key><![CDATA[Numeric sort]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3907</id>
+	<key><![CDATA[If the sortType is a closure, it will perform a custom sort type, and the array may contain any values, including sub array values. The closure should accept two values, @left and @right, and should return true if the left value is larger than the right, and false if the left value is smaller than the right, and %s if they are equal. The array will then be re-ordered using a merge sort, using your custom comparator to determine the sort order.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3908</id>
+	<key><![CDATA[String sort (with words)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3909</id>
+	<key><![CDATA[The complexity of this sort algorithm is guaranteed to be no worse than n log n, as it uses merge sort. The array is sorted in place, a new array is not explicitly created, so if you sort an array that is passed in as a variable, the contents of that variable will be sorted, even if you don't re-assign the returned array back to the variable. If you really need the old array, you should create a copy of the array first, like so: assign(@sorted, array_sort(@array[])). The sort type may be one of the following: REGULAR, NUMERIC, STRING or STRING_IC, or it may be a closure, if the sort should follow custom rules (explained below). A regular sort sorts the elements without changing types first. A numeric sort always converts numeric values to numbers first (so 001 becomes 1). A string sort compares values as strings, and a string_ic sort is the same as a string sort, but the comparision is case-insensitive. If the array contains array values, a CastException is thrown; inner arrays cannot be sorted against each other. If the array is associative, a warning will be raised if the General logging channel is set to verbose, because the array's keys will all be lost in the process. To a%s this warning, and to be more explicit, you can use array_normalize() to normalize the array first. Note that the reason this function is an in place sort instead of explicitly cloning the array is because in most cases, you may not need to actually clone the array, an expensive operation. Due to this, it has slightly different behavior than array_normalize, which could have also been implemented in place.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+</translations>

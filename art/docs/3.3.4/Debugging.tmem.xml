@@ -1,0 +1,164 @@
+<translations>
+<comment></comment>
+<translationBlock>
+	<id>art-1715</id>
+	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2519</id>
+	<key><![CDATA[Know the assumptions you are making, and test assumptions that matter]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2520</id>
+	<key><![CDATA[These types of errors are usually more straightforward to fix, since the compiler can usually point us right at the code in question. Regardless, the code isn't actually running at this point, so our runtime debugging techniques aren't applicable here.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2521</id>
+	<key><![CDATA["Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it." --Brian Kernighan]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2522</id>
+	<key><![CDATA[We don't know offhand what @value is, so it may be useful to output the value before we use it, especially if it's involved in part of the stack trace chain.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2523</id>
+	<key><![CDATA[Bugs in MethodScript itself]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2524</id>
+	<key><![CDATA[You can also use %s for a more detailed output, which includes the variable name. So, assuming @value contained 'string', then %strace(@value)%s would output: %s@value: string%s.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2525</id>
+	<key><![CDATA[If when we trace(@value1), we see that it is "test1", then we can safely assume that @value2 is 0. However, if we did not have that trace() present, (allowing us to know the value of @value1 for sure) we must be aware that we have two assumptions here. If the assumptions matter, that is, they are involved in the code that is having problems, we would be wise to test those assumptions, in order to rule out the problem.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2526</id>
+	<key><![CDATA[MethodScript is itself written in code, and is prone to bugs as well. These debugging techniques are not meant to be useful when you get a java stack trace, and in fact, the java stack trace often doesn't help you identify the problem at all. In these cases, you may be able to find a workaround which prevents the error, but in ALL cases if you get a Java stack trace, this is a bug which should be reported. An example Java stack trace looks like this:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2527</id>
+	<key><![CDATA[These debugging techniques do not help with syntax errors. There is a difference between compiler errors and runtime errors. Syntax errors do not require testing values or anything, because they are a problem with your syntax, not your logic. For instance, in the following code, we are missing a parenthesis.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2528</id>
+	<key><![CDATA[As you look at the problem code, it is likely that you won't test all your assumptions. Sometimes, it's obvious what a particular value is, for instance, given this code:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2529</id>
+	<key><![CDATA[The most important thing for you to know is how the code is supposed to work. Granted, there may be a problem with how it is actually working, but if you don't know what the code is supposed to do, you can't know what is wrong with it. This includes usages of the builtin API, as well as your own code. Stack traces are important to understand as well. Lets examine the components of a stack trace, given the following source code:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2530</id>
+	<key><![CDATA[If @b is zero, then this would certainly cause the error. However, there is more to the stack trace, which is useful, because this line may not be where we actually want to fix the error. The next element in the stack trace tells us that _proc2 was called from _proc1, on line 4.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2531</id>
+	<key><![CDATA[This is our ''stack trace''. The problem is that we are dividing by zero. The first line of the stack trace tells us what the error type was, and gives us the exception message as well. As you can see, the root of our problem is on line 8, if @b is 0. @b ends up being 0, so we end up dividing by zero, thus the exception. The root cause is always  the first element in the stack trace. Each stack trace element follows the format &lt;code description&gt;:&lt;file path&gt;:&lt;line number&gt;. In this case, the example was run from the command line, so the "main" file is run from the Interpreter, but normally this will contain a file path. The important information is the code description and the line number. The code description tells us that this is code defined in the procedure "_proc2", and the error is on line 8.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2532</id>
+	<key><![CDATA[When we run this script, we get the following error:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2533</id>
+	<key><![CDATA[Understand code flow]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2534</id>
+	<key><![CDATA[Ok, so this still doesn't help us much, because we don't know where @a came from, so lets dig down again into the stack trace. The last element is &lt;&lt;main code&gt;&gt;, which means that this is the "top level" of the execution unit. In this case, it means that the code is "loose" code, that is, it is not contained inside a procedure.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2535</id>
+	<key><![CDATA[Debugging your code is an important, but challenging part of writing working code. Currently, MethodScript does not have an interactive debugger (though this is planned in the future) however, this does not stop you from debugging scripts anyways. When debugging, there are several key concepts]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2536</id>
+	<key><![CDATA[If you can determine what was done to cause this error, please include that information in the bug report, but often times, this error can be fixed without any information other than the stack trace.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2537</id>
+	<key><![CDATA[Aha! Now we see where the 0 is coming from, it is hard coded in at this point. Sometimes your code is more complicated though, and it's not so obvious where a value is coming from, which leads us to our next section:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2538</id>
+	<key><![CDATA[Sometimes it's not obvious where a variable's values come from. In this case, you can use runtime checks to gather the value of variables. The simplest way to do this is to use %s or %s to output the value of the variable at that moment in time. Say you have a value that is brought in from storage:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2539</id>
+	<key><![CDATA[Syntax errors]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2540</id>
+	<key><![CDATA[Understand variable's values]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+</translations>

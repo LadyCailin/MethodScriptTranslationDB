@@ -1,0 +1,143 @@
+<translations>
+<comment></comment>
+<translationBlock>
+	<id>art-311</id>
+	<key><![CDATA[No]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-829</id>
+	<key><![CDATA[value, radix]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2878</id>
+	<key><![CDATA[Examples]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3788</id>
+	<key><![CDATA[Vital Info]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3789</id>
+	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.%s (Note this page is automatically generated from the documentation in the source code.)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3791</id>
+	<key><![CDATA[Usages]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3794</id>
+	<key><![CDATA[The output would be:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3795</id>
+	<key><![CDATA[Example 1]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3796</id>
+	<key><![CDATA[Given the following code:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3797</id>
+	<key><![CDATA[Example 2]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3803</id>
+	<key><![CDATA[Example 3]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3804</id>
+	<key><![CDATA[Example 4]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3805</id>
+	<key><![CDATA[See Also]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3813</id>
+	<key><![CDATA[None]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-4981</id>
+	<key><![CDATA[Using binary value in source]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-4982</id>
+	<key><![CDATA[It is useful to note that all integers are stored internally by the computer as binary, but since we usually represent numbers in text as base 10 numbers, we often times forget that both base 16 'F' and base 10 '15' and base 2 '1111' are actually the same number, just represented differently as strings in different bases. This doesn't change how the program behaves, since the base is just a way to represent the number on paper. The 'radix' is the base. So, given to_radix(10, 10), that would return '10', because in code, we wrote out our value '10' in base 10, and we convert it to base 10, so nothing changes. However, if we write to_radix(15, 16) we are saying "convert the base 10 value 15 to base 16", so it returns 'F'. See %s for the opposite operation. The radix must be between 2 and 36, inclusive, or a range exception is thrown. This is because there are only 36 characters that are normally used to represent different base numbers (that is, 0-9, a-z). The minimum radix is 2, because it is impossible to represent any numbers with out at least a binary base.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-4983</id>
+	<key><![CDATA[Given an int and a radix, returns a string representation of the integer value in the given base. A common use would be to output a hex or binary representation of a number, for instance.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-4984</id>
+	<key><![CDATA[To a binary string]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-4985</id>
+	<key><![CDATA[Using hex value in source]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-4986</id>
+	<key><![CDATA[To a hex string]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+</translations>

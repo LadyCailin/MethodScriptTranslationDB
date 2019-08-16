@@ -1,0 +1,73 @@
+<translations>
+<comment></comment>
+<translationBlock>
+	<id>art-445</id>
+	<key><![CDATA[Yes]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-756</id>
+	<key><![CDATA[x, z, %s[%sworld%s]%s, biome %s locationArray, biome]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2878</id>
+	<key><![CDATA[Examples]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3787</id>
+	<key><![CDATA[[[%s|OPTIMIZE_DYNAMIC]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3788</id>
+	<key><![CDATA[Vital Info]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3789</id>
+	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.%s (Note this page is automatically generated from the documentation in the source code.)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3791</id>
+	<key><![CDATA[Usages]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3792</id>
+	<key><![CDATA[Sorry, there are no examples for this function! :(]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-4715</id>
+	<key><![CDATA[Biome may be one of the following: BEACH, SAVANNA, MUSHROOM_FIELD_SHORE, SUNFLOWER_PLAINS, STONE_SHORE, FROZEN_OCEAN, BIRCH_FOREST, THE_VOID, DEEP_LUKEWARM_OCEAN, END_HIGHLANDS, DEEP_FROZEN_OCEAN, END_MIDLANDS, FLOWER_FOREST, ERODED_BADLANDS, END_BARRENS, SNOWY_TUNDRA, MODIFIED_WOODED_BADLANDS_PLATEAU, GRAVELLY_MOUNTAINS, SNOWY_TAIGA, TAIGA_MOUNTAINS, JUNGLE, GIANT_SPRUCE_TAIGA, OCEAN, ICE_SPIKES, SMALL_END_ISLANDS, BAMBOO_JUNGLE_HILLS, FROZEN_RIVER, THE_END, DARK_FOREST, MODIFIED_BADLANDS_PLATEAU, SWAMP_HILLS, COLD_OCEAN, MODIFIED_JUNGLE_EDGE, WOODED_MOUNTAINS, PLAINS, SNOWY_MOUNTAINS, MOUNTAINS, SAVANNA_PLATEAU, JUNGLE_EDGE, TALL_BIRCH_HILLS, GIANT_TREE_TAIGA, RIVER, BIRCH_FOREST_HILLS, WOODED_BADLANDS_PLATEAU, DESERT_LAKES, DARK_FOREST_HILLS, LUKEWARM_OCEAN, NETHER, BAMBOO_JUNGLE, TAIGA_HILLS, MODIFIED_JUNGLE, DEEP_COLD_OCEAN, GIANT_TREE_TAIGA_HILLS, BADLANDS, SHATTERED_SAVANNA_PLATEAU, DEEP_WARM_OCEAN, MUSHROOM_FIELDS, GIANT_SPRUCE_TAIGA_HILLS, SNOWY_TAIGA_HILLS, DEEP_OCEAN, BADLANDS_PLATEAU, TAIGA, WOODED_HILLS, MOUNTAIN_EDGE, SHATTERED_SAVANNA, DESERT, SNOWY_TAIGA_MOUNTAINS, SNOWY_BEACH, WARM_OCEAN, FOREST, JUNGLE_HILLS, TALL_BIRCH_FOREST, MODIFIED_GRAVELLY_MOUNTAINS, SWAMP, UNKNOWN, or DESERT_HILLS]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-4716</id>
+	<key><![CDATA[Sets the biome of the specified block column. The location array's y value is ignored.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+</translations>

@@ -1,0 +1,150 @@
+<translations>
+<comment></comment>
+<translationBlock>
+	<id>nb-445</id>
+	<key><![CDATA[Yes]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-767</id>
+	<key><![CDATA[[%sobject%s]%s, key %s object, key, %s[%splugin%s]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-887</id>
+	<key><![CDATA[Returns the metadata values attached to the given object. object can be a location array (it will designate a block), an entityID (it will designate an entity) or a string (it will designate a world). If only the key is given, the object is the current player. The function returns an associative array where the values are keyed by plugin which have registered the metadata with the given key, and the array values the registered metadata values. If the plugin argument is given (a string that represent the plugin name), the function simply returns the value of the metadata registered by the plugin with this key, or %s if no metadata is found. --- The Bukkit metadata allow to attach informations to entities, blocks and worlds, and allow plugins to exchange these informations between them without requiring one to be dependant on each other. The metadata are persistent across server reloads, but not across server restarts. The metadata attached to a player are also persistent between logins.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-920</id>
+	<key><![CDATA[mixed]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2878</id>
+	<key><![CDATA[Examples]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3788</id>
+	<key><![CDATA[Vital Info]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3789</id>
+	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.%s (Note this page is automatically generated from the documentation in the source code.)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3791</id>
+	<key><![CDATA[Usages]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3795</id>
+	<key><![CDATA[Example 1]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3796</id>
+	<key><![CDATA[Given the following code:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3797</id>
+	<key><![CDATA[Example 2]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3803</id>
+	<key><![CDATA[Example 3]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3804</id>
+	<key><![CDATA[Example 4]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3810</id>
+	<key><![CDATA[The output might be:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3813</id>
+	<key><![CDATA[None]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3831</id>
+	<key><![CDATA[Example 5]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-4283</id>
+	<key><![CDATA[Attaches the name of the player running the function at the key &apos;aKey&apos; to the block at the given location, and outputs all values attached to the same block and at the same key.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-4284</id>
+	<key><![CDATA[Attaches the boolean value true at the key &apos;my.key&apos; to the entity whose the id is 1001, and outputs the value attached to the same entity and at the same key byMethodScript.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-4285</id>
+	<key><![CDATA[Attaches the string &apos;example&apos; at the key &apos;key&apos; to the player running the function, and outputs all values attached at the same key.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-4286</id>
+	<key><![CDATA[Attaches %s at the key &apos;key&apos; to the player named &apos;player&apos;, and outputs the value attached to the same player and at the same key byMethodScript.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-4287</id>
+	<key><![CDATA[Attaches an array at the key &apos;anotherKey&apos; to the world named &apos;world&apos;, and outputs all values attached to the same world and at the same key.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+</translations>

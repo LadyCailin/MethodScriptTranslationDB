@@ -1,0 +1,339 @@
+<translations>
+<comment></comment>
+<translationBlock>
+	<id>ko-1715</id>
+	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2952</id>
+	<key><![CDATA[Had we left the break() out, case 2 and the default case would have merged together. In all other cases, break() is optional.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2953</id>
+	<key><![CDATA[Unlike many other languages, no %s is strictly necessary. Code blocks are run starting with the case statement, running until the next case. Only if a case should be ignored must you use break(), otherwise code will merge with the following case. For instance, say we want nothing to happen should the value = 2.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2954</id>
+	<key><![CDATA[Bitwise Functions]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2955</id>
+	<key><![CDATA[Basic Usage]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2956</id>
+	<key><![CDATA[else if]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2957</id>
+	<key><![CDATA[and()%s (%s&&%s) returns true if '''all''' the parameters resolve to true:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2958</id>
+	<key><![CDATA[If the @condition is true, then 1 is assigned to @var, otherwise 2 is.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2959</id>
+	<key><![CDATA[Using break() is still recommended however, even though it is technically optional. Consider the following example.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2960</id>
+	<key><![CDATA[A switch statement works by simplifying comparisons. Unlike if/else if/else, switch checks to see if some value  is equal to another value, then running that code, instead of just seeing if the value itself is true.  Switch statements can actually be written using if chains, so to demonstrate, here is the same code written both ways:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2961</id>
+	<key><![CDATA[Sometimes you may want to run some code given that the value equals one of any number of values.  In this case, you may specify multiple cases, and if the value equals any  of the values specified, the corresponding code is run.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2962</id>
+	<key><![CDATA[if/else if/else chains can be formed as well, if multiple conditions need to be checked. Using only if/else would quickly get messy if you have multiple values to check for.  Instead, you may use the ''else if'' chain.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2963</id>
+	<key><![CDATA[In this example, if @v is 1, we msg out 1, and if @v is 2, we message out 2. Consider however, if we comment out line 3, %smsg('1')%s. We might expect that the code simply won't message anything at all if @v is 1. This is incorrect. Due to the way fallthroughs work, it will simply change it to a combined case 1 and 2. We can add a bit more code to ensure that this won't happen:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2964</id>
+	<key><![CDATA[The three main operators: and (%s&&%s), or (%s||%s), and not (%s!%s)  are the building blocks for more complicated logic statements.  These functions deal with the overall truth value of a construct, not individual bits (see the  bit_and and bit_or functions).]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2965</id>
+	<key><![CDATA[Bitwise operations are useful for storing many boolean values as a single integer, among other uses.  It may be useful to note that integers are stored as 64 bit two's compliment values.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2966</id>
+	<key><![CDATA[In this usage, the %sval%ss will be evaluated from top to bottom, and once the first val is true,  the corresponding code will be run. If none of the vals are true, then nothing in the chain will run.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2967</id>
+	<key><![CDATA[or()%s (%s||%s) returns true if '''any''' of the parameters are true]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2968</id>
+	<key><![CDATA[The "old style" of if was a fully functional syntax, though that syntax is still useful for ''ternary statements''. In most languages, this is the ''condition ? true : false'' syntax. %sif%s technically returns a value. If the value in each block is a single, returning value, that value will be returned. As a convention, only if a ternary operator is desired should you use the functional syntax. The following code works as expected:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2969</id>
+	<key><![CDATA[The %s function is the non-brace way to do if/else if/else chains, though its usage is not recommended, as it is less readable. Internally, if/else if/else chains are converted to it still, however.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2970</id>
+	<key><![CDATA[Some of the functions you may not have seen before if you haven't taken a logic or programming class  are the boolean logic operators. For a full discussion of boolean logic, you may wish to read up  [%s on wikipedia] for more information, however a basic  treatment is covered below.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2971</id>
+	<key><![CDATA[All the functions in the [[%s|BasicLogic class]] return a  boolean based on certain conditions. You should be familiar with the lt (less than %s&lt;%s),  lte (less than or equals to %s&lt;=%s), gt (greater than %s&gt;%s),  gte (greater than or equals %s&gt;=%s) functions  from a basic algebra class that covers inequalities.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2972</id>
+	<key><![CDATA[As you can see, it's a bit less code using the switch statement, but the results can be achieved either way.  Sometimes you may want to do a different type of comparison, other than equals, so you have to use if/else if/else chains. As with if/else if/else chains, a "default" condition can be stated, in the event none of the given conditions are satisfied. When possible, however, switch statements should be used, as they can be better optimized by the compiler.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2973</id>
+	<key><![CDATA[Now that we have established that some conditions are true or not, we may want to do different  things depending. This is where the %sif()%s function comes in. We are creating "code branches"  when we use if and other conditional statements, which means that sometimes code will not get run.  The syntax of the if statements is as follows:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2974</id>
+	<key><![CDATA[Slices may also be used, and if so, if the test value falls within the range of the slice, that code block is run.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2975</id>
+	<key><![CDATA[The keyword and boolean value %strue]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2976</id>
+	<key><![CDATA[Any non-empty string]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2977</id>
+	<key><![CDATA[Truth value testing]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2978</id>
+	<key><![CDATA[switch()]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2979</id>
+	<key><![CDATA[not()%s (%s!%s) returns the opposite truth value of the parameter:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2980</id>
+	<key><![CDATA[The three bitwise functions bit_and, bit_or, and bit_not work similarly to %sand%s,  %sor%s and %snot%s, but they only work with integers, and they work on a  binary level to determine the bitwise equivalent of two or more integers, and return that integer.  Again, a full discussion of how bitwise operations work is beyond the scope of this article, but some examples are below:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2981</id>
+	<key><![CDATA[xor()%s returns true if both parameters are different]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2982</id>
+	<key><![CDATA[For convenience, there are also the nand, nor, xnor functions, which are equivalent respectively to not(and()), not(or()), and not(xor()).]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2983</id>
+	<key><![CDATA[Let's take the %s function into consideration (%s&lt;%s operator).  lt returns true if the value on the left is less than the value on the right. In a typical  algebra class, when comparing two numbers, you would write something like this:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2984</id>
+	<key><![CDATA[''Note: The examples in this tutorial primarily use operators, see the page on [[%s|Operators]]'' ''for a refresher, if the operators are unclear.'']]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2985</id>
+	<key><![CDATA[Though you can technically use non-string and non-integer values as the comparison types, it is not recommended,  and in fact, arrays may not be used at all. When writing code, you should only use integers and strings whenever possible.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2986</id>
+	<key><![CDATA[lshift%s, %srshift%s, and %surshift%s are also available. lshift(value, bitsToShift) is the general format for all three.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2987</id>
+	<key><![CDATA[Now, if we comment out %smsg('1')%s, as expected, nothing happens when @v is 1.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2988</id>
+	<key><![CDATA[Null values are always considered false. All primitives, and some more complex objects implement the %s type, which allows them to return true if the value is '''trueish''', meaning that while the value itself is not a boolean, it has a true/false interpretation, and can explicitely be cast to a boolean with the %s function. This is a generic concept though, and so it's not possible to create a comprehensive list of things that are supported with this mechanism.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2989</id>
+	<key><![CDATA[A non-empty array]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2990</id>
+	<key><![CDATA[if()]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2991</id>
+	<key><![CDATA[Assuming x is 3 and y is 4, this statement is true. However, if we swap the values, and make x 4 and y 3,  the statement is false. Written in code, it would look like this:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2992</id>
+	<key><![CDATA[In this usage, we can imagine a "default" case. If at least one of the %s@val%ss  is true, then it will behave the same. However, if none of the vals are true, then the  final code block will be run instead. This is the final "else" clause of the statement.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2993</id>
+	<key><![CDATA[Boolean logic]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2994</id>
+	<key><![CDATA[The following are considered to evaluate to true:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2995</id>
+	<key><![CDATA[Any number different from 0]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2996</id>
+	<key><![CDATA[switch%s also has a pure functional syntax, but it is not recommended for use in new code.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2997</id>
+	<key><![CDATA[Many times you want to use a bit of basic logic to determine what to do. Usually you want to compare  two values to see if some relationship between them is true. Based on the result of this comparison,  you want to do one thing or another. This is where the logic operators come in handy. There are several  functions that all act relatively the same in the BasicLogic class. Essentially, they compare certain  values, then return a boolean.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2998</id>
+	<key><![CDATA[The condition and code to run if true are required, but the code to run if false ("else") is optional.  If it is left off, and the condition is false, %s is returned. Only one branch of code is executed here.  If condition resolves to true (which may itself contain more complex code), then the second argument is  evaluated and returned, otherwise the third argument is evaluated and returned. Note that the other  code branch is not even evaluated, that is, it is skipped entirely.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+</translations>

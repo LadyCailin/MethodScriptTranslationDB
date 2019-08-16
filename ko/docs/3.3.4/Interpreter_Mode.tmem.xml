@@ -1,0 +1,17 @@
+<translations>
+<comment></comment>
+<translationBlock>
+	<id>ko-1715</id>
+	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2881</id>
+	<key><![CDATA[Interpreter mode is a mode that allows you to easily run mscripts from within game, straight from the chat bar! To enter  interpreter mode, type /interpreter. You must have the interpreter enabled in your preferences file, and the user must  have the commandhelper.interpreter permission. Once you are in interpreter mode, your chat bar turns into a script  window, and you cannot chat anymore (well, you could with the chat function... :D). In order to leave interpreter mode,  type a single dash(-) on a line on its own. Now, when you "chat", you can run arbitrary mscripts. To enter multiline  mode, type >>> on a line of its own. Now when you hit enter, the line is added to an ongoing script, which isn't run  until you end the script with %s Hello World!%s :%sThis is normally ignored]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+</translations>

@@ -1,0 +1,206 @@
+<translations>
+<comment></comment>
+<translationBlock>
+	<id>art-1715</id>
+	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1856</id>
+	<key><![CDATA[aliases.msa:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1857</id>
+	<key><![CDATA[Those two functions, when added to auto_include.ms, will let you do something like this:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1858</id>
+	<key><![CDATA[Sign Editing]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1859</id>
+	<key><![CDATA[Brand and Unbrand a user]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1860</id>
+	<key><![CDATA[In auto_include.ms]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1861</id>
+	<key><![CDATA[Instead of handling permission checking yourself, you can let CommandHelper do it using an alias permission label. This will display an error if a restricted function, like set_sign_text(), is ran without permission. Ensure that your base group (in our case, 'default') has the permission 'commandhelper.alias.safe']]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1862</id>
+	<key><![CDATA[Pagination]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1863</id>
+	<key><![CDATA[This file goes into the same directory as your aliases.msa file, and is normally used for Procedures. You can put useful commands that you want in %severy%s alias here.  Here's a simple one, that is used by the example scripts below]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1864</id>
+	<key><![CDATA[Let users see their regions]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1865</id>
+	<key><![CDATA[This lets you use the alias _bc in every alias, to do a Broadcast to the server, with a leading subject. You will see it used below.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1866</id>
+	<key><![CDATA[Simple mail system]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1867</id>
+	<key><![CDATA[This script lets anyone with the permission "command.fixspleef" reset a spleef arena. It also only lets it happen every 5 minutes, to stop people spamming it.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1868</id>
+	<key><![CDATA[You'll notice the last line relies on CH's greedy pattern matching. If someone tries %s/brand GrieferTest Is an idiot%s, it WON'T match on the %s/brand $user $brand%s alias, because it has too many parameters.  It will, however, happily match on the bottom line, and give a warning to the person who tried to brand to only use one word.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1869</id>
+	<key><![CDATA[A toggle to let admins and mods join the server unannounced]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1870</id>
+	<key><![CDATA[You could also have a script that moves EVERYONE off the server, like this:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1871</id>
+	<key><![CDATA[-added by russellsayshi In aliases.msa]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1872</id>
+	<key><![CDATA[In main.ms]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1873</id>
+	<key><![CDATA[And the third is to actually edit the sign. Note that the magic variable '$' is used here, which catches any number of words and returns it as a single string.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1874</id>
+	<key><![CDATA[auto_include.ms]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1875</id>
+	<key><![CDATA[Reset a Spleef Arena]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1876</id>
+	<key><![CDATA[You would then type "/sendall lobby" to send all players on the current server to the lobby.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1877</id>
+	<key><![CDATA[Use BungeeCord with CommandHelper]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1878</id>
+	<key><![CDATA[Main.ms:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1879</id>
+	<key><![CDATA[This ties into WorldGuard, and uses the sk_region commands.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1880</id>
+	<key><![CDATA[The second is when they use %s/fixsign 3%s to delete the third line of the sign]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1881</id>
+	<key><![CDATA[This is made from three commands. The first is when someone types %s/fixsign%s without any options. It tells them the parameters. The 'text' is gray as a hint that it's an optional parameter.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1882</id>
+	<key><![CDATA[Someone giving you problems? Want to make sure everyone else knows about it? Brand them. Note that this is written for use with [%s PermissionsEx] and you'll have to change the prefix commands for your own permissions system.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1883</id>
+	<key><![CDATA[Auto_include.ms:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+</translations>

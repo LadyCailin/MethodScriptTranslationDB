@@ -1,0 +1,59 @@
+<translations>
+<comment></comment>
+<translationBlock>
+	<id>nb-1715</id>
+	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3645</id>
+	<key><![CDATA[This will print out the syntax file to the console. You can pipe the output to a file with:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3646</id>
+	<key><![CDATA[java -jar CommandHelper.jar syntax npp obsidian]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3647</id>
+	<key><![CDATA[The MethodScript jar comes packaged with a syntax highlighter generator for several different text editors.  The syntax files can be updated with data from your specific jar, so it is guaranteed to be up to date.  To run the tool, run]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3648</id>
+	<key><![CDATA[This will save the file in the current directory. Follow the procedure for your specific text editor to update the syntax files using the freshly generated syntax file. (This varies depending on your text editor.)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3649</id>
+	<key><![CDATA[java -jar CommandHelper.jar syntax]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3650</id>
+	<key><![CDATA[java -jar CommandHelper.jar syntax npp obsidian > syntaxFile.xml]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3651</id>
+	<key><![CDATA[from the command line. You will see a list of supported text editors. Select your text editor, and run, for instance:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+</translations>

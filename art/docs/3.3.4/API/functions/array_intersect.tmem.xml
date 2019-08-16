@@ -1,0 +1,206 @@
+<translations>
+<comment></comment>
+<translationBlock>
+	<id>art-311</id>
+	<key><![CDATA[No]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-385</id>
+	<key><![CDATA[array1, array2, %s[%scomparisonMode%s]%sarray1, array2, comparisonClosure]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2878</id>
+	<key><![CDATA[Examples]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3788</id>
+	<key><![CDATA[Vital Info]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3789</id>
+	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.%s (Note this page is automatically generated from the documentation in the source code.)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3791</id>
+	<key><![CDATA[Usages]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3794</id>
+	<key><![CDATA[The output would be:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3795</id>
+	<key><![CDATA[Example 1]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3796</id>
+	<key><![CDATA[Given the following code:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3797</id>
+	<key><![CDATA[Example 2]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3803</id>
+	<key><![CDATA[Example 3]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3804</id>
+	<key><![CDATA[Example 4]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3805</id>
+	<key><![CDATA[See Also]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3813</id>
+	<key><![CDATA[None]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3831</id>
+	<key><![CDATA[Example 5]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3860</id>
+	<key><![CDATA[Example 6]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3863</id>
+	<key><![CDATA[Usage with normal arrays. The default comparison method is HASH]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3864</id>
+	<key><![CDATA[The value is taken from the left array. This is not important for primitives, but when using arrays and a custom closure, it may make a difference.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3865</id>
+	<key><![CDATA[Demonstrates behavior with duplicate values]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3866</id>
+	<key><![CDATA[Demonstrates that STRICT_EQUALS does not consider different types to be equal]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3867</id>
+	<key><![CDATA[1) but since the comparison method uses equals, not sequals, these arrays are considered equivalent.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3868</id>
+	<key><![CDATA[Usage with a custom closure]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3869</id>
+	<key><![CDATA[Usage with associative array]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3870</id>
+	<key><![CDATA[Returns an array that is the intersection of the two provided arrays. If either array is associative, it puts the function in associative mode. For normal arrays, the values are compared, and for associative arrays, the keys are compared, but the values are taken from the left array. comparisonMode is only applicable for normal arrays, and defaults to HASH, but determines the mode in which the system decides if two values are equal or not. A closure may be sent instead, which should return true if the two values are considered equals or not. Using the HASH mode is fastest, as this puts the function in an optimizing mode, and it can run at O(n log n). Otherwise, the runtime is O(n**2). The results between HASH and STRICT_EQUALS should almost never be different, and so in that case using STRICT_EQUALS has a lower performance for no gain, but there may be some cases where using the hash code is not desirable. EQUALS is necessary if you wish to disregard typing, so that array(1, 2, 3) and array('1', '2', '3') are considered equal. Duplicate values in the left array are duplicated, but duplicates in the right are not.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3871</id>
+	<key><![CDATA[1 (but does not]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3872</id>
+	<key><![CDATA[Example 7]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3873</id>
+	<key><![CDATA[Note that the results of this method are the same as the previous example, but this version would be faster, and is preferred in all but the most exceptional cases.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3874</id>
+	<key><![CDATA[Demonstrates usage with equals. Note that &apos;1&apos;]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3875</id>
+	<key><![CDATA[Example 8]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+</translations>

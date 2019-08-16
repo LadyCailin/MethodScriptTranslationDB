@@ -1,0 +1,80 @@
+<translations>
+<comment></comment>
+<translationBlock>
+	<id>art-1715</id>
+	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1728</id>
+	<key><![CDATA[Usage]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1884</id>
+	<key><![CDATA[Annotation declarations (not the annotation usages) can be themselves annotated with various annotations. All annotations are available at runtime, so unlike Java, there is no Retention annotation. There is however the ability to restrict ''where'' an annotation is placed, (and if it can be placed more than once) based on the type of code structure being annotated.  The Target annotation, which takes a ElementType enum, can be used to restrict what elements this annotation is added to, and the Multiple annotation can be added to indicate that the annotation can be applied multiple times.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1885</id>
+	<key><![CDATA[The key principal to take away here, is that annotations require immutable data, and are ways to add meta information to your code. They do not "execute" ever, that is, they are to be fully resolved at compile time, because in many cases, the compiler itself uses the annotations itself to do certain things.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1886</id>
+	<key><![CDATA[Defining custom annotations]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1887</id>
+	<key><![CDATA[Annotations may also have annotation parameters. The parameters must be immutable, and fully defined at compile time, which means that you can either hardcode the values in, or use an immutable variable. If the parameter takes an array, and you only have one value in the array, you may simply provide the single element. Additionally, if the annotation is defined with only one parameter, and that parameter's name is  'value', you may leave off the parameter name and it will be assigned to value,  otherwise you must label the parameters the same as you would when creating an array.  Here are some valid examples:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1888</id>
+	<key><![CDATA[The basic syntax for an annotation uses the %s@{}%s syntax. If the annotation were named Annotation, and you were tagging a variable declaration, it might look like this:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1889</id>
+	<key><![CDATA[Annotations allow for meta data to be added to elements, and are used by the system in various places, and can also be defined and used by your code as well. Annotations are also referred to "tags" in MethodScript, and adding an annotation to an item is known as "tagging" an item.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1890</id>
+	<key><![CDATA[To define your own annotation, define the public values in an %sannotations%s block in a class-like structure, and include default values if you like. Methods and constructors are not allowed, and you can in many ways think of an annotation like an interface, though there are some key differences. Annotations may extend from one another. All properties declared on an annotation are inherently immutable.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1891</id>
+	<key><![CDATA[To use the annotation on an element, you must use the reflection methods. Since multiple annotations may be present on an element, you must select the annotations specifically (or you can iterate through all of them dynamically). Annotation parameters are immutable, though they do not work exactly the same as immutable class types, because the default value is not used if the value is provided by the user. Annotations may be applied to an element multiple times, (if the annotation is so configured) so reflect_annotation returns an array%s.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1892</id>
+	<key><![CDATA[Meta annotations]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+</translations>

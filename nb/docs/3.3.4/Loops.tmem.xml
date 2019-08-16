@@ -1,0 +1,199 @@
+<translations>
+<comment></comment>
+<translationBlock>
+	<id>nb-1715</id>
+	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1966</id>
+	<key><![CDATA[General]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2999</id>
+	<key><![CDATA[or the no-brace method (old style):]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3000</id>
+	<key><![CDATA[Once you understand while(), dowhile is trivial to understand. while() checks the condition THEN runs the code,  whereas dowhile() runs the code THEN checks the condition. In both cases, if the condition is true, it runs again.  So, %swhile(false, &lt;code&gt;)%s will never run the code, whereas  %sdowhile(&lt;code&gt;, false)%s will run the code only once.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3001</id>
+	<key><![CDATA[{{TakeNote|text=Modifications to the array being iterated are handled specially. Read the page on  for full details.}}]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3002</id>
+	<key><![CDATA[As a simple example, perhaps we want to echo "Hello World!" 5 times to  the player. The most straightforward way to do it would be this:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3003</id>
+	<key><![CDATA[Doing this continually would work, but if the number of times it is run can be dynamic, this approach won't work. The looping functions can be used to dynamically run code a given number of times. The %s function can be used to rewrite the same code as above in just a few lines:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3004</id>
+	<key><![CDATA[Breaks follow special rules, however. Breaks cannot bubble up past procedures, closures, or the root of the script. Since the break count must be hardcoded, the compiler will catch this at compile time, and cause an error.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3005</id>
+	<key><![CDATA[Break may also be used with switch statements. In this case, breaks work the same as if switch were a loop, even though it is technically a conditional, and not a loop.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3006</id>
+	<key><![CDATA[Much simpler. In fact, looping through an array with %sfor()%s is only possible if you aren't  using an associative array. If you have an associative array, you MUST use %sforeach()%s  to walk through it.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3007</id>
+	<key><![CDATA[The above example will take an indefinite period of time, but once the first rand()  generates a 0, it will break(). Otherwise, it will output "Looping!" each run of the loop,  unless the second rand() generates a number greater than 3, in which case it will continue(),  which restarts the loop. (And in for() and foreach(), continue() moves to the next index).]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3008</id>
+	<key><![CDATA[Breaks with more than 1 break out of multiple loops.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3009</id>
+	<key><![CDATA[foreach()%s also has other forms, though only the "foreach([@key:]@value in @array)" format is recommended. You may also use the no-keywords method:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3010</id>
+	<key><![CDATA[break() and continue()]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3011</id>
+	<key><![CDATA[or the "as" keyword method:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3012</id>
+	<key><![CDATA[Or, maybe we want to count down:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3013</id>
+	<key><![CDATA[Sometimes you don't know how many times you want to do something, or the "counter" variable is otherwise too difficult to write using the for() syntax, and you aren't using an array.  In that case, you can use a while loop, and you control all the conditions except for loop decision value.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3014</id>
+	<key><![CDATA[While that last example would work, since we often want to walk through an array just like this,  we have a special function just for walking through arrays, %s. This code be be rewritten like so:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3015</id>
+	<key><![CDATA[What if you are also interested in messaging out the key of the array? You can use %s to get them, or use the special key parameter of foreach.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3016</id>
+	<key><![CDATA[You can also make an "infinite" loop with a while(true) loop, and control stopping the loop with %s and %s.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3017</id>
+	<key><![CDATA[Another common task with arrays is to do one thing if the array is empty, or loop through it if it isn't. You could check the array size and have an if/else statement, but since this is a common enough task, special syntax exists.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3018</id>
+	<key><![CDATA[This can be read in English as: "Starting from 1, run the code if @i is less than or equal to 10, and add 1 to @i each time."]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3019</id>
+	<key><![CDATA[Looping is an important programming concept, because it allows you to do something more than once, without having  to rewrite the code over and over.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3020</id>
+	<key><![CDATA[Often times you're looping through an array. Perhaps we want to print all the words in this array:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3021</id>
+	<key><![CDATA[Breaking and continuing in a loop works will all 4 loop types, for, foreach, while, and dowhile. A break causes the loop to exit immediately, and a continue causes that particular iteration to finish, and the loop restarts. Both break and continue can be given a counter as well, and they will do that operation that many times. break() must have a hardcoded integer value, however, as a dynamic value prevents code flow analysis and optimizations. Continuing can be done a dynamic number of times, and essentially works like this:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3022</id>
+	<key><![CDATA[Most often though, when you are running through a loop, you are not going through a set number of times.  So, usually you will see a variable as the limiting factor.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3023</id>
+	<key><![CDATA[First of all, let's look at the inner parts. %s@i = 0%s assigns 0 to the variable @i. This bit of code is run only once, and at the beginning of the loop. Since %s=%s returns a variable, and for() requires the first parameter to be a variable,  this works out perfect. Next, is the less than. Essentially, in English, this says  "while @i is less than 5, run the code". This condition is checked at the start of each iteration of the loop, (including the first) and if it is true, the code is run again. %s@i++%s adds one  to @i, and stores the value back in the variable. This is run each time at the end of the loop, and is not required to return a value. So, in plain English, this entire statement says, "Starting at 0, run this code if  @i is less than 5, and after each run of the code, add 1 to @i". In the code of the loop,  you can also use @i, which is often useful. Say we want to write out the numbers from 1-10.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3024</id>
+	<key><![CDATA[Now say we want to do it 6 times.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+</translations>

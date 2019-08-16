@@ -1,0 +1,220 @@
+<translations>
+<comment></comment>
+<translationBlock>
+	<id>art-1715</id>
+	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1833</id>
+	<key><![CDATA[Comments]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3616</id>
+	<key><![CDATA[Block comments that are informational (rather than commenting out code) should follow these conventions: use /* for non documentation purposes, or for general comment blocks where the comment does not directly correspond with the next element, for instance, if the comment applies to the whole block of code, or more generally within blocks of code, rather than in element definitions. Comments that correspond with definitions of elements (classes, variables, procs, etc) should start with /**, which indicates and enables documentation help for that element in IDEs and reflection. These types of comments are known as "smart comments" and are treated specially by the compiler, and are not removed at compile time (though the compiler does otherwise ignore them). In any case, when using either /* or /**, comment blocks should line up the first star in a column. For blocks of code where the comment is not flush with the left side of the document, tabs should be used to push the comment block out, and except in the case of the first line, should add a single space before and after the star. A newline should be added after the begin comment operator, and before the end comment. The smart comment parser will ignore the first star in a line, and all the beginning whitespace.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3617</id>
+	<key><![CDATA[The exception is when if is being used as a tertiary statement (that is, the return value of if is not being ignored):]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3618</id>
+	<key><![CDATA[Whitespace]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3619</id>
+	<key><![CDATA[Writing readable code is a huge part of easily debugging potential problems. While technically the compiler can read your code no matter how it's formatted (so long as it is syntactically correct), the compiler isn't the only thing that needs to read it, humans do too. So making your code "pretty" is a big step in making maintainable, debuggable, and shareable code. Many code styles are equally readable, and so in many cases, it is pure preference how you choose to format your code, however, this style guide is what will be used by any standard compilant code formatting tools that may be written in the future, and so following these examples is good practice.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3620</id>
+	<key><![CDATA[Many text editors change tabs to spaces, and this is generally undesirable. The general rational behind this is that a tab is generally more flexible in text editors, it is usually possible to define "tab width," which allows programmers to customize this to their tastes, without actually having to change the code.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3621</id>
+	<key><![CDATA[else, and else if]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3622</id>
+	<key><![CDATA[The code inside the blocks should be indented one more than the condition statements, but comma that represents the else should be on a line of its own, and aligned with the parent if. Additionally, a # else comment is helpful.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3623</id>
+	<key><![CDATA[Ifelses should follow the same general guidelines, though]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3624</id>
+	<key><![CDATA[In the case of using if or ifelse, it is preferred that brace syntax is used, however, code that still uses the pure functional approach should follow these guidelines:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3625</id>
+	<key><![CDATA[The descriptions in a smart comment should end with a punctuation mark, and should be complete sentences.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3626</id>
+	<key><![CDATA[For a full discussion on brace syntax, please see this article: [[%s|Brace Syntax]]. Brace syntax is preferred in all cases over functional syntax where possible, unless otherwise noted. (Most notably tertiary if statements.)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3627</id>
+	<key><![CDATA[Naming Convention]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3628</id>
+	<key><![CDATA[Note that there is one level of indention for each case, and two levels of indentation for the code inside the case. The functional usage of switch should never be used, as it is exceedingly difficult to read.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3629</id>
+	<key><![CDATA[In general, code should only be nested up to a maximum of 5-7 levels, if you begin to nest deeper than this, consider breaking code off into a procedure, and calling that procedure. Indentation is one of the most important metrics for making code readable, and in general, poorly indented code will be far less readable, all other formatting issues aside.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3630</id>
+	<key><![CDATA[Technically, most all whitespace is optional. For technical reasons, it is possible to fit all scripts on one line, and no tabs, spaces, or newlines are required by the lexer. However, this does not lend itself to human readability, so proper whitespace is vital to making code easily readable.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3631</id>
+	<key><![CDATA["Code branches", that is conditional blocks, should be indented one tab further than their parent, except in the case of tertiary usage of an if(). For example:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3632</id>
+	<key><![CDATA[statements should use the following format:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3633</id>
+	<key><![CDATA[Indentation]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3634</id>
+	<key><![CDATA[Divider line comments are generally undesirable (i.e. //----------------------------------------), instead use region comments, which are hints to IDEs that support the feature, to provide a visual section for you.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3635</id>
+	<key><![CDATA[In cases where you are using multiple blocks, at some point, all the blocks must end. In this case, do not put all the ending parenthesis on the same line, but instead, match the end parenthesis with the start of the block]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3636</id>
+	<key><![CDATA[Variables should be named using camel case.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3637</id>
+	<key><![CDATA[Switch]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3638</id>
+	<key><![CDATA[This aligns with the function naming convention of MethodScript itself: use snake case for globals methods, and camel case for instance methods.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3639</id>
+	<key><![CDATA[Tabs]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3640</id>
+	<key><![CDATA[Using this syntax, should extra code need to be added to the end of the block, it is much easier to locate the corresponding ending parenthesis/brace/bracket.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3641</id>
+	<key><![CDATA[Ending blocks]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3642</id>
+	<key><![CDATA[Brace Syntax]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3643</id>
+	<key><![CDATA[Global procedures should be named using snake case, however.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3644</id>
+	<key><![CDATA[Generally, the double slash (//) is preferred to the number sign (#) for line comments, with the notable exception of the hashbang at the top of the file, if present. A space should be added after the line comment operator, and before the first line of the comment text (//Bad) (// Good), the exception being IDE hint comments (i.e. #region)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+</translations>

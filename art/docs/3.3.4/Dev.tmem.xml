@@ -1,0 +1,17 @@
+<translations>
+<comment></comment>
+<translationBlock>
+	<id>art-1715</id>
+	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2631</id>
+	<key><![CDATA[If you are interested in running the dev versions, you can find the latest build at the  [%s Build] site. Dev builds are usually stable, however, should the light  next to the build be red or yellow instead of blue, you should probably a%s that build. In general, you should stay in  the IRC channel ([%s irc.esper.net #CommandHelper]) in case there are  issues, so they can be quickly resolved, and you can be notified of potential problems, and new builds. The website  is for the dev build, so you can have documentation for the newest builds. IRC is the preferred method of bug reporting,  however the forum or dev.bukkit.org are also ok.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+</translations>

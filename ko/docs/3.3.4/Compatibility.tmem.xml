@@ -1,0 +1,731 @@
+<translations>
+<comment></comment>
+<translationBlock>
+	<id>ko-1715</id>
+	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2320</id>
+	<key><![CDATA[Updated several dependencies:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2321</id>
+	<key><![CDATA[jsch: 0.1.50 Testing only:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2322</id>
+	<key><![CDATA[com.jcraft:jsch ..................................... 0.1.51 -> 0.1.54]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2323</id>
+	<key><![CDATA[Updated for Minecraft 1.7.9 (should still be compatible with 1.7.2 builds, excepting that Sound.BREATH and Sound.HURT have been removed).]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2324</id>
+	<key><![CDATA[log4j: 1.2.17]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2325</id>
+	<key><![CDATA[mail: 1.5.0-b01]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2326</id>
+	<key><![CDATA[Updated for Bukkit 1.13]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2327</id>
+	<key><![CDATA[mockito-core: 1.9.5]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2328</id>
+	<key><![CDATA[Bukkit 1.7.8 - 1.8.8]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2329</id>
+	<key><![CDATA[Java 8]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2330</id>
+	<key><![CDATA[[%s 676db513]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2331</id>
+	<key><![CDATA[mysql:mysql-connector-java ........................ 5.1.30 -> 8.0.9-rc]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2332</id>
+	<key><![CDATA[powermock: 1.5.1]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2333</id>
+	<key><![CDATA[org.yaml:snakeyaml ...................................... 1.13 -> 1.20]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2334</id>
+	<key><![CDATA[org.ow2.asm:asm-all ................................ 5.0.4 -> 6.0_BETA]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2335</id>
+	<key><![CDATA[[%s 4d970d0]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2336</id>
+	<key><![CDATA[[%s f8953eb]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2337</id>
+	<key><![CDATA[Removed WorldEdit dependency (See %s SKCompat] extension)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2338</id>
+	<key><![CDATA[sqlite-jdbc: 3.7.15-M1]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2339</id>
+	<key><![CDATA[commons-codec:commons-codec .............................. 1.9 -> 1.11]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2340</id>
+	<key><![CDATA[org.mockito:mockito-core ............................. 1.9.5 -> 2.15.0]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2341</id>
+	<key><![CDATA[Bukkit: 1.5.1]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2342</id>
+	<key><![CDATA[Bukkit 1.7.2 - 1.7.9]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2343</id>
+	<key><![CDATA[Bukkit 1.7.2 - 1.7.8]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2344</id>
+	<key><![CDATA[Updated third party dependencies]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2345</id>
+	<key><![CDATA[Updated for Bukkit 1.8.6]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2346</id>
+	<key><![CDATA[powermock-module-junit4: 1.5]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2347</id>
+	<key><![CDATA[[%s fd35d2e]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2348</id>
+	<key><![CDATA[This page lists compatibility of various milestone versions of CommandHelper. Note that this chart was created starting with build 1498, so earlier builds may not be accurate. In general, the compatibility requirements, if not listed, are the same as the previous milestone build. The minimum requirements for the current builds are:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2349</id>
+	<key><![CDATA[Backport of the latest build of CH, backported to be compatible with 1.4.7. Not officially supported, community maintained.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2350</id>
+	<key><![CDATA[Removed vault dependency (See [%s CHVault] extension)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2351</id>
+	<key><![CDATA[Updated to bukkit 1.4.6]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2352</id>
+	<key><![CDATA[Bukkit: 1.5.2]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2353</id>
+	<key><![CDATA[Updated to bukkit 1.4.7]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2354</id>
+	<key><![CDATA[powermock-api-mockito: 1.5]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2355</id>
+	<key><![CDATA[Bukkit 1.7.10 - 1.12.2]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2356</id>
+	<key><![CDATA[[%s Redis 2.6.13]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2357</id>
+	<key><![CDATA[[%s 7cbdf86f]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2358</id>
+	<key><![CDATA[Removed remaining backwards compatibility for versions prior to 1.7.10]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2359</id>
+	<key><![CDATA[Updated to Minecraft 1.7.8 (should still be compatible with 1.7.2 builds, however)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2360</id>
+	<key><![CDATA[json-simple: 1.1.1]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2361</id>
+	<key><![CDATA[Bukkit 1.7.8 - 1.12.1]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2362</id>
+	<key><![CDATA[Updated to Minecraft 1.7.2]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2363</id>
+	<key><![CDATA[Bukkit 1.7.8 - 1.9.0]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2364</id>
+	<key><![CDATA[WorldEdit: 5.5.6]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2365</id>
+	<key><![CDATA[[%s 7277e87c]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2366</id>
+	<key><![CDATA[Updated for Bukkit 1.8]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2367</id>
+	<key><![CDATA[jsch: 0.1.51]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2368</id>
+	<key><![CDATA[CommandHelper 3.3.2 Release]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2369</id>
+	<key><![CDATA[Updated for Spigot 1.14]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2370</id>
+	<key><![CDATA[[%s cda686f]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2371</id>
+	<key><![CDATA[Spigot 1.13.2 - 1.14.1]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2372</id>
+	<key><![CDATA[Bukkit/Spigot version as specified below (when used as a plugin)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2373</id>
+	<key><![CDATA[Bukkit 1.7.2]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2374</id>
+	<key><![CDATA[[%s 8086fe]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2375</id>
+	<key><![CDATA[Updated bukkit (Many other deps were updated at this time as well)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2376</id>
+	<key><![CDATA[Added optional redis dependency]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2377</id>
+	<key><![CDATA[Bukkit 1.7.6 - 1.8.6]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2378</id>
+	<key><![CDATA[mysql-connector-java: 5.1.25]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2379</id>
+	<key><![CDATA[junit:junit ............................................. 4.11 -> 4.12]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2380</id>
+	<key><![CDATA[junit: 4.11]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2381</id>
+	<key><![CDATA[[%s 1.4.7 Backport]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2382</id>
+	<key><![CDATA[[%s 484c064]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2383</id>
+	<key><![CDATA[Updated to Minecraft 1.6]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2384</id>
+	<key><![CDATA[jedis: 2.5.1]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2385</id>
+	<key><![CDATA[[%s aca997c]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2386</id>
+	<key><![CDATA[commons-codec: 1.9]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2387</id>
+	<key><![CDATA[[%s 279381f]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2388</id>
+	<key><![CDATA[commons-codec: 1.8]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2389</id>
+	<key><![CDATA[[%s cc0f80e]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2390</id>
+	<key><![CDATA[activation: 1.1.1]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2391</id>
+	<key><![CDATA[[%s 90d3bc1b]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2392</id>
+	<key><![CDATA[[%s 8b08d139]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2393</id>
+	<key><![CDATA[Bukkit 1.6.1]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2394</id>
+	<key><![CDATA[WorldGuard: 5.7.3]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2395</id>
+	<key><![CDATA[mysql-connector-java 5.1.30]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2396</id>
+	<key><![CDATA[Updated for Bukkit 1.12.1]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2397</id>
+	<key><![CDATA[[%s 896165c]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2398</id>
+	<key><![CDATA[[%s 7450f621]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2399</id>
+	<key><![CDATA[Bukkit 1.13.1]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2400</id>
+	<key><![CDATA[First tracked compatibility]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2401</id>
+	<key><![CDATA[[%s 8c4b165]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2402</id>
+	<key><![CDATA[WorldGuard 5.9]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2403</id>
+	<key><![CDATA[Updated several dependencies]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2404</id>
+	<key><![CDATA[Also note that CommandHelper may still be backwards and forward compatible to a large degree, many of the advanced features that normally have hard dependencies on certain versions of external dependencies have been configured to "soft" fail, that is, individual components may not work, but in general the plugin should continue to function. Regardless, only the most current dev builds are officially supported.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2405</id>
+	<key><![CDATA[[%s 6304f91]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2406</id>
+	<key><![CDATA[redis.clients:jedis ................................... 2.5.1 -> 2.9.0]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2407</id>
+	<key><![CDATA[org.xerial:sqlite-jdbc ......................... 3.7.15-M1 -> 3.21.0.1]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2408</id>
+	<key><![CDATA[[%s 773d877]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2409</id>
+	<key><![CDATA[3.3.2 snapshots start. All extensions need to be updated.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2410</id>
+	<key><![CDATA[CommandHelper 3.3.3 Final]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2411</id>
+	<key><![CDATA[[%s c14f67a]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2412</id>
+	<key><![CDATA[snakeyaml: 1.12 Testing only:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2413</id>
+	<key><![CDATA[jline:jline ........................................... 2.11 -> 2.14.5]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2414</id>
+	<key><![CDATA[WorldEdit: 5.6.2]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2415</id>
+	<key><![CDATA[Finished updating for Bukkit 1.9]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2416</id>
+	<key><![CDATA[Vault 1.4]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2417</id>
+	<key><![CDATA[[%s 765e75f]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2418</id>
+	<key><![CDATA[[%s 40dc779e]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2419</id>
+	<key><![CDATA[Bukkit 1.7.2 - 1.8.0]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2420</id>
+	<key><![CDATA[[%s 4b485fd]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2421</id>
+	<key><![CDATA[Bukkit: 1.4.7]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2422</id>
+	<key><![CDATA[Bukkit: 1.4.6]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+</translations>

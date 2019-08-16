@@ -1,0 +1,206 @@
+<translations>
+<comment></comment>
+<translationBlock>
+	<id>ko-445</id>
+	<key><![CDATA[Yes]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-698</id>
+	<key><![CDATA[[%splayer,%s]%s inventorySlot]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2878</id>
+	<key><![CDATA[Examples]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3788</id>
+	<key><![CDATA[Vital Info]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3789</id>
+	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.%s (Note this page is automatically generated from the documentation in the source code.)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3791</id>
+	<key><![CDATA[Usages]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3795</id>
+	<key><![CDATA[Example 1]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3796</id>
+	<key><![CDATA[Given the following code:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3797</id>
+	<key><![CDATA[Example 2]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3803</id>
+	<key><![CDATA[Example 3]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3804</id>
+	<key><![CDATA[Example 4]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3810</id>
+	<key><![CDATA[The output might be:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3813</id>
+	<key><![CDATA[None]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3831</id>
+	<key><![CDATA[Example 5]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3860</id>
+	<key><![CDATA[Example 6]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3872</id>
+	<key><![CDATA[Example 7]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3875</id>
+	<key><![CDATA[Example 8]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3927</id>
+	<key><![CDATA[Example 9]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4269</id>
+	<key><![CDATA[Returns an associative array of known ItemMeta for the slot given, or %s if there isn't any. All items can have a display(name), lore, and/or enchants,  and more info will be available for the items that have it.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4270</id>
+	<key><![CDATA[Demonstrates a skull]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4271</id>
+	<key><![CDATA[Demonstrates a custom banner]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4272</id>
+	<key><![CDATA[Demonstrates a piece of leather armor]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4273</id>
+	<key><![CDATA[Demonstrates a generic item without meta]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4274</id>
+	<key><![CDATA[Demonstrates an EnchantedBook]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4275</id>
+	<key><![CDATA[Demonstrates a written book]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4276</id>
+	<key><![CDATA[Demonstrates a custom potion]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4277</id>
+	<key><![CDATA[Returned keys: %sAll items - "display" (string), "lore" (array of strings), "enchants" (An associative array of enchantments with the vanilla name of enchantment as the key, and value being an enchantment array with the key "elevel" for the level of the enchantment), "model" (an int representing vanilla's CustomModelData for use with resource packs), "flags" (array). Possible flags: HIDE_ENCHANTS, HIDE_ATTRIBUTES, HIDE_UNBREAKABLE, HIDE_DESTROYS, HIDE_PLACED_ON or HIDE_POTION_EFFECTS%sDamageable: "damage" on the item (0 is undamaged; each item type has its own max durability), "unbreakable" (boolean) and "repair" (int, repair cost)%sBooks - "title" (string), author (string), "pages" (array of strings)%sEnchantedBooks - "stored" (associative array of enchantments (see Example))%sLeather Armor - "color" (color array (see Example))%sPlayer Skulls - "owner" (string)%sPotions - "potions" (array of custom potion effects (see get_peffect()), "base" (an array with the keys "type", "extended", and "upgraded")%sBanners - "patterns" (an array of pattern arrays, each with the keys "shape" and "color")%sShields - "basecolor" (string), and "patterns" like in Banners.%sFireworks - "firework" (array with strength (int), "effects" (array of effect arrays (see Example)))%sFirework Charges - "effect" (single Firework effect array)%sStorage Blocks - "inventory" (an array of item arrays)%sMob Spawners - "spawntype" (an entity type)%sFurnace - "burntime" (int), "cooktime" (int), and in "inventory" these keys can exist if an item exists in that slot: "result", "fuel", and "smelting".%sBrewing Stand - "brewtime" (int), "fuel" (int), and in "inventory" these keys can exist if an item exists in that slot: "fuel", "ingredient", "leftbottle", "middlebottle", and "rightbottle".%sTropical Fish Bucket - "fishcolor" (the base dye color of the fish), "fishpatterncolor" (the color of the pattern on the fish), and "fishpattern" (the pattern type on the fish).%sCrossbow - "projectiles" (an array of item arrays, only accepts arrows and fireworks).]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4278</id>
+	<key><![CDATA[Demonstrates a generic item with meta]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4279</id>
+	<key><![CDATA[Demonstrates a custom firework]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+</translations>

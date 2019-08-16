@@ -1,0 +1,66 @@
+<translations>
+<comment></comment>
+<translationBlock>
+	<id>nb-445</id>
+	<key><![CDATA[Yes]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1040</id>
+	<key><![CDATA[entityUUID, effect]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2878</id>
+	<key><![CDATA[Examples]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3788</id>
+	<key><![CDATA[Vital Info]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3789</id>
+	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.%s (Note this page is automatically generated from the documentation in the source code.)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3791</id>
+	<key><![CDATA[Usages]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3792</id>
+	<key><![CDATA[Sorry, there are no examples for this function! :(]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3813</id>
+	<key><![CDATA[None]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-4577</id>
+	<key><![CDATA[Plays the given visual effect on the entity. Non-applicable effects simply won't happen. Note: the death effect makes the mob invisible to players and immune to melee attacks. When used on players, they are shown the respawn menu, but because they are not actually dead, they can only log out. Possible effects are: ARROW_PARTICLES, RABBIT_JUMP, DEATH, HURT, SHEEP_EAT, WOLF_HEARTS, WOLF_SHAKE, WOLF_SMOKE, IRON_GOLEM_ROSE, VILLAGER_HEART, VILLAGER_ANGRY, VILLAGER_HAPPY, WITCH_MAGIC, ZOMBIE_TRANSFORM, FIREWORK_EXPLODE, LOVE_HEARTS, SQUID_ROTATE, ENTITY_POOF, GUARDIAN_TARGET, SHIELD_BLOCK, SHIELD_BREAK, ARMOR_STAND_HIT, THORNS_HURT, IRON_GOLEM_SHEATH, TOTEM_RESURRECT, HURT_DROWN, or HURT_EXPLOSION]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+</translations>

@@ -1,0 +1,472 @@
+<translations>
+<comment></comment>
+<translationBlock>
+	<id>nb-1715</id>
+	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1969</id>
+	<key><![CDATA[Arrays stored in variables are references]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1970</id>
+	<key><![CDATA[Additionally, there is a shorthand syntax for the no argument array_get:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1971</id>
+	<key><![CDATA[Because we are explicitly creating an associative array here, an unlabeled value is essentially pushed on.  1 is pushed onto index 6 because when pushing a value onto an array, the highest integer index + 1 is used as  the insertion point. If no integer indexes exist yet, it is inserted at 0, but if there are only negative indexes,  it is inserted at one above the highest negative index.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1972</id>
+	<key><![CDATA[Negative Indices]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1973</id>
+	<key><![CDATA[This is useful, because if you realize that you've misordered 3 and 4, you can cut and paste the entire line, and not have to worry about adding or removing a comma. Double commas are not allowed, however.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1974</id>
+	<key><![CDATA[Only strings are acceptable for keys. If you use another data type, it is interpreted perhaps differently than you would want,  so note the following conventions:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1975</id>
+	<key><![CDATA[arrays will cause a runtime exception to be thrown.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1976</id>
+	<key><![CDATA[Arrays are a way to group multiple pieces of data together into one variable. Arrays are created with  the %s function, and can be manipulated with the array_* series of functions.  Arrays also function like a map, or an [%s associative array].]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1977</id>
+	<key><![CDATA[Trailing Commas]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1978</id>
+	<key><![CDATA[Array Creation]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1979</id>
+	<key><![CDATA[Associative Arrays]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1980</id>
+	<key><![CDATA[Consider the following examples:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1981</id>
+	<key><![CDATA[There are two ways to create an associative array. One is to create a completely new array, and the other  is to take an existing array and turn it into an associative array.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1982</id>
+	<key><![CDATA[Cloning an array]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1983</id>
+	<key><![CDATA[This creates an array with two values. Note that it is required to put quotes around the key if it contains  spaces. Otherwise, bare strings are acceptable (and usually preferred). To access the values, one would use:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1984</id>
+	<key><![CDATA[The other approach is to take an existing array, and set an out-of-order key into it, or a string key.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1985</id>
+	<key><![CDATA[@array[subtract(length(@array), @n)]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1986</id>
+	<key><![CDATA[In addition, you may use negative indices in either slot.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1987</id>
+	<key><![CDATA[Negative indexes don't work the same in an associative array, but that's not to say that negative indexes  don't work at all. If you insert a negative index into the array, it will be available when you select it  with a negative index.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1988</id>
+	<key><![CDATA[In all cases, this is exactly equivalent to the following notation:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1989</id>
+	<key><![CDATA[Iterating Associative Arrays]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1990</id>
+	<key><![CDATA[You can also chain gets:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1991</id>
+	<key><![CDATA[If the last index is less than the first index, an empty array is returned]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1992</id>
+	<key><![CDATA[The above is exactly identical to:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1993</id>
+	<key><![CDATA[If you want to convert an array back to a normal array, you may use the %s  function. This will return a new, non-associative array with the elements in their natural order,  starting with index 0. All information about the keys will be lost however.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1994</id>
+	<key><![CDATA[Is the same as]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1995</id>
+	<key><![CDATA[Trailing commas are allowed in arrays (and actually all functions, however, this is most useful in arrays). For instance, you can do the following:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1996</id>
+	<key><![CDATA[There are also two shortcuts when you want to select from the beginning of the array, or to the end of the array:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1997</id>
+	<key><![CDATA[If you use %s on an associative array, it will take the largest integer + 1 in the array to be the next key.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1998</id>
+	<key><![CDATA[In addition to the simple case of retrieving a single value from an array, MScript has support for negative indices, and array slices.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1999</id>
+	<key><![CDATA[This works for all data types that implement the [[%s|ArrayAccess]] interface, not just strings.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2000</id>
+	<key><![CDATA[Creating an associative array]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2001</id>
+	<key><![CDATA[If you start to use multi dimensional arrays and associative arrays, this advantage becomes clearer:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2002</id>
+	<key><![CDATA[Retrieving values]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2003</id>
+	<key><![CDATA[Array Slicing]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2004</id>
+	<key><![CDATA[Strings are sort of arrays]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2005</id>
+	<key><![CDATA[Arrays can also be used like an associative array. Typically, a simple array is indexed with zero-based,  consecutive integers only. However, in an associative array, you may also use strings to index the array,  or out-of-order integer offsets. Arrays by default operate in normal mode, and once they are switched to  associative mode, certain features (namely negative indexes) will no longer work. Further, once an array is  switched to associative mode, it is not possible to switch them back. Technically, all indexes are stored as strings.  This means that @array[0] and @array['0'] refer to the same thing. If you are familiar with other languages,  this behavior is slightly different.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2006</id>
+	<key><![CDATA[To create an array, you use the %s function. Sending no arguments creates an empty array,  or you can also send any number of arguments, and the array will be initialized with those elements.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2007</id>
+	<key><![CDATA[It is worth noting that this square bracket notation is just a shortcut to using %sarray_get%s. In fact, the compiler just uses a little magic under the covers to convert the bracket notation into the array_get notation. This means that if you mess up the syntax somehow, you will still get an error for array_get, even if you aren't actually using that function. In all the following examples, this guide will use the bracket notation, though you are free to use whichever method you like.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2008</id>
+	<key><![CDATA[There is special syntax to do an array push as well. The following two blocks of code are equivalent.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2009</id>
+	<key><![CDATA[In typical fashion, the element %sa%s has an index of 0, and %se%s has an index of 4. These two elements could also be referenced with -5 and -1, respectively. Therefore, when considering indexes, %sarray(0, 1, 2, 3, 4)%s and %sarray(-5, -4, -3, -2, -1)%s are equivalent. Note that when counting with negative indices, -1 refers to the right most element, because -0 and 0 are the same thing. If this is confusing, think of it this way: %s@array[multiply(@n, -1)]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2010</id>
+	<key><![CDATA[If you need a distinct copy of an array, you can make one by calling %s with just one parameter, the array.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2011</id>
+	<key><![CDATA[Note that this is different than the array clone operator, as it only works as an array push when used on the left hand side of an assignment, so %s@array[] = 5%s is an array push operation, and %s@newArray = @array[]%s is an array clone operation.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2012</id>
+	<key><![CDATA[Now, the %s function is how you retrieve a value from an existing array.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2013</id>
+	<key><![CDATA[integers are taken as a string]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2014</id>
+	<key><![CDATA[array_push using operators]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2015</id>
+	<key><![CDATA[Otherwise, if you don't need the key, you may use the foreach normally.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2016</id>
+	<key><![CDATA[true and false are taken as string '1' and '0', respectively.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2017</id>
+	<key><![CDATA[Alternatively, to create an empty associative array, you can use %s.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2018</id>
+	<key><![CDATA[Using this method of slicing requires the numbers to be hardcoded in, since this is a language construct.  This makes it impossible to do dynamic slices using this method. Instead, you must use the %s  function if you wish to do this dynamically.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2019</id>
+	<key><![CDATA[Strings behave like an array of characters, to an extent. You can access a character in a string as if  the array were an array of characters. Also, slicing works in a string as well, so you can get a substring  easily also. Strings are immutable however, so trying to set a character in a string will not work.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2020</id>
+	<key><![CDATA[Alternative syntax exists for %s. See the documentation for more information.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2021</id>
+	<key><![CDATA[Once you create an array, you typically store it in a variable for further operations, like so:  %sassign(@array, array())%s. Once you have created an array like this, it is a reference to  the array itself, so if you were to assign it to another variable, and then set the value in that variable,  it will change the original array too. So, this would be the case:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2022</id>
+	<key><![CDATA[As stated earlier, some functionality is not available to an associative array. Typically though, if you are  using an associative array, you aren't thinking of it as an ordered set of elements, you are thinking of it  more like an object that has properties. Iterating through all the elements doesn't usually assume any particular  order. This is where the %s function comes in most handy. The elements are sorted according to  their ''natural ordering'', that is, 1 comes before 2, a comes before b, etc, however there may be gaps in the  array, i.e. 0, 1, 4, 5, 10. Therefore looping through the array with %s usually isn't useful. There  is one drawback to using foreach however, if you also need to know the key when iterating through, it isn't possible.  That's where the %s function comes in. This returns a normal array of all the keys in the array.  This array can be iterated against, and then used to pull out the value as well.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2023</id>
+	<key><![CDATA[Note that this is a ''deep copy'' operation, which means that the clone is recursive. So arrays within the array are also cloned.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2024</id>
+	<key><![CDATA[Because in particular this behavior is different, if you aren't sure if an array is associative or not,  you can use the %s function. Array slicing doesn't work either, because you might  in fact have a key with the index "0..1". If you do need to slice an associative array, and you don't care  about the keys, you can use the %sarray_normalize()%s function, and slice that. To copy an  associative array, use the empty bracket notation.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2025</id>
+	<key><![CDATA[To make a deep copy of an array, you can use the array clone mechanism.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2026</id>
+	<key><![CDATA[You can also get a sub array from an array with array slicing. Using the %s..%s notation, you can specify the range of elements you wish to include in the sub array.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2027</id>
+	<key><![CDATA[array_set using  (or assign())]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2028</id>
+	<key><![CDATA[It is also possible to set the value of an array directly, with %s.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2029</id>
+	<key><![CDATA[Much quicker. The only place this might be slightly confusing is the case of the single parameter %sarray_get()%s. %sarray_get(@array)%s is equivalent to %s@array[]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2030</id>
+	<key><![CDATA[One word of warning, the following will not do what you expect:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2031</id>
+	<key><![CDATA[is taken as an empty string:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2032</id>
+	<key><![CDATA[Complex Retrievals]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2033</id>
+	<key><![CDATA[doubles are taken as a string]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2034</id>
+	<key><![CDATA[Consider the following array:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+</translations>

@@ -1,0 +1,94 @@
+<translations>
+<comment></comment>
+<translationBlock>
+	<id>nb-1715</id>
+	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2698</id>
+	<key><![CDATA[Example]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3605</id>
+	<key><![CDATA[A Struct is a special type of class, which allows for more precise associative array definitions, while not quite allowing for the full power of objects. A struct may only be declared with public members, and no methods. Any associative array can be cross cast to a struct, and vice versa.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3606</id>
+	<key><![CDATA[To create a new struct, you use it the same as if you were constructing a new object, using %snew%s. All structs work as if they have exactly one no-arg constructor. Assuming we have a struct named "Struct", then this code would create a new one:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3607</id>
+	<key><![CDATA[A struct is defined in exactly the same way as a class, except it may ONLY have a members block, and is declared with the %sstruct%s keyword. If we set the parameters with a value, that becomes their default, which itself defaults to %s.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3608</id>
+	<key><![CDATA[If used properly, structs can work well in cases where a "named argument list" is desirable.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3609</id>
+	<key><![CDATA[Using a struct]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3610</id>
+	<key><![CDATA[Members in a struct are accessed the same as members in classes, with the -> operator. Assuming our example struct has the int member @i, we can get and set it like this:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3611</id>
+	<key><![CDATA[Defining a struct]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3612</id>
+	<key><![CDATA[This creates a new struct, with all the properties initialized to their defaults. Additionally, since cross casting is available, the following works as well:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3613</id>
+	<key><![CDATA[Adding access modifiers is optional, though if specified, must be public.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3614</id>
+	<key><![CDATA[A good use of structs is when you have lots of configuration for an object. Instead of using a constructor with lots of optional parameters, or having separate setter methods for each field, you can use a configuration struct to simplify the configuration.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3615</id>
+	<key><![CDATA[When using a struct, you gain the advantage of type safety in associative arrays, assuming they aren't dynamic. Usually however, it may be a better idea to use full Objects, so you can also add methods later. However, a configurable factory is a good use of structs in combination with objects, which is demonstrated below.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+</translations>

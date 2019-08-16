@@ -1,0 +1,94 @@
+<translations>
+<comment></comment>
+<translationBlock>
+	<id>art-253</id>
+	<key><![CDATA[location, particle%s[%s, players%s]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-445</id>
+	<key><![CDATA[Yes]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2878</id>
+	<key><![CDATA[Examples]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3788</id>
+	<key><![CDATA[Vital Info]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3789</id>
+	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.%s (Note this page is automatically generated from the documentation in the source code.)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3791</id>
+	<key><![CDATA[Usages]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3792</id>
+	<key><![CDATA[Sorry, there are no examples for this function! :(]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3813</id>
+	<key><![CDATA[None]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-4924</id>
+	<key><![CDATA[The ITEM_CRACK particle can take an item array under the key "item".]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-4925</id>
+	<key><![CDATA[Spawns particles at the specified location. The players parameter can be one player or an array of players. If none is given, all players within 32 meters will see the particle. The particle parameter can be a particle name or an associative array defining the characteristics of the particle to be spawned. The array requires the particle name under the key "particle".]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-4926</id>
+	<key><![CDATA[The REDSTONE particle can take a color array (or name) under the key "color". If a block, item or color is provided for a particle type that doesn't support it, an IllegalArgumentException will be thrown.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-4927</id>
+	<key><![CDATA[Possible particles: SMOKE_NORMAL, ENCHANTMENT_TABLE, REDSTONE, SNOW_SHOVEL, BUBBLE_COLUMN_UP, SPELL_MOB, CAMPFIRE_SIGNAL_SMOKE, BLOCK_DUST, SWEEP_ATTACK, WATER_SPLASH, LANDING_LAVA, SLIME, FALLING_LAVA, DRAGON_BREATH, CURRENT_DOWN, ITEM_CRACK, FALLING_DUST, SNEEZE, WATER_BUBBLE, FLASH, VILLAGER_ANGRY, HEART, END_ROD, CRIT_MAGIC, SUSPENDED, WATER_DROP, SPELL, FALLING_WATER, SPELL_INSTANT, LAVA, VILLAGER_HAPPY, SQUID_INK, CRIT, CLOUD, BUBBLE_POP, COMPOSTER, NAUTILUS, EXPLOSION_LARGE, TOWN_AURA, SUSPENDED_DEPTH, CAMPFIRE_COSY_SMOKE, NOTE, SNOWBALL, SPELL_MOB_AMBIENT, DAMAGE_INDICATOR, SMOKE_LARGE, TOTEM, BARRIER, EXPLOSION_NORMAL, FLAME, SPIT, PORTAL, MOB_APPEARANCE, DOLPHIN, SPELL_WITCH, DRIP_WATER, EXPLOSION_HUGE, WATER_WAKE, UNKNOWN, FIREWORKS_SPARK, DRIP_LAVA, or BLOCK_CRACK]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-4928</id>
+	<key><![CDATA[Some particles have more specific keys and/or special behavior, but the common keys for the particle array are "count" (usually the number of particles to be spawned), "speed" (usually the velocity of the particle), "xoffset", "yoffset", and "zoffset" (usually the ranges from center within which the particle may be offset on that axis). The BLOCK_DUST, BLOCK_CRACK and FALLING_DUST particles can take a block type name parameter under the key "block".]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+</translations>

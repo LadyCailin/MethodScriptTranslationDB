@@ -1,0 +1,38 @@
+<translations>
+<comment></comment>
+<translationBlock>
+	<id>nb-1715</id>
+	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3370</id>
+	<key><![CDATA[The profiles.xml file is located in the %sprefs/%s folder, and has at minimum, a root %sprofiles%s tag. Different functions will require different types of profile information, but in general, the bare minimum profile will look like this:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3371</id>
+	<key><![CDATA[In general, it is best to take advantage of this, and ensure that your profiles.xml file is never exposed or otherwise committed to a public repository. Meanwhile, your code may be freely shared, and the various profiles can be re-created by other users, using their own connection information, without having to edit your code directly.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3372</id>
+	<key><![CDATA[Profiles allow you to keep sensitive credential information out of your code directly. Various methods may ask for a "profile" instead of or in addition to an associative array with various configuration options.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3373</id>
+	<key><![CDATA[The profileName is what is referenced in code. For instance, in the %s function, the first parameter may be either the profile name, or an array specifying the same information as the profile xml. Different functions will require different extra information in the profile, some may be optional, some required. See the individual functions for more information about the parameters in particular.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+</translations>

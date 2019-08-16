@@ -1,0 +1,80 @@
+<translations>
+<comment></comment>
+<translationBlock>
+	<id>ko-267</id>
+	<key><![CDATA[[%splayer%s]%s, %s[%svalue%s]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-445</id>
+	<key><![CDATA[Yes]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-920</id>
+	<key><![CDATA[mixed]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2878</id>
+	<key><![CDATA[Examples]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3788</id>
+	<key><![CDATA[Vital Info]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3789</id>
+	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.%s (Note this page is automatically generated from the documentation in the source code.)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3791</id>
+	<key><![CDATA[Usages]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3792</id>
+	<key><![CDATA[Sorry, there are no examples for this function! :(]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3813</id>
+	<key><![CDATA[None]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4569</id>
+	<key><![CDATA[Returns various information about the player specified, or the current player if no argument was given.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4570</id>
+	<key><![CDATA[If value is set, it should be an integer of one of the following indexes, and only that information for that index will be returned. Otherwise if value is not specified (or is -1), it returns an array of values with the following pieces of information in the specified index:%s0 - Player's name; This will return the player's exact name, even if called with a partial match.%s1 - Player's location; a location array of the player's coordinates%s2 - Player's cursor; a location array of the block the player is looking at, or %s if no block is in sight.%s3 - Player's IP; Returns the IP address of this player.%s4 - Display name; The name that is typically used when displayed on screen.%s5 - Player's health; The current health of the player, which will be an int from 0-20.%s6 - Item in hand; The type of item in their main hand.%s7 - World name; Gets the name of the world this player is in.%s8 - Is Op; true or false if this player is an op.%s9 - Player groups; An array of the groups the player is in, by permission nodes.%s10 - The player's hostname (or IP if a hostname can't be found)%s11 - Is sneaking?%s12 - Host; The host the player connected to.%s13 - Player UUID; (deprecated for index 20, but exists for backwards compatibility.)%s14 - Is player in a vehicle? Returns true or false.%s15 - Held Slot; The slot number of the player's current hand.%s16 - Is sleeping?%s17 - Is blocking?%s18 - Is flying?%s19 - Is sprinting?%s20 - Player UUID; The unique identifier for this player's account as returned by puuid().]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+</translations>

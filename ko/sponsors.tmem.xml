@@ -1,0 +1,94 @@
+<translations>
+<comment></comment>
+<translationBlock>
+	<id>ko-1715</id>
+	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-1742</id>
+	<key><![CDATA[Contributors like you help shoulder the cost of the servers that run this website, and allow for more exciting and ambitious projects in the future.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-1743</id>
+	<key><![CDATA[These sponsors are truly devoted to MethodScript.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-1744</id>
+	<key><![CDATA[Sponsor]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-1745</id>
+	<key><![CDATA[''There are currently no Gold Sponsors, be the first!'']]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-1746</id>
+	<key><![CDATA[''There are currently no Sponsors, be the first!'']]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-1747</id>
+	<key><![CDATA[Titanium Sponsors]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-1748</id>
+	<key><![CDATA[If you would like to help contribute to the development of MethodScript in a sustainable and continuous fashion, please see our Patreon campaign here: [%s %s]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-1749</id>
+	<key><![CDATA[Gold Sponsors]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-1750</id>
+	<key><![CDATA[Platinum Sponsors]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-1751</id>
+	<key><![CDATA[Jason Unger%s %sVergilePrime - [%s Angel's Reach Minecraft]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-1752</id>
+	<key><![CDATA[thgilfodrol - [%s %s]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-1753</id>
+	<key><![CDATA[These guys aren't the biggest sponsors, but they are still very much appreciated.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+</translations>

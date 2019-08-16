@@ -1,0 +1,73 @@
+<translations>
+<comment></comment>
+<translationBlock>
+	<id>art-445</id>
+	<key><![CDATA[Yes]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-650</id>
+	<key><![CDATA[[%splayer, [slot%s]%s], array]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2878</id>
+	<key><![CDATA[Examples]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3788</id>
+	<key><![CDATA[Vital Info]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3789</id>
+	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.%s (Note this page is automatically generated from the documentation in the source code.)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3791</id>
+	<key><![CDATA[Usages]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3792</id>
+	<key><![CDATA[Sorry, there are no examples for this function! :(]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3813</id>
+	<key><![CDATA[None]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-4789</id>
+	<key><![CDATA[An inventory array must be associative, however, it may skip items, in which case, only the specified values will be changed. If a key is out of range, or otherwise improper, a warning is emitted, and it is skipped, but the function will not fail as a whole. A simple way to set one item in a player's inventory would be: set_pinv(player(), 2, array(name: STONE, qty: 64)). This sets the player's second slot to be a stack of stone. set_pinv(array(103: array(type: 298))) gives them a hat. To set the item in hand, use something like set_pinv(player(), %s, array(type: 298)). If you set a %s key in an inventory array, only one of the items will be used (which one is undefined). Use an index of -106 to set the item in the player's off-hand.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-4790</id>
+	<key><![CDATA[Sets a player's inventory to the specified inventory array. An inventory array is one that matches what is returned by pinv(), so set_pinv(pinv()), while pointless, would be a correct call. If a slot is specified as the second argument, only that slot is set with the given item array.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+</translations>

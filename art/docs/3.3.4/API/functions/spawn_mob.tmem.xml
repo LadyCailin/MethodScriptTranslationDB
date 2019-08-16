@@ -1,0 +1,73 @@
+<translations>
+<comment></comment>
+<translationBlock>
+	<id>art-445</id>
+	<key><![CDATA[Yes]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-470</id>
+	<key><![CDATA[mobType, %s[%sqty%s]%s, %s[%slocation%s]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2878</id>
+	<key><![CDATA[Examples]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3788</id>
+	<key><![CDATA[Vital Info]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3789</id>
+	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.%s (Note this page is automatically generated from the documentation in the source code.)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3791</id>
+	<key><![CDATA[Usages]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3792</id>
+	<key><![CDATA[Sorry, there are no examples for this function! :(]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3813</id>
+	<key><![CDATA[None]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-4922</id>
+	<key><![CDATA[Spawns qty mob of one of the following types at location. qty defaults to 1, and location defaults to the location of the player. An array of the entity UUIDs spawned is returned.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-4923</id>
+	<key><![CDATA[mobType can be one of: BAT, BLAZE, CAVESPIDER, CHICKEN, COW, CREEPER, DONKEY, ELDERGUARDIAN, ENDERDRAGON, ENDERMAN, ENDERMITE, EVOKER, GHAST, GIANT, GUARDIAN, HORSE, HUSK, ILLUSIONER, IRONGOLEM, LLAMA, MAGMACUBE, MOOSHROOM, MULE, MUSHROOMCOW, OCELOT, PARROT, PIG, PIGZOMBIE, POLARBEAR, RABBIT, SHEEP, SHULKER, SILVERFISH, SKELETON, SKELETONHORSE, SLIME, SNOWGOLEM, SNOWMAN, SPIDER, SPIDERJOCKEY, SQUID, STRAY, WITCH, WITHER, WITHERSKELETON, WOLF, VEX, VILLAGER, VINDICATOR, ZOMBIE, ZOMBIEHORSE, or ZOMBIEVILLAGER. Further, subtypes can be applied by specifying MOBTYPE:SUBTYPE, for example the sheep subtype can be any of the dye colors: WHITE, ORANGE, MAGENTA, LIGHT_BLUE, YELLOW, LIME, PINK, GRAY, LIGHT_GRAY, CYAN, PURPLE, BLUE, BROWN, GREEN, RED, or BLACK. COLOR defaults to white if not specified. For mobs with multiple subtypes, separate each type with a "-". Zombies can be any non-conflicting two of: BABY. Ocelots may be one of: BLACK_CAT, RED_CAT, SIAMESE_CAT, or WILD_OCELOT. Villagers can have a profession as a subtype: BUTCHER, FARMER, LIBRARIAN, NITWIT, ARMORER, CARTOGRAPHER, CLERIC, FISHERMAN, FLETCHER, LEATHERWORKER, MASON, NONE, SHEPHERD, TOOLSMITH, or WEAPONSMITH, defaulting to farmer if not specified. PigZombies' subtype represents their anger, and accepts an integer, where 0 is neutral and 400 is the normal response to being attacked. Defaults to 0. Similarly, Slime and MagmaCube size can be set by integer, otherwise will be a random natural size. If a material is specified as the subtype for Endermen, they will hold that material, otherwise they will hold nothing. Creepers can be set to POWERED. Wolves can be ANGRY or TAMED. Pigs can be SADDLED. Horses can have a color: BLACK, BROWN, CHESTNUT, CREAMY, DARK_BROWN, GRAY, or WHITE, and a pattern: NONE, SOCKS, WHITEFIELD, WHITE_DOTS, or BLACK_DOTS. If qty is larger than 10000, a RangeException will be thrown.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+</translations>

@@ -1,0 +1,416 @@
+<translations>
+<comment></comment>
+<translationBlock>
+	<id>art-1715</id>
+	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3218</id>
+	<key><![CDATA[Unrestricted Functions]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3219</id>
+	<key><![CDATA[It's usually not necessary to define permissions to use the basic alias/macro functionality. More advanced features  like scripting may require some permissions to be defined.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3220</id>
+	<key><![CDATA[Console Commands]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3221</id>
+	<key><![CDATA[These are used for typical programming type tasks or retrieving basic information. They are considered to be harmless  on their own.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3222</id>
+	<key><![CDATA[Star Label]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3223</id>
+	<key><![CDATA[Reload all aliases from file.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3224</id>
+	<key><![CDATA[To create permissions for an alias, add a label in front of it:  ''&lt;label&gt;'':/command = ...]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3225</id>
+	<key><![CDATA[Gain meta information about CommandHelper.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3226</id>
+	<key><![CDATA[This is useful in combination with the %shas_permission()%s function, in the case where you need super fine  grained control of the permissions for this alias. You can open up the alias to everyone, then more carefully select  the behavior from within the alias, based on the results of %shas_permission()]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3227</id>
+	<key><![CDATA[Function Types]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3228</id>
+	<key><![CDATA[Alias based permissions apply to all functions within an alias. Think of them like overrides. They allow for more fine  grained control since you can control the content of the alias. These permissions allow for quick, common sense default  handling of aliases. If, however, you need very fine grained control, see the section below with star aliases. Alias  based permissions only act to ''further unrestrict otherwise restricted functions''. That is, you can't use alias  permissions to directly deny access to a command in which the user would otherwise have permission for. The idea is  that if you trust a user to use all the functions in a script, then it doesn't matter so much how those functions are  arranged, they should still be able to use the command as a whole. This isn't always true though, so in those cases,  you'll need to do your own permission checking from within the alias (see the section on star permissions below).]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3229</id>
+	<key><![CDATA['''commandhelper.interpreter''']]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3230</id>
+	<key><![CDATA[Add a hyphen "'''-'''" in front of a group name to remove permissions instead.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3231</id>
+	<key><![CDATA[You can use the star label as an alternative to assigning all groups to an alias, or giving all groups a permission,  then tagging the alias with that label. This opens the alias up to all users. It essentially disables permission  checking entirely for that one alias.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3232</id>
+	<key><![CDATA[''Example:'' '''tasty:/eat cake = ...''' would cause people with '''commandhelper.alias.tasty''' to be given permission  to use '''/eat cake''']]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3233</id>
+	<key><![CDATA[There are two types of labels:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3234</id>
+	<key><![CDATA[Put only letters, numbers and underscores in the label to assign the permission '''commandhelper.alias.''&lt;label&gt;'''''  to the entire alias.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3235</id>
+	<key><![CDATA[Add the group names separated by forward slashes "'''/'''" to give them permission.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3236</id>
+	<key><![CDATA['''commandhelper.func.use.''&lt;function name&gt;''''']]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3237</id>
+	<key><![CDATA[Shorthand Permissions]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3238</id>
+	<key><![CDATA[Group Labels]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3239</id>
+	<key><![CDATA[''Example:'' '''if()''' can not be used to bypass protections or do harm.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3240</id>
+	<key><![CDATA[{{TakeNote|text=These apply to ALL scripts everywhere, and so are usually not recommended for use except by advanced  users. See alias based permissions below for more granular control}}]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3241</id>
+	<key><![CDATA[Alias Based Permissions]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3242</id>
+	<key><![CDATA[''Example:'' '''spawn_mob()''' can be used to spawn a large number of creepers.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3243</id>
+	<key><![CDATA[Extra Notes]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3244</id>
+	<key><![CDATA[The exception to this is the '''runas()''' function, which can override permissions in some cases. However, the function  itself is restricted and requires permission to use (see below).]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3245</id>
+	<key><![CDATA[Restricted Functions]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3246</id>
+	<key><![CDATA[These often tie into game functionality and have some potential for abuse.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3247</id>
+	<key><![CDATA[Start your label with a tilde "'''~'''" to turn it into a group label.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3248</id>
+	<key><![CDATA[''No permission required'']]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3249</id>
+	<key><![CDATA[Example: '''~mods/-admin/default:/eat cake = ...''' would give permission to mods and the default group, but remove  permissions from the admins (causing restricted functions to always fail). A user in both the admin and default group  would lose permissions due to how priority works.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3250</id>
+	<key><![CDATA[Groups take priority from left to right.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3251</id>
+	<key><![CDATA[These commands are provided by the plugin itself and are not aliases:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3252</id>
+	<key><![CDATA[Puts your chat into [[%s|interpreter mode]]. Note that interpreter mode must also be enabled in the  preferences.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3253</id>
+	<key><![CDATA[Permission is required to use these. The next section describes how to give access to these functions.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3254</id>
+	<key><![CDATA[No permissions are required to use these.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3255</id>
+	<key><![CDATA[Internal Commands]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3256</id>
+	<key><![CDATA[External Commands]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3257</id>
+	<key><![CDATA['''/interpreter''']]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3258</id>
+	<key><![CDATA[Scripting Permissions]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3259</id>
+	<key><![CDATA[Run an alias. Can be used by other plugins to call aliases. '''''&lt;alias&gt;''''' includes the forward slash. ''Example:'' '''/runalias /eat cake''' would always fire off the alias '''/eat cake''']]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3260</id>
+	<key><![CDATA['''/runalias ''&lt;alias&gt;''''']]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3261</id>
+	<key><![CDATA[Function Based Permissions]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3262</id>
+	<key><![CDATA['''commandhelper.reloadaliases''']]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3263</id>
+	<key><![CDATA[''Example:'' Bob does not have permission to use the '''/give''' command. If Bob triggered an alias which calls  '''/give''', he still wouldn't be able to use it.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3264</id>
+	<key><![CDATA[Permission Labels]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3265</id>
+	<key><![CDATA['''/commandhelper ''&lt;arguments&gt;''''']]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3266</id>
+	<key><![CDATA[All permissions remain the same when commands in plugins or vanilla server are called by this plugin.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3267</id>
+	<key><![CDATA[Aliases can always be triggered from the console. However, some functions expecting a player will fail.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3268</id>
+	<key><![CDATA['''/reloadalias''' or '''/reloadaliases''']]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3269</id>
+	<key><![CDATA[It is not recommended to give these permissions to untrusted users unless you know exactly what you're doing. Instead,  carefully craft aliases for them to prevent abuse. Read on to learn how to create permissions for individual aliases.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3270</id>
+	<key><![CDATA[Functions are divided into two groups:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3271</id>
+	<key><![CDATA[These permissions apply no matter where or how a function is used.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3272</id>
+	<key><![CDATA[There are two ways to handle the permissions for restricted functions:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3273</id>
+	<key><![CDATA['''commandhelper.''&lt;permission&gt;''''' can always be shortened into '''ch.''&lt;permission&gt;''''' if you feel like typing less.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3274</id>
+	<key><![CDATA[Allow usage of the function ''&lt;function name&gt;'' in a script.  Basically, allow running created aliases containing this function.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3275</id>
+	<key><![CDATA[External Commands will generally behave as if you typed the command from console yourself.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+</translations>
