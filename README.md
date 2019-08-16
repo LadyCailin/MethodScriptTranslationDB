@@ -5,7 +5,8 @@ The files in this repository are not meant to be edited by hand. Instead, a UI h
 created to ensure correct modifications to all the files.
 
 To learn more about MethodScript, see https://methodscript.com, to learn more about
-contributing, see https://methodscript.com/docs/3.3.4/Localization.html.
+contributing, see https://methodscript.com/docs/3.3.4/Localization.html. For the main
+MethodScript repo, see https://github.com/EngineHub/CommandHelper.
 
 ## Contributions
 
