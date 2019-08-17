@@ -22505,7 +22505,7 @@
 <translationEntry>
 	<id>2814</id>
 	<key><![CDATA["Client" - refers to a Federated client. All MethodScript processes can  simultaneously be both a server and a client.]]></key>
-	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<eligibleForMachineTranslation>true</eligibleForMachineTranslation>
 	<comment></comment>
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
