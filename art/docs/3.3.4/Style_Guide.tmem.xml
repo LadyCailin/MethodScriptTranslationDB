@@ -124,7 +124,7 @@
 	<key><![CDATA["Code branches", that is conditional blocks, should be indented one tab further than their parent, except in the case of tertiary usage of an if(). For example:]]></key>
 	<comment></comment>
 	<translation></translation>
-	<auto></auto>
+	<auto><![CDATA["Cødə brånchəs", thåt îs cøndîtîønål bløcks, shøüld bə îndəntəd ønə tåb fürthər thån thəîr pårənt, əxcəpt în thə cåsə øf tərtîårʎ üsågə øf ån îf(). Før əxåmplə:]]></auto>
 </translationBlock>
 <translationBlock>
 	<id>art-3632</id>

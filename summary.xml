@@ -29041,7 +29041,7 @@
 <translationEntry>
 	<id>3631</id>
 	<key><![CDATA["Code branches", that is conditional blocks, should be indented one tab further than their parent, except in the case of tertiary usage of an if(). For example:]]></key>
-	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<eligibleForMachineTranslation>false</eligibleForMachineTranslation>
 	<comment></comment>
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
