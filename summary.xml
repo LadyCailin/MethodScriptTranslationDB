@@ -20161,7 +20161,7 @@
 <translationEntry>
 	<id>2521</id>
 	<key><![CDATA["Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it." --Brian Kernighan]]></key>
-	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<eligibleForMachineTranslation>true</eligibleForMachineTranslation>
 	<comment></comment>
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
