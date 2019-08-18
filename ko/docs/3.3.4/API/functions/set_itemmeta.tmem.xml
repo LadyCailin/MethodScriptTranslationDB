@@ -217,4 +217,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-5034</id>
+	<key><![CDATA[[%splayer,%s]%s slot, ItemMetaArray]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5035</id>
+	<key><![CDATA[Applies the data from the given array to the item at the specified slot. Unused fields will be ignored. If %s or an empty array is supplied, or if none of the given fields are applicable, the item will become default, as this function overwrites any existing data. See %s for available fields.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
