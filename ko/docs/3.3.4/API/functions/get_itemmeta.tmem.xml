@@ -588,4 +588,60 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-5091</id>
+	<key><![CDATA['''delay''' : (int) The time in ticks until the spawner will spawn the next entity.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5092</id>
+	<key><![CDATA[Maps]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5093</id>
+	<key><![CDATA['''color''' : (array) An array of the map item's color, with '''"r"''', '''"g"''', and '''"b"''' keys that have values ranging from 0 to 255.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5094</id>
+	<key><![CDATA['''color''' : (array) A color array, with '''"r"''', '''"g"''', and '''"b"''' keys that have values ranging from 0 to 255.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5095</id>
+	<key><![CDATA[Spawners]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5096</id>
+	<key><![CDATA['''potions''' : (array) An associative array of custom potion effect arrays, where each key is the vanilla potion effect name. Each effect array can contain the keys: '''"id"''' (int), '''"strength"''' (int), '''"seconds"''' remaining (int), whether the effect is '''"ambient"''', whether '''"particles"''' are enabled, and whether the '''"icon"''' is shown to the player.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5097</id>
+	<key><![CDATA['''spawntype''' : (string) May be one of ''AREA_EFFECT_CLOUD, ARMOR_STAND, ARROW, BAT, BLAZE, BOAT, CAT, CAVE_SPIDER, CHICKEN, COD, COW, CREEPER, DOLPHIN, DRAGON_FIREBALL, DROPPED_ITEM, DROWNED, DONKEY, EGG, ELDER_GUARDIAN, ENDERMAN, ENDERMITE, ENDER_CRYSTAL, ENDER_DRAGON, ENDER_EYE, ENDER_PEARL, EVOKER, EVOKER_FANGS, EXPERIENCE_ORB, FALLING_BLOCK, FIREBALL, FIREWORK, FOX, GHAST, GIANT, GUARDIAN, HORSE, HUSK, ILLUSIONER, IRON_GOLEM, ITEM_FRAME, LLAMA, LLAMA_SPIT, LEASH_HITCH, LIGHTNING, MAGMA_CUBE, MINECART, MINECART_CHEST, MINECART_COMMAND, MINECART_FURNACE, MINECART_HOPPER, MINECART_MOB_SPAWNER, MINECART_TNT, MULE, MUSHROOM_COW, OCELOT, PAINTING, PANDA, PARROT, PHANTOM, PIG, PIG_ZOMBIE, PILLAGER, POLAR_BEAR, PRIMED_TNT, PUFFERFISH, RABBIT, RAVAGER, SALMON, SHEEP, SILVERFISH, SKELETON, SHULKER, SHULKER_BULLET, SKELETON_HORSE, SLIME, SMALL_FIREBALL, SNOWBALL, SNOWMAN, SQUID, SPECTRAL_ARROW, SPIDER, SPLASH_POTION, STRAY, THROWN_EXP_BOTTLE, TRADER_LLAMA, TRIDENT, TROPICAL_FISH, TURTLE, VEX, VILLAGER, VINDICATOR, WANDERING_TRADER, WITCH, WITHER, WITHER_SKELETON, WITHER_SKULL, WOLF, ZOMBIE, ZOMBIE_HORSE, or ZOMBIE_VILLAGER''. Not all entity types will spawn from spawners, and some require special conditions.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5098</id>
+	<key><![CDATA['''mapid''' : (int) The unique id for a map on the server.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
