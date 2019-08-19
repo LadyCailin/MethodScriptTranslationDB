@@ -35686,4 +35686,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-5099</id>
+	<key><![CDATA[Returns the location of the currently running engine binary.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5100</id>
+	<key><![CDATA[Error while compiling the examples for function_exists]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
