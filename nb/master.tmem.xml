@@ -35700,4 +35700,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-5101</id>
+	<key><![CDATA[Binds some functionality to an event, so that when said event occurs, the event handler will fire. Returns the id of this event, so it can be unregistered later, if need be. See more on the page detailing [[Events]].]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

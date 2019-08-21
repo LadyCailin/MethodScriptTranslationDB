@@ -40798,4 +40798,12 @@
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
 </translationEntry>
+<translationEntry>
+	<id>5101</id>
+	<key><![CDATA[Binds some functionality to an event, so that when said event occurs, the event handler will fire. Returns the id of this event, so it can be unregistered later, if need be. See more on the page detailing [[Events]].]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
 </summary>
