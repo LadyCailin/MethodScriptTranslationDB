@@ -35714,4 +35714,74 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-5103</id>
+	<key><![CDATA[Extensions are a way to extend MethodScript using native Java code. Extensions can add a number of types of functionality, from new functions and events, to new commandline tools.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5104</id>
+	<key><![CDATA[{{TakeNote|text=Note that extensions completely bypass the security restrictions in place in MethodScript, and therefore should be carefully installed, and only downloaded from trusted sources.}}]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5105</id>
+	<key><![CDATA[In order to install extensions, simply drop the jar into the extensions folder, in your MethodScript installation, and restart. The extensions will be automatically loaded from there.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5106</id>
+	<key><![CDATA[While the extension framework is officially supported, no individual extensions are themselves officially supported. Extension developers do not need to register with the project, and there is no central repository of extensions, so it isn't possible to say what extensions are out there. A number of extensions can be found  [%s here], but note that this is not exhaustive, and is a community supported effort.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5107</id>
+	<key><![CDATA[Extensions can provide access to any features that can be provided in Java, and so can therefore be quite powerful. If you're interested in developing your own extension, see the page on [[%s|Extension Development]].]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5108</id>
+	<key><![CDATA[Other Extension Points]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5109</id>
+	<key><![CDATA[Command Line Tools]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5110</id>
+	<key><![CDATA[Implement the DataSource interface (or extend the AbstractDataSource class) and tag the class with the @datasource annotation.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5111</id>
+	<key><![CDATA[Implement the CommandLineTool interface (or extend the AbstractCommandLineTool class) and tag the class with the @tool annotation. All of the built in tools use this mechanism, and extensions can provide new tools just the same way.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5112</id>
+	<key><![CDATA[Persistence Network Data Sources]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

@@ -231,4 +231,39 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-5108</id>
+	<key><![CDATA[Other Extension Points]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5109</id>
+	<key><![CDATA[Command Line Tools]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5110</id>
+	<key><![CDATA[Implement the DataSource interface (or extend the AbstractDataSource class) and tag the class with the @datasource annotation.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5111</id>
+	<key><![CDATA[Implement the CommandLineTool interface (or extend the AbstractCommandLineTool class) and tag the class with the @tool annotation. All of the built in tools use this mechanism, and extensions can provide new tools just the same way.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5112</id>
+	<key><![CDATA[Persistence Network Data Sources]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
