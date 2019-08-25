@@ -63,4 +63,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-5116</id>
+	<key><![CDATA[Forces a player to leave their vehicle. This returns false if the player is not riding a vehicle.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

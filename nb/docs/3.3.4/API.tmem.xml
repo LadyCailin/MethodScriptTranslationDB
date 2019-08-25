@@ -9072,4 +9072,39 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-5113</id>
+	<key><![CDATA[[%splayer%s]%s, statistic, %s[%stype%s]%s, amount]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5114</id>
+	<key><![CDATA[[%splayer%s]%s, statistic, %s[%stype%s]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5115</id>
+	<key><![CDATA[Returns the specified statistic for the player. Some statistics require a block, item or entity type. An IllegalArgumentException will be thrown if the statistic is invalid, or if the type is invalid for that statistic. The player argument is required before the type argument is. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5116</id>
+	<key><![CDATA[Forces a player to leave their vehicle. This returns false if the player is not riding a vehicle.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5117</id>
+	<key><![CDATA[Sets the specified statistic for the player. Some statistics require a block, item or entity type. An IllegalArgumentException will be thrown if the statistic is invalid, or if the type is invalid for that statistic. The player argument is required before the type argument is. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
