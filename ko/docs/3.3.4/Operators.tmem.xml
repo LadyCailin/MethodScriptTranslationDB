@@ -203,4 +203,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-5145</id>
+	<key><![CDATA[When in strict mode, use of functional notation instead of operators triggers a compiler warning. This warning is suppressable, however.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5146</id>
+	<key><![CDATA[In addition to functional support, MethodScript supports traditional operators.  This allows you to write more readable code, by  using more standard symbols instead of only functions. Using operators instead of functions is highly recommended for  all code, though the functional usage will continue to remain supported, and may be more readable in rare cases.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
