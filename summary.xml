@@ -41166,4 +41166,20 @@
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
 </translationEntry>
+<translationEntry>
+	<id>5147</id>
+	<key><![CDATA[Provides a case insensitive switch statement, for switching over strings. This works by compiler transformations, transforming this into a normal switch statement, with each case lowercased, and the input to the switch wrapped in to_lower. The case statements must be strings, however, which is the main difference between this method and the normal switch statement. The lowercasing is done with the system&apos;s default locale.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5148</id>
+	<key><![CDATA[Provides a case insensitive switch statement, for switching over strings. This works by compiler transformations, transforming this into a normal switch statement, with each case lowercased, and the input to the switch wrapped in to_lower. The case statements must be strings, however, which is the main difference between this method and the normal switch statement. The lowercasing is done with the system's default locale.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
 </summary>
