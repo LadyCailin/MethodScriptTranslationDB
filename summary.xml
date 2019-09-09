@@ -4987,7 +4987,7 @@
 	<key><![CDATA[Cmdline]]></key>
 	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
 	<comment></comment>
-	<untranslatable>false</untranslatable>
+	<untranslatable>true</untranslatable>
 	<suspectSegment>false</suspectSegment>
 </translationEntry>
 <translationEntry>
@@ -13441,7 +13441,7 @@
 <translationEntry>
 	<id>1681</id>
 	<key><![CDATA['''CommandHelper''' is an alias, macro, and scripting plugin for Minecraft that lets you:]]></key>
-	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<eligibleForMachineTranslation>true</eligibleForMachineTranslation>
 	<comment></comment>
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
@@ -13451,13 +13451,13 @@
 	<key><![CDATA[Linux/MacOS]]></key>
 	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
 	<comment></comment>
-	<untranslatable>false</untranslatable>
+	<untranslatable>true</untranslatable>
 	<suspectSegment>false</suspectSegment>
 </translationEntry>
 <translationEntry>
 	<id>1683</id>
 	<key><![CDATA[On Windows systems, you'll need to have launched your command prompt as Administrator. (To install on Windows Subsystem for Linux, follow the same instructions as for Unix.) A program ''mscript'' will be installed on your path, and a PowerShell Module will also be installed. Running ''mscript'' will launch the interpreter, running it with a file will run that file, and using ''mscript -Tool'' followed by a verb (such as help) will run the cmdline utilities.]]></key>
-	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<eligibleForMachineTranslation>true</eligibleForMachineTranslation>
 	<comment></comment>
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
@@ -13465,7 +13465,7 @@
 <translationEntry>
 	<id>1684</id>
 	<key><![CDATA['''Documentation:''' There's lots of complexity in the plugin, and without solid documentation, it is nearly worthless. While some of the documentation is generated programmatically, many pages are not. The auto documentation generator leaves room for more detailed information too -- none of which is currently filled in :( From writing examples for each function, to working on the main documentation, and keeping the current documentation up to speed, there's actually a lot to do that has nothing to do with coding!]]></key>
-	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<eligibleForMachineTranslation>true</eligibleForMachineTranslation>
 	<comment></comment>
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
@@ -13475,13 +13475,13 @@
 	<key><![CDATA[CommandHelper]]></key>
 	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
 	<comment></comment>
-	<untranslatable>false</untranslatable>
+	<untranslatable>true</untranslatable>
 	<suspectSegment>false</suspectSegment>
 </translationEntry>
 <translationEntry>
 	<id>1686</id>
 	<key><![CDATA[On Unix systems, you'll need to run the command with sudo. The installer will install an mscript bash file in /usr/local/bin/mscript, which simply wraps the jar. Running ''mscript'' will launch the interpreter, running it with a file will run that file, and using ''mscript --'' followed by a verb (such as help) will run the cmdline utilities.]]></key>
-	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<eligibleForMachineTranslation>true</eligibleForMachineTranslation>
 	<comment></comment>
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
@@ -13489,7 +13489,7 @@
 <translationEntry>
 	<id>1687</id>
 	<key><![CDATA[Previous Versions]]></key>
-	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<eligibleForMachineTranslation>true</eligibleForMachineTranslation>
 	<comment></comment>
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
@@ -13497,7 +13497,7 @@
 <translationEntry>
 	<id>1688</id>
 	<key><![CDATA[Need more help? Chat with us on IRC in [[%s|#CommandHelper on irc.esper.net]], on [%s Discord], or go to the [%s issue tracker].]]></key>
-	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<eligibleForMachineTranslation>true</eligibleForMachineTranslation>
 	<comment></comment>
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
@@ -13505,7 +13505,7 @@
 <translationEntry>
 	<id>1689</id>
 	<key><![CDATA['''MethodScript''' is the name of the programming language that CommandHelper uses, and there is a commandline version of MethodScript as well, that you can use outside of Minecraft. MethodScript is an imperative, dynamic, event driven, value-level, metaprogramming (reflective), structured (block-structured, semi-object-oriented, semi-class-based,  recursive), parallel, partially strongly typed language, and is an active work in progress.]]></key>
-	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<eligibleForMachineTranslation>true</eligibleForMachineTranslation>
 	<comment></comment>
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
@@ -13513,7 +13513,7 @@
 <translationEntry>
 	<id>1690</id>
 	<key><![CDATA[Do you like the plugin a lot? I certainly don't expect donations, and the any money I receive won't necessarily influence the amount of time I spend on the plugin (well, maybe it will), however I do spend a lot of time working on it, and I certainly won't turn anything down if you want to say thank you! If you reeeeally want a feature added to CommandHelper, and you're willing to pay money, get in contact with me, and we can discuss contract work, and we can discuss your needs, but otherwise, donations are just a way for you to tell me thanks!]]></key>
-	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<eligibleForMachineTranslation>true</eligibleForMachineTranslation>
 	<comment></comment>
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
@@ -13521,7 +13521,7 @@
 <translationEntry>
 	<id>1691</id>
 	<key><![CDATA[Syntax-coloring editors]]></key>
-	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<eligibleForMachineTranslation>true</eligibleForMachineTranslation>
 	<comment></comment>
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
@@ -13529,7 +13529,7 @@
 <translationEntry>
 	<id>1692</id>
 	<key><![CDATA[Sublime Text 3 - Cross-platform - Created by Ecconia]]></key>
-	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<eligibleForMachineTranslation>true</eligibleForMachineTranslation>
 	<comment></comment>
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
@@ -13537,7 +13537,7 @@
 <translationEntry>
 	<id>1693</id>
 	<key><![CDATA[If you create a syntax highlighter for your favorite text editor, contact us, and we can add it here!]]></key>
-	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<eligibleForMachineTranslation>true</eligibleForMachineTranslation>
 	<comment></comment>
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
@@ -13545,7 +13545,7 @@
 <translationEntry>
 	<id>1694</id>
 	<key><![CDATA[CommandHelper is turning into a large project, and I would love for more people to help work on it. Don't know java? Great! There are things for you to do too! If you're interested in any of the following tasks, feel free to get in touch with me, and we can get you started!]]></key>
-	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<eligibleForMachineTranslation>true</eligibleForMachineTranslation>
 	<comment></comment>
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
@@ -13553,7 +13553,7 @@
 <translationEntry>
 	<id>1695</id>
 	<key><![CDATA[Notepad++ (Default Theme) - Windows - Created by MrMagical]]></key>
-	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<eligibleForMachineTranslation>true</eligibleForMachineTranslation>
 	<comment></comment>
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
@@ -13561,7 +13561,7 @@
 <translationEntry>
 	<id>1696</id>
 	<key><![CDATA[Write a script to let players message each other while offline.]]></key>
-	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<eligibleForMachineTranslation>true</eligibleForMachineTranslation>
 	<comment></comment>
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
@@ -13569,7 +13569,7 @@
 <translationEntry>
 	<id>1697</id>
 	<key><![CDATA[For the full changelog, including the changelog for older releases, see [[%s|this page]]]]></key>
-	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<eligibleForMachineTranslation>true</eligibleForMachineTranslation>
 	<comment></comment>
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
@@ -13577,7 +13577,7 @@
 <translationEntry>
 	<id>1698</id>
 	<key><![CDATA[TextWrangler and BBEdit - Mac OS X - Created by Connor Griffin (Very Outdated)]]></key>
-	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<eligibleForMachineTranslation>true</eligibleForMachineTranslation>
 	<comment></comment>
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
@@ -13588,12 +13588,12 @@
 	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
 	<comment></comment>
 	<untranslatable>false</untranslatable>
-	<suspectSegment>false</suspectSegment>
+	<suspectSegment>true</suspectSegment>
 </translationEntry>
 <translationEntry>
 	<id>1700</id>
 	<key><![CDATA[If you're using bukkit, throw the jar file in the plugins directory, and start your server. On first boot, the proper directory structure with placeholder files will be created, which you can then edit. The configuration directory will be called CommandHelper, and will be in the same directory as the jar.]]></key>
-	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<eligibleForMachineTranslation>true</eligibleForMachineTranslation>
 	<comment></comment>
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
@@ -13601,7 +13601,7 @@
 <translationEntry>
 	<id>1701</id>
 	<key><![CDATA[How do you use CommandHelper? We have a set of easy to follow articles that you can read!]]></key>
-	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<eligibleForMachineTranslation>true</eligibleForMachineTranslation>
 	<comment></comment>
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
@@ -13609,7 +13609,7 @@
 <translationEntry>
 	<id>1702</id>
 	<key><![CDATA[Alias commands like ''/battle'' to run ''/warp #battlearena''.]]></key>
-	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<eligibleForMachineTranslation>true</eligibleForMachineTranslation>
 	<comment></comment>
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
@@ -13617,7 +13617,7 @@
 <translationEntry>
 	<id>1703</id>
 	<key><![CDATA[If you would to request new functions, it is typically easy to add those, so please post your feature request in the issue tracker. If you happen to find a bug in the program, please let us know so we can fix it!]]></key>
-	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<eligibleForMachineTranslation>true</eligibleForMachineTranslation>
 	<comment></comment>
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
@@ -13625,7 +13625,7 @@
 <translationEntry>
 	<id>1704</id>
 	<key><![CDATA[If you're using the cmdline version, run "java -jar commandhelper--SNAPSHOT-full.jar help" for a listing of the possible commands, and "java -jar commandhelper--SNAPSHOT-full.jar install-cmdline" to install. The configuration directory will be called MethodScript, and will be in the same directory as the jar. If the name or path of the jar file changes, you'll need to re-install, so it may be prudent to name the jar with a neutral name that does not include the version number.]]></key>
-	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<eligibleForMachineTranslation>true</eligibleForMachineTranslation>
 	<comment></comment>
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
@@ -13633,7 +13633,7 @@
 <translationEntry>
 	<id>1705</id>
 	<key><![CDATA[Feature requests and bugs]]></key>
-	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<eligibleForMachineTranslation>true</eligibleForMachineTranslation>
 	<comment></comment>
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
@@ -13641,7 +13641,7 @@
 <translationEntry>
 	<id>1706</id>
 	<key><![CDATA[[%s Donations]]]></key>
-	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<eligibleForMachineTranslation>true</eligibleForMachineTranslation>
 	<comment></comment>
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
@@ -13649,7 +13649,7 @@
 <translationEntry>
 	<id>1707</id>
 	<key><![CDATA[[[%s|center]]]]></key>
-	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<eligibleForMachineTranslation>true</eligibleForMachineTranslation>
 	<comment></comment>
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
@@ -13657,7 +13657,7 @@
 <translationEntry>
 	<id>1708</id>
 	<key><![CDATA[Atom - Cross-platform - Created by jacobwgillespie]]></key>
-	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<eligibleForMachineTranslation>true</eligibleForMachineTranslation>
 	<comment></comment>
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
@@ -13665,7 +13665,7 @@
 <translationEntry>
 	<id>1709</id>
 	<key><![CDATA[Notepad++ (Obsidian Theme) - Windows - Created by TTSDA (based on MrMagical's Highlighter)]]></key>
-	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<eligibleForMachineTranslation>true</eligibleForMachineTranslation>
 	<comment></comment>
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
@@ -13673,7 +13673,7 @@
 <translationEntry>
 	<id>1710</id>
 	<key><![CDATA[and others]]></key>
-	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<eligibleForMachineTranslation>true</eligibleForMachineTranslation>
 	<comment></comment>
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
@@ -13683,13 +13683,13 @@
 	<key><![CDATA[Bukkit]]></key>
 	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
 	<comment></comment>
-	<untranslatable>false</untranslatable>
+	<untranslatable>true</untranslatable>
 	<suspectSegment>false</suspectSegment>
 </translationEntry>
 <translationEntry>
 	<id>1712</id>
 	<key><![CDATA[Tired of writing your scripts in a plain black and white text editor? Try a syntax Highlighter!]]></key>
-	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<eligibleForMachineTranslation>true</eligibleForMachineTranslation>
 	<comment></comment>
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
@@ -13697,7 +13697,7 @@
 <translationEntry>
 	<id>1713</id>
 	<key><![CDATA[The developers of MethodScript do not recommend it (yet) for production or otherwise critical code, however, as a quick scripting language, or for use in Minecraft, it is highly recommended.]]></key>
-	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<eligibleForMachineTranslation>true</eligibleForMachineTranslation>
 	<comment></comment>
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
@@ -13705,7 +13705,7 @@
 <translationEntry>
 	<id>1714</id>
 	<key><![CDATA[Long-term planned features can be found on the [[%s|roadmap]], and short term features can be found on the issue tracker. To request your own features or file a bug, use [%s our issue tracker]. Known bugs can be found on the issue tracker.]]></key>
-	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<eligibleForMachineTranslation>true</eligibleForMachineTranslation>
 	<comment></comment>
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
@@ -13713,7 +13713,7 @@
 <translationEntry>
 	<id>1715</id>
 	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.]]></key>
-	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<eligibleForMachineTranslation>true</eligibleForMachineTranslation>
 	<comment></comment>
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
@@ -13721,7 +13721,7 @@
 <translationEntry>
 	<id>1716</id>
 	<key><![CDATA[If you prefer other text editors, there is community support for other text editors:]]></key>
-	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<eligibleForMachineTranslation>true</eligibleForMachineTranslation>
 	<comment></comment>
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
@@ -13729,7 +13729,7 @@
 <translationEntry>
 	<id>1717</id>
 	<key><![CDATA['''Just want the API?''' See the [[%s|API reference]].]]></key>
-	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<eligibleForMachineTranslation>true</eligibleForMachineTranslation>
 	<comment></comment>
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
@@ -13737,7 +13737,7 @@
 <translationEntry>
 	<id>1718</id>
 	<key><![CDATA[Write your own /tp, /time, or /warp]]></key>
-	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<eligibleForMachineTranslation>true</eligibleForMachineTranslation>
 	<comment></comment>
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
@@ -13747,13 +13747,13 @@
 	<key><![CDATA[Windows]]></key>
 	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
 	<comment></comment>
-	<untranslatable>false</untranslatable>
+	<untranslatable>true</untranslatable>
 	<suspectSegment>false</suspectSegment>
 </translationEntry>
 <translationEntry>
 	<id>1720</id>
 	<key><![CDATA['''Want to script completely new features?''' Follow the ''Learning Trail'' at the bottom of the page.]]></key>
-	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<eligibleForMachineTranslation>true</eligibleForMachineTranslation>
 	<comment></comment>
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
@@ -13761,7 +13761,7 @@
 <translationEntry>
 	<id>1721</id>
 	<key><![CDATA[Only the latest development build is officially supported, but there is some community support for older builds, which you can get by joining IRC or Discord. For the latest builds, head to  [%s the build site], click the blue download button to the right of the topmost build, and then download the %scommandhelper--SNAPSHOT-full.jar%s file. (Don't download the one without -full.) You can also download the versionless jar that corresponds to the exact version that this site was built with [[%s|here]], though this is not supported.]]></key>
-	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<eligibleForMachineTranslation>true</eligibleForMachineTranslation>
 	<comment></comment>
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
@@ -13769,7 +13769,7 @@
 <translationEntry>
 	<id>1722</id>
 	<key><![CDATA['''Testing:''' While a large portion of CommandHelper has automated tests, there is still no substitute for running [%s beta] versions of CommandHelper on a real server. It would be nice to know that several servers have put it through the ringer before a version goes to full release status.]]></key>
-	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<eligibleForMachineTranslation>true</eligibleForMachineTranslation>
 	<comment></comment>
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
@@ -13777,7 +13777,7 @@
 <translationEntry>
 	<id>1723</id>
 	<key><![CDATA['''Want to setup simple aliases?''' Try the [[%s|Beginner's Guide]]]]></key>
-	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<eligibleForMachineTranslation>true</eligibleForMachineTranslation>
 	<comment></comment>
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
@@ -13785,7 +13785,7 @@
 <translationEntry>
 	<id>1724</id>
 	<key><![CDATA[Donations]]></key>
-	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<eligibleForMachineTranslation>true</eligibleForMachineTranslation>
 	<comment></comment>
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
@@ -13793,7 +13793,7 @@
 <translationEntry>
 	<id>1725</id>
 	<key><![CDATA[{{TakeNote|text=To generate up-to-the-minute syntax colors you can also run CommandHelper from the command line using %s %sjava -jar CommandHelper.jar syntax npp obsidian%s %s For more detailed instructions, [[%s|see here]]}}]]></key>
-	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<eligibleForMachineTranslation>false</eligibleForMachineTranslation>
 	<comment></comment>
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
@@ -13801,7 +13801,7 @@
 <translationEntry>
 	<id>1726</id>
 	<key><![CDATA[Changelog]]></key>
-	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<eligibleForMachineTranslation>true</eligibleForMachineTranslation>
 	<comment></comment>
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
@@ -13809,7 +13809,7 @@
 <translationEntry>
 	<id>1727</id>
 	<key><![CDATA[Remember that [%s CommandHelper is open source].]]></key>
-	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<eligibleForMachineTranslation>true</eligibleForMachineTranslation>
 	<comment></comment>
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
@@ -13817,7 +13817,7 @@
 <translationEntry>
 	<id>1728</id>
 	<key><![CDATA[Usage]]></key>
-	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<eligibleForMachineTranslation>true</eligibleForMachineTranslation>
 	<comment></comment>
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
@@ -13825,7 +13825,7 @@
 <translationEntry>
 	<id>1729</id>
 	<key><![CDATA[Installation]]></key>
-	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<eligibleForMachineTranslation>true</eligibleForMachineTranslation>
 	<comment></comment>
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
@@ -13833,7 +13833,7 @@
 <translationEntry>
 	<id>1730</id>
 	<key><![CDATA[Tools]]></key>
-	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<eligibleForMachineTranslation>true</eligibleForMachineTranslation>
 	<comment></comment>
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
@@ -13841,7 +13841,7 @@
 <translationEntry>
 	<id>1731</id>
 	<key><![CDATA[Do much more, from the simple to the complex, with zero Java code.]]></key>
-	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<eligibleForMachineTranslation>true</eligibleForMachineTranslation>
 	<comment></comment>
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
@@ -13849,7 +13849,7 @@
 <translationEntry>
 	<id>1732</id>
 	<key><![CDATA['''Programming:''' From adding functions, to writing test cases, to working on the core aspects of CommandHelper, there are many different tasks to conquer.]]></key>
-	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<eligibleForMachineTranslation>true</eligibleForMachineTranslation>
 	<comment></comment>
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
@@ -13857,7 +13857,7 @@
 <translationEntry>
 	<id>1733</id>
 	<key><![CDATA[The Visual Studio Code  [%s MethodScriptVSC] IDE is the only officially supported IDE/Syntax Highlighter, and is most likely the most feature rich and up-to-date  version, so it is highly recommended. To install, [%s download Visual Studio Code]  (free, on all platforms), and install the MethodScriptVSC extension from the extensions tab.]]></key>
-	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<eligibleForMachineTranslation>true</eligibleForMachineTranslation>
 	<comment></comment>
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
@@ -13865,7 +13865,7 @@
 <translationEntry>
 	<id>1734</id>
 	<key><![CDATA[Alternatively, for advanced users, you could download the sources and build it yourself locally. To do that, you need git, maven, and jdk >= 8. Pull down the code with %sgit clone git@github.com:EngineHub/CommandHelper.git%s, then follow the directions in [%s the README].]]></key>
-	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<eligibleForMachineTranslation>true</eligibleForMachineTranslation>
 	<comment></comment>
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
@@ -13873,7 +13873,7 @@
 <translationEntry>
 	<id>1735</id>
 	<key><![CDATA[Want to help?]]></key>
-	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<eligibleForMachineTranslation>true</eligibleForMachineTranslation>
 	<comment></comment>
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
@@ -13881,7 +13881,7 @@
 <translationEntry>
 	<id>1736</id>
 	<key><![CDATA[Create an automated battle arena that automatically resets.]]></key>
-	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<eligibleForMachineTranslation>true</eligibleForMachineTranslation>
 	<comment></comment>
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
@@ -13889,7 +13889,7 @@
 <translationEntry>
 	<id>1737</id>
 	<key><![CDATA[gedit - GNOME/Cross-platform - Created by MrMagical]]></key>
-	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<eligibleForMachineTranslation>true</eligibleForMachineTranslation>
 	<comment></comment>
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
@@ -13897,7 +13897,7 @@
 <translationEntry>
 	<id>1738</id>
 	<key><![CDATA[For previous versions of the documentation, see %shere%s for a directory.]]></key>
-	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<eligibleForMachineTranslation>true</eligibleForMachineTranslation>
 	<comment></comment>
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>

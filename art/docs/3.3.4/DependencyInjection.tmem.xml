@@ -5,14 +5,14 @@
 	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.]]></key>
 	<comment></comment>
 	<translation></translation>
-	<auto></auto>
+	<auto><![CDATA[Fînd å büg în thîs pågə? %sEdît thîs pågə ʎøürsəlf, thən sübmît å püll rəqüəst.]]></auto>
 </translationBlock>
 <translationBlock>
 	<id>art-1728</id>
 	<key><![CDATA[Usage]]></key>
 	<comment></comment>
 	<translation></translation>
-	<auto></auto>
+	<auto><![CDATA[Usågə]]></auto>
 </translationBlock>
 <translationBlock>
 	<id>art-2541</id>
