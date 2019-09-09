@@ -175,4 +175,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-5151</id>
+	<key><![CDATA[This is a [%s valid question]. What does MethodScript offer that other scripting languages don't?  Simplicity. This has several benefits, and drawbacks that we must consider. In general, MethodScript is much easier to  learn than other languages. In essence, everything is a function, including common control structures. This makes many  concepts easier to learn, and makes for easily embeddable scripts. This is demonstrated by MethodScripts being embedded  in the aliases.msa file. Each script is run separately from each other, and is embedded inside a simpler format, which  facilitates easier integration into existing paradigms. Secondly, as a scripting language, it is easy to transmit in  plain text, which makes it perfect for simple configuration and customization. Finally, it has many built in features  that simplify development, such as the include() function. With everything, there are drawbacks though. Since it is not  strongly typed, this makes it easier to use, but harder to maintain. It is not possible to easily refactor dynamic  elements. Though it will be pseudo object oriented, it is somewhat added on top, it wasn't initially designed with this  in mind. Though the design of the object oriented features should be properly designed, they are being designed inside  the existing constraints of the non-object oriented features.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

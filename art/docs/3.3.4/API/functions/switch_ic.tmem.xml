@@ -1,0 +1,178 @@
+<translations>
+<comment></comment>
+<translationBlock>
+	<id>art-36</id>
+	<key><![CDATA[value, %s[%sequals, code%s]%s..., %s[%sdefaultCode%s]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-311</id>
+	<key><![CDATA[No]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-920</id>
+	<key><![CDATA[mixed]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2878</id>
+	<key><![CDATA[Examples]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3788</id>
+	<key><![CDATA[Vital Info]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3789</id>
+	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.%s (Note this page is automatically generated from the documentation in the source code.)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3791</id>
+	<key><![CDATA[Usages]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3794</id>
+	<key><![CDATA[The output would be:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3795</id>
+	<key><![CDATA[Example 1]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3796</id>
+	<key><![CDATA[Given the following code:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3797</id>
+	<key><![CDATA[Example 2]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3803</id>
+	<key><![CDATA[Example 3]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3804</id>
+	<key><![CDATA[Example 4]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3822</id>
+	<key><![CDATA[Functional usage]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3831</id>
+	<key><![CDATA[Example 5]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3860</id>
+	<key><![CDATA[Example 6]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3872</id>
+	<key><![CDATA[Example 7]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-4949</id>
+	<key><![CDATA[With multiple matches using an array]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-4950</id>
+	<key><![CDATA[With default condition]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-4951</id>
+	<key><![CDATA[With braces/case/default]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-4952</id>
+	<key><![CDATA[With slices]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-4953</id>
+	<key><![CDATA[With slices in an array]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-4954</id>
+	<key><![CDATA[[[%s|OPTIMIZE_DYNAMIC]] %s [[%s|PRIORITY_OPTIMIZATION]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-4957</id>
+	<key><![CDATA[With braces/case/default. Note the lack of fallthrough, even without a break(), except where two cases are directly back to back.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5148</id>
+	<key><![CDATA[Provides a case insensitive switch statement, for switching over strings. This works by compiler transformations, transforming this into a normal switch statement, with each case lowercased, and the input to the switch wrapped in to_lower. The case statements must be strings, however, which is the main difference between this method and the normal switch statement. The lowercasing is done with the system's default locale.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+</translations>

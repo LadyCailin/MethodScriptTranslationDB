@@ -9051,4 +9051,102 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-5099</id>
+	<key><![CDATA[Returns the location of the currently running engine binary.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5101</id>
+	<key><![CDATA[Binds some functionality to an event, so that when said event occurs, the event handler will fire. Returns the id of this event, so it can be unregistered later, if need be. See more on the page detailing [[Events]].]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5102</id>
+	<key><![CDATA[Manually triggers bound events. The event object passed to this function is sent directly as-is to the bound events. Check the documentation for each event to see what is required. No checks will be done on the data here, but it is not recommended to fail to send all parameters required. If serverWide is true, the event is triggered directly in the server, unless it is a CommandHelper specific event, in which case, serverWide is irrelevant. Defaults to false, which means that only CommandHelper code will receive the event. Throws a CastException when eventObject is not an array and not %s. Throws a BindException when trigger() is not yet supported by the given event.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5113</id>
+	<key><![CDATA[[%splayer%s]%s, statistic, %s[%stype%s]%s, amount]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5114</id>
+	<key><![CDATA[[%splayer%s]%s, statistic, %s[%stype%s]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5115</id>
+	<key><![CDATA[Returns the specified statistic for the player. Some statistics require a block, item or entity type. An IllegalArgumentException will be thrown if the statistic is invalid, or if the type is invalid for that statistic. The player argument is required before the type argument is. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5116</id>
+	<key><![CDATA[Forces a player to leave their vehicle. This returns false if the player is not riding a vehicle.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5117</id>
+	<key><![CDATA[Sets the specified statistic for the player. Some statistics require a block, item or entity type. An IllegalArgumentException will be thrown if the statistic is invalid, or if the type is invalid for that statistic. The player argument is required before the type argument is. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5133</id>
+	<key><![CDATA[A thin wrapper around the tellraw command from console context, this simply passes the input to the command. The raw is passed in as a normal (possibly associative) array, and json encoded. No validation is done on the input, so the command may fail. If not provided, the selector defaults to @a. Do not use double quotes (smart string) when providing the selector. See %s if you need player context. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5134</id>
+	<key><![CDATA[[%sstring selector%s]%s, array raw]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5135</id>
+	<key><![CDATA[A thin wrapper around the tellraw command from player context, this simply passes the input to the command. The raw is passed in as a normal (possibly associative) array, and json encoded. No validation is done on the input, so the command may fail. If not provided, the selector defaults to @s. Do not use double quotes (smart string) when providing the selector. See %s if you don&apos;t need player context. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5141</id>
+	<key><![CDATA[[%splayer%s]%s, command]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5142</id>
+	<key><![CDATA[Runs a single command for the current or provided player, as op. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5147</id>
+	<key><![CDATA[Provides a case insensitive switch statement, for switching over strings. This works by compiler transformations, transforming this into a normal switch statement, with each case lowercased, and the input to the switch wrapped in to_lower. The case statements must be strings, however, which is the main difference between this method and the normal switch statement. The lowercasing is done with the system&apos;s default locale.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
