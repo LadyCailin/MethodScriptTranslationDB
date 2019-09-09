@@ -41206,4 +41206,68 @@
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
 </translationEntry>
+<translationEntry>
+	<id>5152</id>
+	<key><![CDATA[About]]></key>
+	<eligibleForMachineTranslation>true</eligibleForMachineTranslation>
+	<comment><![CDATA[This is a global segment.]]></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5153</id>
+	<key><![CDATA[Home]]></key>
+	<eligibleForMachineTranslation>true</eligibleForMachineTranslation>
+	<comment><![CDATA[This is a global segment.]]></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5154</id>
+	<key><![CDATA[Privacy Policy]]></key>
+	<eligibleForMachineTranslation>true</eligibleForMachineTranslation>
+	<comment><![CDATA[This is a global segment.]]></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5155</id>
+	<key><![CDATA[Sponsors]]></key>
+	<eligibleForMachineTranslation>true</eligibleForMachineTranslation>
+	<comment><![CDATA[This is a global segment.]]></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5156</id>
+	<key><![CDATA[Help]]></key>
+	<eligibleForMachineTranslation>true</eligibleForMachineTranslation>
+	<comment><![CDATA[This is a global segment.]]></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5157</id>
+	<key><![CDATA[Team. All rights reserved.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment><![CDATA[This will start with &copy; %%branding%%, so for instance, the complete sentence is "&copy; MethodScript Team. All rights reserved." This is a global segment.]]></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5158</id>
+	<key><![CDATA[Docs]]></key>
+	<eligibleForMachineTranslation>true</eligibleForMachineTranslation>
+	<comment><![CDATA[This is a global segment.]]></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5159</id>
+	<key><![CDATA[Automatically adds the default headers to this request, unless specifically overridden. Note that some headers simply cannot be overridden, for instance Host and User-Agent will ALWAYS be set. The default headers are:  {Accept=text/*, application/xhtml+xml, application/xml;q=0.9, */*;q=0.8, User-Agent=Java/1.8.0_221/MethodScript, Connection=close, Accept-Encoding=br, deflate, identity, gzip, DNT=1}]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
 </summary>
