@@ -462,4 +462,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-5160</id>
+	<key><![CDATA[Only the latest development build is officially supported, but there is some community support for older builds, which you can get by joining IRC or Discord. For the latest builds, head to  [%s the build site], click the blue download button to the right of the topmost build, and then download the %scommandhelper-%s-SNAPSHOT-full.jar%s file. (Don't download the one without -full.) You can also download the versionless jar that corresponds to the exact version that this site was built with [[%s|here]], though this is not supported.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5161</id>
+	<key><![CDATA[If you're using the cmdline version, run "java -jar commandhelper-%s-SNAPSHOT-full.jar help" for a listing of the possible commands, and "java -jar commandhelper-%s-SNAPSHOT-full.jar install-cmdline" to install. The configuration directory will be called MethodScript, and will be in the same directory as the jar. If the name or path of the jar file changes, you'll need to re-install, so it may be prudent to name the jar with a neutral name that does not include the version number.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
