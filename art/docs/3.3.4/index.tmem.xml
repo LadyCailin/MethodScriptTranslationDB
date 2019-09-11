@@ -466,14 +466,14 @@
 	<id>art-5160</id>
 	<key><![CDATA[Only the latest development build is officially supported, but there is some community support for older builds, which you can get by joining IRC or Discord. For the latest builds, head to  [%s the build site], click the blue download button to the right of the topmost build, and then download the %scommandhelper-%s-SNAPSHOT-full.jar%s file. (Don't download the one without -full.) You can also download the versionless jar that corresponds to the exact version that this site was built with [[%s|here]], though this is not supported.]]></key>
 	<comment></comment>
-	<translation></translation>
-	<auto></auto>
+	<translation><![CDATA[Onlʎ thə låtəst dəvəløpmənt büîld îs øffîcîållʎ süppørtəd, büt thərə îs sømə cømmünîtʎ süppørt før øldər büîlds, whîch ʎøü cån gət bʎ jøînîng IRC ør Dîscørd. Før thə låtəst büîlds, həåd tø  [%s thə büîld sîtə], clîck thə blüə døwnløåd büttøn tø thə rîght øf thə tøpmøst büîld, ånd thən døwnløåd thə %scommandhelper-%s-SNAPSHOT-full.jar%s fîlə. (Døn't døwnløåd thə ønə wîthøüt -füll.) Yøü cån ålsø døwnløåd thə vərsîønləss jår thåt cørrəspønds tø thə əxåct vərsîøn thåt thîs sîtə wås büîlt wîth [[%s|hərə]], thøügh thîs îs nøt süppørtəd.]]></translation>
+	<auto><![CDATA[Onlʎ thə låtəst dəvəløpmənt büîld îs øffîcîållʎ süppørtəd, büt thərə îs sømə cømmünîtʎ süppørt før øldər büîlds, whîch ʎøü cån gət bʎ jøînîng IRC ør Dîscørd. Før thə låtəst büîlds, həåd tø  [%s thə büîld sîtə], clîck thə blüə døwnløåd büttøn tø thə rîght øf thə tøpmøst büîld, ånd thən døwnløåd thə %scømmåndhəlpər-%s-SNAPSHOT-füll.jår%s fîlə. (Døn't døwnløåd thə ønə wîthøüt -füll.) Yøü cån ålsø døwnløåd thə vərsîønləss jår thåt cørrəspønds tø thə əxåct vərsîøn thåt thîs sîtə wås büîlt wîth [[%s|hərə]], thøügh thîs îs nøt süppørtəd.]]></auto>
 </translationBlock>
 <translationBlock>
 	<id>art-5161</id>
 	<key><![CDATA[If you're using the cmdline version, run "java -jar commandhelper-%s-SNAPSHOT-full.jar help" for a listing of the possible commands, and "java -jar commandhelper-%s-SNAPSHOT-full.jar install-cmdline" to install. The configuration directory will be called MethodScript, and will be in the same directory as the jar. If the name or path of the jar file changes, you'll need to re-install, so it may be prudent to name the jar with a neutral name that does not include the version number.]]></key>
 	<comment></comment>
-	<translation></translation>
-	<auto></auto>
+	<translation><![CDATA[If ʎøü'rə üsîng thə cmdlînə vərsîøn, rün "java -jar commandhelper-%s-SNAPSHOT-full.jar help" før å lîstîng øf thə pøssîblə cømmånds, ånd "java -jar commandhelper-%s-SNAPSHOT-full.jar install-cmdline" tø înståll. Thə cønfîgüråtîøn dîrəctørʎ wîll bə cålləd MəthødScrîpt, ånd wîll bə în thə såmə dîrəctørʎ ås thə jår. If thə nåmə ør påth øf thə jår fîlə chångəs, ʎøü'll nəəd tø rə-înståll, sø ît måʎ bə prüdənt tø nåmə thə jår wîth å nəütrål nåmə thåt døəs nøt înclüdə thə vərsîøn nümbər.]]></translation>
+	<auto><![CDATA[If ʎøü'rə üsîng thə cmdlînə vərsîøn, rün "jåvå -jår cømmåndhəlpər-%s-SNAPSHOT-füll.jår həlp" før å lîstîng øf thə pøssîblə cømmånds, ånd "jåvå -jår cømmåndhəlpər-%s-SNAPSHOT-füll.jår înståll-cmdlînə" tø înståll. Thə cønfîgüråtîøn dîrəctørʎ wîll bə cålləd MəthødScrîpt, ånd wîll bə în thə såmə dîrəctørʎ ås thə jår. If thə nåmə ør påth øf thə jår fîlə chångəs, ʎøü'll nəəd tø rə-înståll, sø ît måʎ bə prüdənt tø nåmə thə jår wîth å nəütrål nåmə thåt døəs nøt înclüdə thə vərsîøn nümbər.]]></auto>
 </translationBlock>
 </translations>
