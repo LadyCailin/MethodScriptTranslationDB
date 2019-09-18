@@ -777,4 +777,53 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-5162</id>
+	<key><![CDATA[Individual fields may be marked as immutable as well. This has the effect of making the class immutable, but only through that particular object reference.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5163</id>
+	<key><![CDATA[If a class itself is marked as immutable, it is not an error to also mark an instance of the field as immutable. This can be desirable anyways, in cases where it's possible that the class itself becomes mutable in the future, but  regardless, you wish this field to always be immutable. In general, however, it's bad practice to change a class's  mutability after release.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5164</id>
+	<key><![CDATA[Classes may be marked as immutable, which means that none of the fields in the class may be changed after construction is complete.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5165</id>
+	<key><![CDATA[Immutable classes may be useful from a business logic standpoint, as it allows enforcement of immutability by the compiler. However, the compiler/runtime can also do some optimizations when immutable classes are used, for instance, classes that are immutable can be passed either by value or reference, and the effective result will be the same. So the runtime may choose the most performant method if a class is marked as immutable.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5166</id>
+	<key><![CDATA[It's also worth pointing out that an immutable field is not constant, and the referenced object may be changed,  (unless the field is marked as ''final'' in addition). The previous example shows this, when we set ''@immutable''  in the set method, this is allowed. What we cannot do, however, is set some field within the MyObject instance,  even if MyObject normally does declare some publicly accessible methods that set fields.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5167</id>
+	<key><![CDATA[Immutable classes and immutable variables]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5168</id>
+	<key><![CDATA[Immutable fields are a sort of overloaded type. That is, ''MyObject'' is different than ''immutable MyObject'', and it is required to declare them differently in each use. Mutable fields may safely be cast to the immutable variant, but not vice versa.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
