@@ -9205,4 +9205,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-5170</id>
+	<key><![CDATA[Returns a random value from an array. If the array is empty a LengthException is thrown.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
