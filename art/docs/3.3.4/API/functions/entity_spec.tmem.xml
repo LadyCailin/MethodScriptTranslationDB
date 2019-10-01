@@ -1183,4 +1183,39 @@
 	<translation></translation>
 	<auto><![CDATA[Døcs]]></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-5173</id>
+	<key><![CDATA[hiddengene: The recessive trait for this panda.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5174</id>
+	<key><![CDATA[maingene: The dominant trait for this panda (can be AGGRESSIVE, BROWN, LAZY, NORMAL, PLAYFUL, WEAK, or WORRIED).]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5175</id>
+	<key><![CDATA[level: The level of villager's profession. Can be 1-5. (not in 1.13)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5176</id>
+	<key><![CDATA[PANDA]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5177</id>
+	<key><![CDATA[experience: The amount of experience in the villager's profession towards the next level. (not in 1.13)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
