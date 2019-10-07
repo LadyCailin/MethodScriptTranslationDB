@@ -294,4 +294,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-5196</id>
+	<key><![CDATA[Alternatively, you can install the http-server package, and leave off the ''npx'' command.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
