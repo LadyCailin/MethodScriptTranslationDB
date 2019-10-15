@@ -182,4 +182,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-5199</id>
+	<key><![CDATA[Returns a ClassType value of the typeof a value. For instance 'array' is returned for typeof(array()). This is a generic replacement for the is_* series of functions.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

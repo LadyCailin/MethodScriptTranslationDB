@@ -41566,4 +41566,28 @@
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
 </translationEntry>
+<translationEntry>
+	<id>5197</id>
+	<key><![CDATA[Reads in a gzipped file, and returns a byte_array for it. The file is returned exactly as is on disk, no conversions are done other than unzipping it. base-dir restrictions are enforced for the path, the same as read(). If file is relative, it is assumed to be relative to this file.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5198</id>
+	<key><![CDATA[Returns a ClassType value of the typeof a value. For instance &apos;array&apos; is returned for typeof(array()). This is a generic replacement for the is_* series of functions.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5199</id>
+	<key><![CDATA[Returns a ClassType value of the typeof a value. For instance 'array' is returned for typeof(array()). This is a generic replacement for the is_* series of functions.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
 </summary>
