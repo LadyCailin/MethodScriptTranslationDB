@@ -41702,4 +41702,36 @@
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
 </translationEntry>
+<translationEntry>
+	<id>5214</id>
+	<key><![CDATA[Runs a plugin command&apos;s tab completer and returns an array of possible completions for the final argument. [[%s|See more...]]]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5215</id>
+	<key><![CDATA[[%splayer%s]%s, command, args]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5216</id>
+	<key><![CDATA[Runs a plugin command's tab completer and returns an array of possible completions for the final argument.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5217</id>
+	<key><![CDATA[The args parameter must be an array of strings. A command prefix can be used to specify a specific plugin. (eg. "/worldedit:remove") Throws a NotFoundException if the command does not exist.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
 </summary>

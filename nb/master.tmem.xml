@@ -36491,4 +36491,32 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-5214</id>
+	<key><![CDATA[Runs a plugin command&apos;s tab completer and returns an array of possible completions for the final argument. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5215</id>
+	<key><![CDATA[[%splayer%s]%s, command, args]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5216</id>
+	<key><![CDATA[Runs a plugin command's tab completer and returns an array of possible completions for the final argument.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5217</id>
+	<key><![CDATA[The args parameter must be an array of strings. A command prefix can be used to specify a specific plugin. (eg. "/worldedit:remove") Throws a NotFoundException if the command does not exist.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
