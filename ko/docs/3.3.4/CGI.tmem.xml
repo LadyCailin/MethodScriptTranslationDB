@@ -154,4 +154,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-5218</id>
+	<key><![CDATA[This would cause calls to /var/www/html/index.ms via "%s" to be run as scripts, rather than simply serving the resource as plain text. You may modify this to reflect where you wish to actually put the scripts, and what the url should be. This works with no further configuration on Ubuntu, however.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5219</id>
+	<key><![CDATA[{{TakeNote|text=Note that CGI is very inefficient, and has extremely limited flexibility, and so this setup is not necessarily recommended, but is shown to demonstrate the capabilities of MethodScript. Better solutions will be provided in the future.}}]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

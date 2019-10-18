@@ -36519,4 +36519,32 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-5218</id>
+	<key><![CDATA[This would cause calls to /var/www/html/index.ms via "%s" to be run as scripts, rather than simply serving the resource as plain text. You may modify this to reflect where you wish to actually put the scripts, and what the url should be. This works with no further configuration on Ubuntu, however.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5219</id>
+	<key><![CDATA[{{TakeNote|text=Note that CGI is very inefficient, and has extremely limited flexibility, and so this setup is not necessarily recommended, but is shown to demonstrate the capabilities of MethodScript. Better solutions will be provided in the future.}}]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5220</id>
+	<key><![CDATA[As you can see, MethodScript does most of the work for you, making it far simpler to use than javascript. However, this does not stop you from using javascript yourself. Any javascript you embed in the template will be included exactly as is, so existing javascript libraries can be used. Unfortunately, you cannot interface MethodScript with javascript directly, though MethodScript can call javascript functions indirectly. Inside of the tag, the %sthis%s keyword is available, and refers to that instance of the html tag.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5221</id>
+	<key><![CDATA[This results in the following equivalent html (the actual html rendered will be more complicated, but for this example, it has been simplified to equivalent javascript):]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

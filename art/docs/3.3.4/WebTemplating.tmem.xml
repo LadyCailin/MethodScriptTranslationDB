@@ -539,4 +539,18 @@
 	<translation></translation>
 	<auto><![CDATA[Døcs]]></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-5220</id>
+	<key><![CDATA[As you can see, MethodScript does most of the work for you, making it far simpler to use than javascript. However, this does not stop you from using javascript yourself. Any javascript you embed in the template will be included exactly as is, so existing javascript libraries can be used. Unfortunately, you cannot interface MethodScript with javascript directly, though MethodScript can call javascript functions indirectly. Inside of the tag, the %sthis%s keyword is available, and refers to that instance of the html tag.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5221</id>
+	<key><![CDATA[This results in the following equivalent html (the actual html rendered will be more complicated, but for this example, it has been simplified to equivalent javascript):]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
