@@ -112,4 +112,11 @@
 	<translation></translation>
 	<auto><![CDATA[Døcs]]></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-5222</id>
+	<key><![CDATA[[%splayer%s]%s, slot, type, level %s player, slot, enchantsArray]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

@@ -9240,4 +9240,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-5222</id>
+	<key><![CDATA[[%splayer%s]%s, slot, type, level %s player, slot, enchantsArray]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
