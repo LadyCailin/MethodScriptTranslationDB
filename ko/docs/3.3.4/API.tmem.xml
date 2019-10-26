@@ -9247,4 +9247,88 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-5224</id>
+	<key><![CDATA[Sets the base value for the entity attribute. Accepts a double as the value. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5225</id>
+	<key><![CDATA[Gets the default value for the attribute of this entity&apos;s type. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5226</id>
+	<key><![CDATA[entityUUID, attribute]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5227</id>
+	<key><![CDATA[entityUUID, modifier]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5228</id>
+	<key><![CDATA[entityUUID, modifier %s entityUUID, attribute, id]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5229</id>
+	<key><![CDATA[Removes an attribute modifier from an entity. A modifier array can be provided, or both an attribute name and either the UUID or name (if it&apos;s unique) for the modifier can be provided as the identifier.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5230</id>
+	<key><![CDATA[Adds an attribute modifier to an entity. Throws BadEntityTypeException if the attribute type does not apply to this entity type. See {function|get_itemmeta} for how to define an attribute modifier array.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5231</id>
+	<key><![CDATA[Gets the base value for the given attribute of this entity. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5232</id>
+	<key><![CDATA[Resets the base attribute value to the default for this entity. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5233</id>
+	<key><![CDATA[Gets an array of modifier arrays for this entity&apos;s attribute. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5234</id>
+	<key><![CDATA[entityUUID, attribute, value]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5235</id>
+	<key><![CDATA[Gets the effective value for the attribute of this entity after all modifiers have been applied to the base value. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
