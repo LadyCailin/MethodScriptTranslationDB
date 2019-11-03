@@ -119,4 +119,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-5261</id>
+	<key><![CDATA[Returns an array of arrays of the enchantments and their levels on the given item. (deprecated for %s)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5262</id>
+	<key><![CDATA[For example: array(array(DAMAGE_ALL, DAMAGE_UNDEAD), array(1, 2))]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

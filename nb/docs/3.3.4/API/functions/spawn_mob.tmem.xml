@@ -126,4 +126,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-5265</id>
+	<key><![CDATA[Spawns qty mob of one of the following types at location. qty defaults to 1, and location defaults to the location of the player. An array of the entity UUIDs spawned is returned. (deprecated for %s)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

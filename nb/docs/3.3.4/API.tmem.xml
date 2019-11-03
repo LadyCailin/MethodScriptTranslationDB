@@ -9331,4 +9331,67 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-5244</id>
+	<key><![CDATA[Returns an array of arrays of the enchantments and their levels on the given item. (deprecated for %s) [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5245</id>
+	<key><![CDATA[Gets the id of the block at the coordinates. (deprecated for %s) [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5246</id>
+	<key><![CDATA[Removes an enchantment from an item. (deprecated for %s) [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5247</id>
+	<key><![CDATA[Tames any tameable mob to the specified player. (deprecated for %s) [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5248</id>
+	<key><![CDATA[Adds an enchantment to an item in the player&apos;s inventory. (deprecated for %s) [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5249</id>
+	<key><![CDATA[Given an enchantment name and an item type, returns whether or not that item can be enchanted with that enchantment. (deprecated for %s) [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5250</id>
+	<key><![CDATA[Adds an attribute modifier to an entity. Throws BadEntityTypeException if the attribute type does not apply to this entity type. See %s for how to define an attribute modifier array.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5251</id>
+	<key><![CDATA[Spawns qty mob of one of the following types at location. qty defaults to 1, and location defaults to the location of the player. An array of the entity UUIDs spawned is returned. (deprecated for %s) [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5252</id>
+	<key><![CDATA[Sets the id of the block at the x y z coordinates specified. (deprecated for %s) [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

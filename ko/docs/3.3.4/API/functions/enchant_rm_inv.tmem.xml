@@ -119,4 +119,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-5257</id>
+	<key><![CDATA[The type may be a valid enchantment, or an array of enchantment names. It can also be %s, and all enchantments will be removed. If an enchantment is specified, and the item is not enchanted with that, it is simply ignored.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5258</id>
+	<key><![CDATA[Removes an enchantment from an item. (deprecated for %s)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

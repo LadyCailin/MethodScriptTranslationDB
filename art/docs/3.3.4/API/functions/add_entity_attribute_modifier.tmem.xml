@@ -112,4 +112,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-5250</id>
+	<key><![CDATA[Adds an attribute modifier to an entity. Throws BadEntityTypeException if the attribute type does not apply to this entity type. See %s for how to define an attribute modifier array.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

@@ -112,4 +112,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-5259</id>
+	<key><![CDATA[The format of the return will be x:y where x is the id of the block, and y is the meta data for the block. All blocks will return in this format, but blocks that don't have meta data will return 0 in y (eg. air is "0:0"). If a world isn't provided in the location array or as an argument, the current player's world is used.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5260</id>
+	<key><![CDATA[Gets the id of the block at the coordinates. (deprecated for %s)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

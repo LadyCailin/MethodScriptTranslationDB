@@ -112,4 +112,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-5253</id>
+	<key><![CDATA[Throws an EnchantmentException if the name is not a valid enchantment type.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5254</id>
+	<key><![CDATA[Given an enchantment name and an item type, returns whether or not that item can be enchanted with that enchantment. (deprecated for %s)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

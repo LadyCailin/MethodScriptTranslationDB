@@ -112,4 +112,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-5266</id>
+	<key><![CDATA[Tames any tameable mob to the specified player. (deprecated for %s)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5267</id>
+	<key><![CDATA[Offline players are supported, but this means that partial matches are NOT supported. You must type the players name exactly. Setting the player to %s will untame the mob. If the entity doesn't exist, nothing happens.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

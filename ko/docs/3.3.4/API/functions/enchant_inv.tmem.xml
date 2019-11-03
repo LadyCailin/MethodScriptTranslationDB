@@ -119,4 +119,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-5255</id>
+	<key><![CDATA[Adds an enchantment to an item in the player's inventory. (deprecated for %s)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5256</id>
+	<key><![CDATA[Type can be a single string, or an array of enchantment names. If slot is %s, the currently selected slot is used. If the enchantment cannot be applied to the specified item, an EnchantmentException is thrown, and if the level specified is not valid, a RangeException is thrown. If type is an array, level must also be an array, with equal number of values in it, with each int corresponding to the appropriate type. The minecraft names for enchantments may be used: [%s], and level may be a roman numeral as well.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

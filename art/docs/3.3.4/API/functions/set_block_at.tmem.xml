@@ -112,4 +112,18 @@
 	<translation></translation>
 	<auto><![CDATA[Døcs]]></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-5263</id>
+	<key><![CDATA[The id must be an integer or a blocktype identifier similar to the type returned from get_block_at (eg. "0:0"). If the meta value is not specified, 0 is used. If world isn't specified, the current player's world is used. Physics (which defaults to true) specifies whether or not to update the surrounding blocks when this block is set.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5264</id>
+	<key><![CDATA[Sets the id of the block at the x y z coordinates specified. (deprecated for %s)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
