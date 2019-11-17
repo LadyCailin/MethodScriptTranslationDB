@@ -1218,4 +1218,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-5277</id>
+	<key><![CDATA[particle: The particle type which comprises the cloud (can be SMOKE_NORMAL, ENCHANTMENT_TABLE, REDSTONE, SNOW_SHOVEL, BUBBLE_COLUMN_UP, SPELL_MOB, CAMPFIRE_SIGNAL_SMOKE, BLOCK_DUST, SWEEP_ATTACK, WATER_SPLASH, LANDING_LAVA, SLIME, FALLING_LAVA, DRAGON_BREATH, CURRENT_DOWN, ITEM_CRACK, FALLING_DUST, SNEEZE, WATER_BUBBLE, FLASH, VILLAGER_ANGRY, HEART, END_ROD, CRIT_MAGIC, SUSPENDED, WATER_DROP, SPELL, FALLING_WATER, SPELL_INSTANT, LAVA, VILLAGER_HAPPY, SQUID_INK, CRIT, CLOUD, BUBBLE_POP, COMPOSTER, NAUTILUS, EXPLOSION_LARGE, TOWN_AURA, SUSPENDED_DEPTH, CAMPFIRE_COSY_SMOKE, NOTE, SNOWBALL, SPELL_MOB_AMBIENT, DAMAGE_INDICATOR, SMOKE_LARGE, TOTEM, BARRIER, EXPLOSION_NORMAL, FLAME, SPIT, PORTAL, MOB_APPEARANCE, DOLPHIN, SPELL_WITCH, DRIP_WATER, EXPLOSION_HUGE, WATER_WAKE, UNKNOWN, FIREWORKS_SPARK, DRIP_LAVA, or BLOCK_CRACK). Can accept a particle array for setting index data required for specific particle types. This particle array must contain a "particle" key, and supports the keys "block", "item", or "color" when applicable.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5278</id>
+	<key><![CDATA[color: The color array of the particle, if applicable (eg. SPELL_MOB particle type).]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
