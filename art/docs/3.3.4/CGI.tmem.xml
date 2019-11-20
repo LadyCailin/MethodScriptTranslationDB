@@ -231,4 +231,53 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-5284</id>
+	<key><![CDATA[Edit the /etc/nginx/sites-available/default file. Within the server {} section, add a link to the config file.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5285</id>
+	<key><![CDATA[Copy the example config file into the nginx config directory.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5286</id>
+	<key><![CDATA[Create a file at /etc/nginx/fcgiwrap.conf, with the following content:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5287</id>
+	<key><![CDATA[NGINX]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5288</id>
+	<key><![CDATA[First, ensure that nginx is properly installed and running. We will be using the fastcgi wrapper, though we will not be taking advantage of its daemon features, so this is not a true FastCGI application.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5289</id>
+	<key><![CDATA[Create the cgi-bin folder, and assign the correct permissions.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5290</id>
+	<key><![CDATA[Restart nginx.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

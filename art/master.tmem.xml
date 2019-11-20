@@ -36953,4 +36953,228 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-5280</id>
+	<key><![CDATA[Contains various methods for interacting with the Operating System. Some of the functions deal with OS specific mechanisms.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5281</id>
+	<key><![CDATA[OS]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5282</id>
+	<key><![CDATA[Returns the process id (pid) of the current process. In some implementations of Java, this cannot be relied on, and in those cases, an UnsupportedOperationException is thrown. In Java 9 and above, this can generally be relied upon to work correctly, however.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5283</id>
+	<key><![CDATA[ArrayHandling%sBasicLogic%sBossBar%sBukkitMetadata%sByteArrays%sClipboard%sCmdline%sCommands%sCompiler%sControlFlow%sCrypto%sDataHandling%sDataTransformations%sDebug%sEchoes%sEnchantments%sEntityManagement%sEnvironment%sEventBinding%sExceptions%sExecutionQueue%sExtensionMeta%sFileHandling%sInventoryManagement%sItemMeta%sMarquee%sMath%sMeta%sMinecraft%sMobManagement%sOAuth%sOS%sObjectManagement%sPerformance%sPermissions%sPersistence%sPlayerManagement%sPluginMeta%sRecipes%sReflection%sRegex%sResourceManager%sSQL%sSandbox%sScheduling%sScoreboards%sStatistics%sStringHandling%sTaskHandling%sThreading%sTrades%sWeather%sWeb%sWorld%sXGUI]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5284</id>
+	<key><![CDATA[Edit the /etc/nginx/sites-available/default file. Within the server {} section, add a link to the config file.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5285</id>
+	<key><![CDATA[Copy the example config file into the nginx config directory.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5286</id>
+	<key><![CDATA[Create a file at /etc/nginx/fcgiwrap.conf, with the following content:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5287</id>
+	<key><![CDATA[NGINX]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5288</id>
+	<key><![CDATA[First, ensure that nginx is properly installed and running. We will be using the fastcgi wrapper, though we will not be taking advantage of its daemon features, so this is not a true FastCGI application.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5289</id>
+	<key><![CDATA[Create the cgi-bin folder, and assign the correct permissions.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5290</id>
+	<key><![CDATA[Restart nginx.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5291</id>
+	<key><![CDATA[If you would like the server to start on server boot, run]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5292</id>
+	<key><![CDATA[Systemd integration]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5293</id>
+	<key><![CDATA[Nginx]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5294</id>
+	<key><![CDATA[Before starting, you must choose a server frontend. This may be any server that supports reverse proxying, but Apache and Nginx are the only tested server types. While possible, it is highly discouraged from exposing the MethodScript web server directly to the internet, and further, since it does not support serving static files, it cannot be used in a useful way otherwise.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5295</id>
+	<key><![CDATA[On unix systems where systemd is installed (or more specifically, where a folder exists at /lib/systemd/system, msws integrates with systemd. It supports starting, stopping, restarting, and reloading. Reloading maps to the --recompile flag. The name of the service is "msws".]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5296</id>
+	<key><![CDATA[MSWS can only serve scripts. Therefore, you need to configure your primary web server to serve static files, such as css and javascript files, and only configure the frontend server to call to MSWS for .ms files.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5297</id>
+	<key><![CDATA[If you want to stop the server when it's running in background mode, you can run]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5298</id>
+	<key><![CDATA[as root/Administrator. If prompted, reboot your computer. Note that this step is not optional -- several portions of the system assume there is an executable binary named "mscript" on your system.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5299</id>
+	<key><![CDATA[Next, we want to test to ensure that a connection can be made to the server. Take note of the port listed in webserver.ini. By default, this is 16438, though if you changed this, use the new value in place. On Windows, open a web browser, and go to "%s".  (On Linux, run curl "%s) If everything is working, you should get a 404. Since we have not created any scripts, this is expected, but it means that the server is up and accepting connections. If you get a connection refused error, restart the server in --foreground mode, and check the server startup logs to see if there is an error.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5300</id>
+	<key><![CDATA[Installing MSWS]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5301</id>
+	<key><![CDATA[MethodScript supports running as a web server behind a web server frontend, such as Apache or Nginx. This functionality is not installed, configured, or running by default, so a bit of setup is required to enable the feature.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5302</id>
+	<key><![CDATA[Since MSWS is not expected to be directly exposed to the internet, we require a frontend server, such as Apache or Nginx. MSWS communicates via standard http, and both Apache and Nginx have good support for "Reverse Proxying". In general, however, you are not limited to Apache or Nginx, however, they are the only frontends documented here. Using another web server should be possible if you adapt these instructions to that platform.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5303</id>
+	<key><![CDATA[as root/Administrator. This will create a configuration file in your prefs folder, named webserver.ini. Open this file in a text editor, and configure it to your liking. Reasonable defaults have been selected, but you may wish to choose different values for this, particularly the server root.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5304</id>
+	<key><![CDATA[While developing, you can recompile scripts with]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5305</id>
+	<key><![CDATA[Ensure that the server starts up correctly. If so, kill the process with ctrl+c, so we can start it back up in background mode (daemon mode).]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5306</id>
+	<key><![CDATA[Apache]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5307</id>
+	<key><![CDATA[Using MSWS]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5308</id>
+	<key><![CDATA[Integrating with a server frontend]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5309</id>
+	<key><![CDATA[The next step is to install the webserver component. This creates the necessary config files, as well as integrating with systemd on unix systems, if installed. To install, run]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5310</id>
+	<key><![CDATA[The zeroth step is to install MethodScript to the command line. To do this, run]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5311</id>
+	<key><![CDATA[On all systems, a basic frontend is included by default. This allows you to start and stop the webserver, as well as recompile on demand. To increase performance, all server files are compiled once at startup, and then are no longer scanned, so recompilation is necessary during active development. In any case, the first step is to start up the web server. For test purposes, we will start the server in the foreground, so we can see any logging output.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

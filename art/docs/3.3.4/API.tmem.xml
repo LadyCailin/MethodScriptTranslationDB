@@ -9394,4 +9394,32 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-5280</id>
+	<key><![CDATA[Contains various methods for interacting with the Operating System. Some of the functions deal with OS specific mechanisms.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5281</id>
+	<key><![CDATA[OS]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5282</id>
+	<key><![CDATA[Returns the process id (pid) of the current process. In some implementations of Java, this cannot be relied on, and in those cases, an UnsupportedOperationException is thrown. In Java 9 and above, this can generally be relied upon to work correctly, however.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5283</id>
+	<key><![CDATA[ArrayHandling%sBasicLogic%sBossBar%sBukkitMetadata%sByteArrays%sClipboard%sCmdline%sCommands%sCompiler%sControlFlow%sCrypto%sDataHandling%sDataTransformations%sDebug%sEchoes%sEnchantments%sEntityManagement%sEnvironment%sEventBinding%sExceptions%sExecutionQueue%sExtensionMeta%sFileHandling%sInventoryManagement%sItemMeta%sMarquee%sMath%sMeta%sMinecraft%sMobManagement%sOAuth%sOS%sObjectManagement%sPerformance%sPermissions%sPersistence%sPlayerManagement%sPluginMeta%sRecipes%sReflection%sRegex%sResourceManager%sSQL%sSandbox%sScheduling%sScoreboards%sStatistics%sStringHandling%sTaskHandling%sThreading%sTrades%sWeather%sWeb%sWorld%sXGUI]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
