@@ -42486,4 +42486,20 @@
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
 </translationEntry>
+<translationEntry>
+	<id>5312</id>
+	<key><![CDATA[Fires when a player left or right clicks a block or the air. Note that this event may fire for the main hand, off hand, or twice, one for each hand, depending on the item priority and what is clicked. If you don't want multiple events, you can prefilter on hand.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5313</id>
+	<key><![CDATA[This event is fired off when a player runs any command at all. This actually fires before normal CommandHelper aliases, allowing you to insert control before defined aliases, even.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
 </summary>
