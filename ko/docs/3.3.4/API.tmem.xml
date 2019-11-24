@@ -9422,4 +9422,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-5314</id>
+	<key><![CDATA[Returns the name of the inventory holder specified. If the block or entity can&apos;t have an inventory or a name, an IllegalArgumentException is thrown. If the inventory was not given a title, an empty string is returned.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

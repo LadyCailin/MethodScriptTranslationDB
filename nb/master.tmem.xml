@@ -37191,4 +37191,32 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-5314</id>
+	<key><![CDATA[Returns the name of the inventory holder specified. If the block or entity can&apos;t have an inventory or a name, an IllegalArgumentException is thrown. If the inventory was not given a title, an empty string is returned.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5315</id>
+	<key><![CDATA[VEX]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5316</id>
+	<key><![CDATA[charging: Whether or not this vex is charging.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5317</id>
+	<key><![CDATA[Returns the name of the inventory holder specified. If the block or entity can't have an inventory or a name, an IllegalArgumentException is thrown. If the inventory was not given a title, an empty string is returned.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
