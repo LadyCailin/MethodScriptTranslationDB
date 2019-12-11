@@ -119,4 +119,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-5318</id>
+	<key><![CDATA[Returns an associative array containing the values of all existing gamerules for the given world. If the gameRule parameter is specified, the function only returns that one value instead of an array. The gameRule can be ANNOUNCEADVANCEMENTS, COMMANDBLOCKOUTPUT, DISABLEELYTRAMOVEMENTCHECK, DISABLERAIDS, DODAYLIGHTCYCLE, DOENTITYDROPS, DOFIRETICK, DOIMMEDIATERESPAWN, DOINSOMNIA, DOLIMITEDCRAFTING, DOMOBLOOT, DOMOBSPAWNING, DOTILEDROPS, DOWEATHERCYCLE, DROWNINGDAMAGE, FALLDAMAGE, FIREDAMAGE, KEEPINVENTORY, LOGADMINCOMMANDS, MAXCOMMANDCHAINLENGTH, MAXENTITYCRAMMING, MOBGRIEFING, NATURALREGENERATION, RANDOMTICKSPEED, REDUCEDDEBUGINFO, SENDCOMMANDFEEDBACK, SHOWDEATHMESSAGES, SPAWNRADIUS, or SPECTATORSGENERATECHUNKS.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

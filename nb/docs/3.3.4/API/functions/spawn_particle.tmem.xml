@@ -147,4 +147,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-5337</id>
+	<key><![CDATA[Possible particle types: SMOKE_NORMAL, ENCHANTMENT_TABLE, REDSTONE, SNOW_SHOVEL, BUBBLE_COLUMN_UP, SPELL_MOB, CAMPFIRE_SIGNAL_SMOKE, BLOCK_DUST, FALLING_HONEY, SWEEP_ATTACK, WATER_SPLASH, LANDING_LAVA, SLIME, FALLING_LAVA, DRAGON_BREATH, CURRENT_DOWN, DRIPPING_HONEY, ITEM_CRACK, FALLING_DUST, SNEEZE, WATER_BUBBLE, FLASH, VILLAGER_ANGRY, HEART, LANDING_HONEY, END_ROD, FALLING_NECTAR, CRIT_MAGIC, SUSPENDED, WATER_DROP, SPELL, FALLING_WATER, SPELL_INSTANT, LAVA, VILLAGER_HAPPY, SQUID_INK, CRIT, CLOUD, BUBBLE_POP, COMPOSTER, NAUTILUS, EXPLOSION_LARGE, TOWN_AURA, SUSPENDED_DEPTH, CAMPFIRE_COSY_SMOKE, NOTE, SNOWBALL, SPELL_MOB_AMBIENT, DAMAGE_INDICATOR, SMOKE_LARGE, TOTEM, BARRIER, EXPLOSION_NORMAL, FLAME, SPIT, PORTAL, MOB_APPEARANCE, DOLPHIN, SPELL_WITCH, DRIP_WATER, EXPLOSION_HUGE, WATER_WAKE, UNKNOWN, FIREWORKS_SPARK, DRIP_LAVA, or BLOCK_CRACK.  Some particles have more specific keys and/or special behavior, but the common keys for the particle array are "count" (usually the number of particles to be spawned), "speed" (usually the velocity of the particle), "xoffset", "yoffset", and "zoffset" (usually the ranges from center within which the particle may be offset on that axis).  BLOCK_DUST, BLOCK_CRACK and FALLING_DUST particles can take a block type name parameter under the key "block" (default: STONE).  ITEM_CRACK particles can take an item array or name under the key "item" (default: STONE).  REDSTONE particles take an RGB color array (each 0 - 255) or name under the key "color" (default: RED).]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
