@@ -9450,4 +9450,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-5339</id>
+	<key><![CDATA[Returns the block light level at a location. This counts block sources like torches and lava, disregarding light from the sky.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5340</id>
+	<key><![CDATA[Returns the sky light level for a location. Disregards all block sources of light, where 15 is directly beneath the sky during the day.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
