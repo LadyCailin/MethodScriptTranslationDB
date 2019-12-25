@@ -2835,4 +2835,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-5341</id>
+	<key><![CDATA[location%s: the locationArray of this piston%sdirection%s: direction of travel%ssticky%s: true if the piston is sticky, false otherwise%saffectedBlocks%s: blocks pushed/pulled]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5342</id>
+	<key><![CDATA[location%s: the locationArray of this piston%sdirection%s: direction of travel%ssticky%s: true if the piston is sticky, false otherwise%saffectedBlocks%s: blocks pushed/pulled%sretractedLocation%s: if the piston is sticky and attached to a block, where the attached block would end up]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

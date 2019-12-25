@@ -42718,4 +42718,20 @@
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
 </translationEntry>
+<translationEntry>
+	<id>5341</id>
+	<key><![CDATA[location%s: the locationArray of this piston%sdirection%s: direction of travel%ssticky%s: true if the piston is sticky, false otherwise%saffectedBlocks%s: blocks pushed/pulled]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5342</id>
+	<key><![CDATA[location%s: the locationArray of this piston%sdirection%s: direction of travel%ssticky%s: true if the piston is sticky, false otherwise%saffectedBlocks%s: blocks pushed/pulled%sretractedLocation%s: if the piston is sticky and attached to a block, where the attached block would end up]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
 </summary>
