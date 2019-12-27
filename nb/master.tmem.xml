@@ -37394,4 +37394,81 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-5343</id>
+	<key><![CDATA[Returns whether or not the block is locked if its lockable. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5344</id>
+	<key><![CDATA[Sets the string lock for this block if its lockable. Set an empty string or %s to remove lock. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5345</id>
+	<key><![CDATA[Returns the string lock for this block if its lockable. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5346</id>
+	<key><![CDATA[Returns whether or not the block is lockable. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5347</id>
+	<key><![CDATA[locationArray, string]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5348</id>
+	<key><![CDATA[Locks prevent players from accessing the block's interface unless they are holding an item key with the same display name as the lock. Throws IllegalArgumentException if used on a block that isn't lockable.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5349</id>
+	<key><![CDATA[Returns the string lock for this block if its lockable.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5350</id>
+	<key><![CDATA[Returns whether or not the block is lockable.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5351</id>
+	<key><![CDATA[Locks prevent players from accessing the block's interface unless they are holding an item key with the same display name as the lock.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5352</id>
+	<key><![CDATA[Returns whether or not the block is locked if its lockable.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5353</id>
+	<key><![CDATA[Sets the string lock for this block if its lockable. Set an empty string or %s to remove lock.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

@@ -9464,4 +9464,39 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-5343</id>
+	<key><![CDATA[Returns whether or not the block is locked if its lockable. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5344</id>
+	<key><![CDATA[Sets the string lock for this block if its lockable. Set an empty string or %s to remove lock. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5345</id>
+	<key><![CDATA[Returns the string lock for this block if its lockable. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5346</id>
+	<key><![CDATA[Returns whether or not the block is lockable. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5347</id>
+	<key><![CDATA[locationArray, string]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
