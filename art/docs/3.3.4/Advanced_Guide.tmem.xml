@@ -679,4 +679,18 @@
 	<translation></translation>
 	<auto><![CDATA[Døcs]]></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-5356</id>
+	<key><![CDATA[MethodScript files, both ms and msa files should have UTF-8 encoding. A byte order mark (BOM) may or may not be present.  While other encodings may work, particularly ASCII and others, the source files will be parsed using UTF-8. In the future, other encodings may be supported, but there is currently no plans to add this support in the near term.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5357</id>
+	<key><![CDATA[Source File Encoding]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
