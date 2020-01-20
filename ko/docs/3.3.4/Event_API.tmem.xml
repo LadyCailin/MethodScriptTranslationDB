@@ -2849,4 +2849,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-5365</id>
+	<key><![CDATA[action%s: One of either left_click_block, right_click_block, left_click_air, or right_click_air. If left or right_click_air, neither facing nor location will be present.%sblock%s: The type of block they clicked, or %s if clicked air or if the block is now empty.%sitem%s: The item array the player used to click, or %s if not holding anything in that hand%splayer%s: The player associated with this event%sfacing%s: The (lowercase) face of the block they clicked. (One of NORTH, EAST, SOUTH, WEST, UP, DOWN, NORTH_EAST, NORTH_WEST, SOUTH_EAST, SOUTH_WEST, WEST_NORTH_WEST, NORTH_NORTH_WEST, NORTH_NORTH_EAST, EAST_NORTH_EAST, EAST_SOUTH_EAST, SOUTH_SOUTH_EAST, SOUTH_SOUTH_WEST, WEST_SOUTH_WEST, or SELF)%slocation%s: The (x, y, z, world) location of the block they clicked%shand%s: The hand used to click with, can be either main_hand or off_hand]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

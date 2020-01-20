@@ -9506,4 +9506,25 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-5362</id>
+	<key><![CDATA[player, potionEffect, %s[%sstrength%s]%s, %s[%sseconds%s]%s, %s[%sambient%s]%s, %s[%sparticles%s]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5363</id>
+	<key><![CDATA[Adds one, or modifies an existing, potion effect on a mob. The potionEffect can be SLOWNESS, INVISIBILITY, SLOW_FALLING, BAD_OMEN, WEAKNESS, DOLPHINS_GRACE, INSTANT_DAMAGE, MINING_FATIGUE, SPEED, WITHER, LUCK, FIRE_RESISTANCE, WATER_BREATHING, GLOWING, ABSORPTION, HUNGER, BAD_LUCK, HERO_OF_THE_VILLAGE, REGENERATION, STRENGTH, BLINDNESS, LEVITATION, CONDUIT_POWER, JUMP_BOOST, POISON, NAUSEA, RESISTANCE, HEALTH_BOOST, NIGHT_VISION, INSTANT_HEALTH, HASTE, or SATURATION. It also accepts an integer corresponding to the effect id listed on the Minecraft wiki. Strength is an integer representing the power level of the effect, starting at 0. Seconds defaults to 30.0. To remove an effect, set the seconds to 0. If seconds is less than 0 or greater than 107374182 a RangeException is thrown. Ambient takes a boolean of whether the particles should be more transparent. Particles takes a boolean of whether the particles should be visible at all. The function returns whether or not the effect was modified.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5364</id>
+	<key><![CDATA[entityUUID, potionEffect, %s[%sstrength%s]%s, %s[%sseconds%s]%s, %s[%sambient%s]%s, %s[%sparticles%s]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
