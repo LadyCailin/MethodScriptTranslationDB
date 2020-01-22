@@ -42918,4 +42918,20 @@
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
 </translationEntry>
+<translationEntry>
+	<id>5366</id>
+	<key><![CDATA[Returns an associative array containing the values of all existing gamerules for the given world. If the gameRule parameter is specified, the function only returns that one value instead of an array. The gameRule can be ANNOUNCEADVANCEMENTS, COMMANDBLOCKOUTPUT, DISABLEELYTRAMOVEMENTCHECK, DISABLERAIDS, DODAYLIGHTCYCLE, DOENTITYDROPS, DOFIRETICK, DOIMMEDIATERESPAWN, DOINSOMNIA, DOLIMITEDCRAFTING, DOMOBLOOT, DOMOBSPAWNING, DOPATROLSPAWNING, DOTILEDROPS, DOTRADERSPAWNING, DOWEATHERCYCLE, DROWNINGDAMAGE, FALLDAMAGE, FIREDAMAGE, KEEPINVENTORY, LOGADMINCOMMANDS, MAXCOMMANDCHAINLENGTH, MAXENTITYCRAMMING, MOBGRIEFING, NATURALREGENERATION, RANDOMTICKSPEED, REDUCEDDEBUGINFO, SENDCOMMANDFEEDBACK, SHOWDEATHMESSAGES, SPAWNRADIUS, or SPECTATORSGENERATECHUNKS.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5367</id>
+	<key><![CDATA[Sets the value of the gamerule for the specified world. If world is not given the value is set for all worlds. Returns true if successful. gameRule can be ANNOUNCEADVANCEMENTS, COMMANDBLOCKOUTPUT, DISABLEELYTRAMOVEMENTCHECK, DISABLERAIDS, DODAYLIGHTCYCLE, DOENTITYDROPS, DOFIRETICK, DOIMMEDIATERESPAWN, DOINSOMNIA, DOLIMITEDCRAFTING, DOMOBLOOT, DOMOBSPAWNING, DOPATROLSPAWNING, DOTILEDROPS, DOTRADERSPAWNING, DOWEATHERCYCLE, DROWNINGDAMAGE, FALLDAMAGE, FIREDAMAGE, KEEPINVENTORY, LOGADMINCOMMANDS, MAXCOMMANDCHAINLENGTH, MAXENTITYCRAMMING, MOBGRIEFING, NATURALREGENERATION, RANDOMTICKSPEED, REDUCEDDEBUGINFO, SENDCOMMANDFEEDBACK, SHOWDEATHMESSAGES, SPAWNRADIUS, or SPECTATORSGENERATECHUNKS.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
 </summary>
