@@ -37569,4 +37569,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-5368</id>
+	<key><![CDATA[On Windows systems, you'll need to have launched your command prompt as Administrator. (To install on Windows Subsystem for Linux, follow the same instructions as for Unix.) A program ''mscript'' will be installed on your path, and a PowerShell Module will also be installed. Running ''mscript'' will launch the interpreter, running it with a file will run that file, and using ''mscript -- '' followed by a verb (such as help) will run the cmdline utilities.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5369</id>
+	<key><![CDATA[On Unix systems, you'll need to run the command with sudo. The installer will install an mscript bash file in /usr/local/bin/mscript, which simply wraps the jar. Running ''mscript'' will launch the interpreter, running it with a file will run that file, and using ''mscript -- '' followed by a verb (such as help) will run the cmdline utilities.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

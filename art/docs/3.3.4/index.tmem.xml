@@ -476,4 +476,18 @@
 	<translation><![CDATA[If ʎøü'rə üsîng thə cmdlînə vərsîøn, rün "java -jar commandhelper-%s-SNAPSHOT-full.jar help" før å lîstîng øf thə pøssîblə cømmånds, ånd "java -jar commandhelper-%s-SNAPSHOT-full.jar install-cmdline" tø înståll. Thə cønfîgüråtîøn dîrəctørʎ wîll bə cålləd MəthødScrîpt, ånd wîll bə în thə såmə dîrəctørʎ ås thə jår. If thə nåmə ør påth øf thə jår fîlə chångəs, ʎøü'll nəəd tø rə-înståll, sø ît måʎ bə prüdənt tø nåmə thə jår wîth å nəütrål nåmə thåt døəs nøt înclüdə thə vərsîøn nümbər.]]></translation>
 	<auto><![CDATA[If ʎøü'rə üsîng thə cmdlînə vərsîøn, rün "jåvå -jår cømmåndhəlpər-%s-SNAPSHOT-füll.jår həlp" før å lîstîng øf thə pøssîblə cømmånds, ånd "jåvå -jår cømmåndhəlpər-%s-SNAPSHOT-füll.jår înståll-cmdlînə" tø înståll. Thə cønfîgüråtîøn dîrəctørʎ wîll bə cålləd MəthødScrîpt, ånd wîll bə în thə såmə dîrəctørʎ ås thə jår. If thə nåmə ør påth øf thə jår fîlə chångəs, ʎøü'll nəəd tø rə-înståll, sø ît måʎ bə prüdənt tø nåmə thə jår wîth å nəütrål nåmə thåt døəs nøt înclüdə thə vərsîøn nümbər.]]></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-5368</id>
+	<key><![CDATA[On Windows systems, you'll need to have launched your command prompt as Administrator. (To install on Windows Subsystem for Linux, follow the same instructions as for Unix.) A program ''mscript'' will be installed on your path, and a PowerShell Module will also be installed. Running ''mscript'' will launch the interpreter, running it with a file will run that file, and using ''mscript -- '' followed by a verb (such as help) will run the cmdline utilities.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5369</id>
+	<key><![CDATA[On Unix systems, you'll need to run the command with sudo. The installer will install an mscript bash file in /usr/local/bin/mscript, which simply wraps the jar. Running ''mscript'' will launch the interpreter, running it with a file will run that file, and using ''mscript -- '' followed by a verb (such as help) will run the cmdline utilities.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
