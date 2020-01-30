@@ -37590,4 +37590,39 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-5371</id>
+	<key><![CDATA[Sets the owner of the skull at the given location by name or uuid. Supplying %s will clear the skull owner, but due to limitations in Bukkit, clients will only see this change after reloading the block. If no world is provided and the function is executed by a player, the player&apos;s world is used. If the block at the given location isn&apos;t a skull, a RangeException is thrown.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5372</id>
+	<key><![CDATA[locationArray, owner]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5373</id>
+	<key><![CDATA[Returns the owner name and uuid of the skull at the given location as an array in format: {name: NAME, uuid: UUID}, or %s if the skull does not have an owner. The value at the &apos;name&apos; key will be an empty string if the server does not know the player&apos;s name. If no world is provided and the function is executed by a player, the player&apos;s world is used. If the block at the given location isn&apos;t a skull, a RangeException is thrown.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5374</id>
+	<key><![CDATA[Returns the owner name and uuid of the skull at the given location as an array in format: {name: NAME, uuid: UUID}, or %s if the skull does not have an owner. The value at the 'name' key will be an empty string if the server does not know the player's name. If no world is provided and the function is executed by a player, the player's world is used. If the block at the given location isn't a skull, a RangeException is thrown.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5375</id>
+	<key><![CDATA[Sets the owner of the skull at the given location by name or uuid. Supplying %s will clear the skull owner, but due to limitations in Bukkit, clients will only see this change after reloading the block. If no world is provided and the function is executed by a player, the player's world is used. If the block at the given location isn't a skull, a RangeException is thrown.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
