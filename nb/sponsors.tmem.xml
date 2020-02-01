@@ -175,4 +175,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-5376</id>
+	<key><![CDATA[Ian Burgwin (ihaveahax) - [%s %s]%s %sJessassin]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
