@@ -196,4 +196,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-5379</id>
+	<key><![CDATA[thgilfodrol - [%s %s] %s %sLilDirt]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
