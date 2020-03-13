@@ -37653,4 +37653,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-5380</id>
+	<key><![CDATA[Returns true if all the arguments are equal. Operator syntax is also supported: @a]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5381</id>
+	<key><![CDATA[One of the following methods: POST, GET, HEAD, OPTIONS, PUT, DELETE, TRACE, PATCH. If %s, it will use GET if there are no params, or POST if there are.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

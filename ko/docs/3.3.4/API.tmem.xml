@@ -9562,4 +9562,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-5380</id>
+	<key><![CDATA[Returns true if all the arguments are equal. Operator syntax is also supported: @a]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

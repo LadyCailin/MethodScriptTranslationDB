@@ -175,4 +175,11 @@
 	<translation></translation>
 	<auto><![CDATA[Døcs]]></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-5380</id>
+	<key><![CDATA[Returns true if all the arguments are equal. Operator syntax is also supported: @a]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
