@@ -37667,4 +37667,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-5382</id>
+	<key><![CDATA[With braces/case/default. Note the lack of fallthrough, even without a break(), except where cases are directly back to back.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
