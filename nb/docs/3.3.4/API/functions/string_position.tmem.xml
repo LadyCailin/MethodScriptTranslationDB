@@ -161,4 +161,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-5389</id>
+	<key><![CDATA[Finds the numeric position of the first occurrence of needle in haystack. haystack is the string to search in, and needle is the string to search with. Returns the position of the needle (starting with 0) or -1 if the string is not found at all.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

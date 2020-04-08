@@ -245,4 +245,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-5408</id>
+	<key><![CDATA[Besides making this more readable anyways, neither of these cases are ambiguous anymore, and an error can be raised if a loose parenthetical is used alongside an actual function, and it will only attempt to call the procedure if two loose parentheticals are next to each other.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5409</id>
+	<key><![CDATA[Quite simply, they aren't yet needed. Take javascript for instance, it does not have them either. Javascript will however "insert" them for you wherever you have a newline. Eventually, MethodScript will require them in a very few cases, at which point they will be introduced. Additionally, it will be possible to detect when an ambiguous situation is present, and trigger a compile error, instead of using javascript's approach and inferring where the separators are needed. They will be required once execution of closures via () is added. Consider the following theoretical syntax:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

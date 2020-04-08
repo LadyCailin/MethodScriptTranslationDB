@@ -1295,4 +1295,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-5425</id>
+	<key><![CDATA[size: The size of the phantom. Clamped to 0 - 64 (default: 0). Phantoms deal (6 + size) damage.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5426</id>
+	<key><![CDATA[PHANTOM]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

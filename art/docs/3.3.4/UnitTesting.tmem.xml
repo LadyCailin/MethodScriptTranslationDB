@@ -280,4 +280,18 @@
 	<translation></translation>
 	<auto><![CDATA[Døcs]]></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-5421</id>
+	<key><![CDATA[However, there may be legitimate reasons to allow side effects. This is allowed by using the allowSideEffects parameter of the @{TestSuite} annotation. This is false by default, but if set to true, then for that test suite only, none of the external restrictions are enforced (persistence network, read/write, http_request). Additionally, within the test suite, the state of the environment is not reset before each test, though @{BeforeTest} and @{AfterTest} are still run before and after the test. There is also a guarantee that tests will run in order, from top to bottom, and they will not run in parallel. In general, this has many drawbacks, however, and will considerably slow down your unit tests, so should be used sparingly, if ever. Generally, the better solution is to refactor your actual code and tests such that  the tests can run independently of each other.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5422</id>
+	<key><![CDATA[In some cases, a more complex mechanism needs to be used, particularly when the item under test does not return a value, but interacts with a value passed in, most generally a closure. In that case, you can use thenDo to give it an action to do when it is called, rather than having it return a value. The closure sent to thenDo will receive the arguments that were passed in to the original function.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

@@ -161,4 +161,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-5444</id>
+	<key><![CDATA[Writes a file to the file system. This method only works from the cmdline, if not in cmdline, a SecurityException is thrown. Because of this, there is no check against the base-dir path.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

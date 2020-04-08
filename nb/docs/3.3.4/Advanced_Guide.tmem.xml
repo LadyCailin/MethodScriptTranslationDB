@@ -693,4 +693,25 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-5396</id>
+	<key><![CDATA[You can actually reload these sub-modules individually if you want, by passing parameters to the command. There are two  modes, whitelist, or by default, blacklist. In blacklist mode, all modules get reloaded except the modules that are  blacklisted, which aren't reloaded. In whitelist mode, only the specified modules are reloaded. You use the underlined  letter to refer to that specific module. For instance, if you want to reload everything but leave the exported variables  and execution queue alone, you can run %s/recompile -ge%s. If you ONLY want to reload tasks, you can run %s/recompile --whitelist -t%s. Note that reloading individual modules isn't normally encouraged, because it can put your server in an inconsistent and unreproducible state if you aren't careful. Running  %s/recompile%s by itself (which reloads everything) is recommended. You can also run  %s/recompile -h%s for the usage instructions and long options list.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5397</id>
+	<key><![CDATA[ivariable - An ivariable (or simply a variable) is a variable that can be defined and used from within the script.  Constant variables ($var), are assigned by the user at command runtime, and are technically constants as far as the  rest of the script is concerned. IVariables can be defined by the script writer and assigned various values that can  change throughout the script running. To define and use an ivariable, use the assign() function, or the = operator.  If an ivariable is used without first being defined, the value of the variable will be 0, 0.0, ,  false, or %s, depending on how it is used. Most functions use the value in the ivariable without caring that it is  an ivariable, but it is possible that a function requires that a certain argument be an ivariable, such as the for()  function.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5398</id>
+	<key><![CDATA[Pe%sr%ssistence-Config - Any changes to the persistence.ini file are reloaded]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

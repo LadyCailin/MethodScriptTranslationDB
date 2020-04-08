@@ -266,4 +266,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-5417</id>
+	<key><![CDATA[Using square braces allows for array accesses, and in combination with the %s=%s sign, setting sub-indices. If the array set appears on the right hand side of an assignment, or in a general statement without an assign, it is an array_get operation. If it appears on the left hand side of an assignment, it is an array_set operation. The brackets apply to the element just preceding, for instance with %s@var['index']%s, it is assumed that %s@var%s is an array or array like value. Empty braces, %s[]%s, when on the left hand side works as an array push, and when on the right hand side, or in a general statement without an assign, it is an array clone operation (which ultimately still uses array_get). Sub-strings within strings may be pulled out using the bracket notation as well, and slices are supported. %sarray(1, 2, 3)[1..2]%s returns an array with 2 elements in it, namely 2 and 3. %s'string'[0]%s returns 's', and %s'string'[0..1]%s returns 'st'.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5418</id>
+	<key><![CDATA[When in strict mode, use of functional notation instead of operators triggers a compiler warning. This warning is suppressible, however.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

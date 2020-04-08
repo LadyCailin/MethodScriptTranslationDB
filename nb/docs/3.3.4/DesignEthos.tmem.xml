@@ -210,4 +210,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-5407</id>
+	<key><![CDATA[However, a programmer shouldn't have to specify every last little detail when telling a program what to do. Reasonable defaults should be used, though they should always be able to be overridden. A good example of this is in day to day speech. When speaking with another human, if we give them a task, we often times leave off details that don't really matter. For instance, if I told you to go water the lawn, and there are two hoses in the garage, you're not going to need to come back and ask me which host to use, you would just select one. However, if one were broken, I would have to go out of my way to tell you to use the one on the left, but this is an exceptional circumstance, and I shouldn't have to explicitly tell you every detail in the typical case.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

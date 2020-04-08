@@ -483,4 +483,53 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-5428</id>
+	<key><![CDATA[The highest number that can be represented as a float]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5429</id>
+	<key><![CDATA[The highest number that can be represented as a double]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5430</id>
+	<key><![CDATA[The highest number that can be represented as a long]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5431</id>
+	<key><![CDATA[The highest number that can be represented as a byte]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5432</id>
+	<key><![CDATA[The highest number that can be represented as a short]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5433</id>
+	<key><![CDATA[A representation of an undefined number (Not a Number), per the IEEE 754 standard]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5434</id>
+	<key><![CDATA[The highest number that can be represented as a integer]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

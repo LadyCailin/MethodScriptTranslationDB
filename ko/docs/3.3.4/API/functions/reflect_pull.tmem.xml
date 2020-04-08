@@ -273,4 +273,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-5436</id>
+	<key><![CDATA[Returns information about the runtime in a usable format. Depending on the information returned, it may be usable directly, or it may be more of a referential format.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

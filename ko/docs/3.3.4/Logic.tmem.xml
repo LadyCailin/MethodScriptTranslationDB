@@ -385,4 +385,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-5413</id>
+	<key><![CDATA[Null values are always considered false. All primitives, and some more complex objects implement the %s type, which allows them to return true if the value is '''trueish''', meaning that while the value itself is not a boolean, it has a true/false interpretation, and can explicitly be cast to a boolean with the %s function. This is a generic concept though, and so it's not possible to create a comprehensive list of things that are supported with this mechanism.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

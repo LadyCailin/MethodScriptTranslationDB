@@ -350,4 +350,25 @@
 	<translation></translation>
 	<auto><![CDATA[Døcs]]></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-5404</id>
+	<key><![CDATA[The Service annotation can only be applied to a concrete class, though in some cases, is optional. The required case is when there is a Contract, at least one Service must implement that Contract. However, you may have Services without a Contract, and in many cases, even without the configuration, a class is usable as a Service. When it comes to using the DI framework (rather than configuring it), Services (explicitly declared or assumed) can be used as a Contract, so the following is valid:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5405</id>
+	<key><![CDATA[When DI::construct is called on a class, the parameters are automatically constructed, using the rules defined in the configuration. Classes that have the default injectability are constructed using the %s@{Inject}%sable constructor. This process happens recursively, until all parameters required are constructed. In general, there should only be one call to DI::construct per entry point in your program. This helps ensure that your entire ecosystem is correctly configured to handle DI properly, though there are a few legitimate reasons to call this manually.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5406</id>
+	<key><![CDATA[Once set up, this makes it possible to remove most/all uses of the '''new''' keyword in your code, which makes your code more flexible and easier to write. Every use of the '''new''' keyword adds a point of  '''[%s tight coupling]]''', which makes your program less flexible down the road. Instead, using dependency injection essentially allows you to delegate the creation of objects to a centralized place, allowing for easy and quick changes down the road. However, in order to make use of these features, the code you write must explicitly opt in to this system, using the built in dependency injection framework. Configuration will be covered below, but let's assume that we have already configured the system, in that case, we can use the following in our normal code to take advantage of it.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

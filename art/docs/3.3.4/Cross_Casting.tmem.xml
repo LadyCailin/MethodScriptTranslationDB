@@ -231,4 +231,11 @@
 	<translation></translation>
 	<auto><![CDATA[Døcs]]></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-5400</id>
+	<key><![CDATA[It is also worth noting that when using the auto keyword explicitly, this can open the door to failure to catch errors at compile time, as demonstrated in the above example with the auto keyword usage. Generally speaking, well maintainable software should not need to use the auto keyword explicitly, though it is ok to take advantage of the cross casting features when using hardcoded instances of objects, such as in example 4 above.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

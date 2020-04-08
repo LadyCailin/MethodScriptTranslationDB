@@ -196,4 +196,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-5411</id>
+	<key><![CDATA[Delays can be inserted into a queue as well. This delay will suspend the queue's operation momentarily, but will not  freeze the server, since the delay will be on the execution queue's thread, not the server thread. This is a separate  operation, and uses the %s function.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5412</id>
+	<key><![CDATA[Queueing up the operations should complete relatively fast, but the full task will take a while.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

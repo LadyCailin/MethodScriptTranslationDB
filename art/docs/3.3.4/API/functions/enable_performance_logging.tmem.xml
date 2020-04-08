@@ -105,4 +105,11 @@
 	<translation></translation>
 	<auto><![CDATA[Døcs]]></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-5387</id>
+	<key><![CDATA[Enables performance logging. The allow-profiling option must be set to true in your preferences file, and play-dirty mode must be active. If allow-profiling is set to false, a SecurityException is thrown. The debug filters are used by the performance logger, if you choose to filter through the events. See the documentation for more details on performance logging.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

@@ -119,4 +119,11 @@
 	<translation></translation>
 	<auto><![CDATA[Døcs]]></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-5442</id>
+	<key><![CDATA[Returns true if the string needle is found anywhere within the string haystack (while ignoring case). This is functionally equivalent to string_position(to_lower(@haystack), to_lower(@needle)) != -1, but is generally clearer.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

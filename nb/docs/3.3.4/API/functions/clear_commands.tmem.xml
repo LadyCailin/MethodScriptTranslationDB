@@ -105,4 +105,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-5390</id>
+	<key><![CDATA[Attempts to clear all registered commands on the server. Vanilla and default Spigot functions are not affected, but all plugins commands are.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

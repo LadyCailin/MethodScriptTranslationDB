@@ -37674,4 +37674,438 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-5383</id>
+	<key><![CDATA[Counts the number of occurrences in the subject.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5384</id>
+	<key><![CDATA[Writes a file to the file system. This method only works from the cmdline, if not in cmdline, a SecurityException is thrown. Because of this, there is no check against the base-dir path. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5385</id>
+	<key><![CDATA[Spawns the specified number of entities of the given type at the given location. Returns an array of entity UUIDs of what is spawned. Qty defaults to 1 and location defaults to the location of the commandsender, if it is a block or player. If the commandsender is console, location must be supplied. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5386</id>
+	<key><![CDATA[Returns information about the runtime in a usable format. Depending on the information returned, it may be usable directly, or it may be more of a referential format. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5387</id>
+	<key><![CDATA[Enables performance logging. The allow-profiling option must be set to true in your preferences file, and play-dirty mode must be active. If allow-profiling is set to false, a SecurityException is thrown. The debug filters are used by the performance logger, if you choose to filter through the events. See the documentation for more details on performance logging.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5388</id>
+	<key><![CDATA[Sets a task to run every so often. This works similarly to set_timeout, except the task will automatically re-register itself to run again. Note that the resolution of the time is in ms, however, the server will only have a resolution of up to 50 ms, meaning that a time of 1-50ms is essentially the same as 50ms. The initial delay defaults to the same thing as timeInMS, that is, there will be a pause between registration and initial firing. However, this can be set to 0 (or some other number) to adjust how long of a delay there is before it begins.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5389</id>
+	<key><![CDATA[Finds the numeric position of the first occurrence of needle in haystack. haystack is the string to search in, and needle is the string to search with. Returns the position of the needle (starting with 0) or -1 if the string is not found at all.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5390</id>
+	<key><![CDATA[Attempts to clear all registered commands on the server. Vanilla and default Spigot functions are not affected, but all plugins commands are.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5391</id>
+	<key><![CDATA[Replaces any occurrences of pattern with the replacement in subject. Back references are allowed.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5392</id>
+	<key><![CDATA[&quot;Super Cancels&quot; an event. This only will work if play-dirty is set to true. If an event is super cancelled, not only is the cancelled flag set to true, the event stops propagating down, so no other plugins (as in other server plugins, not just CH scripts) will receive the event at all  (other than monitor level plugins). This is useful for overriding event handlers for plugins that don&apos;t respect the cancelled flag. This function hooks into the play-dirty framework that injects custom event handlers into bukkit.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5393</id>
+	<key><![CDATA[Returns true if the string needle is found anywhere within the string haystack (while ignoring case). This is functionally equivalent to string_position(to_lower(@haystack), to_lower(@needle)) | %sNo]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5394</id>
+	<key><![CDATA[Returns true if the string needle is found anywhere within the string haystack. This is functionally equivalent to string_position(@haystack, @needle)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5395</id>
+	<key><![CDATA[Fires when a player left or right clicks a block or the air. Note that this event may fire for the main hand, off hand, or twice, one for each hand, depending on the item priority and what is clicked. If you don't want multiple events, you can prefilter on hand. If you want to remove the item that is being used, you must also cancel the event.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5396</id>
+	<key><![CDATA[You can actually reload these sub-modules individually if you want, by passing parameters to the command. There are two  modes, whitelist, or by default, blacklist. In blacklist mode, all modules get reloaded except the modules that are  blacklisted, which aren't reloaded. In whitelist mode, only the specified modules are reloaded. You use the underlined  letter to refer to that specific module. For instance, if you want to reload everything but leave the exported variables  and execution queue alone, you can run %s/recompile -ge%s. If you ONLY want to reload tasks, you can run %s/recompile --whitelist -t%s. Note that reloading individual modules isn't normally encouraged, because it can put your server in an inconsistent and unreproducible state if you aren't careful. Running  %s/recompile%s by itself (which reloads everything) is recommended. You can also run  %s/recompile -h%s for the usage instructions and long options list.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5397</id>
+	<key><![CDATA[ivariable - An ivariable (or simply a variable) is a variable that can be defined and used from within the script.  Constant variables ($var), are assigned by the user at command runtime, and are technically constants as far as the  rest of the script is concerned. IVariables can be defined by the script writer and assigned various values that can  change throughout the script running. To define and use an ivariable, use the assign() function, or the = operator.  If an ivariable is used without first being defined, the value of the variable will be 0, 0.0, ,  false, or %s, depending on how it is used. Most functions use the value in the ivariable without caring that it is  an ivariable, but it is possible that a function requires that a certain argument be an ivariable, such as the for()  function.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5398</id>
+	<key><![CDATA[Pe%sr%ssistence-Config - Any changes to the persistence.ini file are reloaded]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5399</id>
+	<key><![CDATA[To install MethodScript on your system, download the CommandHelper jar, and place it in a sensible location. If you are  already running a Minecraft server with CommandHelper installed, the jar file there will suffice, though you may wish to  place a copy of it elsewhere, as otherwise your persistence databases and settings will be combined. (Keep in mind that  using serialized persistence is NOT thread safe, and so you run the risk of corrupting your database by having two  instances of CH running at once, if they are both writing to the persistence db.)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5400</id>
+	<key><![CDATA[It is also worth noting that when using the auto keyword explicitly, this can open the door to failure to catch errors at compile time, as demonstrated in the above example with the auto keyword usage. Generally speaking, well maintainable software should not need to use the auto keyword explicitly, though it is ok to take advantage of the cross casting features when using hardcoded instances of objects, such as in example 4 above.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5401</id>
+	<key><![CDATA[THIS FEATURE IS NOT YET IMPLEMENTED. Refactoring allows you to transfer your data from one backend to the other. By  default, CommandHelper uses the SerializedPersistence backend, but say after running your server for a while, you  decide to switch to another backend type, perhaps MySQL. You can use the refactor tool to easily transfer all of your  data from the SerializedPersistence backend to the new MySQL backend, without any hassle, and without losing any data.  As new backend providers become available, this tool will be updated, so you are able to switch around as often as  desired.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5402</id>
+	<key><![CDATA[The merge tool allows you to move entire databases around. It works by you specifying a source database, and a  destination database, and it moves ALL the keys over to the new database, without touching the source. If there are  key conflicts, it will prompt you for a decision, so it should be safe from accidental data loss. The merge tool isn't  necessarily a replacement for the import and export tools, because it doesn't work transparently; it will only operate  on entire databases at a time, as opposed to namespaces and such. However, it can be used as a crude method of importing  and exporting, and if your entire persistence network is contained in one database, it will work exactly like a full  import/export. -->]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5403</id>
+	<key><![CDATA[The data manager is an interactive shell program that runs as a standalone program. Before using the data manager to  edit your data, you should first ensure that nothing else is using your persistence files (so, shut down your server).  The only exception to this is for locking databases, such as SQL based backends, there should be no issues with  read/write access, even if the server is running, and read access for all other backends.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5404</id>
+	<key><![CDATA[The Service annotation can only be applied to a concrete class, though in some cases, is optional. The required case is when there is a Contract, at least one Service must implement that Contract. However, you may have Services without a Contract, and in many cases, even without the configuration, a class is usable as a Service. When it comes to using the DI framework (rather than configuring it), Services (explicitly declared or assumed) can be used as a Contract, so the following is valid:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5405</id>
+	<key><![CDATA[When DI::construct is called on a class, the parameters are automatically constructed, using the rules defined in the configuration. Classes that have the default injectability are constructed using the %s@{Inject}%sable constructor. This process happens recursively, until all parameters required are constructed. In general, there should only be one call to DI::construct per entry point in your program. This helps ensure that your entire ecosystem is correctly configured to handle DI properly, though there are a few legitimate reasons to call this manually.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5406</id>
+	<key><![CDATA[Once set up, this makes it possible to remove most/all uses of the '''new''' keyword in your code, which makes your code more flexible and easier to write. Every use of the '''new''' keyword adds a point of  '''[%s tight coupling]]''', which makes your program less flexible down the road. Instead, using dependency injection essentially allows you to delegate the creation of objects to a centralized place, allowing for easy and quick changes down the road. However, in order to make use of these features, the code you write must explicitly opt in to this system, using the built in dependency injection framework. Configuration will be covered below, but let's assume that we have already configured the system, in that case, we can use the following in our normal code to take advantage of it.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5407</id>
+	<key><![CDATA[However, a programmer shouldn't have to specify every last little detail when telling a program what to do. Reasonable defaults should be used, though they should always be able to be overridden. A good example of this is in day to day speech. When speaking with another human, if we give them a task, we often times leave off details that don't really matter. For instance, if I told you to go water the lawn, and there are two hoses in the garage, you're not going to need to come back and ask me which host to use, you would just select one. However, if one were broken, I would have to go out of my way to tell you to use the one on the left, but this is an exceptional circumstance, and I shouldn't have to explicitly tell you every detail in the typical case.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5408</id>
+	<key><![CDATA[Besides making this more readable anyways, neither of these cases are ambiguous anymore, and an error can be raised if a loose parenthetical is used alongside an actual function, and it will only attempt to call the procedure if two loose parentheticals are next to each other.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5409</id>
+	<key><![CDATA[Quite simply, they aren't yet needed. Take javascript for instance, it does not have them either. Javascript will however "insert" them for you wherever you have a newline. Eventually, MethodScript will require them in a very few cases, at which point they will be introduced. Additionally, it will be possible to detect when an ambiguous situation is present, and trigger a compile error, instead of using javascript's approach and inferring where the separators are needed. They will be required once execution of closures via () is added. Consider the following theoretical syntax:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5410</id>
+	<key><![CDATA[The stack trace can help you trace back the actual error, as the error itself is not necessarily with the top line in the stacktrace, which is where the actual exception was thrown. Instead, it might be because you're passing in an invalid parameter to a proc, so it may be useful to step back a few items in the stack trace to see what's calling what. Several things are added to the stack trace, particularly procedure stack, but also closures and includes.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5411</id>
+	<key><![CDATA[Delays can be inserted into a queue as well. This delay will suspend the queue's operation momentarily, but will not  freeze the server, since the delay will be on the execution queue's thread, not the server thread. This is a separate  operation, and uses the %s function.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5412</id>
+	<key><![CDATA[Queueing up the operations should complete relatively fast, but the full task will take a while.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5413</id>
+	<key><![CDATA[Null values are always considered false. All primitives, and some more complex objects implement the %s type, which allows them to return true if the value is '''trueish''', meaning that while the value itself is not a boolean, it has a true/false interpretation, and can explicitly be cast to a boolean with the %s function. This is a generic concept though, and so it's not possible to create a comprehensive list of things that are supported with this mechanism.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5414</id>
+	<key><![CDATA[In the first stage of connection, the interpreter handshakes with the remote connection, and requests an initial capabilities list.  These capabilities are considered non-authoritative client side, but are used to minimize network connections that would fail. All capabilities may be claimed to be dynamic however, and the server is free to send meta information to adjust this list at any time. The client has the option in certain circumstances to ignore this list, so it is important to note that this is not a security mechanism. If a request does fail for capability reasons, that information is cached in these tables. This capability list doubles as a "permission" list.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5415</id>
+	<key><![CDATA[So what is the Class Library? It is simply a folder in your project directory that contains several .ms files, which define classes. Your "default" class library is defined within the classLibrary/ folder in your installation, but each LocalPackage may have their own classLibrary folder as well. MSLP files will have their own class library bundled in as well. When an .ms file is defined within a class library, the rest of your code does not have to do anything extra to load them in; at compile time, they will all be loaded automatically, and added to the object definition table that is usable at runtime throughout the rest of your code. There can be no directly executable code within these file, however, and this is enforced by the compiler. There may be only one outer class definition per file, and the fully qualified class name will be the path of the class, starting at the root of the class library folder. For instance, if we have the following file structure:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5416</id>
+	<key><![CDATA[Note that we are explicitely calling A's constructor with the call to super,  and A's method2. If there had been several parents, this could be used to  "un-override" a call, or otherwise explicitely selected a method that had been  overridden by multiple children. This is useful outside of diamond inheritance,  but is more often used when dealing with multiple inheritance. Note that in the  case of super() constructors, it is always an error to cause a child's  constructor to be invoked before the parent's constructor. Calling a parent's method is only valid inside the class, an overridden method is not callable from outside of the instance.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5417</id>
+	<key><![CDATA[Using square braces allows for array accesses, and in combination with the %s=%s sign, setting sub-indices. If the array set appears on the right hand side of an assignment, or in a general statement without an assign, it is an array_get operation. If it appears on the left hand side of an assignment, it is an array_set operation. The brackets apply to the element just preceding, for instance with %s@var['index']%s, it is assumed that %s@var%s is an array or array like value. Empty braces, %s[]%s, when on the left hand side works as an array push, and when on the right hand side, or in a general statement without an assign, it is an array clone operation (which ultimately still uses array_get). Sub-strings within strings may be pulled out using the bracket notation as well, and slices are supported. %sarray(1, 2, 3)[1..2]%s returns an array with 2 elements in it, namely 2 and 3. %s'string'[0]%s returns 's', and %s'string'[0..1]%s returns 'st'.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5418</id>
+	<key><![CDATA[When in strict mode, use of functional notation instead of operators triggers a compiler warning. This warning is suppressible, however.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5419</id>
+	<key><![CDATA[This will cause the routines that are currently blocked to throw the exception, and future calls to rwait will immediately throw as well. This provides a convenient "out" for the routines, if an indeterminate amount of data is being processed.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5420</id>
+	<key><![CDATA[Writing readable code is a huge part of easily debugging potential problems. While technically the compiler can read your code no matter how it's formatted (so long as it is syntactically correct), the compiler isn't the only thing that needs to read it, humans do too. So making your code "pretty" is a big step in making maintainable, debuggable, and shareable code. Many code styles are equally readable, and so in many cases, it is pure preference how you choose to format your code, however, this style guide is what will be used by any standard compliant code formatting tools that may be written in the future, and so following these examples is good practice.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5421</id>
+	<key><![CDATA[However, there may be legitimate reasons to allow side effects. This is allowed by using the allowSideEffects parameter of the @{TestSuite} annotation. This is false by default, but if set to true, then for that test suite only, none of the external restrictions are enforced (persistence network, read/write, http_request). Additionally, within the test suite, the state of the environment is not reset before each test, though @{BeforeTest} and @{AfterTest} are still run before and after the test. There is also a guarantee that tests will run in order, from top to bottom, and they will not run in parallel. In general, this has many drawbacks, however, and will considerably slow down your unit tests, so should be used sparingly, if ever. Generally, the better solution is to refactor your actual code and tests such that  the tests can run independently of each other.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5422</id>
+	<key><![CDATA[In some cases, a more complex mechanism needs to be used, particularly when the item under test does not return a value, but interacts with a value passed in, most generally a closure. In that case, you can use thenDo to give it an action to do when it is called, rather than having it return a value. The closure sent to thenDo will receive the arguments that were passed in to the original function.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5423</id>
+	<key><![CDATA[Some functions cannot be run directly on the client side, because they need data from the server. In this case, many functions transparently will compile to applicable javascript, and handle both the server and client side code to do manage this process for you. For instance, let's assume we want to read information from the persistence data on the server. We can simply use async_get_value like normal (get_value isn't available in the javascript compiler), and the call will still work.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5424</id>
+	<key><![CDATA[This may be a remote file accessed with an SCP style path. (See the [[%s|wiki article]] about SCP credentials for more information.) If the file is not found, or otherwise can't be read in, an IOException is thrown. If the file specified is not within base-dir (as specified in the preferences file), a SecurityException is thrown. (This is not applicable for remote files) The line endings for the string returned will always be \n, even if they originally were \r\n. This method will immediately return, and asynchronously read in the file, and finally send the contents to the callback once the task completes. The callback should have the following signature: closure(@contents, @exception){ &lt;code&gt; }. If @contents is %s, that indicates that an exception occurred, and @exception will not be %s, but instead have an exception array. Otherwise, @contents will contain the file's contents, and @exception will be %s. This method is useful to use in two cases, either you need a remote file via SCP, or a local file is big enough that you notice a delay when simply using the read() function. async_read is threadsafe.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5425</id>
+	<key><![CDATA[size: The size of the phantom. Clamped to 0 - 64 (default: 0). Phantoms deal (6 + size) damage.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5426</id>
+	<key><![CDATA[PHANTOM]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5427</id>
+	<key><![CDATA[marqueeName is optional, but required if you wish to stop the marquee at any point. text is the text that the marquee should scroll, stringWidth is the width of the string you wish to receive, delayTime is the time between character scrolls, and callback is a closure that should receive a string which will be exactly stringWidth long. (The string will have been wrapped as needed if it is less than that size.) This is usually used in combination with signs, but in theory could be used with anything that uses text.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5428</id>
+	<key><![CDATA[The highest number that can be represented as a float]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5429</id>
+	<key><![CDATA[The highest number that can be represented as a double]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5430</id>
+	<key><![CDATA[The highest number that can be represented as a long]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5431</id>
+	<key><![CDATA[The highest number that can be represented as a byte]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5432</id>
+	<key><![CDATA[The highest number that can be represented as a short]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5433</id>
+	<key><![CDATA[A representation of an undefined number (Not a Number), per the IEEE 754 standard]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5434</id>
+	<key><![CDATA[The highest number that can be represented as a integer]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5435</id>
+	<key><![CDATA[Basic usage, with one parameter]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5436</id>
+	<key><![CDATA[Returns information about the runtime in a usable format. Depending on the information returned, it may be usable directly, or it may be more of a referential format.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5437</id>
+	<key><![CDATA[Demonstrates compatibility with string class]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5438</id>
+	<key><![CDATA[Demonstrates common usage]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5439</id>
+	<key><![CDATA[Spawns the specified number of entities of the given type at the given location. Returns an array of entity UUIDs of what is spawned. Qty defaults to 1 and location defaults to the location of the commandsender, if it is a block or player. If the commandsender is console, location must be supplied.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5440</id>
+	<key><![CDATA[Entitytype can be one of AREA_EFFECT_CLOUD, ARMOR_STAND, ARROW, BAT, BEE, BLAZE, BOAT, CAT, CAVE_SPIDER, CHICKEN, COD, COW, CREEPER, DOLPHIN, DRAGON_FIREBALL, DROPPED_ITEM, DROWNED, DONKEY, EGG, ELDER_GUARDIAN, ENDERMAN, ENDERMITE, ENDER_CRYSTAL, ENDER_DRAGON, ENDER_EYE, ENDER_PEARL, EVOKER, EVOKER_FANGS, EXPERIENCE_ORB, FALLING_BLOCK, FIREBALL, FIREWORK, FOX, GHAST, GIANT, GUARDIAN, HORSE, HUSK, ILLUSIONER, IRON_GOLEM, ITEM_FRAME, LLAMA, LLAMA_SPIT, LEASH_HITCH, LIGHTNING, MAGMA_CUBE, MINECART, MINECART_CHEST, MINECART_COMMAND, MINECART_FURNACE, MINECART_HOPPER, MINECART_MOB_SPAWNER, MINECART_TNT, MULE, MUSHROOM_COW, OCELOT, PAINTING, PANDA, PARROT, PHANTOM, PIG, PIG_ZOMBIE, PILLAGER, POLAR_BEAR, PRIMED_TNT, PUFFERFISH, RABBIT, RAVAGER, SALMON, SHEEP, SILVERFISH, SKELETON, SHULKER, SHULKER_BULLET, SKELETON_HORSE, SLIME, SMALL_FIREBALL, SNOWBALL, SNOWMAN, SQUID, SPECTRAL_ARROW, SPIDER, SPLASH_POTION, STRAY, THROWN_EXP_BOTTLE, TRADER_LLAMA, TRIDENT, TROPICAL_FISH, TURTLE, VEX, VILLAGER, VINDICATOR, WANDERING_TRADER, WITCH, WITHER, WITHER_SKELETON, WITHER_SKULL, WOLF, ZOMBIE, ZOMBIE_HORSE or ZOMBIE_VILLAGER. FALLING_BLOCK will be SAND (can use %s instead). DROPPED_ITEM will be STONE (can use %s instead). If not FALLING_BLOCK or DROPPED_ITEM, a closure can be used as the last argument to modify the entity before adding it to the world. The entity's UUID is passed to the closure.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5441</id>
+	<key><![CDATA[Returns true if the string needle is found anywhere within the string haystack. This is functionally equivalent to string_position(@haystack, @needle) != -1, but is generally clearer.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5442</id>
+	<key><![CDATA[Returns true if the string needle is found anywhere within the string haystack (while ignoring case). This is functionally equivalent to string_position(to_lower(@haystack), to_lower(@needle)) != -1, but is generally clearer.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5443</id>
+	<key><![CDATA["Super Cancels" an event. This only will work if play-dirty is set to true. If an event is super cancelled, not only is the cancelled flag set to true, the event stops propagating down, so no other plugins (as in other server plugins, not just CH scripts) will receive the event at all  (other than monitor level plugins). This is useful for overriding event handlers for plugins that don't respect the cancelled flag. This function hooks into the play-dirty framework that injects custom event handlers into bukkit.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5444</id>
+	<key><![CDATA[Writes a file to the file system. This method only works from the cmdline, if not in cmdline, a SecurityException is thrown. Because of this, there is no check against the base-dir path.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

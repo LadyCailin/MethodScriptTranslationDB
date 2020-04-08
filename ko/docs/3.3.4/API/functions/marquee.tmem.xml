@@ -119,4 +119,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-5427</id>
+	<key><![CDATA[marqueeName is optional, but required if you wish to stop the marquee at any point. text is the text that the marquee should scroll, stringWidth is the width of the string you wish to receive, delayTime is the time between character scrolls, and callback is a closure that should receive a string which will be exactly stringWidth long. (The string will have been wrapped as needed if it is less than that size.) This is usually used in combination with signs, but in theory could be used with anything that uses text.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

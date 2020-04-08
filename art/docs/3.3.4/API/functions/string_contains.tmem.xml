@@ -154,4 +154,11 @@
 	<translation></translation>
 	<auto><![CDATA[Døcs]]></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-5441</id>
+	<key><![CDATA[Returns true if the string needle is found anywhere within the string haystack. This is functionally equivalent to string_position(@haystack, @needle) != -1, but is generally clearer.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

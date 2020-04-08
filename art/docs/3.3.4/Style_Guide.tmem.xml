@@ -266,4 +266,11 @@
 	<translation></translation>
 	<auto><![CDATA[Døcs]]></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-5420</id>
+	<key><![CDATA[Writing readable code is a huge part of easily debugging potential problems. While technically the compiler can read your code no matter how it's formatted (so long as it is syntactically correct), the compiler isn't the only thing that needs to read it, humans do too. So making your code "pretty" is a big step in making maintainable, debuggable, and shareable code. Many code styles are equally readable, and so in many cases, it is pure preference how you choose to format your code, however, this style guide is what will be used by any standard compliant code formatting tools that may be written in the future, and so following these examples is good practice.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

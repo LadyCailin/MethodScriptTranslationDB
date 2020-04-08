@@ -168,4 +168,11 @@
 	<translation></translation>
 	<auto><![CDATA[Døcs]]></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-5391</id>
+	<key><![CDATA[Replaces any occurrences of pattern with the replacement in subject. Back references are allowed.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
