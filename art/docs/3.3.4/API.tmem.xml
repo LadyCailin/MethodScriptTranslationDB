@@ -9660,4 +9660,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-5446</id>
+	<key><![CDATA[Returns the UUID of the current player or the specified player. This will attempt to find an offline player, but if that also fails, a PlayerOfflineException will be thrown. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

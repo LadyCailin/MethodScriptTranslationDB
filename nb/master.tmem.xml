@@ -38115,4 +38115,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-5446</id>
+	<key><![CDATA[Returns the UUID of the current player or the specified player. This will attempt to find an offline player, but if that also fails, a PlayerOfflineException will be thrown. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5447</id>
+	<key><![CDATA[It is not recommended to give this user input. If the player is offline and hasn't visited the server recently (so that they're not in the user cache), the server may block the main thread with an HTTP request to Mojang's servers.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

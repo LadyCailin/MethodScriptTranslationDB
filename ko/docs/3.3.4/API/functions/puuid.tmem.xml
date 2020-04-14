@@ -112,4 +112,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-5447</id>
+	<key><![CDATA[It is not recommended to give this user input. If the player is offline and hasn't visited the server recently (so that they're not in the user cache), the server may block the main thread with an HTTP request to Mojang's servers.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
