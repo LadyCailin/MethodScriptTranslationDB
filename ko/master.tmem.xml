@@ -38157,4 +38157,25 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-5452</id>
+	<key><![CDATA[location%s: %s&lt;Location Match&gt;%splayer%s: %s&lt;String Match&gt;]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5453</id>
+	<key><![CDATA[Fires when a player steps on a pressure plate or other interactable block.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5454</id>
+	<key><![CDATA[location%s: The location of the block%sactivated%s: (deprecated)%splayer%s: The player associated with this event]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
