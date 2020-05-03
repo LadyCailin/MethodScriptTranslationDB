@@ -147,4 +147,11 @@
 	<translation></translation>
 	<auto><![CDATA[Døcs]]></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-5457</id>
+	<key><![CDATA[The core exception types are:  %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, and]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

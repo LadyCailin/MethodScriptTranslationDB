@@ -9681,4 +9681,25 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-5455</id>
+	<key><![CDATA[Waits for the thread with the given id to exit. By default, we wait potentially forever, but if maxWait is specified, we will only wait that many milliseconds. (Sending 0 for this value causes an infinite wait.) If the timeout occurs, an InterruptedException is thrown. If the id is unknown, an IllegalArgumentException is thrown.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5456</id>
+	<key><![CDATA[string id, int maxWait]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5457</id>
+	<key><![CDATA[The core exception types are:  %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, and]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

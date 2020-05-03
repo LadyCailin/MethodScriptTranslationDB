@@ -1,155 +1,113 @@
 <translations>
 <comment></comment>
 <translationBlock>
-	<id>nb-159</id>
-	<key><![CDATA[There may be other exception types as well, refer to the documentation of any extensions you have installed.]]></key>
+	<id>ko-445</id>
+	<key><![CDATA[Yes]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nb-201</id>
-	<key><![CDATA[nothing]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto></auto>
-</translationBlock>
-<translationBlock>
-	<id>nb-311</id>
-	<key><![CDATA[No]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto></auto>
-</translationBlock>
-<translationBlock>
-	<id>nb-519</id>
-	<key><![CDATA[This function causes an exception to be thrown. The exceptionType may be any valid exception type.]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto></auto>
-</translationBlock>
-<translationBlock>
-	<id>nb-1219</id>
-	<key><![CDATA[exceptionType, msg, %s[%scausedBy%s]%s %s exception]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto></auto>
-</translationBlock>
-<translationBlock>
-	<id>nb-1259</id>
-	<key><![CDATA[The core exception types are:  %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, and]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto></auto>
-</translationBlock>
-<translationBlock>
-	<id>nb-2878</id>
+	<id>ko-2878</id>
 	<key><![CDATA[Examples]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nb-3788</id>
+	<id>ko-3788</id>
 	<key><![CDATA[Vital Info]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nb-3789</id>
+	<id>ko-3789</id>
 	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.%s (Note this page is automatically generated from the documentation in the source code.)]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nb-3791</id>
+	<id>ko-3791</id>
 	<key><![CDATA[Usages]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nb-3792</id>
+	<id>ko-3792</id>
 	<key><![CDATA[Sorry, there are no examples for this function! :(]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nb-3805</id>
-	<key><![CDATA[See Also]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto></auto>
-</translationBlock>
-<translationBlock>
-	<id>nb-3813</id>
+	<id>ko-3813</id>
 	<key><![CDATA[None]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nb-4312</id>
-	<key><![CDATA[[[%s|Learning Trail: Exceptions]]]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto></auto>
-</translationBlock>
-<translationBlock>
-	<id>nb-5152</id>
+	<id>ko-5152</id>
 	<key><![CDATA[About]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nb-5153</id>
+	<id>ko-5153</id>
 	<key><![CDATA[Home]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nb-5154</id>
+	<id>ko-5154</id>
 	<key><![CDATA[Privacy Policy]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nb-5155</id>
+	<id>ko-5155</id>
 	<key><![CDATA[Sponsors]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nb-5156</id>
+	<id>ko-5156</id>
 	<key><![CDATA[Help]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nb-5157</id>
+	<id>ko-5157</id>
 	<key><![CDATA[Team. All rights reserved.]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nb-5158</id>
+	<id>ko-5158</id>
 	<key><![CDATA[Docs]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nb-5457</id>
-	<key><![CDATA[The core exception types are:  %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, and]]></key>
+	<id>ko-5455</id>
+	<key><![CDATA[Waits for the thread with the given id to exit. By default, we wait potentially forever, but if maxWait is specified, we will only wait that many milliseconds. (Sending 0 for this value causes an infinite wait.) If the timeout occurs, an InterruptedException is thrown. If the id is unknown, an IllegalArgumentException is thrown.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5456</id>
+	<key><![CDATA[string id, int maxWait]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
