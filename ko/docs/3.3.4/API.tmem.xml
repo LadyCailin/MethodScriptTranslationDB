@@ -9702,4 +9702,25 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-5459</id>
+	<key><![CDATA[Sets the number of immunity ticks a living entity has remaining.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5460</id>
+	<key><![CDATA[Gets the number of immunity ticks a living entity has remaining. After being damaged, an entity is given 10 ticks of immunity from equal or lesser damage.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5461</id>
+	<key><![CDATA[Sets the block at the location from a blockdata object. Blockdata can be an associative array or string format. If an array, a &apos;block&apos; key must exist with the block material. All the other keys must be a blockstate and its value.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

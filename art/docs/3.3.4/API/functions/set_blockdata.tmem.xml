@@ -112,4 +112,11 @@
 	<translation></translation>
 	<auto><![CDATA[Døcs]]></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-5464</id>
+	<key><![CDATA[Sets the block at the location from a blockdata object. Blockdata can be an associative array or string format. If an array, a 'block' key must exist with the block material. All the other keys must be a blockstate and its value.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

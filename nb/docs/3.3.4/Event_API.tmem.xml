@@ -2884,4 +2884,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-5462</id>
+	<key><![CDATA[location%s: %s&lt;Location Match&gt;%splayer%s: %s&lt;Macro&gt;]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

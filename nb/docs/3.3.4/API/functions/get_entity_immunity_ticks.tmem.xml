@@ -1,8 +1,8 @@
 <translations>
 <comment></comment>
 <translationBlock>
-	<id>nb-46</id>
-	<key><![CDATA[Sets the block at the location from a blockdata object.]]></key>
+	<id>nb-256</id>
+	<key><![CDATA[entityUUID]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
@@ -15,8 +15,8 @@
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nb-530</id>
-	<key><![CDATA[locationArray, data, %s[%sphysics%s]]]></key>
+	<id>nb-1276</id>
+	<key><![CDATA[int]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
@@ -113,8 +113,8 @@
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nb-5464</id>
-	<key><![CDATA[Sets the block at the location from a blockdata object. Blockdata can be an associative array or string format. If an array, a 'block' key must exist with the block material. All the other keys must be a blockstate and its value.]]></key>
+	<id>nb-5460</id>
+	<key><![CDATA[Gets the number of immunity ticks a living entity has remaining. After being damaged, an entity is given 10 ticks of immunity from equal or lesser damage.]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>

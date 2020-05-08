@@ -161,4 +161,11 @@
 	<translation></translation>
 	<auto><![CDATA[Døcs]]></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-5463</id>
+	<key><![CDATA[The item array also serves as a map for what to compare. If included in the array, the values for the keys "display", "lore", "enchants", and "model" from the meta array, will be compared to the items in the inventory. More keys may be added in the future.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
