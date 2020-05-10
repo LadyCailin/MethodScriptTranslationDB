@@ -38248,4 +38248,32 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-5465</id>
+	<key><![CDATA[Gets if a player is sprinting or not.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5466</id>
+	<key><![CDATA[Gets if a player is blocking or not.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5467</id>
+	<key><![CDATA[Gets the flying state for the player.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5468</id>
+	<key><![CDATA[Gets if a living entity is sleeping or not. Only some entity types can sleep.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
