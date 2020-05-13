@@ -38276,4 +38276,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-5469</id>
+	<key><![CDATA[Remove a certain recipe by its registered key. Returns whether the recipe was removed successfully or not.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5470</id>
+	<key><![CDATA[recipe_key]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
