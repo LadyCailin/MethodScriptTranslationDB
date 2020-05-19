@@ -43758,4 +43758,28 @@
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
 </translationEntry>
+<translationEntry>
+	<id>5471</id>
+	<key><![CDATA[Remove a certain recipe by its registered key. Returns whether the recipe was removed successfully or not. (Minecraft 1.15.2 or higher)]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5472</id>
+	<key><![CDATA[player%s: %s&lt;String Match&gt;%sid%s: %s&lt;Macro&gt;%sdamager%s: %s&lt;Macro&gt;]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5473</id>
+	<key><![CDATA[player%s: The player being damaged%sdamager%s: The type of entity causing damage%samount%s: raw amount of damage caused%sfinalamount%s: health player will lose after modifiers%scause%s: the cause of damage%sdata%s: the attacking player's name or the shooter if damager is a projectile%sid%s: The entity UUID of the damager%slocation]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
 </summary>

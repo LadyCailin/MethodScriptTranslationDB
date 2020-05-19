@@ -2891,4 +2891,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-5472</id>
+	<key><![CDATA[player%s: %s&lt;String Match&gt;%sid%s: %s&lt;Macro&gt;%sdamager%s: %s&lt;Macro&gt;]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5473</id>
+	<key><![CDATA[player%s: The player being damaged%sdamager%s: The type of entity causing damage%samount%s: raw amount of damage caused%sfinalamount%s: health player will lose after modifiers%scause%s: the cause of damage%sdata%s: the attacking player's name or the shooter if damager is a projectile%sid%s: The entity UUID of the damager%slocation]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
