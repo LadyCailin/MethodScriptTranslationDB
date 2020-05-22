@@ -301,4 +301,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-5486</id>
+	<key><![CDATA[The following items can be retrieved:{| |- ! param ! args ! returns/description |- | label |  | Return the label that the script is currently running under |- | command | | Returns the command that was used to fire off this script (if applicable) |- | varlist | [name] | Returns a list of currently in scope variables. If name is provided, the currently set value is instead returned. |- | line_num | | The current line number |- | file | | The absolute path to the current file |- | dir | | The absolute path to the directory that the current file is in |- | col | | The current column number |- | datasources | | An array of data source protocols available |- | enum | [enum name] | An array of enum names, or if one is provided, a list of all the values in that enum |- | keywords | [keyword name] | Lists the keywords, if no parameter is provided, otherwise provides the documentation for the specified keyword |- | telemetry_session | | The session id used in telemetry for the current session. This will return %s if telemetry is disabled. In general, this key is used to track individual sessions. If needed, this can be provided to the maintainers to associate your data with you. If you wish for your telemetry data to remain anonymous, do not provide this key to the maintainers. (People without access to the telemetry system cannot do anything with the key anyways.) |- | file_options_author | | Returns the author name, as set in the file options. Empty string is returned if it is not set.|- | file_options_created | | Returns the created date, as set in the file options. Empty string is returned if it is not set.|- | file_options_description | | Returns the file description, as set in the file options. Empty string is returned if it is not set.|- | file_options_copyright | | Returns the copyright information, as set in the file options. Empty string is returned if it is not set.|- | file_options_license | | Returns the code license, as set in the file options. Empty string is returned if it is not set.|}]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
