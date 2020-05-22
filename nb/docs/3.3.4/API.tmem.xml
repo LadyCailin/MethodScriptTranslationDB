@@ -9772,4 +9772,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-5487</id>
+	<key><![CDATA[Works like include, but takes a directory, and includes all files within the directory. Recursive defaults to false, but if true, recurses down into all subdirectories as well. As an implementation note, this function is fully resolved at compile time, thus the inputs must be hardcoded. The directories are scanned at compile time, and replaced with individual includes for each .ms file found.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5488</id>
+	<key><![CDATA[directory, %s[%srecursive%s]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
