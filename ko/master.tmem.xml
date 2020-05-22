@@ -38416,4 +38416,88 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-5489</id>
+	<key><![CDATA[file_options_copyright]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5490</id>
+	<key><![CDATA[Returns the author name, as set in the file options. Empty string is returned if it is not set.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5491</id>
+	<key><![CDATA[telemetry_session]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5492</id>
+	<key><![CDATA[file_options_description]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5493</id>
+	<key><![CDATA[file_options_license]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5494</id>
+	<key><![CDATA[Returns the file description, as set in the file options. Empty string is returned if it is not set.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5495</id>
+	<key><![CDATA[Returns the created date, as set in the file options. Empty string is returned if it is not set.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5496</id>
+	<key><![CDATA[Returns the code license, as set in the file options. Empty string is returned if it is not set.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5497</id>
+	<key><![CDATA[file_options_author]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5498</id>
+	<key><![CDATA[The session id used in telemetry for the current session. This will return %s if telemetry is disabled. In general, this key is used to track individual sessions. If needed, this can be provided to the maintainers to associate your data with you. If you wish for your telemetry data to remain anonymous, do not provide this key to the maintainers. (People without access to the telemetry system cannot do anything with the key anyways.)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5499</id>
+	<key><![CDATA[file_options_created]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5500</id>
+	<key><![CDATA[Returns the copyright information, as set in the file options. Empty string is returned if it is not set.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
