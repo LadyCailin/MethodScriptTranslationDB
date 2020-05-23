@@ -140,4 +140,25 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-5506</id>
+	<key><![CDATA["Client" - refers to a Federated client. All MethodScript processes can simultaneously be both a server and a client.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5507</id>
+	<key><![CDATA["MethodScript process" - refers to the process that is running a MethodScript interpreter. This might be a server that is hosting the MethodScript process, a cmdline process, or some other system.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5508</id>
+	<key><![CDATA["Federation Protocol" - the protocol via with Federated Systems communicate. All Federated Systems must use standard TCP Sockets, though they are allowed to fall back to other communication systems if the server and client can agree on the communication medium. For those interested in implementing the protocol, or generally learning more about the specifics of the protocol, see the  of the protocol.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

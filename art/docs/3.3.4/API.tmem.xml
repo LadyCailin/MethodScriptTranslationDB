@@ -9024,6 +9024,13 @@
 	<auto></auto>
 </translationBlock>
 <translationBlock>
+	<id>art-4006</id>
+	<key><![CDATA[type]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
 	<id>art-5033</id>
 	<key><![CDATA[[%splayer,%s]%s slot]]></key>
 	<comment></comment>
@@ -9782,6 +9789,27 @@
 <translationBlock>
 	<id>art-5488</id>
 	<key><![CDATA[directory, %s[%srecursive%s]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5501</id>
+	<key><![CDATA[Returns a ClassType object for the given fully qualified class name. If the given class doesn&apos;t exist, a NotFoundException is thrown.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5502</id>
+	<key><![CDATA[Returns information about the given ClassType. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5503</id>
+	<key><![CDATA[string name]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>

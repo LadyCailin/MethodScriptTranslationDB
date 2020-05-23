@@ -301,4 +301,25 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-5511</id>
+	<key><![CDATA[To facilitate easier parsing of the text, some segments have been modified to remove information that should definitely not be localized. For instance, urls, code, template markers, and other strings of that nature. In place of those symbols, '''%s''' has been added instead. THESE MUST BE LEFT IN PLACE. It should generally be obvious where it should go, often times these are within brackets, or surrounding a single word, etc. There are often time other symbols, such as html escapes, brackets, and other symbols that should be left intact in the translation, unless it's obviously supposed to be changed. There are also other cases where it's impossible to automatically determine whether or not to exclude a particular word from a translation, depending on the context. For instance, function names an other references to code should never be localized, as function names may only be in English. You must use common sense when doing the localization, and ensure that you don't change things that must be there for site functionality or may confuse the reader. In some cases, the entire segment is correct without any translation, for instance segments that are just the name of a function. In this case, do not copy the english over, instead, switch to general mode and mark it as untranslatable. This will cause it to use the English in all locales, but also remove it from the list of "missing translations". Unfortunately, segments that contain strings that shouldn't be translated are not going to be eligible for automatic translation, and must be manually translated, ensuring that the untranslatable parts are left intact.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5512</id>
+	<key><![CDATA[Before running the site-deploy tool, in your site-deploy.ini file, set production-translations to "%s". Run the site-deploy tool like normal, with the latest version of the codebase. You can either download the latest release, or build it yourself, but to a%s missing segments, it must be based on the latest release build.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5513</id>
+	<key><![CDATA[To this end, a Localization (or L10n) framework has been put in place to facilitate bilingual localizers to help translate the documentation into languages other than English! Much care has been put into ensuring the accuracy of the documentation, and the language of it is no exception. This document describes the l10n framework, which is important to understand if you wish to contribute l10ns.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

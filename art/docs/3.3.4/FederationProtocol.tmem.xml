@@ -280,4 +280,18 @@
 	<translation></translation>
 	<auto><![CDATA[Døcs]]></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-5509</id>
+	<key><![CDATA[Assuming the HELLO and version check are successful, the client will write the string "GET PORT", then another string, the server name it is requesting the port of. The server will respond with the string "OK", then the integer port number, if it found the server, or the string "ERROR" and then another string, which is the error message, if it could not. Then the connection is closed.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5510</id>
+	<key><![CDATA[Each slave server should regularly check that the master port is bound to, and if not, it should spin up a master server in addition to the slave server it is already running. This can be done in the heartbeat thread for the slave server. Each slave server is responsible for picking a random unused port (usually between  and ), and then registering that information with the file system. In standard MethodScript servers, this will be the Persistence Network's registry, using the "federation.**" namespace. It is assumed that the administrator will keep all server instances pointed to the same registry. The registry contains information about each slave server, including the server name, the slave port it is listening on, and a "last_updated" timestamp, which if expires, %ss the entry. The heartbeat thread, in addition to checking for the master server, should update this timestamp on a regular basis.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

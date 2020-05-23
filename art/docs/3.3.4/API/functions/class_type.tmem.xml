@@ -1,57 +1,57 @@
 <translations>
 <comment></comment>
 <translationBlock>
-	<id>art-1715</id>
-	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto><![CDATA[Fînd å büg în thîs pågə? %sEdît thîs pågə ʎøürsəlf, thən sübmît å püll rəqüəst.]]></auto>
-</translationBlock>
-<translationBlock>
-	<id>art-3645</id>
-	<key><![CDATA[This will print out the syntax file to the console. You can pipe the output to a file with:]]></key>
+	<id>art-445</id>
+	<key><![CDATA[Yes]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>art-3646</id>
-	<key><![CDATA[java -jar CommandHelper.jar syntax npp obsidian]]></key>
+	<id>art-1007</id>
+	<key><![CDATA[ClassType]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>art-3647</id>
-	<key><![CDATA[The MethodScript jar comes packaged with a syntax highlighter generator for several different text editors.  The syntax files can be updated with data from your specific jar, so it is guaranteed to be up to date.  To run the tool, run]]></key>
+	<id>art-2878</id>
+	<key><![CDATA[Examples]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>art-3648</id>
-	<key><![CDATA[This will save the file in the current directory. Follow the procedure for your specific text editor to update the syntax files using the freshly generated syntax file. (This varies depending on your text editor.)]]></key>
+	<id>art-3788</id>
+	<key><![CDATA[Vital Info]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>art-3649</id>
-	<key><![CDATA[java -jar CommandHelper.jar syntax]]></key>
+	<id>art-3789</id>
+	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.%s (Note this page is automatically generated from the documentation in the source code.)]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>art-3650</id>
-	<key><![CDATA[java -jar CommandHelper.jar syntax npp obsidian > syntaxFile.xml]]></key>
+	<id>art-3791</id>
+	<key><![CDATA[Usages]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>art-3651</id>
-	<key><![CDATA[from the command line. You will see a list of supported text editors. Select your text editor, and run, for instance:]]></key>
+	<id>art-3792</id>
+	<key><![CDATA[Sorry, there are no examples for this function! :(]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3813</id>
+	<key><![CDATA[None]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
@@ -106,22 +106,15 @@
 	<auto><![CDATA[Døcs]]></auto>
 </translationBlock>
 <translationBlock>
-	<id>art-5520</id>
-	<key><![CDATA[In general, it is recommended to simply use the MethodScriptVSC extension for Visual Studio Code, as that is the only officially supported syntax highlighter. These self-generated syntax highlighters are supported on a community basis.]]></key>
+	<id>art-5503</id>
+	<key><![CDATA[string name]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>art-5521</id>
-	<key><![CDATA[See the page about the [[%s|MethodScriptVSC]].]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto></auto>
-</translationBlock>
-<translationBlock>
-	<id>art-5522</id>
-	<key><![CDATA[The MethodScript jar comes packaged with a syntax highlighter generator for several different text editors. The syntax files can be updated with data from your specific jar, so it is guaranteed to be up to date. To run the tool, run]]></key>
+	<id>art-5572</id>
+	<key><![CDATA[Returns a ClassType object for the given fully qualified class name. If the given class doesn't exist, a NotFoundException is thrown.]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>

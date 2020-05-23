@@ -203,4 +203,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-5571</id>
+	<key><![CDATA[Next, we want to test to ensure that a connection can be made to the server. Take note of the port listed in webserver.ini. By default, this is 16438, though if you changed this, use the new value in place. On Windows, open a web browser, and go to "%s". (On Linux, run curl "%s) If everything is working, you should get a 404. Since we have not created any scripts, this is expected, but it means that the server is up and accepting connections. If you get a connection refused error, restart the server in --foreground mode, and check the server startup logs to see if there is an error.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

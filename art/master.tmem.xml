@@ -38500,4 +38500,613 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-5501</id>
+	<key><![CDATA[Returns a ClassType object for the given fully qualified class name. If the given class doesn&apos;t exist, a NotFoundException is thrown.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5502</id>
+	<key><![CDATA[Returns information about the given ClassType. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5503</id>
+	<key><![CDATA[string name]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5504</id>
+	<key><![CDATA[Often times you may find yourself with a unique set of predefined constants, for instance, compass directions NORTH, SOUTH, EAST, and WEST, or days of the week. Additionally, you may have a set of these enums, which can be represented as a bit mask. For these two situations, you should use the ''enum'' and ''mask'' types, respectively.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5505</id>
+	<key><![CDATA[An enum is a specially declared class, which follows certain extra rules, but otherwise behaves just like a normal class. It may have data members and methods, just like any other class. The exceptions are that the class is effectively final (it cannot be extended by other classes/enums), and the constructor, if provided, must be private. The default constructor for enum values are private as well. Essentially, there must be no way to instantiate the enum object outside of the context of the enum itself, and it can't be overridden. To declare a simple enum, use the following syntax:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5506</id>
+	<key><![CDATA["Client" - refers to a Federated client. All MethodScript processes can simultaneously be both a server and a client.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5507</id>
+	<key><![CDATA["MethodScript process" - refers to the process that is running a MethodScript interpreter. This might be a server that is hosting the MethodScript process, a cmdline process, or some other system.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5508</id>
+	<key><![CDATA["Federation Protocol" - the protocol via with Federated Systems communicate. All Federated Systems must use standard TCP Sockets, though they are allowed to fall back to other communication systems if the server and client can agree on the communication medium. For those interested in implementing the protocol, or generally learning more about the specifics of the protocol, see the  of the protocol.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5509</id>
+	<key><![CDATA[Assuming the HELLO and version check are successful, the client will write the string "GET PORT", then another string, the server name it is requesting the port of. The server will respond with the string "OK", then the integer port number, if it found the server, or the string "ERROR" and then another string, which is the error message, if it could not. Then the connection is closed.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5510</id>
+	<key><![CDATA[Each slave server should regularly check that the master port is bound to, and if not, it should spin up a master server in addition to the slave server it is already running. This can be done in the heartbeat thread for the slave server. Each slave server is responsible for picking a random unused port (usually between  and ), and then registering that information with the file system. In standard MethodScript servers, this will be the Persistence Network's registry, using the "federation.**" namespace. It is assumed that the administrator will keep all server instances pointed to the same registry. The registry contains information about each slave server, including the server name, the slave port it is listening on, and a "last_updated" timestamp, which if expires, %ss the entry. The heartbeat thread, in addition to checking for the master server, should update this timestamp on a regular basis.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5511</id>
+	<key><![CDATA[To facilitate easier parsing of the text, some segments have been modified to remove information that should definitely not be localized. For instance, urls, code, template markers, and other strings of that nature. In place of those symbols, '''%s''' has been added instead. THESE MUST BE LEFT IN PLACE. It should generally be obvious where it should go, often times these are within brackets, or surrounding a single word, etc. There are often time other symbols, such as html escapes, brackets, and other symbols that should be left intact in the translation, unless it's obviously supposed to be changed. There are also other cases where it's impossible to automatically determine whether or not to exclude a particular word from a translation, depending on the context. For instance, function names an other references to code should never be localized, as function names may only be in English. You must use common sense when doing the localization, and ensure that you don't change things that must be there for site functionality or may confuse the reader. In some cases, the entire segment is correct without any translation, for instance segments that are just the name of a function. In this case, do not copy the english over, instead, switch to general mode and mark it as untranslatable. This will cause it to use the English in all locales, but also remove it from the list of "missing translations". Unfortunately, segments that contain strings that shouldn't be translated are not going to be eligible for automatic translation, and must be manually translated, ensuring that the untranslatable parts are left intact.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5512</id>
+	<key><![CDATA[Before running the site-deploy tool, in your site-deploy.ini file, set production-translations to "%s". Run the site-deploy tool like normal, with the latest version of the codebase. You can either download the latest release, or build it yourself, but to a%s missing segments, it must be based on the latest release build.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5513</id>
+	<key><![CDATA[To this end, a Localization (or L10n) framework has been put in place to facilitate bilingual localizers to help translate the documentation into languages other than English! Much care has been put into ensuring the accuracy of the documentation, and the language of it is no exception. This document describes the l10n framework, which is important to understand if you wish to contribute l10ns.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5514</id>
+	<key><![CDATA[Eventually, it is the hope that MethodScript be made into a generic framework that allows for any application to easily implement it's own functions that can be applied to whatever domain is being used. Many of the functions are completely independent of Minecraft, and could be included in a "core" that is distributed, and each application can define their own API. With the built in documentation features, it would be easy to expand (and keep the documentation up-to-date and useful).]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5515</id>
+	<key><![CDATA['''Full blown debugger''' (VSC plugin is the end goal, though cmdline tools (gdb style) will be implemented first, to secure the raw functionality. This depends on Networking, because the debugger must support remotes first, which will also cover local debugging)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5516</id>
+	<key><![CDATA[In addition, MethodScript borrows strong points from other languages, which in addition to making it easier to learn for people who have exposure to other languages, also helps it to stand on the shoulders of giants, and is able to "start from scratch" and get rid of features that aren't desirable with other languages, while not having to worry about losing backwards compatibility.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5517</id>
+	<key><![CDATA[This is a [%s valid question]. What does MethodScript offer that other scripting languages don't? Simplicity. This has several benefits, and drawbacks that we must consider. In general, MethodScript is much easier to learn than other languages. In essence, everything is a function, including common control structures. This makes many concepts easier to learn, and makes for easily embeddable scripts. This is demonstrated by MethodScripts being embedded in the aliases.msa file. Each script is run separately from each other, and is embedded inside a simpler format, which facilitates easier integration into existing paradigms. Secondly, as a scripting language, it is easy to transmit in plain text, which makes it perfect for simple configuration and customization. Finally, it has many built in features that simplify development, such as the include() function. With everything, there are drawbacks though. Since it is not strongly typed, this makes it easier to use, but harder to maintain. It is not possible to easily refactor dynamic elements. Though it will be pseudo object oriented, it is somewhat added on top, it wasn't initially designed with this in mind. Though the design of the object oriented features should be properly designed, they are being designed inside the existing constraints of the non-object oriented features.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5518</id>
+	<key><![CDATA[This page serves as a general guide for the features I intend on implementing. Note that I reserve the right to modify, rearrange, add, remove, eat, or delete this list or any parts of it at any given time, with or without notice to you or your lawyers. :D However, more than likely, if there is a feature on this list, I plan to add it at some point, but it may get shuffled around some in the process. Items shown in '''bold''' are major tasks, and their completion would likely bump the major or minor version number (and will take longer), while other features would probably only bump the supplemental version number, unless several were released at once. Sub bullets must wait on their parent task being completed before they could be done. Adding more raw functions to allow more hooks into the game itself or functions to simplify common programming tasks are continually being added. Also note that these tasks are not in any particular order, though the main bullet points are roughly in order.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5519</id>
+	<key><![CDATA[Finally, unlike JavaScript, MethodScript's documentation is a priority, and documentation is created from the authoritative source. The website's goal is to provide comprehensive documentation and examples, which helps promote understanding.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5520</id>
+	<key><![CDATA[In general, it is recommended to simply use the MethodScriptVSC extension for Visual Studio Code, as that is the only officially supported syntax highlighter. These self-generated syntax highlighters are supported on a community basis.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5521</id>
+	<key><![CDATA[See the page about the [[%s|MethodScriptVSC]].]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5522</id>
+	<key><![CDATA[The MethodScript jar comes packaged with a syntax highlighter generator for several different text editors. The syntax files can be updated with data from your specific jar, so it is guaranteed to be up to date. To run the tool, run]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5523</id>
+	<key><![CDATA[There is a special type called %sauto%s, which essentially means "don't use the typing system on this value." In fact, values that are declared without a type are actually declared as type %sauto%s! These two declarations are exactly the same:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5524</id>
+	<key><![CDATA[Helper Functions]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5525</id>
+	<key><![CDATA[This casting is not automatic for typed variables, you must explicitely provide the cast to do the conversion. However, this is not true for values of type %sauto%s, whether explicitely typed as such or implicitely typed due to no type being provided. Consider the same code as above but with @s being auto:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5526</id>
+	<key><![CDATA[In this example, if the value exported to 'username' had been set as something other than a string, we would fail on line 2. Perhaps accidentally, we had stored an array to the value, in that case, the user would be messaged the whole array. This can prevent us from continuing with the code after we have gotten into an unexpected state. Once these type errors are moved into the compiler, it makes even more sense, because then we would be able to catch these errors even faster, and not require the code to ever be run before we found the error.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5527</id>
+	<key><![CDATA[Declarations within Expressions]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5528</id>
+	<key><![CDATA[auto%s Type and %smixed%s Type]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5529</id>
+	<key><![CDATA[We are actually doing two separate operations in this one line, we are ''declaring'' a new variable, %s@s%s, and stating that it is of type %sstring%s. Secondly, we are assigning the string %s"string"%s to the variable. This seems a bit silly at first, since it seems like we're duplicating information, after all, we can clearly see that it's a string being assigned. However, consider later code that then uses @s, and perhaps tries to re-assign the value.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5530</id>
+	<key><![CDATA[This can help prevent future errors in your code, by preventing use of a value that isn't intended. Sometimes this can help catch bugs that would otherwise be extremely difficult to catch otherwise. A clearer example of this will be shown later.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5531</id>
+	<key><![CDATA[Each defined type is actually a subclass of one or more ''parent types'', (known as ''superclasses'') with the exception of the root type, %smixed%s, which has no superclasses. For any given type, it is always allowed to replace it with a subtype of that class with no error. Consider the following:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5532</id>
+	<key><![CDATA[Null is a special value which can be assigned to all types. Also, note that ''forward declarations'', that is, where you define a value but don't set it, default to %s.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5533</id>
+	<key><![CDATA[In both these cases, we have declared the type on the input and output. We have stated that the procedure _myProc must return a value of type string, and accept an input parameter of type int. Likewise, we have stated that the closure must return a value of type int, and takes an input of type string. (Incidentally, we have also defined the variable @c, which must be of type closure.)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5534</id>
+	<key><![CDATA[Currently, the following is possible, but is officially considered "undefined behavior", meaning that it is subject to change or removal in future versions:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5535</id>
+	<key><![CDATA[Caveats]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5536</id>
+	<key><![CDATA[When dealing with types, it's useful to note some various helper functions.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5537</id>
+	<key><![CDATA[However, this functionality is not yet implemented, meaning the code will cause an error, despite it intended to be valid code. We currently get %s: @i is of type %s, but a value of type %s was assigned to it.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5538</id>
+	<key><![CDATA[Note that some casts will be invalid anyways. If there's simply no way for a value to be an instance of the particular type, that cast won't be allowed.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5539</id>
+	<key><![CDATA[Subclasses]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5540</id>
+	<key><![CDATA[Specifically for procedures and closures, it may be that they do not return a value at all. These are said to ''return %s'', meaning that they don't have a return type. You can explicitely declare this with the %s type.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5541</id>
+	<key><![CDATA[In the meantime, to work around this, you must explicitely cast the value using one of the various manual cast methods that each primitive has. In this case, %s.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5542</id>
+	<key><![CDATA[Initially, one might wonder the difference between using %sauto%s and %smixed%s. Using mixed still follows the type system, and requires manual casting to convert values.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5543</id>
+	<key><![CDATA[Similar to %s we can simply find out the current concrete type.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5544</id>
+	<key><![CDATA[Effectively, %sauto%s types are assumed to be the correct type no matter how they're being used. Types stored in %smixed%s must first be cast to the correct type. Both approaches have merit, and so it depends on what you're doing as to what mechanism you should use.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5545</id>
+	<key><![CDATA[returns the ClassType object, which we can then use to gather data about a particular type:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5546</id>
+	<key><![CDATA[Casting is the act of bypassing various compiler checks when dealing with subclasses. This bypasses some of the type safety, but is required in some cases. Consider the following code from one of the examples above.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5547</id>
+	<key><![CDATA[If you would like to read more about how this feature is intended to work, see the design document [[%s|here]].]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5548</id>
+	<key><![CDATA[MethodScript is an optionally strongly typed language. This means that variables and procedure/closure input and outputs declare the '''type''' that they are, and only values of that type are allowed to be assigned to that variable, or returned by the procedure/closure. It is optionally strongly typed, because - outside of strict mode - it is not required that you provide a type.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5549</id>
+	<key><![CDATA[This becomes much clearer when we start adding types everywhere. Consider the following example:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5550</id>
+	<key><![CDATA[The simplest example is this:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5551</id>
+	<key><![CDATA[This is valid because %sint%s is a subtype of %snumber%s. We can discover the superclasses for a given type a number of ways, but we can use %s to get this information. We can get the full superclass chain with the following code:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5552</id>
+	<key><![CDATA[Cross casting is a runtime conversion of values from one type to another. Currently, cross casting is implemented opaquely in primitive objects, but is not "exposed" to the end user in a formal way. Consider the following code:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5553</id>
+	<key><![CDATA[This will continue to work even after this feature is implemented, so there is no code migration risk by doing it this way. It's also worth noting that literals in code will be considered auto for the purposes of cross casting, so things like this will also eventually work:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5554</id>
+	<key><![CDATA[There are unfortunately a few loose ends that are caveats at this stage of implementation, which are planned to be implemented, but aren't complete yet.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5555</id>
+	<key><![CDATA[tells you if the ''concrete type'' of a value is of a certain type. This is a runtime operation, so it has nothing to do with the type that the variable was declared with, but the type that the value itself is right now.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5556</id>
+	<key><![CDATA[Procedure and Closure Typing]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5557</id>
+	<key><![CDATA[The reason this works is because currently, the type system is ''type hinting'', not strong typing. Since the type system is implemented at runtime, rather than at compile time, we don't look at the second line of code until after the first line is run. In this case, we see that @m is in fact a string, and so we allow it to be assigned to @s.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5558</id>
+	<key><![CDATA[In this case, we are comparing a string and an integer to each other, and find that they are in fact equal. Why is this? This is due to cross casting. We effectively convert the string value to an integer, then compare it. Formally speaking, this is due to ''cross casting''. Eventually, string will be formally declared as cross castable to integers, and vice versa. This means that when we try to cast, we will make a runtime conversion to the expected value.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5559</id>
+	<key><![CDATA[Eventually, this will be corrected, and will be an error. However, @m actually does contain a string, so how would we make this work? Through an act called ''casting''. When we ''cast'' a value, we tell the compiler that we are positive that the current value is of the given type. We may have determined this through clever use of instanceof or simply hardcoded a particular value, but we're essentially telling the compiler to trust us, and don't cause an error. The syntax will be:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5560</id>
+	<key><![CDATA[Variable Typing]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5561</id>
+	<key><![CDATA[Casting]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5562</id>
+	<key><![CDATA[Type]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5563</id>
+	<key><![CDATA[Putting it together]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5564</id>
+	<key><![CDATA[We can prove this by using the %s function:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5565</id>
+	<key><![CDATA[This is easier to read in the future anyways.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5566</id>
+	<key><![CDATA[Values that are of type auto bypass the compilation checks, though they may still cause errors at runtime.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5567</id>
+	<key><![CDATA[Now, we would get the error: "%s: @s is of type %s, but a value of type %s was assigned to it."]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5568</id>
+	<key><![CDATA[Casting upward is not allowed, because subclasses are always a valid instance of a superclass.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5569</id>
+	<key><![CDATA[Do not rely on this behavior, as assignments are intended to be separate statements. Instead, rewrite the code to the following:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5570</id>
+	<key><![CDATA[Both the inputs and output of both procedures and closures can be typed.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5571</id>
+	<key><![CDATA[Next, we want to test to ensure that a connection can be made to the server. Take note of the port listed in webserver.ini. By default, this is 16438, though if you changed this, use the new value in place. On Windows, open a web browser, and go to "%s". (On Linux, run curl "%s) If everything is working, you should get a 404. Since we have not created any scripts, this is expected, but it means that the server is up and accepting connections. If you get a connection refused error, restart the server in --foreground mode, and check the server startup logs to see if there is an error.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5572</id>
+	<key><![CDATA[Returns a ClassType object for the given fully qualified class name. If the given class doesn't exist, a NotFoundException is thrown.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5573</id>
+	<key><![CDATA[The package that the class lives in.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5574</id>
+	<key><![CDATA[fqcn]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5575</id>
+	<key><![CDATA[isNative]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5576</id>
+	<key><![CDATA[superclasses]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5577</id>
+	<key><![CDATA[docs]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5578</id>
+	<key><![CDATA[True if this is a class defined in native code.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5579</id>
+	<key><![CDATA[The following information is returned:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5580</id>
+	<key><![CDATA[interfaces]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5581</id>
+	<key><![CDATA[package]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5582</id>
+	<key><![CDATA[An array of classes that this type inherits from. With the exception of the root mixed type, this will never be empty.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5583</id>
+	<key><![CDATA[The Fully Qualified Class Name, that is, the name that unambiguously identifies this class.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5584</id>
+	<key><![CDATA[Returns information about the given ClassType.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5585</id>
+	<key><![CDATA[An array of interfaces that this type implements, may be empty.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5586</id>
+	<key><![CDATA[The simple name of the class.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5587</id>
+	<key><![CDATA[The documentation for the type.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
