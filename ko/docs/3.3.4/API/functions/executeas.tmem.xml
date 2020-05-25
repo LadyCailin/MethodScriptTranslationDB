@@ -29,6 +29,13 @@
 	<auto></auto>
 </translationBlock>
 <translationBlock>
+	<id>ko-3787</id>
+	<key><![CDATA[[[%s|OPTIMIZE_DYNAMIC]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
 	<id>ko-3788</id>
 	<key><![CDATA[Vital Info]]></key>
 	<comment></comment>
@@ -129,6 +136,20 @@
 <translationBlock>
 	<id>ko-5158</id>
 	<key><![CDATA[Docs]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5590</id>
+	<key><![CDATA[sender, label, %s[%svalues...%s]%s, closure]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5591</id>
+	<key><![CDATA[Executes the given closure in the context of a given player or ~console. A closure that runs player(), for instance, would return the specified player's name. If %s is given, it will execute with the current sender context instead of the closure's. The label argument sets the permission label that this closure will use. If %s is given, the closure's label will be used, like with execute().]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
