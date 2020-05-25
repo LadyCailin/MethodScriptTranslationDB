@@ -637,4 +637,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-5594</id>
+	<key><![CDATA[http_request&lpar;&apos;%s;, closure&lpar;@response&rpar;&lcub; 	msg&lpar;@response&lsqb;&apos;body&apos;&rsqb;&rpar;; &rcub;&rpar;;%s Copy Code%s1%s&nbsp;&nbsp;&nbsp;%s&lpar;%s&apos;%s;%s, %s&lpar;%s@response%s&rpar;&lcub;%s2%s&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;%s&lpar;%s@response%s&lsqb;%s&apos;body&apos;%s&rsqb;&rpar;;%s3%s&nbsp;&nbsp;&nbsp;&rcub;&rpar;;]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

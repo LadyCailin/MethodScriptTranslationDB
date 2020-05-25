@@ -39137,4 +39137,60 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-5592</id>
+	<key><![CDATA[Binds some functionality to an event, so that when said event occurs, the event handler will fire. Returns the id of this event, so it can be unregistered later, if need be. See more on the page detailing [[Events]]. The options array can contain &quot;id&quot; and &quot;priority&quot;, where priority is one of: LOWEST, LOW, NORMAL, HIGH, HIGHEST, or MONITOR. The prefilters vary from event to event.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5593</id>
+	<key><![CDATA[Binds some functionality to an event, so that when said event occurs, the event handler will fire. Returns the id of this event, so it can be unregistered later, if need be. See more on the page detailing [[Events]]. The options array can contain "id" and "priority", where priority is one of: LOWEST, LOW, NORMAL, HIGH, HIGHEST, or MONITOR. The prefilters vary from event to event.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5594</id>
+	<key><![CDATA[http_request&lpar;&apos;%s;, closure&lpar;@response&rpar;&lcub; 	msg&lpar;@response&lsqb;&apos;body&apos;&rsqb;&rpar;; &rcub;&rpar;;%s Copy Code%s1%s&nbsp;&nbsp;&nbsp;%s&lpar;%s&apos;%s;%s, %s&lpar;%s@response%s&rpar;&lcub;%s2%s&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;%s&lpar;%s@response%s&lsqb;%s&apos;body&apos;%s&rsqb;&rpar;;%s3%s&nbsp;&nbsp;&nbsp;&rcub;&rpar;;]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5595</id>
+	<key><![CDATA[With ClassType references]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5596</id>
+	<key><![CDATA[Via typeof()]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5597</id>
+	<key><![CDATA[When the type was added.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5598</id>
+	<key><![CDATA[Note that docs, package, since, and isNative are in an object in an array. If the given type represent a type union, there will be more than one object in this array. (Note that type unions aren't supported yet.)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5599</id>
+	<key><![CDATA[since]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
