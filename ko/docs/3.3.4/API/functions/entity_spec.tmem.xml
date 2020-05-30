@@ -1309,4 +1309,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-5603</id>
+	<key><![CDATA[ZOMBIE, HUSK, DROWNED]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
