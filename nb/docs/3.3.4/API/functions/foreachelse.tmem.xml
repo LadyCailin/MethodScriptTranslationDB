@@ -92,6 +92,13 @@
 	<auto></auto>
 </translationBlock>
 <translationBlock>
+	<id>nb-3813</id>
+	<key><![CDATA[None]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
 	<id>nb-4232</id>
 	<key><![CDATA[[[%s|Learning Trail: Loops]], [[%s|Learning Trail: Array Iteration]]]]></key>
 	<comment></comment>
