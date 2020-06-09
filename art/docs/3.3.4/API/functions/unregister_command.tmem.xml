@@ -50,6 +50,13 @@
 	<auto></auto>
 </translationBlock>
 <translationBlock>
+	<id>art-3805</id>
+	<key><![CDATA[See Also]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
 	<id>art-3813</id>
 	<key><![CDATA[None]]></key>
 	<comment></comment>
@@ -111,5 +118,12 @@
 	<comment></comment>
 	<translation></translation>
 	<auto><![CDATA[Døcs]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5608</id>
+	<key><![CDATA[Unregisters a command from the server's command list. Commands from other plugins can be unregistered using this function.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
 </translationBlock>
 </translations>

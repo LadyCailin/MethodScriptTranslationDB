@@ -105,4 +105,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-5604</id>
+	<key><![CDATA[Returns an array of command arrays in the format register_command expects or %s if no commands could be found. The command arrays will not include executors or tabcompleters. This does not include MethodScript aliases, as they are not registered commands.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
