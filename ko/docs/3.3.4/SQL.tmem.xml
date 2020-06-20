@@ -441,4 +441,74 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-5610</id>
+	<key><![CDATA[Username and password are optional in on premise SQL Server on Windows (as opposed to databases in Azure, where it is mandatory). Windows Authentication can be used instead, however, it requires extra server setup. To do so, simply run the %sinstall-mssql-auth%s from the command line.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5611</id>
+	<key><![CDATA[instance]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5612</id>
+	<key><![CDATA[MSSQL (SQL Server)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5613</id>
+	<key><![CDATA[The host you are connecting to. If not specified, "localhost" is assumed. If the database is in Azure, you may instead use "azureHost", and simply provide the host name (.database.windows.net will be appended for you).]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5614</id>
+	<key><![CDATA[In addition to these specially handled parameters, any of the valid parameters listed [%s here] can also be added, and they are simply passed on as is.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5615</id>
+	<key><![CDATA[MSSQL requires a separate SQL Server to be running, either remotely or locally. For more information about setting up SQL Server, look for more information on the Microsoft website:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5616</id>
+	<key><![CDATA[The SQL Server must be configured to allow TCP/IP connections, which is disabled by default. The JDBC driver cannot connect using Shared Memory, which is the only transport enabled by default. To enable TCP/IP connections, open the "SQL Server Configuration Manager" which is installed along with SQL Server. Expand the "SQL Server Network Configuration" tab on the left, and select the SQL Server instance you're trying to connect. Enable the "TCP/IP" protocol. You need to then restart the SQL Server. Click on the "SQL Server Services" tab, and then right click and restart on the server.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5617</id>
+	<key><![CDATA[The instance of SQL Server on the host. By default, empty.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5618</id>
+	<key><![CDATA[The port you are connecting to. If not specified, 1433 is assumed.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5619</id>
+	<key><![CDATA[Then, to use this authentication, simply add %s"integratedSecurity": true%s to your code, or %s&lt;integratedSecurity&gt;true&lt;/integratedSecurity&gt;%s to your profile.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
