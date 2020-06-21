@@ -44950,4 +44950,36 @@
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
 </translationEntry>
+<translationEntry>
+	<id>5620</id>
+	<key><![CDATA[to%screationradius%ssearchradius%screationallowed]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5621</id>
+	<key><![CDATA[id%s: The UUID of entity%stype%s: The type of entity%sfrom%s: The location the entity is coming from%sto%s: The location the entity is going to. Returns %s when using nether portal and  "allow-nether" in server.properties is set to false or when using end portal and  "allow-end" in bukkit.yml is set to false.%ssearchradius%s: The search radius for finding an available portal.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5622</id>
+	<key><![CDATA[player%s: The player that teleport%sfrom%s: The location the player is coming from%sto%s: The location the player is coming to. Returns %s when using nether portal and "allow-nether" in server.properties is set to false or when using end portal and "allow-end" in bukkit.yml is set to false.%stype%s: the type of portal occurring%screationallowed%s: If a new portal can be created.%screationradius%s: Gets the maximum radius from the given location to create a portal.%ssearchradius%s: Gets the search radius for finding an available portal.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5623</id>
+	<key><![CDATA[to%ssearchradius]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
 </summary>
