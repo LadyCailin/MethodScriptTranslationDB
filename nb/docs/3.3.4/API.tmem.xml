@@ -9870,4 +9870,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-5624</id>
+	<key><![CDATA[Returns the color modifier given a color name. If the given color name isn&apos;t valid, white is used instead. The list of valid colors is: BLACK, DARK_BLUE, DARK_GREEN, DARK_AQUA, DARK_RED, DARK_PURPLE, GOLD, GRAY, DARK_GRAY, BLUE, GREEN, AQUA, RED, LIGHT_PURPLE, YELLOW, WHITE, RANDOM, BOLD, STRIKETHROUGH, UNDERLINE, ITALIC, or PLAIN_WHITE, in addition the integers 0-15 will work, or the hex numbers from 0-F, and k, l, m, n, o, and r, which represent styles. Unlike manually putting in the color symbol, using this function will return the platform&apos;s color code, so if you are wanting to keep your scripts platform independent, it is a much better idea to use this function as opposed to hard coding your own color codes.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5625</id>
+	<key><![CDATA[Plays the specified effect at the given location for all players within the radius (or 64 by default). The effect can be one of the following: DRAGON_BREATH, END_GATEWAY_SPAWN, ENDER_SIGNAL, INSTANT_POTION_BREAK, MOBSPAWNER_FLAMES, POTION_BREAK, SMOKE, VILLAGER_PLANT_GROW, ANVIL_BREAK, ANVIL_LAND, ANVIL_USE, BAT_TAKEOFF, BLAZE_SHOOT, BOW_FIRE, BREWING_STAND_BREW, CHORUS_FLOWER_DEATH, CHORUS_FLOWER_GROW, CLICK1, CLICK2, DOOR_CLOSE, DOOR_TOGGLE, ENDERDRAGON_GROWL, ENDERDRAGON_SHOOT, ENDEREYE_LAUNCH, EXTINGUISH, FENCE_GATE_CLOSE, FENCE_GATE_TOGGLE, FIREWORK_SHOOT, GHAST_SHOOT, GHAST_SHRIEK, IRON_DOOR_CLOSE, IRON_DOOR_TOGGLE, IRON_TRAPDOOR_CLOSE, IRON_TRAPDOOR_TOGGLE, PORTAL_TRAVEL, RECORD_PLAY, STEP_SOUND, TRAPDOOR_CLOSE, TRAPDOOR_TOGGLE, ZOMBIE_CHEW_WOODEN_DOOR, ZOMBIE_CHEW_IRON_DOOR, ZOMBIE_DESTROY_DOOR, WITHER_BREAK_BLOCK, WITHER_SHOOT, ZOMBIE_CONVERTED_VILLAGER, or ZOMBIE_INFECT. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
