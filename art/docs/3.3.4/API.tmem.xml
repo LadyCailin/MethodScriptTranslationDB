@@ -9884,4 +9884,46 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-5628</id>
+	<key><![CDATA[Returns an associative array containing the values of all existing gamerules for the given world. If the gameRule parameter is specified, the function only returns that one value instead of an array. The gameRule can be ANNOUNCEADVANCEMENTS, COMMANDBLOCKOUTPUT, DISABLEELYTRAMOVEMENTCHECK, DISABLERAIDS, DODAYLIGHTCYCLE, DOENTITYDROPS, DOFIRETICK, DOIMMEDIATERESPAWN, DOINSOMNIA, DOLIMITEDCRAFTING, DOMOBLOOT, DOMOBSPAWNING, DOPATROLSPAWNING, DOTILEDROPS, DOTRADERSPAWNING, DOWEATHERCYCLE, DROWNINGDAMAGE, FALLDAMAGE, FIREDAMAGE, FORGIVEDEADPLAYERS, KEEPINVENTORY, LOGADMINCOMMANDS, MAXCOMMANDCHAINLENGTH, MAXENTITYCRAMMING, MOBGRIEFING, NATURALREGENERATION, RANDOMTICKSPEED, REDUCEDDEBUGINFO, SENDCOMMANDFEEDBACK, SHOWDEATHMESSAGES, SPAWNRADIUS, SPECTATORSGENERATECHUNKS, or UNIVERSALANGER.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5629</id>
+	<key><![CDATA[Sets the value of the gamerule for the specified world. If world is not given the value is set for all worlds. Returns true if successful. gameRule can be ANNOUNCEADVANCEMENTS, COMMANDBLOCKOUTPUT, DISABLEELYTRAMOVEMENTCHECK, DISABLERAIDS, DODAYLIGHTCYCLE, DOENTITYDROPS, DOFIRETICK, DOIMMEDIATERESPAWN, DOINSOMNIA, DOLIMITEDCRAFTING, DOMOBLOOT, DOMOBSPAWNING, DOPATROLSPAWNING, DOTILEDROPS, DOTRADERSPAWNING, DOWEATHERCYCLE, DROWNINGDAMAGE, FALLDAMAGE, FIREDAMAGE, FORGIVEDEADPLAYERS, KEEPINVENTORY, LOGADMINCOMMANDS, MAXCOMMANDCHAINLENGTH, MAXENTITYCRAMMING, MOBGRIEFING, NATURALREGENERATION, RANDOMTICKSPEED, REDUCEDDEBUGINFO, SENDCOMMANDFEEDBACK, SHOWDEATHMESSAGES, SPAWNRADIUS, SPECTATORSGENERATECHUNKS, or UNIVERSALANGER.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5630</id>
+	<key><![CDATA[Returns an associative array of all the info needed to duplicate the world. The keys are name, seed, environment, generator, worldtype, sealevel and maxheight. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5631</id>
+	<key><![CDATA[Returns an array of all entities within the given distance from the location. Set type argument to filter entities to a specific entity type. You can pass an array of types. Valid types (case doesn&apos;t matter): DROPPED_ITEM, MAGMA_CUBE, SILVERFISH, MULE, HOGLIN, HUSK, VINDICATOR, PILLAGER, SHULKER_BULLET, VILLAGER, AREA_EFFECT_CLOUD, PAINTING, TURTLE, TRADER_LLAMA, SMALL_FIREBALL, CAVE_SPIDER, SLIME, DROWNED, FIREBALL, EVOKER, MINECART_HOPPER, ENDERMITE, PLAYER, SALMON, ZOMBIE, STRIDER, PANDA, MINECART_COMMAND, OCELOT, ENDERMAN, ZOMBIE_VILLAGER, LLAMA, ENDER_DRAGON, WITCH, EXPERIENCE_ORB, ITEM_FRAME, WITHER, ARROW, CREEPER, ILLUSIONER, COD, ENDER_EYE, ZOMBIE_HORSE, MINECART_TNT, FIREWORK, PRIMED_TNT, RAVAGER, BOAT, SHULKER, FISHING_HOOK, BEE, PHANTOM, BLAZE, SKELETON_HORSE, COW, WANDERING_TRADER, PIG, ZOGLIN, MINECART_MOB_SPAWNER, WOLF, IRON_GOLEM, SHEEP, VEX, ENDER_PEARL, TRIDENT, POLAR_BEAR, MINECART, SNOWMAN, MINECART_CHEST, LEASH_HITCH, SQUID, DRAGON_FIREBALL, ELDER_GUARDIAN, HORSE, ARMOR_STAND, LIGHTNING, PARROT, EVOKER_FANGS, FOX, GIANT, STRAY, SPECTRAL_ARROW, CAT, RABBIT, DONKEY, ENDER_CRYSTAL, TROPICAL_FISH, SPIDER, SKELETON, WITHER_SKELETON, MUSHROOM_COW, CHICKEN, ZOMBIFIED_PIGLIN, SNOWBALL, THROWN_EXP_BOTTLE, WITHER_SKULL, PUFFERFISH, GUARDIAN, EGG, LLAMA_SPIT, FALLING_BLOCK, SPLASH_POTION, PIGLIN, GHAST, BAT, DOLPHIN, MINECART_FURNACE, or UNKNOWN]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5632</id>
+	<key><![CDATA[Creates a virtual inventory and holds it under the specified id. The string id should not be a UUID. If the id is already in use, an IllegalArgumentException will be thrown. You can use this id in other inventory functions to modify the contents, among other things. If a size is specified instead of a type, it is rounded up to the nearest multiple of 9. Size cannot be higher than 54. A title for the top of the inventory may be given, but it will use the default for that that inventory type if %s is specified. An optional inventory array may be specified, otherwise the inventory will start empty. Available inventory types: BREWING, CHEST, DISPENSER, DROPPER, ENDER_CHEST, FURNACE, HOPPER, PLAYER, WORKBENCH, ANVIL, SMITHING, SHULKER_BOX, BARREL, BLAST_FURNACE or SMOKER]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5633</id>
+	<key><![CDATA[Plays the given visual effect on the entity. Non-applicable effects simply won&apos;t happen. Note: the death effect makes the mob invisible to players and immune to melee attacks. When used on players, they are shown the respawn menu, but because they are not actually dead, they can only log out. Possible effects are: ARROW_PARTICLES, RABBIT_JUMP, DEATH, HURT, SHEEP_EAT, WOLF_HEARTS, WOLF_SHAKE, WOLF_SMOKE, IRON_GOLEM_ROSE, VILLAGER_HEART, VILLAGER_ANGRY, VILLAGER_HAPPY, WITCH_MAGIC, ZOMBIE_TRANSFORM, FIREWORK_EXPLODE, LOVE_HEARTS, SQUID_ROTATE, ENTITY_POOF, GUARDIAN_TARGET, SHIELD_BLOCK, SHIELD_BREAK, ARMOR_STAND_HIT, THORNS_HURT, IRON_GOLEM_SHEATH, TOTEM_RESURRECT, HURT_DROWN, HURT_EXPLOSION, DOLPHIN_FED, RAVAGER_STUNNED, CAT_TAME_FAIL, CAT_TAME_SUCCESS, VILLAGER_SPLASH, PLAYER_BAD_OMEN_RAID, HURT_BERRY_BUSH, FOX_CHEW, TELEPORT_ENDER, BREAK_EQUIPMENT_MAIN_HAND, BREAK_EQUIPMENT_OFF_HAND, BREAK_EQUIPMENT_HELMET, BREAK_EQUIPMENT_CHESTPLATE, BREAK_EQUIPMENT_LEGGINGS, or BREAK_EQUIPMENT_BOOTS]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

@@ -1316,4 +1316,32 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-5636</id>
+	<key><![CDATA[particle: The particle type which comprises the cloud (can be SMOKE_NORMAL, ENCHANTMENT_TABLE, REDSTONE, SOUL_FIRE_FLAME, SNOW_SHOVEL, BUBBLE_COLUMN_UP, SPELL_MOB, REVERSE_PORTAL, CAMPFIRE_SIGNAL_SMOKE, BLOCK_DUST, FALLING_HONEY, SWEEP_ATTACK, WATER_SPLASH, LANDING_LAVA, SLIME, FALLING_LAVA, DRAGON_BREATH, DRIPPING_OBSIDIAN_TEAR, CURRENT_DOWN, DRIPPING_HONEY, LANDING_OBSIDIAN_TEAR, ITEM_CRACK, WARPED_SPORE, FALLING_DUST, SNEEZE, WATER_BUBBLE, WHITE_ASH, FLASH, VILLAGER_ANGRY, HEART, LANDING_HONEY, END_ROD, FALLING_NECTAR, CRIT_MAGIC, SUSPENDED, WATER_DROP, SPELL, FALLING_WATER, SPELL_INSTANT, LAVA, VILLAGER_HAPPY, SQUID_INK, CRIT, CLOUD, BUBBLE_POP, COMPOSTER, NAUTILUS, EXPLOSION_LARGE, TOWN_AURA, SUSPENDED_DEPTH, CAMPFIRE_COSY_SMOKE, SOUL, NOTE, ASH, SNOWBALL, SPELL_MOB_AMBIENT, DAMAGE_INDICATOR, SMOKE_LARGE, CRIMSON_SPORE, TOTEM, BARRIER, EXPLOSION_NORMAL, FLAME, SPIT, FALLING_OBSIDIAN_TEAR, PORTAL, MOB_APPEARANCE, DOLPHIN, SPELL_WITCH, DRIP_WATER, EXPLOSION_HUGE, WATER_WAKE, UNKNOWN, FIREWORKS_SPARK, DRIP_LAVA, or BLOCK_CRACK). Can accept a particle array for setting index data required for specific particle types. This particle array must contain a "particle" key, and supports the keys "block", "item", or "color" when applicable.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5637</id>
+	<key><![CDATA[ZOMBIFIED_PIGLIN (formerly PIG_ZOMBIE)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5638</id>
+	<key><![CDATA[anger: The piglin zombie's anger level.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5639</id>
+	<key><![CDATA[angry: Whether the piglin zombie is angry.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
