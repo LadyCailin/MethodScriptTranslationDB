@@ -2940,4 +2940,32 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-5653</id>
+	<key><![CDATA[id%s: %s&lt;Macro&gt; The entity UUID%stype%s: %s&lt;Macro&gt; The type of entity exploding]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5654</id>
+	<key><![CDATA[Fires when an item entity comes into existence.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5655</id>
+	<key><![CDATA[id%stype%slocation%s: Where the explosion occurs%sblocks%syield]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5656</id>
+	<key><![CDATA[Fires when an explosion occurs. Cancelling this event only protects blocks. Entities are handled in damage events.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

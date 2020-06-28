@@ -1344,4 +1344,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-5657</id>
+	<key><![CDATA[ZOMBIE, HUSK, DROWNED, ZOGLIN, PIGLIN]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
