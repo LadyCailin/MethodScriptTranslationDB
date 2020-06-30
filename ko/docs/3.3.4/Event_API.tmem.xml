@@ -2968,4 +2968,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-5658</id>
+	<key><![CDATA[virtual%s: %s&lt;Boolean Match&gt; Whether or not this inventory is virtually stored in CH%sslottype%s: %s&lt;Macro&gt; The type of slot being clicked, can be ARMOR, CONTAINER, CRAFTING, FUEL, OUTSIDE, QUICKBAR, or RESULT%sclicktype%s: %s&lt;Macro&gt; One of LEFT, SHIFT_LEFT, RIGHT, SHIFT_RIGHT, WINDOW_BORDER_LEFT, WINDOW_BORDER_RIGHT, MIDDLE, NUMBER_KEY, DOUBLE_CLICK, DROP, CONTROL_DROP, CREATIVE, SWAP_OFFHAND, or UNKNOWN%saction%s: %s&lt;Macro&gt; One of NOTHING, PICKUP_ALL, PICKUP_SOME, PICKUP_HALF, PICKUP_ONE, PLACE_ALL, PLACE_SOME, PLACE_ONE, SWAP_WITH_CURSOR, DROP_ALL_CURSOR, DROP_ONE_CURSOR, DROP_ALL_SLOT, DROP_ONE_SLOT, MOVE_TO_OTHER_INVENTORY, HOTBAR_MOVE_AND_READD, HOTBAR_SWAP, CLONE_STACK, COLLECT_TO_CURSOR, or UNKNOWN%sslotitem%s: %s&lt;String Match&gt;%splayer%s: %s&lt;Macro&gt;]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

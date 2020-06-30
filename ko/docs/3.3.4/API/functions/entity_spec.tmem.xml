@@ -1351,4 +1351,46 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-5659</id>
+	<key><![CDATA[fixed: If true, the item frame cannot be manipulated. (destroyed, rotated, removed, etc) (default false)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5660</id>
+	<key><![CDATA[ZOMBIFIED_PIGLIN (PIG_ZOMBIE before 1.16)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5661</id>
+	<key><![CDATA[PIG, STRIDER]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5662</id>
+	<key><![CDATA[carried: The block that the Enderman is carrying.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5663</id>
+	<key><![CDATA[visible: If the frame is visible. (default true)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5664</id>
+	<key><![CDATA[saddled: If the steerable mob has a saddle.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
