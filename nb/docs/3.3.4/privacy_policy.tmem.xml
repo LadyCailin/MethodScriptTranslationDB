@@ -4,8 +4,8 @@
 	<id>nb-1715</id>
 	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.]]></key>
 	<comment></comment>
-	<translation></translation>
-	<auto></auto>
+	<translation><![CDATA[Finne en feil på denne siden? %sRediger denne siden selv, og send deretter inn en Pull Request.]]></translation>
+	<auto><![CDATA[Finne en feil på denne siden? %sRediger denne siden selv, og send deretter inn en pull-forespørsel.]]></auto>
 </translationBlock>
 <translationBlock>
 	<id>nb-1739</id>
@@ -19,13 +19,13 @@
 	<key><![CDATA[About]]></key>
 	<comment></comment>
 	<translation></translation>
-	<auto></auto>
+	<auto><![CDATA[Om]]></auto>
 </translationBlock>
 <translationBlock>
 	<id>nb-5153</id>
 	<key><![CDATA[Home]]></key>
 	<comment></comment>
-	<translation></translation>
+	<translation><![CDATA[Hjem]]></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
@@ -33,34 +33,34 @@
 	<key><![CDATA[Privacy Policy]]></key>
 	<comment></comment>
 	<translation></translation>
-	<auto></auto>
+	<auto><![CDATA[Personvern]]></auto>
 </translationBlock>
 <translationBlock>
 	<id>nb-5155</id>
 	<key><![CDATA[Sponsors]]></key>
 	<comment></comment>
 	<translation></translation>
-	<auto></auto>
+	<auto><![CDATA[Sponsorer]]></auto>
 </translationBlock>
 <translationBlock>
 	<id>nb-5156</id>
 	<key><![CDATA[Help]]></key>
 	<comment></comment>
-	<translation></translation>
-	<auto></auto>
+	<translation><![CDATA[Hjelp]]></translation>
+	<auto><![CDATA[hjelp]]></auto>
 </translationBlock>
 <translationBlock>
 	<id>nb-5157</id>
 	<key><![CDATA[Team. All rights reserved.]]></key>
 	<comment></comment>
 	<translation></translation>
-	<auto></auto>
+	<auto><![CDATA[Team. Alle rettigheter reservert.]]></auto>
 </translationBlock>
 <translationBlock>
 	<id>nb-5158</id>
 	<key><![CDATA[Docs]]></key>
 	<comment></comment>
 	<translation></translation>
-	<auto></auto>
+	<auto><![CDATA[Dokumenter]]></auto>
 </translationBlock>
 </translations>

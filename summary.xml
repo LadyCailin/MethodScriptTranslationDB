@@ -13460,7 +13460,7 @@
 	<eligibleForMachineTranslation>true</eligibleForMachineTranslation>
 	<comment></comment>
 	<untranslatable>false</untranslatable>
-	<suspectSegment>false</suspectSegment>
+	<suspectSegment>true</suspectSegment>
 </translationEntry>
 <translationEntry>
 	<id>1684</id>
@@ -13484,7 +13484,7 @@
 	<eligibleForMachineTranslation>true</eligibleForMachineTranslation>
 	<comment></comment>
 	<untranslatable>false</untranslatable>
-	<suspectSegment>false</suspectSegment>
+	<suspectSegment>true</suspectSegment>
 </translationEntry>
 <translationEntry>
 	<id>1687</id>
@@ -13587,7 +13587,7 @@
 	<key><![CDATA[__NOTOC__]]></key>
 	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
 	<comment></comment>
-	<untranslatable>false</untranslatable>
+	<untranslatable>true</untranslatable>
 	<suspectSegment>true</suspectSegment>
 </translationEntry>
 <translationEntry>
@@ -41249,7 +41249,7 @@
 <translationEntry>
 	<id>5157</id>
 	<key><![CDATA[Team. All rights reserved.]]></key>
-	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<eligibleForMachineTranslation>false</eligibleForMachineTranslation>
 	<comment><![CDATA[This will start with &copy; %%branding%%, so for instance, the complete sentence is "&copy; MethodScript Team. All rights reserved." This is a global segment.]]></comment>
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
@@ -41273,7 +41273,7 @@
 <translationEntry>
 	<id>5160</id>
 	<key><![CDATA[Only the latest development build is officially supported, but there is some community support for older builds, which you can get by joining IRC or Discord. For the latest builds, head to  [%s the build site], click the blue download button to the right of the topmost build, and then download the %scommandhelper-%s-SNAPSHOT-full.jar%s file. (Don't download the one without -full.) You can also download the versionless jar that corresponds to the exact version that this site was built with [[%s|here]], though this is not supported.]]></key>
-	<eligibleForMachineTranslation>true</eligibleForMachineTranslation>
+	<eligibleForMachineTranslation>false</eligibleForMachineTranslation>
 	<comment></comment>
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
@@ -42937,7 +42937,7 @@
 <translationEntry>
 	<id>5368</id>
 	<key><![CDATA[On Windows systems, you'll need to have launched your command prompt as Administrator. (To install on Windows Subsystem for Linux, follow the same instructions as for Unix.) A program ''mscript'' will be installed on your path, and a PowerShell Module will also be installed. Running ''mscript'' will launch the interpreter, running it with a file will run that file, and using ''mscript -- '' followed by a verb (such as help) will run the cmdline utilities.]]></key>
-	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<eligibleForMachineTranslation>true</eligibleForMachineTranslation>
 	<comment></comment>
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
@@ -42945,7 +42945,7 @@
 <translationEntry>
 	<id>5369</id>
 	<key><![CDATA[On Unix systems, you'll need to run the command with sudo. The installer will install an mscript bash file in /usr/local/bin/mscript, which simply wraps the jar. Running ''mscript'' will launch the interpreter, running it with a file will run that file, and using ''mscript -- '' followed by a verb (such as help) will run the cmdline utilities.]]></key>
-	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<eligibleForMachineTranslation>true</eligibleForMachineTranslation>
 	<comment></comment>
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
