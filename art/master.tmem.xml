@@ -39648,4 +39648,25 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-5665</id>
+	<key><![CDATA['''lodestone''' : (boolean) If the target location is a tracked lodestone. If true, compass spins if no lodestone exists there.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5666</id>
+	<key><![CDATA[Compass]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5667</id>
+	<key><![CDATA['''target''' : (array) The location this compass will point to, or %s to use normal compass target.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
