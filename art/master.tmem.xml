@@ -39669,4 +39669,32 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-5668</id>
+	<key><![CDATA[Generates a tree at the given location and returns if the generation succeeded or not. The treeType can be TREE, BIG_TREE, REDWOOD, TALL_REDWOOD, BIRCH, JUNGLE, SMALL_JUNGLE, JUNGLE_BUSH, RED_MUSHROOM, BROWN_MUSHROOM, SWAMP, ACACIA, DARK_OAK, COCOA_TREE, MEGA_REDWOOD, TALL_BIRCH, CHORUS_PLANT, CRIMSON_FUNGUS, or WARPED_FUNGUS, defaulting to TREE.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5669</id>
+	<key><![CDATA[Fires when a player respawns. Technically during this time, the player may not be considered 'online'. This can cause problems if you try to run an external command with run() or something. CommandHelper takes into account the fact that the player is offline, and works around this, so all functions should respond correctly as if the player was online, however other plugins or plain text commands that are run may not.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5670</id>
+	<key><![CDATA[player%s: The player that is respawning%slocation%s: The location they are going to respawn at%sbed_spawn%s: True if the respawn location is the player's bedanchor_spawn]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5671</id>
+	<key><![CDATA[world%s: The world in which the tree has grown.%stype%s: The tree type, can be one of TREE, BIG_TREE, REDWOOD, TALL_REDWOOD, BIRCH, JUNGLE, SMALL_JUNGLE, JUNGLE_BUSH, RED_MUSHROOM, BROWN_MUSHROOM, SWAMP, ACACIA, DARK_OAK, COCOA_TREE, MEGA_REDWOOD, TALL_BIRCH, CHORUS_PLANT, CRIMSON_FUNGUS, or WARPED_FUNGUS%sblocks%s: An array containing all locations of grown blocks.%slocation%s: The location of the sapling.%sbonemeal%s: If the tree has grown due to a bonemeal or not.%splayer%s: The player who used the bonemeal, or %s if no bonemeal was used.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
