@@ -9933,4 +9933,67 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-5672</id>
+	<key><![CDATA[[%sstring id%s]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5673</id>
+	<key><![CDATA[string id]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5674</id>
+	<key><![CDATA[Tests whether the thread with the given id (or the current thread if none is provided) is interrupted via x_interrupt. If the thread doesn&apos;t exist, or is not alive, false is returned.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5675</id>
+	<key><![CDATA[Clears the interrupt status of the current thread. If this call actually cleared the interrupt status, true is returned, if the thread was already not interrupted, false is returned.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5676</id>
+	<key><![CDATA[Waits for the thread with the given id to exit. By default, we wait potentially forever, but if maxWait is specified, we will only wait that many milliseconds. (Sending 0 for this value causes an infinite wait.) If the timeout occurs or thread interrupted, an InterruptedException is thrown. If the id is unknown, this function will directly return]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5677</id>
+	<key><![CDATA[Interrupts the thread with the given id, or the current thread if no id is given. When a thread is interrupted, its interrupt status is set to true. This status can be checked using the x_is_interrupted and x_clear_interrupt function. Note that some blocking functions will throw an InterruptedException when the thread on which they are executed is interrupted.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5678</id>
+	<key><![CDATA[Sleeps the script for the specified number of seconds, up to the maximum time limit defined in the preferences file. Seconds may be a double value, so 0.5 would be half a second. If the &quot;interrupt status&quot; is true then throw InterruptedException PLEASE NOTE: Sleep times are NOT very accurate, and should not be relied on for preciseness.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5679</id>
+	<key><![CDATA[string id, %s[%sint maxWait%s]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5680</id>
+	<key><![CDATA[Tests if this thread with the given id is alive. A thread is alive if it has been started and has not yet died.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

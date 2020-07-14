@@ -1,127 +1,120 @@
 <translations>
 <comment></comment>
 <translationBlock>
-	<id>nb-224</id>
-	<key><![CDATA[Sleeps the script for the specified number of seconds, up to the maximum time limit defined in the preferences file. Seconds may be a double value, so 0.5 would be half a second. PLEASE NOTE: Sleep times are NOT very accurate, and should not be relied on for preciseness.]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto></auto>
-</translationBlock>
-<translationBlock>
-	<id>nb-445</id>
+	<id>art-445</id>
 	<key><![CDATA[Yes]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nb-1121</id>
-	<key><![CDATA[seconds]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto></auto>
-</translationBlock>
-<translationBlock>
-	<id>nb-2878</id>
+	<id>art-2878</id>
 	<key><![CDATA[Examples]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nb-3788</id>
+	<id>art-3788</id>
 	<key><![CDATA[Vital Info]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nb-3789</id>
+	<id>art-3789</id>
 	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.%s (Note this page is automatically generated from the documentation in the source code.)]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nb-3791</id>
+	<id>art-3791</id>
 	<key><![CDATA[Usages]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nb-3792</id>
+	<id>art-3792</id>
 	<key><![CDATA[Sorry, there are no examples for this function! :(]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nb-3805</id>
+	<id>art-3805</id>
 	<key><![CDATA[See Also]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nb-3813</id>
+	<id>art-3813</id>
 	<key><![CDATA[None]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nb-5152</id>
+	<id>art-5152</id>
 	<key><![CDATA[About]]></key>
 	<comment></comment>
 	<translation></translation>
-	<auto><![CDATA[Om]]></auto>
+	<auto><![CDATA[Abøüt]]></auto>
 </translationBlock>
 <translationBlock>
-	<id>nb-5153</id>
+	<id>art-5153</id>
 	<key><![CDATA[Home]]></key>
 	<comment></comment>
-	<translation><![CDATA[Hjem]]></translation>
-	<auto></auto>
+	<translation></translation>
+	<auto><![CDATA[Hømə]]></auto>
 </translationBlock>
 <translationBlock>
-	<id>nb-5154</id>
+	<id>art-5154</id>
 	<key><![CDATA[Privacy Policy]]></key>
 	<comment></comment>
 	<translation></translation>
-	<auto><![CDATA[Personvern]]></auto>
+	<auto><![CDATA[Prîvåcʎ Pølîcʎ]]></auto>
 </translationBlock>
 <translationBlock>
-	<id>nb-5155</id>
+	<id>art-5155</id>
 	<key><![CDATA[Sponsors]]></key>
 	<comment></comment>
 	<translation></translation>
-	<auto><![CDATA[Sponsorer]]></auto>
+	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nb-5156</id>
+	<id>art-5156</id>
 	<key><![CDATA[Help]]></key>
 	<comment></comment>
-	<translation><![CDATA[Hjelp]]></translation>
-	<auto><![CDATA[hjelp]]></auto>
+	<translation></translation>
+	<auto><![CDATA[Həlp]]></auto>
 </translationBlock>
 <translationBlock>
-	<id>nb-5157</id>
+	<id>art-5157</id>
 	<key><![CDATA[Team. All rights reserved.]]></key>
 	<comment></comment>
 	<translation></translation>
-	<auto><![CDATA[Team. Alle rettigheter reservert.]]></auto>
+	<auto><![CDATA[Təåm. All rîghts rəsərvəd.]]></auto>
 </translationBlock>
 <translationBlock>
-	<id>nb-5158</id>
+	<id>art-5158</id>
 	<key><![CDATA[Docs]]></key>
 	<comment></comment>
 	<translation></translation>
-	<auto><![CDATA[Dokumenter]]></auto>
+	<auto><![CDATA[Døcs]]></auto>
 </translationBlock>
 <translationBlock>
-	<id>nb-5682</id>
-	<key><![CDATA[Sleeps the script for the specified number of seconds, up to the maximum time limit defined in the preferences file. Seconds may be a double value, so 0.5 would be half a second. If the "interrupt status" is true then throw InterruptedException PLEASE NOTE: Sleep times are NOT very accurate, and should not be relied on for preciseness.]]></key>
+	<id>art-5672</id>
+	<key><![CDATA[[%sstring id%s]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5683</id>
+	<key><![CDATA[Tests whether the thread with the given id (or the current thread if none is provided) is interrupted via x_interrupt. If the thread doesn't exist, or is not alive, false is returned.]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>

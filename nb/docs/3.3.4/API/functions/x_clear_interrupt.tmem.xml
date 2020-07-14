@@ -1,22 +1,8 @@
 <translations>
 <comment></comment>
 <translationBlock>
-	<id>nb-224</id>
-	<key><![CDATA[Sleeps the script for the specified number of seconds, up to the maximum time limit defined in the preferences file. Seconds may be a double value, so 0.5 would be half a second. PLEASE NOTE: Sleep times are NOT very accurate, and should not be relied on for preciseness.]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto></auto>
-</translationBlock>
-<translationBlock>
 	<id>nb-445</id>
 	<key><![CDATA[Yes]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto></auto>
-</translationBlock>
-<translationBlock>
-	<id>nb-1121</id>
-	<key><![CDATA[seconds]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
@@ -120,8 +106,8 @@
 	<auto><![CDATA[Dokumenter]]></auto>
 </translationBlock>
 <translationBlock>
-	<id>nb-5682</id>
-	<key><![CDATA[Sleeps the script for the specified number of seconds, up to the maximum time limit defined in the preferences file. Seconds may be a double value, so 0.5 would be half a second. If the "interrupt status" is true then throw InterruptedException PLEASE NOTE: Sleep times are NOT very accurate, and should not be relied on for preciseness.]]></key>
+	<id>nb-5675</id>
+	<key><![CDATA[Clears the interrupt status of the current thread. If this call actually cleared the interrupt status, true is returned, if the thread was already not interrupted, false is returned.]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>

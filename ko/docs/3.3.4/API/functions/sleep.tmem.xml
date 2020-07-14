@@ -57,6 +57,13 @@
 	<auto></auto>
 </translationBlock>
 <translationBlock>
+	<id>ko-3805</id>
+	<key><![CDATA[See Also]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
 	<id>ko-3813</id>
 	<key><![CDATA[None]]></key>
 	<comment></comment>
@@ -108,6 +115,13 @@
 <translationBlock>
 	<id>ko-5158</id>
 	<key><![CDATA[Docs]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5682</id>
+	<key><![CDATA[Sleeps the script for the specified number of seconds, up to the maximum time limit defined in the preferences file. Seconds may be a double value, so 0.5 would be half a second. If the "interrupt status" is true then throw InterruptedException PLEASE NOTE: Sleep times are NOT very accurate, and should not be relied on for preciseness.]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>

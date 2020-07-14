@@ -644,4 +644,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-5681</id>
+	<key><![CDATA[Automatically adds the default headers to this request, unless specifically overridden. Note that some headers simply cannot be overridden, for instance Host and User-Agent will ALWAYS be set. The default headers are:  {Accept=text/*, application/xhtml+xml, application/xml;q=0.9, */*;q=0.8, User-Agent=Java/1.8.0_252/MethodScript, Connection=close, Accept-Encoding=br, deflate, identity, gzip, DNT=1}]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
