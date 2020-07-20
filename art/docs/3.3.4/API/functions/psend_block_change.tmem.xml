@@ -112,4 +112,11 @@
 	<translation></translation>
 	<auto><![CDATA[Døcs]]></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-5718</id>
+	<key><![CDATA[Changes a block temporarily for the specified player. This can be used to "fake" blocks for a player. These illusory blocks will disappear when the client updates them, most often by clicking on them or reloading the chunks. Sending %s will reset the block to its existing state in the world. A block type or blockdata format is supported. (see set_blockdata_string())]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
