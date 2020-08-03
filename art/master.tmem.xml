@@ -40068,4 +40068,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-5725</id>
+	<key><![CDATA[Multiplies a string the given number of times. For instance, string_multiply(&apos;a&apos;, 3) returns &apos;aaa&apos;. If the string is empty, an empty string is returned. If the string is %s, %s is returned. If times is 0, an empty string is returned. All other string values are multiplied accordingly. Providing a value less than 0 for times results in a RangeException. When the maximum string size of 2147483647 characters would be exceeded, a RangeException is thrown.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5726</id>
+	<key><![CDATA[Multiplies a string the given number of times. For instance, string_multiply('a', 3) returns 'aaa'. If the string is empty, an empty string is returned. If the string is %s, %s is returned. If times is 0, an empty string is returned. All other string values are multiplied accordingly. Providing a value less than 0 for times results in a RangeException. When the maximum string size of 2147483647 characters would be exceeded, a RangeException is thrown.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
