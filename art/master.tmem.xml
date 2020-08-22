@@ -40159,4 +40159,39 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-5738</id>
+	<key><![CDATA[location%s: The location of the explosion.%sblocks%s: An array of block locations that will be destroyed by this explosion.%syield%s: Decimal percentage of blocks destroyed that will drop items.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5739</id>
+	<key><![CDATA[blocks%syield]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5740</id>
+	<key><![CDATA[block_explode]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5741</id>
+	<key><![CDATA[Called when a block explodes (like beds in the nether) or a plugin creates an explosion.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5742</id>
+	<key><![CDATA['''flags''' : (array) Possible flags: ''HIDE_ENCHANTS, HIDE_ATTRIBUTES, HIDE_UNBREAKABLE, HIDE_DESTROYS, HIDE_PLACED_ON, HIDE_POTION_EFFECTS, or HIDE_DYE''.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
