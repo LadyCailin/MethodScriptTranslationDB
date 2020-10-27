@@ -45934,4 +45934,20 @@
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
 </translationEntry>
+<translationEntry>
+	<id>5743</id>
+	<key><![CDATA[Gets the charge value of the player&apos;s attack cooldown. This is a  double with range 0.0-1.0 inclusive. 1.0 is fully charged, while 0.0 is no charge.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5744</id>
+	<key><![CDATA[Gets the charge value of the player's attack cooldown. This is a  double with range 0.0-1.0 inclusive. 1.0 is fully charged, while 0.0 is no charge.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
 </summary>
