@@ -40208,4 +40208,32 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-5745</id>
+	<key><![CDATA[hanging_place]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5746</id>
+	<key><![CDATA[id%s: The entity ID of the entity.%stype%s: The type of the hanging entity; can be ITEM_FRAME, PAINTING, or LEASE_HITCH%slocation%s: Where the entity was placed.%splayer%s: The name of the player which placed this entity.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5747</id>
+	<key><![CDATA[type%s: %s&lt;Macro&gt; The entity type of the entity%splayer%s: %s&lt;Macro&gt; The player triggering the event%sworld%s: %s&lt;Macro&gt; The world the entity is in]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5748</id>
+	<key><![CDATA[This event is called when a player attempts to place an item frame, painting, or leash.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
