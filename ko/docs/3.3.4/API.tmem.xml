@@ -10045,4 +10045,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-5749</id>
+	<key><![CDATA[Creates a new resource, which is stored in memory. Various functions require resources of certain types, which are created with this function. Barring resources that you intend on keeping around indefinitely, each call to res_create_resource should be paired with a res_free_resource, being careful to catch any exceptions and still calling res_free_resource anyways. Each resource has its own data to create the resource. Type may be one of: XML_DOCUMENT, STRING_BUILDER, or RANDOM It&apos;s worth noting that this function (and any function that relies on it) is a stopgap measure, and will eventually be deprecated and removed. For certain types of operations, it&apos;s completely unweildy to implement them in a procedural manner, so this is a temporary alternative to proper object support.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

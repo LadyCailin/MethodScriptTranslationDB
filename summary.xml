@@ -45982,4 +45982,28 @@
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
 </translationEntry>
+<translationEntry>
+	<id>5749</id>
+	<key><![CDATA[Creates a new resource, which is stored in memory. Various functions require resources of certain types, which are created with this function. Barring resources that you intend on keeping around indefinitely, each call to res_create_resource should be paired with a res_free_resource, being careful to catch any exceptions and still calling res_free_resource anyways. Each resource has its own data to create the resource. Type may be one of: XML_DOCUMENT, STRING_BUILDER, or RANDOM It&apos;s worth noting that this function (and any function that relies on it) is a stopgap measure, and will eventually be deprecated and removed. For certain types of operations, it&apos;s completely unweildy to implement them in a procedural manner, so this is a temporary alternative to proper object support.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5750</id>
+	<key><![CDATA[Automatically adds the default headers to this request, unless specifically overridden. Note that some headers simply cannot be overridden, for instance Host and User-Agent will ALWAYS be set. The default headers are:  {Accept=text/*, application/xhtml+xml, application/xml;q=0.9, */*;q=0.8, User-Agent=Java/1.8.0_272/MethodScript, Connection=close, Accept-Encoding=br, deflate, identity, gzip, DNT=1}]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5751</id>
+	<key><![CDATA[Creates a new resource, which is stored in memory. Various functions require resources of certain types, which are created with this function. Barring resources that you intend on keeping around indefinitely, each call to res_create_resource should be paired with a res_free_resource, being careful to catch any exceptions and still calling res_free_resource anyways. Each resource has its own data to create the resource. Type may be one of: XML_DOCUMENT, STRING_BUILDER, or RANDOM It's worth noting that this function (and any function that relies on it) is a stopgap measure, and will eventually be deprecated and removed. For certain types of operations, it's completely unweildy to implement them in a procedural manner, so this is a temporary alternative to proper object support.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
 </summary>
