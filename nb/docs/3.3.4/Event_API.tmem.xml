@@ -3087,4 +3087,39 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-5754</id>
+	<key><![CDATA[id%sentities%s: An associative array of living entities affected by the splash, where the key is a UUID and the value is a double with a range of 0.0 - 1.0 for the intensity of the effect.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5755</id>
+	<key><![CDATA[id%s: %s&lt;String Match&gt; The splash potion entity uuid.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5756</id>
+	<key><![CDATA[Called when a splash potion lands.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5757</id>
+	<key><![CDATA[entities%s: Set an entity's intensity to 0 to make them unaffected.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5758</id>
+	<key><![CDATA[potion_splash]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

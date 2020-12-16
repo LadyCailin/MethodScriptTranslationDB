@@ -46014,4 +46014,60 @@
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
 </translationEntry>
+<translationEntry>
+	<id>5753</id>
+	<key><![CDATA[Gets the charge value of the player&apos;s attack cooldown. This is a  double with range 0.0-1.0 inclusive. 1.0 is fully charged, while 0.0 is no charge. (Spigot versions prior to 1.15.2 will always return 1.0)]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5754</id>
+	<key><![CDATA[id%sentities%s: An associative array of living entities affected by the splash, where the key is a UUID and the value is a double with a range of 0.0 - 1.0 for the intensity of the effect.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5755</id>
+	<key><![CDATA[id%s: %s&lt;String Match&gt; The splash potion entity uuid.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5756</id>
+	<key><![CDATA[Called when a splash potion lands.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5757</id>
+	<key><![CDATA[entities%s: Set an entity's intensity to 0 to make them unaffected.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5758</id>
+	<key><![CDATA[potion_splash]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5759</id>
+	<key><![CDATA[Gets the charge value of the player's attack cooldown. This is a  double with range 0.0-1.0 inclusive. 1.0 is fully charged, while 0.0 is no charge. (Spigot versions prior to 1.15.2 will always return 1.0)]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
 </summary>
