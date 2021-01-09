@@ -119,4 +119,11 @@
 	<translation></translation>
 	<auto><![CDATA[Døcs]]></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-5767</id>
+	<key><![CDATA[Returns an int, read in as a 16 bit signed short, from the given position, or wherever the marker is currently at by default.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

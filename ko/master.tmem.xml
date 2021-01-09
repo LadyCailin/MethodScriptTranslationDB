@@ -40313,4 +40313,60 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-5760</id>
+	<key><![CDATA[Returns an int, read in as an 8 bit signed byte, from the given position, or wherever the marker is currently at by default.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5761</id>
+	<key><![CDATA[Returns an int, read in as a 64 bit signed long, from the given position, or wherever the marker is currently at by default.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5762</id>
+	<key><![CDATA[Writes an int, interpreted as an 16 bit signed short, starting from the given position, or wherever the marker is currently at by default.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5763</id>
+	<key><![CDATA[Writes an int, interpreted as an 8 bit signed byte, starting from the given position, or wherever the marker is currently at by default.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5764</id>
+	<key><![CDATA[Returns an int, read in as a 32 bit signed int, from the given position, or wherever the marker is currently at by default.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5765</id>
+	<key><![CDATA[Writes an int, interpreted as a 64 bit signed long, starting from the given position, or wherever the marker is currently at by default.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5766</id>
+	<key><![CDATA[Writes an int, interpreted as a 32 bit signed int, starting from the given position, or wherever the marker is currently at by default.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5767</id>
+	<key><![CDATA[Returns an int, read in as a 16 bit signed short, from the given position, or wherever the marker is currently at by default.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
