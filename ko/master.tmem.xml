@@ -40369,4 +40369,32 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-5768</id>
+	<key><![CDATA[Only the latest development build is officially supported, but there is some community support for older builds, which you can get by joining IRC or Discord. For the latest builds, head to [%s the build site], click the blue download button to the right of the topmost build, and then download the %scommandhelper-%s-SNAPSHOT-full.jar%s file. (Don't download the one without -full.) You can also download the versionless jar that corresponds to the exact version that this site was built with [[%s|here]], though this is not supported.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5769</id>
+	<key><![CDATA['''MethodScript''' is the name of the programming language that CommandHelper uses, and there is a commandline version of MethodScript as well, that you can use outside of Minecraft. MethodScript is an imperative, dynamic, event driven, value-level, metaprogramming (reflective), structured (block-structured, semi-object-oriented, semi-class-based, recursive), parallel, partially strongly typed language, and is an active work in progress.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5770</id>
+	<key><![CDATA[The Visual Studio Code [%s MethodScriptVSC] IDE is the only officially supported IDE/Syntax Highlighter, and is most likely the most feature rich and up-to-date version, so it is highly recommended. To install, [%s download Visual Studio Code] (free, on all platforms), and install the MethodScriptVSC extension from the extensions tab.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5771</id>
+	<key><![CDATA[The manual installation instructions are still valid if you wish to customize your install, but for Windows, you can use the pre-packaged standalone installer, found [%s here]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
