@@ -112,4 +112,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-5792</id>
+	<key><![CDATA[file, %s[%sencoding%s]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5794</id>
+	<key><![CDATA[Reads in a file from the file system at location var1 and returns it as a string. The path is relative to the file that is being run, not CommandHelper. If the file is not found, or otherwise can't be read in, an IOException is thrown. If the file specified is not within base-dir (as specified in the preferences file), a SecurityException is thrown. The line endings for the string returned will always be \n, even if they originally were \r\n. Encoding defaults to UTF-8 if not specified.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

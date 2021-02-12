@@ -112,4 +112,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-5789</id>
+	<key><![CDATA[path, %s[%sencoding%s]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5791</id>
+	<key><![CDATA[Returns the value of a file at compile time only. Unlike read, this runs and is fully resolved at compile time. This is useful for optimization reasons, if you have a file that is unchanging, this can be used instead of read(), to prevent a runtime hit each time the code is executed. Otherwise, this method is equivalent to read(). The path must be fully resolved at compile time. Encoding is optional, and defaults to UTF-8.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

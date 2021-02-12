@@ -40516,4 +40516,46 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-5789</id>
+	<key><![CDATA[path, %s[%sencoding%s]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5790</id>
+	<key><![CDATA[Reads in a file from the file system at location var1 and returns it as a string. The path is relative to the file that is being run, not CommandHelper. If the file is not found, or otherwise can&apos;t be read in, an IOException is thrown. If the file specified is not within base-dir (as specified in the preferences file), a SecurityException is thrown. The line endings for the string returned will always be \n, even if they originally were \r\n. Encoding defaults to UTF-8 if not specified.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5791</id>
+	<key><![CDATA[Returns the value of a file at compile time only. Unlike read, this runs and is fully resolved at compile time. This is useful for optimization reasons, if you have a file that is unchanging, this can be used instead of read(), to prevent a runtime hit each time the code is executed. Otherwise, this method is equivalent to read(). The path must be fully resolved at compile time. Encoding is optional, and defaults to UTF-8.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5792</id>
+	<key><![CDATA[file, %s[%sencoding%s]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5793</id>
+	<key><![CDATA[file, %s[%sencoding%s]%s, callback]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5794</id>
+	<key><![CDATA[Reads in a file from the file system at location var1 and returns it as a string. The path is relative to the file that is being run, not CommandHelper. If the file is not found, or otherwise can't be read in, an IOException is thrown. If the file specified is not within base-dir (as specified in the preferences file), a SecurityException is thrown. The line endings for the string returned will always be \n, even if they originally were \r\n. Encoding defaults to UTF-8 if not specified.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
