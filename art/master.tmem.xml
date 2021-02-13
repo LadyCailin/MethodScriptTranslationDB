@@ -40558,4 +40558,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-5795</id>
+	<key><![CDATA[{{TakeNote|text=The manual installation instructions are still valid if you wish to customize your install, but for Windows, you can use the pre-packaged standalone installer, found [%s here].}}]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
