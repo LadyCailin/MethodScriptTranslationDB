@@ -46358,4 +46358,28 @@
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
 </translationEntry>
+<translationEntry>
+	<id>5796</id>
+	<key><![CDATA[entityUUID, itemArray]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5797</id>
+	<key><![CDATA[Returns the displayed item for some projectiles. This can be used on throwable projectiles (snowballs, eggs, exp bottles, enderpearls) as well as large and small fireballs.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5798</id>
+	<key><![CDATA[Sets the displayed item for some projectiles. This can be used on throwable projectiles (snowballs, eggs, exp bottles, enderpearls) as well as large and small fireballs.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
 </summary>
