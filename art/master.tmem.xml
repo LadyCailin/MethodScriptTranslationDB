@@ -40586,4 +40586,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-5799</id>
+	<key><![CDATA[Returns the source file that this key will store a value to in the Persistence Network. For instance, in your persistence.ini file, if you have the entry &quot;storage.test.**=json:///path/to/file.json&quot;, then reflect_value_source(&apos;storage.test.testing&apos;) would return &apos;json:///path/to/file.json&apos;. This is useful for debugging, as it will definitively trace back the source/destination of a value. Note that unlike get and store_value, the &quot;storage&quot; prefix is required, if you&apos;re searching for values that are stored using these functions.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5800</id>
+	<key><![CDATA[Returns the source file that this key will store a value to in the Persistence Network. For instance, in your persistence.ini file, if you have the entry "storage.test.**=json:///path/to/file.json", then reflect_value_source('storage.test.testing') would return 'json:///path/to/file.json'. This is useful for debugging, as it will definitively trace back the source/destination of a value. Note that unlike get and store_value, the "storage" prefix is required, if you're searching for values that are stored using these functions.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
