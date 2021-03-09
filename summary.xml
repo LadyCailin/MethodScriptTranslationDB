@@ -46398,4 +46398,140 @@
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
 </translationEntry>
+<translationEntry>
+	<id>5801</id>
+	<key><![CDATA[array1, array2, %s[%scomparisonMode%s]]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5802</id>
+	<key><![CDATA[prototypes...]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5803</id>
+	<key><![CDATA[Returns a new array, which contains all the values in the left array, which are not present in the right array. comparisonMode defaults to HASH, but may also be EQUALS or STRICT_EQUALS. A closure may be sent instead, which should return true if the two values are considered equals or not. Using the HASH mode is fastest, as this puts the function in an optimizing mode, and it can run at O(n log n). Otherwise, the runtime is O(n**2). The results between HASH and STRICT_EQUALS should almost never be different, and so in that case using STRICT_EQUALS has a lower performance for no gain, but there may be some cases where using the hash code is not desirable. EQUALS is necessary if you wish to disregard typing, so that array(1, 2, 3) and array(&apos;1&apos;, &apos;2&apos;, &apos;3&apos;) are considered equal.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5804</id>
+	<key><![CDATA[Returns a closure which can be provided to tabcompleters or run manually, which provides an easy to use syntax for simple to moderately complex tab completion scenarios. Note that this cannot be used in all cases, particularly where there are variable length arguments. In these cases, it&apos;s best to write the closure yourself. [[%s|See more...]]]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5805</id>
+	<key><![CDATA[Returns a new array, which contains all the values in the left array, which are not present in the right array. comparisonMode defaults to HASH, but may also be EQUALS or STRICT_EQUALS. A closure may be sent instead, which should return true if the two values are considered equals or not. Using the HASH mode is fastest, as this puts the function in an optimizing mode, and it can run at O(n log n). Otherwise, the runtime is O(n**2). The results between HASH and STRICT_EQUALS should almost never be different, and so in that case using STRICT_EQUALS has a lower performance for no gain, but there may be some cases where using the hash code is not desirable. EQUALS is necessary if you wish to disregard typing, so that array(1, 2, 3) and array('1', '2', '3') are considered equal.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5806</id>
+	<key><![CDATA[Using the associative array value. Using this method, we can change the autocomplete of later arguments based on what the user has typed so far. Assume that the command looks like &quot;/cmd $action $Player $group&quot;. The actions are &quot;add&quot; and &quot;remove&quot;, and the total list of groups is array(&quot;a&quot;, &quot;b&quot;, &quot;c&quot;), of which the player is already in group &quot;a&quot;. Also, assume that the procedure _get_user_groups() returns a list of groups the player is already in, and _get_groups() returns a list of all groups.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5807</id>
+	<key><![CDATA[ClassTypes must be enum values, and will autocomplete with the list of values in that enum.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5808</id>
+	<key><![CDATA[Arrays are simply returned as is.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5809</id>
+	<key><![CDATA[Using a closure to return dynamic input based on the current user]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5810</id>
+	<key><![CDATA[- Player - Online players ({function|all_players} equivalent, but more efficient) - OfflinePlayer - All known players ({function|get_offline_players} equivalent) - Boolean - Equivalent to array("true", "false") - None - Returns an empty array, disabling tab complete for this value. This is useful for open fields, such as random strings, or a number.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5811</id>
+	<key><![CDATA[In general, the prototypes can be one of five values, a string, a ClassType of an enum type, an array, a closure, or an associative array. Strings represent "prebaked" classes, and are listed below:]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5812</id>
+	<key><![CDATA[Using a built in enum type. Assume the command is &quot;/cmd $WorldEnvironment&quot; and we expect this to be completed with one of the %s enum values.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5813</id>
+	<key><![CDATA[Closures are passed in the same values as the tabcompleter, and are expected to return an array. This is useful when the completion logic varies based on the arguments passed in, such as the current player executing the tabcompleter.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5814</id>
+	<key><![CDATA[Using both player names and an array of completions. Assume our command looks like&quot;/cmd $enum $player&quot; where $enum can be one of &quot;add&quot; or &quot;remove&quot;]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5815</id>
+	<key><![CDATA[Returns a closure which can be provided to tabcompleters or run manually, which provides an easy to use syntax for simple to moderately complex tab completion scenarios. Note that this cannot be used in all cases, particularly where there are variable length arguments. In these cases, it's best to write the closure yourself.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5816</id>
+	<key><![CDATA[Simple example, using only pre-baked classes. Assume our command looks like this: &quot;/cmd $player&quot;. Note that here we&apos;re using register_command, which is the most likely use of this function, but in the remaining examples, this is not shown.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5817</id>
+	<key><![CDATA[Associative arrays are used when you need to provide dynamic functionality based on previous arguments. Only enum or array values are supported as "previous" arguments. The keys of the array are used to determine which value is selected, and the values of the array are one of the above completion types. The keys follow the general format of "]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
 </summary>
