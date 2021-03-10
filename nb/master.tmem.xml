@@ -40768,4 +40768,39 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-5825</id>
+	<key><![CDATA[Returns a new array, which contains all the values in the left array, which are not present in the right array.  comparisonMode defaults to HASH, but may also be EQUALS or STRICT_EQUALS. A closure may be sent instead, which should return true if the two values are considered equals or not. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5826</id>
+	<key><![CDATA[The results between HASH and STRICT_EQUALS should almost never be different. Using the HASH mode is fastest, which is why it is the default. EQUALS will disregard typing.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5827</id>
+	<key><![CDATA[Returns a new array, which contains all the values in the left array, which are not present in the right array.  comparisonMode defaults to HASH, but may also be EQUALS or STRICT_EQUALS. A closure may be sent instead, which should return true if the two values are considered equals or not.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5828</id>
+	<key><![CDATA[HASH puts the function in an optimizing mode, and it can run at O(n log n). Otherwise, the runtime is O(n**2) for STRICT_EQUALS. Using STRICT_EQUALS has a lower performance for no gain, but there may be some cases where using the hash code is not desirable.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5829</id>
+	<key><![CDATA[EQUALS is necessary if you wish to disregard typing, so that array(1, 2, 3) and array('1', '2', '3') are considered equal.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

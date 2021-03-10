@@ -10227,4 +10227,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-5825</id>
+	<key><![CDATA[Returns a new array, which contains all the values in the left array, which are not present in the right array.  comparisonMode defaults to HASH, but may also be EQUALS or STRICT_EQUALS. A closure may be sent instead, which should return true if the two values are considered equals or not. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
