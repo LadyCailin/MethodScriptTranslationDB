@@ -40719,4 +40719,53 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-5818</id>
+	<key><![CDATA[Registers a command to the server&apos;s command list, or updates an existing one. Options is an associative array that can have the following keys: description, usage, permission, noPermMsg, aliases, tabcompleter, and/or executor. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5819</id>
+	<key><![CDATA[Using a closure to return dynamic input based on the current user. This could be based on the parameters passed in the closure, but could just as easily be any other dynamic input.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5820</id>
+	<key><![CDATA[Using both player names and an array of completions. Assume our command looks like&quot;/cmd $action $player&quot; where $action can be one of &quot;add&quot; or &quot;remove&quot;]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5821</id>
+	<key><![CDATA[Using the associative array value. Using this method, we can change the autocomplete of later arguments based on what the user has typed so far. Assume that the command looks like &quot;/cmd $action $Player $group&quot;. The actions are &quot;add&quot; and &quot;remove&quot;, and the total list of groups is array(&quot;a&quot;, &quot;b&quot;, &quot;c&quot;), of which the player is already in group &quot;a&quot;. Also, assume that the procedure _get_user_groups() returns a list of groups the player is already in, and _get_groups() returns a list of all groups. Note that in this case,]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5822</id>
+	<key><![CDATA[In most simple cases, the tabcompleter can be easily created using the %s function, though for complex completion scenarios, you may prefer writing a custom closure anyways.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5823</id>
+	<key><![CDATA[The 'noPermMsg' argument is the message displayed when the user doesn't have the permission specified in 'permission'. The 'usage' is the message shown when the 'executor' returns false. The 'executor' is the closure run when the command is executed, and can return true or false (by default is treated as true). The 'tabcompleter' is the closure run when a user hits tab while the command is entered and ready for args. It is meant to return an array of completions, but if not the tab_complete_command event will be fired, and the completions of that event will be sent to the user. Both executor and tabcompleter closures are passed the following information in this order: alias used, name of the sender, array of arguments used, array of command info.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5824</id>
+	<key><![CDATA[Registers a command to the server's command list, or updates an existing one. Options is an associative array that can have the following keys: description, usage, permission, noPermMsg, aliases, tabcompleter, and/or executor.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

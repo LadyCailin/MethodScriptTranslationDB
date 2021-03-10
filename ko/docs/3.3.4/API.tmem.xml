@@ -10220,4 +10220,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-5818</id>
+	<key><![CDATA[Registers a command to the server&apos;s command list, or updates an existing one. Options is an associative array that can have the following keys: description, usage, permission, noPermMsg, aliases, tabcompleter, and/or executor. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

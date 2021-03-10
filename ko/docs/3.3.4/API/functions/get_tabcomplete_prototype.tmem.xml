@@ -238,4 +238,25 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-5819</id>
+	<key><![CDATA[Using a closure to return dynamic input based on the current user. This could be based on the parameters passed in the closure, but could just as easily be any other dynamic input.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5820</id>
+	<key><![CDATA[Using both player names and an array of completions. Assume our command looks like&quot;/cmd $action $player&quot; where $action can be one of &quot;add&quot; or &quot;remove&quot;]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5821</id>
+	<key><![CDATA[Using the associative array value. Using this method, we can change the autocomplete of later arguments based on what the user has typed so far. Assume that the command looks like &quot;/cmd $action $Player $group&quot;. The actions are &quot;add&quot; and &quot;remove&quot;, and the total list of groups is array(&quot;a&quot;, &quot;b&quot;, &quot;c&quot;), of which the player is already in group &quot;a&quot;. Also, assume that the procedure _get_user_groups() returns a list of groups the player is already in, and _get_groups() returns a list of all groups. Note that in this case,]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
