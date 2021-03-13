@@ -10234,4 +10234,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-5830</id>
+	<key><![CDATA[Runs a command as a particular online player. The special name &apos;~console&apos; can be used to run it as console. If you want to run the command as if the player was op, use %s instead. If the first argument is an array of usernames, the command will be run in the context of each user in the array.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

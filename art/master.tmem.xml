@@ -40803,4 +40803,25 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-5830</id>
+	<key><![CDATA[Runs a command as a particular online player. The special name &apos;~console&apos; can be used to run it as console. If you want to run the command as if the player was op, use %s instead. If the first argument is an array of usernames, the command will be run in the context of each user in the array.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5831</id>
+	<key><![CDATA[type%s: %s&lt;Macro&gt;%sreason%s: %s&lt;Macro&gt; One of BEEHIVE, BREEDING, BUILD_IRONGOLEM, BUILD_SNOWMAN, BUILD_WITHER, CHUNK_GEN, CUSTOM, DEFAULT, EGG, JOCKEY, LIGHTNING, NATURAL, PATROL, PIGLIN_ZOMBIFIED, RAID, REINFORCEMENTS, SHOULDER_ENTITY, SLIME_SPLIT, SPAWNER, SPAWNER_EGG, VILLAGE_DEFENSE, VILLAGE_INVASION, NETHER_PORTAL, DISPENSE_EGG, INFECTION, CURED, OCELOT_BABY, SILVERFISH_BLOCK, MOUNT, TRAP, ENDER_PEARL, DROWNED, SHEARED, or EXPLOSION]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5832</id>
+	<key><![CDATA[Runs a command as a particular online player. The special name '~console' can be used to run it as console. If you want to run the command as if the player was op, use %s instead. If the first argument is an array of usernames, the command will be run in the context of each user in the array.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
