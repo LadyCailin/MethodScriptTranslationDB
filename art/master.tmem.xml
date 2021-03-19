@@ -40824,4 +40824,32 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-5833</id>
+	<key><![CDATA[location%s: The location of the formed block%sblock%s: Type of old block state%snewblock%s: Type of new block state]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5834</id>
+	<key><![CDATA[block_form]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5835</id>
+	<key><![CDATA[newblock%s: %s&lt;String Match&gt; Type of new block state]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5836</id>
+	<key><![CDATA[Called when a block is formed or spreads based on world conditions. Cancelling this event will cause the block to not be formed.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
