@@ -40852,4 +40852,95 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-5837</id>
+	<key><![CDATA['WHITE']]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5838</id>
+	<key><![CDATA[strength]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5839</id>
+	<key><![CDATA[flicker]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5840</id>
+	<key><![CDATA[An array of colors, or a pipe separated string of color names for instance: array('WHITE') or 'WHITE%s|%sBLUE'. If you want custom colors, you must use an array, though you can still use color names as an item in the array, for instance: array('ORANGE', array(30, 45, 150)). These colors are used as the primary colors.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5841</id>
+	<key><![CDATA[colors]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5842</id>
+	<key><![CDATA[trail]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5843</id>
+	<key><![CDATA[fade]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5844</id>
+	<key><![CDATA[BALL]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5845</id>
+	<key><![CDATA[A number specifying how far up the firework should go]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5846</id>
+	<key><![CDATA[An enum value of one of the firework types, one of: BALL, BALL_LARGE, STAR, BURST or CREEPER]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5847</id>
+	<key><![CDATA[A boolean, determining if the firework will leave a trail]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5848</id>
+	<key><![CDATA[A boolean, determining if the firework will flicker]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5849</id>
+	<key><![CDATA[An array of colors to be used as the fade colors. This parameter should be formatted the same as the colors parameter]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
