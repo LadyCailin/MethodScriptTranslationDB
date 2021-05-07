@@ -203,4 +203,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-5850</id>
+	<key><![CDATA[Ian Burgwin (ihaveahax) - [%s %s]%s %sJessassin%s %sbamajoe411]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
