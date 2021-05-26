@@ -46806,4 +46806,604 @@
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
 </translationEntry>
+<translationEntry>
+	<id>5852</id>
+	<key><![CDATA[string - Any set of characters surrounded by single quotes or double quotes: 'string', "also a string". \u0000 inside a string will allow for arbitrary unicode characters to be inserted into a string, and \n is a newline. \\ (double slash) inserts a literal slash, and \' will insert a literal quote.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5853</id>
+	<key><![CDATA[This example will still provide tab completions for the enum and player arguments, but the list of players will not be filtered based on the value of the enum. The usage example will be less meaningful as well, but may be good enough in most cases.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5854</id>
+	<key><![CDATA[Note that a lit and string are treated the same, however special characters must be put in a string to be treated as literal character. Technically all other special characters are treated as literals, but to make your script compatible with future versions, you must put any non-word character inside a string.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5855</id>
+	<key><![CDATA[Here are a few more complex examples to get you started on how to use the advanced features of CommandHelper. Because of the Turing completeness of the plugin, it is possible to do far more advanced things.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5856</id>
+	<key><![CDATA[aliases.msa is where your aliases go, and each alias is a fully separate '''compilation unit''', in fact, even a compile error in one alias will not usually interfere with the other aliases.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5857</id>
+	<key><![CDATA[commands.msa:]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5858</id>
+	<key><![CDATA[ivariable - An ivariable (or simply a variable) is a variable that can be defined and used from within the script. Constant variables ($var), are assigned by the user at command runtime, and are technically constants as far as the rest of the script is concerned. IVariables can be defined by the script writer and assigned various values that can change throughout the script running. To define and use an ivariable, use the assign() function, or the = operator. If an ivariable is used without first being defined, the value of the variable will be 0, 0.0, , false, or %s, depending on how it is used. Most functions use the value in the ivariable without caring that it is an ivariable, but it is possible that a function requires that a certain argument be an ivariable, such as the for() function.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5859</id>
+	<key><![CDATA[Here, we have created 3 separate execution units. main.ms and aliases are implicitly created, simply by their existence, but here we have also created an event handler, which will get run when some_event is triggered. main.ms is triggered upon server startup (and /reloadaliases) and aliases are triggered when a command is run. When this script is compiled, you can essentially visualize the execution units as ending up like this: (with some code removed to make things more readable)]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5860</id>
+	<key><![CDATA[@tabcompleter - Provides the name of a proc that is called, which should return the tab complete closure for this command. If the annotation is provided with no proc name, there are a set of default completions that will be provided on a best-effort basis, first based on variable names in the alias and superceded by information provided in the @param annotations in this comment. Variable names with "player" in them will autocomplete player names. Other variables will simply disable autocompletion. (The automatic tab completion is not yet implemented.)]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5861</id>
+	<key><![CDATA[You can actually reload these sub-modules individually if you want, by passing parameters to the command. There are two modes, whitelist, or by default, blacklist. In blacklist mode, all modules get reloaded except the modules that are blacklisted, which aren't reloaded. In whitelist mode, only the specified modules are reloaded. You use the underlined letter to refer to that specific module. For instance, if you want to reload everything but leave the exported variables and execution queue alone, you can run %s/recompile -ge%s. If you ONLY want to reload tasks, you can run %s/recompile --whitelist -t%s. Note that reloading individual modules isn't normally encouraged, because it can put your server in an inconsistent and unreproducible state if you aren't careful. Running %s/recompile%s by itself (which reloads everything) is recommended. You can also run %s/recompile -h%s for the usage instructions and long options list.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5862</id>
+	<key><![CDATA[So, what is an execution unit? It is a unit of code that gets run, from top to bottom. You can think of it as an '''insertion point''' to your code, or places that will start up your code. An execution unit is often times made up of several parts, so let's create a multifile example, which demonstrates a few execution units.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5863</id>
+	<key><![CDATA[In this simple example, you can think of each execution path as a line through your code (in reality, it's a tree, but if that doesn't make sense to you, ignore that for now). That line follows very specific rules based on code structure, so how you lay out your code is important to be able to visualize.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5864</id>
+	<key><![CDATA[Smart comments are like block comments, but start with %s/**%s (two asterisks) instead. See the article on [[SmartComments]] for more details about the format in general, and below for information specific to aliases.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5865</id>
+	<key><![CDATA[In the first run function, we see that '/run', 'this', and 'command' are all technically separate arguments, but because they are not separated by commas, operators, or other symbols, they are automatically concatenated together, using the %s function, essentially yeilding: '/run this command', as you would expect. This is also the behavior exhibited by a simple alias that uses non-strict formatting: %s/cmd = /real command%s. '/real' and 'command' are automatically sconcatenated together, and then run.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5866</id>
+	<key><![CDATA[Sometimes a script may sometimes cause an error that could be anticipated. Instead of just having the script die, it is possible to catch these errors, and perform alternate functionality. MethodScript mirrors the functionality of languages like PHP and Java with exception handling. For more information about exception handling in MScript, see [[%s|this page]]. For a more general discussion on exception handling, see [%s this page] on Wikipedia.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5867</id>
+	<key><![CDATA[Each of these files serve a separate purpose. main.ms is run at server startup, only once. Typically, you use this to register bound events, using the bind() function, or anything else you want to run only once. Keep in mind, this is re-run when you /reloadaliases, but bound events and intervals and such are stopped, so you won't have multiples of anything. main.ms uses '''pure MethodScript''', that is, it has a slightly different syntax than aliases.msa. In aliases.msa, each alias is defined, along with a snippet of MethodScript. For instance, in the alias,]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5868</id>
+	<key><![CDATA[MethodScript files, both ms and msa files should have UTF-8 encoding. A byte order mark (BOM) may or may not be present. While other encodings may work, particularly ASCII and others, the source files will be parsed using UTF-8. In the future, other encodings may be supported, but there is currently no plans to add this support in the near term.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5869</id>
+	<key><![CDATA[@command - When this annotation is present, this alias is instead treated as a command. This registers the alias as if you had used the %s function. This comes with one drawback, which is that the name of the command, that is, for instance "/cmd" must be unique within other @commands defined in CommandHelper. Additional aliases can still provide additional functionality, but will not be used as part of the command system. One drawback of using commands is that commands registered in this way cannot be fully removed from the server without a server reboot, though functionality can generally be changed with a simple recompile anyways.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5870</id>
+	<key><![CDATA[Denotes that this variable is optional, if included on the left side of an alias, or accesses an element in an array if used on the right.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5871</id>
+	<key><![CDATA[In your scripts, there are a few special symbols that are not treated as literals. In the event of a compiler error, it may be helpful to know what each symbol is called. These are as follows:]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5872</id>
+	<key><![CDATA[@param - This documents the variables in the alias, and generally follows the format "@param $variableName type description". Description is optional, and is only used as a code comment. The $variableName should match the parameter in the alias, and the type can be any valid MethodScript type, or a few special types, "$Player" and "$OfflinePlayer", or an ad-hoc enum, which is a comma separated list contained within square brackets. Depending on the MethodScript type, there will be different default autocomplete result, with special handling for enums, which autocomplete to the list of enums, boolean, which autocompletes to the strings "true" and "false". All other types disable auto completes for this variable.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5873</id>
+	<key><![CDATA[The auto_include.ms file is also a pure MethodScript file, and it is as if in each '''execution unit''', it is automatically %sed for you. There are a few different ways to make an execution unit. The first way is to create a new alias. Each alias is it's own execution unit, and uniquely to the aliases, each alias is also it's own compilation unit. A bound event handler is another execution unit, and the entirety of main.ms is an execution unit. set_interval and set_timeout are also separate execution unit, as well as execution queue elements, and others.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5874</id>
+	<key><![CDATA[the %s/test [$command=] = &gt;&gt;&gt; &lt;&lt;&lt;%s part is the alias markup, and is not actual MethodScript, that is, the symbols and characters follow different meanings than inside the alias definition. In this example, %sconsole($command);%s is pure MethodScript.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5875</id>
+	<key><![CDATA[- Some functions return %s, which is actually a datatype. When viewed as a string, it is equivalent to an empty string. Cannot be created directly.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5876</id>
+	<key><![CDATA[Functions allow for very dynamic scripts to be run. There are many defined functions, including functions that provide control flow functionality. For the full list of functions, see the [[API]]. A function is identified by a literal string, followed by parenthesis. So in %sfunc()%s, "func" is the name of the function, and "(" and ")" begin and end the function argument list (in this case, there are no arguments being passed in.) Functions can have zero, one, or two or more arguments passed to them. In the case of two or more arguments, each argument is separated by a comma. For instance:]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5877</id>
+	<key><![CDATA[We can make a slightly less accurate version of this code, which uses the defaults, which, while less correct, provides a decent compromise between functionality and code terseness.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5878</id>
+	<key><![CDATA[@usage - Overrides the default usage example @permission - The permission the user must have to run this command. Note that this permission is in *addition* to the normal alias permission system, and so it's recommended to continue using the * label on the alias itself. @noPermMsg - Overrides the no permission error message @alias - Alias for this command. A command can have multiple aliases, and you can repeat this annotation to provide more.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5879</id>
+	<key><![CDATA[Note that these annotations will not be used if placed on an alias that isn't also a @command. The executor of the command is simply the code in the alias itself. Actually, it's worth noting that nothing about this changes the execution, it still uses the normal alias engine in the same way as every other alias, it simply provides additional integrations on top of the alias system.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5880</id>
+	<key><![CDATA[Commands may have additional annotations, which correspond to the values in register_command:]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5881</id>
+	<key><![CDATA[In a script, there are several types of data. The language is currently loosely typed however, so the string '2' is equivalent to the integer 2, is equivalent to the double 2.0, is equivalent to the boolean true. Values are cast just before they are used. Note that sometimes data cannot be cast, for instance the string 'string' cannot be cast to a number, so a runtime exception will be thrown if a function expects a number, and is given that. Also, arrays are not able to be cast into other data types, but can contain values of any data type.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5882</id>
+	<key><![CDATA[A full complex example, which provides a custom tabcompleter and overrides some existing parameters, might look like this:]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5883</id>
+	<key><![CDATA[Everything inside this (newlines included) is a comment. The only thing you can't have inside a block comment is a */ (because that ends the comment)]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5884</id>
+	<key><![CDATA[A smart comment applied to an alias can be used both by the alias engine, and by your scripts. In general, you can obtain the information in the currently running alias with the %s function, and you can use this however you like, but there are additional annotations, which the alias engine uses to provide additional functionality.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5885</id>
+	<key><![CDATA[S%scripts - Any changes that you have made to any scripts will be reloaded and applied. Main files are re-run, and any new commands are re-registered.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5886</id>
+	<key><![CDATA[If you are wanting to do more dynamic things other than variables, CommandHelper allows you to do this through the use of Turing complete language, MethodScript. If you aren't familiar with any type of programming, you may wish to find resources on languages like Java and PHP. The language mirrors both languages in certain ways, as well as introducing its own methodologies.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5887</id>
+	<key><![CDATA[Smart Comments and Aliases]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5888</id>
+	<key><![CDATA[When an alias is part of the command system, there are a few things that are done automatically, and a few things that can be further unlocked with additional annotations. First of all, the command is registered as part of the overall command system. This means that it will appear in default /help and autocomplete lists. Secondly, the command help text is automatically generated as part of the command, using the body of the smart comment. The usage parameter of the command is simply the left hand side of the alias, though additional usage can be provided in another annotation.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5889</id>
+	<key><![CDATA[The built in %s/recompile%s command is used to reload just CommandHelper, though %s/reload%s will also reload CommandHelper. However, using the recompile command can allow for finer grained control of what all gets reloaded. By default, the command reloads the following things about CommandHelper:]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5890</id>
+	<key><![CDATA[@param]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5891</id>
+	<key><![CDATA[Depending on the context, annotations can be ignored, or have different functionality. Ignored annotations are not an error, they simply won't have any programmatic effects within MethodScript itself. You are free to use these annotations in your custom systems in any way you see fit, though it is highly encouraged to ensure you are not trying to fight the built in systems. Additional contexts may define additional annotations, with either server to further document the element, or can even provide some functionality.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5892</id>
+	<key><![CDATA[@seeAlso]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5893</id>
+	<key><![CDATA[The general format is:]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5894</id>
+	<key><![CDATA[Comment blocks that start with /** however, are smart comments, and the subject of this article. These comments are not lost with compilation, and are able to be used in later stages of compilation, to provide additional functionality to code.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5895</id>
+	<key><![CDATA[{@link}]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5896</id>
+	<key><![CDATA[This provides a link to either another element in the codebase, or an external web url. Note that the element variety of this is not implemented or defined yet, but will have the same semantics as the embedded {@link} annotation.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5897</id>
+	<key><![CDATA[The larger advantage is being able to dynamically access these comment blocks within your code. This can be used to power an automatically generating documentation system for instance, along with easily generated help text to be provided to users upon incorrect usage. Currently, support for obtaining these comments is rather limited, with support only existing for aliases. Additional usage will appear over time.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5898</id>
+	<key><![CDATA[{@code}]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5899</id>
+	<key><![CDATA[The url annotation provides an inline link to a web address. In general, the annotation should follow the format {@url %s replacementText} where the replacement text is the text that is displayed, and the url is where the link goes. If replacementText is empty, the url is used as the text.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5900</id>
+	<key><![CDATA[Annotations]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5901</id>
+	<key><![CDATA[Usage in code]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5902</id>
+	<key><![CDATA[The link annotation provides a link to another element in the code.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5903</id>
+	<key><![CDATA[General Format]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5904</id>
+	<key><![CDATA[This is currently unimplemented.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5905</id>
+	<key><![CDATA[Embedded annotations are generally speaking meant to function almost like visual text modifiers, such as adding links, emphasis, and other formatting such as this. This isn't enforced however, and custom code can use these however they like. However, there are a few predefined annotations.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5906</id>
+	<key><![CDATA[This is currently unimplemented and undefined.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5907</id>
+	<key><![CDATA[@seeAlso %s Description or @seeAlso element Description]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5908</id>
+	<key><![CDATA[The primary use of these smart comments is for providing formal documentation for the various commented elements. By and large, the compiler itself ignores these values, though that's not always the case, depending on which annotations are used. For instance, the @deprecated annotation will trigger a compiler warning when references to the element are used elsewhere in code (not implemented yet). The primary use case is for generating automatic documentation in various places, including the IDE (also not implemented yet).]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5909</id>
+	<key><![CDATA[A Smart Comment is a comment field that contains somewhat structured data that can be used both by your code and by the compiler, as well as being in an easy to read format, so that readers of your code can get additional context.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5910</id>
+	<key><![CDATA[In general, MethodScript supports four comment types, though two do the same thing. Both # and // are line comments, and are completely removed from the source code during compilation. The comment begins with one of those symbols, and ends with the start of a new line. Comments that start with /* and end with */ are block comments, and can contain newlines within them, though not currently other nested comment blocks. Like line comments, these are also removed during compilation. Both of these comments are meant solely as context for the future reader of the code, and have no functional purpose as far as the compiler is concerned, and are thus discarded as part of the compilation process, and so the runtime has no knowledge that these types of comments ever existed in the source code.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5911</id>
+	<key><![CDATA[Given the following example, we can see the general format.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5912</id>
+	<key><![CDATA[{@url}]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5913</id>
+	<key><![CDATA[Depending on where the comment is placed, the rules may be slightly different as well, and particularly which annotations will be active, so check the documentation below for specific details, as well as documentation about the various elements that support smart comments.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5914</id>
+	<key><![CDATA[Usage in the compiler]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5915</id>
+	<key><![CDATA[Documents a parameter. This is used for inputs to the element.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5916</id>
+	<key><![CDATA[Smart comments that are placed on elements which do not directly support smart comments will not break - however these will simply function as ordinary block comments, with the exception that the compiler may or may not retain the comment in the runtime, unused.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5917</id>
+	<key><![CDATA[This is meant for references to literal code elements, for instance variable names, etc. The common use case is to simply format the text with a monospace font, but could be used for syntax highlighting, etc.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5918</id>
+	<key><![CDATA[This is not implemented yet, though most text editors provide url clicking anyways.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5919</id>
+	<key><![CDATA[Standalone annotations are those that start with @. These are ended by a newline, and cannot contain newlines within them. Standalone annotations may repeat, or they may contain no additional text.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5920</id>
+	<key><![CDATA[Embedded Annotations]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5921</id>
+	<key><![CDATA[There are a few things to point out. The general rule is that the comment block must start with /** and end with */. On each line within the comment, the line may start with 0 or more spaces, a star, and then a space. This text is stripped from the comment. The body text is the first part of the comment. Within the body, newlines and spaces are preserved, other that the initial alignment spacing, as described above. Both body text and standalone annotation comments may contain embedded annotations, which are the annnotations that begin with {@ and end with }. Embedded annotations may also have additional text following the annotation name.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5922</id>
+	<key><![CDATA[Returns the smart comment on the currently running alias. The array returned will contain the comment body in the 'body' element, and the annotations in the 'annotations' element as an associative array. Each key in the annotation will contain an at symbol, so for instance '@annotation' and the value is an array of all occurances.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5923</id>
+	<key><![CDATA[Player - Online players (%s equivalent, but more efficient)]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5924</id>
+	<key><![CDATA[None - Returns an empty array, disabling tab complete for this value. This is useful for open fields, such as random strings, or a number.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5925</id>
+	<key><![CDATA[Boolean - Equivalent to array("true", "false")]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>5926</id>
+	<key><![CDATA[OfflinePlayer - All known players ({function|get_offline_players} equivalent)]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
 </summary>

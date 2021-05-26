@@ -259,4 +259,32 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-5923</id>
+	<key><![CDATA[Player - Online players (%s equivalent, but more efficient)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5924</id>
+	<key><![CDATA[None - Returns an empty array, disabling tab complete for this value. This is useful for open fields, such as random strings, or a number.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5925</id>
+	<key><![CDATA[Boolean - Equivalent to array("true", "false")]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5926</id>
+	<key><![CDATA[OfflinePlayer - All known players ({function|get_offline_players} equivalent)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
