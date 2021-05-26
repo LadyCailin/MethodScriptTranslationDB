@@ -41482,4 +41482,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-5927</id>
+	<key><![CDATA[Only the latest development build is officially supported, but there is some community support for older builds, which you can get by joining IRC or Discord. For the latest builds, head to [%s the build site], click the latest snapshot version, and then download the %scommandhelper-%s-SNAPSHOT-full.jar%s file. (Don't download the one without -full or the other non-jar files.) You can also download the versionless jar that corresponds to the exact version that this site was built with [[%s|here]], though this is not supported.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
