@@ -41776,4 +41776,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-5969</id>
+	<key><![CDATA[Returns the color modifier given a color name. If the given color name isn&apos;t valid, white is used instead. The list of valid colors is: BLACK, DARK_BLUE, DARK_GREEN, DARK_AQUA, DARK_RED, DARK_PURPLE, GOLD, GRAY, DARK_GRAY, BLUE, GREEN, AQUA, RED, LIGHT_PURPLE, YELLOW, WHITE, RANDOM, BOLD, STRIKETHROUGH, UNDERLINE, ITALIC, or PLAIN_WHITE, in addition the integers 0-15 will work, or the hex numbers from 0-F, and k, l, m, n, o, and r, which represent styles. Additionally, any RGB colour can be used in the hex format &apos;#rrggbb&apos;. Unlike manually putting in the color symbol, using this function will return the platform&apos;s color code, so if you are wanting to keep your scripts platform independent, it is a much better idea to use this function as opposed to hard coding your own color codes.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5970</id>
+	<key><![CDATA[Returns the color modifier given a color name. If the given color name isn't valid, white is used instead. The list of valid colors is: BLACK, DARK_BLUE, DARK_GREEN, DARK_AQUA, DARK_RED, DARK_PURPLE, GOLD, GRAY, DARK_GRAY, BLUE, GREEN, AQUA, RED, LIGHT_PURPLE, YELLOW, WHITE, RANDOM, BOLD, STRIKETHROUGH, UNDERLINE, ITALIC, or PLAIN_WHITE, in addition the integers 0-15 will work, or the hex numbers from 0-F, and k, l, m, n, o, and r, which represent styles. Additionally, any RGB colour can be used in the hex format '#rrggbb'. Unlike manually putting in the color symbol, using this function will return the platform's color code, so if you are wanting to keep your scripts platform independent, it is a much better idea to use this function as opposed to hard coding your own color codes.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
