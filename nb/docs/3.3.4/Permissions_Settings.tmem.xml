@@ -462,4 +462,11 @@
 	<translation></translation>
 	<auto><![CDATA[Dokumenter]]></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-5929</id>
+	<key><![CDATA[''Example:'' '''spawn_entity()''' can be used to spawn a large number of creepers.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
