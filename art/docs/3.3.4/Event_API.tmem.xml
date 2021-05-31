@@ -3164,4 +3164,32 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-5965</id>
+	<key><![CDATA[entity_potion]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5966</id>
+	<key><![CDATA[Called when a potion effect is modified on an entity. If the event is cancelled, no change will be made on the entity.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5967</id>
+	<key><![CDATA[action%s: The action which will be performed on the potion effect type%scause%s: The cause why the effect has changed%snewPotion%s: The new potion effect of the changed type which will be applied%soldPotion%s: The old potion effect of the changed type, which will be removed%sid%s: UUID entity]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5968</id>
+	<key><![CDATA[action%s: %s&lt;String Match&gt; The action which will be performed on the potion effect type%scause%s: %s&lt;String Match&gt; The cause why the effect has changed]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
