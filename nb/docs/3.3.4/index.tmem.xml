@@ -532,4 +532,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-5971</id>
+	<key><![CDATA[Only the latest development build is officially supported, but there is some community support for older builds, which you can get by joining IRC or Discord. For the latest builds, head to [[%s|the download page]] and click the latest build. You can also download the versionless jar that corresponds to the exact version that this site was built with [[%s|here]], though this is not considered to be the supported version.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

@@ -41790,4 +41790,32 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-5971</id>
+	<key><![CDATA[Only the latest development build is officially supported, but there is some community support for older builds, which you can get by joining IRC or Discord. For the latest builds, head to [[%s|the download page]] and click the latest build. You can also download the versionless jar that corresponds to the exact version that this site was built with [[%s|here]], though this is not considered to be the supported version.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5972</id>
+	<key><![CDATA[downloadList { 	border: 1px solid black;     padding: 1em; }]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5973</id>
+	<key><![CDATA[On this page, you can view the downloads. In general, you should download the latest version, as the time between versioned releases is very long. Only the latest version is currently supported. %smscript -- update-check%s to see if a newer version is available, and %smscript -- update%s to automatically update to the latest version.-->]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5974</id>
+	<key><![CDATA[Loading version information]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
