@@ -41846,4 +41846,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-5979</id>
+	<key><![CDATA[Once the bar is created, it can be shown to specified players with %s and the display can be modified with]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
