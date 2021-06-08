@@ -3192,4 +3192,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-5981</id>
+	<key><![CDATA[player%s: The player's name%signitingentity%s: entity ID, if caused by entity%signitingblock%s: the block's type, if caused by block%signitingblocklocation%s: the block's location that ignited%slocation%s: the locationArray that got ignited%scause%s: the cause of ignition, one of LAVA, FLINT_AND_STEEL, SPREAD, LIGHTNING, FIREBALL, ENDER_CRYSTAL, EXPLOSION, ARROW]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5982</id>
+	<key><![CDATA[location%s: The location of the bed%splayer%s: The player associated with this event%sresult%s: The outcome of this attempt to enter bed. Can be one of NOT_POSSIBLE_HERE, NOT_POSSIBLE_NOW, NOT_SAFE, OK, OTHER_PROBLEM, TOO_FAR_AWAY, or OBSTRUCTED]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

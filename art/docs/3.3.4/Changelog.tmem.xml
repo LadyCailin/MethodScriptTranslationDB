@@ -931,4 +931,88 @@
 	<translation></translation>
 	<auto><![CDATA[Døcs]]></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-5983</id>
+	<key><![CDATA[Modified events: piston_retract, piston_extend, block_break, block_place, block_burn, block_ignite, block_from_to, block_dispense, block_grow, note_play (no more mutable data), block_fade, item_despawn, item_spawn, item_drop, item_pickup, entity_change_block, entity_interact, inventory_click, inventory_drag, item_swap, player_interact, vehicle_collide.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5984</id>
+	<key><![CDATA[MethodScript Additions: %s, %s, %s, %s, %s.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5985</id>
+	<key><![CDATA[Modified: (not including item array changes) %s, %s, %s and %s for enderman and minecart blocks, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s and %s with the transparent block array, %s, %s, %s.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5986</id>
+	<key><![CDATA[Function API Changes]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5987</id>
+	<key><![CDATA[Manage villager trades and virtual merchants]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5988</id>
+	<key><![CDATA[In previous versions, you had to group the "if" and "else" portions separately, in this case, you would likely have used sconcat() though g() would have worked. Now, the commas separate the arguments, with tokens between commas automatically being sconcatenated together.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5989</id>
+	<key><![CDATA[CommandHelper 3.3.2 supports Minecraft 1.7.10 to 1.12.2.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5990</id>
+	<key><![CDATA[Removed event: player_prelogin, tab_complete_chat.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5991</id>
+	<key><![CDATA[Event API Changes]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5992</id>
+	<key><![CDATA[Minecraft Additions: %s (replaces get_block_at), %s (replaces set_block_at), %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5993</id>
+	<key><![CDATA[Minecraft 1.13 support]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5994</id>
+	<key><![CDATA[This release reflects the enormous changes in Minecraft 1.13, and drops support for past Minecraft versions. As a result it has many breaking changes in regards to Minecraft data, functions and events. Please refer to the [[%s|upgrade guide]] to help you walk through what you need to change.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

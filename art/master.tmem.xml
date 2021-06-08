@@ -41853,4 +41853,480 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-5980</id>
+	<key><![CDATA[Creates a world with the specified options. If a world by that name already exists, it will instead be loaded from disk, and the last three arguments may be ignored. The name is the name of the world, type is one of NORMAL, FLAT, VERSION_1_1, LARGE_BIOMES, AMPLIFIED, CUSTOMIZED, BUFFET and environment is one of NORMAL, NETHER, THE_END, CUSTOM. The seed can be an integer, a string (will be the hashcode), or %s (will be random int). Generator is the name of a world generator loaded on the server.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5981</id>
+	<key><![CDATA[player%s: The player's name%signitingentity%s: entity ID, if caused by entity%signitingblock%s: the block's type, if caused by block%signitingblocklocation%s: the block's location that ignited%slocation%s: the locationArray that got ignited%scause%s: the cause of ignition, one of LAVA, FLINT_AND_STEEL, SPREAD, LIGHTNING, FIREBALL, ENDER_CRYSTAL, EXPLOSION, ARROW]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5982</id>
+	<key><![CDATA[location%s: The location of the bed%splayer%s: The player associated with this event%sresult%s: The outcome of this attempt to enter bed. Can be one of NOT_POSSIBLE_HERE, NOT_POSSIBLE_NOW, NOT_SAFE, OK, OTHER_PROBLEM, TOO_FAR_AWAY, or OBSTRUCTED]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5983</id>
+	<key><![CDATA[Modified events: piston_retract, piston_extend, block_break, block_place, block_burn, block_ignite, block_from_to, block_dispense, block_grow, note_play (no more mutable data), block_fade, item_despawn, item_spawn, item_drop, item_pickup, entity_change_block, entity_interact, inventory_click, inventory_drag, item_swap, player_interact, vehicle_collide.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5984</id>
+	<key><![CDATA[MethodScript Additions: %s, %s, %s, %s, %s.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5985</id>
+	<key><![CDATA[Modified: (not including item array changes) %s, %s, %s and %s for enderman and minecart blocks, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s and %s with the transparent block array, %s, %s, %s.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5986</id>
+	<key><![CDATA[Function API Changes]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5987</id>
+	<key><![CDATA[Manage villager trades and virtual merchants]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5988</id>
+	<key><![CDATA[In previous versions, you had to group the "if" and "else" portions separately, in this case, you would likely have used sconcat() though g() would have worked. Now, the commas separate the arguments, with tokens between commas automatically being sconcatenated together.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5989</id>
+	<key><![CDATA[CommandHelper 3.3.2 supports Minecraft 1.7.10 to 1.12.2.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5990</id>
+	<key><![CDATA[Removed event: player_prelogin, tab_complete_chat.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5991</id>
+	<key><![CDATA[Event API Changes]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5992</id>
+	<key><![CDATA[Minecraft Additions: %s (replaces get_block_at), %s (replaces set_block_at), %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5993</id>
+	<key><![CDATA[Minecraft 1.13 support]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5994</id>
+	<key><![CDATA[This release reflects the enormous changes in Minecraft 1.13, and drops support for past Minecraft versions. As a result it has many breaking changes in regards to Minecraft data, functions and events. Please refer to the [[%s|upgrade guide]] to help you walk through what you need to change.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5995</id>
+	<key><![CDATA[Updating to 1.13 is a major overhaul, and there was no easy way around this. Fallback behavior was created where reasonably possible to make the transition somewhat smoother, but this will still be a large undertaking.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5996</id>
+	<key><![CDATA[These now better reflect their minecraft names. If you use get|set_biome() functions, you can look up these new enums with reflect_pull('enum', 'BiomeType') or in the documentation.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5997</id>
+	<key><![CDATA[Now it will return an array object in this format:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5998</id>
+	<key><![CDATA[Minecraft 1.11]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5999</id>
+	<key><![CDATA[CommandBlock Changes]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6000</id>
+	<key><![CDATA[Recipe Keys Required]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6001</id>
+	<key><![CDATA[Minecraft 1.13.2 / CommandHelper 3.3.3]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6002</id>
+	<key><![CDATA[The above changes will automatically convert (and warn) when setting (eg. spawn_entity('PIG_ZOMBIE')), but will break when reading in a comparison. (eg. entity_type()]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6003</id>
+	<key><![CDATA[Some specific item meta keys have changed as well. For banners, "basecolor" has been removed as it's defined by the banner item name. (eg. "RED_BANNER") Similarly, spawn eggs no longer have the "spawntype" key because that's defined by the material name too. (eg. "BAT_SPAWN_EGG") The map "data" key has been replaced with a meta key "mapid".]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6004</id>
+	<key><![CDATA[There are a number of other changes, but less critical to this guide. If you focus on the above changes, everything else will be easier.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6005</id>
+	<key><![CDATA[Villager professions have completely changed.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6006</id>
+	<key><![CDATA[Item/Block String Format Deprecated]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6007</id>
+	<key><![CDATA[Event Removals]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6008</id>
+	<key><![CDATA[Where previously you might get an item array object in this format:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6009</id>
+	<key><![CDATA[Minecraft changed entity subtypes to be their own entity type. You may need to search for instances of "guardian", "skeleton", "zombie", and "horse". Changing an entity's subtype using set_entity_spec() is no longer supported. Also if you're checking for an entity type in an event bind, you'll need to update that to include a list of all subtypes. (Example: instead of "HORSE" you'll need to check for "HORSE", "MULE", "DONKEY", "ZOMBIE_HORSE", "SKELETON_HORSE", and/or "LLAMA".)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6010</id>
+	<key><![CDATA[Minecraft 1.14.4]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6011</id>
+	<key><![CDATA['PIG_ZOMBIE')]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6012</id>
+	<key><![CDATA[While some of these are obvious or may not affect you, please refer to the event documentation to update your prefilters and which keys you're reading from. A common theme is "item" prefilters are changed to "itemname", and like "block" keys and prefilters, now use the material name instead of the item/block string format. (eg. "0:0") In a special case in player_interact, if you want to check if they didn't click a block, check where "block" equals %s. These are sensible but extensive changes, so I may add a list here later. Searching for "data" in general or "item" in prefilters will help fix a lot of them.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6013</id>
+	<key><![CDATA[Minecraft 1.16.1]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6014</id>
+	<key><![CDATA[Pre-1.9 sound names are all removed and some post 1.9 sounds have been updated to reflect 1.13. However, these will no longer cause play_sound() to throw an exception. Instead, it will warn in the log and continue running. play_named_sound() always behaved like this, but did so silently. play_sound() will now simply warn you if the sound didn't play because the name is incorrect. You can refer the Minecraft wiki or the Spigot documentation for the complete list. You can also use reflect_pull('enum', 'Sound') to get the list in a script.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6015</id>
+	<key><![CDATA[Two paintings just had a space added to them: BURNING_SKULL and DONKEY_KONG.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6016</id>
+	<key><![CDATA[The event tab_complete_chat is removed because clients no longer send these to the server. The event player_prelogin_event is removed because it was deprecated in Spigot due to syncing issues, and it's mostly redundant to player_login.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6017</id>
+	<key><![CDATA[One or two player_interact events will fire now with the addition of the off_hand. If two, it's one for each hand. If one, it might be the main_hand or off_hand. Some scripts need to be considered for double event firing. Any script that looks at the item array will need to be updated for off hand support.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6018</id>
+	<key><![CDATA[TIPPED_ARROW and LINGERING_POTION entity types no longer exist and will be converted to ARROW and SPLASH_POTION respectively.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6019</id>
+	<key><![CDATA[Minecraft 1.12.1]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6020</id>
+	<key><![CDATA[Other Changes]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6021</id>
+	<key><![CDATA[While you can still input old item arrays, the output of item functions and events has been changed to reflect changes in Minecraft.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6022</id>
+	<key><![CDATA[Sound Changes]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6023</id>
+	<key><![CDATA[CommandBlocks now call aliases without needing /runalias. So if you have an alias for a vanilla command and there are CommandBlocks that use the vanilla command, it may break. A manual fix is to add the "minecraft:" prefix to those commands in the affected CommandBlocks. (eg. /fill to /minecraft:fill) To be clear, this does NOT affect CommandBlocks that already use /runalias or vanilla commands that do not have aliases.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6024</id>
+	<key><![CDATA[Minecraft 1.9]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6025</id>
+	<key><![CDATA[Block/item numeric ids are no longer guaranteed to be accurate and many material names are changed, though these will be temporarily supported as inputs to functions for some time. This has several consequences that you'll need to address in your scripts.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6026</id>
+	<key><![CDATA[Many material names under the key "name" have been changed, but will always be converted as long as they don't have a name conflict. Most critically, you should probably address any item array with the "data" key, as these best indicate possible conversion problems. For any hard-coded item arrays, delete the "type" and "data" keys (their presence indicates a legacy item array and will be attempted to be converted) and rename the "name" key to the new material name. The new materials names should be the same as in the Minecraft wiki and in-game. You can move the damage value into the meta array if needed. A convenience function convert_legacy_item() will take an old item array and output a new item array. This is useful for updating items that might be stored in a persistence database. The function data_name() now accepts old material names, ids and string formats and converts them to modern material names. This is useful for conversion of databases or maybe user input.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6027</id>
+	<key><![CDATA[The "0:0" format is no longer guaranteed to be accurate, so it's deprecated wherever it's used. In most cases you will be warned on compile time if you use these anywhere. If not, you will be warned in the log at runtime, but the item/block will be attempted to be converted. Notably, get|set_block_at() has been deprecated for get|set_block(). If you need to read or write block data, the get|set_blockdata_string() functions are available until further functionality is added. These use the same format as vanilla block commands.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6028</id>
+	<key><![CDATA[Item Array Format Changes]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6029</id>
+	<key><![CDATA[NETHER biome type was changed to NETHER_WASTES.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6030</id>
+	<key><![CDATA[This now matches vanilla and material names to be easier to use. SILVER is still accepted and will be converted, but is discouraged.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6031</id>
+	<key><![CDATA[Ocelots can no longer be tamed or sit.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6032</id>
+	<key><![CDATA[Changed DyeColor "SILVER" to "LIGHT_GRAY"]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6033</id>
+	<key><![CDATA[The following materials are removed but will be converted in legacy item arrays or when using set_block(): CACTUS_GREEN, DANDELION_YELLOW, ROSE_RED, SIGN, WALL_SIGN.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6034</id>
+	<key><![CDATA[Updating to new versions of CommandHelper or Minecraft can sometimes require updates to your scripts and/or extensions. Below is a reverse chronological guide to help you with some of these changes to quickly update your code.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6035</id>
+	<key><![CDATA[The following events' prefilters, event data, and/or mutable data were updated: piston_retract, piston_extend, block_break, block_place, block_burn, block_ignite, block_from_to, block_dispense, block_grow, note_play, block_fade, item_despawn, item_spawn, item_drop, item_pickup, entity_change_block, entity_interact, inventory_click, inventory_drag, item_swap, player_interact, and vehicle_collide.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6036</id>
+	<key><![CDATA[Painting Names Changed]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6037</id>
+	<key><![CDATA[You can no longer set_exp() above 100. In 1.11.2, setting exp to exactly 100 will now give that player a new level and reset exp to 0%. Set to 99 to a%s this.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6038</id>
+	<key><![CDATA[PIG_ZOMBIE entity type was changed to ZOMBIFIED_PIGLIN. This matches the material change from ZOMBIE_PIGMAN_SPAWN_EGG to ZOMBIFIED_PIGLIN_SPAWN_EGG.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6039</id>
+	<key><![CDATA[Biome Names Changed]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6040</id>
+	<key><![CDATA[The following breaking changes exist:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6041</id>
+	<key><![CDATA[Note that the keys "type", "data" and "enchants" were removed from the parent array. The old "type" numeric id has been replaced by "name". The "data" value is only relevant for item durability now, so this was moved into the meta array under the key "damage", and is only present if the item is damageable. (ie. if max durability is above 0) The "enchants" key was redundant to the one in the meta array, and its format has been modified to reflect how you can't have more than one enchantment of the same type. It now uses minecraft names for enchantment keys too, to be easier to use. (old names and format are still accepted)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6042</id>
+	<key><![CDATA[Recipes now require a key to be added, where previously it was optional and randomly generated. This should just be a unique name describing the recipe you're adding. (eg. 'key': 'ice_to_packed_ice') Recipe ingredients, of course, should use item arrays instead of the string formats.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6043</id>
+	<key><![CDATA[In addition the vanilla changes to commands, they no longer automatically process vanilla selectors for plugin commands. You will have to implement selectors yourself if you need this behavior.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6044</id>
+	<key><![CDATA[Event Data Changes]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6045</id>
+	<key><![CDATA[Minecraft 1.11.2]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6046</id>
+	<key><![CDATA[The value returned may be one of the following: BEACH, SAVANNA, MUSHROOM_FIELD_SHORE, SUNFLOWER_PLAINS, STONE_SHORE, FROZEN_OCEAN, BIRCH_FOREST, THE_VOID, DEEP_LUKEWARM_OCEAN, END_HIGHLANDS, DEEP_FROZEN_OCEAN, END_MIDLANDS, FLOWER_FOREST, ERODED_BADLANDS, END_BARRENS, SNOWY_TUNDRA, MODIFIED_WOODED_BADLANDS_PLATEAU, GRAVELLY_MOUNTAINS, SNOWY_TAIGA, TAIGA_MOUNTAINS, JUNGLE, GIANT_SPRUCE_TAIGA, OCEAN, ICE_SPIKES, SMALL_END_ISLANDS, BAMBOO_JUNGLE_HILLS, FROZEN_RIVER, THE_END, DARK_FOREST, MODIFIED_BADLANDS_PLATEAU, SWAMP_HILLS, COLD_OCEAN, MODIFIED_JUNGLE_EDGE, WOODED_MOUNTAINS, PLAINS, SNOWY_MOUNTAINS, MOUNTAINS, SAVANNA_PLATEAU, JUNGLE_EDGE, TALL_BIRCH_HILLS, GIANT_TREE_TAIGA, RIVER, BIRCH_FOREST_HILLS, WARPED_FOREST, WOODED_BADLANDS_PLATEAU, DESERT_LAKES, NETHER_WASTES, DARK_FOREST_HILLS, LUKEWARM_OCEAN, BAMBOO_JUNGLE, TAIGA_HILLS, CUSTOM, MODIFIED_JUNGLE, DEEP_COLD_OCEAN, GIANT_TREE_TAIGA_HILLS, BADLANDS, SHATTERED_SAVANNA_PLATEAU, DEEP_WARM_OCEAN, MUSHROOM_FIELDS, GIANT_SPRUCE_TAIGA_HILLS, SNOWY_TAIGA_HILLS, DEEP_OCEAN, BADLANDS_PLATEAU, TAIGA, WOODED_HILLS, MOUNTAIN_EDGE, SHATTERED_SAVANNA, DESERT, SNOWY_TAIGA_MOUNTAINS, SNOWY_BEACH, WARM_OCEAN, BASALT_DELTAS, FOREST, JUNGLE_HILLS, TALL_BIRCH_FOREST, MODIFIED_GRAVELLY_MOUNTAINS, SWAMP, SOUL_SAND_VALLEY, DESERT_HILLS, or CRIMSON_FOREST]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6047</id>
+	<key><![CDATA[Biome may be one of the following: BEACH, SAVANNA, MUSHROOM_FIELD_SHORE, SUNFLOWER_PLAINS, STONE_SHORE, FROZEN_OCEAN, BIRCH_FOREST, THE_VOID, DEEP_LUKEWARM_OCEAN, END_HIGHLANDS, DEEP_FROZEN_OCEAN, END_MIDLANDS, FLOWER_FOREST, ERODED_BADLANDS, END_BARRENS, SNOWY_TUNDRA, MODIFIED_WOODED_BADLANDS_PLATEAU, GRAVELLY_MOUNTAINS, SNOWY_TAIGA, TAIGA_MOUNTAINS, JUNGLE, GIANT_SPRUCE_TAIGA, OCEAN, ICE_SPIKES, SMALL_END_ISLANDS, BAMBOO_JUNGLE_HILLS, FROZEN_RIVER, THE_END, DARK_FOREST, MODIFIED_BADLANDS_PLATEAU, SWAMP_HILLS, COLD_OCEAN, MODIFIED_JUNGLE_EDGE, WOODED_MOUNTAINS, PLAINS, SNOWY_MOUNTAINS, MOUNTAINS, SAVANNA_PLATEAU, JUNGLE_EDGE, TALL_BIRCH_HILLS, GIANT_TREE_TAIGA, RIVER, BIRCH_FOREST_HILLS, WARPED_FOREST, WOODED_BADLANDS_PLATEAU, DESERT_LAKES, NETHER_WASTES, DARK_FOREST_HILLS, LUKEWARM_OCEAN, BAMBOO_JUNGLE, TAIGA_HILLS, CUSTOM, MODIFIED_JUNGLE, DEEP_COLD_OCEAN, GIANT_TREE_TAIGA_HILLS, BADLANDS, SHATTERED_SAVANNA_PLATEAU, DEEP_WARM_OCEAN, MUSHROOM_FIELDS, GIANT_SPRUCE_TAIGA_HILLS, SNOWY_TAIGA_HILLS, DEEP_OCEAN, BADLANDS_PLATEAU, TAIGA, WOODED_HILLS, MOUNTAIN_EDGE, SHATTERED_SAVANNA, DESERT, SNOWY_TAIGA_MOUNTAINS, SNOWY_BEACH, WARM_OCEAN, BASALT_DELTAS, FOREST, JUNGLE_HILLS, TALL_BIRCH_FOREST, MODIFIED_GRAVELLY_MOUNTAINS, SWAMP, SOUL_SAND_VALLEY, DESERT_HILLS, or CRIMSON_FOREST]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
