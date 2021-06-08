@@ -42406,4 +42406,46 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-6059</id>
+	<key><![CDATA[[%s 7f00171]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6060</id>
+	<key><![CDATA[[%s 0fe660d]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6061</id>
+	<key><![CDATA[Updated for Spigot 1.16]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6062</id>
+	<key><![CDATA[Updated for Spigot 1.15]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6063</id>
+	<key><![CDATA[Spigot 1.13.2 - 1.15]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6064</id>
+	<key><![CDATA[Spigot 1.13.2 - 1.16.1]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
