@@ -42385,4 +42385,25 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-6056</id>
+	<key><![CDATA[MethodScript Additions: %s, %s, %s, %s, %s, %s.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6057</id>
+	<key><![CDATA[entity_id, %s, %s, %s, %s, %s, %s, %s, entity_uuid, %s, %s, %s, %s, %s, %s,  %s, %s, %s, %s,  %s, %s, %s, %s, %s,  %s, %s, %s, %s, %s,  %s, %s, %s, %s,  %s, %s, %s, %s,  %s, %s, %s, %s,  %s, %s, %s, %s,  %s, %s, %s, %s,  %s, %s, %s, %s,  %s, %s, %s, %s, %s,  %s, %s, %s, %s, %s,  %s, %s, %s, %s,  %s, %s, %s, %s, %s,  get_player_from_entity_id, %s, %s, %s, %s, %s, %s, %s, get_recipe_for, %s, %s, %s, %s,  %s, %s, %s, %s,  %s, %s, %s, %s, %s,  %s, %s, %s, %s, %s,  %s, %s, %s, %s, %s,  %s, %s, %s, %s, %s,  %s, %s, %s, %s, %s,  %s, %s, %s, %s, %s,  %s, %s, %s, %s, %s,  %s, %s, %s, %s, %s, %s,  %s, %s, %s, %s,  %s, %s, %s, %s, %s,  %s, %s, %s, %s, %s,  %s, %s, %s, %s, %s,  %s, %s, %s, %s, %s,  %s, %s, %s, %s, %s,  %s, %s, %s, %s, %s,  %s, %s, %s, %s, %s,  %s, %s, %s, %s, %s, %s,  %s, %s, %s, %s, %s,  %s, %s, %s, %s,  %s, %s, %s, %s, %s,  %s, %s, %s, %s,  %s, %s, %s, %s,  %s, %s, %s, %s,  %s, %s, %s, %s, %s,  %s, send_texturepack, %s, %s, %s, %s, %s, %s, %s,  %s, %s, %s, %s, %s,  %s, %s, %s, %s,  %s, %s, %s, %s,  %s, %s, %s, %s,  %s, %s, %s, %s, %s,  %s, %s, %s, %s, %s,  %s, %s, %s, %s, %s,  %s, %s, %s, %s,  %s, %s, %s, %s, %s,  %s, %s, %s, %s,  %s, %s, %s, %s, %s,  %s, %s, %s, %s, %s,  %s, %s, %s, %s,  %s, %s, %s, %s, %s,  %s, %s, %s, %s,  %s, %s, %s, %s, %s,  %s, %s, %s, %s, %s,  %s, %s, %s, %s, %s,  %s, %s, %s,  %s, %s, %s, %s, %s,  %s, %s, %s, %s,  %s, %s, %s, %s, %s,  %s, %s, %s, %s,  %s, %s, and]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6058</id>
+	<key><![CDATA[Minecraft Additions: %s (replaces get_block_at), %s (replaces set_block_at), %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s (replaces enchant_inv), %s (replaces enchant_rm_inv), %s (replaces get_enchant_inv), %s (replaces can_enchant_target), %s, %s, %s.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
