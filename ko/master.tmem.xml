@@ -42329,4 +42329,60 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-6048</id>
+	<key><![CDATA[import/export - Import and export work like the persistence functions, except they are in-memory only, and won't survive past server restarts (or /reloadaliases, for that matter). There are two modes of operation, so read the API carefully if you use these functions.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6049</id>
+	<key><![CDATA[Completely reworked the engine. Essentially a new plugin.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6050</id>
+	<key><![CDATA[Data Manager - You can now view the persistence data much easier, thanks to the data manager. Be sure to explore all the options. Read up on it at the [[%s|page on the data manager]].]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6051</id>
+	<key><![CDATA[Namespaces in persistence, and improved performance in persistence - Persistence is now much more efficient. In addition, namespace support has been implemented. If you namespace your data using periods, you can much more easily manipulate the data that has been stored. Be sure to re-read the API in the Persistance section, as all the functions have new features now.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6052</id>
+	<key><![CDATA[Minecraft Additions: %s (replaces get_block_at), %s (replaces set_block_at), %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6053</id>
+	<key><![CDATA[Added exception handling, and fixed more bugs with command matching and optional variables. Also added more advanced permission syntax for commands.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6054</id>
+	<key><![CDATA[Added functions: set_display_name, reset_display_name, try, array_index_exists, is_array, is_boolean, is_double, is_integer, is_%s, is_string, substr, to_lower,to_upper, length, throw]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6055</id>
+	<key><![CDATA[Your persistance database is in the wrong format. Unlike previous versions, you do not need to delete the database, you simply need to upgrade it. (Unless you're upgrading from before 3.2.0, in which case you still do need to delete the persistence.ser file, and then you're set.) If you have not used user aliases or persistence in the past, this step is unnecessary. Rename/copy/symlink your bukkit jar to bukkit.jar for this to work. From a command prompt, change to the plugins directory and run %sjava -jar CommandHelper.jar --manager%s. This will launch the Data Manager, at which point you can run the upgrade command. Once this is complete, your data is now converted to the new format! Do not run the data manager while your server is up. In lieu of this, you may also simply delete your persistance.ser file, in which case all data will be lost, but it will re-create the db in the correct format in the future, without any interaction from you. Be sure to check out the other features in the data manager while you're there!]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
