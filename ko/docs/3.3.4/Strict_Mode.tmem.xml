@@ -224,4 +224,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-6100</id>
+	<key><![CDATA[No Auto Concatenation]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6101</id>
+	<key><![CDATA[While this seems arbitrary, separating statements is required in two cases. Using the ++ or -- operators, it is ambiguous whether the operator is meant to apply to the previous value (postfix) or following value (prefix). Direct closure execution is allowed with parenthesis:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

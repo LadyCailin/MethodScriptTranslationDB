@@ -42448,4 +42448,263 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-6065</id>
+	<key><![CDATA[CommandHelper 3.3.4 supports Minecraft 1.13.2 - 1.16.5. All extensions must be updated when upgrading from previous versions.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6066</id>
+	<key><![CDATA[Adds support for hex color codes in color() and colorize()]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6067</id>
+	<key><![CDATA[Bare strings are no longer allowed]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6068</id>
+	<key><![CDATA[77 new functions have been added.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6069</id>
+	<key><![CDATA[Adds support for Minecraft 1.14 through 1.16.5]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6070</id>
+	<key><![CDATA[Adds 'CodeUpgradeNotices' to suppressWarnings in File Options]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6071</id>
+	<key><![CDATA[Adds MSSQL support for query() and in [[%s|Persistence Network]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6072</id>
+	<key><![CDATA[Expands Minecraft recipe support]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6073</id>
+	<key><![CDATA[Function API Additions]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6074</id>
+	<key><![CDATA[MethodScript additions: %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6075</id>
+	<key><![CDATA[Removed events: player_prelogin, tab_complete_chat.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6076</id>
+	<key><![CDATA[Adds documentation localization tools 'validate-l10n' and 'l10n-ui']]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6077</id>
+	<key><![CDATA[Adds '.msfileoption' files for directory level File Options]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6078</id>
+	<key><![CDATA[Adds telemetry (disabled by default)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6079</id>
+	<key><![CDATA[7 new events have been added.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6080</id>
+	<key><![CDATA[Minecraft additions: %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6081</id>
+	<key><![CDATA[block_explode, block_form, hanging_place, entity_unleash, potion_splash, entity_potion, resource_pack_status]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6082</id>
+	<key><![CDATA[Adds 'requiredExtensions' and 'compileroptions' to [[%s|File Options]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6083</id>
+	<key><![CDATA[Faster startup times and other performance improvements]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6084</id>
+	<key><![CDATA[28 new functions have been added. 19 functions have been modified.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6085</id>
+	<key><![CDATA[22 events have been modified. 2 events have been removed.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6086</id>
+	<key><![CDATA[Minecraft events now ignore fake players]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6087</id>
+	<key><![CDATA[Adds smart comments to aliases and implements `@command` structure]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6088</id>
+	<key><![CDATA[Adds 'json-api', 'cmdline-args', 'build-extension', 'help-topic', 'edit-prefs', 'install-mssql-auth' tools to [[%s|Cmdline tools]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6089</id>
+	<key><![CDATA[Hundreds of others fixes]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6090</id>
+	<key><![CDATA[Adds cmdline support for Windows]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6091</id>
+	<key><![CDATA[Adds support for Brotli encoding in]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6092</id>
+	<key><![CDATA[Adds attribute modifiers and custom model data tag to item arrays]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6093</id>
+	<key><![CDATA[Adds support for multiple semi-colon separated paths for 'base-dir' in Preferences]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6094</id>
+	<key><![CDATA[array_index_exists now supports multi-dimensional arrays and negative indices]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6095</id>
+	<key><![CDATA[Auto concatenation is no longer allowed in Strict Mode]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6096</id>
+	<key><![CDATA[Adds reflect_pull('dir')]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6097</id>
+	<key><![CDATA[Adds Static Analysis framework, including type and scope checks for variables and procedures]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6098</id>
+	<key><![CDATA[Adds 'help' command to Interpreter to lookup functions]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6099</id>
+	<key><![CDATA[New Visual Studio Code extension with syntax highlighting, function/event peeking, and linting for compile errors and warnings]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6100</id>
+	<key><![CDATA[No Auto Concatenation]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6101</id>
+	<key><![CDATA[While this seems arbitrary, separating statements is required in two cases. Using the ++ or -- operators, it is ambiguous whether the operator is meant to apply to the previous value (postfix) or following value (prefix). Direct closure execution is allowed with parenthesis:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
