@@ -1344,4 +1344,25 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-6116</id>
+	<key><![CDATA[creature_spawn, block_grow, food_level_changed, world_save, entity_interact, block_dispense, entity_change_block, item_despawn, inventory_click, vehicle_move, block_break, exp_change, note_play, shutdown, cmdline_prompt_input, player_interact_at_entity, player_leave_bed, block_ignite, world_load, item_pre_enchant, entity_death, item_enchant, world_unload, projectile_hit, item_held, player_quit, player_move, item_drop, tree_grow, weather_change, entity_damage_player, entity_damage, block_place, world_changed, player_toggle_sneak, projectile_launch, player_fish, server_ping, entity_explode, player_prelogin, inventory_close, lightning_strike, player_teleport, redstone_changed, inventory_drag, target_player, player_enter_bed, item_pickup, player_interact_entity, block_burn, vehicle_leave, vehicle_collide, thunder_change, gamemode_change, async_player_chat, item_pre_craft, piston_retract, player_toggle_flight, tab_complete_chat, pressure_plate_activated, inventory_open, player_login, vehicle_enter, player_command, player_consume, player_kick, tab_complete_command, sign_changed, piston_extend, entity_enter_portal, player_portal_travel, player_toggle_sprint, item_spawn, hanging_break, book_edited, and plugin_message_received]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6117</id>
+	<key><![CDATA[>>>>>> master]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6118</id>
+	<key><![CDATA[>>>>>> master %s, %s, and]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

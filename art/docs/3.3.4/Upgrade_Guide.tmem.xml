@@ -413,4 +413,46 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-6133</id>
+	<key><![CDATA[Minecraft 1.17]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6134</id>
+	<key><![CDATA[GRASS_PATH changed to DIRT_PATH (converted automatically where possible)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6135</id>
+	<key><![CDATA[Cauldrons are split into 4 materials: CAULDRON, WATER_CAULDRON, LAVA_CAULDRON, POWDERED_SNOW_CAULDRON]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6136</id>
+	<key><![CDATA[Updating to new versions of CommandHelper or Minecraft can sometimes require updates to your scripts and/or extensions. Below is a reverse chronological guide to help you with the most notable of these changes to quickly update your code.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6137</id>
+	<key><![CDATA[All ores now have a deepslate variant (eg. DEEPSLATE_COAL_ORE)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6138</id>
+	<key><![CDATA[GLOW_ITEM_FRAME is a separate entity type that behaves exactly as item frames]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

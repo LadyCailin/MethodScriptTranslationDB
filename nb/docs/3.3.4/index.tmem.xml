@@ -539,4 +539,39 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-6111</id>
+	<key><![CDATA[Java >= 16 is required to run MethodScript.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6112</id>
+	<key><![CDATA[For Java versions > 9, you may see errors such as "An illegal reflective access operation has occurred." For Java versions less than 17, you can simply add --illegal-access=permit to the JVM options, but for more granular control, you can instead add the output of %sjava -jar commandhelper-%s-SNAPSHOT-full.jar cmdline-args%s to your java startup arguments, or alternatively, dynamically call this command so that future updates will automatically conform to the necessary arguments.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6113</id>
+	<key><![CDATA[Alternatively, for advanced users, you could download the sources and build it yourself locally. To do that, you need git, maven, and jdk >= 16. Pull down the code with %sgit clone git@github.com:EngineHub/CommandHelper.git%s, then follow the directions in [%s the README].]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6114</id>
+	<key><![CDATA[Installation isn't strictly required, you can run MethodScript directly using the java -jar command, however, using the mscript wrapper provides some additional functionality, such as setting up the appropriate options to the JVM.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6115</id>
+	<key><![CDATA[For Java versions >= 17, this process is mandatory, as --illegal-access will be removed from the JVM, and the necessary --add-opens parameters will be the only way to provide the necessary access. This is also necessary for fully proper execution of signal handling in MethodScript.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

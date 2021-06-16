@@ -8,20 +8,6 @@
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nb-1132</id>
-	<key><![CDATA[Generates a tree at the given location and returns if the generation succeeded or not. The treeType can be TREE, BIG_TREE, REDWOOD, TALL_REDWOOD, BIRCH, JUNGLE, SMALL_JUNGLE, JUNGLE_BUSH, RED_MUSHROOM, BROWN_MUSHROOM, SWAMP, ACACIA, DARK_OAK, COCOA_TREE, MEGA_REDWOOD, TALL_BIRCH, or CHORUS_PLANT, defaulting to TREE.]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto></auto>
-</translationBlock>
-<translationBlock>
-	<id>nb-1162</id>
-	<key><![CDATA[locationArray, %s[%streeType%s]]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto></auto>
-</translationBlock>
-<translationBlock>
 	<id>nb-2878</id>
 	<key><![CDATA[Examples]]></key>
 	<comment></comment>
@@ -113,15 +99,15 @@
 	<auto><![CDATA[Dokumenter]]></auto>
 </translationBlock>
 <translationBlock>
-	<id>nb-5668</id>
-	<key><![CDATA[Generates a tree at the given location and returns if the generation succeeded or not. The treeType can be TREE, BIG_TREE, REDWOOD, TALL_REDWOOD, BIRCH, JUNGLE, SMALL_JUNGLE, JUNGLE_BUSH, RED_MUSHROOM, BROWN_MUSHROOM, SWAMP, ACACIA, DARK_OAK, COCOA_TREE, MEGA_REDWOOD, TALL_BIRCH, CHORUS_PLANT, CRIMSON_FUNGUS, or WARPED_FUNGUS, defaulting to TREE.]]></key>
+	<id>nb-6105</id>
+	<key><![CDATA[Sets the text on a sign to be glowing or not.]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nb-6107</id>
-	<key><![CDATA[Generates a tree at the given location and returns if the generation succeeded or not. The treeType can be TREE, BIG_TREE, REDWOOD, TALL_REDWOOD, BIRCH, JUNGLE, SMALL_JUNGLE, JUNGLE_BUSH, RED_MUSHROOM, BROWN_MUSHROOM, SWAMP, ACACIA, DARK_OAK, COCOA_TREE, MEGA_REDWOOD, TALL_BIRCH, CHORUS_PLANT, CRIMSON_FUNGUS, WARPED_FUNGUS, or AZALEA, defaulting to TREE.]]></key>
+	<id>nb-6106</id>
+	<key><![CDATA[locationArray, isGlowing]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>

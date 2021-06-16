@@ -1393,4 +1393,46 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-6140</id>
+	<key><![CDATA[AXOLOTL]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6141</id>
+	<key><![CDATA[particle: The particle type which comprises the cloud (can be SMOKE_NORMAL, ENCHANTMENT_TABLE, REDSTONE, SOUL_FIRE_FLAME, SNOW_SHOVEL, BUBBLE_COLUMN_UP, SPELL_MOB, REVERSE_PORTAL, CAMPFIRE_SIGNAL_SMOKE, BLOCK_DUST, FALLING_HONEY, SPORE_BLOSSOM_AIR, DRIPPING_DRIPSTONE_LAVA, SWEEP_ATTACK, WATER_SPLASH, LANDING_LAVA, SLIME, FALLING_LAVA, DRAGON_BREATH, DRIPPING_OBSIDIAN_TEAR, CURRENT_DOWN, ELECTRIC_SPARK, DRIPPING_HONEY, LANDING_OBSIDIAN_TEAR, ITEM_CRACK, LIGHT, WARPED_SPORE, DUST_COLOR_TRANSITION, FALLING_DUST, SNEEZE, WATER_BUBBLE, WHITE_ASH, GLOW, FLASH, VILLAGER_ANGRY, FALLING_DRIPSTONE_LAVA, FALLING_DRIPSTONE_WATER, HEART, LANDING_HONEY, END_ROD, FALLING_NECTAR, CRIT_MAGIC, SUSPENDED, WATER_DROP, SPELL, FALLING_WATER, SPELL_INSTANT, LAVA, WAX_ON, VILLAGER_HAPPY, SQUID_INK, CRIT, VIBRATION, DRIPPING_DRIPSTONE_WATER, CLOUD, BUBBLE_POP, COMPOSTER, SCRAPE, NAUTILUS, FALLING_SPORE_BLOSSOM, SMALL_FLAME, EXPLOSION_LARGE, TOWN_AURA, SUSPENDED_DEPTH, CAMPFIRE_COSY_SMOKE, SOUL, NOTE, ASH, SNOWBALL, SPELL_MOB_AMBIENT, DAMAGE_INDICATOR, SMOKE_LARGE, CRIMSON_SPORE, TOTEM, BARRIER, EXPLOSION_NORMAL, FLAME, SPIT, FALLING_OBSIDIAN_TEAR, PORTAL, MOB_APPEARANCE, WAX_OFF, DOLPHIN, SPELL_WITCH, DRIP_WATER, GLOW_SQUID_INK, EXPLOSION_HUGE, SNOWFLAKE, WATER_WAKE, UNKNOWN, FIREWORKS_SPARK, DRIP_LAVA, or BLOCK_CRACK). Can accept a particle array for setting index data required for specific particle types. This particle array must contain a "particle" key, and supports the keys "block", "item", or "color" when applicable.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6142</id>
+	<key><![CDATA[GOAT]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6143</id>
+	<key><![CDATA[type: The type of the axolotl. (can be BLUE, CYAN, GOLD, LUCY, or WILD)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6144</id>
+	<key><![CDATA[ITEM_FRAME, GLOW_ITEM_FRAME]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6145</id>
+	<key><![CDATA[screaming: Whether or not this is a screaming goat]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
