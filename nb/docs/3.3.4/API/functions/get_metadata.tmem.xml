@@ -196,4 +196,11 @@
 	<translation></translation>
 	<auto><![CDATA[Dokumenter]]></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-6158</id>
+	<key><![CDATA[Returns the metadata values attached to the given object. object can be a location array (it will designate a block), an entityID (it will designate an entity) or a string (it will designate a world). If only the key is given, the object is the current player. The function returns an associative array where the values are keyed by plugin which have registered the metadata with the given key, and the array values the registered metadata values. If the plugin argument is given (a string that represent the plugin name), the function simply returns the value of the metadata registered by the plugin with this key, or %s if no metadata is found. --- The Bukkit metadata allow to attach information to entities, blocks and worlds, and allow plugins to exchange these information between them without requiring one to be dependant on each other. The metadata are persistent across server reloads, but not across server restarts. The metadata attached to a player are also persistent between logins.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

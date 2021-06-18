@@ -119,4 +119,11 @@
 	<translation></translation>
 	<auto><![CDATA[Dokumenter]]></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-6162</id>
+	<key><![CDATA[Registers a metadata value in the given object with the given key. object can be a location array (it will designate a block), an entityID (it will designate an entity) or a string (it will designate a world). If only the key and the value are given, the object is the current player. You can specify the plugin that will own the metadata, 'MethodScript' by default. See get_metadata() for more information about Bukkit metadata.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

@@ -119,4 +119,11 @@
 	<translation></translation>
 	<auto><![CDATA[Døcs]]></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-6160</id>
+	<key><![CDATA[Remove the metadata in the given object at the given key. object can be a location array (it will designate a block), an entityID (it will designate an entity) or a string (it will designate a world). If only the key is given, the object is the current player. If no plugin is given, the function removes all metadata at the given key, otherwise only the value set by the given plugin. See get_metadata() for more information about Bukkit metadata.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

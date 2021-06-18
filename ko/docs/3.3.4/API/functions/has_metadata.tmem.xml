@@ -119,4 +119,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-6157</id>
+	<key><![CDATA[Returns if the given object has metadata registered with this key. object can be a location array (it will designate a block), an entityID (it will designate an entity) or a string (it will designate a world). If only the key is given, the object is the current player. If the plugin is given, the function returns if the plugin have registered a metadata in the object with the given key. See get_metadata() for more information about Bukkit metadata.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
