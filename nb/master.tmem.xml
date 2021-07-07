@@ -43134,4 +43134,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-6163</id>
+	<key><![CDATA[The 'noPermMsg' argument is the message displayed when the user doesn't have the permission specified in 'permission'. The 'usage' is the message shown when the 'executor' returns false. The 'executor' is the closure run when the command is executed, and can return true or false (by default is treated as true). The 'tabcompleter' is the closure run when a user hits tab while the command is entered and ready for args. It is meant to return an array of completions, but if not the tab_complete_command event will be fired, and the completions of that event will be sent to the user. Both executor and tabcompleter closures are passed the following information in this order: alias used, name of the sender, array of arguments used, array of command info. When this function is not supported on the used platform, a NotFoundException is thrown. When the command name contains whitespaces, a FormatException is thrown.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
