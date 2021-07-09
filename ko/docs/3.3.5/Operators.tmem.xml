@@ -1,0 +1,262 @@
+<translations>
+<comment></comment>
+<translationBlock>
+	<id>ko-1715</id>
+	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3189</id>
+	<key><![CDATA[There is no operational equivalent for equals_ic]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3190</id>
+	<key><![CDATA[Left]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3191</id>
+	<key><![CDATA[''Logical AND'']]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3192</id>
+	<key><![CDATA[Right]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3193</id>
+	<key><![CDATA[The following operators are supported, and their order of operations is from top to bottom. Note that all  operators are simply converted to the functional notation, so if your code is incorrect, the errors you  get will specify function names. Associativity tells in which order operators with equal priority are executed. This can be left (to right), right (to left) or non-assoc (not allowed to combine or nest).]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3194</id>
+	<key><![CDATA[''Equality'']]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3195</id>
+	<key><![CDATA[Also of note, auto-concatenation always takes lowest priority to all other operations.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3196</id>
+	<key><![CDATA[These are ''unary'' operators, they only operate on one identifier]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3197</id>
+	<key><![CDATA[This is only considered postfix when it comes after an identifier: @i++]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3199</id>
+	<key><![CDATA[Besides being less typing, it's much easier for a human to read, thanks to the operators. "@var equals 3 and 2 is less than or equal to  @var2" as opposed to "and equals @var 3 lte 2 @var2". Using parenthesis is also supported, to force an order of operations:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3200</id>
+	<key><![CDATA[Consider the following perfectly valid code:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3201</id>
+	<key><![CDATA[''Assignment'']]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3202</id>
+	<key><![CDATA[''Multiplicative'']]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3203</id>
+	<key><![CDATA[This is fairly hard to read, and could quickly get even more complicated and harder to read the more conditions you add.  Instead, you can use ''infix'' notation now, using standard C/Java operators. The same code as above, converted to the  infix notation looks like:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3204</id>
+	<key><![CDATA[''Relational'']]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3205</id>
+	<key><![CDATA[''Unary'']]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3206</id>
+	<key><![CDATA[''Exponential'']]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3208</id>
+	<key><![CDATA[If a minus or plus sign is used to denote the sign of a number, it is handled slightly differently, for instance, ''2 + -1'' does not use any subtraction]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3209</id>
+	<key><![CDATA[''Array Sub-indices'']]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3210</id>
+	<key><![CDATA[''Postfix'']]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3211</id>
+	<key><![CDATA[''Additive'']]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3212</id>
+	<key><![CDATA[There is no single functional equivalent except for = per se, %s@var += 1%s is equivalent to  %sassign(@var, add(@var, 1))%s, etc. += uses %s,  -= uses %s, *= uses %s, /= uses %s, and .= uses %s. Square brackets with an assign indicate that a value is being assigned to the array element at the index that is given between the square brackets. If no index is given, the value is appended to the end of the array.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3213</id>
+	<key><![CDATA[''Logical OR'']]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3214</id>
+	<key><![CDATA[&lt; &gt; &lt;= &gt;=]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3215</id>
+	<key><![CDATA[Non-assoc]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3216</id>
+	<key><![CDATA[Note the lack of bitwise operators, which are usually standard in other languages. These are not provided, because the  operators are infrequently used, and may be used for other operations in the future. The functions themselves,  %s, %s, and %s still exist, so no functionality has been removed.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5146</id>
+	<key><![CDATA[In addition to functional support, MethodScript supports traditional operators.  This allows you to write more readable code, by  using more standard symbols instead of only functions. Using operators instead of functions is highly recommended for  all code, though the functional usage will continue to remain supported, and may be more readable in rare cases.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5152</id>
+	<key><![CDATA[About]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5153</id>
+	<key><![CDATA[Home]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5154</id>
+	<key><![CDATA[Privacy Policy]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5155</id>
+	<key><![CDATA[Sponsors]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5156</id>
+	<key><![CDATA[Help]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5157</id>
+	<key><![CDATA[Team. All rights reserved.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5158</id>
+	<key><![CDATA[Docs]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5417</id>
+	<key><![CDATA[Using square braces allows for array accesses, and in combination with the %s=%s sign, setting sub-indices. If the array set appears on the right hand side of an assignment, or in a general statement without an assign, it is an array_get operation. If it appears on the left hand side of an assignment, it is an array_set operation. The brackets apply to the element just preceding, for instance with %s@var['index']%s, it is assumed that %s@var%s is an array or array like value. Empty braces, %s[]%s, when on the left hand side works as an array push, and when on the right hand side, or in a general statement without an assign, it is an array clone operation (which ultimately still uses array_get). Sub-strings within strings may be pulled out using the bracket notation as well, and slices are supported. %sarray(1, 2, 3)[1..2]%s returns an array with 2 elements in it, namely 2 and 3. %s'string'[0]%s returns 's', and %s'string'[0..1]%s returns 'st'.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5418</id>
+	<key><![CDATA[When in strict mode, use of functional notation instead of operators triggers a compiler warning. This warning is suppressible, however.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+</translations>

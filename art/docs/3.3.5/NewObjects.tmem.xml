@@ -1,0 +1,892 @@
+<translations>
+<comment></comment>
+<translationBlock>
+	<id>art-1715</id>
+	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Fînd å büg în thîs pågə? %sEdît thîs pågə ʎøürsəlf, thən sübmît å püll rəqüəst.]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2698</id>
+	<key><![CDATA[Example]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3058</id>
+	<key><![CDATA[Members and Methods]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3060</id>
+	<key><![CDATA[Inheritance]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3061</id>
+	<key><![CDATA[There are two variables that are specially defined within code inside a class, %s@this%s and %s@self%s. %s@this%s refers to the current instance of the class, and while not usually necessary, can be used in all cases to provide clarity to the code. In some cases, however, it is necessary, when a local variable hides a member variable. In our original class example, we have the following code:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3062</id>
+	<key><![CDATA[Static members and methods]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3064</id>
+	<key><![CDATA[There are two ways to do a class swap, using the hotswap keyword in the class definition, and defining it in a dynamic source, changing the source file.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3065</id>
+	<key><![CDATA[The %ssuper%s keyword refers to the direct superclass. In the above examples, we used it to call the superclass's constructor, but it can more generally be used to refer to an element defined within a superclass.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3066</id>
+	<key><![CDATA[We can also use the hotswap keyword in a class definition. Defining a class twice is a compile error, so if we are intentionally re-defining a class definition, we need to specially tell the compiler that, so it doesn't think you just accidentally redefined it. Say we are running from the terminal:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3068</id>
+	<key><![CDATA[use%s statements]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3069</id>
+	<key><![CDATA[Then we would have 2 classes defined, '''organization.project.MyClass1''' and '''organization.project.MyClass2'''. The namespace for both of these classes must be defined as "organization.project", since they are within the '''organization/project''' folder structure. The name of the file must correspond to the name of the class, this will be a compile error otherwise.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3072</id>
+	<key><![CDATA[In general, when overriding methods in a parent class, it is only possible to grant it a higher visibility state. For instance, if the parent class defines a method as public, the child class cannot make it private. However, the opposite is allowed. If a parent class defines a method as protected, a child class can make it public.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3073</id>
+	<key><![CDATA[Note that the default constructor is annotated with the @{Inject} annotation. If you do not wish your class to be automatically injectable, you need to implement a no-arg constructor yourself, with the @{NoInject} annotation. (This is used in the [[%s|DependencyInjection]] framework.)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3074</id>
+	<key><![CDATA[The self keyword can also be used in generic definitions, such as %sClassType%s, and within general code, such as %sself @a = new self();%s or %smsg(self);%s.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3076</id>
+	<key><![CDATA[In this case, we must use the @this keyword, as we are naming the method's argument %s@b%s, and so to differentiate between that and the member variable, we must use %s@this->b%s. %s@this->b%s refers to the member variable, and %s@b%s refers to the variable that is passed in to the method, that is, the local variable.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3078</id>
+	<key><![CDATA[Modified A.ms:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3080</id>
+	<key><![CDATA[Within the class A, in non-static methods, we can create a new instance of the class B in the usual manner, since %s@this%s is implied. This is the most common use of instance classes.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3081</id>
+	<key><![CDATA[We can easily determine which method to call, based on whether or not we pass an int to the method when we call it.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3084</id>
+	<key><![CDATA[Class Library]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3085</id>
+	<key><![CDATA[By default, methods with multiple overrides in parent classes inherit from the primary parent, in this case, A, though you can also be explicit and inherit a method individually. If no access modifier is provided, the method is inherited with the same access level as the parent method. However, the visibility of the method may also be increased:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3086</id>
+	<key><![CDATA[As many types as required can be chained this way. As far as the inferred type of that object, it will be whatever the nearest '''type intersection''' is. So, in this case, the code using the variable @var must assume that it is of type A, unless it does an explicit cast first. So, as far as code that ''uses'' the variable, it will work as if it were defined as %sA @var%s, but with the guarantee that only a D or C type instance will have been assigned to it.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3087</id>
+	<key><![CDATA[(Assuming the class name is A). However, if a superclass defined a constructor that accepted parameters, without also defining a constructor that takes no arguments, this will not happen, and you must manually define a constructor which calls %ssuper%s with the appropriate inputs.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3088</id>
+	<key><![CDATA[inherit%s keyword]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3089</id>
+	<key><![CDATA[A method may be overridden with simply changing the return type, but then, just as in the above example, would require fully qualifying the method each time it were called. Due to this, anytime you define a method that would require disambiguation every time it's called, a compiler warning is issued for the definition. This can be suppressed, however.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3090</id>
+	<key><![CDATA[Before getting into the details about objects, lets look at an example:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3091</id>
+	<key><![CDATA[You don't have to provide the full package for the class names either. If you have a class named com.project.util.MyClass, you can %suse com.project;%s, and then refer to the class as %sutil.MyClass%s, though it's usually just as well to %suse com.project.util;%s.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3093</id>
+	<key><![CDATA[The modifier can be applied to methods and fields, but also to classes. This leads to an interesting effect, however. If there is a class defined with a lower visibility than a method which returns or has parameters of a type that has a lower visibility, then it means that the method cannot in fact be called by code that is not of the appropriate visibility. If this occurs, then a compiler error will be issued. To fix it, you may either make the class the same visibility as the method, or you can reduce the visibility of the method.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3094</id>
+	<key><![CDATA[A type union can be used any time disjoint types are required. Assume the following hierarchy:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3095</id>
+	<key><![CDATA[In general, this is not advised, as this may cause problems down the road if, within the * structure, any class names are duplicated, and you're using one of them, it will become a compile error. Therefore, it is still recommended that you fully qualify the package name. Nevertheless, this functionality is available.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3096</id>
+	<key><![CDATA[Additionally in this example, there is one '''constructor''', which is the code that is called when a new instance of the object is created (see below). The constructor (or constructors, there can be several). A constructor is defined by creating a method with the same name as the object it's contained in, with no return type. The constructor is where you may place code that is necessary for initial configuration of the object.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3098</id>
+	<key><![CDATA[The %sself%s keyword refers to the ClassType of the currently defining class. This is a shortcut to listing the current defining type, and can generally be thought of as simply replacing the self keyword at compile time with the ClassType of the currently defining class. (Though this isn't exactly the case.) This is mostly useful when defining method signatures. For instance:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3100</id>
+	<key><![CDATA[Instantiation]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3101</id>
+	<key><![CDATA[Abstract Classes]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3102</id>
+	<key><![CDATA[However, since this could occur fairly often, you may simply indicate that you would like to ''inherit'' functionality from the specified parent. So instead of defining the class C as above, we can get the exact same functionality by defining it as such:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3103</id>
+	<key><![CDATA[A full class swap is when the ObjectDefinition is fully replaced at runtime. Existing instances of the class will retain the old ObjectDefinition, but new instances will get the new one. It is impossible to access the old ObjectDefinition object, but internally, those instances will continue on. Doing a full class swap does not restrict what can be done, fields may change, method definitions may change, etc.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3104</id>
+	<key><![CDATA[By convention, static elements are named with capital first letters, and non-static elements are named with lowercase first letters, and all elements use camel case.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3106</id>
+	<key><![CDATA[false%s from %s.)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3107</id>
+	<key><![CDATA[This example will be used in the explanation below.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3108</id>
+	<key><![CDATA[Since this is just syntax sugar, rather than a runtime setting, this is why you will always see references to a class's fully qualified class name when reading error messages and things. So, are system level classes in a hierarchy? Yes, they are! So why do you not need use statements for them? The system automatically adds some use statements for you. Particularly, it always adds %sms.lang%s, as well as the current package, but others may be added as well. Regardless, the ones that are added automatically are added as if they are below all of your use statements. This allows you to define classes with the same name as system classes, without having to fully qualify them. On the flip side, if you have duplicate class names, and you use both within a file, at least one of them would have to be fully qualified anyhow, but the consolation is that at least '''ms.lang.''' is relatively little to type. Otherwise, the search pattern for classes always goes from top to bottom in the use statements, if there are duplicate class names.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3109</id>
+	<key><![CDATA[In addition to providing a project structure, a class library may contain one or more '''manifest''' files, (named simply "manifest.json"). There must be one manifest at the root of the classLibrary, but there may be more within subfolders, if it makes sense to organize multiple projects within the same classLibrary. The manifest defines certain information about the class library as a whole, and turns it into a "project". The manifest includes information such as project versions, author information, changelogs, etc. The manifest.json file has a specific format, which is described [Manifests|here]. One of the most useful features of the manifest is the version number, and dependency information. The project should define what dependencies and versions of dependencies are needed, but not where to find them. Meanwhile, as a system level configuration, the system should define where to look for dependencies. This may be on the local system, or it may be in a package manager. Regardless, at minimum, every classLibrary must have at least one manifest file within the file structure that defines the organization name, project name, and project version. This ensures that the dependency fulfillment mechanisms are always able to uniquely identify a project. A default manifest.json file is created for you when running the system for the first time, but you must change the values in it, if you intend on shipping your code, or re-using it in a more modular fashion.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3110</id>
+	<key><![CDATA[@this%s and %s@self%s variables, and %ssuper%s and %sself%s keywords]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3112</id>
+	<key><![CDATA[There are a number of subclasses of the IncompatibleClassChangeError, but they all stem from the same underlying problem - something that previously compiled is no longer valid.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3113</id>
+	<key><![CDATA[Full Class Swaps]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3116</id>
+	<key><![CDATA[In this example, we have to first create a new instance of the outer class, in order to create an instance of the inner class. We can dereference the instance of A, and use the new keyword, such as this:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3117</id>
+	<key><![CDATA[In the last example, it is shown that return type changes are not allowed (only narrowing is). Why is this, when return type changes are allowed within a single class? Consider the following code.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3118</id>
+	<key><![CDATA[When creating a class like this, references to that class must be the '''fully qualifed class name''', for instance, following the above class definitions:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3119</id>
+	<key><![CDATA[There are two types of inner classes, however, unlike an outer class, an instance based class, and a static class. The above example shows an static inner class being defined.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3120</id>
+	<key><![CDATA[What is an example of an incompatible change? If a method changes a previously public method to private, code that was previously allowed to call this method will fail. This won't be caught by the compiler, as the code that is accessing the new object will have already been compiled without errors.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3121</id>
+	<key><![CDATA[@self%s works in somewhat the same way, but it ALWAYS refers to the class that it is used in, whereas %s@this%s refers to the instance that the type is at runtime. To be very precise, %s@this%s refers to the current instance of the class, which may be an instance of the current class, or it may be an instance of a subclass. However, %s@self%s always refers to the current class. This can be useful to call a method that is not private, when you want to ensure that the code being called is not code that is overridden by a subclass. This feature should generally speaking be used sparingly, as it is a violation of the Liskov Substitution Principal, though it can be used in meta cases, for instance, to dynamically get the current class definition for reflective purposes. It can also be useful when calling static methods.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3122</id>
+	<key><![CDATA[Type Unions]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3124</id>
+	<key><![CDATA[Inner classes are allowed to create elements named the same as the outer class, therefore it is sometimes useful to differentiate between what exactly %s@this%s refers to.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3125</id>
+	<key><![CDATA[It may be possible to manually recover the system, by ensuring all instances of the old ObjectDefinition are lost, and that no other code references invalid elements, but it's often times not worth it, and rebooting the process is certainly the easiest solution.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3126</id>
+	<key><![CDATA[Inner Classes]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3127</id>
+	<key><![CDATA[All classes should be within a hierarchy, but having to type the fully qualified class name every time is very cumbersome. Instead, you can use the '''use''' keyword to tell the compiler to imply a package name.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3129</id>
+	<key><![CDATA[Basic Type Manipulation]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3130</id>
+	<key><![CDATA[Unlike procs, it is allowed to have multiple methods with the same name, so long as they are distinguishable between each other based on the parameter lists. This is allowed, for instance:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3131</id>
+	<key><![CDATA[To "activate" the modified class, use the %s function, either from a previously defined source, or from a dynamic source, such as a command, etc.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3132</id>
+	<key><![CDATA[Multiple Inheritance]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3133</id>
+	<key><![CDATA[On the other hand, an instance based class is one that can only exist in the context of an instance of the parent class. You cannot create a new instance of class B without creating an instance of class A, then using that to create the new class B. To define the instance based class, leave off the static keyword.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3134</id>
+	<key><![CDATA[classLibrary Manifest]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3135</id>
+	<key><![CDATA[Definition vs Instance]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3136</id>
+	<key><![CDATA[Overloaded Methods]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3137</id>
+	<key><![CDATA[Original A.ms:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3138</id>
+	<key><![CDATA[An inner class is a class that is defined within another class, for instance:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3139</id>
+	<key><![CDATA[The access modifier may be left off. In that case, the behavior is a bit dynamic. If the method is defined in a parent class or interface, then the method will adopt the overridden method's access modifier. For classes, it will be whatever the parent specifically set it as, and for methods defined in an interface, they will be public. (They are necessarily public anyways, because all methods in an interface are public.) If the defined method is not overriding a method in a parent class, then the method is considered internal. Fields that have the default visibility default to internal.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3140</id>
+	<key><![CDATA[The hotswap class may come from somewhere besides the terminal of course, it can be included, eval'd, etc. -->]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3141</id>
+	<key><![CDATA[You may have noticed that the keyword '''static''' has been used a few times. A ''static'' variable is one that is usable outside of any instances, often times utility methods, singletons, and factory methods are defined this way. A static method can be accessed as such:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3143</id>
+	<key><![CDATA[Default Constructors]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3144</id>
+	<key><![CDATA[Explicit namespacing]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3145</id>
+	<key><![CDATA[Additionally, you can use the asterisk notation in a use statement, to ''use'' all the subdirectories, for instance, if we have 3 classes, named com.org.util.class1, com.org.class2, com.org.folder.class3, we can do:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3146</id>
+	<key><![CDATA[Though default inheritance would work in singly inherited classes, it is really only useful when dealing with multiple inheritance. In the case where multiple objects are inherited from, and each defines their own version of a method, it may be useful to inherit the method's behavior from the non-primary inherited class. One way to do this would be to override the method yourself, and simply delegate behavior to the correct super class's method, for instance:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3147</id>
+	<key><![CDATA[If we looked at MyClass1.ms, we might see the following:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3149</id>
+	<key><![CDATA[In general, the naming convention should follow the convention of organizationIdentifier.projectName, which, if followed correctly, will prevent overlapping class names, but if the organization represents a single project, it can be ok to leave off the project name. In general, the organization name should be based on a domain you control, in reverse domain order. For instance, if you own me.example.com, your organization name should be "com.example.me". This is not required, but substantially reduces confusion, especially when distributing your code.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3150</id>
+	<key><![CDATA[You do not need to instantiate a class before using a static method. Since a static method is essentially a convenient way to namespace a method, or otherwise associate it with similar non-static code and it isn't ''really'' part of the class, it is not possible to call a static method by dereferencing an instance. If you are creating a pure utility class, that only has methods (no members), then consider using a namespace instead.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3151</id>
+	<key><![CDATA[A static inner class is easier to explain, as it is essentially just a way of further containing other classes, and is nearly purely an organizational mechanism. (Though there are a few access differences.) The inner class is defined as if the outer class is simply a package, so the fully qualified class name of B in this example is %smy.project.A.B%s and creating a new instance of class B works the same as other usual cases: %snew my.project.A.B();%s. You can also '''use''' the outer class, same as if it were a package, and then no longer need to fully qualify the inner class.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3152</id>
+	<key><![CDATA[This works differently if there are no default constructors defined in the superclass, and the subclass defines constructors with different signatures (which is allowed). If so, in that case, it is required to call any constructor on the superclass manually. For instance:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3153</id>
+	<key><![CDATA[It is not allowed to construct a new instance of an interface. Instead, you must instantiate an instance of a '''concrete class''', or an object that is defined with the '''class''' keyword. However, if an interface was defined with a constructor, it is allowed to dynamically construct classes that implement this interface, for instance:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3154</id>
+	<key><![CDATA[Dynamic Classes]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3155</id>
+	<key><![CDATA[Interfaces]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3156</id>
+	<key><![CDATA[Where this becomes a problem is when two parameter lists are indistinguishable from each other.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3157</id>
+	<key><![CDATA[Access Modifiers]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5152</id>
+	<key><![CDATA[About]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Abøüt]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5153</id>
+	<key><![CDATA[Home]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Hømə]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5154</id>
+	<key><![CDATA[Privacy Policy]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Prîvåcʎ Pølîcʎ]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5155</id>
+	<key><![CDATA[Sponsors]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5156</id>
+	<key><![CDATA[Help]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Həlp]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5157</id>
+	<key><![CDATA[Team. All rights reserved.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Təåm. All rîghts rəsərvəd.]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5158</id>
+	<key><![CDATA[Docs]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Døcs]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5162</id>
+	<key><![CDATA[Individual fields may be marked as immutable as well. This has the effect of making the class immutable, but only through that particular object reference.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5164</id>
+	<key><![CDATA[Classes may be marked as immutable, which means that none of the fields in the class may be changed after construction is complete.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5165</id>
+	<key><![CDATA[Immutable classes may be useful from a business logic standpoint, as it allows enforcement of immutability by the compiler. However, the compiler/runtime can also do some optimizations when immutable classes are used, for instance, classes that are immutable can be passed either by value or reference, and the effective result will be the same. So the runtime may choose the most performant method if a class is marked as immutable.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5167</id>
+	<key><![CDATA[Immutable classes and immutable variables]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5168</id>
+	<key><![CDATA[Immutable fields are a sort of overloaded type. That is, ''MyObject'' is different than ''immutable MyObject'', and it is required to declare them differently in each use. Mutable fields may safely be cast to the immutable variant, but not vice versa.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5415</id>
+	<key><![CDATA[So what is the Class Library? It is simply a folder in your project directory that contains several .ms files, which define classes. Your "default" class library is defined within the classLibrary/ folder in your installation, but each LocalPackage may have their own classLibrary folder as well. MSLP files will have their own class library bundled in as well. When an .ms file is defined within a class library, the rest of your code does not have to do anything extra to load them in; at compile time, they will all be loaded automatically, and added to the object definition table that is usable at runtime throughout the rest of your code. There can be no directly executable code within these file, however, and this is enforced by the compiler. There may be only one outer class definition per file, and the fully qualified class name will be the path of the class, starting at the root of the class library folder. For instance, if we have the following file structure:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5684</id>
+	<key><![CDATA[Fields should use lower camel case, except for constants, which should be upper snake case.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5685</id>
+	<key><![CDATA[Examining the constructor, there is the new function, %ssuper()%s, which is used to call the parent's constructor. %ssuper%s is optional, however, in the case where a call to %ssuper()%s is omitted, it is implied to have been called at the top of the child's constructor. If %ssuper()%s is called, it must be called ''before'' manipulating the parent's members, even transiently, otherwise it is a compiler error. For instance, consider the following:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5686</id>
+	<key><![CDATA[If a class itself is marked as immutable, it is not an error to also mark an instance of the field as immutable. This can be desirable anyways, in cases where it's possible that the class itself becomes mutable in the future, but regardless, you wish this field to always be immutable. In general, however, it's bad practice to change a class's mutability after release.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5687</id>
+	<key><![CDATA[Class Names]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5688</id>
+	<key><![CDATA[would output 2, since we called the method that returns our input plus @b, which in this case is 0.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5689</id>
+	<key><![CDATA[Now, we can use the '''dereference operator''' to access members or methods in the object, for instance,]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5690</id>
+	<key><![CDATA[If zero constructors are provided, a default constructor is always provided, with the definition:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5691</id>
+	<key><![CDATA[Method Names]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5692</id>
+	<key><![CDATA[In this example, we have a compile error, because the call to getA() could potentially call initA(), which manipulates @a, which is a member variable. The reason for this is so that the object is never in an ''inconsistent state'' which could occur if a subclass manipulates members of the parent before it is allowed to run its initialization. Had we left off the call to super, it would have been automatically placed at the top of the constructor, and this would not have been a compile error.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5693</id>
+	<key><![CDATA[An object is an instance of a class. A class is defined in code, and is used to define methods and members that will be in an instance of that object. A class can be instantiated, and get a real object out of it at runtime. You can think of the difference between the two as a blueprint for a house, there is only one blueprint, but multiple houses that are actually built, and in each house, some things are different, like, the paint color.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5694</id>
+	<key><![CDATA[If classes were not arranged in a hierarchical structure, we would quickly find ourselves being overwhelmed with naming conflicts, if two classes had the same name. Therefore, MethodScript supports a hierarchical naming system. To define a class within this hierarchy, simply add the package name to the class when defining it.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5695</id>
+	<key><![CDATA[Objects in MethodScript allow for object oriented approaches to designing your code. Object in MethodScript are extremely flexible and powerful, yet easy to use and understand.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5696</id>
+	<key><![CDATA[Note that we are explicitely calling A's constructor with the call to super, and A's method2. If there had been several parents, this could be used to "un-override" a call, or otherwise explicitely selected a method that had been overridden by multiple children. This is useful outside of diamond inheritance, but is more often used when dealing with multiple inheritance. Note that in the case of super() constructors, it is always an error to cause a child's constructor to be invoked before the parent's constructor. Calling a parent's method is only valid inside the class, an overridden method is not callable from outside of the instance.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5697</id>
+	<key><![CDATA[It's also worth pointing out that an immutable field is not constant, and the referenced object may be changed, (unless the field is marked as ''final'' in addition). The previous example shows this, when we set ''@immutable'' in the set method, this is allowed. What we cannot do, however, is set some field within the MyObject instance, even if MyObject normally does declare some publicly accessible methods that set fields.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5698</id>
+	<key><![CDATA[In this case, we are extending A, and '''overriding''' method2. In order to override a method, you simply name it the same as the method in the parent class. However, it is important to note that the method signatures must be '''type compatible''', that is, it cannot completely redefine the types of the variables that are passed in, and there are specific rules for '''narrowing''' and '''broadening''' types. Take the following examples:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5699</id>
+	<key><![CDATA[We can only have one constructor per object, but we can use default parameters, and static methods can be created to fake multiple constructors, or we can use type unions. The constructor is simply a method that is defined with the same name of the class, and no return type.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5700</id>
+	<key><![CDATA[Now, assume that we want to accept an instance of either type D or type C, but not type B or A. In this case, the nearest parent is type A, so we could accept type A and do a runtime check to ensure that it is of type D or C only, but this is a runtime check, and it would be better if we could simply declare that we only want those two types. In that case, we can use a '''type union''' to signal to the compiler the various types we will accept. To specify a type union, use the '''''' character.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5701</id>
+	<key><![CDATA[Interfaces are a way to define the methods and constructors in an object, without actually implementing them. Thus, an interface is not allowed to have code, but merely provides the definitions. Since all methods in an interface are only useful as publicly accessible from outside classes, no access modifiers are allowed in the "instance" and unimplemented static methods in the interface definition, everything is implied to be public. The exception is that static elements are allowed to be defined and implemented within an interface.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5702</id>
+	<key><![CDATA[In general, class names should be upper camel case. For classes that contain common acronymns or abbreviations, such as "HTTP" or "URL", then the acronym should be fully capitalized, for instance, "HTTPUtility" or "URLUtils". There are also exceptions for core internal classes, and classes that extend them (other than those that extend mixed), which use snake case, but this list is fixed and finite: mixed, array, closure, and primitive. Classes which extend one of these (other than mixed) should use snake case as well. The words in a class name should generally be only adjectives and nouns.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5703</id>
+	<key><![CDATA[Dynamic classes are classes that are defined not through the class library, but dynamically at runtime. These classes are defined more or less the same, but are not eligible for many compiler checks. Things like ExhaustiveVisitors cannot be made to work with these classes, they cannot be pre-compiled, and they cannot be used in the Dependency Injection system, among other things. Having said all that, if you are ok with the downsides, these classes can be defined anywhere, and then that file %s'd (or dynamically loaded from other sources, such as eval, or even the interpreter). Once loaded, they will work mostly just as if they had been loaded at compile time. Existing, static code cannot reference the classes, of course, as they would have already triggered a compile error for not being able to find the class, but code that works generically with objects, or if the virtual class extends/implements existing classes, this can be useful when doing dynamic things. Defining a class outside of a class library, then causing it to be loaded will do this.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5704</id>
+	<key><![CDATA[An object contains any number of '''members''' and '''methods''', collectively called '''elements'''. A member is a variable, and a method is a function. Both members and variables can have various '''modifiers''', which affect behavior in various ways. In the example, you can see that we are defining @b as a member variable, and Method1 and method2 are methods. The modifiers in use include '''public''', '''static''', '''final''', '''int''', '''protected''' and '''private''' though there are others too.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5705</id>
+	<key><![CDATA[Class, field, and method names are case sensitive, and for consistency sake, should generally conform to standard rules, though this is only a convention, and not enforced (except in ultra strict mode, which is not a recommended mode for normal code). MethodScript follows these conventions, and you are strongly encouraged to follow the same conventions in your own code, even if you never distribute it. For reference, here are the names of various casing conventions:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5706</id>
+	<key><![CDATA[Within the inner class, we have access to all elements of the outer class, and vice-versa, including private elements, though an inner static class only has access to the static context, and therefore cannot call instance (non-static) elements. However, if it has an instance of the outer class, it may access private elements on the instance.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5707</id>
+	<key><![CDATA[Method names should use lower camel case, and the first word should generally be a verb. If the first word is anyways an abbreviation or acronym, it should be fully lowercase, though this is discouraged, because acronyms are always nouns.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5708</id>
+	<key><![CDATA[Naming Conventions]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5709</id>
+	<key><![CDATA[In an instance, we can always using explicit namespacing to reference a parent's methods. If we are in a static context, it will be a compiler error to reference instance methods in this manner, but static references are always valid. For instance, assume class B had been defined this way:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5710</id>
+	<key><![CDATA[snake_case  * UPPER_SNAKE_CASE  * lowerCamelCase  * UpperCamelCase]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5711</id>
+	<key><![CDATA[Field Names]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5712</id>
+	<key><![CDATA[An object can '''inherit''' from, or ''extend'' another object. Let's define the object B, which extends A.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5713</id>
+	<key><![CDATA[In order to use an object, the first thing that must happen is that it is instantiated. To instantiate our object that we defined above, we would use the following code:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5714</id>
+	<key><![CDATA['''public''', '''protected''', '''internal''', '''package''', and '''private''' are the five modifiers that control what can access an object's methods or members (in order of visibility). If something is public, anything can access it. If it is private, only that class can access it, and if it is protected, only that class, or subclasses can access it. '''package''' means that only classes defined within the same folder (or subfolders) may access it, and '''internal''' means that only classes within that project (or class library, depending on how the class library is set up) can access it.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5715</id>
+	<key><![CDATA[In general, MethodScript prefers to work with classes that are defined in the '''Class Library'''. When using the class library, this prevents complex management of include statements, and also provides an easier and more straightforward mechanism of managing the classes within the class library, as well as enabling certain features in the compiler that expect to know about all classes beforehand. '''Dynamic Classes''' are discussed below, but are not expected to be used in normal use. Multiple class libraries may be defined, but they must all be known at compile time, and may not be added to later.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5716</id>
+	<key><![CDATA[Before moving on to using objects, it is important to understand the type system in MethodScript. All variables are ''mixed'' by default, which is actually an object type. All objects extend from mixed, and all user defined objects extend from Object. "Primitives" are in fact objects, though they are somewhat special, in that they are handled differently internally, but in code, they behave exactly like user defined objects, meaning you can dereference them to access their methods. If a type isn't explicitly specified when defining a variable, it is considered to be mixed, and any value can be put in it. Other than this caveat which makes MethodScript different from other strongly typed languages, it is otherwise a full strongly typed language, meaning types are checked at compile time, and invalid types will cause compiler errors. Type intersections and unions are discussed later, since they are an advanced topic, but they are also supported.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+</translations>

@@ -1,0 +1,171 @@
+<translations>
+<comment></comment>
+<translationBlock>
+	<id>ko-712</id>
+	<key><![CDATA[Regex]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-1715</id>
+	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3339</id>
+	<key><![CDATA[Expressions allow for more complex mathematical expressions to be evaluated. There are two modes for expressions, inequality mode, and match mode. Match mode is just a shortcut to a normal math match, but inequality mode allows for more powerful expressions. Say we want to perform some action whenever a player teleports to some y that is greater than 90. This prefilter requires WorldEdit.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3340</id>
+	<key><![CDATA[As you can see, macros just expand the types of matches that can be done on the input data. Whenever applicable, macro is used in favor of more specific types, so you are free to use which syntax best suites your needs. Here is another example:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3341</id>
+	<key><![CDATA[Strictly speaking, prefilters are not needed. A series of checks in the event itself can be used to determine if an event should run. However, using prefilters makes it much easier to control events, and allows for better optimization on the back end of the code. Each event will list what prefilters it supports, and what type the prefilter is. Prefilters add restrictions, by default if no prefilters are added, the event will run. There are 6 types of prefilters, listed below, with examples.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3342</id>
+	<key><![CDATA[Macro]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3343</id>
+	<key><![CDATA[Sometimes a parameter may makes sense to use multiple filter types. In that case, it is a macro filter. The type of filter is detected by examining the filter given. If the filter starts and ends with '/', it is a regex. If it is surrounded by parenthesis, it considered an expression, and otherwise is considered a string match.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3344</id>
+	<key><![CDATA[The variable in the expression is the key of the entry, in this case, y is replaced with the y value of the event. If the expression resolves to true, the filter passes, if not, the filter fails, and the event is not run. Expressions must have parenthesis around them to be considered value expressions.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3345</id>
+	<key><![CDATA[Item Match]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3346</id>
+	<key><![CDATA[Not all things will be doable with prefilters. For very complex filters, you may still need to use if statements inside the code itself. However, whenever possible, you should use prefilters, both for their ease of use, and their potential for code optimization.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3347</id>
+	<key><![CDATA[Expression]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3348</id>
+	<key><![CDATA[Math Match]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3349</id>
+	<key><![CDATA[Math matches will match if two values are mathematically equivalent. 3.0 and 3 would not match in a strict string match, but they are mathematically equivalent.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3350</id>
+	<key><![CDATA[Item matches are string matches for the name of the item type. (eg. 'RED_WOOL')]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3351</id>
+	<key><![CDATA[String matches are exact string matches. This is pretty straightforward.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3352</id>
+	<key><![CDATA[String Match]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3353</id>
+	<key><![CDATA[Regex matches allow for a more complex way of matching a value. Perhaps you want to do something when all players with the letters abc anywhere in their name interact with an object.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5152</id>
+	<key><![CDATA[About]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5153</id>
+	<key><![CDATA[Home]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5154</id>
+	<key><![CDATA[Privacy Policy]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5155</id>
+	<key><![CDATA[Sponsors]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5156</id>
+	<key><![CDATA[Help]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5157</id>
+	<key><![CDATA[Team. All rights reserved.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5158</id>
+	<key><![CDATA[Docs]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+</translations>

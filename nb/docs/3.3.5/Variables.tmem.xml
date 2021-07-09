@@ -1,0 +1,206 @@
+<translations>
+<comment></comment>
+<translationBlock>
+	<id>nb-1715</id>
+	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.]]></key>
+	<comment></comment>
+	<translation><![CDATA[Finne en feil på denne siden? %sRediger denne siden selv, og send deretter inn en Pull Request.]]></translation>
+	<auto><![CDATA[Finne en feil på denne siden? %sRediger denne siden selv, og send deretter inn en pull-forespørsel.]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2087</id>
+	<key><![CDATA[Variables]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3700</id>
+	<key><![CDATA[Here is an example of a chained assignment:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3701</id>
+	<key><![CDATA[In this case, both @var1 and @var2 get assigned to 6. This is because the ivar is returned, and then resolved  to the value 6, which is then stored in @var1. This resolution behavior is typical, but a few functions have  special functionality to handle this, such as assign/=, and if, and loops, so the variable isn't resolved immediately.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3702</id>
+	<key><![CDATA[Because assign/= returns the actual ivariable that was set, and %s requires an ivar as the first argument, this works ok.  In addition, this is possible:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3703</id>
+	<key><![CDATA[As you can see, constants are only used to determine if a command matches, but otherwise not used.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3704</id>
+	<key><![CDATA[three]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3705</id>
+	<key><![CDATA[two]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3706</id>
+	<key><![CDATA[$var2:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3707</id>
+	<key><![CDATA[/cmd one $var1 $var2 $var3 $ = ...]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3708</id>
+	<key><![CDATA[$var3:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3709</id>
+	<key><![CDATA[/cmd $var1 $var2 $ = msg($var1 $var2 $)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3710</id>
+	<key><![CDATA[In this case, if the user types "/cmd one two three four five six", it would match, and the defined variables would be as follows:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3711</id>
+	<key><![CDATA[This code will send the player "2".]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3712</id>
+	<key><![CDATA[five six]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3713</id>
+	<key><![CDATA[IVariables]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3714</id>
+	<key><![CDATA[four]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3715</id>
+	<key><![CDATA[Variables are set in a command, like so:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3716</id>
+	<key><![CDATA[$var1:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3717</id>
+	<key><![CDATA[These variables are used when it comes to ''matching'' a command, however, when the script is running, they are thought of as constants.  This is because you, as the programmer, can't change them. They may change from run to run of the command, so they are still technically  variables. The variable $ is a special variable, and matches any parameter after, which also means that it must be the final thing in a  command definition. This is why it is referred to as the final var. It is treated as a string. However, if you wish to treat it as an  array (for example, to parse the arguments individually), use parse_args($) to return an array of individual items. Here is a more complex,  but valid scenario:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3718</id>
+	<key><![CDATA[IVariables are defined by the programmer, and are a pure mscript feature. To create a variable, you simply use it,  the default value in the variable is an empty string. Usually however, you want to define it with a value before you  use it. This can be done with the %s function. %sassign%s takes an ivariable, and any other  parameter. Unlike most functions, it does require an actual variable, which most functions will never return.  (%sassign%s or %s=%s does, however, so it is possible to chain an assignment with another function)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3719</id>
+	<key><![CDATA[In CommandHelper, there are two types of variables, variables (start with $) and ivariables (start with @).]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5152</id>
+	<key><![CDATA[About]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Om]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5153</id>
+	<key><![CDATA[Home]]></key>
+	<comment></comment>
+	<translation><![CDATA[Hjem]]></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5154</id>
+	<key><![CDATA[Privacy Policy]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Personvern]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5155</id>
+	<key><![CDATA[Sponsors]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Sponsorer]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5156</id>
+	<key><![CDATA[Help]]></key>
+	<comment></comment>
+	<translation><![CDATA[Hjelp]]></translation>
+	<auto><![CDATA[hjelp]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5157</id>
+	<key><![CDATA[Team. All rights reserved.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Team. Alle rettigheter reservert.]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5158</id>
+	<key><![CDATA[Docs]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Dokumenter]]></auto>
+</translationBlock>
+</translations>

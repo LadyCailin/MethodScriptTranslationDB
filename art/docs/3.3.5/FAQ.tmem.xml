@@ -1,0 +1,94 @@
+<translations>
+<comment></comment>
+<translationBlock>
+	<id>art-1715</id>
+	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Fînd å büg în thîs pågə? %sEdît thîs pågə ʎøürsəlf, thən sübmît å püll rəqüəst.]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1966</id>
+	<key><![CDATA[General]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2808</id>
+	<key><![CDATA[Common Errors]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2809</id>
+	<key><![CDATA[Dev builds, Bug reporting, Releases]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2810</id>
+	<key><![CDATA[This page lists several frequently asked questions, with a quick, succinct answer, and links to further resources on the  topic, if applicable.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2811</id>
+	<key><![CDATA[Persistance]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5152</id>
+	<key><![CDATA[About]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Abøüt]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5153</id>
+	<key><![CDATA[Home]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Hømə]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5154</id>
+	<key><![CDATA[Privacy Policy]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Prîvåcʎ Pølîcʎ]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5155</id>
+	<key><![CDATA[Sponsors]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5156</id>
+	<key><![CDATA[Help]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Həlp]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5157</id>
+	<key><![CDATA[Team. All rights reserved.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Təåm. All rîghts rəsərvəd.]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5158</id>
+	<key><![CDATA[Docs]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Døcs]]></auto>
+</translationBlock>
+</translations>

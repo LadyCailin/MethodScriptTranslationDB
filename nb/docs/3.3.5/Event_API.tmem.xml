@@ -1,0 +1,2992 @@
+<translations>
+<comment></comment>
+<translationBlock>
+	<id>nb-165</id>
+	<key><![CDATA[message]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-356</id>
+	<key><![CDATA[Back to top]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1277</id>
+	<key><![CDATA[command]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1291</id>
+	<key><![CDATA[vehicletype%spassengertype%svehicle%s: entityID%spassenger%s: entityID%splayer%s: player name if passenger is a player, %s otherwise]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1292</id>
+	<key><![CDATA[state%s: %s&lt;Macro&gt; Can be one of CAUGHT_ENTITY, CAUGHT_FISH, FAILED_ATTEMPT, FISHING, IN_GROUND, BITE, or REEL_IN%splayer%s: %s&lt;Macro&gt; The player who is fishing%sworld%s: %s&lt;String Match&gt;]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1293</id>
+	<key><![CDATA[newmode%s: %s&lt;Macro&gt; gamemode being changed to, one of SURVIVAL, CREATIVE, ADVENTURE, or SPECTATOR%splayer%s: %s&lt;Macro&gt;]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1294</id>
+	<key><![CDATA[player%s: The player which edited the book%sslot%s: The inventory slot number where the book is%soldbook%s: The book before the editing (an array with keys title, author and pages)%snewbook%s: The book after the editing (an array with keys title, author and pages)%ssigning%s: Whether or not the book is being signed]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1296</id>
+	<key><![CDATA[player%sstatus%s: The resource pack status received from the client, one of]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1297</id>
+	<key><![CDATA[Called when a player toggles their flying state.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1298</id>
+	<key><![CDATA[sign_changed]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1299</id>
+	<key><![CDATA[vehicletype%s: %s&lt;Macro&gt; the entitytype of the vehicle%spassengertype%s: %s&lt;Macro&gt; the enitytype of the passenger]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1300</id>
+	<key><![CDATA[item%s: A different item to be consumed, changing this will cause the original item to remain in the inventory]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1301</id>
+	<key><![CDATA[viewers%s: all humanentities viewing the screen this event takes place in%smatrix%sresult%sisRepair%s: true if this event was triggered by a repair operation (different than normal crafting)%srecipe%s: information about the formed recipe, or %s if there is not one]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1302</id>
+	<key><![CDATA[xp%sdrops%s: The items will be replaced by the given items%sdeath_message%skeep_inventory%skeep_level%snew_exp%snew_level%snew_total_exp]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1303</id>
+	<key><![CDATA[reason%s: %s&lt;Macro&gt;]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1304</id>
+	<key><![CDATA[block_grow]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1305</id>
+	<key><![CDATA[1%s2%s3%s4%stext%s: An array with keys 0 thru 3 defining every line on the sign]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1306</id>
+	<key><![CDATA[Fired when a player closes an inventory.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1307</id>
+	<key><![CDATA[WeatherEvents]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1309</id>
+	<key><![CDATA[This event is called when a player places a block. Cancelling the event cancels placing the block.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1310</id>
+	<key><![CDATA[Called when a player toggles their sprinting state.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1311</id>
+	<key><![CDATA[Fired when a player enchants an item.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1312</id>
+	<key><![CDATA[collide%s: whether the vehicle hits the entity or passes through it%spickup%s: whether or not the vehicle pick up the entity%sboth fields can only be modified for entity collisions]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1313</id>
+	<key><![CDATA[Fired when an entity travels through a portal.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1314</id>
+	<key><![CDATA[type%s: %s&lt;Macro&gt; The entity type of the projectile%sworld%s: %s&lt;Macro&gt;%sshootertype%s: %s&lt;Macro&gt; The entity type of the shooter, or 'block', or '%s']]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1315</id>
+	<key><![CDATA[player%s: %s&lt;Macro&gt; The player that switched worlds%sfrom%s: %s&lt;String Match&gt; The world the player is coming from%sto%s: %s&lt;String Match&gt; The world the player is now in]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1316</id>
+	<key><![CDATA[id%s: The entity ID of regained entity%samount%s: The amount of regained the health%scause%s: The cause of regain, one of REGEN, SATIATED, EATING, ENDER_CRYSTAL, MAGIC, MAGIC_REGEN, WITHER_SPAWN, WITHER, CUSTOM%splayer%s: The regained player]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1317</id>
+	<key><![CDATA[entity_death]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1318</id>
+	<key><![CDATA[This event is called when a block ignited by a block or entity.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1319</id>
+	<key><![CDATA[Fires when any living entity dies.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1320</id>
+	<key><![CDATA[player%s: %s&lt;String Match&gt;]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1321</id>
+	<key><![CDATA[Called when a block fades, melts or disappears based on world conditions.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1322</id>
+	<key><![CDATA[This event is fired off when any command is run from the console or commandblock. This fires before CommandHelper aliases, allowing you to insert control beforehand. Be careful with this event, because it can override ALL server commands, potentially creating all sorts of havoc.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1323</id>
+	<key><![CDATA[Fires as a player's food level changes. Cancelling the event will cause the change to not be applied.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1324</id>
+	<key><![CDATA[player%s: %s&lt;Macro&gt; The player who toggled their sneaking state%ssneaking%s: %s&lt;Boolean Match&gt; Whether or not the player is now sneaking%sworld%s: %s&lt;Macro&gt;]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1325</id>
+	<key><![CDATA[Contains events related to cmdline events.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1326</id>
+	<key><![CDATA[shooter%s: the entityID of the mob/player that fired the projectile, or %s if it is from a dispenser]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1328</id>
+	<key><![CDATA[command%s: The entire command%sprefix%s: Just the prefix of the command]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1329</id>
+	<key><![CDATA[message%s: %s&lt;String Match&gt;]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1330</id>
+	<key><![CDATA[player%s: %s&lt;Macro&gt;%scause%s: %s&lt;Macro&gt;%sworld%s: %s&lt;String Match&gt;]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1331</id>
+	<key><![CDATA[player%s: %s&lt;String Match&gt;%sstatus%s: %s&lt;String Match&gt;]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1332</id>
+	<key><![CDATA[player%s: %s&lt;String Match&gt;%s1%s: %s&lt;Regex&gt;%s2%s: %s&lt;Regex&gt;%s3%s: %s&lt;Regex&gt;%s4%s: %s&lt;Regex&gt;]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1333</id>
+	<key><![CDATA[player_login]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1334</id>
+	<key><![CDATA[Fires when an entity leaves a vehicle.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1335</id>
+	<key><![CDATA[blocks%s: An array of blocks destroyed by the explosion.%syield%s: Percent of the blocks destroyed that should drop items. A value greater than 100 will cause more drops than the original blocks.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1336</id>
+	<key><![CDATA[type%s: the type of creature spawning%sid%s: the entityID of the creature%sreason%s: the reason this creature is spawning%slocation%s: locationArray of the event]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1337</id>
+	<key><![CDATA[item%s: The item to be enchanted%sexpcosts%s: The costs of the 3 options on the enchantment table]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1338</id>
+	<key><![CDATA[player%samount]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1339</id>
+	<key><![CDATA[amount%s: an integer of the amount of exp that will be added to the player's total exp]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1340</id>
+	<key><![CDATA[This event is called when a piston is extended. Cancelling the event cancels the move.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1341</id>
+	<key><![CDATA[Fired when any player quits.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1342</id>
+	<key><![CDATA[item_pre_craft]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1343</id>
+	<key><![CDATA[type%s: %s&lt;Macro&gt; the type of entity%sportaltype%s: %s&lt;String Match&gt; The type of portal (PORTAL or END_PORTAL)%sworld%s: %s&lt;Macro&gt; the world in which the portal was entered]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1344</id>
+	<key><![CDATA[This event is called when a player picks up an item.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1345</id>
+	<key><![CDATA[type%s: %s&lt;Macro&gt;]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1346</id>
+	<key><![CDATA[inventory_close]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1347</id>
+	<key><![CDATA[item_despawn]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1348</id>
+	<key><![CDATA[This event is called when a player is about to log in. This event cannot be cancelled. Instead, you can deny them by setting 'result' to KICK_BANNED, KICK_WHITELIST, KICK_OTHER, or KICK_FULL. The default for 'result' is ALLOWED. When setting 'result', you can specify the kick message by modifying 'kickmsg'.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1349</id>
+	<key><![CDATA[entity_change_block]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1350</id>
+	<key><![CDATA[entity_damage]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1351</id>
+	<key><![CDATA[vehicle_enter]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1352</id>
+	<key><![CDATA[item%s: the itemstack of the entity]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1353</id>
+	<key><![CDATA[projectile_launch]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1354</id>
+	<key><![CDATA[player%s: the player consuming%sitem%s: the item being consumed]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1355</id>
+	<key><![CDATA[Fires when a player leaves a bed.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1356</id>
+	<key><![CDATA[block%s: %s&lt;String Match&gt; Block type that is fading%sworld%s: %s&lt;String Match&gt;]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1357</id>
+	<key><![CDATA[virtual%s: %s&lt;Boolean Match&gt; Whether or not this inventory is virtually stored in CH]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1358</id>
+	<key><![CDATA[player_command]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1359</id>
+	<key><![CDATA[hanging_break]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1360</id>
+	<key><![CDATA[entity%s: the ID of the entity that interacted with the block%sblock%slocation%s: the location of the interaction]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1361</id>
+	<key><![CDATA[item_held]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1362</id>
+	<key><![CDATA[player%sfrom%s: The world the player is coming from%sto%s: The world the player is now in]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1363</id>
+	<key><![CDATA[world%s: The saved world.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1364</id>
+	<key><![CDATA[item_drop]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1365</id>
+	<key><![CDATA[location%s: %s&lt;Location Match&gt; The location of the bed]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1366</id>
+	<key><![CDATA[kickmsg%sresult]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1367</id>
+	<key><![CDATA[player%s: %s&lt;Macro&gt;]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1368</id>
+	<key><![CDATA[player%s: The player's name%sblock%s: the block type that was placed%sagainst%s: a block array of the block being placed against%soldblock%s: the old block type that was replaced%slocation%s: A locationArray for this block]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1369</id>
+	<key><![CDATA[itemname%s: %s&lt;String Match&gt; the type of item that spawned]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1370</id>
+	<key><![CDATA[This event is called when a dispenser dispense an item. Cancelling the event cancels dispensing.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1372</id>
+	<key><![CDATA[message%srecipients%s: An array of players that will receive the chat message. If a player doesn't exist or is offline, and is in the array, it is simply ignored, no exceptions will be thrown.%sformat%s: The "printf" format string, by  default "&lt;%1$s> %2$s". The first parameter is the player's display name, and the second one is the message.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1373</id>
+	<key><![CDATA[command%s: %s&lt;String Match&gt; The entire command the player ran%sprefix%s: %s&lt;String Match&gt; Just the first part of the command, i.e. '/cmd' in '/cmd blah blah'%splayer%s: %s&lt;Macro&gt; The player using the command]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1374</id>
+	<key><![CDATA[Contains events related to an entity]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1375</id>
+	<key><![CDATA[world%s: %s&lt;Macro&gt; the world%slocation%s: %s&lt;Location Match&gt; the lightning strike location%sis_effect%s: %s&lt;Boolean Match&gt; whether the strike was real or just an effect]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1376</id>
+	<key><![CDATA[player%s: The player's name%suuid%s: The player's unique id%skickmsg%s: The default kick message%sip%s: the player's IP address%shostname%s: The hostname used to reach the server%sresult%s: the default response to their logging in]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1377</id>
+	<key><![CDATA[world%s: the name of the world in which thunder is changing%shas_thunder%s: if the world is thundering]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1378</id>
+	<key><![CDATA[player_chat]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1379</id>
+	<key><![CDATA[xp%s: the exp the player will get from catching a fish]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1380</id>
+	<key><![CDATA[cmdline_prompt_input]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1381</id>
+	<key><![CDATA[Contains events related to inventory.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1382</id>
+	<key><![CDATA[entity_damage_player]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1383</id>
+	<key><![CDATA[itemname%s: %s&lt;String Match&gt; the type of item that despawned]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1384</id>
+	<key><![CDATA[player%s: the player clicking%sclicked%shand%sid%s: the id of the entity%sdata%s: if a player is clicked, this will contain their name]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1385</id>
+	<key><![CDATA[item_spawn]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1386</id>
+	<key><![CDATA[entity%s: the entity ID of the entity which changed block%sfrom%sto%slocation%s: the location of the block changed]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1387</id>
+	<key><![CDATA[Fired when a player dies.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1388</id>
+	<key><![CDATA[This event is called when a player is targeted by a mob.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1389</id>
+	<key><![CDATA[player_toggle_sprint]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1390</id>
+	<key><![CDATA[thunder_change]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1392</id>
+	<key><![CDATA[clicked%s: %s&lt;Macro&gt; the type of entity being clicked%shand%s: %s&lt;String Match&gt; The hand the player clicked with, can be either main_hand or off_hand]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1393</id>
+	<key><![CDATA[Fires when thunder begins or ends.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1394</id>
+	<key><![CDATA[drops%s: an array of item arrays of what will be dropped, replaces the normal drops, can be %sxp%s: the amount of xp to drop]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1395</id>
+	<key><![CDATA[This event is called when a block grows naturally. If the event is cancelled, the block will not grow.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1396</id>
+	<key><![CDATA[main_hand%soff_hand]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1397</id>
+	<key><![CDATA[block_ignite]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1398</id>
+	<key><![CDATA[block]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1399</id>
+	<key><![CDATA[ip%s: The address the ping is coming from%splayers%s: The number of players online%smaxplayers%s: The number of slots on the server%smotd%s: The message a player is shown on the serverlist%slist%s: The list of connected players]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1400</id>
+	<key><![CDATA[This event is called when a player logs in. Setting join_message to %s causes it to not be displayed at all. Cancelling the event does not prevent them from logging in. Instead, you should just pkick() them.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1401</id>
+	<key><![CDATA[Contains events related to generic plugin messaging.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1402</id>
+	<key><![CDATA[world%s: %s&lt;Macro&gt; the world%shas_thunder%s: %s&lt;Boolean Match&gt; if it is thundering]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1404</id>
+	<key><![CDATA[Fires when a player right clicks an entity. This event is like player_interact_entity but also has the click position, and when cancelled only cancels interactions with Armor Stand entities.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1405</id>
+	<key><![CDATA[This event is called when a player drops an item.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1406</id>
+	<key><![CDATA[inventory_click]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1407</id>
+	<key><![CDATA[item%svelocity]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1408</id>
+	<key><![CDATA[world_save]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1409</id>
+	<key><![CDATA[player%s: %s&lt;Macro&gt;%sfrom%s: %s&lt;Location Match&gt; An exact location array where the player is coming from.%sto%s: %s&lt;Location Match&gt; An exact location array where the player is going to.%stype%s: %s&lt;Macro&gt; The type of portal occurring, either NETHER_PORTAL or END_PORTAL]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1410</id>
+	<key><![CDATA[note_play]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1411</id>
+	<key><![CDATA[player%s: the player%slevel%s: the new food level to be applied%sdifference%s: the difference between the old level and the new]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1412</id>
+	<key><![CDATA[inventory_open]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1413</id>
+	<key><![CDATA[Fires when an entity touches a portal block.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1414</id>
+	<key><![CDATA[player%s: the kicked player%smessage%s: the message shown to all online players%sreason%s: the message shown to the player getting kicked]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1417</id>
+	<key><![CDATA[id%s: The entityID of the hanging entity%stype%s: The entity type of the hanging entity, can be ITEM_FRAME, PAINTING or LEASH_HITCH%scause%s: The cause of the removing, can be DEFAULT, ENTITY, EXPLOSION, OBSTRUCTION, or PHYSICS%slocation%s: Where was the hanging entity before the removing%sremover%s: If the hanging entity has been removed by an other entity, this will contain its entityID, otherwise %splayer%s: If the hanging entity has been removed by a player, this will contain their name, otherwise]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1418</id>
+	<key><![CDATA[block%s: %s&lt;String Match&gt;%sworld%s: %s&lt;String Match&gt;%stoblock%s: %s&lt;String Match&gt;%stoworld%s: %s&lt;String Match&gt;%sface%s: %s&lt;String Match&gt;]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1419</id>
+	<key><![CDATA[message%s: The message that will be broadcasted%splayer_recipients%s: An array of players who will receive the message.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1420</id>
+	<key><![CDATA[id%s: The entityID of the entity%stype%s: The entity type of the entity%sgliding%s: true if the entity is entering gliding mode, false if the entity is leaving it%splayer%s: If the entity is a player, this will contain their name, otherwise]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1421</id>
+	<key><![CDATA[This event is called when a water or lava is flowed and ender dragon egg is teleported. Cancelling the event cancels the flow or teleport.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1422</id>
+	<key><![CDATA[type%sid%s: the entityID of the projectile%slocation%s: where it makes contact%sshooter%shittype%shit%s: the entity id or block location array of the hit object.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1423</id>
+	<key><![CDATA[Fired when a player clicks (by left or right mouse button) a slot in an inventory and then drags the mouse across slots.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1424</id>
+	<key><![CDATA[vehicletype%s: %s&lt;Macro&gt; the entitytype of the vehicle%spassengertype%s: %s&lt;Macro&gt; the enitytype of the passenger%sworld%s: %s&lt;String Match&gt; the world the vehicle is in%sfrom%s: %s&lt;Location Match&gt; This should be a location array (x, y, z, world).%sto%s: %s&lt;Location Match&gt; The location the vehicle is now in.%sthreshold%s: %s The minimum distance the vehicle must have travelled before the event will be triggered. This is based on the 3D distance, and is measured in block units.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1425</id>
+	<key><![CDATA[block%s: the source block type%slocation%s: the locationArray of the source block%stoblock%s: the target block type%stolocation%s: the target block's locationArray]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1426</id>
+	<key><![CDATA[vehicle_destroy]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1427</id>
+	<key><![CDATA[item_enchant]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1428</id>
+	<key><![CDATA[This event is called when a projectile is launched. Cancelling the event will only cancel the launching of the projectile. For instance when a player shoots an arrow with a bow, if the event is cancelled the bow will still take damage from use.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1429</id>
+	<key><![CDATA[block_dispense]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1430</id>
+	<key><![CDATA[location%s: %s&lt;Location Match&gt; The location of the bed%sresult%s: %s&lt;String Match&gt;]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1432</id>
+	<key><![CDATA[message%s: The message to be sent%srecipients%sformat]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1433</id>
+	<key><![CDATA[world%sfrom%s: Get the previous position%sto%s: Get the next position%svehicletype%spassengertype%sid%s: entityID%spassenger%s: entityID%splayer%s: player name if passenger is a player, %s otherwise]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1434</id>
+	<key><![CDATA[ServerEvents]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1435</id>
+	<key><![CDATA[PluginEvents]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1436</id>
+	<key><![CDATA[Fired when a player's experience changes naturally.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1437</id>
+	<key><![CDATA[target_player]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1438</id>
+	<key><![CDATA[player_leave_bed]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1439</id>
+	<key><![CDATA[command%s: The entire command%sprefix%s: The prefix of the command%ssendertype%s: The command sender type. This is one of console, command_block, command_minecart or %s if the sender is unknown to CommandHelper.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1440</id>
+	<key><![CDATA[PlayerEvents]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1441</id>
+	<key><![CDATA[Fires when a player tries to enter a bed.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1442</id>
+	<key><![CDATA[book_edited]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1443</id>
+	<key><![CDATA[player%sto%sfrom%s: the slot the player is switching from]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1444</id>
+	<key><![CDATA[player%s: The player's name%sworld%sjoin_message%s: The default join message%sfirst_login%s: True if this is the first time the player has logged in.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1445</id>
+	<key><![CDATA[Fired when a player opens an inventory.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1446</id>
+	<key><![CDATA[player_teleport]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1447</id>
+	<key><![CDATA[player%smain_hand%s: the item array in the main hand before swapping%soff_hand%s: the item in the off hand]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1448</id>
+	<key><![CDATA[block%s: The block type before the growth%snewblock%s: The block type after the growth%slocation%s: the location of the block that will grow]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1449</id>
+	<key><![CDATA[block%s: the block type that was burned%slocation%s: the locationArray of this block]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1450</id>
+	<key><![CDATA[world%s: the name of the world in which the weather changed%shas_rain%s: if it is raining]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1451</id>
+	<key><![CDATA[Fires when a tree grows.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1452</id>
+	<key><![CDATA[id%s: The entityID of the projectile%stype%s: The entity type of the projectile%sshooter%s: The entityID of the shooter (%s if the projectile is launched by a dispenser)%sshootertype%s: The entity type of the shooter (%s if the projectile is launched by a dispenser)%splayer%s: the player which has launched the projectile (%s if the shooter is not a player)%slocation%s: from where the projectile is launched%svelocity%s: the velocity of the projectile]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1453</id>
+	<key><![CDATA[player_toggle_flight]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1454</id>
+	<key><![CDATA[type%s: %s&lt;String Match&gt; Type of dispenser%sitemname%s: %s&lt;String Match&gt; Item type which is dispensed]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1455</id>
+	<key><![CDATA[Fires when any loaded entity takes damage.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1456</id>
+	<key><![CDATA[world%s: %s&lt;Macro&gt;%splayer%s: %s&lt;Macro&gt;%stype%s: %s&lt;Macro&gt;%sbonemeal%s: %s&lt;Boolean Match&gt;]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1457</id>
+	<key><![CDATA[cursoritem%s: the item on the cursor, after event]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1458</id>
+	<key><![CDATA[player%s: The player%sitem%s: An item array representing the item being picked up%sremaining%s: Other items left on the ground.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1459</id>
+	<key><![CDATA[server_command]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1460</id>
+	<key><![CDATA[player%s: The player who toggled their flying state%sflying%s: Whether or not the player is trying to start or stop flying%slocation%s: Where the player is]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1461</id>
+	<key><![CDATA[type%s: %s&lt;String Match&gt; the entity type%sblock%s: %s&lt;String Match&gt; The block name the entity is interacting with.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1462</id>
+	<key><![CDATA[player_kick]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1463</id>
+	<key><![CDATA[resource_pack_status]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1464</id>
+	<key><![CDATA[gamemode_change]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1465</id>
+	<key><![CDATA[player_fish]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1466</id>
+	<key><![CDATA[entity_portal_travel]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1467</id>
+	<key><![CDATA[player_quit]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1468</id>
+	<key><![CDATA[player%s: The player's name%slocation%s: an array usable as a locationArray while also compatible with X,Y,Z,world indices%stext%s: An array with keys 0 thru 3 defining every line on the sign]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1469</id>
+	<key><![CDATA[command%s: The command name that was registered.%salias%s: The alias the player entered to run the command.%sargs%s: The given arguments after the alias.%scompletions%s: The available completions for the last argument.%ssender%s: The player that ran the command.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1470</id>
+	<key><![CDATA[amount%s: raw amount of damage (in half hearts)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1471</id>
+	<key><![CDATA[player%s: %s&lt;Macro&gt; The player which edited the book%ssigning%s: %s&lt;Boolean Match&gt; Whether or not the book is being signed]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1472</id>
+	<key><![CDATA[player%s: the player clicking%sclicked%shand%sid%s: the id of the entity%sdata%s: if a player is clicked, this will contain their name%sposition%s: offset of clicked location from entity location in an xyz array.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1473</id>
+	<key><![CDATA[player%s: %s&lt;Macro&gt; The player who toggled their sprinting state%ssprinting%s: %s&lt;Boolean Match&gt; Whether or not the player is now sprinting%sworld%s: %s&lt;Macro&gt;]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1474</id>
+	<key><![CDATA[Fires when a player casts or reels a fishing rod.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1475</id>
+	<key><![CDATA[from%s: %s&lt;String Match&gt; the block name before the change%sto%s: %s&lt;String Match&gt; the block name after change%slocation%s: %s&lt;Location Match&gt; the location of the block changed]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1476</id>
+	<key><![CDATA[This event is called when a block is broken. Cancelling the event cancels the breakage.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1477</id>
+	<key><![CDATA[Fired when a living entity spawns on the server.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1478</id>
+	<key><![CDATA[tree_grow]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1479</id>
+	<key><![CDATA[command%s: The command that was triggered%sshellMode%s: If the shell is in shell mode (activated with $$)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1480</id>
+	<key><![CDATA[player_spawn]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1481</id>
+	<key><![CDATA[Fires when a world is unloaded.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1482</id>
+	<key><![CDATA[Fires when lightning strikes or the lightning strike effect occurs.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1483</id>
+	<key><![CDATA[Fired when a command is issued from the interactive prompt. If the event is not cancelled, the interpreter will handle it as normal. Otherwise, the event can be cancelled, and custom handling can be triggered.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1484</id>
+	<key><![CDATA[Fires when an item entity is removed from the world because it has existed for 5 minutes. Cancelling the event will allow the item to exist for 5 more minutes.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1485</id>
+	<key><![CDATA[vehicle_move]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1486</id>
+	<key><![CDATA[Called when a player's client responds to a request to download and load a resource pack. Two of these events may be fired for each request: first when the client accepts the pack, and later when the client successfully loads (or fails to download) the pack.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1487</id>
+	<key><![CDATA[Fires when a world is loaded.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1488</id>
+	<key><![CDATA[location%s: where the item is%sid%s: the item's entityID%sitem%s: the itemstack of the entity]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1489</id>
+	<key><![CDATA[type%s: %s&lt;Macro&gt; The entity type of the entity%sid%s: %s&lt;Macro&gt; The entity id of the entity%splayer%s: %s&lt;Macro&gt; The player triggering the event]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1490</id>
+	<key><![CDATA[This event is called when a player edit a book.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1491</id>
+	<key><![CDATA[Fires when something causes a player's gamemode to change. Cancelling the event will cancel the change. The mode itself cannot be modified.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1492</id>
+	<key><![CDATA[message%s: The message to be sent]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1493</id>
+	<key><![CDATA[itemname%s: %s&lt;String Match&gt;]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1494</id>
+	<key><![CDATA[This event is fired off when a player changes worlds. This event is not cancellable, so to prevent it, the player_teleport event must be checked.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1495</id>
+	<key><![CDATA[item%s: setting this to %s removes the dropped item]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1496</id>
+	<key><![CDATA[world_changed]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1497</id>
+	<key><![CDATA[virtual%s: %s&lt;Boolean Match&gt; Whether or not this inventory is virtually stored in CH%sworld%s: %s&lt;Macro&gt; World name%stype%s: %s&lt;String Match&gt; Can be SINGLE, or EVEN%scursoritem%s: %s&lt;String Match&gt; old item type held by the cursor before event starts]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1498</id>
+	<key><![CDATA[server_ping]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1499</id>
+	<key><![CDATA[block_place]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1500</id>
+	<key><![CDATA[player%s: %s&lt;Macro&gt;%smain_hand%s: %s&lt;String Match&gt; The type of item being swapped from the main hand%soff_hand%s: %s&lt;String Match&gt; The type of item being swapped from the off hand]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1501</id>
+	<key><![CDATA[This event is called when a hanged entity is broken.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1502</id>
+	<key><![CDATA[Called when a player toggles their sneaking state.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1503</id>
+	<key><![CDATA[Fired when any player attempts to send a chat message. The event handler is run on the async thread, and not the main server thread, which can lead to undefined results if your code accesses non-threadsafe methods, hence why this feature is undocumented. If this event is cancelled, player_chat binds will not fire.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1504</id>
+	<key><![CDATA[block%s: %s&lt;String Match&gt; The block name before the growth%snewblock%s: %s&lt;String Match&gt; The block name after the growth%sworld%s: %s&lt;Macro&gt;]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1505</id>
+	<key><![CDATA[projectile_hit]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1506</id>
+	<key><![CDATA[clicked%s: %s&lt;Macro&gt; the type of entity being clicked%shand%s: %s&lt;String Match&gt; The hand the player clicked with, can be either main_hand or off_hand%sx%s: %s&lt;Expression&gt; offset of clicked location from entity location on the x axis%sy%s: %s&lt;Expression&gt;%sz%s: %s&lt;Expression&gt;]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1507</id>
+	<key><![CDATA[world_load]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1508</id>
+	<key><![CDATA[piston_retract]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1509</id>
+	<key><![CDATA[motd%smaxplayers%slist%s: It is only possible to remove players, the added players will be ignored. This will also change the player count.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1510</id>
+	<key><![CDATA[block_fade]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1511</id>
+	<key><![CDATA[join_message]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1512</id>
+	<key><![CDATA[WorldEvents]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1513</id>
+	<key><![CDATA[Contains events related to the world.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1514</id>
+	<key><![CDATA[item_pickup]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1515</id>
+	<key><![CDATA[Fires when a recipe is formed in a crafting matrix, but the result has not yet been clicked.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1516</id>
+	<key><![CDATA[creature_spawn]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1517</id>
+	<key><![CDATA[Fires as a player is finishing eating/drinking an item. Cancelling the event will cause any effects to not be applied and the item to not be taken from the player.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1518</id>
+	<key><![CDATA[id%s: the entityID of the entity%slocation%s: the location of the block touched%stype%sportaltype]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1519</id>
+	<key><![CDATA[Fired when any player attempts to send a chat message.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1520</id>
+	<key><![CDATA[Fires when a player's client sends a plugin message.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1521</id>
+	<key><![CDATA[InventoryEvents]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1522</id>
+	<key><![CDATA[This event is called when a block is burned. Cancelling the event cancels the burn.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1523</id>
+	<key><![CDATA[type%sid%s: The entityID of the vehicle%sentity%s: the entityID of the entity that was hit%sblock%s: the location of the block that was hit%scollisiontype%scollide%spickup]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1524</id>
+	<key><![CDATA[player_portal_travel]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1525</id>
+	<key><![CDATA[vehicle_collide]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1526</id>
+	<key><![CDATA[item_pre_enchant]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1527</id>
+	<key><![CDATA[id%s: The entityID of the firework rocket%slocation%s: Where the firework rocket is exploding]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1528</id>
+	<key><![CDATA[Fires when a player changes which quickbar slot they have selected.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1529</id>
+	<key><![CDATA[Contains events related to weather in a Minecraft world.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1530</id>
+	<key><![CDATA[Fires when a non-player entity physically interacts with and triggers a block. (eg. pressure plates, redstone ore, farmland, tripwire, doors, and wooden button)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1532</id>
+	<key><![CDATA[block%s: %s&lt;String Match&gt;]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1534</id>
+	<key><![CDATA[to]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1535</id>
+	<key><![CDATA[type%sid%s: The entityID%sdrops%s: an array of item arrays of each stack%sxp%scause%s: the last entity_damage object for this entity%slocation%s: where the entity was when it died]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1536</id>
+	<key><![CDATA[type%s: %s&lt;Macro&gt; The entity type of the hanging entity%scause%s: %s&lt;Macro&gt; The cause of the removing%sworld%s: %s&lt;Macro&gt;]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1537</id>
+	<key><![CDATA[Fired when a player clicks a slot in any inventory.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1538</id>
+	<key><![CDATA[block%s: %s&lt;String Match&gt; The block type the player interacts with, or %s if nothing%sbutton%s: %s&lt;String Match&gt; left or right. If they left or right clicked%sitemname%s: %s&lt;String Match&gt; The item type they are holding when they interacted, or %shand%s: %s&lt;String Match&gt; The hand the player clicked with%splayer%s: %s&lt;Macro&gt; The player that triggered the event]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1539</id>
+	<key><![CDATA[player%s: %s&lt;String Match&gt; The player that teleport. Switching worlds will trigger this event, but world_changed is called after, only if this isn't cancelled first.%stype%s: %s&lt;String Match&gt;%sfrom%s: %s&lt;Location Match&gt; This should be a location array (x, y, z, world).%sto%s: %s&lt;Location Match&gt; The location the player is now in. This should be a location array as well.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1540</id>
+	<key><![CDATA[vehicletype%s: %s&lt;Macro&gt; the entitytype of the vehicle]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1541</id>
+	<key><![CDATA[piston_extend]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1542</id>
+	<key><![CDATA[This event is called when a piston is retracted. Cancelling the event cancels the move.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1543</id>
+	<key><![CDATA[This event is fired off after a player has moved a certain distance. Due to the high frequency of this event, prefilters are extremely important to use -- especially a threshold -- so that the script doesn't run every time.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1544</id>
+	<key><![CDATA[player_interact_entity]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1546</id>
+	<key><![CDATA[pressure_plate_activated]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1547</id>
+	<key><![CDATA[broadcast_message]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1548</id>
+	<key><![CDATA[player%sfrom%s: The location the player is coming from%sto%s: The location the player is now in%stype%s: the type of teleport occuring, one of COMMAND, END_PORTAL, ENDER_PEARL, NETHER_PORTAL, PLUGIN, SPECTATE, END_GATEWAY, CHORUS_FRUIT, UNKNOWN]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1549</id>
+	<key><![CDATA[Fires when a player right clicks an entity. Note, not all entities are clickable. Interactions with Armor Stands do not trigger this event.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1550</id>
+	<key><![CDATA[slotitem%s: the item currently in the clicked slot%scursoritem%s: the item on the cursor (may cause unexpected behavior)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1552</id>
+	<key><![CDATA[player%s: %s&lt;Macro&gt;%sreason%s: %s&lt;Macro&gt;]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1553</id>
+	<key><![CDATA[Fires when a world is saved.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1554</id>
+	<key><![CDATA[type%s: The type of entity the got damaged%sid%s: The entityID of the victim%splayer%s: the player who got damaged (only present if type is PLAYER)%sworld%slocation%scause%s: The type of damage%samount%sfinalamount%s: health entity will lose after modifiers%sdamager%s: If the source of damage is a player this will contain their name, otherwise it will be the entityID of the damager (only available when an entity causes damage)%sshooter%s: The name of the player who shot, otherwise the entityID (only available when damager is a projectile)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1556</id>
+	<key><![CDATA[player%s: The player who clicked%sviewers%s: everyone looking in this inventory%sleftclick%s: if this was a left click%skeyboardclick%s: true/false if a key was pressed%srightclick%s: if this was a right click%sshiftclick%s: true/false if shift was being held%screativeclick%s: true/false if this action could only be performed in creative mode%sslot%s: the slot number%srawslot%s: the slot number in whole inventory window%sslottype%sslotitem%sinventorytype%sinventorysize%s: number of slots in opened inventory%scursoritem%sinventory%s: all the items in the (top) inventory%sclicktype%saction]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1557</id>
+	<key><![CDATA[message%sreason]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1558</id>
+	<key><![CDATA[entity_interact]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1559</id>
+	<key><![CDATA[drops%s: an array of arrays of items the block will drop%sxp%s: the xp that this block will drop, if any]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1560</id>
+	<key><![CDATA[firework_explode]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1561</id>
+	<key><![CDATA[player%s: %s&lt;Macro&gt;%sitemname%s: %s&lt;String Match&gt;]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1562</id>
+	<key><![CDATA[type%s: Type of dispenser%sitem%s: Item which is dispensed%svelocity%s: Returns an associative array indicating the x/y/z components of item velocity. As a convenience, the magnitude is also included.%slocation%s: Location of dispenser]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1564</id>
+	<key><![CDATA[id%s: %s&lt;Macro&gt; The entityID%stype%s: %s&lt;Macro&gt; the entity type of the projectile%shittype%s: %s&lt;String Match&gt; the type of object hit, either ENTITY or BLOCK]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1565</id>
+	<key><![CDATA[player_enter_bed]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1566</id>
+	<key><![CDATA[Fired when a user who has saved this server looks at their serverlist.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1567</id>
+	<key><![CDATA[block%stoblock]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1569</id>
+	<key><![CDATA[prefix%s: %s&lt;String Match&gt; The first part of the command, i.e. 'cmd' in '/cmd blah blah'%stype%s: %s&lt;String Match&gt; The command sender type]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1570</id>
+	<key><![CDATA[world%s: The loaded world.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1571</id>
+	<key><![CDATA[block_burn]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1572</id>
+	<key><![CDATA[This event is called when an entity toggles it's gliding state (Using Elytra).]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1573</id>
+	<key><![CDATA[vehicle_leave]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1574</id>
+	<key><![CDATA[Fires when a vehicle is moving. Due to the high frequency of this event, prefilters are extremely important to use -- especially threshold.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1575</id>
+	<key><![CDATA[This will fire if a tab completer has not been set for a command registered with register_command(), or if the set tab completer doesn't return an array. If completions are  not modified, registered commands will tab complete online player names.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1576</id>
+	<key><![CDATA[Fired the process is being shut down. This is not guaranteed to run, because some cases may cause the process to die unexpectedly. Code within the event handler should take as little time as possible, as the process may force an exit if the handler takes too long.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1577</id>
+	<key><![CDATA[lightning_strike]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1578</id>
+	<key><![CDATA[player%sworld%sfrom%s: The location the player is coming from%sto%s: The location the player is now in]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1579</id>
+	<key><![CDATA[entity_toggle_glide]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1580</id>
+	<key><![CDATA[player%s: player whose mode is changing%snewmode]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1581</id>
+	<key><![CDATA[block_break]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1582</id>
+	<key><![CDATA[player_join]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1583</id>
+	<key><![CDATA[location]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1584</id>
+	<key><![CDATA[Contains events related to a player]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1585</id>
+	<key><![CDATA[vehicletype%svehicle%s: entityID%sdamager%s: If the source of damage is a player this will contain their name, otherwise it will be the entityID of the damager (only available when an entity causes damage)%sshooter%s: The name of the player who shot, otherwise the entityID (only available when damager is a projectile)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1586</id>
+	<key><![CDATA[player%s: %s&lt;String Match&gt;%sworld%s: %s&lt;String Match&gt;%sjoin_message%s: %s&lt;Regex&gt;]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1587</id>
+	<key><![CDATA[player%s: %s&lt;Macro&gt; The player who toggled their flying state%sflying%s: %s&lt;Boolean Match&gt; Whether or not the player is trying to start or stop flying%sworld%s: %s&lt;Macro&gt;]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1588</id>
+	<key><![CDATA[location%s: The location of the noteblock%sinstrument%s: The name of the sound%stone%s: The note played (eg. F#)%soctave%s: The octave the tone was played (0 - 2)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1590</id>
+	<key><![CDATA[tab_complete_command]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1591</id>
+	<key><![CDATA[block%s: The block type that is fading%snewblock%s: The block type after the fades%slocation%s: the location of the block that will fade]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1592</id>
+	<key><![CDATA[player%s: The player who toggled their sprinting state%ssprinting%s: Whether or not the player is now sprinting%slocation%s: Where the player is]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1593</id>
+	<key><![CDATA[player%s: The player's name%smobtype%s: The type of mob targeting the player (this will be all capitals| %splayer%s: target a different player, or %s to make the mob re-look for targets]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1594</id>
+	<key><![CDATA[async_player_chat]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1595</id>
+	<key><![CDATA[block_from_to]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1597</id>
+	<key><![CDATA[Fires when a projectile collides with something.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1598</id>
+	<key><![CDATA[player_death]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1599</id>
+	<key><![CDATA[entity_regain_health]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1600</id>
+	<key><![CDATA[player%s: %s&lt;Macro&gt;%smobtype%s: %s&lt;Macro&gt;%sreason%s: %s&lt;Macro&gt;]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1601</id>
+	<key><![CDATA[player%s: The player's name%sblock%s: the block type that was broken%slocation%s: the locationArray of this block%sdrops%sxp]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1602</id>
+	<key><![CDATA[world%s: %s&lt;Macro&gt;]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1603</id>
+	<key><![CDATA[player_interact_at_entity]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1604</id>
+	<key><![CDATA[type%s: Spawn a different entity instead. This will fire a new event. If the entity type is living, it will fire creature_spawn event with a reason of 'CUSTOM'.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1605</id>
+	<key><![CDATA[player%s: The player that placed the item%sitem%s: The item to be enchanted%sinventorytype%s: Type of inventory%senchantmentbonus%s: the amount of bookshelves influencing the enchantment table%sexpcosts%s: The offered costs of the 3 options%slocation%s: Location of the used enchantment table]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1606</id>
+	<key><![CDATA[EntityEvents]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1607</id>
+	<key><![CDATA[type%s: %s&lt;Macro&gt; The entitytype of the vehicle%scollisiontype%s: %s&lt;String Match&gt; One of BLOCK or ENTITY%shittype%s: %s&lt;Macro&gt; Matches an entitytype in an enitity collision%shittype%s: %s&lt;String Match&gt; Matches a block in a block collision]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1608</id>
+	<key><![CDATA[redstone_changed]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1609</id>
+	<key><![CDATA[location%s: The location of the bed%splayer%s: The player associated with this event]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1610</id>
+	<key><![CDATA[Fired when a message is broadcasted on the server.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1611</id>
+	<key><![CDATA[weather_change]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1612</id>
+	<key><![CDATA[x%s: %s&lt;Expression&gt;%sy%s: %s&lt;Expression&gt;%sz%s: %s&lt;Expression&gt;%sworld%s: %s&lt;String Match&gt;%splayer%s: %s&lt;Macro&gt;]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1613</id>
+	<key><![CDATA[world%s: the name of the world in which the strike occurred%sid%s: the lightning entityID%slocation%s: locationArray of the event%sis_effect%s: the data value for the block being changed]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1614</id>
+	<key><![CDATA[players%s: %s&lt;Math Match&gt;%smaxplayers%s: %s&lt;Math Match&gt;]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1615</id>
+	<key><![CDATA[Fired when an entity regained the health.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1616</id>
+	<key><![CDATA[world%s: The unloaded world.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1618</id>
+	<key><![CDATA[Fires when an entity change block in some way.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1619</id>
+	<key><![CDATA[Fired when a player is kicked from the game.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1621</id>
+	<key><![CDATA[player_move]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1623</id>
+	<key><![CDATA[item_swap]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1624</id>
+	<key><![CDATA[BlockEvents%sCmdlineEvents%sEntityEvents%sInventoryEvents%sPlayerEvents%sPluginEvents%sServerEvents%sVehicleEvents%sWeatherEvents%sWorldEvents]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1625</id>
+	<key><![CDATA[Fires when a firework rocket explodes.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1626</id>
+	<key><![CDATA[Contains events related to a block]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1627</id>
+	<key><![CDATA[This event is called when a player is damaged by another entity.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1629</id>
+	<key><![CDATA[channel%s: %s&lt;String Match&gt;]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1630</id>
+	<key><![CDATA[level%s: A different level to be applied]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1631</id>
+	<key><![CDATA[Contains non-specific server-wide events.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1632</id>
+	<key><![CDATA[id%s: %s&lt;Macro&gt; The entityID%stype%s: %s&lt;Macro&gt; The type of entity dying.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1633</id>
+	<key><![CDATA[player%sworld%sstate%sxp%shook%s: the fishhook entity id%scaught%s: the id of the snared entity, can be a fish item]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1634</id>
+	<key><![CDATA[location%s: The location of the block%sactive%s: Whether or not the block is now active, or disabled.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1635</id>
+	<key><![CDATA[Fires when a player swaps the items in their main and off hands.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1636</id>
+	<key><![CDATA[player_toggle_sneak]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1637</id>
+	<key><![CDATA[player%s: The player%sinventory%s: the inventory items in this inventory%sinventorytype%s: type of inventory%svirtual%sholder%s: block location array, entity UUID, or virtual id for this inventory (can be %s)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1638</id>
+	<key><![CDATA[Fired when a redstone activatable block is toggled, either on or off, AND the block has been set to be monitored with the monitor_redstone function.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1639</id>
+	<key><![CDATA[player%s: the player%schannel%s: the channel used%sbytes%s: byte array of the data sent]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1640</id>
+	<key><![CDATA[CmdlineEvents]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1641</id>
+	<key><![CDATA[world%s: %s&lt;Macro&gt; the world%shas_rain%s: %s&lt;Boolean Match&gt; if it is raining]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1642</id>
+	<key><![CDATA[to%s: the slot that the player is switching to]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1643</id>
+	<key><![CDATA[Fires when a vehicle is destroyed.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1644</id>
+	<key><![CDATA[food_level_changed]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1645</id>
+	<key><![CDATA[location%s: where the item spawns%sid%s: the item's entityID%sitem]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1646</id>
+	<key><![CDATA[VehicleEvents]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1647</id>
+	<key><![CDATA[player%s: %s&lt;Macro&gt; The player that moved. Switching worlds does not trigger this event.%sworld%s: %s&lt;String Match&gt; The world the player moved in.%sfrom%s: %s&lt;Location Match&gt; This should be a location array (x, y, z, world).%sto%s: %s&lt;Location Match&gt; The location the player is now in. This should be a location array as well.%sthreshold%s: %s The minimum distance the player must have travelled before the event will be triggered. This is based on the 3D distance, and is measured in block units.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1648</id>
+	<key><![CDATA[Contains events related to vehicle entity types.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1649</id>
+	<key><![CDATA[Fires when an entity enters a vehicle.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1650</id>
+	<key><![CDATA[title%sauthor%spages%ssigning]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1651</id>
+	<key><![CDATA[player_interact]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1652</id>
+	<key><![CDATA[location%s: %s&lt;Location Match&gt;]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1653</id>
+	<key><![CDATA[player%s: The player that died%sdrops%s: An array of the items that will be dropped, or %sxp%s: The amount of experience that will be dropped%scause%s: The cause of death%sdeath_message%s: The death message, or %s if absent%skeep_inventory%s: If the player will keep their inventory%skeep_level%s: If the player will keep their experience and their level%snew_exp%s: The player's experience when they will respawn%snew_level%s: The player's level when they will respawn%snew_total_exp%s: The player's total experience when they will respawn%skiller%s: The name of the killer if a player killed them, otherwise]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1654</id>
+	<key><![CDATA[player%s: %s&lt;String Match&gt;%sblock%s: %s&lt;String Match&gt;]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1655</id>
+	<key><![CDATA[shutdown]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1656</id>
+	<key><![CDATA[This event is called when a noteblock is activated via player interaction or redstone. The instrument may be one of PIANO, BASS_DRUM, SNARE_DRUM, STICKS, BASS_GUITAR, FLUTE, BELL, GUITAR, CHIME, XYLOPHONE, IRON_XYLOPHONE, COW_BELL, DIDGERIDOO, BIT, BANJO, or PLING.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1657</id>
+	<key><![CDATA[BlockEvents]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1658</id>
+	<key><![CDATA[plugin_message_received]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1659</id>
+	<key><![CDATA[entity_explode]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1660</id>
+	<key><![CDATA[player%s: The player who toggled their sneaking state%ssneaking%s: Whether or not the player is now sneaking%slocation%s: Where the player is]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1661</id>
+	<key><![CDATA[inventory_drag]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1662</id>
+	<key><![CDATA[Fired when a player places an item in an enchantment table]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1663</id>
+	<key><![CDATA[exp_change]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1664</id>
+	<key><![CDATA[player%s: The player who clicked%snewcursoritem%s: item on cursor, after event%soldcursoritem%s: item on cursor, before event%sslots%s: used slots%srawslots%s: used slots, as the numbers of the slots in whole inventory window%snewitems%s: array of items which are dropped in selected slots%sinventorytype%sinventorysize%s: number of slots in opened inventory]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1665</id>
+	<key><![CDATA[item%s: setting this to %s will remove the item from the world]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1666</id>
+	<key><![CDATA[player%s: The player%sitem%s: An item array representing the item being dropped.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1667</id>
+	<key><![CDATA[world_unload]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1668</id>
+	<key><![CDATA[entity_enter_portal]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1669</id>
+	<key><![CDATA[Fires when rain starts or stops.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1670</id>
+	<key><![CDATA[player%s: The player that enchanted the item%sitem%s: The item to be enchanted%sinventorytype%s: type of inventory%slevels%s: The amount of levels the player used%senchants%s: Array of added enchantments%slocation%s: Location of the used enchantment table%soption%s: The enchantment option the player clicked]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1671</id>
+	<key><![CDATA[Fires when a vehicle runs into something. If it ran into a block, event data will contain block info. If it ran into an entity, event data will contain info and options relevant to hitting an entity.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1672</id>
+	<key><![CDATA[Fired when a player collides with portal.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1673</id>
+	<key><![CDATA[amount]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1674</id>
+	<key><![CDATA[completions]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1675</id>
+	<key><![CDATA[levels%s: The amount of levels to use%sitem%s: The item to be enchanted%senchants%s: The enchants to add to the item]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1676</id>
+	<key><![CDATA[velocity]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1677</id>
+	<key><![CDATA[player_consume]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1678</id>
+	<key><![CDATA[This event is called when a player changes a sign. Cancelling the event cancels any edits completely.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5152</id>
+	<key><![CDATA[About]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Om]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5153</id>
+	<key><![CDATA[Home]]></key>
+	<comment></comment>
+	<translation><![CDATA[Hjem]]></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5154</id>
+	<key><![CDATA[Privacy Policy]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Personvern]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5155</id>
+	<key><![CDATA[Sponsors]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Sponsorer]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5156</id>
+	<key><![CDATA[Help]]></key>
+	<comment></comment>
+	<translation><![CDATA[Hjelp]]></translation>
+	<auto><![CDATA[hjelp]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5157</id>
+	<key><![CDATA[Team. All rights reserved.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Team. Alle rettigheter reservert.]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5158</id>
+	<key><![CDATA[Docs]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Dokumenter]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5313</id>
+	<key><![CDATA[This event is fired off when a player runs any command at all. This actually fires before normal CommandHelper aliases, allowing you to insert control before defined aliases, even.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5341</id>
+	<key><![CDATA[location%s: the locationArray of this piston%sdirection%s: direction of travel%ssticky%s: true if the piston is sticky, false otherwise%saffectedBlocks%s: blocks pushed/pulled]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5342</id>
+	<key><![CDATA[location%s: the locationArray of this piston%sdirection%s: direction of travel%ssticky%s: true if the piston is sticky, false otherwise%saffectedBlocks%s: blocks pushed/pulled%sretractedLocation%s: if the piston is sticky and attached to a block, where the attached block would end up]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5365</id>
+	<key><![CDATA[action%s: One of either left_click_block, right_click_block, left_click_air, or right_click_air. If left or right_click_air, neither facing nor location will be present.%sblock%s: The type of block they clicked, or %s if clicked air or if the block is now empty.%sitem%s: The item array the player used to click, or %s if not holding anything in that hand%splayer%s: The player associated with this event%sfacing%s: The (lowercase) face of the block they clicked. (One of NORTH, EAST, SOUTH, WEST, UP, DOWN, NORTH_EAST, NORTH_WEST, SOUTH_EAST, SOUTH_WEST, WEST_NORTH_WEST, NORTH_NORTH_WEST, NORTH_NORTH_EAST, EAST_NORTH_EAST, EAST_SOUTH_EAST, SOUTH_SOUTH_EAST, SOUTH_SOUTH_WEST, WEST_SOUTH_WEST, or SELF)%slocation%s: The (x, y, z, world) location of the block they clicked%shand%s: The hand used to click with, can be either main_hand or off_hand]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5395</id>
+	<key><![CDATA[Fires when a player left or right clicks a block or the air. Note that this event may fire for the main hand, off hand, or twice, one for each hand, depending on the item priority and what is clicked. If you don't want multiple events, you can prefilter on hand. If you want to remove the item that is being used, you must also cancel the event.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5453</id>
+	<key><![CDATA[Fires when a player steps on a pressure plate or other interactable block.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5454</id>
+	<key><![CDATA[location%s: The location of the block%sactivated%s: (deprecated)%splayer%s: The player associated with this event]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5462</id>
+	<key><![CDATA[location%s: %s&lt;Location Match&gt;%splayer%s: %s&lt;Macro&gt;]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5472</id>
+	<key><![CDATA[player%s: %s&lt;String Match&gt;%sid%s: %s&lt;Macro&gt;%sdamager%s: %s&lt;Macro&gt;]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5473</id>
+	<key><![CDATA[player%s: The player being damaged%sdamager%s: The type of entity causing damage%samount%s: raw amount of damage caused%sfinalamount%s: health player will lose after modifiers%scause%s: the cause of damage%sdata%s: the attacking player's name or the shooter if damager is a projectile%sid%s: The entity UUID of the damager%slocation]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5620</id>
+	<key><![CDATA[to%screationradius%ssearchradius%screationallowed]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5621</id>
+	<key><![CDATA[id%s: The UUID of entity%stype%s: The type of entity%sfrom%s: The location the entity is coming from%sto%s: The location the entity is going to. Returns %s when using nether portal and  "allow-nether" in server.properties is set to false or when using end portal and  "allow-end" in bukkit.yml is set to false.%ssearchradius%s: The search radius for finding an available portal.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5622</id>
+	<key><![CDATA[player%s: The player that teleport%sfrom%s: The location the player is coming from%sto%s: The location the player is coming to. Returns %s when using nether portal and "allow-nether" in server.properties is set to false or when using end portal and "allow-end" in bukkit.yml is set to false.%stype%s: the type of portal occurring%screationallowed%s: If a new portal can be created.%screationradius%s: Gets the maximum radius from the given location to create a portal.%ssearchradius%s: Gets the search radius for finding an available portal.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5623</id>
+	<key><![CDATA[to%ssearchradius]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5653</id>
+	<key><![CDATA[id%s: %s&lt;Macro&gt; The entity UUID%stype%s: %s&lt;Macro&gt; The type of entity exploding]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5654</id>
+	<key><![CDATA[Fires when an item entity comes into existence.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5655</id>
+	<key><![CDATA[id%stype%slocation%s: Where the explosion occurs%sblocks%syield]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5656</id>
+	<key><![CDATA[Fires when an explosion occurs. Cancelling this event only protects blocks. Entities are handled in damage events.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5658</id>
+	<key><![CDATA[virtual%s: %s&lt;Boolean Match&gt; Whether or not this inventory is virtually stored in CH%sslottype%s: %s&lt;Macro&gt; The type of slot being clicked, can be ARMOR, CONTAINER, CRAFTING, FUEL, OUTSIDE, QUICKBAR, or RESULT%sclicktype%s: %s&lt;Macro&gt; One of LEFT, SHIFT_LEFT, RIGHT, SHIFT_RIGHT, WINDOW_BORDER_LEFT, WINDOW_BORDER_RIGHT, MIDDLE, NUMBER_KEY, DOUBLE_CLICK, DROP, CONTROL_DROP, CREATIVE, SWAP_OFFHAND, or UNKNOWN%saction%s: %s&lt;Macro&gt; One of NOTHING, PICKUP_ALL, PICKUP_SOME, PICKUP_HALF, PICKUP_ONE, PLACE_ALL, PLACE_SOME, PLACE_ONE, SWAP_WITH_CURSOR, DROP_ALL_CURSOR, DROP_ONE_CURSOR, DROP_ALL_SLOT, DROP_ONE_SLOT, MOVE_TO_OTHER_INVENTORY, HOTBAR_MOVE_AND_READD, HOTBAR_SWAP, CLONE_STACK, COLLECT_TO_CURSOR, or UNKNOWN%sslotitem%s: %s&lt;String Match&gt;%splayer%s: %s&lt;Macro&gt;]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5669</id>
+	<key><![CDATA[Fires when a player respawns. Technically during this time, the player may not be considered 'online'. This can cause problems if you try to run an external command with run() or something. CommandHelper takes into account the fact that the player is offline, and works around this, so all functions should respond correctly as if the player was online, however other plugins or plain text commands that are run may not.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5670</id>
+	<key><![CDATA[player%s: The player that is respawning%slocation%s: The location they are going to respawn at%sbed_spawn%s: True if the respawn location is the player's bedanchor_spawn]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5719</id>
+	<key><![CDATA[type%s: %s&lt;Macro&gt;%sreason%s: %s&lt;Macro&gt;]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5721</id>
+	<key><![CDATA[entity_unleash]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5722</id>
+	<key><![CDATA[This event is called when a leash is broken.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5729</id>
+	<key><![CDATA[id%s: The entityID of the entity%stype%s: The entity type of the entity%sreason%s: The reason the leash broke. Can be one of HOLDER_GONE, PLAYER_UNLEASH, DISTANCE, or UNKNOWN]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5738</id>
+	<key><![CDATA[location%s: The location of the explosion.%sblocks%s: An array of block locations that will be destroyed by this explosion.%syield%s: Decimal percentage of blocks destroyed that will drop items.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5739</id>
+	<key><![CDATA[blocks%syield]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5740</id>
+	<key><![CDATA[block_explode]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5741</id>
+	<key><![CDATA[Called when a block explodes (like beds in the nether) or a plugin creates an explosion.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5745</id>
+	<key><![CDATA[hanging_place]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5746</id>
+	<key><![CDATA[id%s: The entity ID of the entity.%stype%s: The type of the hanging entity; can be ITEM_FRAME, PAINTING, or LEASE_HITCH%slocation%s: Where the entity was placed.%splayer%s: The name of the player which placed this entity.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5747</id>
+	<key><![CDATA[type%s: %s&lt;Macro&gt; The entity type of the entity%splayer%s: %s&lt;Macro&gt; The player triggering the event%sworld%s: %s&lt;Macro&gt; The world the entity is in]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5748</id>
+	<key><![CDATA[This event is called when a player attempts to place an item frame, painting, or leash.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5754</id>
+	<key><![CDATA[id%sentities%s: An associative array of living entities affected by the splash, where the key is a UUID and the value is a double with a range of 0.0 - 1.0 for the intensity of the effect.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5755</id>
+	<key><![CDATA[id%s: %s&lt;String Match&gt; The splash potion entity uuid.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5756</id>
+	<key><![CDATA[Called when a splash potion lands.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5757</id>
+	<key><![CDATA[entities%s: Set an entity's intensity to 0 to make them unaffected.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5758</id>
+	<key><![CDATA[potion_splash]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5833</id>
+	<key><![CDATA[location%s: The location of the formed block%sblock%s: Type of old block state%snewblock%s: Type of new block state]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5834</id>
+	<key><![CDATA[block_form]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5835</id>
+	<key><![CDATA[newblock%s: %s&lt;String Match&gt; Type of new block state]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5836</id>
+	<key><![CDATA[Called when a block is formed or spreads based on world conditions. Cancelling this event will cause the block to not be formed.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5928</id>
+	<key><![CDATA[type%s: %s&lt;Macro&gt;%sreason%s: %s&lt;Macro&gt; One of BEEHIVE, BREEDING, BUILD_IRONGOLEM, BUILD_SNOWMAN, BUILD_WITHER, CHUNK_GEN, COMMAND, CUSTOM, DEFAULT, EGG, JOCKEY, LIGHTNING, NATURAL, PATROL, PIGLIN_ZOMBIFIED, RAID, REINFORCEMENTS, SHOULDER_ENTITY, SLIME_SPLIT, SPAWNER, SPAWNER_EGG, VILLAGE_DEFENSE, VILLAGE_INVASION, NETHER_PORTAL, DISPENSE_EGG, INFECTION, CURED, OCELOT_BABY, SILVERFISH_BLOCK, MOUNT, TRAP, ENDER_PEARL, DROWNED, SHEARED, or EXPLOSION]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5965</id>
+	<key><![CDATA[entity_potion]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5966</id>
+	<key><![CDATA[Called when a potion effect is modified on an entity. If the event is cancelled, no change will be made on the entity.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5967</id>
+	<key><![CDATA[action%s: The action which will be performed on the potion effect type%scause%s: The cause why the effect has changed%snewPotion%s: The new potion effect of the changed type which will be applied%soldPotion%s: The old potion effect of the changed type, which will be removed%sid%s: UUID entity]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5968</id>
+	<key><![CDATA[action%s: %s&lt;String Match&gt; The action which will be performed on the potion effect type%scause%s: %s&lt;String Match&gt; The cause why the effect has changed]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5981</id>
+	<key><![CDATA[player%s: The player's name%signitingentity%s: entity ID, if caused by entity%signitingblock%s: the block's type, if caused by block%signitingblocklocation%s: the block's location that ignited%slocation%s: the locationArray that got ignited%scause%s: the cause of ignition, one of LAVA, FLINT_AND_STEEL, SPREAD, LIGHTNING, FIREBALL, ENDER_CRYSTAL, EXPLOSION, ARROW]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5982</id>
+	<key><![CDATA[location%s: The location of the bed%splayer%s: The player associated with this event%sresult%s: The outcome of this attempt to enter bed. Can be one of NOT_POSSIBLE_HERE, NOT_POSSIBLE_NOW, NOT_SAFE, OK, OTHER_PROBLEM, TOO_FAR_AWAY, or OBSTRUCTED]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6109</id>
+	<key><![CDATA[world%s: The world in which the tree has grown.%stype%s: The tree type, can be one of TREE, BIG_TREE, REDWOOD, TALL_REDWOOD, BIRCH, JUNGLE, SMALL_JUNGLE, JUNGLE_BUSH, RED_MUSHROOM, BROWN_MUSHROOM, SWAMP, ACACIA, DARK_OAK, COCOA_TREE, MEGA_REDWOOD, TALL_BIRCH, CHORUS_PLANT, CRIMSON_FUNGUS, WARPED_FUNGUS, or AZALEA%sblocks%s: An array containing all locations of grown blocks.%slocation%s: The location of the sapling.%sbonemeal%s: If the tree has grown due to a bonemeal or not.%splayer%s: The player who used the bonemeal, or %s if no bonemeal was used.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6110</id>
+	<key><![CDATA[id%s: %s&lt;Macro&gt; The entityID%stype%s: %s&lt;Macro&gt; The type of entity being damaged%scause%s: %s&lt;Macro&gt; One of CONTACT, ENTITY_ATTACK, PROJECTILE, SUFFOCATION, FALL, FIRE, FIRE_TICK, LAVA, DROWNING, BLOCK_EXPLOSION, ENTITY_EXPLOSION, VOID, LIGHTNING, SUICIDE, STARVATION, POISON, MAGIC, MELTING, WITHER, FALLING_BLOCK, THORNS, DRAGON_BREATH, FLY_INTO_WALL, HOT_FLOOR, CRAMMING, ENTITY_SWEEP_ATTACK, DRYOUT, FREEZE, or CUSTOM%sworld%s: %s&lt;String Match&gt;]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+</translations>

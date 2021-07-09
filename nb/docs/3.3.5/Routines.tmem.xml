@@ -1,0 +1,220 @@
+<translations>
+<comment></comment>
+<translationBlock>
+	<id>nb-1715</id>
+	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.]]></key>
+	<comment></comment>
+	<translation><![CDATA[Finne en feil på denne siden? %sRediger denne siden selv, og send deretter inn en Pull Request.]]></translation>
+	<auto><![CDATA[Finne en feil på denne siden? %sRediger denne siden selv, og send deretter inn en pull-forespørsel.]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3399</id>
+	<key><![CDATA[A routine is created with the routine function. The most basic routine will accept a closure with no arguments.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3400</id>
+	<key><![CDATA[we would end up seeing an interweaving of routine 1 and 2's output jumbled together. The order in which routines run (or complete) is generally undefined unless locks or channels are involved.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3401</id>
+	<key><![CDATA[but this code isn't an atomic operation, so if the lock were closed between the call to _is_lock_open() and rlock(), an exception would be thrown, which is not what we want in this case. If you can guarantee that either the lock will never be closed, or you want an exception to be thrown if the lock is closed, rlock() is an appropriate choice.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3402</id>
+	<key><![CDATA[Channeling]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3403</id>
+	<key><![CDATA[Blocking calls]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3404</id>
+	<key><![CDATA[Since routines create a new thread, multiple activities might be running at once. For instance, if we ran the following code:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3405</id>
+	<key><![CDATA[Another, more flexible form of communication is through blocking calls. %s, %s, %s, and %s are the basis of this type of communication. These methods are a communication signal, but do not pass data around via "pipe" like structures, but simply signal to other routines that some sort of operation has completed. Usually, the routines will be communicating the data through other means, perhaps via import/export or some other way. We can slightly modify the producer/consumer example above to show a good use of blocking calls.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3406</id>
+	<key><![CDATA[Locks and Routines]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3408</id>
+	<key><![CDATA[This kicks off the new routine, in its own, new thread, and the routine function itself returns immediately. The closure will be executed immediately, and any return value will be ignored, though returning anything but %s from this closure will trigger a warning. The closure may accept parameters, but this is addressed below.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3409</id>
+	<key><![CDATA[This provides a "thread pool" of 5 routines which concurrently process the data that was divided up by the producer. Once all the consumers are occupied with the data, the producer will pause until one of the consumers becomes available, at which point it will pass the data to the now This example is a bit buggy, however, because once the producer is done, the consumers will all still be idling, waiting for data. This is where the %s function is used.  Here is a rewritten example that will behave better, and actually shut down eventually.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3410</id>
+	<key><![CDATA[To use a channel, you must first obtain a lock. This is a special primitive data type that is inherently synchronized (and passed by value to closures),  and is passed to various functions to return data via channeling. This lock represents some inherent communication channel that your routines will communicate across. Routines are not limited to just one lock at a time, however. To create a lock, use the %s function.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3411</id>
+	<key><![CDATA[Concurrency with routines]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3412</id>
+	<key><![CDATA[In general, routines shouldn't share existing memory across routines (and in fact may not be able to easily, because of the nature of closures), but instead should use channeling. A channel is a communication method amongst routines that is inherently synchronized. Essentially, these allow routines to safely pass data to other routines that are waiting for that data (or will be waiting for it).]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3413</id>
+	<key><![CDATA[In this example, after the producer loops through the data, the lock is closed. At this point, any future calls to rwait (or rsignal, for that matter) will cause a LockClosedException to be thrown. FIXME: I'm not sure about this feature -&gt;All exception types except this will cause the normal error handling process to occur, but in this case, the routine knows to catch it and silently terminate, though it can be caught and handled separately.&lt;-]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3414</id>
+	<key><![CDATA[When the call to runlock_all is made, all routines waiting for the lock using rlock will unblock, and resume operation. runlock() works the same as runlock_all(), but only causes one blocked routine to resume (chosen randomly). If the lock is closed, rlock() will throw a LockClosedException, so we use rlock_open() instead. rlock_open() returns if either a normal call to rlock() would cause the function to return, or the lock is closed. Normally rlock() would throw an exception if the lock were closed, but rlock_open() works as an atomic statement. The non-atomic equivalent of this would be]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3415</id>
+	<key><![CDATA[A %slock%s object is a special MethodScript data type, which provides two types of functionality to routines that have complex interaction with each other. The first method is used through channeling, the second is through blocking calls.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3416</id>
+	<key><![CDATA[After the lock is created, you can use the channel to signal to other routines, or wait for another routine to signal it.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3417</id>
+	<key><![CDATA[Creating a Routine]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3418</id>
+	<key><![CDATA[Routines provide a way for advanced script writers to make scripts more efficient by moving some code into other execution units which can run parallel to others. Routines are similar to threads in other languages, but are loosely based of of "goroutines" from the Go language. Routines are largely independent from each other; most memory is not shared between them, because they use closures to encapsulate variables, which prevents sharing of primitives. References are shared, so arrays are shared across instances, but arrays are inherently synchronized to allow multiple routines to change data without race conditions.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3419</id>
+	<key><![CDATA[Assume that both the the producer and consumers need to do all the processing off the main thread, so we know that the bulk of all our processing will be done in routines. We can set up the producer and consumers in the main thread, then the consumers will wait until the producer has completely finished its processing.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3420</id>
+	<key><![CDATA[Here is a basic example of using a dynamic number of routines.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3421</id>
+	<key><![CDATA[Both %s and %s are blocking calls; they will not return until both are being called at the same time. Usually this means that you want both the signal and wait calls to be within a routine, however, there is no rule that you must do so, but each routine will block until each side of the "pipe" is activated. Multiple routines may be waiting for a signal. In this case, barring various options being set, one of the waiting routines is picked at random and the two ends of the channel are connected at that point. This is useful in the case of a producer/consumer setup, where there is only one producer, but multiple consumers (perhaps created in a loop), and the consumers will take longer than the producer.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5152</id>
+	<key><![CDATA[About]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Om]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5153</id>
+	<key><![CDATA[Home]]></key>
+	<comment></comment>
+	<translation><![CDATA[Hjem]]></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5154</id>
+	<key><![CDATA[Privacy Policy]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Personvern]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5155</id>
+	<key><![CDATA[Sponsors]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Sponsorer]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5156</id>
+	<key><![CDATA[Help]]></key>
+	<comment></comment>
+	<translation><![CDATA[Hjelp]]></translation>
+	<auto><![CDATA[hjelp]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5157</id>
+	<key><![CDATA[Team. All rights reserved.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Team. Alle rettigheter reservert.]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5158</id>
+	<key><![CDATA[Docs]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Dokumenter]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5419</id>
+	<key><![CDATA[This will cause the routines that are currently blocked to throw the exception, and future calls to rwait will immediately throw as well. This provides a convenient "out" for the routines, if an indeterminate amount of data is being processed.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+</translations>

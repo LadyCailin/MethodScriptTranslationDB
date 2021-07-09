@@ -1,0 +1,794 @@
+<translations>
+<comment></comment>
+<translationBlock>
+	<id>art-701</id>
+	<key><![CDATA[ivariable]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1277</id>
+	<key><![CDATA[command]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1715</id>
+	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Fînd å büg în thîs pågə? %sEdît thîs pågə ʎøürsəlf, thən sübmît å püll rəqüəst.]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1769</id>
+	<key><![CDATA[int - Any number that doesn't have a decimal point: 2]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1770</id>
+	<key><![CDATA[This symbol followed by a literal denotes a command]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1772</id>
+	<key><![CDATA[Block comments start with %s/*%s and end with %s*/%s This causes the compiler to ignore everything within the comment block, including newlines.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1773</id>
+	<key><![CDATA[main.ms, auto_include.ms, and aliases.msa]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1774</id>
+	<key><![CDATA[In aliases.msa:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1775</id>
+	<key><![CDATA[T%sasks - Any tasks set with %s or %s are cleared.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1776</id>
+	<key><![CDATA[Continued Learning]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1777</id>
+	<key><![CDATA[Comments are a useful way to mark up your code for humans to read later. (With one exception) comments are ignored by the compiler, and you are free to put whatever information you wish in a comment. There are 4 ways to comment code.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1780</id>
+	<key><![CDATA[&gt;&gt;&gt; and &lt;&lt;&lt;]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1781</id>
+	<key><![CDATA[\&nbsp;]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1782</id>
+	<key><![CDATA[Anything not defined above is a lit]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1783</id>
+	<key><![CDATA[Symbol Table]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1784</id>
+	<key><![CDATA[newline]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1785</id>
+	<key><![CDATA[Note that string concatenation happens automatically (known as autoconcatenation). Let's take the following example:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1788</id>
+	<key><![CDATA[lit]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1790</id>
+	<key><![CDATA[All other characters]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1791</id>
+	<key><![CDATA[/reloadaliases%s is an alias to %s/recompile]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1792</id>
+	<key><![CDATA[If inside an optional variable [$opt='val'], it's an opt_var_assign. Otherwise, it's a alias_end]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1793</id>
+	<key><![CDATA[The start and end of a function. If a literal proceeds the func_start symbol, it is called func_name]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1796</id>
+	<key><![CDATA[Separates arguments in a function]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1797</id>
+	<key><![CDATA[Data Types]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1798</id>
+	<key><![CDATA[separator]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1799</id>
+	<key><![CDATA[[ and ]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1801</id>
+	<key><![CDATA[( and )]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1802</id>
+	<key><![CDATA[array - An array of any other datatypes, including other arrays. Created by using the function %sarray]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1803</id>
+	<key><![CDATA[lsquare_bracket and rsquare_bracket]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1804</id>
+	<key><![CDATA[Exception Handling]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1805</id>
+	<key><![CDATA[Scripting Examples]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1806</id>
+	<key><![CDATA[The %s#%s and %s//%s symbols are identical. They are line comments. When either is encountered, the remainder of the line is ignored by the compiler. %s//%s is preferred over %s#%s, however %s#%s is not deprecated, nor will it ever be. The only exception to this preference is when using a hashbang for cmdline code.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1808</id>
+	<key><![CDATA[double - Any number that has a decimal point: 2.0]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1809</id>
+	<key><![CDATA[func_start and func_end]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1810</id>
+	<key><![CDATA[- Created with the "%s" keyword:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1811</id>
+	<key><![CDATA[Denotes that the rest of this line is a comment]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1813</id>
+	<key><![CDATA[Pro%sf%siler - The profiler.config file is reloaded]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1816</id>
+	<key><![CDATA[boolean - Created with the "true" or "false" keywords: true]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1817</id>
+	<key><![CDATA[Starts and stops a multiline construct]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1819</id>
+	<key><![CDATA[recompile]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1820</id>
+	<key><![CDATA[When a single dollar sign, it is final_var, otherwise variable]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1821</id>
+	<key><![CDATA[opt_var_assign or alias_end]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1822</id>
+	<key><![CDATA[In main.ms:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1823</id>
+	<key><![CDATA[New Line]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1824</id>
+	<key><![CDATA[block comment]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1825</id>
+	<key><![CDATA[This is a label for commands]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1827</id>
+	<key><![CDATA[Third execution unit, the event handler created in main.ms:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1828</id>
+	<key><![CDATA[Separates each macro command]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1829</id>
+	<key><![CDATA[G%slobals - Global values, set with %s are cleared out.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1830</id>
+	<key><![CDATA[First execution unit, main.ms:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1832</id>
+	<key><![CDATA[Second execution unit, the /test $alias alias:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1833</id>
+	<key><![CDATA[Comments]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1834</id>
+	<key><![CDATA[In auto_include.ms:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1837</id>
+	<key><![CDATA[Many of the scripting concepts are addressed in greater depth in the Learning Trail, shown below. The MScript topics are of great value to go through, and they build off what you have already learned in this tutorial. What is provided in this lesson should be enough to get you started with basic script writing, so start trying to apply these concepts to your own scripts, and continue going down the learning trail!]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1838</id>
+	<key><![CDATA[Functions]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1839</id>
+	<key><![CDATA[label]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1840</id>
+	<key><![CDATA[or //]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1842</id>
+	<key><![CDATA[An 'enter' in the file]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1843</id>
+	<key><![CDATA[This is a variable that can be defined and used on the right side of an alias]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1844</id>
+	<key><![CDATA[E%sxecution-Queue - Any tasks queued up with the queue_* family of functions is cleared.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1846</id>
+	<key><![CDATA[E%sx%stensions - Extensions are reloaded]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1848</id>
+	<key><![CDATA[comma]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1852</id>
+	<key><![CDATA[variable]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1853</id>
+	<key><![CDATA[comment]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1855</id>
+	<key><![CDATA[multiline_start and multiline_end]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2451</id>
+	<key><![CDATA[auto_include.ms:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5152</id>
+	<key><![CDATA[About]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Abøüt]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5153</id>
+	<key><![CDATA[Home]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Hømə]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5154</id>
+	<key><![CDATA[Privacy Policy]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Prîvåcʎ Pølîcʎ]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5155</id>
+	<key><![CDATA[Sponsors]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5156</id>
+	<key><![CDATA[Help]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Həlp]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5157</id>
+	<key><![CDATA[Team. All rights reserved.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Təåm. All rîghts rəsərvəd.]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5158</id>
+	<key><![CDATA[Docs]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Døcs]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5357</id>
+	<key><![CDATA[Source File Encoding]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5398</id>
+	<key><![CDATA[Pe%sr%ssistence-Config - Any changes to the persistence.ini file are reloaded]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5852</id>
+	<key><![CDATA[string - Any set of characters surrounded by single quotes or double quotes: 'string', "also a string". \u0000 inside a string will allow for arbitrary unicode characters to be inserted into a string, and \n is a newline. \\ (double slash) inserts a literal slash, and \' will insert a literal quote.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5853</id>
+	<key><![CDATA[This example will still provide tab completions for the enum and player arguments, but the list of players will not be filtered based on the value of the enum. The usage example will be less meaningful as well, but may be good enough in most cases.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5854</id>
+	<key><![CDATA[Note that a lit and string are treated the same, however special characters must be put in a string to be treated as literal character. Technically all other special characters are treated as literals, but to make your script compatible with future versions, you must put any non-word character inside a string.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5855</id>
+	<key><![CDATA[Here are a few more complex examples to get you started on how to use the advanced features of CommandHelper. Because of the Turing completeness of the plugin, it is possible to do far more advanced things.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5856</id>
+	<key><![CDATA[aliases.msa is where your aliases go, and each alias is a fully separate '''compilation unit''', in fact, even a compile error in one alias will not usually interfere with the other aliases.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5857</id>
+	<key><![CDATA[commands.msa:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5858</id>
+	<key><![CDATA[ivariable - An ivariable (or simply a variable) is a variable that can be defined and used from within the script. Constant variables ($var), are assigned by the user at command runtime, and are technically constants as far as the rest of the script is concerned. IVariables can be defined by the script writer and assigned various values that can change throughout the script running. To define and use an ivariable, use the assign() function, or the = operator. If an ivariable is used without first being defined, the value of the variable will be 0, 0.0, , false, or %s, depending on how it is used. Most functions use the value in the ivariable without caring that it is an ivariable, but it is possible that a function requires that a certain argument be an ivariable, such as the for() function.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5859</id>
+	<key><![CDATA[Here, we have created 3 separate execution units. main.ms and aliases are implicitly created, simply by their existence, but here we have also created an event handler, which will get run when some_event is triggered. main.ms is triggered upon server startup (and /reloadaliases) and aliases are triggered when a command is run. When this script is compiled, you can essentially visualize the execution units as ending up like this: (with some code removed to make things more readable)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5860</id>
+	<key><![CDATA[@tabcompleter - Provides the name of a proc that is called, which should return the tab complete closure for this command. If the annotation is provided with no proc name, there are a set of default completions that will be provided on a best-effort basis, first based on variable names in the alias and superceded by information provided in the @param annotations in this comment. Variable names with "player" in them will autocomplete player names. Other variables will simply disable autocompletion. (The automatic tab completion is not yet implemented.)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5861</id>
+	<key><![CDATA[You can actually reload these sub-modules individually if you want, by passing parameters to the command. There are two modes, whitelist, or by default, blacklist. In blacklist mode, all modules get reloaded except the modules that are blacklisted, which aren't reloaded. In whitelist mode, only the specified modules are reloaded. You use the underlined letter to refer to that specific module. For instance, if you want to reload everything but leave the exported variables and execution queue alone, you can run %s/recompile -ge%s. If you ONLY want to reload tasks, you can run %s/recompile --whitelist -t%s. Note that reloading individual modules isn't normally encouraged, because it can put your server in an inconsistent and unreproducible state if you aren't careful. Running %s/recompile%s by itself (which reloads everything) is recommended. You can also run %s/recompile -h%s for the usage instructions and long options list.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5862</id>
+	<key><![CDATA[So, what is an execution unit? It is a unit of code that gets run, from top to bottom. You can think of it as an '''insertion point''' to your code, or places that will start up your code. An execution unit is often times made up of several parts, so let's create a multifile example, which demonstrates a few execution units.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5863</id>
+	<key><![CDATA[In this simple example, you can think of each execution path as a line through your code (in reality, it's a tree, but if that doesn't make sense to you, ignore that for now). That line follows very specific rules based on code structure, so how you lay out your code is important to be able to visualize.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5864</id>
+	<key><![CDATA[Smart comments are like block comments, but start with %s/**%s (two asterisks) instead. See the article on [[SmartComments]] for more details about the format in general, and below for information specific to aliases.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5865</id>
+	<key><![CDATA[In the first run function, we see that '/run', 'this', and 'command' are all technically separate arguments, but because they are not separated by commas, operators, or other symbols, they are automatically concatenated together, using the %s function, essentially yeilding: '/run this command', as you would expect. This is also the behavior exhibited by a simple alias that uses non-strict formatting: %s/cmd = /real command%s. '/real' and 'command' are automatically sconcatenated together, and then run.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5866</id>
+	<key><![CDATA[Sometimes a script may sometimes cause an error that could be anticipated. Instead of just having the script die, it is possible to catch these errors, and perform alternate functionality. MethodScript mirrors the functionality of languages like PHP and Java with exception handling. For more information about exception handling in MScript, see [[%s|this page]]. For a more general discussion on exception handling, see [%s this page] on Wikipedia.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5867</id>
+	<key><![CDATA[Each of these files serve a separate purpose. main.ms is run at server startup, only once. Typically, you use this to register bound events, using the bind() function, or anything else you want to run only once. Keep in mind, this is re-run when you /reloadaliases, but bound events and intervals and such are stopped, so you won't have multiples of anything. main.ms uses '''pure MethodScript''', that is, it has a slightly different syntax than aliases.msa. In aliases.msa, each alias is defined, along with a snippet of MethodScript. For instance, in the alias,]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5868</id>
+	<key><![CDATA[MethodScript files, both ms and msa files should have UTF-8 encoding. A byte order mark (BOM) may or may not be present. While other encodings may work, particularly ASCII and others, the source files will be parsed using UTF-8. In the future, other encodings may be supported, but there is currently no plans to add this support in the near term.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5869</id>
+	<key><![CDATA[@command - When this annotation is present, this alias is instead treated as a command. This registers the alias as if you had used the %s function. This comes with one drawback, which is that the name of the command, that is, for instance "/cmd" must be unique within other @commands defined in CommandHelper. Additional aliases can still provide additional functionality, but will not be used as part of the command system. One drawback of using commands is that commands registered in this way cannot be fully removed from the server without a server reboot, though functionality can generally be changed with a simple recompile anyways.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5870</id>
+	<key><![CDATA[Denotes that this variable is optional, if included on the left side of an alias, or accesses an element in an array if used on the right.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5871</id>
+	<key><![CDATA[In your scripts, there are a few special symbols that are not treated as literals. In the event of a compiler error, it may be helpful to know what each symbol is called. These are as follows:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5872</id>
+	<key><![CDATA[@param - This documents the variables in the alias, and generally follows the format "@param $variableName type description". Description is optional, and is only used as a code comment. The $variableName should match the parameter in the alias, and the type can be any valid MethodScript type, or a few special types, "$Player" and "$OfflinePlayer", or an ad-hoc enum, which is a comma separated list contained within square brackets. Depending on the MethodScript type, there will be different default autocomplete result, with special handling for enums, which autocomplete to the list of enums, boolean, which autocompletes to the strings "true" and "false". All other types disable auto completes for this variable.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5873</id>
+	<key><![CDATA[The auto_include.ms file is also a pure MethodScript file, and it is as if in each '''execution unit''', it is automatically %sed for you. There are a few different ways to make an execution unit. The first way is to create a new alias. Each alias is it's own execution unit, and uniquely to the aliases, each alias is also it's own compilation unit. A bound event handler is another execution unit, and the entirety of main.ms is an execution unit. set_interval and set_timeout are also separate execution unit, as well as execution queue elements, and others.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5874</id>
+	<key><![CDATA[the %s/test [$command=] = &gt;&gt;&gt; &lt;&lt;&lt;%s part is the alias markup, and is not actual MethodScript, that is, the symbols and characters follow different meanings than inside the alias definition. In this example, %sconsole($command);%s is pure MethodScript.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5875</id>
+	<key><![CDATA[- Some functions return %s, which is actually a datatype. When viewed as a string, it is equivalent to an empty string. Cannot be created directly.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5876</id>
+	<key><![CDATA[Functions allow for very dynamic scripts to be run. There are many defined functions, including functions that provide control flow functionality. For the full list of functions, see the [[API]]. A function is identified by a literal string, followed by parenthesis. So in %sfunc()%s, "func" is the name of the function, and "(" and ")" begin and end the function argument list (in this case, there are no arguments being passed in.) Functions can have zero, one, or two or more arguments passed to them. In the case of two or more arguments, each argument is separated by a comma. For instance:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5877</id>
+	<key><![CDATA[We can make a slightly less accurate version of this code, which uses the defaults, which, while less correct, provides a decent compromise between functionality and code terseness.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5878</id>
+	<key><![CDATA[@usage - Overrides the default usage example @permission - The permission the user must have to run this command. Note that this permission is in *addition* to the normal alias permission system, and so it's recommended to continue using the * label on the alias itself. @noPermMsg - Overrides the no permission error message @alias - Alias for this command. A command can have multiple aliases, and you can repeat this annotation to provide more.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5879</id>
+	<key><![CDATA[Note that these annotations will not be used if placed on an alias that isn't also a @command. The executor of the command is simply the code in the alias itself. Actually, it's worth noting that nothing about this changes the execution, it still uses the normal alias engine in the same way as every other alias, it simply provides additional integrations on top of the alias system.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5880</id>
+	<key><![CDATA[Commands may have additional annotations, which correspond to the values in register_command:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5881</id>
+	<key><![CDATA[In a script, there are several types of data. The language is currently loosely typed however, so the string '2' is equivalent to the integer 2, is equivalent to the double 2.0, is equivalent to the boolean true. Values are cast just before they are used. Note that sometimes data cannot be cast, for instance the string 'string' cannot be cast to a number, so a runtime exception will be thrown if a function expects a number, and is given that. Also, arrays are not able to be cast into other data types, but can contain values of any data type.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5882</id>
+	<key><![CDATA[A full complex example, which provides a custom tabcompleter and overrides some existing parameters, might look like this:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5883</id>
+	<key><![CDATA[Everything inside this (newlines included) is a comment. The only thing you can't have inside a block comment is a */ (because that ends the comment)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5884</id>
+	<key><![CDATA[A smart comment applied to an alias can be used both by the alias engine, and by your scripts. In general, you can obtain the information in the currently running alias with the %s function, and you can use this however you like, but there are additional annotations, which the alias engine uses to provide additional functionality.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5885</id>
+	<key><![CDATA[S%scripts - Any changes that you have made to any scripts will be reloaded and applied. Main files are re-run, and any new commands are re-registered.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5886</id>
+	<key><![CDATA[If you are wanting to do more dynamic things other than variables, CommandHelper allows you to do this through the use of Turing complete language, MethodScript. If you aren't familiar with any type of programming, you may wish to find resources on languages like Java and PHP. The language mirrors both languages in certain ways, as well as introducing its own methodologies.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5887</id>
+	<key><![CDATA[Smart Comments and Aliases]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5888</id>
+	<key><![CDATA[When an alias is part of the command system, there are a few things that are done automatically, and a few things that can be further unlocked with additional annotations. First of all, the command is registered as part of the overall command system. This means that it will appear in default /help and autocomplete lists. Secondly, the command help text is automatically generated as part of the command, using the body of the smart comment. The usage parameter of the command is simply the left hand side of the alias, though additional usage can be provided in another annotation.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5889</id>
+	<key><![CDATA[The built in %s/recompile%s command is used to reload just CommandHelper, though %s/reload%s will also reload CommandHelper. However, using the recompile command can allow for finer grained control of what all gets reloaded. By default, the command reloads the following things about CommandHelper:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+</translations>

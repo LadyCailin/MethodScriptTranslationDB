@@ -1,0 +1,297 @@
+<translations>
+<comment></comment>
+<translationBlock>
+	<id>ko-187</id>
+	<key><![CDATA[ByteArrays]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-445</id>
+	<key><![CDATA[Yes]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-755</id>
+	<key><![CDATA[profile, query, %s[%sparameters...%s]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-920</id>
+	<key><![CDATA[mixed]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2878</id>
+	<key><![CDATA[Examples]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3787</id>
+	<key><![CDATA[[[%s|OPTIMIZE_DYNAMIC]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3788</id>
+	<key><![CDATA[Vital Info]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3789</id>
+	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.%s (Note this page is automatically generated from the documentation in the source code.)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3791</id>
+	<key><![CDATA[Usages]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3792</id>
+	<key><![CDATA[Sorry, there are no examples for this function! :(]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3805</id>
+	<key><![CDATA[See Also]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4606</id>
+	<key><![CDATA[[[%s|Learning Trail: SQL]], [[%s|Learning Trail: Profiles]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4607</id>
+	<key><![CDATA[For SELECT queries, an array of associative arrays is returned. It is not guaranteed that the arrays themselves are  editable, so this returned array should be considered \"read-only\". Optimizations will be added later to make this  more efficient. For INSERT queries, either %s or an integer is returned. If the insert caused an auto-increment to  occur, that auto-increment ID is returned. Otherwise, %s is returned. For UPDATE, DELETE, or schema changing  queries, %s is always returned. In the event that an SQL query is incorrect or otherwise causes an error, an  SQLException is thrown. Only primitive data types are supported for the parameters, arrays are not.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4608</id>
+	<key><![CDATA[Booleans]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4609</id>
+	<key><![CDATA[Dates]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4610</id>
+	<key><![CDATA[When inserting dates you should insert them as strings. The following are examples of correctly converted dates:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4611</id>
+	<key><![CDATA[The profile is either a string, which represents a pre-configured database connection, or an array, which can include dynamic connection information.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4612</id>
+	<key><![CDATA[simple_date('yyyy', time())]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4613</id>
+	<key><![CDATA[MySQL's BIT type with only one bit will be retrieved as a boolean. When setting the BIT type you can use a  integer (0 or 1), string ("true", "false", "0", "1") and a boolean.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4614</id>
+	<key><![CDATA[MySQL Data Conversion]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4615</id>
+	<key><![CDATA[YEAR]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4616</id>
+	<key><![CDATA[simple_date('yyyy-MM-dd', time())]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4617</id>
+	<key><![CDATA[TIMESTAMP]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4618</id>
+	<key><![CDATA[Executes an SQL query, and returns various data depending on the query type.  See the extended information for more details.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4619</id>
+	<key><![CDATA[simple_date('yyyy-MM-dd HH:mm:ss', time())]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4620</id>
+	<key><![CDATA[MySQL data types: BINARY, VARBINARY, TINYBLOB, BLOB, MEDIUMBLOB, LONGBLOB and BIT with more then one bit will return  as a ByteArray. It is however not required that you insert these types as a ByteArray (but it is supported).]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4621</id>
+	<key><![CDATA[When inserting data into a MySQL database the data types are converted to match whatever the column type is. If the  data you insert is longer or has more precision then the MySQL data type supports it will be truncated and may result  in loss of data.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4622</id>
+	<key><![CDATA[TIME]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4623</id>
+	<key><![CDATA[Alternately you can use a integer here too.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4624</id>
+	<key><![CDATA[DATE]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4625</id>
+	<key><![CDATA[Even though a timestamp is numeric MySQL handles it the same as DATETIME.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4626</id>
+	<key><![CDATA[DATETIME]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4627</id>
+	<key><![CDATA[The query is the SQL query itself, with question marks (?) that represent input parameters, and the parameters are the  input parameters themselves. Compile time checking is done, if possible, to ensure that the correct number of  parameters is passed, based on the number of question marks in the query. It is never a good idea to dynamically  create the query, so a compiler warning is issued if a query is dynamically being built.  See [[%s|this page]] for more details about the SQL module.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4628</id>
+	<key><![CDATA[All date and time types will be retrieved as an integer in milliseconds since January 1, 1970, 00:00:00 GMT.  You can then use %s to make it a human readable date string.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4629</id>
+	<key><![CDATA[simple_date('HH:mm:ss', time())]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5152</id>
+	<key><![CDATA[About]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5153</id>
+	<key><![CDATA[Home]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5154</id>
+	<key><![CDATA[Privacy Policy]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5155</id>
+	<key><![CDATA[Sponsors]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5156</id>
+	<key><![CDATA[Help]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5157</id>
+	<key><![CDATA[Team. All rights reserved.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5158</id>
+	<key><![CDATA[Docs]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+</translations>

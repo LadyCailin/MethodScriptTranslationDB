@@ -1,0 +1,178 @@
+<translations>
+<comment></comment>
+<translationBlock>
+	<id>ko-1715</id>
+	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3652</id>
+	<key><![CDATA[Why the differences?]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3653</id>
+	<key><![CDATA[In programming in general, when you create a variable, it can be created in two ways, it can either create a new object/value, or it can simply point to an existing one. When you have a ''pointer'' to an existing value, it works much like a symlink on a file system; making changes to a pointer actually makes changes to the value pointed to. However, assignments (and by extension passing a value to a procedure) change what value the variable points to. For primitives, that is, a string or a number, this concept doesn't actually matter, because you can't "change" the underlying primitive value, you can only reassign a new value to the existing variable, and that assignment doesn't affect other variables.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3654</id>
+	<key><![CDATA[When you think of sending parameters to a procedure as assign()'s, it becomes easier to see how the same concept applies to a proc as well.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3655</id>
+	<key><![CDATA[As you can see, even though @b is assigned to @a, since it is actually assigned by value, changing the value of @a does not affect @b. This mechanism works in all cases for arrays as well.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3656</id>
+	<key><![CDATA[The above example copied by reference, as was explained in the earlier section. Changes to @array1 are reflected in @array2, because they both "point" to the same array. The variable itself only contains a reference to the array, not the value of the array itself. Contrast this to a cloned array, which copies the value over:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3657</id>
+	<key><![CDATA[If we seemingly "''inline''" (we actually aren't inlining it, see below)  the procedure, we get different results though:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3658</id>
+	<key><![CDATA[This works differently, because we have forgotten that a procedure call introduces an extra "assignment" before it runs. To truly "inline" a procedure, we must do an assignment beforehand, so something like this:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3659</id>
+	<key><![CDATA[Now, let's look at changing the underlying value of an array.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3660</id>
+	<key><![CDATA[In mscript, all values are passed by value of a reference, and assignments are too. However, primitives do not have a "reference," so are simply passed by value of. It is important to understand what this means in terms of how this will affect your code. Since this is a difficult concept to understand even for seasoned programmers, the concept will be described through examples.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3661</id>
+	<key><![CDATA[Keep in mind that it's not ''really'' an assign, however, it's simply an array_set() wrapped up in a more aesthetic syntax.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3662</id>
+	<key><![CDATA[In this example, the value wasn't changed in array2. However, this comes at a cost. For large arrays, we now have two mostly identical copies of the array in memory. Sometimes this is required, and if so, there's nothing that can be done. But since most often this isn't strictly required, there's no point in eating up more memory than we actually need. Why aren't primitives handled the same way then? Well, actually, strings are reference based, thanks to the way the JVM works, but since they aren't modifiable, assigning by reference or value doesn't make a difference. But for other primitives, passing by value is done because there is no memory hit for reference vs value, because in general, the memory used to "point" to an int will be the same as just keeping the value of the int itself, but the extra layer of abstraction would slow down accesses. So passing by value makes more sense for primitives.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3663</id>
+	<key><![CDATA[An array could be quite large, so copying it around each time it is assigned could severely impact performance and memory usage. So by default, it copies the reference instead of the value (which is constant sized and much smaller typically), however, the easy clone operator means that you can quickly copy the value, without much hassle, if that's truly what you need.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3664</id>
+	<key><![CDATA[As you can see here, though @a was re-assigned in the procedure, it did not affect @myA, as you can essentially think of the procedure call as working by doing several mini-assignments: assign(@a, @myA) assign(@b, @myB). When we change the assignment of @a inside the procedure, @myA is not affected, however changing the internals of the value @b, that does affect @myB (and by extension @myA, since @myA points to @myB).]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3665</id>
+	<key><![CDATA[As you can see, we are now changing the underlying value, instead of completely changing what value as a whole @a references. What might be confusing is that assignments provide a convenience method for setting values in arrays, so this code performs the same way:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3666</id>
+	<key><![CDATA[Reference vs. Value]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3667</id>
+	<key><![CDATA[When we do the second assignment to @a, we aren't changing the ''value'' of what's being pointed to, we are simply changing what we are pointing to.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3668</id>
+	<key><![CDATA[This code demonstrates assignment by value of primitives.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5152</id>
+	<key><![CDATA[About]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5153</id>
+	<key><![CDATA[Home]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5154</id>
+	<key><![CDATA[Privacy Policy]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5155</id>
+	<key><![CDATA[Sponsors]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5156</id>
+	<key><![CDATA[Help]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5157</id>
+	<key><![CDATA[Team. All rights reserved.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5158</id>
+	<key><![CDATA[Docs]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+</translations>

@@ -1,0 +1,234 @@
+<translations>
+<comment></comment>
+<translationBlock>
+	<id>art-1715</id>
+	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Fînd å büg în thîs pågə? %sEdît thîs pågə ʎøürsəlf, thən sübmît å püll rəqüəst.]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2458</id>
+	<key><![CDATA[would necessarily have to be runtime errors. In this case, since the type is programmer specified, it is reasonable to assume that it is meant to be used as a generic string, not the enum type. Additionally, when hard coding strings or numbers, the compiler can check to ensure that the type is a valid cross cast type, at compile time.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2459</id>
+	<key><![CDATA[If this were allowed, this would make the following code ambiguous:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2460</id>
+	<key><![CDATA[Because this code is at a glance unclear on whether or not we are actually trying to allocate space for a new Label object, or simply point to the existing object, this is not allowed. Supertypes are also restricted, because then both of these would be allowed:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2461</id>
+	<key><![CDATA[@a2. Put more succinctly:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2462</id>
+	<key><![CDATA[This is because while string constants (and indeed all values that are not contained in a variable) are declared as auto, variables declared as string are not. This is because when hardcoding the string in, it is quite obvious what the intention is; you are intending for the string to take on the  enum constant value. However, when you declare it in a variable first, it is assumed that the input is programmer specified, and therefore is not intended to be cross cast. If cross casting were generally allowed, then obvious bugs like this:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2463</id>
+	<key><![CDATA[Then it must be true that @a]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2464</id>
+	<key><![CDATA[If the procedure _func accepts a single Compass argument, it is acceptable to do %s_func('NORTH')%s, but it is not acceptable to first define a string, then attempt to cross cast:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2465</id>
+	<key><![CDATA[As a simple example, we can consider the conversion of string to enum. Assume we have the following declared:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2466</id>
+	<key><![CDATA[There is a caveat to this process. An object cannot cross cast an object of the same type, or a supertype or subtype. Otherwise, this would make reference vs copy ambiguous. Consider the following:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2467</id>
+	<key><![CDATA[Cross casting is a feature of MethodScript that allows for rapid scripting, while maintaining strong type safety elsewhere. Cross casting is less stringent than a fully strongly typed system though, so it should be used sparingly, and only if there is a strong case for automatic casting. Generally it should only be used to cross cast from primitives, instead of other objects. The cross casting system goes hand in hand with multiple inheritance, but is not to be confused with it. Cross casting may be taken advantage of by using the auto keyword.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2468</id>
+	<key><![CDATA[Cross Casting]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2469</id>
+	<key><![CDATA[@f must be true.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2470</id>
+	<key><![CDATA[Assume we have 2 classes, A and B, and they can each be cross cast to the other.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2471</id>
+	<key><![CDATA[The compiler will attempt to check the validity of the cross casting at compile time, if the cast method is determined to be a constant expression, so you should keep the logic to a minimum to allow for the compile time error checking to work. Once this occurs, the following code is now valid:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2472</id>
+	<key><![CDATA[If data loss would occur when cross casting, this is a violation of the underlying contract, and in that case, cross casting should not be used. It does not have to be true that (@a as B)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2474</id>
+	<key><![CDATA[Cross casting can be done explicitly, using the same mechanism as a normal cast:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2475</id>
+	<key><![CDATA[You can also take advantage of the cross compiling system, should it suit your classes needs. You declare your class to be cross compilable from various types, by annotating it with the @{CrossCast} annotation. If this annotation is declared, you must override the cast() method, (which should be protected) and return a new instance of the object, given the type to convert. Say you have a class, Label, which you want to be cross castable from a string.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2476</id>
+	<key><![CDATA[In multiple inheritance, an object actually IS multiple other objects, there is no conversion required. For instance, assume Label extended both class One and class Two. Then the following code is not a cast of any sort, it's just a simple assignment.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2477</id>
+	<key><![CDATA[Cross Casting vs. Multiple Inheritance]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2478</id>
+	<key><![CDATA[Cross Casting User Classes]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2479</id>
+	<key><![CDATA[@a, however. A good example of this would be temperature classes.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2480</id>
+	<key><![CDATA[This runs the risk of a CastException however, in the event the value cannot be cast or cross cast.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2481</id>
+	<key><![CDATA[This demonstrates that the equals operator does not attempt cross casting before attempting the equality check. TODO: Should it though? If so, then the above paragraph should be changed to state that it @c]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2482</id>
+	<key><![CDATA[This further demonstrates why cross casting to a super type isn't allowed.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5152</id>
+	<key><![CDATA[About]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Abøüt]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5153</id>
+	<key><![CDATA[Home]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Hømə]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5154</id>
+	<key><![CDATA[Privacy Policy]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Prîvåcʎ Pølîcʎ]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5155</id>
+	<key><![CDATA[Sponsors]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5156</id>
+	<key><![CDATA[Help]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Həlp]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5157</id>
+	<key><![CDATA[Team. All rights reserved.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Təåm. All rîghts rəsərvəd.]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5158</id>
+	<key><![CDATA[Docs]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Døcs]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5400</id>
+	<key><![CDATA[It is also worth noting that when using the auto keyword explicitly, this can open the door to failure to catch errors at compile time, as demonstrated in the above example with the auto keyword usage. Generally speaking, well maintainable software should not need to use the auto keyword explicitly, though it is ok to take advantage of the cross casting features when using hardcoded instances of objects, such as in example 4 above.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+</translations>

@@ -1,0 +1,437 @@
+<translations>
+<comment></comment>
+<translationBlock>
+	<id>ko-311</id>
+	<key><![CDATA[No]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2878</id>
+	<key><![CDATA[Examples]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3788</id>
+	<key><![CDATA[Vital Info]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3789</id>
+	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.%s (Note this page is automatically generated from the documentation in the source code.)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3791</id>
+	<key><![CDATA[Usages]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3795</id>
+	<key><![CDATA[Example 1]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3796</id>
+	<key><![CDATA[Given the following code:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3797</id>
+	<key><![CDATA[Example 2]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3803</id>
+	<key><![CDATA[Example 3]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3804</id>
+	<key><![CDATA[Example 4]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3805</id>
+	<key><![CDATA[See Also]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3810</id>
+	<key><![CDATA[The output might be:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3813</id>
+	<key><![CDATA[None]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3831</id>
+	<key><![CDATA[Example 5]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4425</id>
+	<key><![CDATA[Strings]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4426</id>
+	<key><![CDATA[Arrays]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5152</id>
+	<key><![CDATA[About]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5153</id>
+	<key><![CDATA[Home]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5154</id>
+	<key><![CDATA[Privacy Policy]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5155</id>
+	<key><![CDATA[Sponsors]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5156</id>
+	<key><![CDATA[Help]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5157</id>
+	<key><![CDATA[Team. All rights reserved.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5158</id>
+	<key><![CDATA[Docs]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5802</id>
+	<key><![CDATA[prototypes...]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5812</id>
+	<key><![CDATA[Using a built in enum type. Assume the command is &quot;/cmd $WorldEnvironment&quot; and we expect this to be completed with one of the %s enum values.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5815</id>
+	<key><![CDATA[Returns a closure which can be provided to tabcompleters or run manually, which provides an easy to use syntax for simple to moderately complex tab completion scenarios. Note that this cannot be used in all cases, particularly where there are variable length arguments. In these cases, it's best to write the closure yourself.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5819</id>
+	<key><![CDATA[Using a closure to return dynamic input based on the current user. This could be based on the parameters passed in the closure, but could just as easily be any other dynamic input.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5930</id>
+	<key><![CDATA[You can pass a closure the same parameters as the tabcompleter, and they are expected to return an array. This is useful when the completion logic varies based on the arguments passed in, such as the current player executing the tabcompleter.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5931</id>
+	<key><![CDATA[Simple example, using only pre-baked classes (documentation above under &apos;Strings&apos;). Assume our command looks like this: &quot;/cmd $player&quot;. Note that here we&apos;re using register_command, which is the most likely use of this function, but in the remaining examples this is not shown.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5932</id>
+	<key><![CDATA[Player%s - Online players (%s equivalent, but more efficient)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5933</id>
+	<key><![CDATA[e.g. %sarray(']]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5934</id>
+	<key><![CDATA[Using both player names and an array of completions. Assume our command looks like&quot;/cmd $action $player&quot; where $action can be one of &quot;add&quot; or &quot;remove&quot;.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5935</id>
+	<key><![CDATA[e.g. %sWorldEnvironment%s, which at time of writing is an enum containing the values {NORMAL, NETHER, THE_END}]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5936</id>
+	<key><![CDATA['''Note:''' Calling %sget_tabcomplete_prototype%s with no arguments disables tab completion (always returns an  empty array).]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5937</id>
+	<key><![CDATA[This will run a different closure, depending on whether the previous parameter's value was entered by the user as 1, 2 or 3.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5938</id>
+	<key><![CDATA[e.g. %sclosure(@alias, @sender, @args) { return array(1, 2, 3); }]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5939</id>
+	<key><![CDATA[Boolean%s - Equivalent to array("true", "false")]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5940</id>
+	<key><![CDATA[OfflinePlayer%s - All known players (%s equivalent)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5941</id>
+	<key><![CDATA[Must be enum values, and will autocomplete with the list of values in that enum.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5942</id>
+	<key><![CDATA[The keys of the array:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5943</id>
+	<key><![CDATA[Closures]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5944</id>
+	<key><![CDATA[Arrays are simply returned as is:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5945</id>
+	<key><![CDATA[These are used when you need to provide dynamic functionality based on previous arguments.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5946</id>
+	<key><![CDATA[are used to determine which parameter to look at, and what selector value that parameter must have.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5947</id>
+	<key><![CDATA[Associative arrays]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5948</id>
+	<key><![CDATA[If you have multiple selectors that have the same handler they can be combined into one pipe separated string, for instance %s&lt;enumValue1|&lt;enumValue2%s.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5949</id>
+	<key><![CDATA[In all cases, once the list of completions has been determined, it is compared against the existing input so far of the  user, and only matches that start with the current input are returned.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5950</id>
+	<key><![CDATA[Assume that the command looks like &quot;/cmd $action $Player $group&quot;. The actions are &quot;add&quot; and &quot;remove&quot;, and the total list of groups is array(&quot;a&quot;, &quot;b&quot;, &quot;c&quot;), of which the player is already in group &quot;a&quot;. Also, assume that the procedure _get_user_groups() returns a list of groups the player is already in, and _get_groups() returns a list of all groups.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5951</id>
+	<key><![CDATA[These represent "prebaked" classes, and are listed below:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5952</id>
+	<key><![CDATA[e.g. %sarray(1, 2, 3)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5953</id>
+	<key><![CDATA[Using only %s&lt;%s as a key (with no %senumValue%s following it) is used to represent the default value, which will be used if nothing else matches. If this does not exist, and no other keys match, then no completions will be provided.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5954</id>
+	<key><![CDATA[Using the associative array value. Using this method, we can change the autocomplete of later arguments based on what the user has typed so far.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5955</id>
+	<key><![CDATA[The %s&lt;%s marker can also point to more just the previous value. For instance %s&lt;&lt;%s would also work (e.g. %s&lt;&lt;enumValue%s), meaning to compare with the argument provided two parameters prior.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5956</id>
+	<key><![CDATA[follow the general format of %s&lt;enumValue%s, where %s&lt;%s means that we're comparing to parameter immediately before this one, and %senumValue%s is the selector value that was entered by the user into that parameter.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5957</id>
+	<key><![CDATA[None%s - Returns an empty array, disabling tab complete for this value. This is useful for open fields, such as random strings, or a number.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5958</id>
+	<key><![CDATA[In general, the prototypes can be one of five values - a string, a ClassType of an enum type, an array, a closure, or an associative array.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5959</id>
+	<key><![CDATA[Example:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5960</id>
+	<key><![CDATA[are one of the above completion types (string, ClassType enum, array, closure).]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5961</id>
+	<key><![CDATA[ClassTypes]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5962</id>
+	<key><![CDATA[Given that you can mix multiple argument selector types, it's possible you have a conflict. In this case the behavior is undefined, so it's recommended that you don't mix argument depth indicators (don't use %s&lt;%s and %s&lt;&lt;%s in the same group).]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5963</id>
+	<key><![CDATA[The values of the array:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5964</id>
+	<key><![CDATA[Note that:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+</translations>

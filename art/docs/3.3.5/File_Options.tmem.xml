@@ -1,0 +1,276 @@
+<translations>
+<comment></comment>
+<translationBlock>
+	<id>art-440</id>
+	<key><![CDATA[name]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1715</id>
+	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Fînd å büg în thîs pågə? %sEdît thîs pågə ʎøürsəlf, thən sübmît å püll rəqüəst.]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2857</id>
+	<key><![CDATA[description]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2858</id>
+	<key><![CDATA[requiredExtensions]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2859</id>
+	<key><![CDATA[Below, the various file options and their effects are described:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2860</id>
+	<key><![CDATA[A comma separated list of compiler options. These options are considered to be unset if not present, and set if present.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2861</id>
+	<key><![CDATA[Disables strict mode for this file and adds a description.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2863</id>
+	<key><![CDATA[A comma separated list of extensions that must be loaded in order to compile this file. While it is possible to be more granular by using %s and %s, if the file cannot be useful without a given extension, this directive is preferred.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2864</id>
+	<key><![CDATA[strict]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2866</id>
+	<key><![CDATA[Enables strict mode for just this single file. See the page on [[%s|strict mode]] for a discussion of what this mode actually does.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2867</id>
+	<key><![CDATA[author]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2869</id>
+	<key><![CDATA[created]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2870</id>
+	<key><![CDATA[suppressWarnings]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2871</id>
+	<key><![CDATA[compilerOptions]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2872</id>
+	<key><![CDATA[Enables strict mode and adds a description to the file]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2873</id>
+	<key><![CDATA[Enables strict mode.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2875</id>
+	<key><![CDATA[The general format of a file option is: %soption: value;%s where the semicolon is optional for the last value. However, some file options are booleans. For booleans, either "true" or "on" are considered positive values, and "false" or "off" are considered negative values. Furthermore, leaving the value off entirely, e.g. %soption;%s is equivalent to %soption: on;]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2876</id>
+	<key><![CDATA[This should be the name of the file. If it exists, and the file name does not match this value, the a compiler warning will be issued. The name must simply match the end of the actual file path, so providing a partial path, just the file name, the path within the project, or the absolute path are all acceptable. It is recommended that you do not provide the absolute path however, or the files cannot be easily moved. Both forward and backward slashes are accepted, and spaces in file paths are allowed.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2878</id>
+	<key><![CDATA[Examples]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3060</id>
+	<key><![CDATA[Inheritance]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5152</id>
+	<key><![CDATA[About]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Abøüt]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5153</id>
+	<key><![CDATA[Home]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Hømə]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5154</id>
+	<key><![CDATA[Privacy Policy]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Prîvåcʎ Pølîcʎ]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5155</id>
+	<key><![CDATA[Sponsors]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5156</id>
+	<key><![CDATA[Help]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Həlp]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5157</id>
+	<key><![CDATA[Team. All rights reserved.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Təåm. All rîghts rəsərvəd.]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5158</id>
+	<key><![CDATA[Docs]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Døcs]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5474</id>
+	<key><![CDATA[Default file options can be supplied on a per directory basis, by creating a file named %s.msfileoptions%s in any directory. Scripts in that directory as well as subdirectories will then use the defaults set in this file. If there are multiple .msfileoption files in the parent directory chain, they are read in from root to subfolder, using the value set in the lowest file. That is, if you have a file %s/.msfileoptions%s and %s/scripts/.msfileoptions%s, with options that are set in both files, %s/scripts/.msfileoptions%s will take precedence. In any case, the file options in the file itself always take precedence.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5475</id>
+	<key><![CDATA[copyright]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5476</id>
+	<key><![CDATA[The date this file was created. This value is not used by the compiler, but is perhaps useful information for future readers of the script. This value is accessible via %s.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5477</id>
+	<key><![CDATA[A description of this file. This value is not used by the compiler, but is perhaps useful information for future readers of the script. This value is accessible via %s.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5478</id>
+	<key><![CDATA[The copyright information for the file. This value is accessible via %s.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5479</id>
+	<key><![CDATA[Suppresses the given compiler warnings for this file. The list should be comma separated, but can contain multiple types.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5480</id>
+	<key><![CDATA[File options are a way to granularly control options for a single file. Some file options affect the compiler directly, others are simply used by the reflection mechanism to provide info during runtime, or for future readers of the code. Unrecognized file options are ignored, but are otherwise not an error, however, you should prefix all custom file options with "x-" to prevent future conflicts if new file options are introduced.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5481</id>
+	<key><![CDATA[The author of this file. This value is not used by the system, but is available using %s.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5482</id>
+	<key><![CDATA[The format of this file is the same as for file options directly in source code, except you leave off the beginning %s&lt;!%s and end %s&gt;%s.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5483</id>
+	<key><![CDATA[The license under which the code is released. This can be the full license text or just the name of the license, or perhaps a link to the full license file. Generally, proprietary code does not need a license. This value is accessible via %s.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5484</id>
+	<key><![CDATA[license]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5485</id>
+	<key><![CDATA[The file options must be defined at the top of the file, and can only be proceeded by comments, and start with %s&lt;!%s and end with %s&gt;%s. Newlines within the file options are acceptable. If, within the value, you need a literal &gt; or semicolon, you must escape it with \, so %s\&gt;%s or %s\;%s.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+</translations>

@@ -1,0 +1,353 @@
+<translations>
+<comment></comment>
+<translationBlock>
+	<id>nb-1715</id>
+	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.]]></key>
+	<comment></comment>
+	<translation><![CDATA[Finne en feil på denne siden? %sRediger denne siden selv, og send deretter inn en Pull Request.]]></translation>
+	<auto><![CDATA[Finne en feil på denne siden? %sRediger denne siden selv, og send deretter inn en pull-forespørsel.]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1728</id>
+	<key><![CDATA[Usage]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Bruk]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2542</id>
+	<key><![CDATA[All classes where exactly one constructor is marked as @{Inject} are considered a contract and service in and of  themselves. The default constructor provided if no constructor is defined in the class is automatically marked as injectable.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2543</id>
+	<key><![CDATA[Runtime Configuration]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2544</id>
+	<key><![CDATA[In this example, in order to construct A, we must first construct an instance of B. But in order to construct an instance of B, we must first construct an instance of A! This cycle is detected at compile time, and if such a cycle is detected, it will cause a compile error.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2545</id>
+	<key><![CDATA[This annotation is required to be placed on a single Service, if there are more than one. This is the instance that will be provided if no Qualifiers are specified.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2546</id>
+	<key><![CDATA[While the bulk of the setup for the system must be done with annotations or a config file, as this information must be available at compile time, there are a few settings that can be tweaked at runtime. Particularly, for contracts, the services available may be changed, though they must be changed in a compatible way (i.e. contracts can't be removed, and services with various qualifiers can only be replaced if they have the same qualifiers.). This is mostly useful for unit tests, but it can be used for non-test code as well, if the occasion demands it.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2547</id>
+	<key><![CDATA[This can only be placed on an interface, and declares that this interface is Injectable. That means that code can use this as an injectable interface. Only Services (that is, concrete classes) can be injected without configuration, so if we want to expose an annotation to the ecosystem, we must label it with the Contract annotation.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2548</id>
+	<key><![CDATA[In MethodScript, a contract must be an interface. Every registration of the contract must be accompanied by one or more service (otherwise, it is useless). A concrete class may also be registered as a service in and of itself, though it's generally more flexible to use a contract/service pair. There are 2 ways to declare this setup, using autoconfiguration with annotations, or configuration using a config file, and can be modified further at runtime. In general, for your own code, using the annotations is preferred, but when working across multiple libraries, you may find it more useful to use a config instead. The actual system configuration is loaded in this order: annotations, then config. If a value is defined in annotations and config, then the config definition stands. This makes it possible to provide expected configuration through annotations, but still allows flexibility to override these assumptions later, as well as providing a config at all for library code that doesn't natively provide the configuration.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2550</id>
+	<key><![CDATA[We could also not use DI at all, and simply manually construct an instance of the MailerServiceStub, and pass that in, but that would require a change to the class itself, to accept that parameter in the constructor of Main.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2551</id>
+	<key><![CDATA[Now, if we try to test this code, we don't actually want to send an email every time we run the test, so we can create a stub, and then at runtime in our test code setup, replace the MailerService with a new MailerServiceStub, which does nothing.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2552</id>
+	<key><![CDATA[Let us assume we have the following ecosystem:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2553</id>
+	<key><![CDATA[Qualifiers are optional if there is only one service that implements a contract, though they are required when more than one Service implements a Contract. (We can nonetheless do more complex selection with code during runtime using the addSelector method, though this bypasses the helpful compile errors. See below.) The Qualifier is placed on other annotations, which are themselves placed on Services. They are then used along with an Inject annotation in the main code to provide a "selection strategy" for a deciding which of a Service to use for the injected Contract. For instance:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2554</id>
+	<key><![CDATA[Circular dependencies are not allowed in the DI system. Consider the following example:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2555</id>
+	<key><![CDATA[While the above example is demonstrating stubbing in unit tests, this feature can be used at runtime as well, and as you can see, it makes your code much more flexible than when you use the '''new''' keyword all over the place.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2556</id>
+	<key><![CDATA[Qualifier]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2557</id>
+	<key><![CDATA[We can also add a dynamic service selector, which is only possible using a runtime configuration. The parameter that is attempted to be loaded will sent to the closure, and based on that, the runtime may dynamically select the service that is selected:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2558</id>
+	<key><![CDATA[In this configuration, we define a Counter Contract, and a CounterImpl Service. In general, we could implement this as a static methods, but that becomes less flexible down the road, particularly if we end up changing our design later. Instead, we mark it as @{Singleton}, which means 2 things. One, it is lazily constructed, i.e. it won't be constructed until we actually need it, and two, we will only ever construct it once. We could instead label it with %s@{EagerSingleton}%s, which means that it will be constructed at startup, even if nothing requires it yet, but otherwise works the same as Singleton.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2560</id>
+	<key><![CDATA[Consider this configuration:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2561</id>
+	<key><![CDATA[Inaccessible Services]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2562</id>
+	<key><![CDATA[And voila! We are done configuring the system. Let's discuss each annotation in a bit more detail, however:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2563</id>
+	<key><![CDATA[Default Service]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2564</id>
+	<key><![CDATA[Keep in mind that using a Service as a Contract is less flexible though. In the above example, in class A, we can only provide an instance of Red, regardless. In class B, the system will normally provide an instance of Red, but the runtime and general configuration can be tweaked to provide something other than Red, including providing classes that have yet to be defined, but will be defined in the future.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2565</id>
+	<key><![CDATA[Singleton and Eager Singleton]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2566</id>
+	<key><![CDATA[We have an interface, Color, three classes, Red, Green, Blue, and three annotations, R, G, and B. If we want to make these globally available to the DI system, we can instead add the following annotations:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2567</id>
+	<key><![CDATA[Service]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2568</id>
+	<key><![CDATA[Below is a sample file, which demonstrates the configuration.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2569</id>
+	<key><![CDATA[Configuration File Setup]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2570</id>
+	<key><![CDATA[We can also much more easily provide stubs to a unit test, by overriding the value that is configured to be constructed. Assume we have a contract that defines a Mailer, along with a service that implements that contract.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2571</id>
+	<key><![CDATA[Since DI relies heavily on use of the type system, it is not usually allowed to leave off types. There is one exception to this, if there are qualifiers provided, and there is no ambiguity, it is allowed to leave off types. In the color example, for instance, we could do the following with no problems:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2572</id>
+	<key><![CDATA[If exactly one constructor is marked with @{Inject}, or only one constructor is defined (default constructors are considered to "use injection" for this purpose)  and all the parameters of the constructor are themselves injectable, a neat feature is that that class is itself injectable in other places, with no additional configuration needed. It is a compile  error to try to inject a parameter of a type that is not injectable. To sum up, a class is considered injectable if  exactly one constructor is injectable, it has only a default constructor, or it is correctly configured using the below configuration mechanisms. Members marked with the %s@{Inject}%s annotation are injected one by one after the constructor is executed. They may be private and final, and the DI system ignores these modifiers. It is guaranteed that between the constructor code being run, and the members being injected, no other code in the class will run, the object isn't considered being done constructed until both phases are complete. This is normally not possible, but the runtime itself provides support for this particular case. Still though, it is possible to construct a class without DI, so the final value must nonetheless be provided with a default value, though this will be ignored if the DI system is doing the object construction.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2573</id>
+	<key><![CDATA[Circular Dependencies]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2574</id>
+	<key><![CDATA[Weak Typing and DI]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2575</id>
+	<key><![CDATA[Configuration files may be inherited, so multiple config files may be created, and the final config is a composition of all of the config files combined. However, the first location that the DI system looks at is the prefs folder, in a file named dependency_injection.json. Ultimately, existing annotations are read in first, then the config files that are inherited, and finally, the dependency_injection.json file. Thus, if information is overridden, this is the order of priority.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2576</id>
+	<key><![CDATA[In this example, given the above configuration, where Red is the default service, the injected instance would be Red. It is possible to change this value separately at runtime, so that future injections will be a different value.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2577</id>
+	<key><![CDATA[All of the concepts described in the section on annotations can instead be configured via a configuration file. There are a few cases where this is desirable. First, if you are wanting to backport a third party library to use Dependency Injection, and it doesn't provide the annotations natively. Secondly, if a library does provide annotations, but you wish to override their selections, or third, if you wish to reconfigure your own code, without having to make code changes. It is more difficult to configure using a text file, however, which is why annotations are preferred. However, in some cases, it is the only option.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2578</id>
+	<key><![CDATA[Contract]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2579</id>
+	<key><![CDATA[[%s Dependency Injection] (not to be confused with  [%s Dependency Inversion] despite going hand in hand), is a general programming paradigm that supports more flexible and maintainable code. Generally speaking, dependency injection is the practice of programming against a contract, which defines a set of behaviors, rather than the implementation, (known as a service) which implements the prescribed behaviors. As this is a good programming practice, MethodScript has direct support for following these practices.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2580</id>
+	<key><![CDATA[Annotation Configuration]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2581</id>
+	<key><![CDATA[In general, if multiple Services are defined which implement a Contract, and none of them provide qualifiers, then when attempting to inject the Contract, it may not be possible to ever be provided an instance of a particular Service. This is not strictly an error, however, because this can be changed dynamically at runtime, as well as libraries providing multiple implementations of a Contract, which are intended to be selected from by the user as a configuration (either in a config file, or at runtime.)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5152</id>
+	<key><![CDATA[About]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Om]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5153</id>
+	<key><![CDATA[Home]]></key>
+	<comment></comment>
+	<translation><![CDATA[Hjem]]></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5154</id>
+	<key><![CDATA[Privacy Policy]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Personvern]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5155</id>
+	<key><![CDATA[Sponsors]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Sponsorer]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5156</id>
+	<key><![CDATA[Help]]></key>
+	<comment></comment>
+	<translation><![CDATA[Hjelp]]></translation>
+	<auto><![CDATA[hjelp]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5157</id>
+	<key><![CDATA[Team. All rights reserved.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Team. Alle rettigheter reservert.]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5158</id>
+	<key><![CDATA[Docs]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Dokumenter]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5404</id>
+	<key><![CDATA[The Service annotation can only be applied to a concrete class, though in some cases, is optional. The required case is when there is a Contract, at least one Service must implement that Contract. However, you may have Services without a Contract, and in many cases, even without the configuration, a class is usable as a Service. When it comes to using the DI framework (rather than configuring it), Services (explicitly declared or assumed) can be used as a Contract, so the following is valid:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5405</id>
+	<key><![CDATA[When DI::construct is called on a class, the parameters are automatically constructed, using the rules defined in the configuration. Classes that have the default injectability are constructed using the %s@{Inject}%sable constructor. This process happens recursively, until all parameters required are constructed. In general, there should only be one call to DI::construct per entry point in your program. This helps ensure that your entire ecosystem is correctly configured to handle DI properly, though there are a few legitimate reasons to call this manually.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5406</id>
+	<key><![CDATA[Once set up, this makes it possible to remove most/all uses of the '''new''' keyword in your code, which makes your code more flexible and easier to write. Every use of the '''new''' keyword adds a point of  '''[%s tight coupling]]''', which makes your program less flexible down the road. Instead, using dependency injection essentially allows you to delegate the creation of objects to a centralized place, allowing for easy and quick changes down the road. However, in order to make use of these features, the code you write must explicitly opt in to this system, using the built in dependency injection framework. Configuration will be covered below, but let's assume that we have already configured the system, in that case, we can use the following in our normal code to take advantage of it.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+</translations>

@@ -1,0 +1,500 @@
+<translations>
+<comment></comment>
+<translationBlock>
+	<id>art-624</id>
+	<key><![CDATA[Cmdline]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1681</id>
+	<key><![CDATA['''CommandHelper''' is an alias, macro, and scripting plugin for Minecraft that lets you:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA['''CømmåndHəlpər''' îs ån ålîås, måcrø, ånd scrîptîng plügîn før Mînəcråft thåt ləts ʎøü:]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1682</id>
+	<key><![CDATA[Linux/MacOS]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1684</id>
+	<key><![CDATA['''Documentation:''' There's lots of complexity in the plugin, and without solid documentation, it is nearly worthless. While some of the documentation is generated programmatically, many pages are not. The auto documentation generator leaves room for more detailed information too -- none of which is currently filled in :( From writing examples for each function, to working on the main documentation, and keeping the current documentation up to speed, there's actually a lot to do that has nothing to do with coding!]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA['''Døcüməntåtîøn:''' Thərə's løts øf cømpləxîtʎ în thə plügîn, ånd wîthøüt sølîd døcüməntåtîøn, ît îs nəårlʎ wørthləss. Whîlə sømə øf thə døcüməntåtîøn îs gənəråtəd prøgråmmåtîcållʎ, månʎ pågəs årə nøt. Thə åütø døcüməntåtîøn gənəråtør ləåvəs røøm før mørə dətåîləd înførmåtîøn tøø -- nønə øf whîch îs cürrəntlʎ fîlləd în :( Frøm wrîtîng əxåmpləs før əåch fünctîøn, tø wørkîng øn thə måîn døcüməntåtîøn, ånd kəəpîng thə cürrənt døcüməntåtîøn üp tø spəəd, thərə's åctüållʎ å løt tø dø thåt hås nøthîng tø dø wîth cødîng!]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1685</id>
+	<key><![CDATA[CommandHelper]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1687</id>
+	<key><![CDATA[Previous Versions]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Prəvîøüs Vərsîøns]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1688</id>
+	<key><![CDATA[Need more help? Chat with us on IRC in [[%s|#CommandHelper on irc.esper.net]], on [%s Discord], or go to the [%s issue tracker].]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Nəəd mørə həlp? Chåt wîth üs øn IRC în [[%s|#CømmåndHəlpər øn îrc.əspər.nət]], øn [%s Dîscørd], ør gø tø thə [%s îssüə tråckər].]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1690</id>
+	<key><![CDATA[Do you like the plugin a lot? I certainly don't expect donations, and the any money I receive won't necessarily influence the amount of time I spend on the plugin (well, maybe it will), however I do spend a lot of time working on it, and I certainly won't turn anything down if you want to say thank you! If you reeeeally want a feature added to CommandHelper, and you're willing to pay money, get in contact with me, and we can discuss contract work, and we can discuss your needs, but otherwise, donations are just a way for you to tell me thanks!]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Dø ʎøü lîkə thə plügîn å løt? I cərtåînlʎ døn't əxpəct dønåtîøns, ånd thə ånʎ mønəʎ I rəcəîvə wøn't nəcəssårîlʎ înflüəncə thə åmøünt øf tîmə I spənd øn thə plügîn (wəll, måʎbə ît wîll), høwəvər I dø spənd å løt øf tîmə wørkîng øn ît, ånd I cərtåînlʎ wøn't türn ånʎthîng døwn îf ʎøü wånt tø såʎ thånk ʎøü! If ʎøü rəəəəållʎ wånt å fəåtürə åddəd tø CømmåndHəlpər, ånd ʎøü'rə wîllîng tø påʎ mønəʎ, gət în cøntåct wîth mə, ånd wə cån dîscüss cøntråct wørk, ånd wə cån dîscüss ʎøür nəəds, büt øthərwîsə, dønåtîøns årə jüst å wåʎ før ʎøü tø təll mə thånks!]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1691</id>
+	<key><![CDATA[Syntax-coloring editors]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Sʎntåx-cølørîng ədîtørs]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1692</id>
+	<key><![CDATA[Sublime Text 3 - Cross-platform - Created by Ecconia]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Süblîmə Təxt 3 - Crøss-plåtførm - Crəåtəd bʎ Eccønîå]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1693</id>
+	<key><![CDATA[If you create a syntax highlighter for your favorite text editor, contact us, and we can add it here!]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[If ʎøü crəåtə å sʎntåx hîghlîghtər før ʎøür fåvørîtə təxt ədîtør, cøntåct üs, ånd wə cån ådd ît hərə!]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1694</id>
+	<key><![CDATA[CommandHelper is turning into a large project, and I would love for more people to help work on it. Don't know java? Great! There are things for you to do too! If you're interested in any of the following tasks, feel free to get in touch with me, and we can get you started!]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[CømmåndHəlpər îs türnîng întø å lårgə prøjəct, ånd I wøüld løvə før mørə pəøplə tø həlp wørk øn ît. Døn't knøw jåvå? Grəåt! Thərə årə thîngs før ʎøü tø dø tøø! If ʎøü'rə întərəstəd în ånʎ øf thə følløwîng tåsks, fəəl frəə tø gət în tøüch wîth mə, ånd wə cån gət ʎøü stårtəd!]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1695</id>
+	<key><![CDATA[Notepad++ (Default Theme) - Windows - Created by MrMagical]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Nøtəpåd++ (Dəfåült Thəmə) - Wîndøws - Crəåtəd bʎ MrMågîcål]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1696</id>
+	<key><![CDATA[Write a script to let players message each other while offline.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Wrîtə å scrîpt tø lət plåʎərs məssågə əåch øthər whîlə øfflînə.]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1697</id>
+	<key><![CDATA[For the full changelog, including the changelog for older releases, see [[%s|this page]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Før thə füll chångəløg, înclüdîng thə chångəløg før øldər rələåsəs, səə [[%s|thîs pågə]]]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1698</id>
+	<key><![CDATA[TextWrangler and BBEdit - Mac OS X - Created by Connor Griffin (Very Outdated)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[TəxtWrånglər ånd BBEdît - Måc OS X - Crəåtəd bʎ Cønnør Grîffîn (Vərʎ Oütdåtəd)]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1699</id>
+	<key><![CDATA[__NOTOC__]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1700</id>
+	<key><![CDATA[If you're using bukkit, throw the jar file in the plugins directory, and start your server. On first boot, the proper directory structure with placeholder files will be created, which you can then edit. The configuration directory will be called CommandHelper, and will be in the same directory as the jar.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[If ʎøü'rə üsîng bükkît, thrøw thə jår fîlə în thə plügîns dîrəctørʎ, ånd stårt ʎøür sərvər. On fîrst bøøt, thə prøpər dîrəctørʎ strüctürə wîth plåcəhøldər fîləs wîll bə crəåtəd, whîch ʎøü cån thən ədît. Thə cønfîgüråtîøn dîrəctørʎ wîll bə cålləd CømmåndHəlpər, ånd wîll bə în thə såmə dîrəctørʎ ås thə jår.]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1701</id>
+	<key><![CDATA[How do you use CommandHelper? We have a set of easy to follow articles that you can read!]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Høw dø ʎøü üsə CømmåndHəlpər? Wə håvə å sət øf əåsʎ tø følløw årtîcləs thåt ʎøü cån rəåd!]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1702</id>
+	<key><![CDATA[Alias commands like ''/battle'' to run ''/warp #battlearena''.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Alîås cømmånds lîkə ''/båttlə'' tø rün ''/wårp #båttləårənå''.]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1703</id>
+	<key><![CDATA[If you would to request new functions, it is typically easy to add those, so please post your feature request in the issue tracker. If you happen to find a bug in the program, please let us know so we can fix it!]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[If ʎøü wøüld tø rəqüəst nəw fünctîøns, ît îs tʎpîcållʎ əåsʎ tø ådd thøsə, sø pləåsə pøst ʎøür fəåtürə rəqüəst în thə îssüə tråckər. If ʎøü håppən tø fînd å büg în thə prøgråm, pləåsə lət üs knøw sø wə cån fîx ît!]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1705</id>
+	<key><![CDATA[Feature requests and bugs]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Fəåtürə rəqüəsts ånd bügs]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1706</id>
+	<key><![CDATA[[%s Donations]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[[%s Dønåtîøns]]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1707</id>
+	<key><![CDATA[[[%s|center]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[[[%s|cəntər]]]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1708</id>
+	<key><![CDATA[Atom - Cross-platform - Created by jacobwgillespie]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Atøm - Crøss-plåtførm - Crəåtəd bʎ jåcøbwgîlləspîə]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1709</id>
+	<key><![CDATA[Notepad++ (Obsidian Theme) - Windows - Created by TTSDA (based on MrMagical's Highlighter)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Nøtəpåd++ (Obsîdîån Thəmə) - Wîndøws - Crəåtəd bʎ TTSDA (båsəd øn MrMågîcål's Hîghlîghtər)]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1710</id>
+	<key><![CDATA[and others]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[ånd øthərs]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1711</id>
+	<key><![CDATA[Bukkit]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1712</id>
+	<key><![CDATA[Tired of writing your scripts in a plain black and white text editor? Try a syntax Highlighter!]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Tîrəd øf wrîtîng ʎøür scrîpts în å plåîn blåck ånd whîtə təxt ədîtør? Trʎ å sʎntåx Hîghlîghtər!]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1713</id>
+	<key><![CDATA[The developers of MethodScript do not recommend it (yet) for production or otherwise critical code, however, as a quick scripting language, or for use in Minecraft, it is highly recommended.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Thə dəvəløpərs øf MəthødScrîpt dø nøt rəcømmənd ît (ʎət) før prødüctîøn ør øthərwîsə crîtîcål cødə, høwəvər, ås å qüîck scrîptîng långüågə, ør før üsə în Mînəcråft, ît îs hîghlʎ rəcømməndəd.]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1714</id>
+	<key><![CDATA[Long-term planned features can be found on the [[%s|roadmap]], and short term features can be found on the issue tracker. To request your own features or file a bug, use [%s our issue tracker]. Known bugs can be found on the issue tracker.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Løng-tərm plånnəd fəåtürəs cån bə føünd øn thə [[%s|røådmåp]], ånd shørt tərm fəåtürəs cån bə føünd øn thə îssüə tråckər. Tø rəqüəst ʎøür øwn fəåtürəs ør fîlə å büg, üsə [%s øür îssüə tråckər]. Knøwn bügs cån bə føünd øn thə îssüə tråckər.]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1715</id>
+	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Fînd å büg în thîs pågə? %sEdît thîs pågə ʎøürsəlf, thən sübmît å püll rəqüəst.]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1716</id>
+	<key><![CDATA[If you prefer other text editors, there is community support for other text editors:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[If ʎøü prəfər øthər təxt ədîtørs, thərə îs cømmünîtʎ süppørt før øthər təxt ədîtørs:]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1717</id>
+	<key><![CDATA['''Just want the API?''' See the [[%s|API reference]].]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA['''Jüst wånt thə API?''' Səə thə [[%s|API rəfərəncə]].]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1718</id>
+	<key><![CDATA[Write your own /tp, /time, or /warp]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Wrîtə ʎøür øwn /tp, /tîmə, ør /wårp]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1719</id>
+	<key><![CDATA[Windows]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1720</id>
+	<key><![CDATA['''Want to script completely new features?''' Follow the ''Learning Trail'' at the bottom of the page.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA['''Wånt tø scrîpt cømplətəlʎ nəw fəåtürəs?''' Følløw thə ''Ləårnîng Tråîl'' åt thə bøttøm øf thə pågə.]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1722</id>
+	<key><![CDATA['''Testing:''' While a large portion of CommandHelper has automated tests, there is still no substitute for running [%s beta] versions of CommandHelper on a real server. It would be nice to know that several servers have put it through the ringer before a version goes to full release status.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA['''Təstîng:''' Whîlə å lårgə pørtîøn øf CømmåndHəlpər hås åütømåtəd təsts, thərə îs stîll nø sübstîtütə før rünnîng [%s bətå] vərsîøns øf CømmåndHəlpər øn å rəål sərvər. It wøüld bə nîcə tø knøw thåt səvərål sərvərs håvə püt ît thrøügh thə rîngər bəførə å vərsîøn gøəs tø füll rələåsə ståtüs.]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1723</id>
+	<key><![CDATA['''Want to setup simple aliases?''' Try the [[%s|Beginner's Guide]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA['''Wånt tø sətüp sîmplə ålîåsəs?''' Trʎ thə [[%s|Bəgînnər's Güîdə]]]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1724</id>
+	<key><![CDATA[Donations]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Dønåtîøns]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1725</id>
+	<key><![CDATA[{{TakeNote|text=To generate up-to-the-minute syntax colors you can also run CommandHelper from the command line using %s %sjava -jar CommandHelper.jar syntax npp obsidian%s %s For more detailed instructions, [[%s|see here]]}}]]></key>
+	<comment></comment>
+	<translation><![CDATA[{{TakeNote|text=Tø gənəråtə üp-tø-thə-mînütə sʎntåx cølørs ʎøü cån ålsø rün CømmåndHəlpər frøm thə cømmånd lînə üsîng %s %sjåvå -jår CømmåndHəlpər.jår sʎntåx npp øbsîdîån%s %s Før mørə dətåîləd înstrüctîøns, [[%s|səə hərə]]}}]]></translation>
+	<auto><![CDATA[{{TåkəNøtə|təxt=Tø gənəråtə üp-tø-thə-mînütə sʎntåx cølørs ʎøü cån ålsø rün CømmåndHəlpər frøm thə cømmånd lînə üsîng %s %sjåvå -jår CømmåndHəlpər.jår sʎntåx npp øbsîdîån%s %s Før mørə dətåîləd înstrüctîøns, [[%s|səə hərə]]}}]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1726</id>
+	<key><![CDATA[Changelog]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Chångəløg]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1727</id>
+	<key><![CDATA[Remember that [%s CommandHelper is open source].]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Rəməmbər thåt [%s CømmåndHəlpər îs øpən søürcə].]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1728</id>
+	<key><![CDATA[Usage]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Usågə]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1729</id>
+	<key><![CDATA[Installation]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Instållåtîøn]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1730</id>
+	<key><![CDATA[Tools]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Tøøls]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1731</id>
+	<key><![CDATA[Do much more, from the simple to the complex, with zero Java code.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Dø müch mørə, frøm thə sîmplə tø thə cømpləx, wîth zərø Jåvå cødə.]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1732</id>
+	<key><![CDATA['''Programming:''' From adding functions, to writing test cases, to working on the core aspects of CommandHelper, there are many different tasks to conquer.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA['''Prøgråmmîng:''' Frøm åddîng fünctîøns, tø wrîtîng təst cåsəs, tø wørkîng øn thə cørə åspəcts øf CømmåndHəlpər, thərə årə månʎ dîffərənt tåsks tø cønqüər.]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1735</id>
+	<key><![CDATA[Want to help?]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Wånt tø həlp?]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1736</id>
+	<key><![CDATA[Create an automated battle arena that automatically resets.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Crəåtə ån åütømåtəd båttlə årənå thåt åütømåtîcållʎ rəsəts.]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1737</id>
+	<key><![CDATA[gedit - GNOME/Cross-platform - Created by MrMagical]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[gədît - GNOME/Crøss-plåtførm - Crəåtəd bʎ MrMågîcål]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-1738</id>
+	<key><![CDATA[For previous versions of the documentation, see %shere%s for a directory.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Før prəvîøüs vərsîøns øf thə døcüməntåtîøn, səə %shərə%s før å dîrəctørʎ.]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5152</id>
+	<key><![CDATA[About]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Abøüt]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5153</id>
+	<key><![CDATA[Home]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Hømə]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5154</id>
+	<key><![CDATA[Privacy Policy]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Prîvåcʎ Pølîcʎ]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5155</id>
+	<key><![CDATA[Sponsors]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5156</id>
+	<key><![CDATA[Help]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Həlp]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5157</id>
+	<key><![CDATA[Team. All rights reserved.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Təåm. All rîghts rəsərvəd.]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5158</id>
+	<key><![CDATA[Docs]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Døcs]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5161</id>
+	<key><![CDATA[If you're using the cmdline version, run "java -jar commandhelper-%s-SNAPSHOT-full.jar help" for a listing of the possible commands, and "java -jar commandhelper-%s-SNAPSHOT-full.jar install-cmdline" to install. The configuration directory will be called MethodScript, and will be in the same directory as the jar. If the name or path of the jar file changes, you'll need to re-install, so it may be prudent to name the jar with a neutral name that does not include the version number.]]></key>
+	<comment></comment>
+	<translation><![CDATA[If ʎøü'rə üsîng thə cmdlînə vərsîøn, rün "java -jar commandhelper-%s-SNAPSHOT-full.jar help" før å lîstîng øf thə pøssîblə cømmånds, ånd "java -jar commandhelper-%s-SNAPSHOT-full.jar install-cmdline" tø înståll. Thə cønfîgüråtîøn dîrəctørʎ wîll bə cålləd MəthødScrîpt, ånd wîll bə în thə såmə dîrəctørʎ ås thə jår. If thə nåmə ør påth øf thə jår fîlə chångəs, ʎøü'll nəəd tø rə-înståll, sø ît måʎ bə prüdənt tø nåmə thə jår wîth å nəütrål nåmə thåt døəs nøt înclüdə thə vərsîøn nümbər.]]></translation>
+	<auto><![CDATA[If ʎøü'rə üsîng thə cmdlînə vərsîøn, rün "jåvå -jår cømmåndhəlpər-%s-SNAPSHOT-füll.jår həlp" før å lîstîng øf thə pøssîblə cømmånds, ånd "jåvå -jår cømmåndhəlpər-%s-SNAPSHOT-füll.jår înståll-cmdlînə" tø înståll. Thə cønfîgüråtîøn dîrəctørʎ wîll bə cålləd MəthødScrîpt, ånd wîll bə în thə såmə dîrəctørʎ ås thə jår. If thə nåmə ør påth øf thə jår fîlə chångəs, ʎøü'll nəəd tø rə-înståll, sø ît måʎ bə prüdənt tø nåmə thə jår wîth å nəütrål nåmə thåt døəs nøt înclüdə thə vərsîøn nümbər.]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5368</id>
+	<key><![CDATA[On Windows systems, you'll need to have launched your command prompt as Administrator. (To install on Windows Subsystem for Linux, follow the same instructions as for Unix.) A program ''mscript'' will be installed on your path, and a PowerShell Module will also be installed. Running ''mscript'' will launch the interpreter, running it with a file will run that file, and using ''mscript -- '' followed by a verb (such as help) will run the cmdline utilities.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5369</id>
+	<key><![CDATA[On Unix systems, you'll need to run the command with sudo. The installer will install an mscript bash file in /usr/local/bin/mscript, which simply wraps the jar. Running ''mscript'' will launch the interpreter, running it with a file will run that file, and using ''mscript -- '' followed by a verb (such as help) will run the cmdline utilities.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5769</id>
+	<key><![CDATA['''MethodScript''' is the name of the programming language that CommandHelper uses, and there is a commandline version of MethodScript as well, that you can use outside of Minecraft. MethodScript is an imperative, dynamic, event driven, value-level, metaprogramming (reflective), structured (block-structured, semi-object-oriented, semi-class-based, recursive), parallel, partially strongly typed language, and is an active work in progress.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5770</id>
+	<key><![CDATA[The Visual Studio Code [%s MethodScriptVSC] IDE is the only officially supported IDE/Syntax Highlighter, and is most likely the most feature rich and up-to-date version, so it is highly recommended. To install, [%s download Visual Studio Code] (free, on all platforms), and install the MethodScriptVSC extension from the extensions tab.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5795</id>
+	<key><![CDATA[{{TakeNote|text=The manual installation instructions are still valid if you wish to customize your install, but for Windows, you can use the pre-packaged standalone installer, found [%s here].}}]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5971</id>
+	<key><![CDATA[Only the latest development build is officially supported, but there is some community support for older builds, which you can get by joining IRC or Discord. For the latest builds, head to [[%s|the download page]] and click the latest build. You can also download the versionless jar that corresponds to the exact version that this site was built with [[%s|here]], though this is not considered to be the supported version.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6111</id>
+	<key><![CDATA[Java >= 16 is required to run MethodScript.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6112</id>
+	<key><![CDATA[For Java versions > 9, you may see errors such as "An illegal reflective access operation has occurred." For Java versions less than 17, you can simply add --illegal-access=permit to the JVM options, but for more granular control, you can instead add the output of %sjava -jar commandhelper-%s-SNAPSHOT-full.jar cmdline-args%s to your java startup arguments, or alternatively, dynamically call this command so that future updates will automatically conform to the necessary arguments.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6113</id>
+	<key><![CDATA[Alternatively, for advanced users, you could download the sources and build it yourself locally. To do that, you need git, maven, and jdk >= 16. Pull down the code with %sgit clone git@github.com:EngineHub/CommandHelper.git%s, then follow the directions in [%s the README].]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6114</id>
+	<key><![CDATA[Installation isn't strictly required, you can run MethodScript directly using the java -jar command, however, using the mscript wrapper provides some additional functionality, such as setting up the appropriate options to the JVM.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6115</id>
+	<key><![CDATA[For Java versions >= 17, this process is mandatory, as --illegal-access will be removed from the JVM, and the necessary --add-opens parameters will be the only way to provide the necessary access. This is also necessary for fully proper execution of signal handling in MethodScript.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+</translations>

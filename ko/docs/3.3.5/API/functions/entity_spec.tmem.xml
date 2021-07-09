@@ -1,0 +1,1319 @@
+<translations>
+<comment></comment>
+<translationBlock>
+	<id>ko-421</id>
+	<key><![CDATA[entityID]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-445</id>
+	<key><![CDATA[Yes]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2878</id>
+	<key><![CDATA[Examples]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3788</id>
+	<key><![CDATA[Vital Info]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3789</id>
+	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.%s (Note this page is automatically generated from the documentation in the source code.)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3791</id>
+	<key><![CDATA[Usages]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3792</id>
+	<key><![CDATA[Sorry, there are no examples for this function! :(]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3805</id>
+	<key><![CDATA[See Also]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3813</id>
+	<key><![CDATA[None]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4065</id>
+	<key><![CDATA[playercreated: Whether the iron golem was built by a player or not.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4066</id>
+	<key><![CDATA[type: The type of the rabbit (can be BROWN, WHITE, BLACK, BLACK_AND_WHITE, GOLD, SALT_AND_PEPPER, or THE_KILLER_BUNNY).]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4067</id>
+	<key><![CDATA[MAGMA_CUBE]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4068</id>
+	<key><![CDATA[DROPPED_ITEM]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4070</id>
+	<key><![CDATA[powered: If the Creeper is powered or not.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4072</id>
+	<key><![CDATA[critical: If this arrow is critical. (boolean)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4073</id>
+	<key><![CDATA[effect: Whether the strike is an effect that does no damage. Not editable.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4074</id>
+	<key><![CDATA[gravity: If the ArmorStand has gravity (falls) or not (floats in midair). Defaults to true.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4075</id>
+	<key><![CDATA[source: The source of the cloud. Can be living entity, dispenser location array, or %s.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4076</id>
+	<key><![CDATA[VILLAGER]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4077</id>
+	<key><![CDATA[SHULKER_BULLET]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4078</id>
+	<key><![CDATA[chest: Whether the horse has a chest equipped.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4079</id>
+	<key><![CDATA[AREA_EFFECT_CLOUD]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4080</id>
+	<key><![CDATA[damage: If the falling block can damage entities.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4081</id>
+	<key><![CDATA[beamtarget: The location the EnderCrystal beam is targeting, or %s if there's no target.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4082</id>
+	<key><![CDATA[PAINTING]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4083</id>
+	<key><![CDATA[derp: With derp mode set to true the snowman wears no pumpkin]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4084</id>
+	<key><![CDATA[sitting: If the wolf is sitting.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4085</id>
+	<key><![CDATA[effects: An array of firework effect arrays. (see %s)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4086</id>
+	<key><![CDATA[baseplate: Whether or not the ArmorStand has a base plate. Defaults to true.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4087</id>
+	<key><![CDATA[size: The size of the slime.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4088</id>
+	<key><![CDATA[knockback: The knockback strength. (double)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4089</id>
+	<key><![CDATA[domestication: The domestication level of the horse (can't be higher than the maximum domestication level).]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4090</id>
+	<key><![CDATA[SLIME]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4091</id>
+	<key><![CDATA[offset: The offset of the block being displayed.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4092</id>
+	<key><![CDATA[style: The horse's style (can be NONE, SOCKS, WHITEFIELD, WHITE_DOTS, or BLACK_DOTS).]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4093</id>
+	<key><![CDATA[phase: What AI phase the EnderDragon is in. (can be BREATH_ATTACK, CHARGE_PLAYER, CIRCLING, DYING, FLY_TO_PORTAL, HOVER, LAND_ON_PORTAL, LEAVE_PORTAL, ROAR_BEFORE_ATTACK, SEARCH_FOR_BREATH_ATTACK_TARGET, or STRAFING)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4094</id>
+	<key><![CDATA[radiuspertick: The distance the radius will change per tick.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4095</id>
+	<key><![CDATA[reapplicationdelay: The interval in ticks for how often effects are applied to entities in cloud.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4096</id>
+	<key><![CDATA[pickupdelay: The delay before the item is available to be picked up.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4097</id>
+	<key><![CDATA[durationonuse: The amount the duration will change when the effects are applied.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4098</id>
+	<key><![CDATA[charged: Whether or not the wither skull is charged.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4100</id>
+	<key><![CDATA[saddle: An item pertaining to the saddle a horse has put on. Can be anything.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4101</id>
+	<key><![CDATA[Returns an associative array containing all the data of the given entity that are too specific to have its own function.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4104</id>
+	<key><![CDATA[drop: Whether or not the EnderEye will drop an item on despawn.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4105</id>
+	<key><![CDATA[fuseticks: The number of ticks until the explosion.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4106</id>
+	<key><![CDATA[DONKEY, MULE]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4107</id>
+	<key><![CDATA[visible: Whether or not the ArmorStand is visible. Defaults to true.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4108</id>
+	<key><![CDATA[crouching: Whether or not the fox is crouching.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4109</id>
+	<key><![CDATA[color: The color of the shulker (can be WHITE, ORANGE, MAGENTA, LIGHT_BLUE, YELLOW, LIME, PINK, GRAY, LIGHT_GRAY, CYAN, PURPLE, BLUE, BROWN, GREEN, RED, or BLACK).]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4110</id>
+	<key><![CDATA[OCELOT]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4111</id>
+	<key><![CDATA[MINECART_COMMAND]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4112</id>
+	<key><![CDATA[ENDERMAN]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4113</id>
+	<key><![CDATA[marker: Whether or not it has a tiny collision box and disables interaction. Defaults to false.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4114</id>
+	<key><![CDATA[dropitem: If the falling block will break into an item if it cannot be placed.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4115</id>
+	<key><![CDATA[ZOMBIE_VILLAGER]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4116</id>
+	<key><![CDATA[FIREBALL, DRAGON_FIREBALL, SMALL_FIREBALL]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4117</id>
+	<key><![CDATA[sitting: If the parrot is sitting.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4118</id>
+	<key><![CDATA[color: The base color of the fish (can be WHITE, ORANGE, MAGENTA, LIGHT_BLUE, YELLOW, LIME, PINK, GRAY, LIGHT_GRAY, CYAN, PURPLE, BLUE, BROWN, GREEN, RED, or BLACK).]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4119</id>
+	<key><![CDATA[critical: If this trident is critical. (boolean)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4120</id>
+	<key><![CDATA[customname: The name of the command minecart.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4121</id>
+	<key><![CDATA[ENDER_DRAGON]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4122</id>
+	<key><![CDATA[EXPERIENCE_ORB]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4123</id>
+	<key><![CDATA[rotation: The rotation of the frame's item (can be CLOCKWISE, CLOCKWISE_135, CLOCKWISE_45, COUNTER_CLOCKWISE, COUNTER_CLOCKWISE_45, FLIPPED, FLIPPED_45, or NONE).]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4124</id>
+	<key><![CDATA[direction: The direction the wither skull is heading toward.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4125</id>
+	<key><![CDATA[SPLASH_POTION, LINGERING_POTION (removed in 1.14, use SPLASH_POTION)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4126</id>
+	<key><![CDATA[profession: The profession of the villager (can be BUTCHER, FARMER, LIBRARIAN, NITWIT, ARMORER, CARTOGRAPHER, CLERIC, FISHERMAN, FLETCHER, LEATHERWORKER, MASON, NONE, SHEPHERD, TOOLSMITH, or WEAPONSMITH).]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4128</id>
+	<key><![CDATA[ARROW]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4129</id>
+	<key><![CDATA[size: The size of the magma cube.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4130</id>
+	<key><![CDATA[angry: If the wolf is angry.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4131</id>
+	<key><![CDATA[CREEPER]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4132</id>
+	<key><![CDATA[ENDER_EYE]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4133</id>
+	<key><![CDATA[TIPPED_ARROW (removed in 1.14, use ARROW)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4134</id>
+	<key><![CDATA[critical: If this spectral arrow is critical. (boolean)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4135</id>
+	<key><![CDATA[FIREWORK]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4136</id>
+	<key><![CDATA[PRIMED_TNT]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4137</id>
+	<key><![CDATA[BOAT]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4138</id>
+	<key><![CDATA[SHULKER]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4139</id>
+	<key><![CDATA[block: The material name of the block being displayed.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4141</id>
+	<key><![CDATA[pattern: The pattern type on the fish (can be KOB, SUNSTREAK, SNOOPER, DASHER, BRINELY, SPOTTY, FLOPPER, STRIPEY, GLITTER, BLOCKFISH, BETTY, or CLAYFISH).]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4142</id>
+	<key><![CDATA[waittime: The age of the cloud in ticks before effects can be applied.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4143</id>
+	<key><![CDATA[amount: How much experience is contained within the orb.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4145</id>
+	<key><![CDATA[target: The UUID of the entity the bullet will head toward, or %s if there is no target.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4146</id>
+	<key><![CDATA[arms: Whether or not the ArmorStand has arms. Defaults to false.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4147</id>
+	<key><![CDATA[radius: The radius of the cloud.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4148</id>
+	<key><![CDATA[SKELETON_HORSE, ZOMBIE_HORSE]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4149</id>
+	<key><![CDATA[WOLF]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4150</id>
+	<key><![CDATA[sitting: If the ocelot is sitting. (1.13 only)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4152</id>
+	<key><![CDATA[IRON_GOLEM]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4153</id>
+	<key><![CDATA[block: The falling block. Not editable.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4154</id>
+	<key><![CDATA[damage: The amount of damage. (double)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4155</id>
+	<key><![CDATA[strength: The firework rocket's flight time.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4156</id>
+	<key><![CDATA[direction: The direction the fireball is heading toward.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4157</id>
+	<key><![CDATA[SHEEP]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4158</id>
+	<key><![CDATA[type: The art on the painting (can be KEBAB, AZTEC, ALBAN, AZTEC2, BOMB, PLANT, WASTELAND, POOL, COURBET, SEA, SUNSET, CREEBET, WANDERER, GRAHAM, MATCH, BUST, STAGE, VOID, SKULL_AND_ROSES, WITHER, FIGHTERS, POINTER, PIGSCENE, BURNING_SKULL, SKELETON, or DONKEY_KONG).]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4159</id>
+	<key><![CDATA[MINECART, MINECART_FURNACE, MINECART_HOPPER, MINECART_MOB_SPAWNER, MINECART_TNT]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4160</id>
+	<key><![CDATA[despawnticks: The number of ticks counted until despawn. (will despawn after 80 ticks)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4161</id>
+	<key><![CDATA[TRIDENT]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4162</id>
+	<key><![CDATA[patterncolor: The color of the pattern on the fish.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4163</id>
+	<key><![CDATA[SNOWMAN]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4164</id>
+	<key><![CDATA[item: The item for the thrown potion.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4165</id>
+	<key><![CDATA[command: The command that the command minecart will run when activated.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4166</id>
+	<key><![CDATA[radiusonuse: The distance the radius will change when the effects are applied.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4167</id>
+	<key><![CDATA[explosionradius: The radius of the Creeper's explosion.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4168</id>
+	<key><![CDATA[base: If the EnderCrystal base is showing or not.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4169</id>
+	<key><![CDATA[HORSE]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4170</id>
+	<key><![CDATA[duration: The duration of the cloud in ticks.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4171</id>
+	<key><![CDATA[ARMOR_STAND]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4172</id>
+	<key><![CDATA[PARROT]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4173</id>
+	<key><![CDATA[LIGHTNING]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4174</id>
+	<key><![CDATA[EVOKER_FANGS]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4175</id>
+	<key><![CDATA[sitting: Whether or not the fox is sitting.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4176</id>
+	<key><![CDATA[FOX]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4177</id>
+	<key><![CDATA[color: The llama's color (can be CREAMY, WHITE, BROWN, or GRAY).]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4179</id>
+	<key><![CDATA[LLAMA, TRADER_LLAMA]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4180</id>
+	<key><![CDATA[SPECTRAL_ARROW]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4181</id>
+	<key><![CDATA[type: The type of the parrot (can be RED, BLUE, GREEN, CYAN, or GRAY).]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4182</id>
+	<key><![CDATA[small: Whether or not the ArmorStand is scaled to child-size. Defaults to false.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4183</id>
+	<key><![CDATA[source: The source of the primed TNT. Not editable.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4184</id>
+	<key><![CDATA[CAT]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4185</id>
+	<key><![CDATA[maxfuseticks: The max amount of time in server ticks that the Creeper can be primed before exploding.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4186</id>
+	<key><![CDATA[RABBIT]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4187</id>
+	<key><![CDATA[item: The item in the frame.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4188</id>
+	<key><![CDATA[jump: The jump strength (between 1.0 and 2.0).]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4189</id>
+	<key><![CDATA[type: The type of fox. (can be RED or SNOW)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4190</id>
+	<key><![CDATA[armor: An item pertaining to the armor a horse has put on.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4191</id>
+	<key><![CDATA[potionmeta: An array of potion effect arrays for the cloud.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4192</id>
+	<key><![CDATA[potionmeta: An associative array with a "base" potion array and a "potions" array of effect arrays for a tipped arrow.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4193</id>
+	<key><![CDATA[ENDER_CRYSTAL]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4194</id>
+	<key><![CDATA[type: The type of the ocelot (can be BLACK_CAT, RED_CAT, SIAMESE_CAT, or WILD_OCELOT). (1.13 only)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4195</id>
+	<key><![CDATA[TROPICAL_FISH]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4197</id>
+	<key><![CDATA[glowingticks: The number of ticks the hit entity will glow. (int)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4198</id>
+	<key><![CDATA[profession: The profession of the villager (can be BUTCHER, FARMER, LIBRARIAN, NITWIT, ARMORER, CARTOGRAPHER, CLERIC, FISHERMAN, FLETCHER, LEATHERWORKER, MASON, NONE, SHEPHERD, TOOLSMITH, or WEAPONSMITH). This list differs in 1.14 from 1.13.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4199</id>
+	<key><![CDATA[poses: An array where the keys are body parts, and the values are 3D vector arrays. Each component of those arrays is the angle (in radians) of the rotation of that body part around the corresponding axis, relative to the default position (where all angles are 0). Setting these values uses an update method, where only values specified will be changed. This allows you to rotate a single body part around a single axis without knowing the rotations on the other axis or of other body parts beforehand.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4200</id>
+	<key><![CDATA[MUSHROOM_COW]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4201</id>
+	<key><![CDATA[type: Which tree species the boat is composed of. (can be ACACIA, BIRCH, DARK_OAK, JUNGLE, OAK, or SPRUCE)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4202</id>
+	<key><![CDATA[color: The horse's color (can be BLACK, BROWN, CHESTNUT, CREAMY, DARK_BROWN, GRAY, or WHITE).]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4203</id>
+	<key><![CDATA[itemstack: An array representing the item.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4204</id>
+	<key><![CDATA[WITHER_SKULL]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4205</id>
+	<key><![CDATA[type: The type of mushroom cow. (can be RED or BROWN).]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4206</id>
+	<key><![CDATA[color: The collar color of the wolf (can be WHITE, ORANGE, MAGENTA, LIGHT_BLUE, YELLOW, LIME, PINK, GRAY, LIGHT_GRAY, CYAN, PURPLE, BLUE, BROWN, GREEN, RED, or BLACK).]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4207</id>
+	<key><![CDATA[baby: Whether the pig zombie is a baby.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4208</id>
+	<key><![CDATA[FALLING_BLOCK]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4209</id>
+	<key><![CDATA[sheared: Whether the sheep is sheared.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4210</id>
+	<key><![CDATA[target: The target location array that the EnderEye will travel towards.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4211</id>
+	<key><![CDATA[baby: Whether the zombie is a baby.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4212</id>
+	<key><![CDATA[color: The color of the sheep (can be WHITE, ORANGE, MAGENTA, LIGHT_BLUE, YELLOW, LIME, PINK, GRAY, LIGHT_GRAY, CYAN, PURPLE, BLUE, BROWN, GREEN, RED, or BLACK).]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4214</id>
+	<key><![CDATA[source: The UUID of the living entity, usually an Evoker, that is the source of the fangs. Can be %s.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4215</id>
+	<key><![CDATA[maxdomestication: The maximum domestication level of the horse.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4216</id>
+	<key><![CDATA[sitting: Whether or not the cat is sitting.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-4217</id>
+	<key><![CDATA[type: The type of the cat. (can be ALL_BLACK, BLACK, BRITISH_SHORTHAIR, CALICO, JELLIE, PERSIAN, RAGDOLL, RED, SIAMESE, TABBY, or WHITE)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5152</id>
+	<key><![CDATA[About]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5153</id>
+	<key><![CDATA[Home]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5154</id>
+	<key><![CDATA[Privacy Policy]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5155</id>
+	<key><![CDATA[Sponsors]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5156</id>
+	<key><![CDATA[Help]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5157</id>
+	<key><![CDATA[Team. All rights reserved.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5158</id>
+	<key><![CDATA[Docs]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5173</id>
+	<key><![CDATA[hiddengene: The recessive trait for this panda.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5174</id>
+	<key><![CDATA[maingene: The dominant trait for this panda (can be AGGRESSIVE, BROWN, LAZY, NORMAL, PLAYFUL, WEAK, or WORRIED).]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5175</id>
+	<key><![CDATA[level: The level of villager's profession. Can be 1-5. (not in 1.13)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5176</id>
+	<key><![CDATA[PANDA]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5177</id>
+	<key><![CDATA[experience: The amount of experience in the villager's profession towards the next level. (not in 1.13)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5278</id>
+	<key><![CDATA[color: The color array of the particle, if applicable (eg. SPELL_MOB particle type).]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5315</id>
+	<key><![CDATA[VEX]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5316</id>
+	<key><![CDATA[charging: Whether or not this vex is charging.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5322</id>
+	<key><![CDATA[hivelocation: The location array of the bee's hive, or %s.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5323</id>
+	<key><![CDATA[anger: The remaining time in ticks that the bee is angry.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5325</id>
+	<key><![CDATA[stung: Whether or not the bee has stung something.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5326</id>
+	<key><![CDATA[BEE]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5327</id>
+	<key><![CDATA[flowerlocation: The location array of the flower the bee is targeting, or %s.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5328</id>
+	<key><![CDATA[nector: Whether or not the bee is carrying pollen.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5425</id>
+	<key><![CDATA[size: The size of the phantom. Clamped to 0 - 64 (default: 0). Phantoms deal (6 + size) damage.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5426</id>
+	<key><![CDATA[PHANTOM]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5638</id>
+	<key><![CDATA[anger: The piglin zombie's anger level.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5639</id>
+	<key><![CDATA[angry: Whether the piglin zombie is angry.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5657</id>
+	<key><![CDATA[ZOMBIE, HUSK, DROWNED, ZOGLIN, PIGLIN]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5659</id>
+	<key><![CDATA[fixed: If true, the item frame cannot be manipulated. (destroyed, rotated, removed, etc) (default false)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5660</id>
+	<key><![CDATA[ZOMBIFIED_PIGLIN (PIG_ZOMBIE before 1.16)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5661</id>
+	<key><![CDATA[PIG, STRIDER]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5662</id>
+	<key><![CDATA[carried: The block that the Enderman is carrying.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5663</id>
+	<key><![CDATA[visible: If the frame is visible. (default true)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5664</id>
+	<key><![CDATA[saddled: If the steerable mob has a saddle.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6140</id>
+	<key><![CDATA[AXOLOTL]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6141</id>
+	<key><![CDATA[particle: The particle type which comprises the cloud (can be SMOKE_NORMAL, ENCHANTMENT_TABLE, REDSTONE, SOUL_FIRE_FLAME, SNOW_SHOVEL, BUBBLE_COLUMN_UP, SPELL_MOB, REVERSE_PORTAL, CAMPFIRE_SIGNAL_SMOKE, BLOCK_DUST, FALLING_HONEY, SPORE_BLOSSOM_AIR, DRIPPING_DRIPSTONE_LAVA, SWEEP_ATTACK, WATER_SPLASH, LANDING_LAVA, SLIME, FALLING_LAVA, DRAGON_BREATH, DRIPPING_OBSIDIAN_TEAR, CURRENT_DOWN, ELECTRIC_SPARK, DRIPPING_HONEY, LANDING_OBSIDIAN_TEAR, ITEM_CRACK, LIGHT, WARPED_SPORE, DUST_COLOR_TRANSITION, FALLING_DUST, SNEEZE, WATER_BUBBLE, WHITE_ASH, GLOW, FLASH, VILLAGER_ANGRY, FALLING_DRIPSTONE_LAVA, FALLING_DRIPSTONE_WATER, HEART, LANDING_HONEY, END_ROD, FALLING_NECTAR, CRIT_MAGIC, SUSPENDED, WATER_DROP, SPELL, FALLING_WATER, SPELL_INSTANT, LAVA, WAX_ON, VILLAGER_HAPPY, SQUID_INK, CRIT, VIBRATION, DRIPPING_DRIPSTONE_WATER, CLOUD, BUBBLE_POP, COMPOSTER, SCRAPE, NAUTILUS, FALLING_SPORE_BLOSSOM, SMALL_FLAME, EXPLOSION_LARGE, TOWN_AURA, SUSPENDED_DEPTH, CAMPFIRE_COSY_SMOKE, SOUL, NOTE, ASH, SNOWBALL, SPELL_MOB_AMBIENT, DAMAGE_INDICATOR, SMOKE_LARGE, CRIMSON_SPORE, TOTEM, BARRIER, EXPLOSION_NORMAL, FLAME, SPIT, FALLING_OBSIDIAN_TEAR, PORTAL, MOB_APPEARANCE, WAX_OFF, DOLPHIN, SPELL_WITCH, DRIP_WATER, GLOW_SQUID_INK, EXPLOSION_HUGE, SNOWFLAKE, WATER_WAKE, UNKNOWN, FIREWORKS_SPARK, DRIP_LAVA, or BLOCK_CRACK). Can accept a particle array for setting index data required for specific particle types. This particle array must contain a "particle" key, and supports the keys "block", "item", or "color" when applicable.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6142</id>
+	<key><![CDATA[GOAT]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6143</id>
+	<key><![CDATA[type: The type of the axolotl. (can be BLUE, CYAN, GOLD, LUCY, or WILD)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6144</id>
+	<key><![CDATA[ITEM_FRAME, GLOW_ITEM_FRAME]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6145</id>
+	<key><![CDATA[screaming: Whether or not this is a screaming goat]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+</translations>

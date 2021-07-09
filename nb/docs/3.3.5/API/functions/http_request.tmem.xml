@@ -1,0 +1,626 @@
+<translations>
+<comment></comment>
+<translationBlock>
+	<id>nb-445</id>
+	<key><![CDATA[Yes]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-730</id>
+	<key><![CDATA[url, callback %s url, settings]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1276</id>
+	<key><![CDATA[int]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2878</id>
+	<key><![CDATA[Examples]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3489</id>
+	<key><![CDATA[password]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3535</id>
+	<key><![CDATA[username]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3788</id>
+	<key><![CDATA[Vital Info]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3789</id>
+	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.%s (Note this page is automatically generated from the documentation in the source code.)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3791</id>
+	<key><![CDATA[Usages]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3795</id>
+	<key><![CDATA[Example 1]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3796</id>
+	<key><![CDATA[Given the following code:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3797</id>
+	<key><![CDATA[Example 2]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3803</id>
+	<key><![CDATA[Example 3]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3805</id>
+	<key><![CDATA[See Also]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3810</id>
+	<key><![CDATA[The output might be:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3813</id>
+	<key><![CDATA[None]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-4031</id>
+	<key><![CDATA[timeout]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-4046</id>
+	<key><![CDATA[false]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-4325</id>
+	<key><![CDATA[If this is not %s, the file will be downloaded instead of returned, and saved to the specified location on disk. The contents are saved to disk as is, so the value of binary is not relevant, and is ignored. Note that this is currently only enabled from cmdline mode, but will be added in general at a later date. If this setting is set from non-cdmline mode, it is silently ignored.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-4326</id>
+	<key><![CDATA[{{Warning|text=There are a limited number of outgoing "slots" that can be used  at any given time. This method is meant for quick completing requests, not lengthy requests.}}]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-4327</id>
+	<key><![CDATA[boolean error - This bit is set to true if a 4xx or 5xx response code was received.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-4329</id>
+	<key><![CDATA[downloadStrategy]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-4330</id>
+	<key><![CDATA[array headers - An associative array of arrays of the returned headers. Often times headers are not repeated, so @response['headers']['Server'][0] for instance will be acceptable. Headers are not usually needed for non-referencial purposes anyways.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-4331</id>
+	<key><![CDATA[download]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-4332</id>
+	<key><![CDATA[boolean httpOnly - If true, this cookie shouldn't be provided to clients. In practice, this isn't very useful however.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-4333</id>
+	<key><![CDATA[followRedirects]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-4334</id>
+	<key><![CDATA[If true, the system will automatically follow 3xx series redirect codes, and will then access the resulting page, instead of simply returning at that point. The default is true, because more often than not, you shouldn't care if a page redirects a few times first, and only want the resulting page.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-4335</id>
+	<key><![CDATA[If binary is false, then this is the character encoding to assume.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-4336</id>
+	<key><![CDATA[The settings can adjust the more complicated options needed to do more complex tasks, but for most basic needs, the usage is very straightforward. One thing you may more commonly find yourself needing is cookie support. Cookies are managed by default by the framework, though you must provide a "cookie jar" for it to use. The cookie is just an array which you give it, it can be empty at first, or you can add cookies manually, if you know exactly what you're doing. After a "session" you can either throw out all the cookies, or use http_clear_session_cookies on the cookie jar object, which will clear the appropriate cookies for you. You may keep as many separate cookie jars as you like, and each is considered a separate "session".]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-4337</id>
+	<key><![CDATA[Getting headers from a website]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-4338</id>
+	<key><![CDATA[int responseText - The response text of the request, for instance "Not Found" for a 404]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-4339</id>
+	<key><![CDATA[string value - The value of this cookie]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-4340</id>
+	<key><![CDATA[string body - The string body content of the response. This is usually the only thing of interest in the response. This will not be present if binary was true.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-4341</id>
+	<key><![CDATA[Sending some json to the server]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-4342</id>
+	<key><![CDATA[textEncoding]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-4343</id>
+	<key><![CDATA[Using a cookie jar]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-4344</id>
+	<key><![CDATA[method]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-4345</id>
+	<key><![CDATA[If value is %s, then the default JVM behavior is used. If trustStore is false, then no trust store will be used, and all certificates will be trusted when making https connections (NOTE: this is generally dangerous. Instead, you should use specific overrides, by providing an array). If the value is an array, it is assumed to be an array of fingerprints: hash mechanism, for instance: array('02 79 AB D6 97 19 A2 CB E8 79 11 B2 7F AF 8D': 'SHA-256'). The spaces in the fingerprint are optional. The JVM's trust store is used in addition to the provided fingerprints, so already valid certificates do not need to be listed here. If you wish to disable the JVM's store, and only use the provided certificates, then you can send exactly the key/value pair ('no default': 'no default') as a value inside of the array, and the default JVM certificates will be ignored. When providing fingerprints, only the highest security scheme should be provided (don't provide a SHA-1 fingerprint if a SHA-256 one is available). If multiple fingerprints for the same certificate are provided, then they will be resolved top to bottom. When using the default trust store, the certificate is first checked with the built in trust store, and then only if it fails is custom store checked. This prevents you from having to update your custom trust store if the certificate is later changed to a valid certificate. It is not required that you provide the leaf certificate. If a parent certificate is provided, then the whole certificate chain is considered trusted.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-4346</id>
+	<key><![CDATA[UTF-8]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-4347</id>
+	<key><![CDATA[FileWriteMode]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-4350</id>
+	<key><![CDATA[params]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-4351</id>
+	<key><![CDATA[If true, a byte_array of the content is returned, instead of a string. If false, then the textEncoding parameter decides on the encoding format to use.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-4352</id>
+	<key><![CDATA[useDefaultHeaders]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-4353</id>
+	<key><![CDATA[string name - The name of this cookie]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-4354</id>
+	<key><![CDATA[Sets the username to use in response to basic HTTP authentication challenges.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-4355</id>
+	<key><![CDATA[success]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-4356</id>
+	<key><![CDATA[binary]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-4357</id>
+	<key><![CDATA[true]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-4358</id>
+	<key><![CDATA[trustStore]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-4359</id>
+	<key><![CDATA[A FormatException will be thrown by the function itself if the URL is malformed.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-4360</id>
+	<key><![CDATA[int responseCode - The response code of the request, for instance 404 for pages that aren't found.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-4361</id>
+	<key><![CDATA[boolean or array]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-4362</id>
+	<key><![CDATA[log]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-4363</id>
+	<key><![CDATA[Sets the timeout that the background thread will wait for before giving up. 0 means no timeout, though this isn't recommended, because this could cause future calls to http_request to fail, because there is a limited number of web requests that can be running concurrently.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-4364</id>
+	<key><![CDATA[Sets the password to use in response to basic HTTP authentication challenges.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-4365</id>
+	<key><![CDATA[error]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-4366</id>
+	<key><![CDATA[cookiejar]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-4367</id>
+	<key><![CDATA[string httpVersion - The HTTP version the server is using, for instance "1.1"]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-4368</id>
+	<key><![CDATA[string path - The path under which this cookie applies in the domain]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-4369</id>
+	<key><![CDATA[When initially writing code, it may be useful to get explicit debug information printed out. If this is set to true, then detailed debug information will be printed to console.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-4370</id>
+	<key><![CDATA[SAFE_WRITE]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-4371</id>
+	<key><![CDATA[An array of cookies. If the parameter is %s, then cookies will not be managed at all by this function, but if the array is empty (or already contains some cookies) then the cookies will be managed automatically. If you intend on using cookies, it is strongly recommended that you allow this system to automatically parse the cookies from the responses and set the cookies in the cookie jar, as there are many security flaws that can be introduced with a poor cookie manager implementation, and care has been taken to implement this correctly. Regardless, each cookie will be an array with the following fields set:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-4372</id>
+	<key><![CDATA[blocking]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-4373</id>
+	<key><![CDATA[byte_array data - The binary content of the response. This will only be present if binary was true.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-4374</id>
+	<key><![CDATA[An associative array of parameters to send. If the method is GET, they will be encoded into the URL, otherwise they will be part request body. If the URL and the params include the same parameter, the result is undefined. Regardless, the parameters will be encoded properly when passed in as part of the params object, so it is recommended to use this always, especially if dealing with user input or other possibly unescaped content. The subtype of the array may be any primitive or an array of primitives. Sub arrays are encoded properly. If params is a string, it is assumed to be raw body data, and added literally to the request body, as is. If the parameter is a byte_array, that is also encoded exactly as is. The Content-Type header is not set for you if this occurs, and will likely need to be set manually. The HTTP/1.1 specification specifically notes that servers should ignore the request body for certain methods (i.e. GET), but in practice, many servers expect this, and so while it is against the standard, this method still allows it.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-4375</id>
+	<key><![CDATA[headers]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-4376</id>
+	<key><![CDATA[If download is set, then this is the download strategy that will be used. OVERWRITE, APPEND, or SAFE_WRITE.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-4377</id>
+	<key><![CDATA[If the second parameter is a closure, it works the same as giving the closure to the success parameter in the settings object. The settings object is an array with the following fields, all of which are optional aside from the complete member.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-4378</id>
+	<key><![CDATA[Note that it is considered a success even if the request results in a non 200 response, the error handler is only called if the connection fails entirely, and no response could be retrieved from the server.  To check if the HTTP response is a considered an error response, you can check the error bit, or check the responseCode yourself.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-4379</id>
+	<key><![CDATA[required parameter]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-4380</id>
+	<key><![CDATA[Makes an HTTP request to the given url.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-4381</id>
+	<key><![CDATA[Sets the headers for the HTTP request. Depending on if useDefaultHeaders is true or not, certain headers may be set for you already. The array should be an associative array. The keys of course will be strings, but the value may either be a string or an array of strings. If the value is an array of strings, it will be parsed appropriately. If a cookiejar is supplied, then the cookies will be automatically set in the headers, regardless of the value of the useDefaultHeaders setting.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-4382</id>
+	<key><![CDATA[This is the only required parameter. When the request finishes on the background thread, it the resulting HTTP response is returned to this closure. The closure should accept 1 parameter, which will be the HTTP response object, which contains the following fields:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-4383</id>
+	<key><![CDATA[If the request fails for whatever reason, this receives the exception generated. By default, the exception is logged using the default uncaught exception handler.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-4384</id>
+	<key><![CDATA[The most basic usage is to get the html of the google homepage, not worrying about cookies or anything complicated. That code is very straightforward:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-4385</id>
+	<key><![CDATA[string domain - The domain under which this cookie applies]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-4386</id>
+	<key><![CDATA[int expiration - When the cookie expires. 0 means it never expires, because it is a session cookie. The function will not send expired cookies, and will remove them from the cookie jar automatically. Session cookies cannot technically expire, and must be removed manually by you, if you are storing cookies for a long period of time.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-4387</id>
+	<key><![CDATA[If this is true, the method will block until it is complete, and it also won't use the internal thread pool.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-4388</id>
+	<key><![CDATA[boolean secureOnly - If true, this cookie only applies in https, not http.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5152</id>
+	<key><![CDATA[About]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Om]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5153</id>
+	<key><![CDATA[Home]]></key>
+	<comment></comment>
+	<translation><![CDATA[Hjem]]></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5154</id>
+	<key><![CDATA[Privacy Policy]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Personvern]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5155</id>
+	<key><![CDATA[Sponsors]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Sponsorer]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5156</id>
+	<key><![CDATA[Help]]></key>
+	<comment></comment>
+	<translation><![CDATA[Hjelp]]></translation>
+	<auto><![CDATA[hjelp]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5157</id>
+	<key><![CDATA[Team. All rights reserved.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Team. Alle rettigheter reservert.]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5158</id>
+	<key><![CDATA[Docs]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Dokumenter]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5381</id>
+	<key><![CDATA[One of the following methods: POST, GET, HEAD, OPTIONS, PUT, DELETE, TRACE, PATCH. If %s, it will use GET if there are no params, or POST if there are.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5594</id>
+	<key><![CDATA[http_request&lpar;&apos;%s;, closure&lpar;@response&rpar;&lcub; 	msg&lpar;@response&lsqb;&apos;body&apos;&rsqb;&rpar;; &rcub;&rpar;;%s Copy Code%s1%s&nbsp;&nbsp;&nbsp;%s&lpar;%s&apos;%s;%s, %s&lpar;%s@response%s&rpar;&lcub;%s2%s&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;%s&lpar;%s@response%s&lsqb;%s&apos;body&apos;%s&rsqb;&rpar;;%s3%s&nbsp;&nbsp;&nbsp;&rcub;&rpar;;]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6150</id>
+	<key><![CDATA[Automatically adds the default headers to this request, unless specifically overridden. Note that some headers simply cannot be overridden, for instance Host and User-Agent will ALWAYS be set. The default headers are:  {Accept=text/*, application/xhtml+xml, application/xml;q=0.9, */*;q=0.8, User-Agent=Java/16.0.1/MethodScript, Connection=close, Accept-Encoding=br, deflate, identity, gzip, DNT=1}]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+</translations>

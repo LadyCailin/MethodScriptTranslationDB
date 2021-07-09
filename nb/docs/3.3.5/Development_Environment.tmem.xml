@@ -1,0 +1,143 @@
+<translations>
+<comment></comment>
+<translationBlock>
+	<id>nb-1715</id>
+	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.]]></key>
+	<comment></comment>
+	<translation><![CDATA[Finne en feil på denne siden? %sRediger denne siden selv, og send deretter inn en Pull Request.]]></translation>
+	<auto><![CDATA[Finne en feil på denne siden? %sRediger denne siden selv, og send deretter inn en pull-forespørsel.]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5121</id>
+	<key><![CDATA[And for the whitelist, use TODO: Need to figure out what the whitelist parameter should be.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5122</id>
+	<key><![CDATA[There is basic syntax highlighter support for several environments as well, which you can generate locally yourself with the command line tool "java -jar MethodScript.jar syntax". Run the tool to see what environments are supported.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5123</id>
+	<key><![CDATA[Once VSCode is installed, open the extensions tab on the left, and search for the "MethodScriptVSC" extension in the marketplace. Install, and restart VSCode.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5124</id>
+	<key><![CDATA[When writing a programming language, it can be extremely helpful to use the tools available to you to assist you in development. A lot of work has gone into the tooling surrounding the language, to help you code better and faster.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5125</id>
+	<key><![CDATA[Minimal support can also be obtained in vim, though this is not nearly as feature rich as other IDEs. First, you should install the syntax highlighter files, which provides basic support for highlighting. Next, install the vim-lsp plugin, found [%s here]. For the cmd, use]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5126</id>
+	<key><![CDATA[On first launch, you need to select your profile. Your profile is simply the location of your jar file, and multiple versions can be supported, if you're using older or newer versions of MethodScript. You will be prompted to select your profile when you first open an .ms or .msa file, but you can actively select your profile at any time by using the command palette (Ctrl+Shift+P/Cmd+Shift+P) and typing "Choose MethodScript Profile".]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5127</id>
+	<key><![CDATA[Visual Studio Code]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5128</id>
+	<key><![CDATA[The only officially supported Development Environment is the Visual Studio Code editor, though good support exists for other environments as well. This page will highlight the recommended setup to help you get started faster. If you already have a preferred environment, you may find it interesting to know that MethodScript implements the  [%s Language Server Protocol], and so it may be quite easy to plug into other environments that aren't listed here.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5129</id>
+	<key><![CDATA[Instructions for configuring the vim-lsp plugin can be found in the readme.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5130</id>
+	<key><![CDATA[Vim]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5131</id>
+	<key><![CDATA[This does two things, first, it loads up syntax highlighting files directly from the jar, and secondly, it kicks off the MethodScript Language Server. The syntax highlighting provides basic syntax support, and also provides the hover text that appears when you hover over a method. However, the most useful part is the language server. Each time you save a file, it is automatically compiled and checked for compiler errors and warnings. These are highlighted for you both directly in the text editor window, but also in the problems list (Ctrl+Shift+M/Cmd+Shift+M). This can help you see at a glance if your scripts will compile. Code completion is also provided. Function names can be autocompleted, just by beginning to type, or by hitting Ctrl+Space to bring up the IntelliSense panel. The function names are all listed, and you can also see information about parameters and general function documentation.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5132</id>
+	<key><![CDATA[Going far beyond basic syntax highlighting, Visual Studio Code (VSCode) is the only officially supported environment.  VSCode is cross platform, open source, and provides great support for the Language Server. First, install VSCode from [%s here].]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5152</id>
+	<key><![CDATA[About]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Om]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5153</id>
+	<key><![CDATA[Home]]></key>
+	<comment></comment>
+	<translation><![CDATA[Hjem]]></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5154</id>
+	<key><![CDATA[Privacy Policy]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Personvern]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5155</id>
+	<key><![CDATA[Sponsors]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Sponsorer]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5156</id>
+	<key><![CDATA[Help]]></key>
+	<comment></comment>
+	<translation><![CDATA[Hjelp]]></translation>
+	<auto><![CDATA[hjelp]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5157</id>
+	<key><![CDATA[Team. All rights reserved.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Team. Alle rettigheter reservert.]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5158</id>
+	<key><![CDATA[Docs]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Dokumenter]]></auto>
+</translationBlock>
+</translations>

@@ -1,0 +1,122 @@
+<translations>
+<comment></comment>
+<translationBlock>
+	<id>nb-1715</id>
+	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.]]></key>
+	<comment></comment>
+	<translation><![CDATA[Finne en feil på denne siden? %sRediger denne siden selv, og send deretter inn en Pull Request.]]></translation>
+	<auto><![CDATA[Finne en feil på denne siden? %sRediger denne siden selv, og send deretter inn en pull-forespørsel.]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3031</id>
+	<key><![CDATA[The first stage of authentication is not fully defined, which allows for various extensions to authenticate however they wish, but username/password and anonymous connections are supported by default. During connection, the transport has the ability to declare this connection secure, or insecure, and UI/control elements will respond accordingly. Once the connection has been established, all other calls become available.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3032</id>
+	<key><![CDATA[All primitives, objects, and arrays are passed via json. Each communication "burst" is a new json, which has the following meta information:  * "valueChecksum" - The md5 checksum of the value itself. If the value is present, this is required, otherwise it is not.  * "type" - The type of the value/request. It may be one of: . (See below for an explanation of each)  * "id" - The id for this request, if it is a solicited request. If passed from the client to the server, this same id will be returned from the server in the corresponding response. The id is treated as a string value, and is not modified.  * "value" - The actual value of this request, which is optional, based on the type, and has variable data, again, based on the type.  * "rider" - Additional information provided to the client/server. This varies based on the type, and is simply provided as a convenience for various types.  * "riderChecksum" - The md5 checksum of the rider, if present. If the rider is present, this is required, otherwise it is not.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3033</id>
+	<key><![CDATA[Authentication]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3034</id>
+	<key><![CDATA[Data passing]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3036</id>
+	<key><![CDATA[Burst types]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3037</id>
+	<key><![CDATA[Overview]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3039</id>
+	<key><![CDATA[The MScript protocol is a defined standard which works much like [%s RPC], but is specific to MScript. The advantages it offers over other protocols is that the underlying transport mechanism is undefined, leaving it open to specific needs, depending on the means of connection to the remote system (i.e. TCP, HTTP, DBus, etc). All data is passed as UTF-8 strings, and is interpreted on the remote end. Mechanisms exist to support passing of data, (primitives and objects/arrays), function calls, exceptions, and meta data.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5150</id>
+	<key><![CDATA[The end of each pipe must simply implement a two way protocol, which translates network/remote requests into UTF-8 strings, which are passed to/from the MScript interpreter. The interpreter will always provide at minimum a TCP socket connection, but other platforms/extensions may provide support for others, such as DBus or named pipe communication. Connections may be stateless, though maintaining pseudo state is the responsibility of the transport extension, and the interpreter expects the connection to appear stateful.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5152</id>
+	<key><![CDATA[About]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Om]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5153</id>
+	<key><![CDATA[Home]]></key>
+	<comment></comment>
+	<translation><![CDATA[Hjem]]></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5154</id>
+	<key><![CDATA[Privacy Policy]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Personvern]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5155</id>
+	<key><![CDATA[Sponsors]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Sponsorer]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5156</id>
+	<key><![CDATA[Help]]></key>
+	<comment></comment>
+	<translation><![CDATA[Hjelp]]></translation>
+	<auto><![CDATA[hjelp]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5157</id>
+	<key><![CDATA[Team. All rights reserved.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Team. Alle rettigheter reservert.]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5158</id>
+	<key><![CDATA[Docs]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Dokumenter]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5414</id>
+	<key><![CDATA[In the first stage of connection, the interpreter handshakes with the remote connection, and requests an initial capabilities list.  These capabilities are considered non-authoritative client side, but are used to minimize network connections that would fail. All capabilities may be claimed to be dynamic however, and the server is free to send meta information to adjust this list at any time. The client has the option in certain circumstances to ignore this list, so it is important to note that this is not a security mechanism. If a request does fail for capability reasons, that information is cached in these tables. This capability list doubles as a "permission" list.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+</translations>

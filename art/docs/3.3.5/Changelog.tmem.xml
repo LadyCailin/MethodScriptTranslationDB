@@ -1,0 +1,1193 @@
+<translations>
+<comment></comment>
+<translationBlock>
+	<id>art-1715</id>
+	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Fînd å büg în thîs pågə? %sEdît thîs pågə ʎøürsəlf, thən sübmît å püll rəqüəst.]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2132</id>
+	<key><![CDATA[API Additions]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2133</id>
+	<key><![CDATA[[[%s|Arrays]] are much more flexible now]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2134</id>
+	<key><![CDATA[Boss bar management]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2135</id>
+	<key><![CDATA[Added case-sensitive option to make it possible to toggle command matching being case sensitive or not]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2136</id>
+	<key><![CDATA[Added "verify" command to [[%s|cmdline tools]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2137</id>
+	<key><![CDATA[Switch statements. Rewrite large chains of if/else if into the better looking switch statement.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2139</id>
+	<key><![CDATA[Closures were added. Many methods require a closure, but you can use closures in custom code as well.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2140</id>
+	<key><![CDATA[0b1111]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2141</id>
+	<key><![CDATA[Updated for Bukkit.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2142</id>
+	<key><![CDATA[Email support. Easily send an email from your scripts with the %s function.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2143</id>
+	<key><![CDATA[Significantly improved startup and compile times]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2144</id>
+	<key><![CDATA[New "synchronized" keyword and functionality]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2145</id>
+	<key><![CDATA[Brace Syntax. Use braces in more places: if(@condition){ }, for instance. Makes your code much easier to read.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2146</id>
+	<key><![CDATA[MSLP files. Use the MSLP maker cmdline tool to distribute your code in a single file.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2147</id>
+	<key><![CDATA[Byte Arrays. Manage bits and bytes.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2148</id>
+	<key><![CDATA[76 events were added.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2149</id>
+	<key><![CDATA[function_exists/event_exists/compile_error. Using these special functions, make your code work with different versions of MethodScript.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2150</id>
+	<key><![CDATA[Shell functions. Run other executables on the system.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2151</id>
+	<key><![CDATA[Added "new" command to cmdline tools]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2152</id>
+	<key><![CDATA[Player's pitch and yaw (the way they're facing) is preserved when using set_ploc]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2153</id>
+	<key><![CDATA[Adds support for Minecraft 1.9 - 1.12.2]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2154</id>
+	<key><![CDATA[Persistence Network. Store your data in lots of different formats, not just the built in serialization format.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2155</id>
+	<key><![CDATA[10 new events have been added.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2156</id>
+	<key><![CDATA[Added $$ mode in cmdline]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2157</id>
+	<key><![CDATA[New Feature Overview]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2158</id>
+	<key><![CDATA[Extensions. Not officially supported yet, but generally quite useful. Add your own functions, or get extensions from other people to extend MethodScript.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2159</id>
+	<key><![CDATA[Added [[%s|interpreter mode]]!]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2160</id>
+	<key><![CDATA[Script optimization. Many backend changes have been made to make your scripts run even faster, with no effort on your part]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2162</id>
+	<key><![CDATA[PN Viewer UI. View your data using a GUI, instead of messing around with command line stuff. Connect to a remote server even, so you can run the GUI on your desktop, and manage your headless server.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2163</id>
+	<key><![CDATA[Event API Additions]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2164</id>
+	<key><![CDATA[Events added - Events are now here! Read up on the [[%s|Events overview]] for basic information relating to all events, and check out the [[%s|Event API]] for details on specific events, as well as what events are available. This list will continue to grow as more events are added!]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2165</id>
+	<key><![CDATA[3.3.0 is a massive update that contains a huge number of new features. There are a few things that are incompatible with the previous version, so you should carefully read this release notice before upgrading. If you are starting from scratch, there are (of course) no incompatibilities.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2166</id>
+	<key><![CDATA[More defined data types, in addition to casting and converting functions - Data types were loosely defined before. Now the definition is well defined, and there are functions to help you manipulate this data.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2167</id>
+	<key><![CDATA[and %s take different formatted arguments. Check the API for the new usage.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2168</id>
+	<key><![CDATA[substr() now works properly if the last argument is left off]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2170</id>
+	<key><![CDATA[Added include and procedures. See [[%s|this page]] for more details.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2171</id>
+	<key><![CDATA[Well definied array iteration. When adding and removing values while iterating arrays in foreach, they do what you want in more cases.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2172</id>
+	<key><![CDATA[In addition, you can give multiple groups permission, in one go, like this:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2173</id>
+	<key><![CDATA[Removal of PermGen requirements. No longer will you need to edit your PermGen settings, a new backend is now in use.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2174</id>
+	<key><![CDATA[Fixed a bug where no argument functions in the root of the command would give a compile error.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2176</id>
+	<key><![CDATA[You can now define the name/location of your config file. In the preferences.txt file, the script-name property defines this value.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2177</id>
+	<key><![CDATA[scriptas and has_permission - scriptas() allows you to run scripts as another player, similarly to how you can run a command as another player with runas(). has_permission() allows you to dynamically check to see if a player has an arbitrary permission or not.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2178</id>
+	<key><![CDATA[Here's a full list of all the new functions. Check out the API for details on each:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2179</id>
+	<key><![CDATA[New ||| and &&& syntax for new %s and %s functions]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2180</id>
+	<key><![CDATA[bitwise operations - binary operations! Check the API page for details.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2181</id>
+	<key><![CDATA[Abstraction layer - While you won't see this directly, know that it's much easier to move CH from server type to server type, should bukkit or whatever other server mod become obsolete. This means that CH should live on past server mods, with your scripts safe from the changes!]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2182</id>
+	<key><![CDATA[Compiler re-organized and modified. The g() function is no longer necessary, but is still defined, so scripts will remain backwards compatible. Also, scripts with compiler errors will most likely only break the individual command that has the error, the entire script will no longer fail. Of course if the compiler can't determine where the end of the command is (for instance a missing multiline end symbol) more of the script will fail. The sconcat() function is no longer necessary. Let's look at the following code:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2183</id>
+	<key><![CDATA[3.3.1 is a culmination of almost 4 years of work. There are hundreds of new functions, and tons of bugfixes and new functionality.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2184</id>
+	<key><![CDATA[World time controls - Control the time in a world with the new world time functions.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2185</id>
+	<key><![CDATA[MethodScript Additions:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2186</id>
+	<key><![CDATA[0b and 0x. Write hex and binary numbers directly in code. 0xF]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2188</id>
+	<key><![CDATA[The portions of an alias that are actually part of the MScript language are shown. All other parts are simply identifiers for CommandHelper specifically. While there is still a great deal of integration with the alias engine, the MScript portions can now be used standalone in future applications.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2189</id>
+	<key><![CDATA[// is a line comment. Use the traditional C-style line comment in your code.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2190</id>
+	<key><![CDATA[When using an ivar as the second parameter in assign(), it works properly now.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2191</id>
+	<key><![CDATA[Fully supported try/catch blocks. Catch multiple exception types and do different things for each. Finally clauses also supported.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2192</id>
+	<key><![CDATA[Added several new functions, including eval, set_ploc, time, nano_time, break, continue, get_worlds, pworld, pinfo, and kick. Also, reorganized the source code, and made it so that if one command would cause a compiler error, the entire script won't be affected, but just the one command. Also, concatenation automatically happens now, the g() function is no longer necessary. Debug mode now outputs what real command is being run, if debug mode is on. It is now possible to define the location of your config file, in the preferences.txt file. See the [[%s|upgrade notices]] for information about upgrading your scripts from 3.0.2 to 3.1.0.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2193</id>
+	<key><![CDATA[Sign api - Change the text of signs with functions! This function allows you to colorize the text on the sign as well, when used in combination with the color() function.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2194</id>
+	<key><![CDATA[CommandHelper and Minecraft Additions:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2196</id>
+	<key><![CDATA[More inventory controls - Previous versions had pinv and set_pinv, and that was all the control you needed to do whatever you like, but it is unwieldy, and complicated to use. These functions arguments have changed as well, but you can now use a few other functions to more easily do things: phas_item, pitem_slot, pgive_item, ptake_item. Check out the API for more information for each of these functions.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2197</id>
+	<key><![CDATA[Debug mode now outputs what real command is being run, if debug mode is set to true]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2198</id>
+	<key><![CDATA[Enchantment api - You can now control enchantments in a player's inventory]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2200</id>
+	<key><![CDATA[Smart Strings. Variable interpolation in strings quoted with double quotes, "@likeThis".]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2201</id>
+	<key><![CDATA[Further, you can ''revoke'' permissions by putting a dash in front, like so:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2202</id>
+	<key><![CDATA[API additions]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2203</id>
+	<key><![CDATA[eval() functions are now available. As implied, eval() allows arbitrary MScript to be executed.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2204</id>
+	<key><![CDATA[Basic crypto functions - If you need to hash things, this is now possible.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2205</id>
+	<key><![CDATA[comments work even if they aren't the first character on the line. C style block comments are also available.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2206</id>
+	<key><![CDATA[New website and documentation [[%s|deployment tool]] for methodscript.com]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2207</id>
+	<key><![CDATA[New "notinstanceof" keyword]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2208</id>
+	<key><![CDATA[Operators. Instead of using add(2, 2), use 2 + 2.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2210</id>
+	<key><![CDATA[read() and include() are subject to the base-dir restriction now]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2211</id>
+	<key><![CDATA[The \u escape sequence is implemented in the lexer. This allows insertion of arbitrary unicode characters into scripts.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2212</id>
+	<key><![CDATA[Local Packages. Group your code into logical batches.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2214</id>
+	<key><![CDATA[Note that permissions take priority from left to right. So, say that a user is in the 'mods' and 'builder' groups. If the setup were in this order: ~mods/-builder, then the user would have permission, but if it were ~-builder/mods, they would not. If the user is not in one of the listed groups, that group name is ignored.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2216</id>
+	<key><![CDATA[Colors work in the terminal now. The exception is if you're on a windows machine, in which case, no colors for you :( sorry. Also, CH has a cool new splash screen (you can disable it in the preferences).]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2217</id>
+	<key><![CDATA[play-dirty mode is currently broken due to the new event system implementation. This will be fixed at a later date, but you may not need it any more, since plugins have all been updated now.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2218</id>
+	<key><![CDATA[[[%s|File Options]] file headers and initial [[%s|Strict Mode]] support]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2219</id>
+	<key><![CDATA[Fixed a bug when dealing with offline players in pinfo (as well as a few other functions)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2220</id>
+	<key><![CDATA[Secure strings added]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2221</id>
+	<key><![CDATA[include/read now require paths that are relative to the location of the current file. This should be an easy fix.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2222</id>
+	<key><![CDATA[More math functions - Just about every math operation you could need is now implemented. Be sure to also check out the very cool expr() function, which should simplify complicated math formulas.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2223</id>
+	<key><![CDATA[Update Breakages]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2224</id>
+	<key><![CDATA[HTTP functions. Connect to a website, and download information from the web, then use it in your application. Allows for SOAP, REST and other web based connections]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2225</id>
+	<key><![CDATA[data_name (reverse data_values)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2226</id>
+	<key><![CDATA[407 new functions have been added:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2227</id>
+	<key><![CDATA[Virtual inventories]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2228</id>
+	<key><![CDATA[Commands can be run from the console. If the command doesn't make sense to run without a player, the command should fail gracefully.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2229</id>
+	<key><![CDATA[Arrays are associative - Now you can store a value in an array not only with a numeric index, but you can also use strings! Many functions now use this feature, since it's much easier to read and use, but you need to be familiar with the changes for them to make sense. Check out the additional section in the wiki page [[%s|on arrays]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2230</id>
+	<key><![CDATA[The WG/WE series of functions are implemented now]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2231</id>
+	<key><![CDATA[Basic entity control - You can now control entity health and tame wolves. This is just the first phase of more complex entity controls.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2232</id>
+	<key><![CDATA[New feature overview]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2233</id>
+	<key><![CDATA[ifelse and switch - Now it is much easier to chain if statements. Check out the [[%s|wiki page on logic]] for more information.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2235</id>
+	<key><![CDATA[76 new functions have been added.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2236</id>
+	<key><![CDATA[Type hinting. Make sure your variables pick a type and stick with it. Type hinting is now implemented, and will eventually be upgraded into strong typing. int @int = 'not an int'; is now an error.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2237</id>
+	<key><![CDATA[while/dowhile loops. Some loops can be more easily written using these mechanism.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2238</id>
+	<key><![CDATA[Potion Effects can now be accessed with set_peffect. See [%s the guide] on the minecraft wiki for ID numbers and other information]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2240</id>
+	<key><![CDATA[is_* (%s, %s, etc) functions are slightly altered. Most people weren't using these functions, but if you were, you will want to check the API for information on the changes to this function.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2242</id>
+	<key><![CDATA[Added user defined procedures]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2243</id>
+	<key><![CDATA[Event API additions]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2244</id>
+	<key><![CDATA[Cmdline. Like MethodScript? Use it anywhere! Run scripts from the command line, and do some neat cmdline only things.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2245</id>
+	<key><![CDATA[Checking that you are passing the correct number of arguments to a function is now done at compile time. This will potentially help reduce the numbers of errors in a script.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2246</id>
+	<key><![CDATA[Added functions: sqrt, include, proc, return, pinv, set_pinv, min, max, is_proc, call_proc, pexp/set_pexp (experimental), ptexp/set_ptexp (experimental), plevel/set_plevel (experimental), pmode/set_pmode, set_peffect (requires CraftBukkit), array_resize, range, Economy Functions, call_alias, item_drop, set_phealth, equals_ic, sk_all_regions, sk_pos1, sk_pos2, sk_region_info, sk_region_overlaps]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2247</id>
+	<key><![CDATA[SQL. Connect to MySQL, SQLite, and PostgreSQL databases.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2249</id>
+	<key><![CDATA[Typing. typeof() instanceof() and other methods have been added to allow you to more easily manage your data types.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2250</id>
+	<key><![CDATA[Code Profiler. Profile your code, to find where the slow spots are.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2251</id>
+	<key><![CDATA[OAuth support]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2252</id>
+	<key><![CDATA[Better international language support for variable and procedure names]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2253</id>
+	<key><![CDATA[Extensions that worked previously can now only work with the latest builds. All extensions will need to be updated.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2255</id>
+	<key><![CDATA[block_from_to, block_fade, entity_toggle_glide, firework_explode, entity_regain_health, entity_portal_travel, item_swap, server_command, broadcast_message, and vehicle_destroy]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5152</id>
+	<key><![CDATA[About]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Abøüt]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5153</id>
+	<key><![CDATA[Home]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Hømə]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5154</id>
+	<key><![CDATA[Privacy Policy]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Prîvåcʎ Pølîcʎ]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5155</id>
+	<key><![CDATA[Sponsors]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5156</id>
+	<key><![CDATA[Help]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Həlp]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5157</id>
+	<key><![CDATA[Team. All rights reserved.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Təåm. All rîghts rəsərvəd.]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5158</id>
+	<key><![CDATA[Docs]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Døcs]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5983</id>
+	<key><![CDATA[Modified events: piston_retract, piston_extend, block_break, block_place, block_burn, block_ignite, block_from_to, block_dispense, block_grow, note_play (no more mutable data), block_fade, item_despawn, item_spawn, item_drop, item_pickup, entity_change_block, entity_interact, inventory_click, inventory_drag, item_swap, player_interact, vehicle_collide.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5985</id>
+	<key><![CDATA[Modified: (not including item array changes) %s, %s, %s and %s for enderman and minecart blocks, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s and %s with the transparent block array, %s, %s, %s.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5986</id>
+	<key><![CDATA[Function API Changes]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5987</id>
+	<key><![CDATA[Manage villager trades and virtual merchants]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5989</id>
+	<key><![CDATA[CommandHelper 3.3.2 supports Minecraft 1.7.10 to 1.12.2.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5991</id>
+	<key><![CDATA[Event API Changes]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5993</id>
+	<key><![CDATA[Minecraft 1.13 support]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5994</id>
+	<key><![CDATA[This release reflects the enormous changes in Minecraft 1.13, and drops support for past Minecraft versions. As a result it has many breaking changes in regards to Minecraft data, functions and events. Please refer to the [[%s|upgrade guide]] to help you walk through what you need to change.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6020</id>
+	<key><![CDATA[Other Changes]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6048</id>
+	<key><![CDATA[import/export - Import and export work like the persistence functions, except they are in-memory only, and won't survive past server restarts (or /reloadaliases, for that matter). There are two modes of operation, so read the API carefully if you use these functions.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6050</id>
+	<key><![CDATA[Data Manager - You can now view the persistence data much easier, thanks to the data manager. Be sure to explore all the options. Read up on it at the [[%s|page on the data manager]].]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6051</id>
+	<key><![CDATA[Namespaces in persistence, and improved performance in persistence - Persistence is now much more efficient. In addition, namespace support has been implemented. If you namespace your data using periods, you can much more easily manipulate the data that has been stored. Be sure to re-read the API in the Persistance section, as all the functions have new features now.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6055</id>
+	<key><![CDATA[Your persistance database is in the wrong format. Unlike previous versions, you do not need to delete the database, you simply need to upgrade it. (Unless you're upgrading from before 3.2.0, in which case you still do need to delete the persistence.ser file, and then you're set.) If you have not used user aliases or persistence in the past, this step is unnecessary. Rename/copy/symlink your bukkit jar to bukkit.jar for this to work. From a command prompt, change to the plugins directory and run %sjava -jar CommandHelper.jar --manager%s. This will launch the Data Manager, at which point you can run the upgrade command. Once this is complete, your data is now converted to the new format! Do not run the data manager while your server is up. In lieu of this, you may also simply delete your persistance.ser file, in which case all data will be lost, but it will re-create the db in the correct format in the future, without any interaction from you. Be sure to check out the other features in the data manager while you're there!]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6056</id>
+	<key><![CDATA[MethodScript Additions: %s, %s, %s, %s, %s, %s.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6058</id>
+	<key><![CDATA[Minecraft Additions: %s (replaces get_block_at), %s (replaces set_block_at), %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s (replaces enchant_inv), %s (replaces enchant_rm_inv), %s (replaces get_enchant_inv), %s (replaces can_enchant_target), %s, %s, %s.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6065</id>
+	<key><![CDATA[CommandHelper 3.3.4 supports Minecraft 1.13.2 - 1.16.5. All extensions must be updated when upgrading from previous versions.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6066</id>
+	<key><![CDATA[Adds support for hex color codes in color() and colorize()]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6067</id>
+	<key><![CDATA[Bare strings are no longer allowed]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6068</id>
+	<key><![CDATA[77 new functions have been added.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6069</id>
+	<key><![CDATA[Adds support for Minecraft 1.14 through 1.16.5]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6070</id>
+	<key><![CDATA[Adds 'CodeUpgradeNotices' to suppressWarnings in File Options]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6071</id>
+	<key><![CDATA[Adds MSSQL support for query() and in [[%s|Persistence Network]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6072</id>
+	<key><![CDATA[Expands Minecraft recipe support]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6073</id>
+	<key><![CDATA[Function API Additions]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6074</id>
+	<key><![CDATA[MethodScript additions: %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6075</id>
+	<key><![CDATA[Removed events: player_prelogin, tab_complete_chat.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6076</id>
+	<key><![CDATA[Adds documentation localization tools 'validate-l10n' and 'l10n-ui']]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6077</id>
+	<key><![CDATA[Adds '.msfileoption' files for directory level File Options]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6078</id>
+	<key><![CDATA[Adds telemetry (disabled by default)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6079</id>
+	<key><![CDATA[7 new events have been added.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6080</id>
+	<key><![CDATA[Minecraft additions: %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6081</id>
+	<key><![CDATA[block_explode, block_form, hanging_place, entity_unleash, potion_splash, entity_potion, resource_pack_status]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6082</id>
+	<key><![CDATA[Adds 'requiredExtensions' and 'compileroptions' to [[%s|File Options]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6083</id>
+	<key><![CDATA[Faster startup times and other performance improvements]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6084</id>
+	<key><![CDATA[28 new functions have been added. 19 functions have been modified.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6085</id>
+	<key><![CDATA[22 events have been modified. 2 events have been removed.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6086</id>
+	<key><![CDATA[Minecraft events now ignore fake players]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6087</id>
+	<key><![CDATA[Adds smart comments to aliases and implements `@command` structure]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6088</id>
+	<key><![CDATA[Adds 'json-api', 'cmdline-args', 'build-extension', 'help-topic', 'edit-prefs', 'install-mssql-auth' tools to [[%s|Cmdline tools]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6089</id>
+	<key><![CDATA[Hundreds of others fixes]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6090</id>
+	<key><![CDATA[Adds cmdline support for Windows]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6091</id>
+	<key><![CDATA[Adds support for Brotli encoding in]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6092</id>
+	<key><![CDATA[Adds attribute modifiers and custom model data tag to item arrays]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6093</id>
+	<key><![CDATA[Adds support for multiple semi-colon separated paths for 'base-dir' in Preferences]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6094</id>
+	<key><![CDATA[array_index_exists now supports multi-dimensional arrays and negative indices]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6095</id>
+	<key><![CDATA[Auto concatenation is no longer allowed in Strict Mode]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6096</id>
+	<key><![CDATA[Adds reflect_pull('dir')]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6097</id>
+	<key><![CDATA[Adds Static Analysis framework, including type and scope checks for variables and procedures]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6098</id>
+	<key><![CDATA[Adds 'help' command to Interpreter to lookup functions]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6099</id>
+	<key><![CDATA[New Visual Studio Code extension with syntax highlighting, function/event peeking, and linting for compile errors and warnings]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6116</id>
+	<key><![CDATA[creature_spawn, block_grow, food_level_changed, world_save, entity_interact, block_dispense, entity_change_block, item_despawn, inventory_click, vehicle_move, block_break, exp_change, note_play, shutdown, cmdline_prompt_input, player_interact_at_entity, player_leave_bed, block_ignite, world_load, item_pre_enchant, entity_death, item_enchant, world_unload, projectile_hit, item_held, player_quit, player_move, item_drop, tree_grow, weather_change, entity_damage_player, entity_damage, block_place, world_changed, player_toggle_sneak, projectile_launch, player_fish, server_ping, entity_explode, player_prelogin, inventory_close, lightning_strike, player_teleport, redstone_changed, inventory_drag, target_player, player_enter_bed, item_pickup, player_interact_entity, block_burn, vehicle_leave, vehicle_collide, thunder_change, gamemode_change, async_player_chat, item_pre_craft, piston_retract, player_toggle_flight, tab_complete_chat, pressure_plate_activated, inventory_open, player_login, vehicle_enter, player_command, player_consume, player_kick, tab_complete_command, sign_changed, piston_extend, entity_enter_portal, player_portal_travel, player_toggle_sprint, item_spawn, hanging_break, book_edited, and plugin_message_received]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6117</id>
+	<key><![CDATA[>>>>>> master]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6118</id>
+	<key><![CDATA[>>>>>> master %s, %s, and]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+</translations>

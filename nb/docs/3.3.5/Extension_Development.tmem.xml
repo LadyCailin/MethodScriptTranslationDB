@@ -1,0 +1,318 @@
+<translations>
+<comment></comment>
+<translationBlock>
+	<id>nb-1715</id>
+	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.]]></key>
+	<comment></comment>
+	<translation><![CDATA[Finne en feil på denne siden? %sRediger denne siden selv, og send deretter inn en Pull Request.]]></translation>
+	<auto><![CDATA[Finne en feil på denne siden? %sRediger denne siden selv, og send deretter inn en pull-forespørsel.]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1838</id>
+	<key><![CDATA[Functions]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1894</id>
+	<key><![CDATA[Maven]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1904</id>
+	<key><![CDATA[Events]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2779</id>
+	<key><![CDATA[However, one should be able to use the annotated extension points as wrappers for the true code, which would reside  in a different class.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2780</id>
+	<key><![CDATA[The actual extension point, which converts the bindable object into a MethodScript enabled event, with supporting methods.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2781</id>
+	<key><![CDATA[The lifecycle class is the central part of the extension and does two things:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2782</id>
+	<key><![CDATA[Please include the following snippit under the %s&lt;build&gt;&lt;plugins&gt;%s section in the project's pom:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2783</id>
+	<key><![CDATA[Facilitate lifecycle operations, such as system events, utility methods, etc.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2784</id>
+	<key><![CDATA[The class name given by the definition doesn't matter, but does assist with debugging in case of a stacktrace. See the source code of %sAbstractExtension%s for the full set of methods available to this class.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2785</id>
+	<key><![CDATA[The actual extension point is laid out as follows:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2786</id>
+	<key><![CDATA[The bindable event layout is simply a class that extends %sBindableEvent%s, with one override, %s_GetObject()%s. If wrapping a Bukkit event, the Bukkit event should be returned here, given that the %sBindableEvent%s instance has been instantiated/provide with one. Otherwise, just return %s.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2787</id>
+	<key><![CDATA[Notice that the event classes extend %sAbstractEvent%s. As one can see, the layout is very similar to that of functions.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2788</id>
+	<key><![CDATA[Obfuscation/ProGuard]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2789</id>
+	<key><![CDATA[The actual call to fire the event.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2790</id>
+	<key><![CDATA[Events can be triggered from anywhere, with a call to %sEventUtils.TriggerListener(Driver.EXTENSION, &lt;event name&gt;, &lt;event instance&gt;);%s. The event name given must be the same as given in the event that has been defined, and the event instance an instance of that event.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2791</id>
+	<key><![CDATA[LifeCycles]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2792</id>
+	<key><![CDATA[Events, which add new events that MethodScript can use, and]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2793</id>
+	<key><![CDATA[To prevent issues in the future, here are a few rules you should follow when creating functions and events:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2794</id>
+	<key><![CDATA[Extensions provide a means of adding functionality to CommandHelper and the MethodScript engine. While the API used is under construction still, it is still deemed stable enough for production use. Any breakages will be minimal, and deprecation will be used where it applies.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2795</id>
+	<key><![CDATA[Provide identity to the extension.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2796</id>
+	<key><![CDATA[Names of functions/events should be all lowercase and use underscores as spaces. The function name may NOT start with a single underscore, and functions that start with two underscores are highly discouraged, except for meta functions that deal with the compiler directly. Documentation should follow the same conventions, so that functions like %s will work. The version that you return does not need to correspond to the MethodScript version, it may be your extension's version number. If your function can be optimized, you are encouraged to do so.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2797</id>
+	<key><![CDATA[The minimal definition is as follows:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2798</id>
+	<key><![CDATA[Our build and dependency manager of choice is maven. While a quick and dirty setup with a bare-minimal pom is possible, run-time speedups and compile-time checks will be missed out on if a few details aren't included.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2799</id>
+	<key><![CDATA[The lifecycle class, which takes care of the life and identity of the extension.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2800</id>
+	<key><![CDATA[Coding Standards]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2801</id>
+	<key><![CDATA[Functions, which add new functionality to MethodScript.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2802</id>
+	<key><![CDATA[Functions will usually be the first thing a simpler extension will be used for. Usually, functions are "wrapped" in a parent class, which provides general documentation for that group of functions. The full class definition for functions is as follows:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2803</id>
+	<key><![CDATA[Developing an extension]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2804</id>
+	<key><![CDATA[The bindable object, which acts as a wrapper or data carrier for the event. This will be a POJO with methods to get the data needed.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2805</id>
+	<key><![CDATA[Some extension devs have expressed a desire to obfuscate their code. Unfortunately, there's a gotcha: the caching  system we use runs before ProGuard obfuscates things, causing the original class names to be saved to the cache  instead of the obfuscated ones. The only way currently known to get around this is to tell ProGuard to not obfuscate  any of the extension points (lifecycle, function or event classes), via the %s-keep class%s option in the  plugin's %sconfiguration%s section.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2806</id>
+	<key><![CDATA[Events are a three part thing:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2807</id>
+	<key><![CDATA[An extension currently consists of three core parts:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5108</id>
+	<key><![CDATA[Other Extension Points]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5109</id>
+	<key><![CDATA[Command Line Tools]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5110</id>
+	<key><![CDATA[Implement the DataSource interface (or extend the AbstractDataSource class) and tag the class with the @datasource annotation.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5111</id>
+	<key><![CDATA[Implement the CommandLineTool interface (or extend the AbstractCommandLineTool class) and tag the class with the @tool annotation. All of the built in tools use this mechanism, and extensions can provide new tools just the same way.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5112</id>
+	<key><![CDATA[Persistence Network Data Sources]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5152</id>
+	<key><![CDATA[About]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Om]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5153</id>
+	<key><![CDATA[Home]]></key>
+	<comment></comment>
+	<translation><![CDATA[Hjem]]></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5154</id>
+	<key><![CDATA[Privacy Policy]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Personvern]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5155</id>
+	<key><![CDATA[Sponsors]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Sponsorer]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5156</id>
+	<key><![CDATA[Help]]></key>
+	<comment></comment>
+	<translation><![CDATA[Hjelp]]></translation>
+	<auto><![CDATA[hjelp]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5157</id>
+	<key><![CDATA[Team. All rights reserved.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Team. Alle rettigheter reservert.]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5158</id>
+	<key><![CDATA[Docs]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Dokumenter]]></auto>
+</translationBlock>
+</translations>

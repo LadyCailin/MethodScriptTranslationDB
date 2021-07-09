@@ -1,0 +1,283 @@
+<translations>
+<comment></comment>
+<translationBlock>
+	<id>ko-1715</id>
+	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5152</id>
+	<key><![CDATA[About]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5153</id>
+	<key><![CDATA[Home]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5154</id>
+	<key><![CDATA[Privacy Policy]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5155</id>
+	<key><![CDATA[Sponsors]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5156</id>
+	<key><![CDATA[Help]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5157</id>
+	<key><![CDATA[Team. All rights reserved.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5158</id>
+	<key><![CDATA[Docs]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5890</id>
+	<key><![CDATA[@param]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5891</id>
+	<key><![CDATA[Depending on the context, annotations can be ignored, or have different functionality. Ignored annotations are not an error, they simply won't have any programmatic effects within MethodScript itself. You are free to use these annotations in your custom systems in any way you see fit, though it is highly encouraged to ensure you are not trying to fight the built in systems. Additional contexts may define additional annotations, with either server to further document the element, or can even provide some functionality.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5892</id>
+	<key><![CDATA[@seeAlso]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5893</id>
+	<key><![CDATA[The general format is:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5894</id>
+	<key><![CDATA[Comment blocks that start with /** however, are smart comments, and the subject of this article. These comments are not lost with compilation, and are able to be used in later stages of compilation, to provide additional functionality to code.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5895</id>
+	<key><![CDATA[{@link}]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5896</id>
+	<key><![CDATA[This provides a link to either another element in the codebase, or an external web url. Note that the element variety of this is not implemented or defined yet, but will have the same semantics as the embedded {@link} annotation.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5897</id>
+	<key><![CDATA[The larger advantage is being able to dynamically access these comment blocks within your code. This can be used to power an automatically generating documentation system for instance, along with easily generated help text to be provided to users upon incorrect usage. Currently, support for obtaining these comments is rather limited, with support only existing for aliases. Additional usage will appear over time.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5898</id>
+	<key><![CDATA[{@code}]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5899</id>
+	<key><![CDATA[The url annotation provides an inline link to a web address. In general, the annotation should follow the format {@url %s replacementText} where the replacement text is the text that is displayed, and the url is where the link goes. If replacementText is empty, the url is used as the text.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5900</id>
+	<key><![CDATA[Annotations]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5901</id>
+	<key><![CDATA[Usage in code]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5902</id>
+	<key><![CDATA[The link annotation provides a link to another element in the code.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5903</id>
+	<key><![CDATA[General Format]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5904</id>
+	<key><![CDATA[This is currently unimplemented.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5905</id>
+	<key><![CDATA[Embedded annotations are generally speaking meant to function almost like visual text modifiers, such as adding links, emphasis, and other formatting such as this. This isn't enforced however, and custom code can use these however they like. However, there are a few predefined annotations.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5906</id>
+	<key><![CDATA[This is currently unimplemented and undefined.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5907</id>
+	<key><![CDATA[@seeAlso %s Description or @seeAlso element Description]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5908</id>
+	<key><![CDATA[The primary use of these smart comments is for providing formal documentation for the various commented elements. By and large, the compiler itself ignores these values, though that's not always the case, depending on which annotations are used. For instance, the @deprecated annotation will trigger a compiler warning when references to the element are used elsewhere in code (not implemented yet). The primary use case is for generating automatic documentation in various places, including the IDE (also not implemented yet).]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5909</id>
+	<key><![CDATA[A Smart Comment is a comment field that contains somewhat structured data that can be used both by your code and by the compiler, as well as being in an easy to read format, so that readers of your code can get additional context.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5910</id>
+	<key><![CDATA[In general, MethodScript supports four comment types, though two do the same thing. Both # and // are line comments, and are completely removed from the source code during compilation. The comment begins with one of those symbols, and ends with the start of a new line. Comments that start with /* and end with */ are block comments, and can contain newlines within them, though not currently other nested comment blocks. Like line comments, these are also removed during compilation. Both of these comments are meant solely as context for the future reader of the code, and have no functional purpose as far as the compiler is concerned, and are thus discarded as part of the compilation process, and so the runtime has no knowledge that these types of comments ever existed in the source code.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5911</id>
+	<key><![CDATA[Given the following example, we can see the general format.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5912</id>
+	<key><![CDATA[{@url}]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5913</id>
+	<key><![CDATA[Depending on where the comment is placed, the rules may be slightly different as well, and particularly which annotations will be active, so check the documentation below for specific details, as well as documentation about the various elements that support smart comments.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5914</id>
+	<key><![CDATA[Usage in the compiler]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5915</id>
+	<key><![CDATA[Documents a parameter. This is used for inputs to the element.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5916</id>
+	<key><![CDATA[Smart comments that are placed on elements which do not directly support smart comments will not break - however these will simply function as ordinary block comments, with the exception that the compiler may or may not retain the comment in the runtime, unused.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5917</id>
+	<key><![CDATA[This is meant for references to literal code elements, for instance variable names, etc. The common use case is to simply format the text with a monospace font, but could be used for syntax highlighting, etc.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5918</id>
+	<key><![CDATA[This is not implemented yet, though most text editors provide url clicking anyways.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5919</id>
+	<key><![CDATA[Standalone annotations are those that start with @. These are ended by a newline, and cannot contain newlines within them. Standalone annotations may repeat, or they may contain no additional text.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5920</id>
+	<key><![CDATA[Embedded Annotations]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5921</id>
+	<key><![CDATA[There are a few things to point out. The general rule is that the comment block must start with /** and end with */. On each line within the comment, the line may start with 0 or more spaces, a star, and then a space. This text is stripped from the comment. The body text is the first part of the comment. Within the body, newlines and spaces are preserved, other that the initial alignment spacing, as described above. Both body text and standalone annotation comments may contain embedded annotations, which are the annnotations that begin with {@ and end with }. Embedded annotations may also have additional text following the annotation name.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+</translations>

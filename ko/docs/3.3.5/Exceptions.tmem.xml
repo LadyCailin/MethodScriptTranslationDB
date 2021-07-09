@@ -1,0 +1,311 @@
+<translations>
+<comment></comment>
+<translationBlock>
+	<id>ko-1715</id>
+	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2698</id>
+	<key><![CDATA[Example]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2725</id>
+	<key><![CDATA[If code within a catch block either rethrows the caught exception, or--accidentally or intentionally--ends up throwing a new one.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2726</id>
+	<key><![CDATA[Exception types can be added by extension authors, but here is a list (and documentation) for all known exceptions.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2727</id>
+	<key><![CDATA[You may find that you have to throw an exception due to another exception. To do this, you may also used the Caused By mechanism. This will cause the exception to chain. This is also supported with %s.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2728</id>
+	<key><![CDATA[Old usage]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2729</id>
+	<key><![CDATA[This can be used if you want to conditionally handle the exception, but continue to throw the exception up the chain in other cases.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2730</id>
+	<key><![CDATA[You may also throw your own exceptions. See the documentation for %s for more information.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2731</id>
+	<key><![CDATA[In this case, if the user input procedure returns %s'2'%s, then the code will work as intended. If it returns %s'string'%s however, it will throw an exception. As it stands, with no exception handling in place, you would see a similar error to this:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2732</id>
+	<key><![CDATA[If the code within the `try` block encounters an exception for which there is no catch.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2733</id>
+	<key><![CDATA[finally clause]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2734</id>
+	<key><![CDATA[Exceptions can be thrown by various functions at runtime. This indicates that there was some issue with the input data. There is a straightforward way to deal with these errors however, using a try/catch block.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2735</id>
+	<key><![CDATA[Take the following examples:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2736</id>
+	<key><![CDATA[The exception that is thrown is an associative array that has some perhaps useful information in it, such as the exception message, line number, and things like that. Here is an implementation of the default handling, except it is being handled from within the script.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2738</id>
+	<key><![CDATA[There are three specific examples that this might be useful for:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2739</id>
+	<key><![CDATA[Known Exception Types]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2740</id>
+	<key><![CDATA[A good example is code that takes a user input. Assume that we want to validate that the user has provided us with an integer like string. We might write the following:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2741</id>
+	<key><![CDATA[This can be useful for times that you need to throw another exception from within the catch block, but don't want to hide the original exception, or when you need to otherwise wrap the original exception. It is quite useful to know what exception originally caused this chain. This can be accessed from the %scausedBy%s index in the exception object.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2742</id>
+	<key><![CDATA[Caused By, and rethrowing]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2743</id>
+	<key><![CDATA[Sometimes you may want to run code after the try block, regardless of what happens in the try block, including successful invocation of the code, an exception being thrown and further exceptions being thrown from the catch block, or simply return()ing in the try block. The finally clause can be used to accomplish this. The finally clause must come after all catch clauses, but may be used even if no catch clauses are defined (this is called a try/finally block). This is most useful for cleanup that needs to happen regardless of how the code exited.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2744</id>
+	<key><![CDATA[Throwing your own exceptions]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2745</id>
+	<key><![CDATA[Exceptions might need to be rethrown. This is supported by %s. For instance:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2746</id>
+	<key><![CDATA[All exceptions extend the Exception type, which further extends the Throwable type. Another type of Throwable is a the Error type (and subclasses). If you specifically catch Errors, they can be caught, but this is not recommended, as it usually indicates a very severe error. While it is possible to directly catch a Throwable of any type, you should generally not catch that, and instead catch specific types that you are interested in, or Exception, if need be.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2747</id>
+	<key><![CDATA[This is the default exception handling mechanism. It prints out the exception type, exception message, and a stacktrace. But perhaps we want to print a custom message to the user. In this case, we can trap the exception using a try/catch block, and handle it in a custom way. In this case, we want to "catch" the CastException that is "thrown".]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2748</id>
+	<key><![CDATA[There is an old, now deprecated usage as well, see the article [[%s|here]] for information on how to use it. For new code, however, the new format should always be used.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2749</id>
+	<key><![CDATA[If code within the `try` block exits via `return`]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2750</id>
+	<key><![CDATA[When an exception is thrown, the catch clauses are checked one by one, in declaration order, for exception matches. This means that you should order your catch clauses from most specific to least specific. Consider the following code:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2751</id>
+	<key><![CDATA[Sometimes, a block of code might throw multiple types of exceptions, and we want to handle each type differently. Perhaps our %s_doSomethingWithTheValue%s procedure was capable of throwing an IOException. We ''could'' wrap the entire block in a second try catch block, but there's an easier way, using multicatch.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2752</id>
+	<key><![CDATA[The Throwable type]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2753</id>
+	<key><![CDATA[The above example demonstrates the complex usage of the exception object. In addition, it's worth noting that if you are having trouble with code, you could get a stacktrace by throwing and catching a custom exception, however, it's more straightforward to use]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2754</id>
+	<key><![CDATA[Each catch block will only run if the exception thrown matches the type. If an exception is thrown that doesn't match any of the types, it will continue up the stack as if there were no try/catch in place at that point.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2755</id>
+	<key><![CDATA[The exception object]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2756</id>
+	<key><![CDATA[Catch clause specificity]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2757</id>
+	<key><![CDATA[This will message the user if the value is not correct, using a custom error message.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2758</id>
+	<key><![CDATA[Be sure to always order your catch clauses appropriately.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-2759</id>
+	<key><![CDATA[Multicatch]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5152</id>
+	<key><![CDATA[About]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5153</id>
+	<key><![CDATA[Home]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5154</id>
+	<key><![CDATA[Privacy Policy]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5155</id>
+	<key><![CDATA[Sponsors]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5156</id>
+	<key><![CDATA[Help]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5157</id>
+	<key><![CDATA[Team. All rights reserved.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5158</id>
+	<key><![CDATA[Docs]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5410</id>
+	<key><![CDATA[The stack trace can help you trace back the actual error, as the error itself is not necessarily with the top line in the stacktrace, which is where the actual exception was thrown. Instead, it might be because you're passing in an invalid parameter to a proc, so it may be useful to step back a few items in the stack trace to see what's calling what. Several things are added to the stack trace, particularly procedure stack, but also closures and includes.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+</translations>

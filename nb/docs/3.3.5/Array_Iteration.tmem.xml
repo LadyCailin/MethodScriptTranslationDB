@@ -1,0 +1,178 @@
+<translations>
+<comment></comment>
+<translationBlock>
+	<id>nb-1715</id>
+	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.]]></key>
+	<comment></comment>
+	<translation><![CDATA[Finne en feil på denne siden? %sRediger denne siden selv, og send deretter inn en Pull Request.]]></translation>
+	<auto><![CDATA[Finne en feil på denne siden? %sRediger denne siden selv, og send deretter inn en pull-forespørsel.]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1979</id>
+	<key><![CDATA[Associative Arrays]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2035</id>
+	<key><![CDATA[Additions of new items before the iterated item]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2036</id>
+	<key><![CDATA[Array iteration is an often overlooked aspect of programming. At first glance, iterating an array and making modifications to it as you are iterating it seems like a trivial operation. However, this is not the case, as several unrelated operations can cause the iteration to cause undefined behavior. MethodScript has some automatic controls to make this operation easier in straightforward cases, while preventing accidental behavior caused by concurrent modification operations. All the specified operations involve the builtin foreach loop; for loops, while, and do/while loops do not support these behaviors, as it is up to the programmer to manage the counter loops in those cases.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2037</id>
+	<key><![CDATA[Without the special behavior, these two examples would cause an infinite loop, as the key would constantly be set to the last item in the array. The special behavior prevents newly inserted items from being processed, essentially adding them to a "blacklist" of values to ignore when the iterator gets to that item. The blacklist is automatically managed as the iteration occurs, so that even if those values shift due to future operations, that particular value is still not iterated. The assumption is that newly inserted values have already been "processed" by user code.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2038</id>
+	<key><![CDATA[Or additionally:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2039</id>
+	<key><![CDATA[Associative arrays are handled by "freezing" the keyset as soon as iteration begins, and so insertions and removals do not affect iteration order. As associative arrays are maps, rather than sequential arrays, this does not present an issue while iterating.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2040</id>
+	<key><![CDATA[The iterators are globally managed automatically by MethodScript, and nested iterations will not affect this. If an array is being iterated by two different loops at once, all operations will apply to both internal iterators, and each loop will follow the rules as specified below, depending on where in the iteration each loop is. Each loop is otherwise independent of other loops. The array itself is not changed during the iteration by the automatic iteration handling, just the key/value that is assigned during each iteration. Insertions/deletions are handled with the indexes of the array as they currently exist at that particular moment. The key in the foreach isn't adjusted accordingly either, so you must account for this manually, if you perform multiple operations within the iteration, and the key is used multiple times as a reference point.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2041</id>
+	<key><![CDATA[To fix this issue, MethodScript tracks the changes in the array, and decreases the counter by 1. This causes the item at index 1 to be iterated "again" which in this case points to an entirely different value. So in reality, this code will remove all the items in the array, without skipping items. The same logic applies to deletion of items before the current index, as the same behavior (shifting items left one) causes the same problems.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2042</id>
+	<key><![CDATA[Insertion of new items after the index]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2043</id>
+	<key><![CDATA[Also of note, if a continue() is used, this will account for and skip these blacklisted values, including if a number greater than 1 is used.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2044</id>
+	<key><![CDATA[Without the special behavior, this would cause an infinite loop, as the key would increment each time, and would cause the 'last value' item to be iterated each time. The special behavior prevents this however, as the assumption is that the newly inserted item has already been "processed" by user code, and so essentially, the counter is increased by 1, making the next iteration bypass the item which is currently the "current" item.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2045</id>
+	<key><![CDATA[Let us consider what this code would do without the special behavior provided by MethodScript. @key would start out being 0. We would then remove the 0th element in the array, in this case, 1, which would cause the values to shift to the left 1. The array would then be array(2, 3). The loop would start over, and the key would increment to 1. The next call to array_remove would remove the item at index 1, at this point, now 3. The size of the array would now be greater than the iterator count, and we would exit the loop. But 2 would still be left in the array!]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2046</id>
+	<key><![CDATA[The behavior of other languages can be matched by using the following code:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2047</id>
+	<key><![CDATA[The behavior of the foreach loop covers typical behavior, and will not suite the needs of every case. If the behavior is not acceptable, use of the for loop is preferred, as finer grained control of the looping mechanism can be controlled that way.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2048</id>
+	<key><![CDATA[Current item deletion/Deletion of index before current item]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2049</id>
+	<key><![CDATA[This simple code demonstrates the problem:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-2050</id>
+	<key><![CDATA[There are a few cases that have special handling: Current/previous item deletion, insertion of new items before the iterated item, and insertion of new items after the iterated item.  Removal of items after the iterated item, and changes to any values, including the one currently being iterated doesn't have any effect on the iteration order, and therefore won't cause any issues.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5152</id>
+	<key><![CDATA[About]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Om]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5153</id>
+	<key><![CDATA[Home]]></key>
+	<comment></comment>
+	<translation><![CDATA[Hjem]]></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5154</id>
+	<key><![CDATA[Privacy Policy]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Personvern]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5155</id>
+	<key><![CDATA[Sponsors]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Sponsorer]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5156</id>
+	<key><![CDATA[Help]]></key>
+	<comment></comment>
+	<translation><![CDATA[Hjelp]]></translation>
+	<auto><![CDATA[hjelp]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5157</id>
+	<key><![CDATA[Team. All rights reserved.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Team. Alle rettigheter reservert.]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5158</id>
+	<key><![CDATA[Docs]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Dokumenter]]></auto>
+</translationBlock>
+</translations>

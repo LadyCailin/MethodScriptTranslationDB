@@ -1,0 +1,500 @@
+<translations>
+<comment></comment>
+<translationBlock>
+	<id>nb-624</id>
+	<key><![CDATA[Cmdline]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1681</id>
+	<key><![CDATA['''CommandHelper''' is an alias, macro, and scripting plugin for Minecraft that lets you:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA['''CommandHelper'' er et alias, makro og skripting plugin for Minecraft som lar deg:]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1682</id>
+	<key><![CDATA[Linux/MacOS]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1684</id>
+	<key><![CDATA['''Documentation:''' There's lots of complexity in the plugin, and without solid documentation, it is nearly worthless. While some of the documentation is generated programmatically, many pages are not. The auto documentation generator leaves room for more detailed information too -- none of which is currently filled in :( From writing examples for each function, to working on the main documentation, and keeping the current documentation up to speed, there's actually a lot to do that has nothing to do with coding!]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA['''Dokumentasjon:''' Det er mye kompleksitet i plugin, og uten solid dokumentasjon, er det nesten verdiløs. Selv om noe av dokumentasjonen genereres programmatisk, er mange sider ikke det. Den automatiske dokumentasjonsgeneratoren gir rom for mer detaljert informasjon også - hvorav ingen er fylt ut :( Fra å skrive eksempler for hver funksjon, til å jobbe med hoveddokumentasjonen, og holde den nåværende dokumentasjonen oppdatert, er det faktisk mye å gjøre som ikke har noe å gjøre med koding!]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1685</id>
+	<key><![CDATA[CommandHelper]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1687</id>
+	<key><![CDATA[Previous Versions]]></key>
+	<comment></comment>
+	<translation><![CDATA[Tidligere Versjoner]]></translation>
+	<auto><![CDATA[Tidligere versjoner]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1688</id>
+	<key><![CDATA[Need more help? Chat with us on IRC in [[%s|#CommandHelper on irc.esper.net]], on [%s Discord], or go to the [%s issue tracker].]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Trenger du mer hjelp? Chat med oss på IRC i [[%s|#CommandHelper på irc.esper.net]], på [%s Discord], eller gå til [%s problemsporing].]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1690</id>
+	<key><![CDATA[Do you like the plugin a lot? I certainly don't expect donations, and the any money I receive won't necessarily influence the amount of time I spend on the plugin (well, maybe it will), however I do spend a lot of time working on it, and I certainly won't turn anything down if you want to say thank you! If you reeeeally want a feature added to CommandHelper, and you're willing to pay money, get in contact with me, and we can discuss contract work, and we can discuss your needs, but otherwise, donations are just a way for you to tell me thanks!]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Liker du plugin mye? Jeg absolutt ikke forvente donasjoner, og noen penger jeg mottar vil ikke nødvendigvis påvirke hvor mye tid jeg bruker på plugin (vel, kanskje det vil), men jeg bruker mye tid på å jobbe med det, og jeg absolutt ikke vil slå noe ned hvis du vil si takk! Hvis du reeeeally ønsker en funksjon lagt til CommandHelper, og du er villig til å betale penger, komme i kontakt med meg, og vi kan diskutere kontraktarbeid, og vi kan diskutere dine behov, men ellers, donasjoner er bare en måte for deg å fortelle meg takk!]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1691</id>
+	<key><![CDATA[Syntax-coloring editors]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Redaktører for syntaksfarger]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1692</id>
+	<key><![CDATA[Sublime Text 3 - Cross-platform - Created by Ecconia]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Sublime Text 3 - Kryssplattform - Opprettet av Ecconia]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1693</id>
+	<key><![CDATA[If you create a syntax highlighter for your favorite text editor, contact us, and we can add it here!]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Hvis du oppretter en syntaks highlighter for din favoritt tekst editor, kontakt oss, og vi kan legge den til her!]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1694</id>
+	<key><![CDATA[CommandHelper is turning into a large project, and I would love for more people to help work on it. Don't know java? Great! There are things for you to do too! If you're interested in any of the following tasks, feel free to get in touch with me, and we can get you started!]]></key>
+	<comment></comment>
+	<translation><![CDATA[CommandHelper er i ferd med å bli et stort prosjekt, og jeg vil gjerne at flere skal hjelpe til med å jobbe med det. Vet du ikke java? Utmerket! Det er ting du kan gjøre også! Hvis du er interessert i noen av følgende oppgaver, ta gjerne kontakt med meg, og vi kan få deg i gang!]]></translation>
+	<auto><![CDATA[CommandHelper er i ferd med å bli et stort prosjekt, og jeg vil gjerne at flere skal hjelpe til med å jobbe med det. Vet du ikke java? utmerket! Det er ting du kan gjøre også! Hvis du er interessert i noen av følgende oppgaver, ta gjerne kontakt med meg, og vi kan få deg i gang!]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1695</id>
+	<key><![CDATA[Notepad++ (Default Theme) - Windows - Created by MrMagical]]></key>
+	<comment></comment>
+	<translation><![CDATA[Notepad++ (standardtema) - Windows - Opprettet av MrMagical]]></translation>
+	<auto><![CDATA[Notisblokk++ (standardtema) - Windows - Opprettet av MrMagical]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1696</id>
+	<key><![CDATA[Write a script to let players message each other while offline.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Skriv et skript for å la spillerne sende meldinger til hverandre mens de er frakoblet.]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1697</id>
+	<key><![CDATA[For the full changelog, including the changelog for older releases, see [[%s|this page]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[For den fullstendige changelogen, inkludert changelog for eldre versjoner, kan du se [[%s|denne siden]]]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1698</id>
+	<key><![CDATA[TextWrangler and BBEdit - Mac OS X - Created by Connor Griffin (Very Outdated)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[TextWrangler og BBEdit - Mac OS X - Opprettet av Connor Griffin (Veldig utdatert)]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1699</id>
+	<key><![CDATA[__NOTOC__]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1700</id>
+	<key><![CDATA[If you're using bukkit, throw the jar file in the plugins directory, and start your server. On first boot, the proper directory structure with placeholder files will be created, which you can then edit. The configuration directory will be called CommandHelper, and will be in the same directory as the jar.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Hvis du bruker bukkit, kaste jar filen i plugins katalogen, og starte serveren. Ved første oppstart opprettes riktig katalogstruktur med plassholderfiler, som du deretter kan redigere. Konfigurasjonskatalogen vil bli kalt CommandHelper, og vil være i samme katalog som krukken.]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1701</id>
+	<key><![CDATA[How do you use CommandHelper? We have a set of easy to follow articles that you can read!]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Hvordan bruker du CommandHelper? Vi har et sett med enkle å følge artikler som du kan lese!]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1702</id>
+	<key><![CDATA[Alias commands like ''/battle'' to run ''/warp #battlearena''.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Alias kommandoer som ''/battle'' å kjøre ''/warp #battlearena''.]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1703</id>
+	<key><![CDATA[If you would to request new functions, it is typically easy to add those, so please post your feature request in the issue tracker. If you happen to find a bug in the program, please let us know so we can fix it!]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Hvis du vil be om nye funksjoner, er det vanligvis enkelt å legge til disse, så vennligst legg inn funksjonsforespørselen i problemsporingen. Hvis du tilfeldigvis finner en feil i programmet, vennligst gi oss beskjed slik at vi kan fikse det!]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1705</id>
+	<key><![CDATA[Feature requests and bugs]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Funksjonsforespørsler og feil]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1706</id>
+	<key><![CDATA[[%s Donations]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[[%s Donasjoner]]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1707</id>
+	<key><![CDATA[[[%s|center]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[[[%s|center]]]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1708</id>
+	<key><![CDATA[Atom - Cross-platform - Created by jacobwgillespie]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Atom - Cross-platform - Opprettet av jacobwgillespie]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1709</id>
+	<key><![CDATA[Notepad++ (Obsidian Theme) - Windows - Created by TTSDA (based on MrMagical's Highlighter)]]></key>
+	<comment></comment>
+	<translation><![CDATA[Notepad++ (Obsidian Theme) - Windows - Opprettet av TTSDA (basert på MrMagical's Highlighter)]]></translation>
+	<auto><![CDATA[Notisblokk++ (Obsidian Theme) - Windows - Opprettet av TTSDA (basert på MrMagical's Highlighter)]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1710</id>
+	<key><![CDATA[and others]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[og andre]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1711</id>
+	<key><![CDATA[Bukkit]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1712</id>
+	<key><![CDATA[Tired of writing your scripts in a plain black and white text editor? Try a syntax Highlighter!]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Lei av å skrive skriptene dine i en vanlig svart og hvit tekst editor? Prøv en syntaks highlighter!]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1713</id>
+	<key><![CDATA[The developers of MethodScript do not recommend it (yet) for production or otherwise critical code, however, as a quick scripting language, or for use in Minecraft, it is highly recommended.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Utviklerne av MethodScript anbefaler det ikke (ennå) for produksjon eller på annen måte kritisk kode, men som et raskt skriptspråk, eller for bruk i Minecraft, anbefales det på det sterkeste.]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1714</id>
+	<key><![CDATA[Long-term planned features can be found on the [[%s|roadmap]], and short term features can be found on the issue tracker. To request your own features or file a bug, use [%s our issue tracker]. Known bugs can be found on the issue tracker.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Du finner langsiktige planlagte funksjoner på [[%s|veikart]], og du finner kortsiktige funksjoner på problemsporingen. Hvis du vil be om dine egne funksjoner eller sende inn en feil, kan du bruke [%s vår problemsporing]. Kjente feil kan bli funnet på problemet tracker.]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1715</id>
+	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.]]></key>
+	<comment></comment>
+	<translation><![CDATA[Finne en feil på denne siden? %sRediger denne siden selv, og send deretter inn en Pull Request.]]></translation>
+	<auto><![CDATA[Finne en feil på denne siden? %sRediger denne siden selv, og send deretter inn en pull-forespørsel.]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1716</id>
+	<key><![CDATA[If you prefer other text editors, there is community support for other text editors:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Hvis du foretrekker andre tekstredigeringsprogrammer, er det fellesskapsstøtte for andre tekstredigeringsprogrammer:]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1717</id>
+	<key><![CDATA['''Just want the API?''' See the [[%s|API reference]].]]></key>
+	<comment></comment>
+	<translation><![CDATA['''Vil du bare ha API-et?'' Se [[%s|API-referanse]].]]></translation>
+	<auto><![CDATA['''Vil du bare ha API-et?'' Se [[%s| API-referanse]].]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1718</id>
+	<key><![CDATA[Write your own /tp, /time, or /warp]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Skriv din egen /tp, /time eller /warp]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1719</id>
+	<key><![CDATA[Windows]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1720</id>
+	<key><![CDATA['''Want to script completely new features?''' Follow the ''Learning Trail'' at the bottom of the page.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA['''Vil du skripte helt nye funksjoner?''' Følg "Læringsstien" nederst på siden.]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1722</id>
+	<key><![CDATA['''Testing:''' While a large portion of CommandHelper has automated tests, there is still no substitute for running [%s beta] versions of CommandHelper on a real server. It would be nice to know that several servers have put it through the ringer before a version goes to full release status.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA['''Testing:''' Mens en stor del av CommandHelper har automatiserte tester, er det fortsatt ingen erstatning for å kjøre [%s beta] versjoner av CommandHelper på en ekte server. Det ville være fint å vite at flere servere har satt den gjennom ringeren før en versjon går til full release status.]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1723</id>
+	<key><![CDATA['''Want to setup simple aliases?''' Try the [[%s|Beginner's Guide]]]]></key>
+	<comment></comment>
+	<translation><![CDATA['''Vil du sette opp enkle aliaser?''' Prøv [[%s|Nybegynnerguide]]]]></translation>
+	<auto><![CDATA['''Vil du sette opp enkle aliaser?''' Prøv [[%s| Nybegynnerguide]]]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1724</id>
+	<key><![CDATA[Donations]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Donasjoner]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1725</id>
+	<key><![CDATA[{{TakeNote|text=To generate up-to-the-minute syntax colors you can also run CommandHelper from the command line using %s %sjava -jar CommandHelper.jar syntax npp obsidian%s %s For more detailed instructions, [[%s|see here]]}}]]></key>
+	<comment></comment>
+	<translation><![CDATA[{{TakeNote|text=Hvis du vil generere oppdaterte syntaksfarger, kan du også kjøre CommandHelper fra kommandolinjen ved hjelp av %s %sjava -jar CommandHelper.jar syntax npp obsidian%s %s Hvis du vil ha mer detaljerte instruksjoner, [[%s|se her]]}}]]></translation>
+	<auto><![CDATA[{{TakeNote|text=Hvis du vil generere oppdaterte syntaksfarger, kan du også kjøre CommandHelper fra kommandolinjen ved hjelp av %sjava-jar CommandHelper.jar syntax npp obsidian%s %s Hvis du vil ha mer detaljerte instruksjoner[ [se her]]}}]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1726</id>
+	<key><![CDATA[Changelog]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Changelog]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1727</id>
+	<key><![CDATA[Remember that [%s CommandHelper is open source].]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Husk at [%s CommandHelper er åpen kildekode].]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1728</id>
+	<key><![CDATA[Usage]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Bruk]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1729</id>
+	<key><![CDATA[Installation]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Installasjon]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1730</id>
+	<key><![CDATA[Tools]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Verktøy]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1731</id>
+	<key><![CDATA[Do much more, from the simple to the complex, with zero Java code.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Gjør mye mer, fra det enkle til komplekset, med null Java-kode.]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1732</id>
+	<key><![CDATA['''Programming:''' From adding functions, to writing test cases, to working on the core aspects of CommandHelper, there are many different tasks to conquer.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA['''Programmering:''' Fra å legge til funksjoner, til å skrive testtilfeller, til å jobbe med kjerneaspektene ved CommandHelper, er det mange forskjellige oppgaver å erobre.]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1735</id>
+	<key><![CDATA[Want to help?]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Vil du hjelpe?]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1736</id>
+	<key><![CDATA[Create an automated battle arena that automatically resets.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Opprett en automatisert kamparena som automatisk tilbakestilles.]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1737</id>
+	<key><![CDATA[gedit - GNOME/Cross-platform - Created by MrMagical]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[gedit - GNOME/Cross-platform - Opprettet av MrMagical]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-1738</id>
+	<key><![CDATA[For previous versions of the documentation, see %shere%s for a directory.]]></key>
+	<comment></comment>
+	<translation><![CDATA[For tidligere versjoner av dokumentasjonen, kan du se %sher%s for en katalog.]]></translation>
+	<auto><![CDATA[For tidligere versjoner av dokumentasjonen, kan du se %shere%s for en katalog.]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5152</id>
+	<key><![CDATA[About]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Om]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5153</id>
+	<key><![CDATA[Home]]></key>
+	<comment></comment>
+	<translation><![CDATA[Hjem]]></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5154</id>
+	<key><![CDATA[Privacy Policy]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Personvern]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5155</id>
+	<key><![CDATA[Sponsors]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Sponsorer]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5156</id>
+	<key><![CDATA[Help]]></key>
+	<comment></comment>
+	<translation><![CDATA[Hjelp]]></translation>
+	<auto><![CDATA[hjelp]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5157</id>
+	<key><![CDATA[Team. All rights reserved.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Team. Alle rettigheter reservert.]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5158</id>
+	<key><![CDATA[Docs]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Dokumenter]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5161</id>
+	<key><![CDATA[If you're using the cmdline version, run "java -jar commandhelper-%s-SNAPSHOT-full.jar help" for a listing of the possible commands, and "java -jar commandhelper-%s-SNAPSHOT-full.jar install-cmdline" to install. The configuration directory will be called MethodScript, and will be in the same directory as the jar. If the name or path of the jar file changes, you'll need to re-install, so it may be prudent to name the jar with a neutral name that does not include the version number.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Hvis du bruker cmdline-versjonen, kjører du "java -jar commandhelper-%s-SNAPSHOT-full.jar help" for en liste over mulige kommandoer, og "java -jar commandhelper-%s-SNAPSHOT-full.jar install-cmdline" for å installere. Konfigurasjonskatalogen vil bli kalt MethodScript, og vil være i samme katalog som krukken. Hvis navnet eller banen til jar-filen endres, må du installere på nytt, så det kan være forsvarlig å navngi krukken med et nøytralt navn som ikke inneholder versjonsnummeret.]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5368</id>
+	<key><![CDATA[On Windows systems, you'll need to have launched your command prompt as Administrator. (To install on Windows Subsystem for Linux, follow the same instructions as for Unix.) A program ''mscript'' will be installed on your path, and a PowerShell Module will also be installed. Running ''mscript'' will launch the interpreter, running it with a file will run that file, and using ''mscript -- '' followed by a verb (such as help) will run the cmdline utilities.]]></key>
+	<comment></comment>
+	<translation><![CDATA[På Windows-systemer må du ha startet ledeteksten som administrator. (Hvis du vil installere på Windows Subsystem for Linux, følger du de samme instruksjonene som for Unix.) Et program ''mscript'' vil bli installert på banen din, og en PowerShell-modul vil også bli installert. Hvis du kjører ''mscript'' vil starte tolken, kjører den med en fil, og ved hjelp av ''mscript -- '' etterfulgt av et verb (for eksempel help) vil kjøre cmdline verktøy.]]></translation>
+	<auto><![CDATA[På Windows-systemer må du ha startet ledeteksten som administrator. (Hvis du vil installere på Windows-delsystemet for Linux, følger du de samme instruksjonene som for Unix.) Et program ''mscript'' vil bli installert på banen din, og en PowerShell-modul vil også bli installert. Hvis du kjører ''mscript'' vil starte tolken, kjører den med en fil, og ved hjelp av ''mscript -- '' etterfulgt av et verb (for eksempel hjelp) vil kjøre cmdline verktøy.]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5369</id>
+	<key><![CDATA[On Unix systems, you'll need to run the command with sudo. The installer will install an mscript bash file in /usr/local/bin/mscript, which simply wraps the jar. Running ''mscript'' will launch the interpreter, running it with a file will run that file, and using ''mscript -- '' followed by a verb (such as help) will run the cmdline utilities.]]></key>
+	<comment></comment>
+	<translation><![CDATA[På Unix-systemer må du kjøre kommandoen med sudo. Installasjonsprogrammet vil installere en mscript bash-fil i /usr/local/bin/mscript, som bare pakker krukken. Hvis du kjører ''mscript'' vil starte tolken, kjører den med en fil, og ved hjelp av ''mscript -- '' etterfulgt av et verb (for eksempel help) vil kjøre cmdline verktøy.]]></translation>
+	<auto><![CDATA[På Unix-systemer må du kjøre kommandoen med sudo. Installasjonsprogrammet vil installere en mscript bash-fil i /usr/local/bin/mscript, som bare pakker krukken. Hvis du kjører ''mscript'' vil starte tolken, kjører den med en fil, og ved hjelp av ''mscript -- '' etterfulgt av et verb (for eksempel hjelp) vil kjøre cmdline verktøy.]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5769</id>
+	<key><![CDATA['''MethodScript''' is the name of the programming language that CommandHelper uses, and there is a commandline version of MethodScript as well, that you can use outside of Minecraft. MethodScript is an imperative, dynamic, event driven, value-level, metaprogramming (reflective), structured (block-structured, semi-object-oriented, semi-class-based, recursive), parallel, partially strongly typed language, and is an active work in progress.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5770</id>
+	<key><![CDATA[The Visual Studio Code [%s MethodScriptVSC] IDE is the only officially supported IDE/Syntax Highlighter, and is most likely the most feature rich and up-to-date version, so it is highly recommended. To install, [%s download Visual Studio Code] (free, on all platforms), and install the MethodScriptVSC extension from the extensions tab.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5795</id>
+	<key><![CDATA[{{TakeNote|text=The manual installation instructions are still valid if you wish to customize your install, but for Windows, you can use the pre-packaged standalone installer, found [%s here].}}]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5971</id>
+	<key><![CDATA[Only the latest development build is officially supported, but there is some community support for older builds, which you can get by joining IRC or Discord. For the latest builds, head to [[%s|the download page]] and click the latest build. You can also download the versionless jar that corresponds to the exact version that this site was built with [[%s|here]], though this is not considered to be the supported version.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6111</id>
+	<key><![CDATA[Java >= 16 is required to run MethodScript.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6112</id>
+	<key><![CDATA[For Java versions > 9, you may see errors such as "An illegal reflective access operation has occurred." For Java versions less than 17, you can simply add --illegal-access=permit to the JVM options, but for more granular control, you can instead add the output of %sjava -jar commandhelper-%s-SNAPSHOT-full.jar cmdline-args%s to your java startup arguments, or alternatively, dynamically call this command so that future updates will automatically conform to the necessary arguments.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6113</id>
+	<key><![CDATA[Alternatively, for advanced users, you could download the sources and build it yourself locally. To do that, you need git, maven, and jdk >= 16. Pull down the code with %sgit clone git@github.com:EngineHub/CommandHelper.git%s, then follow the directions in [%s the README].]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6114</id>
+	<key><![CDATA[Installation isn't strictly required, you can run MethodScript directly using the java -jar command, however, using the mscript wrapper provides some additional functionality, such as setting up the appropriate options to the JVM.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6115</id>
+	<key><![CDATA[For Java versions >= 17, this process is mandatory, as --illegal-access will be removed from the JVM, and the necessary --add-opens parameters will be the only way to provide the necessary access. This is also necessary for fully proper execution of signal handling in MethodScript.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+</translations>

@@ -1,0 +1,199 @@
+<translations>
+<comment></comment>
+<translationBlock>
+	<id>art-1715</id>
+	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Fînd å büg în thîs pågə? %sEdît thîs pågə ʎøürsəlf, thən sübmît å püll rəqüəst.]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2698</id>
+	<key><![CDATA[Example]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2760</id>
+	<key><![CDATA[The queue works like a doubly ended queue. There are other operations to control this queue, with a few caveats. Once an  operation has been submitted for execution, it cannot be cancelled anymore, and operations are always pulled from the  front of the queue. You can use these other methods to control the queue:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2761</id>
+	<key><![CDATA[Basic Queue Usage]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2762</id>
+	<key><![CDATA[The most basic operation is the %s function. This pushes a new routine at the end of the queue.  For instance:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2763</id>
+	<key><![CDATA[Other Queue Operations]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2764</id>
+	<key><![CDATA[To make a new queue, just use a new name, it will be created automatically.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2765</id>
+	<key><![CDATA[This example splits a loop up into many smaller chunks, which should cause the server to not freeze]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2768</id>
+	<key><![CDATA[Queue Names]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2769</id>
+	<key><![CDATA[would be valid. This will run the code %smsg('Hello World!')%s at the next available opportunity, after other  queued operations occur. Each time the queue runs an operation, it frees the server thread back up, so this is a useful mechanism for scheduling  extremely long running tasks, without killing the server. Any value returned from the closure is ignored however, so it is not useful for things that need to  block. Note that between operation executions, there will likely be around a 10ms delay, while control of the main  thread is re-gained, and a 50ms delay between noticeable ticks. This makes the system undesirable for fluid animations, however, this is not a limitation of MethodScript itself.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2770</id>
+	<key><![CDATA[Works like queue_delay(), but pushes the delay on the front of the queue]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2771</id>
+	<key><![CDATA[Removes the last operation on the queue.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2772</id>
+	<key><![CDATA[Removes the operation on the queue that would be running next]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2773</id>
+	<key><![CDATA[Instead of pushing an operation onto the back of the queue, pushes it to the front. Barring other calls to queue_push_front, that means that this operation will execute next.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2774</id>
+	<key><![CDATA[There can be multiple queues. Each queue is simply named something, with the default queue being "default". Operations  across queues are not executed in any particular order with respect to each other, but within each queue, operations are  guaranteed to be sequential. Each queue function takes an optional parameter which specifies the queue name.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2775</id>
+	<key><![CDATA[Clears all pending operations from the queue]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2776</id>
+	<key><![CDATA[Delays]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2777</id>
+	<key><![CDATA[Returns true if a queue is currently running]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-2778</id>
+	<key><![CDATA[An execution queue is a queue of closures, which are queued up to be run in sequence by the engine. Unlike set_timeout  and set_interval, there is no time component, it's simply a queue of operations to execute sequentially. There can be  multiple execution queues as well, though there is a single default queue. The general idea is that queueing up a  closure is instant. All the queue operations return immediately, and the closure is run at a later time. Delays and  queue management functions are all provided to make doing complex operations possible.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5152</id>
+	<key><![CDATA[About]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Abøüt]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5153</id>
+	<key><![CDATA[Home]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Hømə]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5154</id>
+	<key><![CDATA[Privacy Policy]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Prîvåcʎ Pølîcʎ]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5155</id>
+	<key><![CDATA[Sponsors]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5156</id>
+	<key><![CDATA[Help]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Həlp]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5157</id>
+	<key><![CDATA[Team. All rights reserved.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Təåm. All rîghts rəsərvəd.]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5158</id>
+	<key><![CDATA[Docs]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Døcs]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5411</id>
+	<key><![CDATA[Delays can be inserted into a queue as well. This delay will suspend the queue's operation momentarily, but will not  freeze the server, since the delay will be on the execution queue's thread, not the server thread. This is a separate  operation, and uses the %s function.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-5412</id>
+	<key><![CDATA[Queueing up the operations should complete relatively fast, but the full task will take a while.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+</translations>
