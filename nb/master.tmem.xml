@@ -43155,4 +43155,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-6166</id>
+	<key><![CDATA[AxolotlBucket]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6167</id>
+	<key><![CDATA['''variant''' : (string) The type of axolotl, one of ''BLUE, CYAN, GOLD, LUCY, or WILD''.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
