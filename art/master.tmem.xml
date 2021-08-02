@@ -43547,4 +43547,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-6222</id>
+	<key><![CDATA[Jars%s 	%sThis is the normal dev build pipeline, and the recommended build here is what you should get unless you 	specifically need something else.%s 	%s 		%s 			%s 			%s 			Loading version information 		%s 	%s 	%sIf you need a specific build, these are the manually "pinned" builds of various milestone builds. You should 	only download from this list if there is something specific that you need.%s 	%s 		%s 			%s 			%s 			Loading version information 		%s 	%s %s %s This is the Windows Cmdline installer. This is the preferred (though not only) way of installing the cmdline version on Windows. Unfortunately, we do not have a code signing certificate, so the Windows SmartScreen scan will initally block installation. Please click "More Info", then "Run anyway" to bypass this. %s %s 	%s 		%s 		%s 		Loading version information]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
