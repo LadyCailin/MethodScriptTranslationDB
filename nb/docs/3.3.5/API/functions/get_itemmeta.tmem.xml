@@ -630,4 +630,25 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-6260</id>
+	<key><![CDATA['''owneruuid''' : (string) The user UUID. Can be %s if there is no owner.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6261</id>
+	<key><![CDATA['''texture''' : (string) The texture property value used for custom heads. This is a base64 encoded JSON object seen under the "Value" key in vanilla. It contains the skin texture URL among other things. Requires an owner. (Paper only)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6262</id>
+	<key><![CDATA['''owner''' : (string) The user name. Can be %s if there is no owner.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
