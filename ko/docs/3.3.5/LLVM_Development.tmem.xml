@@ -707,4 +707,53 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-6263</id>
+	<key><![CDATA[Note that the linker option format varies fairly widely from OS to OS, so any change to these options will almost certainly require testing on all supported OSes, unfortunately.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6264</id>
+	<key><![CDATA[Ubuntu Guest]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6265</id>
+	<key><![CDATA[Adjusting Linker Options]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6266</id>
+	<key><![CDATA[Windows, Ubuntu, and MacOS are the supported OSes. More may be added later if sponsorship is obtained. In general, Debian is expected to work, but it is not a supported OS, and no bugs filed against Debian will be accepted.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6267</id>
+	<key><![CDATA[If you aren't willing to install other development environments when adding new features, don't assume that new features that you're adding will work on other OSes. If you have reason to believe they will (for instance, only uses LLVM specific constructs and makes no system calls) then it's fine to make this assumption, but it's better to add a compile error when used in an untested system than it is to assume your feature will work. PRs that do OS specific tasks will not be accepted without proof of testing on all OSes that are supported in the code.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6268</id>
+	<key><![CDATA[When adding additional functions, it's important to make sure that everything works as intended. Unfortunately, since some functions have very platform specific code, it makes it more difficult to test. Luckily, it's easy to get Virtual Machines for both Ubuntu and Windows. (Newer Mac OS is difficult, and thus support for Macs is currently limited.) See the section below for information and steps on setting up these VMs.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6269</id>
+	<key><![CDATA[At the early stages of development, it's possible that the linker options are very wrong, and will need to be adjusted. Certainly, as new native code is integrated with, we will need to add more files to the linker. In order to get a good template for this, it is easiest to run clang against an equivalent C program, and view the linker options it uses. Use %sclang -v test.c%s to see the verbose output for clang, including the linker options, and use that as your template.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
