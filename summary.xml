@@ -50150,4 +50150,44 @@
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
 </translationEntry>
+<translationEntry>
+	<id>6270</id>
+	<key><![CDATA[Plays the specified effect at the given location for all players within the radius (or 64 by default). The effect can be one of the following: BONE_MEAL_USE, COMPOSTER_FILL_ATTEMPT, COPPER_WAX_OFF, COPPER_WAX_ON, DRAGON_BREATH, DRIPPING_DRIPSTONE, ELECTRIC_SPARK, ENDER_DRAGON_DESTROY_BLOCK, END_GATEWAY_SPAWN, END_PORTAL_FRAME_FILL, ENDER_SIGNAL, INSTANT_POTION_BREAK, LAVA_INTERACT, MOBSPAWNER_FLAMES, OXIDISED_COPPER_SCRAPE, POTION_BREAK, REDSTONE_TORCH_BURNOUT, SMOKE, SPONGE_DRY, VILLAGER_PLANT_GROW, ANVIL_BREAK, ANVIL_LAND, ANVIL_USE, BAT_TAKEOFF, BLAZE_SHOOT, BOOK_PAGE_TURN, BOW_FIRE, BREWING_STAND_BREW, CHORUS_FLOWER_DEATH, CHORUS_FLOWER_GROW, CLICK1, CLICK2, DOOR_CLOSE, DOOR_TOGGLE, ENDERDRAGON_GROWL, ENDERDRAGON_SHOOT, ENDEREYE_LAUNCH, EXTINGUISH, FENCE_GATE_CLOSE, FENCE_GATE_TOGGLE, FIREWORK_SHOOT, GHAST_SHOOT, GHAST_SHRIEK, GRINDSTONE_USE, HUSK_CONVERTED_TO_ZOMBIE, IRON_DOOR_CLOSE, IRON_DOOR_TOGGLE, IRON_TRAPDOOR_CLOSE, IRON_TRAPDOOR_TOGGLE, PHANTOM_BITE, POINTED_DRIPSTONE_DRIP_LAVA_INTO_CAULDRON, POINTED_DRIPSTONE_DRIP_WATER_INTO_CAULDRON, POINTED_DRIPSTONE_LAND, PORTAL_TRAVEL, RECORD_PLAY, SKELETON_CONVERTED_TO_STRAY, SMITHING_TABLE_USE, STEP_SOUND, TRAPDOOR_CLOSE, TRAPDOOR_TOGGLE, ZOMBIE_CHEW_WOODEN_DOOR, ZOMBIE_CHEW_IRON_DOOR, ZOMBIE_DESTROY_DOOR, WITHER_BREAK_BLOCK, WITHER_SHOOT, ZOMBIE_CONVERTED_TO_DROWNED, ZOMBIE_CONVERTED_VILLAGER, or ZOMBIE_INFECT. [[%s|See more...]]]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>6271</id>
+	<key><![CDATA[Spigot/Paper 1.16.5 - 1.17.1 (when CH is used as a plugin)]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>6272</id>
+	<key><![CDATA[source: The source of the primed TNT.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>6273</id>
+	<key><![CDATA[Some effects may require an applicable block at the specified location. Additional data can be supplied with the syntax EFFECT:DATA.%sThe STEP_SOUND takes a block material name.%sRECORD_PLAY takes a record material name.%sSMOKE takes a facing, one of NORTH, EAST, SOUTH, WEST, UP, DOWN, NORTH_EAST, NORTH_WEST, SOUTH_EAST, SOUTH_WEST, WEST_NORTH_WEST, NORTH_NORTH_WEST, NORTH_NORTH_EAST, EAST_NORTH_EAST, EAST_SOUTH_EAST, SOUTH_SOUTH_EAST, SOUTH_SOUTH_WEST, WEST_SOUTH_WEST, or SELF%sPOTION_BREAK takes an int (represents color).%sVILLAGER_PLANT_GROW and BONE_MEAL_USE take an int for the number of particles.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>6274</id>
+	<key><![CDATA[Plays the specified effect at the given location for all players within the radius (or 64 by default). The effect can be one of the following: BONE_MEAL_USE, COMPOSTER_FILL_ATTEMPT, COPPER_WAX_OFF, COPPER_WAX_ON, DRAGON_BREATH, DRIPPING_DRIPSTONE, ELECTRIC_SPARK, ENDER_DRAGON_DESTROY_BLOCK, END_GATEWAY_SPAWN, END_PORTAL_FRAME_FILL, ENDER_SIGNAL, INSTANT_POTION_BREAK, LAVA_INTERACT, MOBSPAWNER_FLAMES, OXIDISED_COPPER_SCRAPE, POTION_BREAK, REDSTONE_TORCH_BURNOUT, SMOKE, SPONGE_DRY, VILLAGER_PLANT_GROW, ANVIL_BREAK, ANVIL_LAND, ANVIL_USE, BAT_TAKEOFF, BLAZE_SHOOT, BOOK_PAGE_TURN, BOW_FIRE, BREWING_STAND_BREW, CHORUS_FLOWER_DEATH, CHORUS_FLOWER_GROW, CLICK1, CLICK2, DOOR_CLOSE, DOOR_TOGGLE, ENDERDRAGON_GROWL, ENDERDRAGON_SHOOT, ENDEREYE_LAUNCH, EXTINGUISH, FENCE_GATE_CLOSE, FENCE_GATE_TOGGLE, FIREWORK_SHOOT, GHAST_SHOOT, GHAST_SHRIEK, GRINDSTONE_USE, HUSK_CONVERTED_TO_ZOMBIE, IRON_DOOR_CLOSE, IRON_DOOR_TOGGLE, IRON_TRAPDOOR_CLOSE, IRON_TRAPDOOR_TOGGLE, PHANTOM_BITE, POINTED_DRIPSTONE_DRIP_LAVA_INTO_CAULDRON, POINTED_DRIPSTONE_DRIP_WATER_INTO_CAULDRON, POINTED_DRIPSTONE_LAND, PORTAL_TRAVEL, RECORD_PLAY, SKELETON_CONVERTED_TO_STRAY, SMITHING_TABLE_USE, STEP_SOUND, TRAPDOOR_CLOSE, TRAPDOOR_TOGGLE, ZOMBIE_CHEW_WOODEN_DOOR, ZOMBIE_CHEW_IRON_DOOR, ZOMBIE_DESTROY_DOOR, WITHER_BREAK_BLOCK, WITHER_SHOOT, ZOMBIE_CONVERTED_TO_DROWNED, ZOMBIE_CONVERTED_VILLAGER, or ZOMBIE_INFECT.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
 </summary>
