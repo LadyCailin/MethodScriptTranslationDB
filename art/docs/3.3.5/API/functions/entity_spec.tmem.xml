@@ -1337,4 +1337,25 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-6279</id>
+	<key><![CDATA[experience: The amount of experience in the villager's profession towards the next level.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6280</id>
+	<key><![CDATA[level: The level of villager's profession. Can be 1-5.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6281</id>
+	<key><![CDATA[SPLASH_POTION]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
