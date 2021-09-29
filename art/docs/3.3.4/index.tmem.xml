@@ -502,14 +502,14 @@
 	<key><![CDATA['''MethodScript''' is the name of the programming language that CommandHelper uses, and there is a commandline version of MethodScript as well, that you can use outside of Minecraft. MethodScript is an imperative, dynamic, event driven, value-level, metaprogramming (reflective), structured (block-structured, semi-object-oriented, semi-class-based, recursive), parallel, partially strongly typed language, and is an active work in progress.]]></key>
 	<comment></comment>
 	<translation></translation>
-	<auto></auto>
+	<auto><![CDATA['''MəthødScrîpt''' îs thə nåmə øf thə prøgråmmîng långüågə thåt CømmåndHəlpər üsəs, ånd thərə îs å cømmåndlînə vərsîøn øf MəthødScrîpt ås wəll, thåt ʎøü cån üsə øütsîdə øf Mînəcråft. MəthødScrîpt îs ån împəråtîvə, dʎnåmîc, əvənt drîvən, vålüə-ləvəl, mətåprøgråmmîng (rəfləctîvə), strüctürəd (bløck-strüctürəd, səmî-øbjəct-ørîəntəd, səmî-clåss-båsəd, rəcürsîvə), pårålləl, pårtîållʎ strønglʎ tʎpəd långüågə, ånd îs ån åctîvə wørk în prøgrəss.]]></auto>
 </translationBlock>
 <translationBlock>
 	<id>art-5770</id>
 	<key><![CDATA[The Visual Studio Code [%s MethodScriptVSC] IDE is the only officially supported IDE/Syntax Highlighter, and is most likely the most feature rich and up-to-date version, so it is highly recommended. To install, [%s download Visual Studio Code] (free, on all platforms), and install the MethodScriptVSC extension from the extensions tab.]]></key>
 	<comment></comment>
 	<translation></translation>
-	<auto></auto>
+	<auto><![CDATA[Thə Vîsüål Stüdîø Cødə [%s MəthødScrîptVSC] IDE îs thə ønlʎ øffîcîållʎ süppørtəd IDE/Sʎntåx Hîghlîghtər, ånd îs møst lîkəlʎ thə møst fəåtürə rîch ånd üp-tø-dåtə vərsîøn, sø ît îs hîghlʎ rəcømməndəd. Tø înståll, [%s døwnløåd Vîsüål Stüdîø Cødə] (frəə, øn åll plåtførms), ånd înståll thə MəthødScrîptVSC əxtənsîøn frøm thə əxtənsîøns tåb.]]></auto>
 </translationBlock>
 <translationBlock>
 	<id>art-5771</id>
@@ -522,8 +522,8 @@
 	<id>art-5795</id>
 	<key><![CDATA[{{TakeNote|text=The manual installation instructions are still valid if you wish to customize your install, but for Windows, you can use the pre-packaged standalone installer, found [%s here].}}]]></key>
 	<comment></comment>
-	<translation></translation>
-	<auto></auto>
+	<translation><![CDATA[{{TakeNote|text=Thə månüål înstållåtîøn înstrüctîøns årə stîll vålîd îf ʎøü wîsh tø cüstømîzə ʎøür înståll, büt før Wîndøws, ʎøü cån üsə thə prə-påckågəd ståndålønə înstållər, føünd [%s hərə].}}]]></translation>
+	<auto><![CDATA[{{TåkəNøtə|təxt=Thə månüål înstållåtîøn înstrüctîøns årə stîll vålîd îf ʎøü wîsh tø cüstømîzə ʎøür înståll, büt før Wîndøws, ʎøü cån üsə thə prə-påckågəd ståndålønə înstållər, føünd [%s hərə].}}]]></auto>
 </translationBlock>
 <translationBlock>
 	<id>art-5927</id>
@@ -537,41 +537,41 @@
 	<key><![CDATA[Only the latest development build is officially supported, but there is some community support for older builds, which you can get by joining IRC or Discord. For the latest builds, head to [[%s|the download page]] and click the latest build. You can also download the versionless jar that corresponds to the exact version that this site was built with [[%s|here]], though this is not considered to be the supported version.]]></key>
 	<comment></comment>
 	<translation></translation>
-	<auto></auto>
+	<auto><![CDATA[Onlʎ thə låtəst dəvəløpmənt büîld îs øffîcîållʎ süppørtəd, büt thərə îs sømə cømmünîtʎ süppørt før øldər büîlds, whîch ʎøü cån gət bʎ jøînîng IRC ør Dîscørd. Før thə låtəst büîlds, həåd tø [[%s|thə døwnløåd pågə]] ånd clîck thə låtəst büîld. Yøü cån ålsø døwnløåd thə vərsîønləss jår thåt cørrəspønds tø thə əxåct vərsîøn thåt thîs sîtə wås büîlt wîth [[%s|hərə]], thøügh thîs îs nøt cønsîdərəd tø bə thə süppørtəd vərsîøn.]]></auto>
 </translationBlock>
 <translationBlock>
 	<id>art-6111</id>
 	<key><![CDATA[Java >= 16 is required to run MethodScript.]]></key>
 	<comment></comment>
 	<translation></translation>
-	<auto></auto>
+	<auto><![CDATA[Jåvå >= 16 îs rəqüîrəd tø rün MəthødScrîpt.]]></auto>
 </translationBlock>
 <translationBlock>
 	<id>art-6112</id>
 	<key><![CDATA[For Java versions > 9, you may see errors such as "An illegal reflective access operation has occurred." For Java versions less than 17, you can simply add --illegal-access=permit to the JVM options, but for more granular control, you can instead add the output of %sjava -jar commandhelper-%s-SNAPSHOT-full.jar cmdline-args%s to your java startup arguments, or alternatively, dynamically call this command so that future updates will automatically conform to the necessary arguments.]]></key>
 	<comment></comment>
-	<translation></translation>
-	<auto></auto>
+	<translation><![CDATA[Før Jåvå vərsîøns > 9, ʎøü måʎ səə ərrørs süch ås "An îlləgål rəfləctîvə åccəss øpəråtîøn hås øccürrəd." Før Jåvå vərsîøns ləss thån 17, ʎøü cån sîmplʎ ådd --illegal-access=permit tø thə JVM øptîøns, büt før mørə grånülår cøntrøl, ʎøü cån înstəåd ådd thə øütpüt øf %sjava -jar commandhelper-%s-SNAPSHOT-full.jar cmdline-args%s tø ʎøür jåvå stårtüp årgümənts, ør åltərnåtîvəlʎ, dʎnåmîcållʎ cåll thîs cømmånd sø thåt fütürə üpdåtəs wîll åütømåtîcållʎ cønførm tø thə nəcəssårʎ årgümənts.]]></translation>
+	<auto><![CDATA[Før Jåvå vərsîøns > 9, ʎøü måʎ səə ərrørs süch ås "An îlləgål rəfləctîvə åccəss øpəråtîøn hås øccürrəd." Før Jåvå vərsîøns ləss thån 17, ʎøü cån sîmplʎ ådd --îlləgål-åccəss=pərmît tø thə JVM øptîøns, büt før mørə grånülår cøntrøl, ʎøü cån înstəåd ådd thə øütpüt øf %sjåvå -jår cømmåndhəlpər-%s-SNAPSHOT-füll.jår cmdlînə-årgs%s tø ʎøür jåvå stårtüp årgümənts, ør åltərnåtîvəlʎ, dʎnåmîcållʎ cåll thîs cømmånd sø thåt fütürə üpdåtəs wîll åütømåtîcållʎ cønførm tø thə nəcəssårʎ årgümənts.]]></auto>
 </translationBlock>
 <translationBlock>
 	<id>art-6113</id>
 	<key><![CDATA[Alternatively, for advanced users, you could download the sources and build it yourself locally. To do that, you need git, maven, and jdk >= 16. Pull down the code with %sgit clone git@github.com:EngineHub/CommandHelper.git%s, then follow the directions in [%s the README].]]></key>
 	<comment></comment>
-	<translation></translation>
-	<auto></auto>
+	<translation><![CDATA[Altərnåtîvəlʎ, før ådvåncəd üsərs, ʎøü cøüld døwnløåd thə søürcəs ånd büîld ît ʎøürsəlf løcållʎ. Tø dø thåt, ʎøü nəəd gît, maven, ånd jdk >= 16. Püll døwn thə cødə wîth %sgit clonə git@github.com:EngineHub/CommandHelper.git%s, thən følløw thə dîrəctîøns în [%s thə README].]]></translation>
+	<auto><![CDATA[Altərnåtîvəlʎ, før ådvåncəd üsərs, ʎøü cøüld døwnløåd thə søürcəs ånd büîld ît ʎøürsəlf løcållʎ. Tø dø thåt, ʎøü nəəd gît, måvən, ånd jdk >= 16. Püll døwn thə cødə wîth %sgît clønə gît@gîthüb.cøm:EngînəHüb/CømmåndHəlpər.gît%s, thən følløw thə dîrəctîøns în [%s thə README].]]></auto>
 </translationBlock>
 <translationBlock>
 	<id>art-6114</id>
 	<key><![CDATA[Installation isn't strictly required, you can run MethodScript directly using the java -jar command, however, using the mscript wrapper provides some additional functionality, such as setting up the appropriate options to the JVM.]]></key>
 	<comment></comment>
-	<translation></translation>
-	<auto></auto>
+	<translation><![CDATA[Instållåtîøn îsn't strîctlʎ rəqüîrəd, ʎøü cån rün MəthødScrîpt dîrəctlʎ üsîng thə java -jar command, høwəvər, üsîng thə mscrîpt wråppər prøvîdəs sømə åddîtîønål fünctîønålîtʎ, süch ås səttîng üp thə åpprøprîåtə øptîøns tø thə JVM.]]></translation>
+	<auto><![CDATA[Instållåtîøn îsn't strîctlʎ rəqüîrəd, ʎøü cån rün MəthødScrîpt dîrəctlʎ üsîng thə jåvå -jår cømmånd, høwəvər, üsîng thə mscrîpt wråppər prøvîdəs sømə åddîtîønål fünctîønålîtʎ, süch ås səttîng üp thə åpprøprîåtə øptîøns tø thə JVM.]]></auto>
 </translationBlock>
 <translationBlock>
 	<id>art-6115</id>
 	<key><![CDATA[For Java versions >= 17, this process is mandatory, as --illegal-access will be removed from the JVM, and the necessary --add-opens parameters will be the only way to provide the necessary access. This is also necessary for fully proper execution of signal handling in MethodScript.]]></key>
 	<comment></comment>
-	<translation></translation>
-	<auto></auto>
+	<translation><![CDATA[Før Jåvå vərsîøns >= 17, thîs prøcəss îs måndåtørʎ, ås --illegal-access wîll bə rəmøvəd frøm thə JVM, ånd thə nəcəssårʎ --add-opens påråmətərs wîll bə thə ønlʎ wåʎ tø prøvîdə thə nəcəssårʎ åccəss. Thîs îs ålsø nəcəssårʎ før füllʎ prøpər əxəcütîøn øf sîgnål håndlîng în MəthødScrîpt.]]></translation>
+	<auto><![CDATA[Før Jåvå vərsîøns >= 17, thîs prøcəss îs måndåtørʎ, ås --îlləgål-åccəss wîll bə rəmøvəd frøm thə JVM, ånd thə nəcəssårʎ --ådd-øpəns påråmətərs wîll bə thə ønlʎ wåʎ tø prøvîdə thə nəcəssårʎ åccəss. Thîs îs ålsø nəcəssårʎ før füllʎ prøpər əxəcütîøn øf sîgnål håndlîng în MəthødScrîpt.]]></auto>
 </translationBlock>
 </translations>
