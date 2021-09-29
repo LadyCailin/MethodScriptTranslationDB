@@ -36083,7 +36083,7 @@
 	<key><![CDATA[Sponsors]]></key>
 	<comment></comment>
 	<translation></translation>
-	<auto></auto>
+	<auto><![CDATA[Spønsørs]]></auto>
 </translationBlock>
 <translationBlock>
 	<id>art-5156</id>
@@ -37573,15 +37573,15 @@
 	<id>art-5368</id>
 	<key><![CDATA[On Windows systems, you'll need to have launched your command prompt as Administrator. (To install on Windows Subsystem for Linux, follow the same instructions as for Unix.) A program ''mscript'' will be installed on your path, and a PowerShell Module will also be installed. Running ''mscript'' will launch the interpreter, running it with a file will run that file, and using ''mscript -- '' followed by a verb (such as help) will run the cmdline utilities.]]></key>
 	<comment></comment>
-	<translation></translation>
-	<auto></auto>
+	<translation><![CDATA[On Wîndøws sʎstəms, ʎøü'll nəəd tø håvə låünchəd ʎøür cømmånd prømpt ås Admînîstråtør. (Tø înståll øn Wîndøws Sübsʎstəm før Lînüx, følløw thə såmə înstrüctîøns ås før Unîx.) A prøgråm ''mscript'' wîll bə înstålləd øn ʎøür påth, ånd å PøwərShəll Mødülə wîll ålsø bə înstålləd. Rünnîng ''mscript'' wîll låünch thə întərprətər, rünnîng ît wîth å fîlə wîll rün thåt fîlə, ånd üsîng ''mscript -- '' følløwəd bʎ å vərb (süch ås help) wîll rün thə cmdlînə ütîlîtîəs.]]></translation>
+	<auto><![CDATA[On Wîndøws sʎstəms, ʎøü'll nəəd tø håvə låünchəd ʎøür cømmånd prømpt ås Admînîstråtør. (Tø înståll øn Wîndøws Sübsʎstəm før Lînüx, følløw thə såmə înstrüctîøns ås før Unîx.) A prøgråm ''mscrîpt'' wîll bə înstålləd øn ʎøür påth, ånd å PøwərShəll Mødülə wîll ålsø bə înstålləd. Rünnîng ''mscrîpt'' wîll låünch thə întərprətər, rünnîng ît wîth å fîlə wîll rün thåt fîlə, ånd üsîng ''mscrîpt -- '' følløwəd bʎ å vərb (süch ås həlp) wîll rün thə cmdlînə ütîlîtîəs.]]></auto>
 </translationBlock>
 <translationBlock>
 	<id>art-5369</id>
 	<key><![CDATA[On Unix systems, you'll need to run the command with sudo. The installer will install an mscript bash file in /usr/local/bin/mscript, which simply wraps the jar. Running ''mscript'' will launch the interpreter, running it with a file will run that file, and using ''mscript -- '' followed by a verb (such as help) will run the cmdline utilities.]]></key>
 	<comment></comment>
-	<translation></translation>
-	<auto></auto>
+	<translation><![CDATA[On Unîx sʎstəms, ʎøü'll nəəd tø rün thə cømmånd wîth südø. Thə înstållər wîll înståll ån mscrîpt båsh fîlə în /usr/local/bin/mscript, whîch sîmplʎ wråps thə jår. Rünnîng ''mscript'' wîll låünch thə întərprətər, rünnîng ît wîth å fîlə wîll rün thåt fîlə, ånd üsîng ''mscript -- '' følløwəd bʎ å vərb (süch ås həlp) wîll rün thə cmdlînə ütîlîtîəs.]]></translation>
+	<auto><![CDATA[On Unîx sʎstəms, ʎøü'll nəəd tø rün thə cømmånd wîth südø. Thə înstållər wîll înståll ån mscrîpt båsh fîlə în /üsr/løcål/bîn/mscrîpt, whîch sîmplʎ wråps thə jår. Rünnîng ''mscrîpt'' wîll låünch thə întərprətər, rünnîng ît wîth å fîlə wîll rün thåt fîlə, ånd üsîng ''mscrîpt -- '' følløwəd bʎ å vərb (süch ås həlp) wîll rün thə cmdlînə ütîlîtîəs.]]></auto>
 </translationBlock>
 <translationBlock>
 	<id>art-5370</id>

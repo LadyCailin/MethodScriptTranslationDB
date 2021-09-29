@@ -40,7 +40,7 @@
 	<key><![CDATA[Sponsors]]></key>
 	<comment></comment>
 	<translation></translation>
-	<auto></auto>
+	<auto><![CDATA[Spønsørs]]></auto>
 </translationBlock>
 <translationBlock>
 	<id>art-5156</id>
