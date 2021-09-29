@@ -1,0 +1,171 @@
+<translations>
+<comment></comment>
+<translationBlock>
+	<id>nl-1715</id>
+	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-2933</id>
+	<key><![CDATA[Folders may be indefinitely nested, and CH will recurse into them as deep as necessary. The one exception is if the  folder name ends in %s.disabled%s, in which case the entire folder is ignored. This gives you a handy way to  "remove" scripts from your system, temporarily.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-2934</id>
+	<key><![CDATA[Inter-Package Interaction]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-2935</id>
+	<key><![CDATA[Simple Directory Packages]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-2936</id>
+	<key><![CDATA[Local Packages]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-2937</id>
+	<key><![CDATA[MSLP Zips]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-2938</id>
+	<key><![CDATA[This mechanism allows for easier distribution of a self-contained script, but has the disadvantage of not being easily  edited, however, a simple unzip operation will take care of that.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-2939</id>
+	<key><![CDATA[Usually programs have a "main" file, which is the thing that is guaranteed to run first. This is the starting point of a  program usually. Local Packages can emulate this behavior, but within different "projects", the load order is completely  undefined, and there is currently no mechanism for defining this. The one exception to this rule is that the main  %sauto_include.ms%s will always run first. However, using the %s.library%s mechanism, along with  careful file layouts will allow you to move pure ms files around, yet still guarantee their load order. A folder that  ends in %s.library%s works the exact same way as a %s.disabled%s folder, the name is just a convention  that hints at that folder's purpose. Files that are included inside of the %s.library%s folder are not directly  loaded by the Package mechanism, but can still be loaded by your code using an %s. %s.msa%s  files are not really affected by this, since all aliases are global anyways, and even if one depends on another, they  will all get loaded before any are used. %s.ms%s files may get affected by this, since they are executed as  soon as they are run, and one file may define a proc that another file needs to use, and if the load order is incorrect,  it would fail.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-2940</id>
+	<key><![CDATA[A %s.mslp%s file may also be placed anywhere in the directory structure. A MSLP file is simply a zip file, with  the file extension changed. Within the MSLP file, the exact same rules apply as with the Simple Directory Package  structure. %s.ms%s and %s.msa%s files.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-2941</id>
+	<key><![CDATA[Local Packages are a intermediate feature that allow you to break up your scripts and alias files into smaller, more  manageable chunks; as the name suggests, packages. Unlike %s and auto_include.ms, this allows you to  break the alias files out into more files, as well as automatically including certain other ms files. Local Packages  have limitations; They are meant as an intermediate feature before snap-ins are completed. These limitations will become  clear if you are not careful in your design of packages.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-2942</id>
+	<key><![CDATA[Since the Local Package mechanism is really just a way to organize your own personal scripts, if you try and distribute  packages, you may run into namespace conflicts. This is again a limitation of Local Packages that will be addressed with  Snap-Ins.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-2943</id>
+	<key><![CDATA[This is the easiest and most straightforward use of Local Packages. Files that end in %s.ms%s or  %s.msa%s and are simple ascii files on the file system are read in and compiled. %s.ms%s files are  pure mscript; no aliases may be defined here, and these files should work the same as any other file you might  %s. %s.msa%s files are the equivalent of the (by default) aliases.msa file. They must follow  the exact same format as the aliases.msa file. One special exception is %sauto_include.ms%s files in the  LocalPackages directory. These work exactly like the main %sauto_include.ms%s file, in that they are compiled,  cached, and included before every script run. This means this is the perfect place to define procs or other variables  that you need to be in scope for your scripts. All auto_includes are essentially run at the same time, and there is no  guarantee of run order.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-2944</id>
+	<key><![CDATA[Disadvantages]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-2945</id>
+	<key><![CDATA[Typical package structure may look like this then:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-2946</id>
+	<key><![CDATA[The order in which files load is undefined. This means that dependencies among seperate "projects" is not usually a good  idea. You may be able to game the system by naming files one thing or another, but in general that method will not be  reliable. However, you ''can'' reliably handle dependencies ''within'' a package by putting includes in your  auto_include.ms file, and using the %s.library%s mechanism.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-2947</id>
+	<key><![CDATA[There is a packager built in. You may create a mslp by simply running  %sjava -jar CommandHelper.jar --mslp path/to/toplevel/folder%s. In addition to creating the mslp, it will  attempt to compile it first, failing to create the mslp if compilation errors are present. The name of the mslp is  decided by the name of the folder; i.e. myScripts/ will become myScripts.mslp.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-2948</id>
+	<key><![CDATA[For both Simple Directory Packages, and MSLP zips, the following functionality applies. Local Packages are placed in the  plugins/CommandHelper/LocalPackages folder. Any number of nested folders may be placed inside, CommandHelper recursively  scans the folders for relevant files. Unrecognized files are simply skipped, so you can have extra things in the folder,  such as ReadMe files, or some such. For the sake of forward compatibility, only .txt files are guaranteed to never be  used, so you should a%s adding other file types, in the event they are used in the future.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5152</id>
+	<key><![CDATA[About]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5153</id>
+	<key><![CDATA[Home]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5154</id>
+	<key><![CDATA[Privacy Policy]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5155</id>
+	<key><![CDATA[Sponsors]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5156</id>
+	<key><![CDATA[Help]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5157</id>
+	<key><![CDATA[Team. All rights reserved.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5158</id>
+	<key><![CDATA[Docs]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+</translations>

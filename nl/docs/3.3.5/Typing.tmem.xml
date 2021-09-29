@@ -1,0 +1,402 @@
+<translations>
+<comment></comment>
+<translationBlock>
+	<id>nl-1715</id>
+	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-2468</id>
+	<key><![CDATA[Cross Casting]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5152</id>
+	<key><![CDATA[About]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5153</id>
+	<key><![CDATA[Home]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5154</id>
+	<key><![CDATA[Privacy Policy]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5155</id>
+	<key><![CDATA[Sponsors]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5156</id>
+	<key><![CDATA[Help]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5157</id>
+	<key><![CDATA[Team. All rights reserved.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5158</id>
+	<key><![CDATA[Docs]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5523</id>
+	<key><![CDATA[There is a special type called %sauto%s, which essentially means "don't use the typing system on this value." In fact, values that are declared without a type are actually declared as type %sauto%s! These two declarations are exactly the same:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5524</id>
+	<key><![CDATA[Helper Functions]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5525</id>
+	<key><![CDATA[This casting is not automatic for typed variables, you must explicitely provide the cast to do the conversion. However, this is not true for values of type %sauto%s, whether explicitely typed as such or implicitely typed due to no type being provided. Consider the same code as above but with @s being auto:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5526</id>
+	<key><![CDATA[In this example, if the value exported to 'username' had been set as something other than a string, we would fail on line 2. Perhaps accidentally, we had stored an array to the value, in that case, the user would be messaged the whole array. This can prevent us from continuing with the code after we have gotten into an unexpected state. Once these type errors are moved into the compiler, it makes even more sense, because then we would be able to catch these errors even faster, and not require the code to ever be run before we found the error.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5527</id>
+	<key><![CDATA[Declarations within Expressions]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5528</id>
+	<key><![CDATA[auto%s Type and %smixed%s Type]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5529</id>
+	<key><![CDATA[We are actually doing two separate operations in this one line, we are ''declaring'' a new variable, %s@s%s, and stating that it is of type %sstring%s. Secondly, we are assigning the string %s"string"%s to the variable. This seems a bit silly at first, since it seems like we're duplicating information, after all, we can clearly see that it's a string being assigned. However, consider later code that then uses @s, and perhaps tries to re-assign the value.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5530</id>
+	<key><![CDATA[This can help prevent future errors in your code, by preventing use of a value that isn't intended. Sometimes this can help catch bugs that would otherwise be extremely difficult to catch otherwise. A clearer example of this will be shown later.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5531</id>
+	<key><![CDATA[Each defined type is actually a subclass of one or more ''parent types'', (known as ''superclasses'') with the exception of the root type, %smixed%s, which has no superclasses. For any given type, it is always allowed to replace it with a subtype of that class with no error. Consider the following:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5532</id>
+	<key><![CDATA[Null is a special value which can be assigned to all types. Also, note that ''forward declarations'', that is, where you define a value but don't set it, default to %s.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5533</id>
+	<key><![CDATA[In both these cases, we have declared the type on the input and output. We have stated that the procedure _myProc must return a value of type string, and accept an input parameter of type int. Likewise, we have stated that the closure must return a value of type int, and takes an input of type string. (Incidentally, we have also defined the variable @c, which must be of type closure.)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5534</id>
+	<key><![CDATA[Currently, the following is possible, but is officially considered "undefined behavior", meaning that it is subject to change or removal in future versions:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5535</id>
+	<key><![CDATA[Caveats]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5536</id>
+	<key><![CDATA[When dealing with types, it's useful to note some various helper functions.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5537</id>
+	<key><![CDATA[However, this functionality is not yet implemented, meaning the code will cause an error, despite it intended to be valid code. We currently get %s: @i is of type %s, but a value of type %s was assigned to it.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5538</id>
+	<key><![CDATA[Note that some casts will be invalid anyways. If there's simply no way for a value to be an instance of the particular type, that cast won't be allowed.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5539</id>
+	<key><![CDATA[Subclasses]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5540</id>
+	<key><![CDATA[Specifically for procedures and closures, it may be that they do not return a value at all. These are said to ''return %s'', meaning that they don't have a return type. You can explicitely declare this with the %s type.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5541</id>
+	<key><![CDATA[In the meantime, to work around this, you must explicitely cast the value using one of the various manual cast methods that each primitive has. In this case, %s.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5542</id>
+	<key><![CDATA[Initially, one might wonder the difference between using %sauto%s and %smixed%s. Using mixed still follows the type system, and requires manual casting to convert values.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5543</id>
+	<key><![CDATA[Similar to %s we can simply find out the current concrete type.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5544</id>
+	<key><![CDATA[Effectively, %sauto%s types are assumed to be the correct type no matter how they're being used. Types stored in %smixed%s must first be cast to the correct type. Both approaches have merit, and so it depends on what you're doing as to what mechanism you should use.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5545</id>
+	<key><![CDATA[returns the ClassType object, which we can then use to gather data about a particular type:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5546</id>
+	<key><![CDATA[Casting is the act of bypassing various compiler checks when dealing with subclasses. This bypasses some of the type safety, but is required in some cases. Consider the following code from one of the examples above.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5547</id>
+	<key><![CDATA[If you would like to read more about how this feature is intended to work, see the design document [[%s|here]].]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5548</id>
+	<key><![CDATA[MethodScript is an optionally strongly typed language. This means that variables and procedure/closure input and outputs declare the '''type''' that they are, and only values of that type are allowed to be assigned to that variable, or returned by the procedure/closure. It is optionally strongly typed, because - outside of strict mode - it is not required that you provide a type.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5549</id>
+	<key><![CDATA[This becomes much clearer when we start adding types everywhere. Consider the following example:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5550</id>
+	<key><![CDATA[The simplest example is this:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5551</id>
+	<key><![CDATA[This is valid because %sint%s is a subtype of %snumber%s. We can discover the superclasses for a given type a number of ways, but we can use %s to get this information. We can get the full superclass chain with the following code:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5552</id>
+	<key><![CDATA[Cross casting is a runtime conversion of values from one type to another. Currently, cross casting is implemented opaquely in primitive objects, but is not "exposed" to the end user in a formal way. Consider the following code:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5553</id>
+	<key><![CDATA[This will continue to work even after this feature is implemented, so there is no code migration risk by doing it this way. It's also worth noting that literals in code will be considered auto for the purposes of cross casting, so things like this will also eventually work:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5554</id>
+	<key><![CDATA[There are unfortunately a few loose ends that are caveats at this stage of implementation, which are planned to be implemented, but aren't complete yet.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5555</id>
+	<key><![CDATA[tells you if the ''concrete type'' of a value is of a certain type. This is a runtime operation, so it has nothing to do with the type that the variable was declared with, but the type that the value itself is right now.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5556</id>
+	<key><![CDATA[Procedure and Closure Typing]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5557</id>
+	<key><![CDATA[The reason this works is because currently, the type system is ''type hinting'', not strong typing. Since the type system is implemented at runtime, rather than at compile time, we don't look at the second line of code until after the first line is run. In this case, we see that @m is in fact a string, and so we allow it to be assigned to @s.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5558</id>
+	<key><![CDATA[In this case, we are comparing a string and an integer to each other, and find that they are in fact equal. Why is this? This is due to cross casting. We effectively convert the string value to an integer, then compare it. Formally speaking, this is due to ''cross casting''. Eventually, string will be formally declared as cross castable to integers, and vice versa. This means that when we try to cast, we will make a runtime conversion to the expected value.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5559</id>
+	<key><![CDATA[Eventually, this will be corrected, and will be an error. However, @m actually does contain a string, so how would we make this work? Through an act called ''casting''. When we ''cast'' a value, we tell the compiler that we are positive that the current value is of the given type. We may have determined this through clever use of instanceof or simply hardcoded a particular value, but we're essentially telling the compiler to trust us, and don't cause an error. The syntax will be:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5560</id>
+	<key><![CDATA[Variable Typing]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5561</id>
+	<key><![CDATA[Casting]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5562</id>
+	<key><![CDATA[Type]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5563</id>
+	<key><![CDATA[Putting it together]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5564</id>
+	<key><![CDATA[We can prove this by using the %s function:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5565</id>
+	<key><![CDATA[This is easier to read in the future anyways.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5566</id>
+	<key><![CDATA[Values that are of type auto bypass the compilation checks, though they may still cause errors at runtime.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5567</id>
+	<key><![CDATA[Now, we would get the error: "%s: @s is of type %s, but a value of type %s was assigned to it."]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5568</id>
+	<key><![CDATA[Casting upward is not allowed, because subclasses are always a valid instance of a superclass.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5569</id>
+	<key><![CDATA[Do not rely on this behavior, as assignments are intended to be separate statements. Instead, rewrite the code to the following:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5570</id>
+	<key><![CDATA[Both the inputs and output of both procedures and closures can be typed.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+</translations>

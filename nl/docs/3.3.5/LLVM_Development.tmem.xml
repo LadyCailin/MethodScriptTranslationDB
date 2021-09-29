@@ -1,0 +1,717 @@
+<translations>
+<comment></comment>
+<translationBlock>
+	<id>nl-1715</id>
+	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-1729</id>
+	<key><![CDATA[Installation]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-2808</id>
+	<key><![CDATA[Common Errors]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5152</id>
+	<key><![CDATA[About]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5153</id>
+	<key><![CDATA[Home]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5154</id>
+	<key><![CDATA[Privacy Policy]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5155</id>
+	<key><![CDATA[Sponsors]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5156</id>
+	<key><![CDATA[Help]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5157</id>
+	<key><![CDATA[Team. All rights reserved.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5158</id>
+	<key><![CDATA[Docs]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6168</id>
+	<key><![CDATA[It's important to understand a few key concepts about native code, which may not be immediately obvious to a Java developer.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6169</id>
+	<key><![CDATA[It may be that eventually, we find a good reason to switch to bitcode, but for now, the pros of using the IR seem to outweigh the cons.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6170</id>
+	<key><![CDATA[When doing %x = alloca i64, then %x is actually of type i64*. Say you have the following code:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6171</id>
+	<key><![CDATA[Now %1 is a pointer to memory, which contains the value 0. To get 0 back, we have to load the value.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6173</id>
+	<key><![CDATA[O(bj) to Executable]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6175</id>
+	<key><![CDATA[When %X was defined with alloca]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6176</id>
+	<key><![CDATA[The IR is written out to .ll files, and this can be read to see the code in full context.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6177</id>
+	<key><![CDATA[In general, the user code goes through a series of passes, moving closer to outputting native code. Each of these passes contains a lot of steps, which are detailed below.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6178</id>
+	<key><![CDATA[IR to O(bj)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6179</id>
+	<key><![CDATA[Largely, each type has similar functionality though. TODO: Discuss static vs dynamic linking, and what object files contain.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6180</id>
+	<key><![CDATA[Another one is implied blocks. This mostly occurs with function definitions, which is why main looks like:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6181</id>
+	<key><![CDATA[Core functions (marked by the @core annotation in Java) are particularly sensitive to these requirements.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6182</id>
+	<key><![CDATA[[%s Guide for mapping high level language concepts to LLVM.]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6183</id>
+	<key><![CDATA[The next step is to compile the IR into object files. Object files are basically the native assembly, which has not been linked into a final binary yet. Starting from this stage, the process is handled entirely with the LLVM toolset. "llc" is the program responsible for compiling the IR into the object files.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6185</id>
+	<key><![CDATA[Foundational concepts cannot be changed under any circumstances. For instance, variables that are untyped (implied or explicit auto) must continue to be supported.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6186</id>
+	<key><![CDATA[Architecture]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6187</id>
+	<key><![CDATA[Functions and other features are allowed to be missing from the native compiler while parity is reached, but this should result in compiler errors. Once parity is reached, it will be required to implement on all platforms at once, but this is a future concern.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6188</id>
+	<key><![CDATA[Testing and Debugging]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6189</id>
+	<key><![CDATA[The functions are responsible for outputting the necessary IR. Input parameters are passed in as meta structures, TODO]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6190</id>
+	<key><![CDATA[[%s Compiling hand written LLVM, for test purposes.]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6191</id>
+	<key><![CDATA[TODO: Linking is more complex than this, go into more detail. "lld" converts the object file(s) into the executable.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6192</id>
+	<key><![CDATA[error: instruction expected to be numbered %X]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6193</id>
+	<key><![CDATA[If a new feature is added to the native backend, it must first be added to the Java Intepreter, unless this is also technically impossible.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6194</id>
+	<key><![CDATA[To reverse engineer executable binaries, it might be helpful to use [%s Ghidra], which is the premier open source reverse engineering toolchain, though reading the .ll files is probably easier, and should be attempted first.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6195</id>
+	<key><![CDATA[error: '%X' defined with type 'Y*' but expected 'Y']]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6196</id>
+	<key><![CDATA[While it's possible to diverge from the Java Interpreter when absolutely necessary, "the implementation is hard" is not a good enough reason to do so. Differences in implementation will be strongly challenged before they are allowed. If the implementation must vary for technical reasons, it should be made exceedingly clear in the documentation, and mechanisms must be added to allow user code to account for these differences at compile time.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6197</id>
+	<key><![CDATA[Resources]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6198</id>
+	<key><![CDATA[Learning LLVM or assembly concepts is beyond the scope of this article, as are things like using the C runtime library, though resources for doing so are provided at the bottom.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6199</id>
+	<key><![CDATA[First, the existing Java frameworks compile the user code into an AST. This is the same compilation that happens when using MethodScript in Java. The standard optimizations are run on this code, thus the optimizations made by the Java Interpreter (JI) take precedence. In the future, mechanisms will be added to allow the LLVM platform functions to preempt this optimization, but in general this should be a%sed, to prevent divergence of functionality. Most of the JI optimizations are fairly generic anyways, and deal more with eliminating dead code, and running various logic that is platform agnostic anyways. Once the AST is compiled, it is traversed, at which point the LLVM functions are run.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6200</id>
+	<key><![CDATA[Because there's an implied block named %2.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6201</id>
+	<key><![CDATA[This can happen when an local variable was expected, but wasn't provided, so it was automatically inserted by the LLVM compiler. This usually means the previous instruction was wrong, rather than the instruction it's pointing to. There can be different reasons for this, for instance if a "call i32 @function" return value is being ignored. Since call returns a value here, even if it isn't used, it should still be assigned to a value, to make it explicit, and to increment the counter. In fact, this probably needs to be used anyways, many C functions return -1 or something to indicate failure, which actually should be converted into a MethodScript exception, and thrown, rather than being silently ignored.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6202</id>
+	<key><![CDATA[Java Compilation]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6203</id>
+	<key><![CDATA[Key Concepts]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6204</id>
+	<key><![CDATA[Another technique is hand coding IR, then compiling that. This can result in faster development cycles as you figure out various concepts. To do this, you can hand write an IR file (you can use an empty MethodScript program to set up the boilerplate), then simply run %smscript -- asm handwritten.ll%s. Because this is a common use case, the compiler can instead of taking MethodScript, directly accept a LLVM IR file. If this is done, the "output directory" becomes the same as the .ll file, and the object file and executable will be placed beside it.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6205</id>
+	<key><![CDATA[Working on the native compiler backend is unfortunately more complex than contributing to the interpreter however, and so it is recommended that you have a complete understanding of how interpreted MethodScript works before embarking on the native framework, even if you're already familiar with LLVM or other assembly programming. This page is intended to help jumpstart someone who is otherwise familiar with the general concepts of contributing to MethodScript, and has some pointers to resources that can help with learning the basics of LLVM.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6206</id>
+	<key><![CDATA[Toolchain]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6207</id>
+	<key><![CDATA[Contributing to the native compiler backend is a great way to help MethodScript achieve its goals as a general purpose programming language. Natively compiled programs help code break out of the confines of the JVM, in principal are faster, and can integrate with code in other languages.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6208</id>
+	<key><![CDATA[LLVM conversion]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6209</id>
+	<key><![CDATA[The Java Interpreter is the reference implementation of MethodScript.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6210</id>
+	<key><![CDATA[One technique that is very useful is to reverse engineer equivalent C programs that have been compiled with clang. To do this, write an equivalent program in C, then compile it with %sclang -Weverything -S -emit-llvm code.c%s. This will emit the .ll file instead of compiling a binary. Clang is included with the LLVM installation. This is also useful for helping to map common high level concepts into a lower level format, so that you can interactively compare the two. Note that -Weverything is specified, this is generally important to have, so that all warnings are emitted. You may choose to ignore certain errors if they are not relevant (many aren't, and some simply aren't useful), but you should make sure to resolve all relevant and useful warnings before copying code, to make it less likely that you've written code that isn't a good example.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6211</id>
+	<key><![CDATA[To compile LLVM, one can choose to either write human readable LLVM IR, or LLVM bitcode, which is the binary format of the IR. Certainly, the LLVM compiler has to do more work to compile the IR compared to the bitcode, so generating the bitcode directly should in theory make compilation faster. However, a number of pros come from using the IR instead. First of all, the libraries that exist for generating bitcode are written in C/C++. Wrappers for Java do exist, but then this has to be installed on top of the normal toolchain. Development of the IR should be easier for new contributors. It also gives us more flexibility in generating the IR, which makes it easier to debug.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6213</id>
+	<key><![CDATA[The C Runtime Library is the primary runtime library, though others can be added as needed.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6214</id>
+	<key><![CDATA[The Java Interpreter does the compilation process first, so features that exist in the compiler will inherently take precedence.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6215</id>
+	<key><![CDATA[Before covering technical details, it's important to understand some underlying goals of the project.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6216</id>
+	<key><![CDATA[While the JI is focused on providing the runtime actions for the code, the LLVM code is only run at compile time, and instead generates the LLVM IR (Intermediate Representation), which can be thought of as a slightly higher level assembly language. Because of this, some concepts, which are easier to grasp in a runtime environment (types and values are known for sure at runtime, and may not be known at compile time), are more difficult to comprehend. Additionally, programming happens in a linear/flattened way. Jump statements are used instead of traditional high level branches, and code to evaluate parameters of a function is written before the evaluation of the function call itself. This paradigm shift takes some getting used to for high level developers, but it can help to view the output of already written programs, as well as output from simple C programs compiled to LLVM with clang.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6217</id>
+	<key><![CDATA[[%s LLVM IR Documentation] - This is the primary source of "official" documentation for the various IR commands. Note that this is not necessarily the authoritative source though, reverse engineering clang output is.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6218</id>
+	<key><![CDATA[Native code may have different implementations per platform, but the effect of each should be the same.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6219</id>
+	<key><![CDATA[For functions, this is accounted for automatically, but other block creation can cause this to happen in unexpected places, for instance when using a block terminating statement, such as ret, br, unreachable, etc. Not accounting for these implied variables is often a sign of a bug, so it's good that this error is caught, though unfortunate that the error message isn't terribly helpful.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6220</id>
+	<key><![CDATA[Once the IR is generated, it is written out to .ll files. This file contains the human readable LLVM IR, including comments indicating where in the original MethodScript the code came from.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6221</id>
+	<key><![CDATA[IR vs Bitcode]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6223</id>
+	<key><![CDATA[Due to the inherently complex nature of the task, setting up a dev environment is also somewhat complicated. To a large degree, most features can be done on whatever computer you're currently using, but it's possible that you may need additional OSes to test on. In all cases, OSes are available for test purposes as virtual machines, using any virtualization software you want, but in general, VirtualBox is the preferred solution.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6224</id>
+	<key><![CDATA[In all cases, setting up the VMs is free, though for non-free OSes, there are limitations that make them unusable for daily use, however, for our purposes, they are good enough. For Windows installations in particular, the VMs can be rather annoying, so it is recommended to use an actual copy of Windows, rather than the development VMs.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6225</id>
+	<key><![CDATA[IMPORTANT! *BEFORE* booting the VM for the first time, it's important to take a snapshot that can be reset easily once the Windows trial expires. Select the additional options button in the right side of the VM entry, and select Snapshots. Click "Take" in the top, and name the snapshot something reasonable, like "Pristine". You can then boot the VM like normal, and once the trial expires, or for whatever reason if you want to return to a brand new OS state, restore the snapshot.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6226</id>
+	<key><![CDATA[dumpbin.exe /headers "C:\Program Files (x86)\Windows Kits\10\Lib\10.0.19041.0\ucrt\x64\ucrt.lib"]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6227</id>
+	<key><![CDATA[While developing, you may need to research various scenarios.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6228</id>
+	<key><![CDATA["llc" and "lld" are the core tools that are used when compiling code, however, additional tools are installed by default when using the MethodScript toolchain installer. llvm-as, llvm-dis, and opt are included. These tools are useful for developers, and may be used as part of the core process if certain flags (such as debug flags) are set by the user, in the future.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6230</id>
+	<key><![CDATA[This will run for a while, and requires a bit of interaction, but the instructions are obvious and easy to follow.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6231</id>
+	<key><![CDATA[Mac OS Guest]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6232</id>
+	<key><![CDATA[For linux/mac, you can use nm or objdump]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6233</id>
+	<key><![CDATA[Download Ubuntu 20.04 LTS from here %s. This is the ISO file, which is like a disk image, and will need to be manually installed and imported. Go to Machine -> New, and follow the prompts. Select the disk drive, and insert the ISO file into the drive, and follow the normal Ubuntu installation procedures. Like the Windows installation, you may wish to create a pristine snapshot, but Ubuntu is free, so will not require resets due to expired trials.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6234</id>
+	<key><![CDATA[First, download the latest version of VirtualBox. %s We will then download and configure each guest OS one by one. On Windows hosts, for installing the MacOS guest, you additionally need to download Cygwin, from %s, see the MacOS instructions for more details and installation options.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6235</id>
+	<key><![CDATA[Download a Windows 10 or higher VM from here: %s Select VirtualBox for the VM platform. Unzip the file, and place the .vdi file in a reasonable location. Open VirtualBox, and select File->Import Appliance. Select the .vdi file, and follow the prompts.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6237</id>
+	<key><![CDATA[Research Scenarios]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6238</id>
+	<key><![CDATA[Intermediate files have different typical extensions on different platforms:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6239</id>
+	<key><![CDATA[wget]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6240</id>
+	<key><![CDATA[unzip]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6241</id>
+	<key><![CDATA[Once Catalina is installed, you can use Software Update to install Big Sur.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6242</id>
+	<key><![CDATA[objdump -x /usr/lib/x86_64-linux-gnu/libc.a]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6243</id>
+	<key><![CDATA[xxd]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6244</id>
+	<key><![CDATA[nm /usr/lib/x86_64-linux-gnu/libc.a]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6245</id>
+	<key><![CDATA[Windows Guest]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6246</id>
+	<key><![CDATA[Native MethodScript uses LLVM (which stands for Low Level Virtual Machine) to create the native binaries. Thus, it's important to eventually understand various concepts within LLVM in order to successfully understand the native compiler. In theory, LLVM should be able to be swapped out for any given assembly language, by simply creating a new platform resolver, however, it's unlikely that for native binaries LLVM would ever be swapped out. Nonetheless, the fact that LLVM is used should never be exposed to the end user, as this is not a guarantee from a user code or tooling perspective, hence why, for instance, the command to compile to native is "asm", not "llvm".]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6247</id>
+	<key><![CDATA[Download the script, and run it:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6248</id>
+	<key><![CDATA[For Windows, you can use dumpbin.exe to find details about an object file, such as a dll or lib file. This must be run from a visual studio developer prompt.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6249</id>
+	<key><![CDATA[Find symbols defined in a binary]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6250</id>
+	<key><![CDATA[Development Environment]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6251</id>
+	<key><![CDATA[These instructions use %s to download a MacOS guest. For Windows hosts, this requires Cygwin from %s. When installing Cygwin, install the latest versions of the following packages which are not included in the default installation, but are required for this script:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6252</id>
+	<key><![CDATA[For MacOS Big Sur, Guest Additions doesn't currently work. Once it works, the above instructions should be relevant, but in the meantime, a decent enough workaround is discussed below in the MacOS instructions.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6253</id>
+	<key><![CDATA[Once successfully mounting the shared folder, it should show up in /Volumes/target or whatever you named the shared folder, and can be used as normal from there. On reboot, you may need to reconnect to the share.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6254</id>
+	<key><![CDATA[You will also need to allow unsigned code to run. From a terminal, run `sudo spctl --master-disable` to allow any software to run.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6255</id>
+	<key><![CDATA[Since Guest Additions don't currently work, in order to use shared file systems with the host, this requires a different approach. Follow the directions below on how to set up the host only adapter in the "Debugging the compiler on a VM" section first. Once the host only adapter is configured, use your host OS's standard mechanism for creating a shared folder. From the Mac guest, open Finder, Go, Connect to Server, and configure the shared folder through the IP address.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6256</id>
+	<key><![CDATA[Once the guest OS is installed, it is useful to set up a shared folder, from where you install MethodScript, allowing you to continue development on your standard computer, yet also not have to constantly copy files over. For Windows and Linux guests, this is straightforward. Add the target/ folder of the build output as a shared folder in VirtualBox. Open the Settings for the VM, go to Shared Folders, select the target/ folder in the host, and set it to auto mount, then start the VM. From inside the VM, this should show up as a shared network folder. This requires the VirtualBox guest additions to be installed in the guest.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6257</id>
+	<key><![CDATA[Debugging the compiler on a VM]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6258</id>
+	<key><![CDATA[Shut down the guest, and open the VM's settings in VirtualBox, and go to the Network tab. Go to adapter 2, and enable it, and change the attached to: to Host-only Adapter. This also requires properly configuring the host system. Go to File -> Host Network Manager. Make sure that the Adapter is configured automatically, and the DHCP Server is enabled. (For brand new installations of VirtualBox, this is the default.) In your host, open the network connections and find the network adapter labeled something like "VirtualBox Host-Only Ethernet Adapter". Run ipconfig/ifconfig from the host, and note the IP address of this adapter. This is the IP address that you can access the host from the guest. Vice versa, run ipconfig/ifconfig from the guest, and note the IP address of the second ethernet adapter. This is the IP you can connect to the guest from the host. In your host system's IDE, start a remote debugging session, and enter the IP from the guest, and port 9001 here to connect.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6259</id>
+	<key><![CDATA[In general, the mscript wrapper supports debugging the JVM out of the box. Simply set the environment variable "DEBUG_MSCRIPT" to 1, (bash: %sexport DEBUG_MSCRIPT=1%s, cmd.exe: %sset DEBUG_MSCRIPT=1%s, powershell: %s$env:DEBUG_MSCRIPT = 1%s) and run the mscript command. This will start the java process with the debugger enabled, listening on all addresses, on port 9001. However, to access the network on the guest, you need to first configure a new network adapter on both the host and the guest.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6263</id>
+	<key><![CDATA[Note that the linker option format varies fairly widely from OS to OS, so any change to these options will almost certainly require testing on all supported OSes, unfortunately.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6264</id>
+	<key><![CDATA[Ubuntu Guest]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6265</id>
+	<key><![CDATA[Adjusting Linker Options]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6266</id>
+	<key><![CDATA[Windows, Ubuntu, and MacOS are the supported OSes. More may be added later if sponsorship is obtained. In general, Debian is expected to work, but it is not a supported OS, and no bugs filed against Debian will be accepted.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6267</id>
+	<key><![CDATA[If you aren't willing to install other development environments when adding new features, don't assume that new features that you're adding will work on other OSes. If you have reason to believe they will (for instance, only uses LLVM specific constructs and makes no system calls) then it's fine to make this assumption, but it's better to add a compile error when used in an untested system than it is to assume your feature will work. PRs that do OS specific tasks will not be accepted without proof of testing on all OSes that are supported in the code.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6268</id>
+	<key><![CDATA[When adding additional functions, it's important to make sure that everything works as intended. Unfortunately, since some functions have very platform specific code, it makes it more difficult to test. Luckily, it's easy to get Virtual Machines for both Ubuntu and Windows. (Newer Mac OS is difficult, and thus support for Macs is currently limited.) See the section below for information and steps on setting up these VMs.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6269</id>
+	<key><![CDATA[At the early stages of development, it's possible that the linker options are very wrong, and will need to be adjusted. Certainly, as new native code is integrated with, we will need to add more files to the linker. In order to get a good template for this, it is easiest to run clang against an equivalent C program, and view the linker options it uses. Use %sclang -v test.c%s to see the verbose output for clang, including the linker options, and use that as your template.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+</translations>

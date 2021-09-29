@@ -1,0 +1,122 @@
+<translations>
+<comment></comment>
+<translationBlock>
+	<id>nl-445</id>
+	<key><![CDATA[Yes]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-513</id>
+	<key><![CDATA[locationArray, effect, %s[%sradius%s]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-2878</id>
+	<key><![CDATA[Examples]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-3787</id>
+	<key><![CDATA[[[%s|OPTIMIZE_DYNAMIC]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-3788</id>
+	<key><![CDATA[Vital Info]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-3789</id>
+	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.%s (Note this page is automatically generated from the documentation in the source code.)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-3791</id>
+	<key><![CDATA[Usages]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-3792</id>
+	<key><![CDATA[Sorry, there are no examples for this function! :(]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5152</id>
+	<key><![CDATA[About]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5153</id>
+	<key><![CDATA[Home]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5154</id>
+	<key><![CDATA[Privacy Policy]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5155</id>
+	<key><![CDATA[Sponsors]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5156</id>
+	<key><![CDATA[Help]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5157</id>
+	<key><![CDATA[Team. All rights reserved.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5158</id>
+	<key><![CDATA[Docs]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6273</id>
+	<key><![CDATA[Some effects may require an applicable block at the specified location. Additional data can be supplied with the syntax EFFECT:DATA.%sThe STEP_SOUND takes a block material name.%sRECORD_PLAY takes a record material name.%sSMOKE takes a facing, one of NORTH, EAST, SOUTH, WEST, UP, DOWN, NORTH_EAST, NORTH_WEST, SOUTH_EAST, SOUTH_WEST, WEST_NORTH_WEST, NORTH_NORTH_WEST, NORTH_NORTH_EAST, EAST_NORTH_EAST, EAST_SOUTH_EAST, SOUTH_SOUTH_EAST, SOUTH_SOUTH_WEST, WEST_SOUTH_WEST, or SELF%sPOTION_BREAK takes an int (represents color).%sVILLAGER_PLANT_GROW and BONE_MEAL_USE take an int for the number of particles.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6274</id>
+	<key><![CDATA[Plays the specified effect at the given location for all players within the radius (or 64 by default). The effect can be one of the following: BONE_MEAL_USE, COMPOSTER_FILL_ATTEMPT, COPPER_WAX_OFF, COPPER_WAX_ON, DRAGON_BREATH, DRIPPING_DRIPSTONE, ELECTRIC_SPARK, ENDER_DRAGON_DESTROY_BLOCK, END_GATEWAY_SPAWN, END_PORTAL_FRAME_FILL, ENDER_SIGNAL, INSTANT_POTION_BREAK, LAVA_INTERACT, MOBSPAWNER_FLAMES, OXIDISED_COPPER_SCRAPE, POTION_BREAK, REDSTONE_TORCH_BURNOUT, SMOKE, SPONGE_DRY, VILLAGER_PLANT_GROW, ANVIL_BREAK, ANVIL_LAND, ANVIL_USE, BAT_TAKEOFF, BLAZE_SHOOT, BOOK_PAGE_TURN, BOW_FIRE, BREWING_STAND_BREW, CHORUS_FLOWER_DEATH, CHORUS_FLOWER_GROW, CLICK1, CLICK2, DOOR_CLOSE, DOOR_TOGGLE, ENDERDRAGON_GROWL, ENDERDRAGON_SHOOT, ENDEREYE_LAUNCH, EXTINGUISH, FENCE_GATE_CLOSE, FENCE_GATE_TOGGLE, FIREWORK_SHOOT, GHAST_SHOOT, GHAST_SHRIEK, GRINDSTONE_USE, HUSK_CONVERTED_TO_ZOMBIE, IRON_DOOR_CLOSE, IRON_DOOR_TOGGLE, IRON_TRAPDOOR_CLOSE, IRON_TRAPDOOR_TOGGLE, PHANTOM_BITE, POINTED_DRIPSTONE_DRIP_LAVA_INTO_CAULDRON, POINTED_DRIPSTONE_DRIP_WATER_INTO_CAULDRON, POINTED_DRIPSTONE_LAND, PORTAL_TRAVEL, RECORD_PLAY, SKELETON_CONVERTED_TO_STRAY, SMITHING_TABLE_USE, STEP_SOUND, TRAPDOOR_CLOSE, TRAPDOOR_TOGGLE, ZOMBIE_CHEW_WOODEN_DOOR, ZOMBIE_CHEW_IRON_DOOR, ZOMBIE_DESTROY_DOOR, WITHER_BREAK_BLOCK, WITHER_SHOOT, ZOMBIE_CONVERTED_TO_DROWNED, ZOMBIE_CONVERTED_VILLAGER, or ZOMBIE_INFECT.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+</translations>

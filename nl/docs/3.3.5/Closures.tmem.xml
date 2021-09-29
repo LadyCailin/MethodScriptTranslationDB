@@ -1,0 +1,360 @@
+<translations>
+<comment></comment>
+<translationBlock>
+	<id>nl-1715</id>
+	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-2257</id>
+	<key><![CDATA[When we think about the %s function, we then realize that it's much like a closure. When we define the procedure, nothing is run at that time. And in fact, internally, it does create a type of closure. Procs are slightly special though, because they do not save environment information (at least variable scope). Let's observe the more complicated case with an if statement:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-2258</id>
+	<key><![CDATA[So, why is that? That's because the code in the if function is ''lazily'' evaluated. That is to say, it's not evaluated until it is determined that it is needed. Other functions do this too, some for optimization reasons, others, because it's just the nature of the function. For instance, %sfor()%s does as well. In most cases, the "special" functions, (functions that have a language construct dedicated to them in other languages) implement closures. Some functions, such as %sand%s also are lazily evaluated, for performance reasons. Consider the case: %sand(false, true, true, true, ....lots of trues)%s. If we evaluate from left to right (which we do), after we determine that the first argument evaluates to false, we know for a fact that the %sand%s will return false, regardless of what the rest of the arguments return. Same with %sor%s and true values: %sor(true, false, false, false)%s.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-2259</id>
+	<key><![CDATA[This is because when we execute the closure, the values have already been bound, and can no longer be changed, as the closure sees it. This doesn't mean that something can't pass in extra values though, that's where the extra arguments come from. Let's modify the previous example some.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-2260</id>
+	<key><![CDATA[The most common usage that you will find is likely when you use a built in function that requires use of a closure. You may also use them in a library project, where you are wanting to create a callback of some sort, or as a way to abstract up a loop, for instance.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-2261</id>
+	<key><![CDATA[Explanation]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-2262</id>
+	<key><![CDATA[This is because arrays are passed by reference, not by value, and it's simply the reference that is getting copied into the closure's @array variable. So, if inside the closure, we change the values pointed at by the reference, those changes are visible from outside the closure. However, in the second example, we're changing the reference to the array, and simply putting something else inside of it. This doesn't affect the outside code having a reference to the array though, it still is pointing to the same empty array it created earlier.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-2263</id>
+	<key><![CDATA[So, you may ask yourself, what's the difference between this and a proc, other than the name is missing? A huge difference. With a proc, all variables go out of scope, other than what you pass in. With closures, everything that was in scope remains in scope. The only thing that may get overridden is if you named a variable that is passed in, and in addition, the meta scope values, such as the current player also remain in scope.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-2264</id>
+	<key><![CDATA[Closures can be serialized too! They get output as a basic string, however, so it's important to note the advantages/disadvantages of this. When they get serialized, they completely loose their scope. They become a standalone string. If you output the string, it may not look precisely like it did when you put it in either, in fact it will have sconcats added, and be minified, however, the guarantee is that it is functionally equivalent. However, do note that if you import/export the closure, the scope will remain, it is only if you move the closure outside of CH that it will lose it's scope (for instance, with store_value/get_value). If the closure is to-string'd, you will have to use eval() on it, instead of execute, and if previously it had accepted values, you'll have to manually assign them yourself. They are not meant for out of memory storage, and so they do not support that very well, however, it is important to note what their behavior would be if you attempt to serialize them.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-2265</id>
+	<key><![CDATA[In the first example with procs, we get an empty message. With the second example, we get msg'd "variable", because @a remained in scope when we executed the closure.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-2266</id>
+	<key><![CDATA[As you can see, we are able to change the environment at execution time if we put a little more thought into it.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-2267</id>
+	<key><![CDATA[Any values returned from the closure are returned by %sexecute%s.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-2268</id>
+	<key><![CDATA[If you define more parameters than are passed in, they take the default values that are assigned.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-2269</id>
+	<key><![CDATA[execute()]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-2270</id>
+	<key><![CDATA[Using the %s and %s functions allows you to harness the power of closures yourself, however you wish.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-2271</id>
+	<key><![CDATA[An iclosure is the same thing as a closure, except the variable scope is different. The variable scope works like a procedure; no variables from the parent scope are retained. An iclosure with no arguments passed to it, then, has no variables in scope (other than @arguments). This is useful as an optimization technique, when you have a closure in a large program, it has to copy all the references of all the currently in scope variables. If all the values you need are going to be passed into the closure, there's no point in doing all that copying. Instead, you can just use an iclosure, thus possibly reducing your memory footprint. An iclosure is identical to closures in all other ways, and they can be used in any case that a closure is required.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-2272</id>
+	<key><![CDATA[closure()]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-2273</id>
+	<key><![CDATA[Combined Usage]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-2274</id>
+	<key><![CDATA[The signature of the %sclosure%s function looks quite similar to %sproc%s.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-2275</id>
+	<key><![CDATA[We also have access to variables that are passed in, if we named them:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-2276</id>
+	<key><![CDATA[Also, note that the code inside the closure has access to the special variable @arguments, which is an array containing all the arguments passed to the closure.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-2277</id>
+	<key><![CDATA[The vars passed in must be ivars, but much like procs, you may %sassign%s default values to them.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-2278</id>
+	<key><![CDATA[The if function internally implements closures, transparently to you. Let's take a look at some code:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-2279</id>
+	<key><![CDATA[Also, we can implement vararg functionality with the special @arguments variable:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-2280</id>
+	<key><![CDATA[So, what is a closure? You can [%s read the wikipedia article] if you wish, but it's fairly complex. So, instead, we'll discuss something that you probably are already familiar with; the %sif()%s function.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-2281</id>
+	<key><![CDATA[The closure function actually returns a special data type, a '''closure'''. This data type has all the same qualities of other data types, that is, it can be stored in a variable, passed around to procedures, returned, imported/exported, persisted. It's very much like an anonymous procedure, and in fact has nearly the same signature as the %sproc%s function, minus the name. That's because you essentially give it a name when you store it somewhere, for instance in a variable.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-2282</id>
+	<key><![CDATA[Execute is used as follows:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-2283</id>
+	<key><![CDATA[However, in the case of the %sarray()%s, this has to be ''hastily'' evaluated, that is, we need to know how ALL the arguments are going to resolve, before we send them to the array function itself. So if we break it down, with %sif%s, we are sending ''code'' to the function, and with %sarray%s we are sending ''values'' to the function. When we are sending ''code'' to a function, as an executable set of instructions, we say we have created a '''closure'''.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-2284</id>
+	<key><![CDATA[Recall the example above:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-2285</id>
+	<key><![CDATA[Values may also be returned from the closure, using %s:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-2286</id>
+	<key><![CDATA[Another important point to make here is to remind you that arrays are passed by reference, so the following is possible:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-2287</id>
+	<key><![CDATA[Common usage]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-2288</id>
+	<key><![CDATA[Assigning a variable inside of a closure will not affect the external variable table however, so this code will function as follows:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-2289</id>
+	<key><![CDATA[Serialization of closures]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-2290</id>
+	<key><![CDATA[Now, it is important to note that the scope is frozen at closure bind time, NOT at execution time, so the following will happen:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-2291</id>
+	<key><![CDATA[If you notice, this code will only message you "Hello World", it will not message the other code. However this will message you twice:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-2292</id>
+	<key><![CDATA[Using closures]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-2293</id>
+	<key><![CDATA[This will send us a blank message, because @a is not ''in scope'' inside of the proc. This makes it not a true closure, by the technical definition, but it's pretty close. The difference is that the '''environment''' is not stored along with the code. A mscript closure uses this concept, but also adds an extra feature, the ability to pass in extra environment information upon actual execution of the code.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-2294</id>
+	<key><![CDATA[The values may be any value, but the closure must be a closure created with the closure function. A small, self contained example then:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-2295</id>
+	<key><![CDATA[Scope]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-2296</id>
+	<key><![CDATA[A closure is a block of code that is treated as ''code'', not as a ''result'' of code. Closures are actually used quite frequently in your code already, and you just aren't aware, however, with the closure architecture, you yourself can harness the power of a closure, and in fact they are required to be used in many of the newer, more powerful functions.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-2297</id>
+	<key><![CDATA[If we rewrite this with closures, we can see the difference:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-2298</id>
+	<key><![CDATA[iclosures]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-2299</id>
+	<key><![CDATA[This works, and messages "variable" like we would expect. However, the following does not work the same:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5152</id>
+	<key><![CDATA[About]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5153</id>
+	<key><![CDATA[Home]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5154</id>
+	<key><![CDATA[Privacy Policy]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5155</id>
+	<key><![CDATA[Sponsors]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5156</id>
+	<key><![CDATA[Help]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5157</id>
+	<key><![CDATA[Team. All rights reserved.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5158</id>
+	<key><![CDATA[Docs]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+</translations>

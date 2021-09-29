@@ -1,0 +1,514 @@
+<translations>
+<comment></comment>
+<translationBlock>
+	<id>nl-849</id>
+	<key><![CDATA[file]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-1685</id>
+	<key><![CDATA[CommandHelper]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-1715</id>
+	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-3319</id>
+	<key><![CDATA[MySQL]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-3320</id>
+	<key><![CDATA[SQLite]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-3485</id>
+	<key><![CDATA[is an example of a valid runtime specification for a mysql connection. In any place that the profile is specified, an array of this type may be provided instead.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-3486</id>
+	<key><![CDATA[Configuration]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-3487</id>
+	<key><![CDATA[PostgreSQL]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-3488</id>
+	<key><![CDATA[ssl]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-3489</id>
+	<key><![CDATA[password]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-3490</id>
+	<key><![CDATA[The port you are connecting to. If not specified, 3306 is assumed.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-3491</id>
+	<key><![CDATA[host]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-3492</id>
+	<key><![CDATA[Making a query]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-3493</id>
+	<key><![CDATA[WorldGuard]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-3494</id>
+	<key><![CDATA[The port you are connecting to. If not specified, 5432 is assumed.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-3495</id>
+	<key><![CDATA[The username you are connecting with.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-3496</id>
+	<key><![CDATA[This statement is used for inserting rows into your table. You can use this in two different ways shown below. The returned result would be the first rownumber that was added (with auto increment) or %s.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-3497</id>
+	<key><![CDATA[All queries use a standardized form of SQL provided by Java, though vendor specific SQL statements are supported, depending on the connection type. Learning SQL is beyond the scope of this article, and the article assumes you know at least basic SQL, however, if you need a refresher, [%s this site] can provide a basic tutorial. Additionally, the [%s MySQL reference manual] is very well written, and most of the information in it will apply to other database systems as well. You may also consider purchasing a book on SQL for more in depth learning.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-3498</id>
+	<key><![CDATA[Optional]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-3499</id>
+	<key><![CDATA[The path to the sql file. If the path is relative, it is considered relative to this file, however absolute paths are recommended, to prevent ambiguity.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-3500</id>
+	<key><![CDATA[This statement is used for updating existing rows in your table. For example, we may want to add 250 downloads to each plugin.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-3501</id>
+	<key><![CDATA[Some common examples follow, though the full SQL language is available.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-3502</id>
+	<key><![CDATA[which as you can see could much more likely lead to errors or unsafe usage, and is much harder to read.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-3503</id>
+	<key><![CDATA[This is the table generated by the first two queries.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-3504</id>
+	<key><![CDATA[The SQL framework uses JDBC to connect, so any database backend compatible with JDBC can be supported with MethodScript. You must have an SQL server set up and running already, which is beyond the scope of this article.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-3505</id>
+	<key><![CDATA[useSSL]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-3506</id>
+	<key><![CDATA[The host you are connecting to. If not specified, "localhost" is assumed.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-3507</id>
+	<key><![CDATA[port]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-3508</id>
+	<key><![CDATA[The query function returns an array (in the case of a select) or various other return types, depending on the SQL statement. For selects, an array of associative arrays with the results is returned. For inserts, %s is returned, unless the statement used an auto-increment, in which case, that value is returned. Deletes and updates return the number of rows affected. All other operations return %s.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-3509</id>
+	<key><![CDATA[The %s function is the basis for all queries. Connections are automatically kept for the duration of the script, so there is no need to worry about manually opening and closing connections to the server; the runtime will handle that for you. During each query, there are only two required parameters, the connection information (either a profile name or a connection array) and the query itself (and any statement parameters). All queries use a "prepared statement" format, which ensures that SQL injections are not possible.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-3510</id>
+	<key><![CDATA[If set: "useSSL=false". If value "true": "useSSL=true". Default: useSSL will not be an argument.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-3511</id>
+	<key><![CDATA[INSERT]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-3512</id>
+	<key><![CDATA[If set (with any value, but preferably "true") then ssl will be used to connect. Defaults to false.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-3513</id>
+	<key><![CDATA[The name of the database you are connecting to]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-3514</id>
+	<key><![CDATA[PostgreSQL requires a separate PostgreSQL server to be running, either remotely or locally. For more information about setting up a PostgreSQL server, look for more information on the PostgreSQL website:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-3515</id>
+	<key><![CDATA[WorldEdit]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-3516</id>
+	<key><![CDATA[descWG]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-3517</id>
+	<key><![CDATA[The password you are connecting with.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-3518</id>
+	<key><![CDATA[database]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-3519</id>
+	<key><![CDATA[DELETE]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-3520</id>
+	<key><![CDATA[Required]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-3521</id>
+	<key><![CDATA[A simple SELECT:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-3522</id>
+	<key><![CDATA[SQLite is the simplest SQL version to configure. No extra installation is required, as databases are plain files, and is supported out of the box. The base connection information required is just the file tag, though other information can be specified.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-3523</id>
+	<key><![CDATA[descCB]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-3524</id>
+	<key><![CDATA[UPDATE]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-3525</id>
+	<key><![CDATA[descCH]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-3526</id>
+	<key><![CDATA[Essentially, the connection information is specified via xml tags per profile, and connections can be referenced by id. In the following tables, the Tag column is the xml tag in the profile (in the above example, the username and password tags) and the status column tells you if the tag is required or optional. In all profiles, the id attribute is required, as is the type element. At startup, the xml is validated, and errors are reported, and must be corrected before continuing. The XML must be valid. If these attributes are hard coded, then the connection information specified should be specified as an associative array, subject to the same policies as the xml for required tags.. For instance,]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-3527</id>
+	<key><![CDATA[MethodScript provides various methods for connecting to and running SQL commands. The methods exposed ALWAYS use prepared queries, making your code far less prone to database injection attacks, as well as better compile time checks where possible.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-3528</id>
+	<key><![CDATA[Craftbook]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-3529</id>
+	<key><![CDATA[To simplify connection information to various databases, MethodScript allows two ways of connecting to a server. Either via ''profiles'' or via in code connection information. When connecting statically, connection via profiles is the preferred solution, since it makes coding easier, and makes it harder to accidentally leak database credentials when sharing code. See [[Profiles]] for more information about setting up profiles in general. Connections to different SQL server types may require different connection information, so you'll need to see the connection configuration information below for each supported server type. In general, the configuration format is as follows:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-3530</id>
+	<key><![CDATA[SELECT]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-3531</id>
+	<key><![CDATA[MySQL requires a separate MySQL server to be running, either remotely or locally. For more information about setting up a MySQL server, look for more information on the MySQL website:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-3532</id>
+	<key><![CDATA[descWE]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-3533</id>
+	<key><![CDATA[A more complex SELECT:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-3534</id>
+	<key><![CDATA[As you can see, the id is automatically placed into the statement, no escaping required, and there is still a guarantee that no SQL injections will occur. Essentially, if @id were a string, this would translate into the following code:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-3535</id>
+	<key><![CDATA[username]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5152</id>
+	<key><![CDATA[About]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5153</id>
+	<key><![CDATA[Home]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5154</id>
+	<key><![CDATA[Privacy Policy]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5155</id>
+	<key><![CDATA[Sponsors]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5156</id>
+	<key><![CDATA[Help]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5157</id>
+	<key><![CDATA[Team. All rights reserved.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5158</id>
+	<key><![CDATA[Docs]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5610</id>
+	<key><![CDATA[Username and password are optional in on premise SQL Server on Windows (as opposed to databases in Azure, where it is mandatory). Windows Authentication can be used instead, however, it requires extra server setup. To do so, simply run the %sinstall-mssql-auth%s from the command line.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5611</id>
+	<key><![CDATA[instance]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5612</id>
+	<key><![CDATA[MSSQL (SQL Server)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5613</id>
+	<key><![CDATA[The host you are connecting to. If not specified, "localhost" is assumed. If the database is in Azure, you may instead use "azureHost", and simply provide the host name (.database.windows.net will be appended for you).]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5614</id>
+	<key><![CDATA[In addition to these specially handled parameters, any of the valid parameters listed [%s here] can also be added, and they are simply passed on as is.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5615</id>
+	<key><![CDATA[MSSQL requires a separate SQL Server to be running, either remotely or locally. For more information about setting up SQL Server, look for more information on the Microsoft website:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5616</id>
+	<key><![CDATA[The SQL Server must be configured to allow TCP/IP connections, which is disabled by default. The JDBC driver cannot connect using Shared Memory, which is the only transport enabled by default. To enable TCP/IP connections, open the "SQL Server Configuration Manager" which is installed along with SQL Server. Expand the "SQL Server Network Configuration" tab on the left, and select the SQL Server instance you're trying to connect. Enable the "TCP/IP" protocol. You need to then restart the SQL Server. Click on the "SQL Server Services" tab, and then right click and restart on the server.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5617</id>
+	<key><![CDATA[The instance of SQL Server on the host. By default, empty.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5618</id>
+	<key><![CDATA[The port you are connecting to. If not specified, 1433 is assumed.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5619</id>
+	<key><![CDATA[Then, to use this authentication, simply add %s"integratedSecurity": true%s to your code, or %s&lt;integratedSecurity&gt;true&lt;/integratedSecurity&gt;%s to your profile.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+</translations>
