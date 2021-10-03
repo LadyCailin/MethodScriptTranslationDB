@@ -1688,6 +1688,13 @@
 	<auto></auto>
 </translationBlock>
 <translationBlock>
+	<id>nl-261</id>
+	<key><![CDATA[An operation that does nothing. Any arguments passed in are ignored entirely, though they will be evaluated first.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
 	<id>nl-262</id>
 	<key><![CDATA[Returns whether or not the item is actually a string datatype. If you just care if some data can be used as a string, use is_stringable().]]></key>
 	<comment></comment>
@@ -3944,6 +3951,13 @@
 <translationBlock>
 	<id>nl-603</id>
 	<key><![CDATA[Works like array_contains, except the comparison ignores case.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-604</id>
+	<key><![CDATA[Exits the program. If this is being run from the command line, works by exiting the interpreter, with  the specified exit code (defaulting to 0). If this is being run from in-game, works just like die().]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
@@ -26139,6 +26153,27 @@
 	<auto></auto>
 </translationBlock>
 <translationBlock>
+	<id>nl-3999</id>
+	<key><![CDATA[exception]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-4000</id>
+	<key><![CDATA[Registers as a dynamic component, for optimization testing; that is to say, this will not be optimizable ever. It simply returns the argument provided, or %s if none.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-4001</id>
+	<key><![CDATA[[%sargument%s]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
 	<id>nl-4002</id>
 	<key><![CDATA[The timeout for connections, in ms. If the connection takes longer than this to complete, the connection is terminated, and an IOException will be thrown. A value of 0 turns timeouts off, though this is not recommended.]]></key>
 	<comment></comment>
@@ -40162,6 +40197,41 @@
 <translationBlock>
 	<id>nl-6281</id>
 	<key><![CDATA[SPLASH_POTION]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6282</id>
+	<key><![CDATA[locationArray, %s[%ssize%s]%s, %s[%ssafe%s]%s, %s[%sfire%s]%s, %s[%ssource%s]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6283</id>
+	<key><![CDATA[Returns the number of ticks the entity has been freezing in powdered snow. Counts down by 2 every tick when entity is thawing.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6284</id>
+	<key><![CDATA[Sets how many server ticks the entity has been freezing. Must be above zero, and will clamp to the maximum the server allows.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6285</id>
+	<key><![CDATA[Creates an explosion at a location. Size defaults to size of a creeper (3), where 0 does no damage to entities. If safe is true (defaults to false) the explosion won&apos;t break blocks. If fire is true (defaults to true unless safe is true), the explosion may leave behind fire. The source must be an entity UUID, which can be used for block and entity damage attribution. The explosion will not damage source entity. Returns false if the explosion was canceled.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6286</id>
+	<key><![CDATA[Creates an explosion at a location. Size defaults to size of a creeper (3), where 0 does no damage to entities. If safe is true (defaults to false) the explosion won't break blocks. If fire is true (defaults to true unless safe is true), the explosion may leave behind fire. The source must be an entity UUID, which can be used for block and entity damage attribution. The explosion will not damage source entity. Returns false if the explosion was canceled.]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>

@@ -112,4 +112,18 @@
 	<translation></translation>
 	<auto><![CDATA[Døcs]]></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-6282</id>
+	<key><![CDATA[locationArray, %s[%ssize%s]%s, %s[%ssafe%s]%s, %s[%sfire%s]%s, %s[%ssource%s]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6286</id>
+	<key><![CDATA[Creates an explosion at a location. Size defaults to size of a creeper (3), where 0 does no damage to entities. If safe is true (defaults to false) the explosion won't break blocks. If fire is true (defaults to true unless safe is true), the explosion may leave behind fire. The source must be an entity UUID, which can be used for block and entity damage attribution. The explosion will not damage source entity. Returns false if the explosion was canceled.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

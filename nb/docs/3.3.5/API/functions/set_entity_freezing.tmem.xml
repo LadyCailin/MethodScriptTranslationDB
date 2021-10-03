@@ -1,15 +1,15 @@
 <translations>
 <comment></comment>
 <translationBlock>
-	<id>nb-265</id>
-	<key><![CDATA[locationArray, %s[%ssize%s]%s, %s[%ssafe%s]]]></key>
+	<id>nb-445</id>
+	<key><![CDATA[Yes]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nb-445</id>
-	<key><![CDATA[Yes]]></key>
+	<id>nb-874</id>
+	<key><![CDATA[entityUUID, int]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
@@ -52,13 +52,6 @@
 <translationBlock>
 	<id>nb-3813</id>
 	<key><![CDATA[None]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto></auto>
-</translationBlock>
-<translationBlock>
-	<id>nb-4226</id>
-	<key><![CDATA[Creates an explosion with a given size at a given location. Size defaults to size of a creeper (3), and %s uses the default. If safe is true, (defaults to false) the explosion won't hurt the surrounding blocks. If size is 0, and safe is true, you will still see the animation and hear the sound, but players won't be hurt, and neither will the blocks.]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
@@ -113,15 +106,8 @@
 	<auto><![CDATA[Dokumenter]]></auto>
 </translationBlock>
 <translationBlock>
-	<id>nb-6282</id>
-	<key><![CDATA[locationArray, %s[%ssize%s]%s, %s[%ssafe%s]%s, %s[%sfire%s]%s, %s[%ssource%s]]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto></auto>
-</translationBlock>
-<translationBlock>
-	<id>nb-6286</id>
-	<key><![CDATA[Creates an explosion at a location. Size defaults to size of a creeper (3), where 0 does no damage to entities. If safe is true (defaults to false) the explosion won't break blocks. If fire is true (defaults to true unless safe is true), the explosion may leave behind fire. The source must be an entity UUID, which can be used for block and entity damage attribution. The explosion will not damage source entity. Returns false if the explosion was canceled.]]></key>
+	<id>nb-6284</id>
+	<key><![CDATA[Sets how many server ticks the entity has been freezing. Must be above zero, and will clamp to the maximum the server allows.]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>

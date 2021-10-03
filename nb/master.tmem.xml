@@ -43967,4 +43967,39 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-6282</id>
+	<key><![CDATA[locationArray, %s[%ssize%s]%s, %s[%ssafe%s]%s, %s[%sfire%s]%s, %s[%ssource%s]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6283</id>
+	<key><![CDATA[Returns the number of ticks the entity has been freezing in powdered snow. Counts down by 2 every tick when entity is thawing.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6284</id>
+	<key><![CDATA[Sets how many server ticks the entity has been freezing. Must be above zero, and will clamp to the maximum the server allows.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6285</id>
+	<key><![CDATA[Creates an explosion at a location. Size defaults to size of a creeper (3), where 0 does no damage to entities. If safe is true (defaults to false) the explosion won&apos;t break blocks. If fire is true (defaults to true unless safe is true), the explosion may leave behind fire. The source must be an entity UUID, which can be used for block and entity damage attribution. The explosion will not damage source entity. Returns false if the explosion was canceled.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6286</id>
+	<key><![CDATA[Creates an explosion at a location. Size defaults to size of a creeper (3), where 0 does no damage to entities. If safe is true (defaults to false) the explosion won't break blocks. If fire is true (defaults to true unless safe is true), the explosion may leave behind fire. The source must be an entity UUID, which can be used for block and entity damage attribution. The explosion will not damage source entity. Returns false if the explosion was canceled.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
