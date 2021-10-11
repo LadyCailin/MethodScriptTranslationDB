@@ -1842,6 +1842,13 @@
 	<auto></auto>
 </translationBlock>
 <translationBlock>
+	<id>nl-283</id>
+	<key><![CDATA[[%s]%s %s min/max, %s[%smax%s]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
 	<id>nl-284</id>
 	<key><![CDATA[Set&apos;s the player&apos;s food saturation level. If this is above 0.0 and the player&apos;s health is below max, the player will experience fast health regeneration.]]></key>
 	<comment></comment>
@@ -7290,6 +7297,13 @@
 <translationBlock>
 	<id>nl-1113</id>
 	<key><![CDATA[Returns a random selection of keys or values from an array. The array may be either normal or associative. Number defaults to 1, and getKey defaults to true. If number is greater than the size of the array, a RangeException is thrown. No value will be returned twice from the array however, one it is &quot;drawn&quot; from the array, it is not placed back in. The order of the elements in the array will also be random, if order is important, use array_sort().]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-1114</id>
+	<key><![CDATA[Returns a random number from 0 to max, or min to max, depending on usage. Max is exclusive. Min must be less than max, and both numbers must be &gt;= 0. This will return an integer. Alternatively, you can pass no arguments, and a random double, from 0 to 1 will be returned.]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
