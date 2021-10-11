@@ -44002,4 +44002,46 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-6287</id>
+	<key><![CDATA[thrower: The UUID of the entity that threw this item, or %s.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6288</id>
+	<key><![CDATA[owner: The UUID of the player that owns this item, or %s. Prevents other players from picking up item.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6289</id>
+	<key><![CDATA[baby: Whether the piglin is a baby.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6290</id>
+	<key><![CDATA[ZOMBIE, HUSK, DROWNED, ZOGLIN]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6291</id>
+	<key><![CDATA[PIGLIN]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6292</id>
+	<key><![CDATA[zombificationimmune: Whether the piglin is immune to zombification in the overworld.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
