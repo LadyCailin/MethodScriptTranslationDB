@@ -1400,4 +1400,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-6293</id>
+	<key><![CDATA[item: The item the EnderEye entity displays and drops.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
