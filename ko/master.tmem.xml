@@ -44051,4 +44051,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-6294</id>
+	<key><![CDATA[[%splayer%s]%s, locationArray, progress]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6295</id>
+	<key><![CDATA[Sends the player fake block break progress for a location. Progress is a percentage from 0.0 to 1.0.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
