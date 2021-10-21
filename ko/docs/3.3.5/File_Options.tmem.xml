@@ -273,4 +273,25 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-6336</id>
+	<key><![CDATA[Default file options can be supplied on a per directory basis, by creating a file named %s.msfileoptions%s in any directory. Scripts in that directory as well as subdirectories will then use the defaults set in this file. If there are multiple %s.msfileoptions%s files in the parent directory chain, then they are read in from root to subfolder, using the value set in the file closest to the script file. That is, if you have a directory with files %s/scripts/myScript.ms%s, %s/scripts/.msfileoptions%s and %s/.msfileoptions%s, then options in %s/scripts/.msfileoptions%s will take precedence over options in %s/.msfileoptions%s for script %s/scripts/myScript.ms%s. In any case, the file options in the file itself always take precedence.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6337</id>
+	<key><![CDATA[The general format of a file option is: %soption: value;%s where the semicolon is optional for the last value. However, some file options are booleans. For booleans, either %strue%s or %son%s are considered positive values, and %sfalse%s or %soff%s are considered negative values. Furthermore, leaving the value off entirely, e.g. %soption;%s is equivalent to %soption: on;]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6338</id>
+	<key><![CDATA[The file options must be defined at the top of the file, and can only be preceeded by comments, and start with %s&lt;!%s and end with %s&gt;%s. Newlines within the file options are allowed. If, within the value, you need a literal %s&gt;%s or semicolon, you must escape it with %s\%s, so %s\&gt;%s or %s\;%s.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
