@@ -50702,4 +50702,52 @@
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
 </translationEntry>
+<translationEntry>
+	<id>6339</id>
+	<key><![CDATA[array, fill]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>6340</id>
+	<key><![CDATA[Fills the array fully with the given item. This works with both dynamic and fixed arrays, however with dynamic arrays, it must be a normal array, if the array is associative, a cast exception is thrown. This fills the entire array. The change is made in place, but a reference to the array is returned for easy chaining.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>6341</id>
+	<key><![CDATA[ClassType type, int size, %s[%sboolean %sOut%s]]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>6342</id>
+	<key><![CDATA[Creates an array that can hold values of the given type, and is of the given size. The array cannot be resized or retyped later. The array cannot be associative. In general, this isn&apos;t meant for normal use, and unless you have specific need for a fixed_size array, array() should be used instead. This is instead meant for writing low level system code. On the other hand, for performance sensitive needs, this may be used instead, though note that most of the API does not accept fixed_arrays (though it does implement ArrayAccess, and so can be used in most read only array based functions), nor will it in the future. This does however map to the underlying system array closely, and so can in particular be used to integrate more directly with the system. fixed_array isn&apos;t a particularly flexible type, but it isn&apos;t meant to be, it&apos;s meant to more directly map to the lower level part of the system. %sOut defaults to true, and in the interpreter is irrelevant, but for native code, if set to true, this loops through the array and sets each value to %s (or equivalent for primitive types). This takes additional work, but sets the value to a known state. This can be bypassed if the array is about to be filled from 0 to length, but should otherwise always be set to true. A RangeException is thrown if size is negative, or larger than a 32 bits signed integer. A CastException is thrown when size cannot be cast to an int.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>6343</id>
+	<key><![CDATA[Windows, Ubuntu, and MacOS are the supported OSes. More may be added later if sponsorship is obtained. In general, Debian is expected to work, but it is not a supported OS, and no bugs filed against Debian will currently be accepted.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>6344</id>
+	<key><![CDATA[Creates an array that can hold values of the given type, and is of the given size. The array cannot be resized or retyped later. The array cannot be associative. In general, this isn't meant for normal use, and unless you have specific need for a fixed_size array, array() should be used instead. This is instead meant for writing low level system code. On the other hand, for performance sensitive needs, this may be used instead, though note that most of the API does not accept fixed_arrays (though it does implement ArrayAccess, and so can be used in most read only array based functions), nor will it in the future. This does however map to the underlying system array closely, and so can in particular be used to integrate more directly with the system. fixed_array isn't a particularly flexible type, but it isn't meant to be, it's meant to more directly map to the lower level part of the system. %sOut defaults to true, and in the interpreter is irrelevant, but for native code, if set to true, this loops through the array and sets each value to %s (or equivalent for primitive types). This takes additional work, but sets the value to a known state. This can be bypassed if the array is about to be filled from 0 to length, but should otherwise always be set to true. A RangeException is thrown if size is negative, or larger than a 32 bits signed integer. A CastException is thrown when size cannot be cast to an int.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
 </summary>

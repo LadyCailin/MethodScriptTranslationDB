@@ -1,0 +1,115 @@
+<translations>
+<comment></comment>
+<translationBlock>
+	<id>nl-311</id>
+	<key><![CDATA[No]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-2878</id>
+	<key><![CDATA[Examples]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-3788</id>
+	<key><![CDATA[Vital Info]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-3789</id>
+	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.%s (Note this page is automatically generated from the documentation in the source code.)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-3791</id>
+	<key><![CDATA[Usages]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-3792</id>
+	<key><![CDATA[Sorry, there are no examples for this function! :(]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-3813</id>
+	<key><![CDATA[None]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5152</id>
+	<key><![CDATA[About]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5153</id>
+	<key><![CDATA[Home]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5154</id>
+	<key><![CDATA[Privacy Policy]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5155</id>
+	<key><![CDATA[Sponsors]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5156</id>
+	<key><![CDATA[Help]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5157</id>
+	<key><![CDATA[Team. All rights reserved.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5158</id>
+	<key><![CDATA[Docs]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6339</id>
+	<key><![CDATA[array, fill]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6340</id>
+	<key><![CDATA[Fills the array fully with the given item. This works with both dynamic and fixed arrays, however with dynamic arrays, it must be a normal array, if the array is associative, a cast exception is thrown. This fills the entire array. The change is made in place, but a reference to the array is returned for easy chaining.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+</translations>

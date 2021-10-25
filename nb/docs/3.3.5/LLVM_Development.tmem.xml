@@ -756,4 +756,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-6343</id>
+	<key><![CDATA[Windows, Ubuntu, and MacOS are the supported OSes. More may be added later if sponsorship is obtained. In general, Debian is expected to work, but it is not a supported OS, and no bugs filed against Debian will currently be accepted.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
