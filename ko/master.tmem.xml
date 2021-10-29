@@ -44408,4 +44408,613 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-6345</id>
+	<key><![CDATA[An annotation constraint states that the class passed in to the generic parameter must have a specific annotation on it.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6346</id>
+	<key><![CDATA[You can also define variadic parameter types in the LHS.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6347</id>
+	<key><![CDATA[At a basic level, generics are fairly easy to understand, but especially with some of the constraints and more advanced techniques, it can be fairly difficult to understand, so don't be discouraged if you don't get everything in this article at first.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6348</id>
+	<key><![CDATA[So far we have only discussed single constraints, however, it is possible to specify that the generic type match multiple constraints at the same time. These are separated by the %s&amp;%s symbol.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6349</id>
+	<key><![CDATA[The terms LHS and RHS also apply to function calls, the parameters passed to a function are the RHS, and the arguments in the function definition are the LHS. The return value of a function is also the RHS.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6350</id>
+	<key><![CDATA[When there are multiple parameters, some of them may not be inferrable, while others are. In that case, you can force inference of the ones that are inferrable by using ? on the RHS for those, and providing the specific parameters where not inferrable.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6351</id>
+	<key><![CDATA[This is also the only type of constraint which supports %sauto%s, and the only type where the object can be used without generics despite the class being defined with a generic parameter.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6352</id>
+	<key><![CDATA[An exact type is what we've shown above. But it's worth pointing out that if the class is defined with a type, you cannot provide an instance with a subtype for the generic parameter. Consider the following:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6353</id>
+	<key><![CDATA[When used in this way, T can only be used as a type of a variadic parameter in methods, and cannot be used as the type of a field or of the return type of a method. When construct an instance of this type, we must specify the types on the LHS, as well as the RHS.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6354</id>
+	<key><![CDATA[The number of type parameters on the class can also vary.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6355</id>
+	<key><![CDATA[So far in the article, we have only discussed type parameters on classes, but these can be scoped to a single method as well. The syntax for this is such:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6356</id>
+	<key><![CDATA[In both cases, the array is implicitely constructed with an ''auto type parameter''. We can keep the same behavior but make it explicit by doing this:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6357</id>
+	<key><![CDATA[Lower Bound (super)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6358</id>
+	<key><![CDATA[Defining a Class]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6359</id>
+	<key><![CDATA[Any annotation which can be put on a class type may be used, but there is no way to specify the specific annotation parameters themselves.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6360</id>
+	<key><![CDATA[Note that we will always still be returning a value of type number, so when reading from the array, it's slightly different.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6361</id>
+	<key><![CDATA[Variadic Type Parameters]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6362</id>
+	<key><![CDATA[Upper Bound in Definition]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6363</id>
+	<key><![CDATA[Different types of constraints have different inference rules.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6364</id>
+	<key><![CDATA[Type Parameters on Methods]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6365</id>
+	<key><![CDATA[Depending on what constraint is used, and where the constraint is used, this gives restrictions in different places in the code. Some within the class where the generic is defined, and some at the use site of the class. Each is discussed below.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6366</id>
+	<key><![CDATA[While int is a subclass of number, generic parameters do not inheret in the same way. If we consider the example class A, we can see why if we think about the difference between the 3 places that constraints can be.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6367</id>
+	<key><![CDATA[Some classes might wish to provide type parameters. This is possible by comma separating them.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6368</id>
+	<key><![CDATA[In this case, @a is defined with the generic type %s? super number%s. This means that the type on the RHS must contain a type which is a superclass of number. number has two superclasses, primitive, and mixed, so these are the only two options in this case. As in the above example, we use either primitive or mixed, based on the value of $input.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6369</id>
+	<key><![CDATA[Note that the type variable name in the definition site must be the same within each constraint, in this case, T.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6370</id>
+	<key><![CDATA[In this case, we have passed the auto type to the array function/constructor. This tells the array that we only want to allow any value to be added to or read from the array. We can instead put a specific type here, such as number, and we will change the behavior slightly.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6371</id>
+	<key><![CDATA[In general, a lower bound is useful in less cases than an upper bound, but can come in handy sometimes.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6372</id>
+	<key><![CDATA[But won't we just run into the same problem as discussed above? No, but that's because the code now has additional restrictions on it. When we do this, whenever T is used on the RHS, it is treated as if it is a number, but it isn't allowed to be on the LHS at all. Why? Assume @a was defined as in the above code.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6373</id>
+	<key><![CDATA[Constructor Constraint]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6374</id>
+	<key><![CDATA[The three different locations are:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6375</id>
+	<key><![CDATA[This constrains the caller such that they must now provide an instance of a class which contains a no argument, public constructor. From within the class though, we are then able to construct a new instance of T.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6376</id>
+	<key><![CDATA[Multiple Parameters]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6377</id>
+	<key><![CDATA[This does not constrain you in what values you can pass when using the class though. This is perfectly valid:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6378</id>
+	<key><![CDATA[A lower bound is the opposite of an upper bound. This is generally less useful than an upper bound, but it is useful for write-only values. Consider the following definition of @a.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6379</id>
+	<key><![CDATA[By default, if this isn't specified, it uses the type %sauto...]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6380</id>
+	<key><![CDATA[Using Defined Generics]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6381</id>
+	<key><![CDATA[Constraints]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6382</id>
+	<key><![CDATA[Let's next look at how to define a class using generics.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6383</id>
+	<key><![CDATA[So far, we've only discussed ''unconstrained'' generics, but we can define the class with a given constraint, and then that constraint will be applied when considering the type that the object is being constructed with. There are multiple types of constraints, and 3 different rulesets for where these constraints can be used.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6384</id>
+	<key><![CDATA[We can also provide parameters to new() to state that there must be a public constructor which accepts the given types.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6385</id>
+	<key><![CDATA[Variadic type parameters can be used in combination with multiple parameters, but it must be last in the list. It may have additional constraints, however.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6386</id>
+	<key><![CDATA[Now, we have told the compiler that we only want to allow numbers (and subtypes of number) to be put into the array.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6387</id>
+	<key><![CDATA[The right hand side of an assignment (RHS).]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6388</id>
+	<key><![CDATA[If we don't care about the type at all, we can also use the constraint %s?%s, which is usually just shorthand for %s? extends mixed%s when the type on the definition is unbounded.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6389</id>
+	<key><![CDATA[If you think you want to do this, you can get the intended behavior by just using mixed instead of T from within the class, and not having a generic parameter at all.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6390</id>
+	<key><![CDATA[Under the hood, the array function simply constructs a new instance of an array and returns it, so these two examples are equivalent.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6391</id>
+	<key><![CDATA[Now, if $input is false, this should work fine, because A's T value is a double. But what happens if $input was true? Then all of a sudden, this will stop working! Inside of A's set function, we would have tried to assign a double to an int.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6392</id>
+	<key><![CDATA[This defines that a type parameter named T will be used just within this method, and then it can be used as either the return type or the parameter types. In this example, since we're using T for both the return and parameter types, then that means that if we call the method and send it an int, then it will also return an int. The binding of the specific type of T can happen in a number of ways. Usually, it guesses the type of T correctly, and if you use the same type everywhere, this will be correct. However, you may wish to specify a superclass, in which case you'll need to explicitly specify this on the method use site.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6393</id>
+	<key><![CDATA[Therefore, when simply providing an unbounded type parameter, you MUST use the same value on the LHS and RHS.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6394</id>
+	<key><![CDATA[Annotation Constraint]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6395</id>
+	<key><![CDATA[In all the above examples, we have been explicit about the type passed to the RHS, but this isn't necessary. We can instead on the RHS used the ''inferred type'', if that is correct, and simply omit the type on the RHS.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6396</id>
+	<key><![CDATA[This begs the question, how would we get a value into A in the first place then? There are a number of ways, but mostly it involves temporary transfers or casts.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6397</id>
+	<key><![CDATA[Now, when we instantiate a new instance of A, we are required to provide a type which extends number, such as int or double (or number itself), or another wildcard upper bound.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6398</id>
+	<key><![CDATA[The more constraints you have, the more typing you have to do. You may consider defining all the constraints in a [[%s|typedef]].]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6399</id>
+	<key><![CDATA[In the above example, you might think this should work, but it doesn't. But let's assume it did work, and consider what happens lower in the code if we tried to use @a.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6400</id>
+	<key><![CDATA[In the first example, we're creating a temporary variable, where on the LHS, we declare it to only hold ints. Then, we can use the methods in the class unrestricted. Then, we assign that to @a, where the restrictions exist. In the second example, we're casting the value @a to A&lt;double&gt;, which in this case we can clearly see will be fine, but once we leave the else block, won't necessarily be. The compiler can't figure this out though, so it needs the cast to be told that this is safe in this one instance.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6401</id>
+	<key><![CDATA[Later, when we construct an instance of A, we will provide the type as a generic parameter.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6402</id>
+	<key><![CDATA[This is what mechanism you're using when when you define a fully typed closure.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6403</id>
+	<key><![CDATA[From within the class, we won't know the type of T at compile time, but the types are still reified anyways, and T will actually be defined as %sarray&lt;ClassType&gt;%s, and can be iterated at runtime to get the types that were defined on that specific instance.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6404</id>
+	<key><![CDATA[Multiple Constraints]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6405</id>
+	<key><![CDATA[Upper/Lower Bound]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6406</id>
+	<key><![CDATA[The definition site, that is, where class A is defined]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6407</id>
+	<key><![CDATA[In this extremely simple class, we have defined a class named A, and stated that it has a type parameter which we are calling %sT%s. (Note that in most examples, the letter T is used, but this doesn't have to be a single letter, you can name it however you like.) This allows us to use T within the class as if it were a real data type, and can use it for return values and parameter types.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6408</id>
+	<key><![CDATA[Also, recall that the LHS and the RHS do not have to happen in the same place in a regular assignment either, if a variable is forward declared, then the RHS might come later, and vary depending on what happens.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6409</id>
+	<key><![CDATA[This does change however, if the class definition has provided an upper bound. See below.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6410</id>
+	<key><![CDATA[If the class definition contains an upper bound, then the behavior of the plain wildcard varies as well. In the example above, %s?%s would be equivalent to %s? extends number%s.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6411</id>
+	<key><![CDATA[This is useful in cases where you may need to construct a new instance of T from within the class, such as in a factory class or similar. The constructor constraint cannot be used on the RHS generic parameter.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6412</id>
+	<key><![CDATA[However, we might not want this behavior, we might want to sometimes actually have a subclass in the generic parameter. If so, we can use an boundary constraint, which is defined on the LHS. Let's consider an upper bound first. An upper bound is defined with the syntax %s? extends Type%s. The question mark (called a wildcard) is there because we aren't actually defining a generic parameter here (like T), we're simply saying that the RHS for this must match this constraint.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6413</id>
+	<key><![CDATA[The first place you'll likely encounter generics is simply when using classes which were defined with a generic parameter. A good first example is the array type. In general, let's consider a simple use without generics.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6414</id>
+	<key><![CDATA[The left hand side of an assignment (LHS)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6415</id>
+	<key><![CDATA[When we construct the instance with %sint%s, then T is effectively replaced with int for that one instance, so you can sort of think of it as if the class had been defined like:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6416</id>
+	<key><![CDATA[In both cases, writing either a double or an int into a value of type number, primitive, or mixed, will all work just fine. But we can't read the values from the object, (or at least we can't assume they're numbers) because in general, code elsewhere could have written non-numbers into the object.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6417</id>
+	<key><![CDATA[In order to use generics in your own classes, you need to provide the generic type parameters in the class definition.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6418</id>
+	<key><![CDATA[Now, from within the class A, we can always treat the ''input parameter'' values of type T as if they are a number, so any operations defined in number will be applicable and allowed.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6419</id>
+	<key><![CDATA[In principal, a lower bound acts in reverse of an upper bound. This means that the values are "write only", that is, whenever T is used on the LHS, it is treated as if it is a number, but it isn't allowed to be on the RHS at all (actually, it is, but then it's treated as if it's of type mixed). Let's consider why this is. Let's write some values into @a.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6420</id>
+	<key><![CDATA[Note that lower bounds cannot be used in generic definitions, the following doesn't make any sense.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6421</id>
+	<key><![CDATA[Each instance may have a different type, however. This allows us to then provide different types to the object.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6422</id>
+	<key><![CDATA[Inferred Type Parameters (Diamond Operator)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6423</id>
+	<key><![CDATA[Exact Type]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6424</id>
+	<key><![CDATA[A constructor constraint asserts that the given type has a constructor with the specified signature. An example with the no-argument constructor would be this:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6425</id>
+	<key><![CDATA[In this case, we always have to refer to returned values as number, because any subtype of number can be placed into the array, and we won't know specifically what type they are, just that they are some subclass of number.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6426</id>
+	<key><![CDATA[We may want to generally constrain the value of T to some class OR subclass from within the class itself. We can do that with this code:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6427</id>
+	<key><![CDATA[Generics are a way to make a class be able to specify a type which is to be determined later, and generically use that type no matter what specific type it is. An example of this is a collection, such as array, which can be typed using generics so that only values of a specific type can be put into the array.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6428</id>
+	<key><![CDATA[One great example of this is how Callable is implemented.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6429</id>
+	<key><![CDATA[LHS/RHS]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6430</id>
+	<key><![CDATA[Note that typedefs automatically translate the type variable (in this case T) into the appropriate wildcard when used on the LHS. Typedefs of constraints cannot be used on the RHS, as a concrete class must always be provided there.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6431</id>
+	<key><![CDATA[The only "catch" here is that T is of type number, so the return type is also a number, and even though we know we sent it an int, it can in general return a double as well, so the call to get() must accept that possibility.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
