@@ -448,4 +448,25 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-6433</id>
+	<key><![CDATA[BARRIER and LIGHT particle types have been changed to the BLOCK_MARKER particle type with a 'block' parameter.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6434</id>
+	<key><![CDATA[Minecraft 1.18]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6435</id>
+	<key><![CDATA[There are many removals and name changes to biomes.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

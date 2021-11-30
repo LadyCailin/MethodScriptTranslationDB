@@ -910,4 +910,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-6432</id>
+	<key><![CDATA[Spigot/Paper 1.16.5 - 1.18.0 (when CH is used as a plugin)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
