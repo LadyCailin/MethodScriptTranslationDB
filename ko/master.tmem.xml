@@ -45087,4 +45087,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-6442</id>
+	<key><![CDATA[location%s: Where the item spawns%sid%s: The item's entityID%sitem%s: An item array representing the item being spawned.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6443</id>
+	<key><![CDATA[player%s: The player%sid%s: The item's entityID%sitem%s: An item array representing the item being dropped.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

@@ -51526,4 +51526,20 @@
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
 </translationEntry>
+<translationEntry>
+	<id>6442</id>
+	<key><![CDATA[location%s: Where the item spawns%sid%s: The item's entityID%sitem%s: An item array representing the item being spawned.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>6443</id>
+	<key><![CDATA[player%s: The player%sid%s: The item's entityID%sitem%s: An item array representing the item being dropped.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
 </summary>
