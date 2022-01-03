@@ -50,6 +50,41 @@
 	<auto></auto>
 </translationBlock>
 <translationBlock>
+	<id>art-3795</id>
+	<key><![CDATA[Example 1]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3796</id>
+	<key><![CDATA[Given the following code:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3797</id>
+	<key><![CDATA[Example 2]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3803</id>
+	<key><![CDATA[Example 3]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-3810</id>
+	<key><![CDATA[The output might be:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
 	<id>art-3813</id>
 	<key><![CDATA[None]]></key>
 	<comment></comment>
@@ -111,5 +146,26 @@
 	<comment></comment>
 	<translation></translation>
 	<auto><![CDATA[Døcs]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6453</id>
+	<key><![CDATA[Demonstrates resetting a display name for the player calling the function.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6454</id>
+	<key><![CDATA[Demonstrates resetting a display name for the specified player.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6455</id>
+	<key><![CDATA[Demonstrates attempting to reset the display name for a non-existent player. Note that you must use the player&apos;s real name, not their current display name.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
 </translationBlock>
 </translations>

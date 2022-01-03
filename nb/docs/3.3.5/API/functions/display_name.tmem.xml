@@ -57,6 +57,41 @@
 	<auto></auto>
 </translationBlock>
 <translationBlock>
+	<id>nb-3795</id>
+	<key><![CDATA[Example 1]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3796</id>
+	<key><![CDATA[Given the following code:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3797</id>
+	<key><![CDATA[Example 2]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3803</id>
+	<key><![CDATA[Example 3]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3810</id>
+	<key><![CDATA[The output might be:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
 	<id>nb-3813</id>
 	<key><![CDATA[None]]></key>
 	<comment></comment>
@@ -111,5 +146,26 @@
 	<comment></comment>
 	<translation></translation>
 	<auto><![CDATA[Dokumenter]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6450</id>
+	<key><![CDATA[Demonstrates retrieving the display name for the player calling the function.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6451</id>
+	<key><![CDATA[Demonstrates retrieving the display name for the specified player.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6452</id>
+	<key><![CDATA[Demonstrates attempting to retrieve the display name for a non-existent player.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
 </translationBlock>
 </translations>

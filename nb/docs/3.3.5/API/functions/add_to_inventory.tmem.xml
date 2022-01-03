@@ -71,6 +71,41 @@
 	<auto></auto>
 </translationBlock>
 <translationBlock>
+	<id>nb-3795</id>
+	<key><![CDATA[Example 1]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3796</id>
+	<key><![CDATA[Given the following code:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3797</id>
+	<key><![CDATA[Example 2]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3803</id>
+	<key><![CDATA[Example 3]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3810</id>
+	<key><![CDATA[The output might be:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
 	<id>nb-5152</id>
 	<key><![CDATA[About]]></key>
 	<comment></comment>
@@ -118,5 +153,26 @@
 	<comment></comment>
 	<translation></translation>
 	<auto><![CDATA[Dokumenter]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6444</id>
+	<key><![CDATA[Demonstrates adding 10 bread to an inventory identifier that does not exist.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6445</id>
+	<key><![CDATA[Demonstrates adding 10 bread to the inventory of a player named &apos;jeb_&apos;.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6446</id>
+	<key><![CDATA[An empty inventory supports 2304 of the same item (36 stacks of 64). Attempting to add 2400 items, results in 96 being left over that were not added to the inventory. The left over items will simply disappear, they will NOT appear on the ground in front of the player.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
 </translationBlock>
 </translations>

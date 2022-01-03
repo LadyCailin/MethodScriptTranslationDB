@@ -41377,4 +41377,109 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nl-6444</id>
+	<key><![CDATA[Demonstrates adding 10 bread to an inventory identifier that does not exist.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6445</id>
+	<key><![CDATA[Demonstrates adding 10 bread to the inventory of a player named &apos;jeb_&apos;.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6446</id>
+	<key><![CDATA[An empty inventory supports 2304 of the same item (36 stacks of 64). Attempting to add 2400 items, results in 96 being left over that were not added to the inventory. The left over items will simply disappear, they will NOT appear on the ground in front of the player.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6447</id>
+	<key><![CDATA[Demonstrates attempting to retrieve players from a non-existent dimension.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6448</id>
+	<key><![CDATA[Demonstrates retrieving a list of all online players, in every dimension.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6449</id>
+	<key><![CDATA[Demonstrates retrieving a list of all online players, but only in the nether.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6450</id>
+	<key><![CDATA[Demonstrates retrieving the display name for the player calling the function.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6451</id>
+	<key><![CDATA[Demonstrates retrieving the display name for the specified player.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6452</id>
+	<key><![CDATA[Demonstrates attempting to retrieve the display name for a non-existent player.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6453</id>
+	<key><![CDATA[Demonstrates resetting a display name for the player calling the function.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6454</id>
+	<key><![CDATA[Demonstrates resetting a display name for the specified player.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6455</id>
+	<key><![CDATA[Demonstrates attempting to reset the display name for a non-existent player. Note that you must use the player&apos;s real name, not their current display name.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6456</id>
+	<key><![CDATA[Demonstrates setting a display name for the player calling the function.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6457</id>
+	<key><![CDATA[Demonstrates attempting to set the display name for a non-existent player.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6458</id>
+	<key><![CDATA[Demonstrates setting a display name for the specified player.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
