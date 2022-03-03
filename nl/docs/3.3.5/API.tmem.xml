@@ -9590,4 +9590,32 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nl-6460</id>
+	<key><![CDATA[Returns the banner pattern information for the standing banner at the given location. This will be an array of items containing the &quot;color&quot; and &quot;shape&quot; parameters. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6461</id>
+	<key><![CDATA[array location]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6462</id>
+	<key><![CDATA[Overwrites the banner patterns for the standing banner at the given location. Patterns should be an array of associative arrays containing the keys &quot;color&quot; and &quot;shape&quot;. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6463</id>
+	<key><![CDATA[array location, array patterns]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
