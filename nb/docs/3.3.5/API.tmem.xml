@@ -9646,4 +9646,25 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-6468</id>
+	<key><![CDATA[Fetch the world&apos;s current auto-save state.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6469</id>
+	<key><![CDATA[[%sworld_name%s]%s, newState]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6470</id>
+	<key><![CDATA[Updates the world&apos;s auto-save state. If no world is specified, set the option for all worlds.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

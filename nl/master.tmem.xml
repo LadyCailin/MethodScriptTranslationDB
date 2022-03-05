@@ -41545,4 +41545,39 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nl-6468</id>
+	<key><![CDATA[Fetch the world&apos;s current auto-save state.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6469</id>
+	<key><![CDATA[[%sworld_name%s]%s, newState]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6470</id>
+	<key><![CDATA[Updates the world&apos;s auto-save state. If no world is specified, set the option for all worlds.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6471</id>
+	<key><![CDATA[Fetch the world's current auto-save state.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6472</id>
+	<key><![CDATA[Updates the world's auto-save state. If no world is specified, set the option for all worlds.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
