@@ -168,4 +168,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nl-6498</id>
+	<key><![CDATA[Strictly speaking, prefilters are not needed. A series of checks in the event itself can be used to determine if an event should run. However, using prefilters makes it much easier to control events, and allows for better optimization on the back end of the code. Each event will list what prefilters it supports, and what type the prefilter is. Prefilters add restrictions, by default if no prefilters are added, the event will run. There are multiple types of prefilters, listed below, with examples.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6499</id>
+	<key><![CDATA[Not all filtering possibilities will be achievable with prefilters. For very complex filter rules, you may still need to use if statements inside the code itself. However, whenever possible, you should use prefilters, both for their ease of use, and their potential for code optimization.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
