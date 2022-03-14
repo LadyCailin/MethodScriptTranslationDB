@@ -45493,4 +45493,186 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-6500</id>
+	<key><![CDATA[player%s: %s&lt;[[%s|String Match]]&gt; The player whose food level changed]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6501</id>
+	<key><![CDATA[prefix%s: %s&lt;[[%s|String Match]]&gt; Just the first part of the command, i.e. '/cmd' in '/cmd blah blah'%scommand%s: %s&lt;[[%s|String Match]]&gt; The entire command the player ran%splayer%s: %s&lt;[[%s|Player Match]]&gt; The player running the command]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6502</id>
+	<key><![CDATA[result%s: %s&lt;[[%s|Enum Match]]&gt; The outcome of the attempt to enter this bed. Can be one of NOT_POSSIBLE_HERE, NOT_POSSIBLE_NOW, NOT_SAFE, OK, OTHER_PROBLEM, TOO_FAR_AWAY, or OBSTRUCTED%slocation%s: %s&lt;[[%s|Location Match]]&gt; The location of the bed%splayer%s: %s&lt;[[%s|Player Match]]&gt; The player entering the bed]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6503</id>
+	<key><![CDATA[sneaking%s: %s&lt;[[%s|Boolean Match]]&gt; Whether or not the player is now sneaking%sworld%s: %s&lt;[[%s|World Match]]&gt; The world of the player%splayer%s: %s&lt;[[%s|Player Match]]&gt; The player who toggled their sneaking state]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6504</id>
+	<key><![CDATA[world%s: %s&lt;[[%s|String Match]]&gt; The world of the spawn. Deprecated in favor of location.%sx%s: %s&lt;[[%s|Expression]]&gt; The x location of the spawn. Deprecated in favor of location.%sy%s: %s&lt;[[%s|Expression]]&gt; The y location of the spawn. Deprecated in favor of location.%sz%s: %s&lt;[[%s|Expression]]&gt; The z location of the spawn. Deprecated in favor of location.%slocation%s: %s&lt;[[%s|Location Match]]&gt; The location the spawn is happening in.%splayer%s: %s&lt;[[%s|Player Match]]&gt; The player respawning]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6505</id>
+	<key><![CDATA[threshold%s: %s&lt;custom prefilter&gt; The minimum distance the player must have travelled before the event will be triggered. This is based on the 3D distance, and is measured in block units.%sfrom%s: %s&lt;[[%s|Location Match]]&gt; The location the player is coming from.%sworld%s: %s&lt;[[%s|World Match]]&gt; The world the event is happening in. This is just based on the location of the from event, which can be filtered on instead.%sto%s: %s&lt;[[%s|Location Match]]&gt; The location the player is going to.%splayer%s: %s&lt;[[%s|Player Match]]&gt; The player that moved. Switching worlds does not trigger this event.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6506</id>
+	<key><![CDATA[player%s: %s&lt;[[%s|Player Match]]&gt; The player that is about to login]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6507</id>
+	<key><![CDATA[player%s: %s&lt;[[%s|Player Match]]&gt; The player requesting the resource pack%sstatus%s: %s&lt;[[%s|Enum Match]]&gt; The status received from the client: ACCEPTED, DECLINED, FAILED_DOWNLOAD, or SUCCESSFULLY_LOADED]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6508</id>
+	<key><![CDATA[button%s: %s&lt;[[%s|String IC Match]]&gt; "left" or "right". If they left or right clicked%sblock%s: %s&lt;[[%s|Material Match]]&gt; The block type the player interacts with, or %s if nothing%sitemname%s: %s&lt;[[%s|Material Match]]&gt; The item type they are holding when they interacted, or %splayer%s: %s&lt;[[%s|Player Match]]&gt; The player that triggered the event%shand%s: %s&lt;[[%s|String IC Match]]&gt; The hand the player clicked with.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6509</id>
+	<key><![CDATA[location%s: %s&lt;[[%s|Location Match]]&gt; The location of the bed%splayer%s: %s&lt;[[%s|Player Match]]&gt; The player leaving the bed]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6510</id>
+	<key><![CDATA[location%s: %s&lt;[[%s|Location Match]]&gt; The location of the pressure plate%splayer%s: %s&lt;[[%s|Player Match]]&gt; The player interacting with the pressure plate]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6511</id>
+	<key><![CDATA[player%s: %s&lt;[[%s|Player Match]]&gt; The player chatting]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6512</id>
+	<key><![CDATA[from%s: %s&lt;[[%s|Location Match]]&gt; The location the player is teleporting from.%sto%s: %s&lt;[[%s|Location Match]]&gt; The location the player is teleporting to.%stype%s: %s&lt;[[%s|Enum Match]]&gt; The teleportation cause.%splayer%s: %s&lt;[[%s|Player Match]]&gt; The player teleporting.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6513</id>
+	<key><![CDATA[reason%s: %s&lt;[[%s|Macro]]&gt; The reason string%splayer%s: %s&lt;[[%s|Player Match]]&gt; The player being kicked]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6514</id>
+	<key><![CDATA[player%s: %s&lt;[[%s|Player Match]]&gt; The quitting player.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6515</id>
+	<key><![CDATA[world%s: %s&lt;[[%s|World Match]]&gt; The world the player is in.%sflying%s: %s&lt;[[%s|Boolean Match]]&gt; Whether or not the player is trying to start or stop flying%splayer%s: %s&lt;[[%s|Player Match]]&gt; The player who toggled their flying state]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6516</id>
+	<key><![CDATA[itemname%s: %s&lt;[[%s|Material Match]]&gt; The item the player is consuming%splayer%s: %s&lt;[[%s|Player Match]]&gt; The player consuming the item]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6517</id>
+	<key><![CDATA[sprinting%s: %s&lt;[[%s|Boolean Match]]&gt; Whether or not the player is now sprinting.%sworld%s: %s&lt;[[%s|World Match]]&gt; The world the player is in.%splayer%s: %s&lt;[[%s|Player Match]]&gt; The player who toggled their sprinting state.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6518</id>
+	<key><![CDATA[world%s: %s&lt;[[%s|World Match]]&gt; The world the fishing happens in.%sstate%s: %s&lt;[[%s|Enum Match]]&gt; Can be one of CAUGHT_ENTITY, CAUGHT_FISH, FAILED_ATTEMPT, FISHING, IN_GROUND, BITE, or REEL_IN.%splayer%s: %s&lt;[[%s|Player Match]]&gt; The player who is fishing.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6519</id>
+	<key><![CDATA[signing%s: %s&lt;[[%s|Boolean Match]]&gt; Whether or not the book is being signed%splayer%s: %s&lt;[[%s|Player Match]]&gt; The player which edited the book]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6520</id>
+	<key><![CDATA[newmode%s: %s&lt;[[%s|Enum Match]]&gt; gamemode being changed to, one of SURVIVAL, CREATIVE, ADVENTURE, or SPECTATOR%splayer%s: %s&lt;[[%s|Macro]]&gt; The player changing game modes]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6521</id>
+	<key><![CDATA[world%s: %s&lt;[[%s|World Match]]&gt; The world the player is logging in to%sjoin_message%s: %s&lt;[[%s|Regex]]&gt; The join message%splayer%s: %s&lt;[[%s|Player Match]]&gt; The player joining]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6522</id>
+	<key><![CDATA[from%s: %s&lt;[[%s|Location Match]]&gt; The location where the player is coming from%sto%s: %s&lt;[[%s|Location Match]]&gt; The location the player is coming to. Returns %s when using nether portal and "allow-nether" in server.properties is set to false or when using end portal and "allow-end" in bukkit.yml is set to false.%stype%s: %s&lt;[[%s|Enum Match]]&gt; The type of portal occurring, either NETHER_PORTAL or END_PORTAL%splayer%s: %s&lt;[[%s|Player Match]]&gt; The player portaling]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6523</id>
+	<key><![CDATA[player%s: %s&lt;[[%s|Macro]]&gt; The player that died.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6524</id>
+	<key><![CDATA[player%s: %s&lt;[[%s|Player Match]]&gt; The player whose exp is changing]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6525</id>
+	<key><![CDATA[from%s: %s&lt;[[%s|World Match]]&gt; The world the player is coming from.%sto%s: %s&lt;[[%s|World Match]]&gt; The world the player is now in%splayer%s: %s&lt;[[%s|Player Match]]&gt; The player that switched worlds.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
