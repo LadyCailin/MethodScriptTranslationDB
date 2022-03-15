@@ -45675,4 +45675,25 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-6526</id>
+	<key><![CDATA[sprinting%s: %s&lt;[[%s|Boolean Match]]&gt; Whether or not the player is now sprinting.%sworld%s: %s&lt;[[%s|Macro]]&gt; The world the player is in.%splayer%s: %s&lt;[[%s|Player Match]]&gt; The player who toggled their sprinting state.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6527</id>
+	<key><![CDATA[world%s: %s&lt;[[%s|Macro]]&gt; The world the player is in.%sflying%s: %s&lt;[[%s|Boolean Match]]&gt; Whether or not the player is trying to start or stop flying%splayer%s: %s&lt;[[%s|Player Match]]&gt; The player who toggled their flying state]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6528</id>
+	<key><![CDATA[sneaking%s: %s&lt;[[%s|Boolean Match]]&gt; Whether or not the player is now sneaking%sworld%s: %s&lt;[[%s|Macro]]&gt; The world of the player%splayer%s: %s&lt;[[%s|Player Match]]&gt; The player who toggled their sneaking state]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
