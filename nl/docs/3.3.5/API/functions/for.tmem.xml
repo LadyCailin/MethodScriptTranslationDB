@@ -175,4 +175,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nl-6530</id>
+	<key><![CDATA[Acts as a typical for loop. The assignment is first run. Then, a condition is checked. If that condition is checked and returns true, loopCode is run. After that, loopExpr is run. In java syntax, this would be: for(assign; condition; loopExpr){loopCode}. assign must be an ivariable, either a pre defined one, or the results of the assign() function. condition must be a boolean.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6531</id>
+	<key><![CDATA[assign, condition, loopExpr, loopCode]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
