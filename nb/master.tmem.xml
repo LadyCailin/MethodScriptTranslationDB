@@ -45717,4 +45717,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-6532</id>
+	<key><![CDATA[Documents a parameter. This is used for inputs to the element. The general format is %s@param value description%s, where value is the name of the parameter without the at sign, and description is free form.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6533</id>
+	<key><![CDATA[Comment blocks that start with /** and end with */ however, are smart comments, and the subject of this article. These comments are not lost with compilation, and are able to be used in later stages of compilation, to provide additional meta functionality to code.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
