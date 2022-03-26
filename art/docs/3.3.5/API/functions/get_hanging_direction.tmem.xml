@@ -1,15 +1,15 @@
 <translations>
 <comment></comment>
 <translationBlock>
-	<id>art-445</id>
-	<key><![CDATA[Yes]]></key>
+	<id>art-256</id>
+	<key><![CDATA[entityUUID]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>art-1078</id>
-	<key><![CDATA[name, %s[%stype, environment, [seed, [generator%s]%s]]]]></key>
+	<id>art-445</id>
+	<key><![CDATA[Yes]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
@@ -106,29 +106,8 @@
 	<auto><![CDATA[Døcs]]></auto>
 </translationBlock>
 <translationBlock>
-	<id>art-5980</id>
-	<key><![CDATA[Creates a world with the specified options. If a world by that name already exists, it will instead be loaded from disk, and the last three arguments may be ignored. The name is the name of the world, type is one of NORMAL, FLAT, VERSION_1_1, LARGE_BIOMES, AMPLIFIED, CUSTOMIZED, BUFFET and environment is one of NORMAL, NETHER, THE_END, CUSTOM. The seed can be an integer, a string (will be the hashcode), or %s (will be random int). Generator is the name of a world generator loaded on the server.]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto></auto>
-</translationBlock>
-<translationBlock>
-	<id>art-6277</id>
-	<key><![CDATA[Creates a world with the specified options. If a world by that name already exists, it will instead be loaded from disk, and the last three arguments may be ignored. The name is the name of the world, type is one of NORMAL, FLAT, LARGE_BIOMES, AMPLIFIED and environment is one of NORMAL, NETHER, THE_END, CUSTOM. The seed can be an integer, a string (will be the hashcode), or %s (will be random int). Generator is the name of a world generator loaded on the server.]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto></auto>
-</translationBlock>
-<translationBlock>
-	<id>art-6535</id>
-	<key><![CDATA[name, type, environment, %s[%sseed, [generator%s]%s]]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto></auto>
-</translationBlock>
-<translationBlock>
-	<id>art-6539</id>
-	<key><![CDATA[Creates or loads a world. The 'name' is the same as the directory name for the world. If a world directory by that name already exists, it will be loaded. The 'type' is one of NORMAL, FLAT, LARGE_BIOMES, AMPLIFIED. However, if level.dat exists in the world directory, the type from that will be used instead. The 'environment' is one of NORMAL, NETHER, THE_END, CUSTOM. This affects which regions directory is used in the world directory. The 'seed' can be an integer, a string (will be the hashcode), or %s (will be random int). The 'generator' is the name of a custom world generator loaded on the server.]]></key>
+	<id>art-6537</id>
+	<key><![CDATA[Returns the direction a hanging entity is facing.]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
