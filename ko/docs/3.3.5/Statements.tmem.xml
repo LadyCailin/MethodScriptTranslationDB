@@ -1,0 +1,87 @@
+<translations>
+<comment></comment>
+<translationBlock>
+	<id>ko-5152</id>
+	<key><![CDATA[About]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5153</id>
+	<key><![CDATA[Home]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5154</id>
+	<key><![CDATA[Privacy Policy]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5155</id>
+	<key><![CDATA[Sponsors]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5156</id>
+	<key><![CDATA[Help]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5157</id>
+	<key><![CDATA[Team. All rights reserved.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5158</id>
+	<key><![CDATA[Docs]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6541</id>
+	<key><![CDATA[For instance, take the following code:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6542</id>
+	<key><![CDATA[A ''statement'' is a single executable instruction, which has no "top level" return value (or the return value is unused). In many cases, MethodScript can figure out what the end of a statement is, based solely on the fact that individual function calls end with a right parenthesis. For instance, take this code:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6543</id>
+	<key><![CDATA[In this case, the end of the statement is the right most right parenthesis. The second to last right parenthesis belongs to the rand function, and is not a statement, it is an argument to the msg function. While MethodScript can tell that this is in fact the end of a statement, we can also write this to be explicit, using the semicolon character.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6544</id>
+	<key><![CDATA[Prefix and Postfix Operators]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6545</id>
+	<key><![CDATA[This unambiguously denotes the end of the statement. In this case, it wasn't strictly necessary, and so in non-strict mode, is optional. However, there are some cases where the semicolon is required, and depending on its presence or absence, causes different behavior. There are primarily three cases where this occurs: prefix and postfix operators, callable execution, and keywords which have optional right hand types.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+</translations>

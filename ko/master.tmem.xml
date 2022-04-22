@@ -45780,4 +45780,102 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-6541</id>
+	<key><![CDATA[For instance, take the following code:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6542</id>
+	<key><![CDATA[A ''statement'' is a single executable instruction, which has no "top level" return value (or the return value is unused). In many cases, MethodScript can figure out what the end of a statement is, based solely on the fact that individual function calls end with a right parenthesis. For instance, take this code:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6543</id>
+	<key><![CDATA[In this case, the end of the statement is the right most right parenthesis. The second to last right parenthesis belongs to the rand function, and is not a statement, it is an argument to the msg function. While MethodScript can tell that this is in fact the end of a statement, we can also write this to be explicit, using the semicolon character.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6544</id>
+	<key><![CDATA[Prefix and Postfix Operators]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6545</id>
+	<key><![CDATA[This unambiguously denotes the end of the statement. In this case, it wasn't strictly necessary, and so in non-strict mode, is optional. However, there are some cases where the semicolon is required, and depending on its presence or absence, causes different behavior. There are primarily three cases where this occurs: prefix and postfix operators, callable execution, and keywords which have optional right hand types.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6546</id>
+	<key><![CDATA[Adding type safety to your code is a well documented advantage, as it allows the compiler to more easily and quickly detect invalid code, as you cannot in the future assign a value of a different type to a variable that was defined with another type. In non-strict mode, types are still allowed, and have the same behavior, but untyped values are assumed to have the type ''auto''. This type is still allowed in strict mode, but the declaration must be explicit.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6547</id>
+	<key><![CDATA[Conforming to strict mode has its advantages, however. Errors that would have gone unnoticed are highlighted much more quickly. Strict mode enforces better programming practices and clearer and cleaner code, which the compiler has the opportunity to do more optimizations on. Strict mode will be expanded in the future, and those expansions will be listed below, so that you can begin to write conformant code, and it will not break once strict mode expands to include those options. However, unlisted modes may be added in the future with no notice, however, they will then be added to this documentation.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6548</id>
+	<key><![CDATA[While less code to write, this has the unfortunate side effect that the whole script must be wrapped in a concatenation block, which means that for each line of code, the concatenation effect must also run, even in cases where the concatenation doesn't make sense. This adds overhead to the code for no extra value in 99% of cases, and so strict mode disallows this feature, requiring explicit concatenation operators, at the benefit of decreased code runtime.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6549</id>
+	<key><![CDATA[Compiler warnings, such as deprecations and others are normally warned about, but compilation continues. In strict mode, these warnings instead trigger a compile error, and must be fixed immediately. However, in combination with the suppressWarnings file option, individual warnings can be ignored, and these will trigger neither a compiler warning or a compiler error.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6550</id>
+	<key><![CDATA[Strict mode simply requires this on every statement, which can help ensure you as a programmer have the correct habit, so that the possibly ambiguous cases are less likely to happen.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6551</id>
+	<key><![CDATA[Semicolons are used to denote end of statements. In a future strict mode update, they will be required, though the specification for them is not fully complete. Where used, they currently do create statements, and this works in non-strict mode as well.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6552</id>
+	<key><![CDATA[Some languages solve this same problem with newlines, instead of semicolons. However, MethodScript has a design principal which states that whitespace should never be used as code.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6553</id>
+	<key><![CDATA[See the article on [[Statements]] for a fuller treatment of statements.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6554</id>
+	<key><![CDATA[Note that even in non-strict mode, 100% proper use of semicolons will cause the code to run in the performant mode, however, missing a semicolon will not cause any sort of warning, and so is difficult to enforce.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

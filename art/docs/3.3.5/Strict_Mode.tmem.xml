@@ -224,4 +224,67 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-6546</id>
+	<key><![CDATA[Adding type safety to your code is a well documented advantage, as it allows the compiler to more easily and quickly detect invalid code, as you cannot in the future assign a value of a different type to a variable that was defined with another type. In non-strict mode, types are still allowed, and have the same behavior, but untyped values are assumed to have the type ''auto''. This type is still allowed in strict mode, but the declaration must be explicit.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6547</id>
+	<key><![CDATA[Conforming to strict mode has its advantages, however. Errors that would have gone unnoticed are highlighted much more quickly. Strict mode enforces better programming practices and clearer and cleaner code, which the compiler has the opportunity to do more optimizations on. Strict mode will be expanded in the future, and those expansions will be listed below, so that you can begin to write conformant code, and it will not break once strict mode expands to include those options. However, unlisted modes may be added in the future with no notice, however, they will then be added to this documentation.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6548</id>
+	<key><![CDATA[While less code to write, this has the unfortunate side effect that the whole script must be wrapped in a concatenation block, which means that for each line of code, the concatenation effect must also run, even in cases where the concatenation doesn't make sense. This adds overhead to the code for no extra value in 99% of cases, and so strict mode disallows this feature, requiring explicit concatenation operators, at the benefit of decreased code runtime.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6549</id>
+	<key><![CDATA[Compiler warnings, such as deprecations and others are normally warned about, but compilation continues. In strict mode, these warnings instead trigger a compile error, and must be fixed immediately. However, in combination with the suppressWarnings file option, individual warnings can be ignored, and these will trigger neither a compiler warning or a compiler error.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6550</id>
+	<key><![CDATA[Strict mode simply requires this on every statement, which can help ensure you as a programmer have the correct habit, so that the possibly ambiguous cases are less likely to happen.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6551</id>
+	<key><![CDATA[Semicolons are used to denote end of statements. In a future strict mode update, they will be required, though the specification for them is not fully complete. Where used, they currently do create statements, and this works in non-strict mode as well.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6552</id>
+	<key><![CDATA[Some languages solve this same problem with newlines, instead of semicolons. However, MethodScript has a design principal which states that whitespace should never be used as code.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6553</id>
+	<key><![CDATA[See the article on [[Statements]] for a fuller treatment of statements.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6554</id>
+	<key><![CDATA[Note that even in non-strict mode, 100% proper use of semicolons will cause the code to run in the performant mode, however, missing a semicolon will not cause any sort of warning, and so is difficult to enforce.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
