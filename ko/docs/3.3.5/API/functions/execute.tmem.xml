@@ -133,4 +133,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-6555</id>
+	<key><![CDATA[[%svalues...%s]%s, callable]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6557</id>
+	<key><![CDATA[Executes the given closure or other Callable. You can also send arguments to the Callable, which it may or may not use, depending on the particular Callable's definition. If the Callable returns a value, then that value will be returned with execute. Otherwise, %s is returned. Note that Callables are in general first class language features, which can be invoked with parenthesis, for instance %sCallable @c = ...; @c();%s will execute @c, and is the preferred syntax.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
