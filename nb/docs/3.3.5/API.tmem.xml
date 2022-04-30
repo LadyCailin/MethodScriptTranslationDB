@@ -9737,4 +9737,25 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-6558</id>
+	<key><![CDATA[Returns a first class reference to the currently in scope procedure. This can be stored in variables and generally passed around, though it cannot be serialized. Keyword usage is preferred, such as &lt;code&gt;proc _asdf;&lt;/code&gt; instead of &lt;code&gt;get_proc(&apos;_asdf&apos;)&lt;/code&gt;. Note that this is a special compiler function, and must contain a hardcoded procedure name.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6559</id>
+	<key><![CDATA[Procedure]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6560</id>
+	<key><![CDATA[reference]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
