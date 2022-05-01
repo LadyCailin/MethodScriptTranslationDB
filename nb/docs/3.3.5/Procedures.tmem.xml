@@ -1,0 +1,409 @@
+<translations>
+<comment></comment>
+<translationBlock>
+	<id>nb-1715</id>
+	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.]]></key>
+	<comment></comment>
+	<translation><![CDATA[Finne en feil på denne siden? %sRediger denne siden selv, og send deretter inn en Pull Request.]]></translation>
+	<auto><![CDATA[Finne en feil på denne siden? %sRediger denne siden selv, og send deretter inn en pull-forespørsel.]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5152</id>
+	<key><![CDATA[About]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Om]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5153</id>
+	<key><![CDATA[Home]]></key>
+	<comment></comment>
+	<translation><![CDATA[Hjem]]></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5154</id>
+	<key><![CDATA[Privacy Policy]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Personvern]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5155</id>
+	<key><![CDATA[Sponsors]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Sponsorer]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5156</id>
+	<key><![CDATA[Help]]></key>
+	<comment></comment>
+	<translation><![CDATA[Hjelp]]></translation>
+	<auto><![CDATA[hjelp]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5157</id>
+	<key><![CDATA[Team. All rights reserved.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Team. Alle rettigheter reservert.]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-5158</id>
+	<key><![CDATA[Docs]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Dokumenter]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6571</id>
+	<key><![CDATA[Scope within procs]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6572</id>
+	<key><![CDATA[Proc redefinition]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6573</id>
+	<key><![CDATA[Conditional procs can accidentally (or intentionally) occur when using the %s function with a non-hardcoded path. See the discussion below for dynamic procs. The solutions there can perhaps be useful in other conditions where you think you might need a conditional proc definition.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6574</id>
+	<key><![CDATA[Proc Docs]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6575</id>
+	<key><![CDATA[In general, these work the same as native function calls, and have more or less the same semantics, with a few differences related to scope (native functions are globally accessible, while procs are not necessarily).]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6576</id>
+	<key><![CDATA[This will cause the typechecker to register a declaration with the given types, and this is the signature that future calls will be typechecked against. Missing procs at runtime will be a runtime error, however.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6577</id>
+	<key><![CDATA[[[Closures]] are similar to procs, but have different semantics, though both procs and closures are of the ''Callable'' type, meaning they can be executed via %s or with parenthesis based execution, with the addition that procs can be called by name.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6578</id>
+	<key><![CDATA[File options]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6579</id>
+	<key><![CDATA[For instance:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6580</id>
+	<key><![CDATA[@arguments]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6581</id>
+	<key><![CDATA[First class references to procs]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6582</id>
+	<key><![CDATA[The output of this code will be "second", because the proc was redefined internally with the new declaration. This is a side effect, and not necessarily intended behavior, though it is in general an officially sanctioned pattern, that is only subject to minor changes in the future, with one large caveat: The return type and argument count/types should remain the same from one declaration to the next, and only the internal implementation should vary.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6583</id>
+	<key><![CDATA[There is older, functional notation as well, see the API docs for information on this format, though using the functional notation is not preferred.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6584</id>
+	<key><![CDATA[If you follow these rules, you may safely do proc redefinitions, and only have to make minor changes in the future.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6585</id>
+	<key><![CDATA[This simply causes typechecking to be disabled for the single call to the proc, other calls to the same proc will be typechecked if they also do not contain the annotation.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6586</id>
+	<key><![CDATA[For now, forward declarations are only part of the typechecking framework, but in the future, it will cause a runtime error at include site if an implementation of a forward declared method has the wrong signature, which will make tracing back exceptions to the actual problem easier. For now, simply be careful to ensure that when implementing a forward declaration that you implement the same signature.9]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6587</id>
+	<key><![CDATA[The first step to using a proc is to define it. The general format of a proc definition is:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6588</id>
+	<key><![CDATA[Calling a proc]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6589</id>
+	<key><![CDATA[In general, the intention is for procs to be considered "global" and immutable, though in practice this is possible to circumvent, though this is fragile and intentionally poorly defined, as changes may occur in the future that cause patterns outside these conventions to break.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6590</id>
+	<key><![CDATA[Forward declarations]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6591</id>
+	<key><![CDATA[Procedures (also referred to as procs) are a way of calling code multiple times, without having to copy paste the code everywhere. Also commonly known as functions, they accept zero or more inputs, and have zero or one output. Procs are named, and can be referenced elsewhere by name.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6592</id>
+	<key><![CDATA[The @arguments variable is a special, predefined value, which is available in every procedure. It is defined as]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6593</id>
+	<key><![CDATA[@{DynamicProc} annotation]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6594</id>
+	<key><![CDATA[You can share data generally, with for instance %s and %s, but that requires specific action to get a value. %s is a proc-like data structure which gets a copy of all currently in scope values, which might be a good alternative to procs.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6595</id>
+	<key><![CDATA[The return type is some valid MethodScript type, followed by the mandatory ''proc'' keyword, the proc name, which must start with a single underscore, a left parenthesis, zero or more arguments, with or without types, followed by the code block. Arguments may be considered optional by using an assignment in the variable declarations. The proc may return a value (in this example the int 42) or not (a %s type proc). If untyped, the return type is considered auto.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6596</id>
+	<key><![CDATA[In general, procs are required to be defined before they are used, and they are additionally required to be known during compilatin, so they can be typechecked, even if they are fully auto. This leads to a problem when using dynamic includes, for instance %sinclude(@pathToLibrary.'/procs.ms');%s and then calling a proc that is defined in whatever file may or may not be included in that file. The typechecker does not allow these references in general, and it will cause a compile error, preventing your code from execution. There are, however, good reasons for wanting to have "dynamic includes", but in general, doing so makes your code less safe, and so isn't allowed by default. There are 3 different ways around this though, going in order of preferred to least preferred:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6597</id>
+	<key><![CDATA[This will print "Inside proc" and "Inside closure".]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6598</id>
+	<key><![CDATA[Scope of procs]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6599</id>
+	<key><![CDATA[And contains all values passed to the proc, in order.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6600</id>
+	<key><![CDATA[Note, if the procedure is actually unconditionally implemented, a forward declaration is not necessary, as the proc implementation also serves to declare the proc's signature.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6601</id>
+	<key><![CDATA[Once a proc is defined, it can be called such as this:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6602</id>
+	<key><![CDATA[Arguments and return type]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6603</id>
+	<key><![CDATA[There are alternative ways of calling a proc, for instance the %s and %s functions, as well as first class proc references (see below), but these are not the usual way of calling them.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6604</id>
+	<key><![CDATA[A forward declaration is a declaration of the signature of the proc, without the implementation. This effectively tells the compiler that at the point that this procedure is called, it will be defined, and it will have this signature. This allows code to still be fully typechecked, but can conditionally or lazily include the actual proc definition, possibly depending on runtime factors. To forward declare a proc, simply leave off the function body:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6605</id>
+	<key><![CDATA[In general, it is preferred that procs are all statically linked, that is, they are defined once and only once, and are included with hardcoded and non-conditional include references. In the future, the class library will be the preferred and fully supported way of doing dynamic linking.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6606</id>
+	<key><![CDATA[If the signature of the proc changes, that is, the return type or argument count/types changes, this will cause compile errors in future versions.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6607</id>
+	<key><![CDATA[In general, a proc is only available to be called after it is defined, but once defined, they are available from within and without any variable scope. The only exception to this is procs defined within other procs, which leave scope at the end of the proc, and work like "private procs" in a way.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6608</id>
+	<key><![CDATA[It is optional though highly recommended (and required in future versions of strict mode) that the return type and parameter types are specified. If missing, the return type is considered to be auto, as are argument types.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6609</id>
+	<key><![CDATA[This value should not generally be relied on, as it may cause compiler errors in calling code in the future. Instead, proper support for variadic arguments will be provided, though it will continue to exist for within the proc for other meta purposes.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6610</id>
+	<key><![CDATA[Missing declaration errors can also simply be turned off for a whole file, using the allDynamicProcs file option.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6611</id>
+	<key><![CDATA[In general, a first class reference to a proc can be obtained by using the %s keyword, or preferrably, using the keyword. The returned value is a %s object, which implements the %s type, and can be assigned to variables and generally passed around (including escaping the general boundaries for private procs). Since closures also implement Callable, this means that references to the two types can be mixed together.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6612</id>
+	<key><![CDATA[Conditional procs are possible, but their behavior is somewhat intentionally poorly defined. Rather than conditionally defining a proc, consider other options, such as %s (isolated closure) which has the same internal scoping rules as procs, but have variable scope, and can be defined with the same scope as other variables.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6613</id>
+	<key><![CDATA[Within a proc, only variables that were defined in the argument list (plus the @arguments argument) are available. All other values are not in scope.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6614</id>
+	<key><![CDATA[You can turn off typechecking for specific and single calls to dynamic procs, with the @{DynamicProc} annotation.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6615</id>
+	<key><![CDATA[Procs can use a special type of comment, called a smart comment, to add useful human readable information about the procedure, its parameters, and return type, which are the available to be read directly when looking at the definition, or when using the official MethodScriptVSC extension in Visual Studio Code, when hovering over references to the proc. The following format is supported:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6616</id>
+	<key><![CDATA[A subset of conditional procs are proc redefinitions. Consider the following code:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6617</id>
+	<key><![CDATA[Defining a proc]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6618</id>
+	<key><![CDATA[Using this feature is a handy and easy way to leave easy to access notes for future readers.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6619</id>
+	<key><![CDATA[Dynamic procs]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6620</id>
+	<key><![CDATA[For more details on the general format of smart comments see [[%s|SmartComments]].]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+</translations>

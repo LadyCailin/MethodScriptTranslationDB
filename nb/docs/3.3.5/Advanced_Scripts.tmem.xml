@@ -252,4 +252,11 @@
 	<translation></translation>
 	<auto><![CDATA[Dokumenter]]></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-6562</id>
+	<key><![CDATA[This file goes into the same directory as your aliases.msa file, and is normally used for [[Procedures]]. You can put useful commands that you want in %severy%s alias here.  Here's a simple one, that is used by the example scripts below]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

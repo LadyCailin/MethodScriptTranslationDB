@@ -357,4 +357,60 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-6563</id>
+	<key><![CDATA[When we think about the %s function, we then realize that it's much like a closure. When we define the procedure, nothing is run at that time. And in fact, internally, it does create a type of closure. Procs are slightly different though, because they are named, and also do not save environment information (at least variable scope). Let's observe the more complicated case with an if statement:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6564</id>
+	<key><![CDATA[Using the %s and %s functions (or parenthesis based execution, discussed below) allows you to harness the power of closures yourself, however you wish.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6565</id>
+	<key><![CDATA[The largest difference between this and a proc, other than the name is missing, is that with a proc, all variables go out of scope, other than what you pass in. With closures, everything that was in scope remains in scope. The only thing that may get overridden is if you named a variable that is passed in, and in addition, the meta scope values, such as the current player also remain in scope.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6566</id>
+	<key><![CDATA[Another important point to make here is to remind you that arrays and other objects that are not instanceof ValueType are passed by reference, so the following is possible:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6567</id>
+	<key><![CDATA[So, why is that? That's because the code in the if function is ''lazily'' evaluated. That is to say, it's not evaluated until it is determined that it is needed. Other functions do this too, some for optimization reasons, others, because it's just the nature of the function. For instance, %sfor()%s does as well. In most cases, the "special" functions, (functions that have a language construct dedicated to them in other languages) implement closures. Some functions, such as %sand%s also are lazily evaluated, for performance and design reasons. Consider the case: %sand(false, true, true, true, ....lots of trues)%s. If we evaluate from left to right (which we do), after we determine that the first argument evaluates to false, we know for a fact that the %sand%s will return false, regardless of what the rest of the arguments return. Same with %sor%s and true values: %sor(true, false, false, false)%s.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6568</id>
+	<key><![CDATA[This will send us a blank message, because @a is not ''in scope'' inside of the proc. This makes it not a true closure, by the technical definition, but it's pretty close. The difference is that the '''environment''' is not stored along with the code. MethodScript's closure uses this concept, but also adds an extra feature, the ability to pass in extra environment information upon actual execution of the code.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6569</id>
+	<key><![CDATA[While the execute function is the explicit way of executing closures, they can also be executed through parenthesis based execution, which perhaps looks more familiar and obvious.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6570</id>
+	<key><![CDATA[A closure is a block of code that is treated as ''code'', not as a ''result'' of code, which can then be stored in a variable or passed as an argument, and then executed later, or in other code.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
