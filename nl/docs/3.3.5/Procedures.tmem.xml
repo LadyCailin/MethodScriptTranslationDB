@@ -406,4 +406,32 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nl-6621</id>
+	<key><![CDATA[For more details on the general format of smart comments see [[%s|this article]].]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6622</id>
+	<key><![CDATA[In general, procs are required to be defined before they are used, and they are additionally required to be known during compilation, so they can be typechecked, even if they are fully auto. This leads to a problem when using dynamic includes, for instance %sinclude(@pathToFile);%s and then calling a proc that is defined in whatever file may or may not be included in that file. The typechecker does not allow these references in general, and it will cause a compile error, preventing your code from execution. There are, however, good reasons for wanting to have "dynamic includes", but in general, doing so makes your code less safe, and so isn't allowed by default. There are 3 different ways around this though, going in order of preferred to least preferred:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6623</id>
+	<key><![CDATA[In general, it is preferred that procs are all statically linked, that is, they are defined once and only once, and are included with hardcoded and non-conditional include references. In the future, the class library will be the preferred and fully supported way of doing dynamic linking, through interfaces.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6624</id>
+	<key><![CDATA[The optional return type is some valid MethodScript type, followed by the mandatory ''proc'' keyword, the mandatory proc name, which must start with a single underscore, a left parenthesis, zero or more arguments, with or without types, followed by a right parenthesis, followed by the code block (which may be empty). Arguments may be considered optional by using an assignment in the variable declarations. The proc may return a value (in this example the int 42) or not (a %s type proc). If untyped, the return type is considered auto.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
