@@ -46368,4 +46368,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-6625</id>
+	<key><![CDATA[@tabcompleter - Provides the name of a proc that is called, which should return the tab complete closure for this command. If the annotation is not provided, there are a set of default completions that will be provided on a best-effort basis, first based on variable names in the alias and superceded by information provided in the @param annotations in this comment. Variable names with "player" in them will autocomplete player names. Other variables will simply disable autocompletion.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
