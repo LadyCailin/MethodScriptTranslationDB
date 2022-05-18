@@ -805,4 +805,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-6633</id>
+	<key><![CDATA[@param - This documents the variables in the alias, and generally follows the format "@param $variableName type description". Description is optional, and is only used as a code comment. The $variableName should match the parameter in the alias, and the type can be any valid MethodScript type, or a few special types, "$Player" and "$OfflinePlayer", or an ad-hoc enum, which is a comma separated list contained within square brackets. Depending on the MethodScript type, there will be different default autocomplete result, with special handling for enums, which autocomplete to the list of enums, boolean, which autocompletes to the strings "true" and "false". All other types disable auto completes for this variable. Another special type begins with %s$proc->%s and should be the name of a proc that is used to provide autocompletion. It is only called for the specified parameter, and accepts the same arguments as general autocompleters. For instance, %s$proc->_myCompleter%s would call _myCompleter, sending it string @alias, string @sender, array @args, and would expect an array to be returned, which returns the list of completions. This is useful for completers that handle generic parameter types, but still require custom code.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
