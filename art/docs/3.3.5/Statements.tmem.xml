@@ -1,6 +1,13 @@
 <translations>
 <comment></comment>
 <translationBlock>
+	<id>art-1715</id>
+	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Fînd å büg în thîs pågə? %sEdît thîs pågə ʎøürsəlf, thən sübmît å püll rəqüəst.]]></auto>
+</translationBlock>
+<translationBlock>
 	<id>art-5152</id>
 	<key><![CDATA[About]]></key>
 	<comment></comment>
@@ -80,6 +87,174 @@
 <translationBlock>
 	<id>art-6545</id>
 	<key><![CDATA[This unambiguously denotes the end of the statement. In this case, it wasn't strictly necessary, and so in non-strict mode, is optional. However, there are some cases where the semicolon is required, and depending on its presence or absence, causes different behavior. There are primarily three cases where this occurs: prefix and postfix operators, callable execution, and keywords which have optional right hand types.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6635</id>
+	<key><![CDATA[Unexpected Statements]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6636</id>
+	<key><![CDATA[Keywords]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6637</id>
+	<key><![CDATA[Finally, there are some keywords that have an optional associated value, for instance, the return keyword. Simply calling %sreturn%s by itself causes the callable to return %s, but we can also do for instance %sreturn 5%s to return the value 5 from the callable. However, consider a more real example. Say we have some code, and for test purposes, we want to return early from the code.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6638</id>
+	<key><![CDATA[Based on the formatting, you would expect this to return nothing, but in fact, it will return 2! Actually, the compiler will build the code as if it were %sreturn(@a = 2)%s. Instead, we should write this code as:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6639</id>
+	<key><![CDATA[In this case, it's not clear if this code is meant to increment the @a value or the @b value. Because order of operations are well defined, it will in fact actually increment @a, not @b, but it's not particularly obvious just from reading the code. Further, if the code were %s@a ++@b%s a future reader may be forgiven if they assume that @b will be incremented. This example is somewhat contrived, but consider a more practical example:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6640</id>
+	<key><![CDATA[This is true whether or not you use the functional notation, though using the curly braces in cases like this is the preferred and modern format.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6641</id>
+	<key><![CDATA[The full list of functions that are considered self-statements is:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6642</id>
+	<key><![CDATA[Statements are not always allowed. In general, statements cannot be sent as arguments to other functions, unless those functions contain ''Branch Statements'', or are at the top level of the script. Consider the following code:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6643</id>
+	<key><![CDATA[Parenthesis and Callables]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6644</id>
+	<key><![CDATA[We could wrap ++@b in parenthesis, such as %s(++@b)%s (though this has downsides, as discussed below), or restructure the code, but ideally we would use semicolons to denote the end of statement for each of these lines. This code performs as intended, that is, after running, @a is 0, and @b is 1:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6645</id>
+	<key><![CDATA[Self-Statements]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6646</id>
+	<key><![CDATA[There is one other less obvious benefit to using semicolons that is specific to MethodScript in non-strict mode. In general, MethodScript supports a concept called auto concatenation, that is, values that are next to each other, with no separator of any sort, get automatically added to the sconcat function. The following two lines of code are identical:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6647</id>
+	<key><![CDATA[Now, the parenthesis surrounding ++@b will actually be taken to mean that we want to execute the value before it, so we will execute the closure, and then store the returned value in @a, rather than storing the closure!]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6648</id>
+	<key><![CDATA[Autoconcat]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6649</id>
+	<key><![CDATA[Another example is parenthesis. In general, closures (and other callables) are first class data structures, that is, they can be stored in variables, arrays, and used just like any other data type. Execution of the closures can also be accomplished much the same way as any other function execution, using parenthesis.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6650</id>
+	<key><![CDATA[Some functions are considered "self-statements", that is, they are naturally terminating, cannot return a value, are very common, usually with somewhat special keyword or compiler support, and therefore do not require semicolon. The full list is below, but let's take one example, %s.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6651</id>
+	<key><![CDATA[Again, we can disambiguate using semicolons.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6652</id>
+	<key><![CDATA[In this case, @a will actually be the one that is incremented, because the increment operator actually applies to the 0 in the statement %sint @a = 0%s! Thus the practical result of this code is that @a is 1, and @b is 0, which is obviously not the desired behavior.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6653</id>
+	<key><![CDATA[The problem is that in general, we cannot tell when it is intended to be autoconcatenated or not, and so the sconcat wrapper has to be generated for ALL code that doesn't use statements. Further, the sconcat function is actually run for every script, which causes an additional, often wasted runtime hit. However, if all the code in the code base were to properly use semicolons, this runtime hit can be a%sed, as statements have special support to say that they do not have a return type, and so should not be added to the synthetic sconcat function.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6654</id>
+	<key><![CDATA[There is one function, %s, which has very special handling, and is unique. Normally, if has two forms, the regular one, and the tertiary form. When using the tertiary form, it is not considered a self-statement, and must be terminated with a semicolon (though if it is an argument to another function, which is the usual case for such a usage, it does not require termination, though the containing statement would). In the normal form, when using it as an if/else chain, where each branch contains its own statements, it is considered a self-statement.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6655</id>
+	<key><![CDATA[In non-strict mode, semicolons are optional, though highly recommended anyways, for all the above reasons. In strict mode, they are always required, even when the code isn't necessary ambiguous. The purpose for this is to ensure that you consistently use them, to ensure that when it would be ambiguous, you are well trained to use them in those cases, to ensure that the statements are not in fact ambiguous. Thus, in strict mode, if a statement should have ended with a semicolon, but it didn't, a compile error is issued.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6656</id>
+	<key><![CDATA[In non-strict mode, this will cause a compiler warning for each line where we have _procCall, because, while in other contexts, you might need a semicolon behind the _procCall(), since we are using this as input to the array function, we do not. In non-strict mode, the semicolon is simply ignored, and the value is used as if it were missing, though a compiler warning is issued, and should be fixed regardless. In strict mode, this is a compiler error, and compilation will halt.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6657</id>
+	<key><![CDATA[Strict Mode]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6658</id>
+	<key><![CDATA[This code stores the closure in @c, and then we execute the closure, sending it the argument 123. This code works as intended, but consider that we combine it with our sub-par fix in the code from above:]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>

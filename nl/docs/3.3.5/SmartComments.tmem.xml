@@ -294,4 +294,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nl-6634</id>
+	<key><![CDATA[The general body of the comment, as well as text based portions of annotations (where relevant) are rendered in markdown where supported.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
