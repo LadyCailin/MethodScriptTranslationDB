@@ -3213,4 +3213,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nl-6664</id>
+	<key><![CDATA[world%s: The world in which the tree has grown.%stype%s: The tree type, can be one of TREE, BIG_TREE, REDWOOD, TALL_REDWOOD, BIRCH, JUNGLE, SMALL_JUNGLE, JUNGLE_BUSH, RED_MUSHROOM, BROWN_MUSHROOM, SWAMP, ACACIA, DARK_OAK, COCOA_TREE, MEGA_REDWOOD, TALL_BIRCH, CHORUS_PLANT, CRIMSON_FUNGUS, WARPED_FUNGUS, AZALEA, MANGROVE, or TALL_MANGROVE%sblocks%s: An array containing all locations of grown blocks.%slocation%s: The location of the sapling.%sbonemeal%s: If the tree has grown due to a bonemeal or not.%splayer%s: The player who used the bonemeal, or %s if no bonemeal was used.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
