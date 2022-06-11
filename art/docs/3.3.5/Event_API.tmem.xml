@@ -3234,4 +3234,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-6684</id>
+	<key><![CDATA[id%s: %s&lt;Macro&gt; The entityID%stype%s: %s&lt;Macro&gt; The type of entity being damaged%scause%s: %s&lt;Macro&gt; One of CONTACT, ENTITY_ATTACK, PROJECTILE, SUFFOCATION, FALL, FIRE, FIRE_TICK, LAVA, DROWNING, BLOCK_EXPLOSION, ENTITY_EXPLOSION, VOID, LIGHTNING, SUICIDE, STARVATION, POISON, MAGIC, MELTING, WITHER, FALLING_BLOCK, THORNS, DRAGON_BREATH, FLY_INTO_WALL, HOT_FLOOR, CRAMMING, ENTITY_SWEEP_ATTACK, DRYOUT, FREEZE, SONIC_BOOM, or CUSTOM%sworld%s: %s&lt;String Match&gt;]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
