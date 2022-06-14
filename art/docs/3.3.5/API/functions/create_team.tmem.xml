@@ -112,4 +112,11 @@
 	<translation></translation>
 	<auto><![CDATA[Døcs]]></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-6694</id>
+	<key><![CDATA[Adds a new team to the scoreboard. Throws a ScoreboardException if that team name already exists or is too long.Scoreboard defaults to 'main' if not given.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

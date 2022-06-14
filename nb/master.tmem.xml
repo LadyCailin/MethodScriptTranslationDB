@@ -46788,4 +46788,102 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-6685</id>
+	<key><![CDATA[Adds a new team to the scoreboard. Throws a ScoreboardException if that team name already exists or is too long.Scoreboard defaults to &apos;main&apos; if not given.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6686</id>
+	<key><![CDATA[Adds a player to a team, given the team exists. The player will be removed from any other team on the same scoreboard. Scoreboard defaults to &apos;main&apos; if not given.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6687</id>
+	<key><![CDATA[source, soundArray%s[%s, players%s]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6688</id>
+	<key><![CDATA[Sets the player&apos;s score for the given objective. The name can be anything, not just player names. A LengthException is thrown if it&apos;s too long.Scoreboard defaults to &apos;main&apos; if not given.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6689</id>
+	<key><![CDATA[Returns the player&apos;s score for the given objective. A LengthException is thrown if the name is too long.Scoreboard defaults to &apos;main&apos; if not given.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6690</id>
+	<key><![CDATA[Adds a new objective to the scoreboard, throwing a CREScoreboardException if the name is already in use or is too long. The vanilla criteria names are DEATHCOUNT, HEALTH, PLAYERKILLCOUNT, TOTALKILLCOUNT, and DUMMY. You can put anything, but if none of the other values match, &apos;dummy&apos; will be used. Those values which are not &apos;dummy&apos; are server-managed.Scoreboard defaults to &apos;main&apos; if not given.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6691</id>
+	<key><![CDATA[Plays a sound at the given source. Source can be a location array or entity UUID. SoundArray is in an associative array with keys &apos;sound&apos;, &apos;category&apos;, &apos;volume&apos;, &apos;pitch&apos;, where all are optional except sound. Volume, if greater than 1.0 (default), is the distance in chunks players can hear the sound. Pitch has a range of 0.5 - 2.0, where where 1.0 is the middle pitch and default. Players can be a single player or an array of players to play the sound to, if not given, all players can potentially hear it. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6692</id>
+	<key><![CDATA[type%s: %s&lt;Macro&gt;%sreason%s: %s&lt;Macro&gt; One of BEEHIVE, BREEDING, BUILD_IRONGOLEM, BUILD_SNOWMAN, BUILD_WITHER, COMMAND, CUSTOM, DEFAULT, EGG, JOCKEY, LIGHTNING, NATURAL, PATROL, PIGLIN_ZOMBIFIED, RAID, REINFORCEMENTS, SHOULDER_ENTITY, SLIME_SPLIT, SPAWNER, SPAWNER_EGG, VILLAGE_DEFENSE, VILLAGE_INVASION, NETHER_PORTAL, DISPENSE_EGG, INFECTION, CURED, OCELOT_BABY, SILVERFISH_BLOCK, MOUNT, TRAP, ENDER_PEARL, DROWNED, SHEARED, EXPLOSION, FROZEN, SPELL, or METAMORPHOSIS]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6693</id>
+	<key><![CDATA[Adds a new objective to the scoreboard, throwing a CREScoreboardException if the name is already in use or is too long. The vanilla criteria names are DEATHCOUNT, HEALTH, PLAYERKILLCOUNT, TOTALKILLCOUNT, and DUMMY. You can put anything, but if none of the other values match, 'dummy' will be used. Those values which are not 'dummy' are server-managed.Scoreboard defaults to 'main' if not given.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6694</id>
+	<key><![CDATA[Adds a new team to the scoreboard. Throws a ScoreboardException if that team name already exists or is too long.Scoreboard defaults to 'main' if not given.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6695</id>
+	<key><![CDATA[Returns the player's score for the given objective. A LengthException is thrown if the name is too long.Scoreboard defaults to 'main' if not given.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6696</id>
+	<key><![CDATA[Plays a sound at the given source. Source can be a location array or entity UUID. SoundArray is in an associative array with keys 'sound', 'category', 'volume', 'pitch', where all are optional except sound. Volume, if greater than 1.0 (default), is the distance in chunks players can hear the sound. Pitch has a range of 0.5 - 2.0, where where 1.0 is the middle pitch and default. Players can be a single player or an array of players to play the sound to, if not given, all players can potentially hear it.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6697</id>
+	<key><![CDATA[Sets the player's score for the given objective. The name can be anything, not just player names. A LengthException is thrown if it's too long.Scoreboard defaults to 'main' if not given.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6698</id>
+	<key><![CDATA[Adds a player to a team, given the team exists. The player will be removed from any other team on the same scoreboard. Scoreboard defaults to 'main' if not given.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

@@ -112,4 +112,11 @@
 	<translation></translation>
 	<auto><![CDATA[Døcs]]></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-6693</id>
+	<key><![CDATA[Adds a new objective to the scoreboard, throwing a CREScoreboardException if the name is already in use or is too long. The vanilla criteria names are DEATHCOUNT, HEALTH, PLAYERKILLCOUNT, TOTALKILLCOUNT, and DUMMY. You can put anything, but if none of the other values match, 'dummy' will be used. Those values which are not 'dummy' are server-managed.Scoreboard defaults to 'main' if not given.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
