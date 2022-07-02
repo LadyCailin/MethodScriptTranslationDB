@@ -1449,4 +1449,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-6700</id>
+	<key><![CDATA[piercelevel: The remaining times that this arrow can pierce through an entity. (int from 0 and 127)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
