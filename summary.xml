@@ -53598,4 +53598,60 @@
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
 </translationEntry>
+<translationEntry>
+	<id>6701</id>
+	<key><![CDATA[Applies bone meal to a block, if possible. Returns true if it was successfully applied, as some block types cannot be bone-mealed.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>6702</id>
+	<key><![CDATA['''playerrange''' : (int) The maximum distance a player must be within to cause the spawner to spawn.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>6703</id>
+	<key><![CDATA['''mindelay''' : (int) The lower bounds of a new random delay chosen after each batch of entities spawn. (must be %s= mindelay)]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>6704</id>
+	<key><![CDATA['''delay''' : (int) The time in ticks until the spawner will spawn the next batch of entities.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>6705</id>
+	<key><![CDATA['''spawncount''' : (int) The number of entities to attempt to spawn in each batch.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>6706</id>
+	<key><![CDATA['''spawnrange''' : (int) The maximum distance in the x or z axis new entities will spawn from the spawner.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>6707</id>
+	<key><![CDATA['''maxnearbyentities''' : (int) The number of 'spawntype' entities within just over 'spawnrange' distance that'll prevent further spawns.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
 </summary>

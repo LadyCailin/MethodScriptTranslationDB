@@ -658,4 +658,46 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-6702</id>
+	<key><![CDATA['''playerrange''' : (int) The maximum distance a player must be within to cause the spawner to spawn.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6703</id>
+	<key><![CDATA['''mindelay''' : (int) The lower bounds of a new random delay chosen after each batch of entities spawn. (must be %s= mindelay)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6704</id>
+	<key><![CDATA['''delay''' : (int) The time in ticks until the spawner will spawn the next batch of entities.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6705</id>
+	<key><![CDATA['''spawncount''' : (int) The number of entities to attempt to spawn in each batch.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6706</id>
+	<key><![CDATA['''spawnrange''' : (int) The maximum distance in the x or z axis new entities will spawn from the spawner.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6707</id>
+	<key><![CDATA['''maxnearbyentities''' : (int) The number of 'spawntype' entities within just over 'spawnrange' distance that'll prevent further spawns.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

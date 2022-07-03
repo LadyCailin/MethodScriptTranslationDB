@@ -9842,4 +9842,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-6701</id>
+	<key><![CDATA[Applies bone meal to a block, if possible. Returns true if it was successfully applied, as some block types cannot be bone-mealed.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
