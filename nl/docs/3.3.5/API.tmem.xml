@@ -9821,4 +9821,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nl-6708</id>
+	<key><![CDATA[Sets the age of the entity to the specified int, represented by server ticks. Most entities cannot be less than 1 server tick, with some exceptions like items, arrows and falling blocks.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
