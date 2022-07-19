@@ -46970,4 +46970,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-6711</id>
+	<key><![CDATA[Sets the age of the entity to the specified int, represented by server ticks. Entity age cannot be less than 1 server tick,]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6712</id>
+	<key><![CDATA[despawn: Whether or not the item will despawn after a time. (modifiable in MC 1.18.2 or later)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

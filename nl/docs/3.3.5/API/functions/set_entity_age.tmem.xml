@@ -119,4 +119,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nl-6711</id>
+	<key><![CDATA[Sets the age of the entity to the specified int, represented by server ticks. Entity age cannot be less than 1 server tick,]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

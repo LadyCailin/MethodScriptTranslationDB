@@ -1470,4 +1470,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-6712</id>
+	<key><![CDATA[despawn: Whether or not the item will despawn after a time. (modifiable in MC 1.18.2 or later)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

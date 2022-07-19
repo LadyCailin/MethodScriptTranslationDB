@@ -53678,4 +53678,20 @@
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
 </translationEntry>
+<translationEntry>
+	<id>6711</id>
+	<key><![CDATA[Sets the age of the entity to the specified int, represented by server ticks. Entity age cannot be less than 1 server tick,]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>6712</id>
+	<key><![CDATA[despawn: Whether or not the item will despawn after a time. (modifiable in MC 1.18.2 or later)]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
 </summary>
