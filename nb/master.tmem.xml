@@ -46984,4 +46984,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-6713</id>
+	<key><![CDATA[int timeInMS, %s[%sint initialDelayInMS,%s]%s Callable task]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
