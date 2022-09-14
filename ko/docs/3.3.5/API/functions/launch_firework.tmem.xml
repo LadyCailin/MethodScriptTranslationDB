@@ -245,4 +245,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-6715</id>
+	<key><![CDATA[A number indicating the flight duration of the rocket equal to the amount of gunpowder used to craft a rocket. (negative numbers detonate immediately)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

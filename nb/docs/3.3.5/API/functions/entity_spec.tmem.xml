@@ -1477,4 +1477,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-6714</id>
+	<key><![CDATA[angled: Whether or not the rocket was fired at an angle. (i.e. from a crossbow or dispenser)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

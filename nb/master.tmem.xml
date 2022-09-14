@@ -46991,4 +46991,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-6714</id>
+	<key><![CDATA[angled: Whether or not the rocket was fired at an angle. (i.e. from a crossbow or dispenser)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6715</id>
+	<key><![CDATA[A number indicating the flight duration of the rocket equal to the amount of gunpowder used to craft a rocket. (negative numbers detonate immediately)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

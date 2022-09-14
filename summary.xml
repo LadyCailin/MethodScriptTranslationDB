@@ -53702,4 +53702,20 @@
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
 </translationEntry>
+<translationEntry>
+	<id>6714</id>
+	<key><![CDATA[angled: Whether or not the rocket was fired at an angle. (i.e. from a crossbow or dispenser)]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>6715</id>
+	<key><![CDATA[A number indicating the flight duration of the rocket equal to the amount of gunpowder used to craft a rocket. (negative numbers detonate immediately)]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
 </summary>
