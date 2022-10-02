@@ -112,4 +112,11 @@
 	<translation></translation>
 	<auto><![CDATA[Dokumenter]]></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-6717</id>
+	<key><![CDATA[Returns a vector from the yaw and pitch in a location array. Only the yaw and pitch keys are required in the array. The second parameter, that defines the magnitude of the vector, defaults to 1.0.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
