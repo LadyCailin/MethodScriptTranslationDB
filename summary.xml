@@ -53734,4 +53734,12 @@
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
 </translationEntry>
+<translationEntry>
+	<id>6718</id>
+	<key><![CDATA[type%s: %s&lt;Macro&gt;%sreason%s: %s&lt;Macro&gt; One of BEEHIVE, BREEDING, BUILD_IRONGOLEM, BUILD_SNOWMAN, BUILD_WITHER, COMMAND, CUSTOM, DEFAULT, EGG, JOCKEY, LIGHTNING, NATURAL, PATROL, PIGLIN_ZOMBIFIED, RAID, REINFORCEMENTS, SHOULDER_ENTITY, SLIME_SPLIT, SPAWNER, SPAWNER_EGG, VILLAGE_DEFENSE, VILLAGE_INVASION, NETHER_PORTAL, DISPENSE_EGG, INFECTION, CURED, OCELOT_BABY, SILVERFISH_BLOCK, MOUNT, TRAP, ENDER_PEARL, DROWNED, SHEARED, EXPLOSION, FROZEN, SPELL, METAMORPHOSIS, or DUPLICATION]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
 </summary>
