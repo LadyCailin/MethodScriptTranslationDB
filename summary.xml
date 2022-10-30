@@ -53742,4 +53742,76 @@
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
 </translationEntry>
+<translationEntry>
+	<id>6719</id>
+	<key><![CDATA[Calculate yaw from one location to another on the X-Z plane. The rotation is measured in degrees (0-359.99...) relative to the (x=0,z=1) vector, which points south. Throws a FormatException if locations have differing worlds. Can return &apos;NaN&apos; if the x and z coordinates are identical.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>6720</id>
+	<key><![CDATA[fuseticks: The amount of time in server ticks that the Creeper has been primed. (must below or equals maxfuseticks and not negative)]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>6721</id>
+	<key><![CDATA[eating: Whether the panda is eating. (1.19)]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>6722</id>
+	<key><![CDATA[maxfuseticks: The max amount of time in server ticks that the Creeper can be primed before exploding. (must not be negative)]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>6723</id>
+	<key><![CDATA[onback: Whether the panda is laying on its back. (1.19)]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>6724</id>
+	<key><![CDATA[interested: Whether the wolf is interested, tilting its head. (1.19)]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>6725</id>
+	<key><![CDATA[sneezing: Whether the panda is sneezing. (1.19)]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>6726</id>
+	<key><![CDATA[rolling: Whether the panda is rolling. (1.19)]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>6727</id>
+	<key><![CDATA[Calculate yaw from one location to another on the X-Z plane. The rotation is measured in degrees (0-359.99...) relative to the (x=0,z=1) vector, which points south. Throws a FormatException if locations have differing worlds. Can return 'NaN' if the x and z coordinates are identical.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
 </summary>

@@ -1421,4 +1421,53 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nl-6720</id>
+	<key><![CDATA[fuseticks: The amount of time in server ticks that the Creeper has been primed. (must below or equals maxfuseticks and not negative)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6721</id>
+	<key><![CDATA[eating: Whether the panda is eating. (1.19)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6722</id>
+	<key><![CDATA[maxfuseticks: The max amount of time in server ticks that the Creeper can be primed before exploding. (must not be negative)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6723</id>
+	<key><![CDATA[onback: Whether the panda is laying on its back. (1.19)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6724</id>
+	<key><![CDATA[interested: Whether the wolf is interested, tilting its head. (1.19)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6725</id>
+	<key><![CDATA[sneezing: Whether the panda is sneezing. (1.19)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6726</id>
+	<key><![CDATA[rolling: Whether the panda is rolling. (1.19)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
