@@ -53814,4 +53814,20 @@
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
 </translationEntry>
+<translationEntry>
+	<id>6728</id>
+	<key><![CDATA[Returns a new byte_array primitive containing &apos;length&apos; bytes starting from pos (or wherever the marker is by default) in the given byte array.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>6729</id>
+	<key><![CDATA[Returns a new byte_array primitive containing 'length' bytes starting from pos (or wherever the marker is by default) in the given byte array.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
 </summary>

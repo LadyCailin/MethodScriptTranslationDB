@@ -47089,4 +47089,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-6728</id>
+	<key><![CDATA[Returns a new byte_array primitive containing &apos;length&apos; bytes starting from pos (or wherever the marker is by default) in the given byte array.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6729</id>
+	<key><![CDATA[Returns a new byte_array primitive containing 'length' bytes starting from pos (or wherever the marker is by default) in the given byte array.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

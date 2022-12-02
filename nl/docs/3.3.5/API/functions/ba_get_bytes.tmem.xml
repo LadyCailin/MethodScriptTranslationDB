@@ -112,4 +112,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nl-6729</id>
+	<key><![CDATA[Returns a new byte_array primitive containing 'length' bytes starting from pos (or wherever the marker is by default) in the given byte array.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
