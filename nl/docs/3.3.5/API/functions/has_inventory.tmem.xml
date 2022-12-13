@@ -8,8 +8,8 @@
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nl-780</id>
-	<key><![CDATA[specifier, invArray]]></key>
+	<id>nl-1159</id>
+	<key><![CDATA[specifier]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
@@ -52,20 +52,6 @@
 <translationBlock>
 	<id>nl-3813</id>
 	<key><![CDATA[None]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto></auto>
-</translationBlock>
-<translationBlock>
-	<id>nl-4757</id>
-	<key><![CDATA[Sets a block or entity inventory to the specified inventory object. The specifier can be an entity UUID, location array, or virtual inventory ID. If the block or entity can't have an inventory, a FormatException is thrown. An inventory object invArray is one that matches what is returned by get_inventory(), so set_inventory(123, get_inventory(123)) while pointless, would be a correct call.]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto></auto>
-</translationBlock>
-<translationBlock>
-	<id>nl-4758</id>
-	<key><![CDATA[The array must be associative, however, it may skip items, in which case, only the specified values will be changed. If a key is out of range, or otherwise improper, a warning is emitted, and it is skipped, but the function will not fail as a whole. A simple way to set one item would be: set_inventory(123, array(2: array(type: 1, qty: 64))) This sets the inventory second slot to be a stack of stone for entity with ID = 123. Note that this uses the unsafe enchantment mechanism to add enchantments, so any enchantment value will work.]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
@@ -120,8 +106,8 @@
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nl-6750</id>
-	<key><![CDATA[Sets a block or entity inventory to the specified inventory object. The specifier can be an entity UUID, location array, or virtual inventory ID. If the block or entity can't have an inventory, an IllegalArgumentException is thrown. An inventory object invArray is one that matches what is returned by get_inventory(), so set_inventory(123, get_inventory(123)) while pointless, would be a correct call.]]></key>
+	<id>nl-6749</id>
+	<key><![CDATA[Returns whether the specified entity or location has an inventory. The specifier can be an entity UUID, location array, or virtual inventory ID. If given the id of a virtual inventory that doesn't exist, false will be returned.]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>

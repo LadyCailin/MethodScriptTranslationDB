@@ -133,4 +133,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-6748</id>
+	<key><![CDATA[Returns the inventory type at the location specified, or of the entity specified. If the entity or location specified is not capable of having an inventory, an IllegalArgumentException is thrown.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

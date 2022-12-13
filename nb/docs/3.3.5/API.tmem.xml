@@ -9933,4 +9933,39 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-6741</id>
+	<key><![CDATA[Returns the max size of the inventory specified. If the block or entity can&apos;t have an inventory, an IllegalArgumentException is thrown.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6742</id>
+	<key><![CDATA[Gets an array of the specified inventory. If the block or entity can&apos;t have an inventory, an IllegalArgumentException is thrown. If the index is specified, only the slot given will be returned. The max index of the array in the array is different for different types of inventories. If there is no item at the slot specified, %s is returned. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6743</id>
+	<key><![CDATA[Returns the inventory type at the location specified, or of the entity specified. If the entity or location specified is not capable of having an inventory, an IllegalArgumentException is thrown. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6744</id>
+	<key><![CDATA[Sets a block or entity inventory to the specified inventory object. The specifier can be an entity UUID, location array, or virtual inventory ID. If the block or entity can&apos;t have an inventory, an IllegalArgumentException is thrown. An inventory object invArray is one that matches what is returned by get_inventory(), so set_inventory(123, get_inventory(123)) while pointless, would be a correct call. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6745</id>
+	<key><![CDATA[Returns whether the specified entity or location has an inventory. The specifier can be an entity UUID, location array, or virtual inventory ID. If given the id of a virtual inventory that doesn&apos;t exist, false will be returned.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

@@ -119,4 +119,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nl-6746</id>
+	<key><![CDATA[Gets an array of the specified inventory. If the block or entity can't have an inventory, an IllegalArgumentException is thrown. If the index is specified, only the slot given will be returned. The max index of the array in the array is different for different types of inventories. If there is no item at the slot specified, %s is returned.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

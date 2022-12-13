@@ -57,13 +57,6 @@
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>art-4266</id>
-	<key><![CDATA[Returns the inventory type at the location specified, or of the entity specified. If the entity or location specified is not capable of having an inventory, a FormatException is thrown.]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto></auto>
-</translationBlock>
-<translationBlock>
 	<id>art-5152</id>
 	<key><![CDATA[About]]></key>
 	<comment></comment>
@@ -113,29 +106,8 @@
 	<auto><![CDATA[Døcs]]></auto>
 </translationBlock>
 <translationBlock>
-	<id>art-5641</id>
-	<key><![CDATA[Note that not all valid inventory types may actually be returnable, due to lack of support in the server, but the valid return types are: BREWING, CHEST, CRAFTING, CREATIVE, DISPENSER, DROPPER, ENCHANTING, ENDER_CHEST, FURNACE, HOPPER, MERCHANT, PLAYER, WORKBENCH, ANVIL, SMITHING, BEACON, SHULKER_BOX, BARREL, BLAST_FURNACE, LECTERN, SMOKER, LOOM, CARTOGRAPHY, GRINDSTONE, STONECUTTER]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto></auto>
-</translationBlock>
-<translationBlock>
-	<id>art-6165</id>
-	<key><![CDATA[Note that not all valid inventory types may actually be returnable, due to lack of support in the server, but the valid return types are: BREWING, CHEST, COMPOSTER, CRAFTING, CREATIVE, DISPENSER, DROPPER, ENCHANTING, ENDER_CHEST, FURNACE, HOPPER, MERCHANT, PLAYER, WORKBENCH, ANVIL, SMITHING, BEACON, SHULKER_BOX, BARREL, BLAST_FURNACE, LECTERN, SMOKER, LOOM, CARTOGRAPHY, GRINDSTONE, STONECUTTER]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto></auto>
-</translationBlock>
-<translationBlock>
-	<id>art-6734</id>
-	<key><![CDATA[Note that not all valid inventory types may actually be returnable, due to lack of support in the server, but the valid return types are: BREWING, CHEST, COMPOSTER, CRAFTING, CREATIVE, DISPENSER, DROPPER, ENCHANTING, ENDER_CHEST, FURNACE, HOPPER, MERCHANT, PLAYER, WORKBENCH, ANVIL, SMITHING, BEACON, SHULKER_BOX, BARREL, BLAST_FURNACE, LECTERN, SMOKER, LOOM, CARTOGRAPHY, GRINDSTONE, STONECUTTER, CHISELED_BOOKSHELF]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto></auto>
-</translationBlock>
-<translationBlock>
-	<id>art-6748</id>
-	<key><![CDATA[Returns the inventory type at the location specified, or of the entity specified. If the entity or location specified is not capable of having an inventory, an IllegalArgumentException is thrown.]]></key>
+	<id>art-6749</id>
+	<key><![CDATA[Returns whether the specified entity or location has an inventory. The specifier can be an entity UUID, location array, or virtual inventory ID. If given the id of a virtual inventory that doesn't exist, false will be returned.]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>

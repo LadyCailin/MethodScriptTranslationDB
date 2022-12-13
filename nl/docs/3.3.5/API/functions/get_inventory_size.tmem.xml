@@ -119,4 +119,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nl-6747</id>
+	<key><![CDATA[Returns the max size of the inventory specified. If the block or entity can't have an inventory, an IllegalArgumentException is thrown.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

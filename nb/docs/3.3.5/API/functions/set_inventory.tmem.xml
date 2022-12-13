@@ -119,4 +119,11 @@
 	<translation></translation>
 	<auto><![CDATA[Dokumenter]]></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-6750</id>
+	<key><![CDATA[Sets a block or entity inventory to the specified inventory object. The specifier can be an entity UUID, location array, or virtual inventory ID. If the block or entity can't have an inventory, an IllegalArgumentException is thrown. An inventory object invArray is one that matches what is returned by get_inventory(), so set_inventory(123, get_inventory(123)) while pointless, would be a correct call.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
