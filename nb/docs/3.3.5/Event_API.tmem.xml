@@ -3255,4 +3255,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-6751</id>
+	<key><![CDATA[player%sfrom%s: The location the player is coming from%sto%s: The location the player is now in%stype%s: the type of teleport occuring, one of COMMAND, END_PORTAL, ENDER_PEARL, NETHER_PORTAL, PLUGIN, SPECTATE, END_GATEWAY, CHORUS_FRUIT, DISMOUNT, UNKNOWN]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

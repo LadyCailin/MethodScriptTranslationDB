@@ -707,4 +707,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-6752</id>
+	<key><![CDATA['''potions''' : (array) An associative array identical to the one for potion meta.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6753</id>
+	<key><![CDATA[Suspicious Stew]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
