@@ -9968,4 +9968,25 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-6754</id>
+	<key><![CDATA[Creates or updates a player&apos;s virtual world border. In addition to the keys returned by get_pborder(), you can also specify &apos;seconds&apos;. This is the time in which the border will move from the previous width to the new &apos;width&apos;. If give %s instead of an array, this resets the player&apos;s visible world border to the one of the world that they&apos;re in.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6755</id>
+	<key><![CDATA[player, paramArray]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6756</id>
+	<key><![CDATA[Returns an associative array for the player&apos;s virtual world border. The keys are &apos;width&apos;, &apos;center&apos;, &apos;warningtime&apos;, and &apos;warningdistance&apos;. Returns %s if the player is using the existing border for the world that they&apos;re in.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
