@@ -54062,4 +54062,20 @@
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
 </translationEntry>
+<translationEntry>
+	<id>6759</id>
+	<key><![CDATA[Creates or updates a player&apos;s virtual world border. In addition to the keys returned by pborder(), you can also specify &apos;seconds&apos;. This is the time in which the border will move from the previous width to the new &apos;width&apos;. If give %s instead of an array, this resets the player&apos;s visible world border to the one of the world that they&apos;re in. (MC 1.18.2)]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>6760</id>
+	<key><![CDATA[Creates or updates a player's virtual world border. In addition to the keys returned by pborder(), you can also specify 'seconds'. This is the time in which the border will move from the previous width to the new 'width'. If give %s instead of an array, this resets the player's visible world border to the one of the world that they're in. (MC 1.18.2)]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
 </summary>
