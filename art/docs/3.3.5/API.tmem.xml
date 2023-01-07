@@ -9996,4 +9996,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-6761</id>
+	<key><![CDATA[Sets the number of ticks that this mob will be in love mode.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6762</id>
+	<key><![CDATA[Returns the number of ticks remaining that this mob will be in love mode.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
