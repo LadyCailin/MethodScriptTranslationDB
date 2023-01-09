@@ -54094,4 +54094,20 @@
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
 </translationEntry>
+<translationEntry>
+	<id>6763</id>
+	<key><![CDATA[locationArray, %s[%sitemArray%s]]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>6764</id>
+	<key><![CDATA[Mostly simulates a block break at a location. Optional item array to simulate tool used to break block. Returns true if block was not already air and either no tool was given, a correct tool was given, or the block type does not require a specific tool. Does not trigger an event.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
 </summary>

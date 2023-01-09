@@ -112,4 +112,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nl-6763</id>
+	<key><![CDATA[locationArray, %s[%sitemArray%s]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6764</id>
+	<key><![CDATA[Mostly simulates a block break at a location. Optional item array to simulate tool used to break block. Returns true if block was not already air and either no tool was given, a correct tool was given, or the block type does not require a specific tool. Does not trigger an event.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
