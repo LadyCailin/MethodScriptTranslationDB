@@ -43624,4 +43624,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nl-6765</id>
+	<key><![CDATA['''blockdata''' : (array) An array of blockdata (known as block states in vanilla) like is returned from get_blockdata(), or %s if none.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6766</id>
+	<key><![CDATA[BlockData]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
