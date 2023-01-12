@@ -259,4 +259,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-6767</id>
+	<key><![CDATA[The full list of functions that are unconditionally considered self-statements is:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6768</id>
+	<key><![CDATA[There are a few functions, namely %s, %s, and %s, which have special handling. These functions each have two forms, the regular one, and the tertiary form. When using the tertiary form, they are not considered a self-statement, and must be terminated with a semicolon (though if it is an argument to another function, which is the usual case for such a usage, it does not require termination, though the containing statement would). In the normal form, when using it as an if/else or switch statement, where each branch contains its own statements, they are also considered a self-statement.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
