@@ -3262,4 +3262,25 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-6778</id>
+	<key><![CDATA[player%s: %s&lt;Macro&gt;%smain_hand%s: %s&lt;String Match&gt; The name of the item being swapped to the main hand (or AIR)%soff_hand%s: %s&lt;String Match&gt; The name of the item being swapped to the off hand (or AIR)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6779</id>
+	<key><![CDATA[player%smain_hand%s: The item array being swapped to the main hand (or %s)%soff_hand%s: The item array being swapped to the off hand (or %s)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6780</id>
+	<key><![CDATA[Fires when a player swaps the items between their main and off hands.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

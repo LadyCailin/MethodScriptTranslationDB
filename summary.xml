@@ -54214,4 +54214,28 @@
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
 </translationEntry>
+<translationEntry>
+	<id>6778</id>
+	<key><![CDATA[player%s: %s&lt;Macro&gt;%smain_hand%s: %s&lt;String Match&gt; The name of the item being swapped to the main hand (or AIR)%soff_hand%s: %s&lt;String Match&gt; The name of the item being swapped to the off hand (or AIR)]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>6779</id>
+	<key><![CDATA[player%smain_hand%s: The item array being swapped to the main hand (or %s)%soff_hand%s: The item array being swapped to the off hand (or %s)]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>6780</id>
+	<key><![CDATA[Fires when a player swaps the items between their main and off hands.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
 </summary>
