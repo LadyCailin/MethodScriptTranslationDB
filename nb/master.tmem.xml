@@ -47460,4 +47460,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-6781</id>
+	<key><![CDATA[Demonstrates a shaped recipe with multiple ingredient choices. If just one of the ingredient choices is an item array (i.e. associative array instead of string), all other ingredient choices for that key are also treated as exact ingredients.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6782</id>
+	<key><![CDATA[Demonstrates adding a shaped recipe with exact ingredients using item arrays. The item ingredient must match exactly, including unspecified meta. (except &apos;qty&apos;) In this example, the regen potion ingredient must NOT be extended or upgraded for it to match, because those are the default values.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
