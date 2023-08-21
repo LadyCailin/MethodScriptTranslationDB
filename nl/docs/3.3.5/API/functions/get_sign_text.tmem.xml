@@ -112,4 +112,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nl-6809</id>
+	<key><![CDATA[locationArray, %s[%sside%s]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6893</id>
+	<key><![CDATA[Gets an array of 4 strings of the text on the side of a sign. Side can be FRONT (default) or BACK. (MC 1.20+) If the location given isn't a sign, then a RangeException is thrown.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

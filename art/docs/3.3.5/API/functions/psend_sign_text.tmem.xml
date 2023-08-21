@@ -112,4 +112,18 @@
 	<translation></translation>
 	<auto><![CDATA[Døcs]]></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-6812</id>
+	<key><![CDATA[[%splayer%s]%s, locationArray, 1, 2, 3, 4 %s %s[%splayer%s]%s, locationArray, array]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6898</id>
+	<key><![CDATA[Changes a sign's text only for the specified player. This will not change the sign in the world. If a normal array is used it cannot have more than 4 elements. If a line is %s, the existing line will still be displayed. An associative array of sign data may be sent instead. This is the same as sign item meta, and can include the keys: 'signtext', 'color', 'glowing' (MC 1.17.1+), 'backtext' (MC 1.20.1+), 'backcolor' (MC 1.20.1+), and 'backglowing' (MC 1.20.1+).]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

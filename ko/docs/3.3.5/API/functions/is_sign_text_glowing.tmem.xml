@@ -112,4 +112,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-6800</id>
+	<key><![CDATA[Returns true if the sign side at this location has glowing text. (MC 1.17+) Side can be FRONT (default) or BACK. (MC 1.20+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6809</id>
+	<key><![CDATA[locationArray, %s[%sside%s]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

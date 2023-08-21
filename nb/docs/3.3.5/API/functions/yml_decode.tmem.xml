@@ -50,6 +50,13 @@
 	<auto></auto>
 </translationBlock>
 <translationBlock>
+	<id>nb-3805</id>
+	<key><![CDATA[See Also]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
 	<id>nb-3813</id>
 	<key><![CDATA[None]]></key>
 	<comment></comment>
@@ -104,5 +111,12 @@
 	<comment></comment>
 	<translation></translation>
 	<auto><![CDATA[Dokumenter]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6908</id>
+	<key><![CDATA[Takes a YML encoded string, and returns an associative array, depending on the contents of the YML string. If the YML string is improperly formatted, a FormatException is thrown. If an exception occurs in the YML parsing library, a PluginInternalException is thrown. By default YML strings up to 3 * 1024 * 1024 (3 MB) code points can be parsed. This limit can be exceeded through the 'function.yml_decode.code_point_limit' runtime setting.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
 </translationBlock>
 </translations>

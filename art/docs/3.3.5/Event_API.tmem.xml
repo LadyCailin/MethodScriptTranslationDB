@@ -3290,4 +3290,53 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-6823</id>
+	<key><![CDATA[player%sfrom%s: The location the player is coming from%sto%s: The location the player is now in%stype%s: the type of teleport occuring, one of COMMAND, END_PORTAL, ENDER_PEARL, NETHER_PORTAL, PLUGIN, SPECTATE, END_GATEWAY, CHORUS_FRUIT, DISMOUNT, EXIT_BED, UNKNOWN]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6824</id>
+	<key><![CDATA[player%s: The player's name%slocation%s: A location array of the sign%stext%s: An array with keys 0 thru 3 defining every line on the sign%sside%s: The side of the sign the text was changed, FRONT or BACK]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6825</id>
+	<key><![CDATA[This event is called when a block dispenses an item.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6826</id>
+	<key><![CDATA[type%s: %s&lt;String Match&gt; Type of dispensing block%sitemname%s: %s&lt;String Match&gt; Item type to be dispensed]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6827</id>
+	<key><![CDATA[id%s: %s&lt;Macro&gt; The entityID%stype%s: %s&lt;Macro&gt; The type of entity being damaged%scause%s: %s&lt;Macro&gt; One of CONTACT, ENTITY_ATTACK, PROJECTILE, SUFFOCATION, FALL, FIRE, FIRE_TICK, LAVA, DROWNING, BLOCK_EXPLOSION, ENTITY_EXPLOSION, VOID, LIGHTNING, SUICIDE, STARVATION, POISON, MAGIC, MELTING, WITHER, FALLING_BLOCK, THORNS, DRAGON_BREATH, FLY_INTO_WALL, HOT_FLOOR, CRAMMING, ENTITY_SWEEP_ATTACK, DRYOUT, FREEZE, SONIC_BOOM, KILL, WORLD_BORDER, or CUSTOM%sworld%s: %s&lt;String Match&gt;]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6828</id>
+	<key><![CDATA[type%sitem%s: Item array of item to be dispensed. If the item type exists in the dispenser, one will be removed from the block's inventory. (ignores item quantity)%svelocity%s: Returns an associative array with the x/y/z/magnitude components of item velocity.%slocation%s: Location array of dispensing block]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6829</id>
+	<key><![CDATA[This event is called when a noteblock is activated via player interaction or redstone. The instrument may be one of PIANO, BASS_DRUM, SNARE_DRUM, STICKS, BASS_GUITAR, FLUTE, BELL, GUITAR, CHIME, XYLOPHONE, IRON_XYLOPHONE, COW_BELL, DIDGERIDOO, BIT, BANJO, PLING, ZOMBIE, SKELETON, CREEPER, DRAGON, WITHER_SKELETON, PIGLIN, or CUSTOM_HEAD.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

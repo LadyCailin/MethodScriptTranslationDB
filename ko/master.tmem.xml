@@ -47558,4 +47558,802 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-6795</id>
+	<key><![CDATA[locationArray, %s[%sside%s]%s, isGlowing]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6796</id>
+	<key><![CDATA[Sets the display name and/or slot of the given objective. If arg 2 is not an array, it is assumed to be the displayname, otherwise arg 2 should be an array with keys &apos;displayname&apos; and/or &apos;slot&apos;, affecting their respective properties. A %s displayname resets it to the actual name, and a %s slot removes it from all displays. Slot can be one of: BELOW_NAME, PLAYER_LIST, or SIDEBAR [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6797</id>
+	<key><![CDATA[Replaces all the colorizable character codes in the string. For instance, colorize(&apos;&amp;aText&apos;) would be equivalent to (color(&apos;a&apos;).&apos;Text&apos;). By default, the symbol is &apos;&amp;&apos;, but that can be any arbitrary string that you specify. If text is not a string, that value is simply returned. If you need to &quot;escape&quot; a symbol, (that is have a literal symbol followed by a letter that is a valid color) just repeat the symbol twice, for instance &apos;&amp;&amp;c&apos; would return a literal &apos;&amp;c&apos; instead of a red modifier. Additionally, any RGB color can be used in the hex format &apos;&amp;#rrggbb&apos; (except in tellraw). [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6798</id>
+	<key><![CDATA[Sets the text on a sign side to be glowing or not. (MC 1.17+) Side can be FRONT (default) or BACK. (MC 1.20+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6799</id>
+	<key><![CDATA[Returns whether a sign is waxed and uneditable. (MC 1.20.1+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6800</id>
+	<key><![CDATA[Returns true if the sign side at this location has glowing text. (MC 1.17+) Side can be FRONT (default) or BACK. (MC 1.20+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6801</id>
+	<key><![CDATA[Gets the player&apos;s locale.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6802</id>
+	<key><![CDATA[Returns the color (or style) code modifier for a given value. If the value isn&apos;t valid, white is used instead. The list of valid color names is: BLACK, DARK_BLUE, DARK_GREEN, DARK_AQUA, DARK_RED, DARK_PURPLE, GOLD, GRAY, DARK_GRAY, BLUE, GREEN, AQUA, RED, LIGHT_PURPLE, YELLOW, WHITE, RANDOM, BOLD, STRIKETHROUGH, UNDERLINE, ITALIC, or PLAIN_WHITE. Other supported values include the color integers 0-15, the color hex numbers 0-F, and the style values k, l, m, n, o, and r. Additionally, any RGB color can be used in the hex format &apos;#rrggbb&apos; (except in tellraw). [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6803</id>
+	<key><![CDATA[Sets the biome at a block location. Minecraft only provides one quarter precision for three dimensional biomes, so this sets the nearest center of a 4x4x4 region. When not using a location array, the entire column at the x and z coordinates are set. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6804</id>
+	<key><![CDATA[Returns an associative array for the player&apos;s virtual world border. (MC 1.18.2+) The keys are &apos;width&apos;, &apos;center&apos;, &apos;warningtime&apos;, and &apos;warningdistance&apos;. Returns %s if the player is using the existing border for the world that they&apos;re in.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6805</id>
+	<key><![CDATA[Changes a sign&apos;s text only for the specified player. This will not change the sign in the world. If a normal array is used it cannot have more than 4 elements. If a line is %s, the existing line will still be displayed. An associative array of sign data may be sent instead. This is the same as sign item meta, and can include the keys: &apos;signtext&apos;, &apos;color&apos;, &apos;glowing&apos; (MC 1.17.1+), &apos;backtext&apos; (MC 1.20.1+), &apos;backcolor&apos; (MC 1.20.1+), and &apos;backglowing&apos; (MC 1.20.1+).]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6806</id>
+	<key><![CDATA[Returns the biome type at a block location. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6807</id>
+	<key><![CDATA[Returns the number of ticks the entity has been freezing in powdered snow. (MC 1.17+) Counts down by 2 every tick when entity is thawing.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6808</id>
+	<key><![CDATA[Sets how many server ticks the entity has been freezing. (MC 1.17+) Must be above zero, and will clamp to the maximum the server allows.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6809</id>
+	<key><![CDATA[locationArray, %s[%sside%s]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6810</id>
+	<key><![CDATA[Adds one, or modifies an existing, potion effect on a mob. The potionEffect can be SLOWNESS, INVISIBILITY, SLOW_FALLING, BAD_OMEN, WEAKNESS, DOLPHINS_GRACE, INSTANT_DAMAGE, MINING_FATIGUE, SPEED, WITHER, LUCK, FIRE_RESISTANCE, WATER_BREATHING, GLOWING, ABSORPTION, HUNGER, BAD_LUCK, HERO_OF_THE_VILLAGE, REGENERATION, STRENGTH, BLINDNESS, LEVITATION, CONDUIT_POWER, JUMP_BOOST, POISON, NAUSEA, RESISTANCE, HEALTH_BOOST, DARKNESS, NIGHT_VISION, INSTANT_HEALTH, HASTE, or SATURATION. It also accepts an integer corresponding to the effect id listed on the Minecraft wiki. Strength is an integer representing the power level of the effect, starting at 0. Seconds defaults to 30.0. To remove an effect, set the seconds to 0. If seconds is greater than 107374182 a RangeException is thrown. Negative seconds makes the effect infinite. (or max in versions prior to 1.19.4) Ambient takes a boolean of whether the particles should be more transparent. Particles takes a boolean of whether the particles should be visible at all. The function returns whether or not the effect was modified.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6811</id>
+	<key><![CDATA[Gets an array of 4 strings of the text on the side of a sign. Side can be FRONT (default) or BACK. (MC 1.20+) If the location given isn&apos;t a sign, then a RangeException is thrown.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6812</id>
+	<key><![CDATA[[%splayer%s]%s, locationArray, 1, 2, 3, 4 %s %s[%splayer%s]%s, locationArray, array]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6813</id>
+	<key><![CDATA[Sets a sign to be waxed or not. (MC 1.20.1+) If a sign is waxed, it is not editable by players.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6814</id>
+	<key><![CDATA[Sets the text on the side of a sign at the given location. Side can be FRONT (default) or BACK. (MC 1.20+) If the block at x,y,z isn&apos;t a sign, a RangeException is thrown. If a text line cannot fit on the sign, it&apos;ll be cut off.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6815</id>
+	<key><![CDATA[Sets the display name, color, prefix, and/or suffix of the given team. If arg 2 is not an array, it is assumed to be the displayname, otherwise arg 2 should be an array with keys &apos;displayname&apos;, &apos;color&apos;, &apos;prefix&apos;, and/or &apos;suffix&apos;, affecting their respective properties. A %s displayname resets it to the actual name, and a %s prefix or suffix removes it from all displays. Color can be one of BLACK, DARK_BLUE, DARK_GREEN, DARK_AQUA, DARK_RED, DARK_PURPLE, GOLD, GRAY, DARK_GRAY, BLUE, GREEN, AQUA, RED, LIGHT_PURPLE, YELLOW, WHITE, RANDOM, BOLD, STRIKETHROUGH, UNDERLINE, ITALIC or PLAIN_WHITE. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6816</id>
+	<key><![CDATA[locationArray, boolean]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6817</id>
+	<key><![CDATA[Plays a note for the given player, at the given note block location. Player defaults to the current player, and location defaults to the player&apos;s location. Instrument may be one of: PIANO, BASS_DRUM, SNARE_DRUM, STICKS, BASS_GUITAR, FLUTE, BELL, GUITAR, CHIME, XYLOPHONE, IRON_XYLOPHONE, COW_BELL, DIDGERIDOO, BIT, BANJO, PLING, ZOMBIE, SKELETON, CREEPER, DRAGON, WITHER_SKELETON, PIGLIN, or CUSTOM_HEAD, and note is an associative array with 2 values, array(octave: 0, tone: &apos;F#&apos;) where octave is either 0, 1, or 2, and tone is one of the notes G, A, B, C, D, E, or F, optionally suffixed with a pound symbol, which denotes a sharp. (Not all notes can be sharped.)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6818</id>
+	<key><![CDATA[sets the age of the mob to the specified int, and locks it at that age if lockAge is true, but by default it will not. (locking only applies to breedable mobs) Throws a UnageableMobException if the mob does not age naturally.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6819</id>
+	<key><![CDATA[Takes a YML encoded string, and returns an associative array, depending on the contents of the YML string. If the YML string is improperly formatted, a FormatException is thrown. If an exception occurs in the YML parsing library, a PluginInternalException is thrown. By default YML strings up to 3 * 1024 * 1024 (3 MB) code points can be parsed. This limit can be exceeded through the &apos;function.yml_decode.code_point_limit&apos; runtime setting.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6820</id>
+	<key><![CDATA[Returns the first falsey value. The arguments to this function are lazily evaluated, so if the first value evaluates to falsey, the rest of the arguments will not be evaluated. If none of the values are falsey, the last value is returned. Usage of the operator is preferred: &amp;&amp;&amp;]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6821</id>
+	<key><![CDATA[Creates or updates a player&apos;s virtual world border. (MC 1.18.2+) In addition to the keys returned by pborder(), you can also specify &apos;seconds&apos;. This is the time in which the border will move from the previous width to the new &apos;width&apos;. If give %s instead of an array, this resets the player&apos;s visible world border to the one of the world that they&apos;re in.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6822</id>
+	<key><![CDATA[locationArray, %s[%sside%s]%s, lineArray %s locationArray, line1, %s[%sline2, [line3, [line4%s]%s]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6823</id>
+	<key><![CDATA[player%sfrom%s: The location the player is coming from%sto%s: The location the player is now in%stype%s: the type of teleport occuring, one of COMMAND, END_PORTAL, ENDER_PEARL, NETHER_PORTAL, PLUGIN, SPECTATE, END_GATEWAY, CHORUS_FRUIT, DISMOUNT, EXIT_BED, UNKNOWN]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6824</id>
+	<key><![CDATA[player%s: The player's name%slocation%s: A location array of the sign%stext%s: An array with keys 0 thru 3 defining every line on the sign%sside%s: The side of the sign the text was changed, FRONT or BACK]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6825</id>
+	<key><![CDATA[This event is called when a block dispenses an item.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6826</id>
+	<key><![CDATA[type%s: %s&lt;String Match&gt; Type of dispensing block%sitemname%s: %s&lt;String Match&gt; Item type to be dispensed]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6827</id>
+	<key><![CDATA[id%s: %s&lt;Macro&gt; The entityID%stype%s: %s&lt;Macro&gt; The type of entity being damaged%scause%s: %s&lt;Macro&gt; One of CONTACT, ENTITY_ATTACK, PROJECTILE, SUFFOCATION, FALL, FIRE, FIRE_TICK, LAVA, DROWNING, BLOCK_EXPLOSION, ENTITY_EXPLOSION, VOID, LIGHTNING, SUICIDE, STARVATION, POISON, MAGIC, MELTING, WITHER, FALLING_BLOCK, THORNS, DRAGON_BREATH, FLY_INTO_WALL, HOT_FLOOR, CRAMMING, ENTITY_SWEEP_ATTACK, DRYOUT, FREEZE, SONIC_BOOM, KILL, WORLD_BORDER, or CUSTOM%sworld%s: %s&lt;String Match&gt;]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6828</id>
+	<key><![CDATA[type%sitem%s: Item array of item to be dispensed. If the item type exists in the dispenser, one will be removed from the block's inventory. (ignores item quantity)%svelocity%s: Returns an associative array with the x/y/z/magnitude components of item velocity.%slocation%s: Location array of dispensing block]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6829</id>
+	<key><![CDATA[This event is called when a noteblock is activated via player interaction or redstone. The instrument may be one of PIANO, BASS_DRUM, SNARE_DRUM, STICKS, BASS_GUITAR, FLUTE, BELL, GUITAR, CHIME, XYLOPHONE, IRON_XYLOPHONE, COW_BELL, DIDGERIDOO, BIT, BANJO, PLING, ZOMBIE, SKELETON, CREEPER, DRAGON, WITHER_SKELETON, PIGLIN, or CUSTOM_HEAD.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6830</id>
+	<key><![CDATA[Spigot 1.16.5 - 1.19]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6831</id>
+	<key><![CDATA[build-256]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6832</id>
+	<key><![CDATA[[%s 24fd970]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6833</id>
+	<key><![CDATA[Updated for Spigot 1.20]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6834</id>
+	<key><![CDATA[Updated for Spigot 1.19]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6835</id>
+	<key><![CDATA[[%s 918bd12]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6836</id>
+	<key><![CDATA[Spigot 1.16.5 - 1.20]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6837</id>
+	<key><![CDATA[build-334]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6838</id>
+	<key><![CDATA[Spigot/Paper 1.16.5 - 1.20.1 (when CH is used as a plugin)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6839</id>
+	<key><![CDATA[Damage cause from the /kill command was changed from VOID to KILL, and damage cause from the world border was changed from SUFFOCATION to WORLD_BORDER.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6840</id>
+	<key><![CDATA[Minecraft 1.20]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6841</id>
+	<key><![CDATA[Signs are editable and can have text on the back side. (affects 'sign_changed' event)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6842</id>
+	<key><![CDATA[Returns the color (or style) code modifier for a given value. If the value isn't valid, white is used instead. The list of valid color names is: BLACK, DARK_BLUE, DARK_GREEN, DARK_AQUA, DARK_RED, DARK_PURPLE, GOLD, GRAY, DARK_GRAY, BLUE, GREEN, AQUA, RED, LIGHT_PURPLE, YELLOW, WHITE, RANDOM, BOLD, STRIKETHROUGH, UNDERLINE, ITALIC, or PLAIN_WHITE. Other supported values include the color integers 0-15, the color hex numbers 0-F, and the style values k, l, m, n, o, and r. Additionally, any RGB color can be used in the hex format '#rrggbb' (except in tellraw).]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6843</id>
+	<key><![CDATA[Since the vanilla Minecraft client does not support RGB color codes, these are translated to json text components by the server when passed to messaging functions. As such, these are not directly supported in tellraw functions or commands. Instead, the color must be manually specified under the 'color' key of the json text component.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6844</id>
+	<key><![CDATA[Replaces all the colorizable character codes in the string. For instance, colorize('&aText') would be equivalent to (color('a').'Text'). By default, the symbol is '&', but that can be any arbitrary string that you specify. If text is not a string, that value is simply returned. If you need to "escape" a symbol, (that is have a literal symbol followed by a letter that is a valid color) just repeat the symbol twice, for instance '&&c' would return a literal '&c' instead of a red modifier. Additionally, any RGB color can be used in the hex format '&#rrggbb' (except in tellraw).]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6845</id>
+	<key><![CDATA[Returns the first falsey value. The arguments to this function are lazily evaluated, so if the first value evaluates to falsey, the rest of the arguments will not be evaluated. If none of the values are falsey, the last value is returned. Usage of the operator is preferred: &&&]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6846</id>
+	<key><![CDATA[anger: The zombified piglin's anger level.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6847</id>
+	<key><![CDATA[baby: Whether the zombified piglin is a baby.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6848</id>
+	<key><![CDATA[breakdoors: Whether the zombie villager can break doors. (MC 1.19+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6849</id>
+	<key><![CDATA[rolling: Whether the panda is rolling. (MC 1.19+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6850</id>
+	<key><![CDATA[height: The height of the interaction's hit box on the Y axis.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6851</id>
+	<key><![CDATA[breakdoors: Whether the zombie can break doors. (MC 1.19+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6852</id>
+	<key><![CDATA[lastattack, lastinteraction: An associative array containing the keys 'puuid' and 'timestamp' which is updated when a player attacks or right clicks the interaction respectively. Cannot be updated with set_entity_spec().]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6853</id>
+	<key><![CDATA[angry: Whether the zombified piglin is angry.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6854</id>
+	<key><![CDATA[onback: Whether the panda is laying on its back. (MC 1.19+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6855</id>
+	<key><![CDATA[baby: Whether the zoglin is a baby.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6856</id>
+	<key><![CDATA[despawn: Whether or not the item will despawn after a time. (modifiable in MC 1.18.2+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6857</id>
+	<key><![CDATA[interested: Whether the wolf is interested, tilting its head. (MC 1.19+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6858</id>
+	<key><![CDATA[breakdoors: Whether the zombified piglin can break doors. (MC 1.19+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6859</id>
+	<key><![CDATA[eating: Whether the panda is eating. (MC 1.19+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6860</id>
+	<key><![CDATA[ZOGLIN]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6861</id>
+	<key><![CDATA[response: Whether vanilla responses occur such as sound and arm swing when interacting with the entity.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6862</id>
+	<key><![CDATA[INTERACTION]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6863</id>
+	<key><![CDATA[sneezing: Whether the panda is sneezing. (MC 1.19+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6864</id>
+	<key><![CDATA[type: Which tree species the boat is composed of. (can be ACACIA, BAMBOO, BIRCH, CHERRY, DARK_OAK, JUNGLE, MANGROVE, OAK, or SPRUCE)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6865</id>
+	<key><![CDATA[width: The width of the interaction's hit box on the X and Z axis.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6866</id>
+	<key><![CDATA[particle: The particle type which comprises the cloud (can be SMOKE_NORMAL, SOUL_FIRE_FLAME, BUBBLE_COLUMN_UP, REVERSE_PORTAL, CAMPFIRE_SIGNAL_SMOKE, BLOCK_DUST, DRIPPING_DRIPSTONE_LAVA, SWEEP_ATTACK, WATER_SPLASH, LANDING_LAVA, SLIME, FALLING_LAVA, DRIPPING_HONEY, ITEM_CRACK, WARPED_SPORE, DUST_COLOR_TRANSITION, FALLING_DUST, WATER_BUBBLE, FLASH, VILLAGER_ANGRY, FALLING_DRIPSTONE_LAVA, FALLING_DRIPSTONE_WATER, HEART, END_ROD, FALLING_NECTAR, SCULK_SOUL, SPELL_INSTANT, VILLAGER_HAPPY, SQUID_INK, VIBRATION, DRIPPING_DRIPSTONE_WATER, BUBBLE_POP, COMPOSTER, NAUTILUS, SHRIEK, FALLING_SPORE_BLOSSOM, SMALL_FLAME, EXPLOSION_LARGE, TOWN_AURA, ASH, DAMAGE_INDICATOR, TOTEM, SPIT, FALLING_OBSIDIAN_TEAR, PORTAL, EGG_CRACK, WAX_OFF, SPELL_WITCH, GLOW_SQUID_INK, EXPLOSION_HUGE, SNOWFLAKE, WATER_WAKE, FIREWORKS_SPARK, DRIP_LAVA, BLOCK_CRACK, BLOCK_MARKER, ENCHANTMENT_TABLE, REDSTONE, SNOW_SHOVEL, SPELL_MOB, FALLING_HONEY, SPORE_BLOSSOM_AIR, DRAGON_BREATH, DRIPPING_OBSIDIAN_TEAR, CURRENT_DOWN, ELECTRIC_SPARK, LANDING_OBSIDIAN_TEAR, CHERRY_LEAVES, SNEEZE, WHITE_ASH, GLOW, SCULK_CHARGE_POP, LANDING_HONEY, CRIT_MAGIC, SUSPENDED, WATER_DROP, SPELL, FALLING_WATER, LAVA, WAX_ON, CRIT, CLOUD, SCRAPE, SUSPENDED_DEPTH, CAMPFIRE_COSY_SMOKE, SOUL, NOTE, SNOWBALL, SPELL_MOB_AMBIENT, SMOKE_LARGE, SONIC_BOOM, CRIMSON_SPORE, EXPLOSION_NORMAL, FLAME, MOB_APPEARANCE, DOLPHIN, DRIP_WATER, or SCULK_CHARGE). Can accept a particle array for setting index data required for specific particle types. This particle array must contain a "particle" key, and supports the keys "block", "item", or "color" when applicable.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6867</id>
+	<key><![CDATA[The value returned may be one of the following: BEACH, SAVANNA, SUNFLOWER_PLAINS, FROZEN_OCEAN, BIRCH_FOREST, THE_VOID, WINDSWEPT_HILLS, DEEP_LUKEWARM_OCEAN, END_HIGHLANDS, DEEP_FROZEN_OCEAN, OLD_GROWTH_SPRUCE_TAIGA, END_MIDLANDS, FLOWER_FOREST, CHERRY_GROVE, ERODED_BADLANDS, END_BARRENS, SNOWY_TAIGA, DEEP_DARK, JUNGLE, OCEAN, ICE_SPIKES, SMALL_END_ISLANDS, FROZEN_RIVER, THE_END, DARK_FOREST, COLD_OCEAN, SNOWY_PLAINS, SNOWY_SLOPES, LUSH_CAVES, WINDSWEPT_SAVANNA, DRIPSTONE_CAVES, MEADOW, STONY_SHORE, WINDSWEPT_FOREST, PLAINS, OLD_GROWTH_BIRCH_FOREST, SAVANNA_PLATEAU, SPARSE_JUNGLE, STONY_PEAKS, RIVER, JAGGED_PEAKS, MANGROVE_SWAMP, WARPED_FOREST, WOODED_BADLANDS, NETHER_WASTES, LUKEWARM_OCEAN, WINDSWEPT_GRAVELLY_HILLS, BAMBOO_JUNGLE, CUSTOM, DEEP_COLD_OCEAN, BADLANDS, OLD_GROWTH_PINE_TAIGA, MUSHROOM_FIELDS, DEEP_OCEAN, TAIGA, WOODED_HILLS, DESERT, SNOWY_BEACH, WARM_OCEAN, BASALT_DELTAS, FOREST, SWAMP, SOUL_SAND_VALLEY, FROZEN_PEAKS, GROVE, or CRIMSON_FOREST]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6868</id>
+	<key><![CDATA[Returns the biome type at a block location.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6869</id>
+	<key><![CDATA[Note that not all valid inventory types may actually be returnable, due to lack of support in the server, but the valid return types are: BREWING, CHEST, COMPOSTER, CRAFTING, CREATIVE, DISPENSER, DROPPER, ENCHANTING, ENDER_CHEST, FURNACE, HOPPER, JUKEBOX, MERCHANT, PLAYER, WORKBENCH, ANVIL, SMITHING, BEACON, SHULKER_BOX, BARREL, BLAST_FURNACE, LECTERN, SMOKER, LOOM, CARTOGRAPHY, GRINDSTONE, STONECUTTER, CHISELED_BOOKSHELF]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6870</id>
+	<key><![CDATA[Inventory Blocks]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6871</id>
+	<key><![CDATA['''glowing''' : (boolean) Whether the sign has glowing text on the front. (MC 1.17.1+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6872</id>
+	<key><![CDATA['''backcolor''' : (string) The dye color for the text on the back. (default: 'BLACK') (MC 1.20+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6873</id>
+	<key><![CDATA['''signtext''' : (array) An array of 4 strings, one for each line of text on the front.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6874</id>
+	<key><![CDATA['''modifiers''' : (array) An array of attribute modifier arrays, each with keys: '''"attribute"''', '''"operation"''', '''"amount"''' (double), '''"uuid"''' (optional), '''"name"''' (optional), and '''"slot"''' (optional). Possible attributes: ''GENERIC_ARMOR, GENERIC_ARMOR_TOUGHNESS, GENERIC_ATTACK_DAMAGE, GENERIC_ATTACK_KNOCKBACK, GENERIC_ATTACK_SPEED, GENERIC_FLYING_SPEED, GENERIC_FOLLOW_RANGE, GENERIC_KNOCKBACK_RESISTANCE, GENERIC_LUCK, GENERIC_MAX_HEALTH, GENERIC_MOVEMENT_SPEED, HORSE_JUMP_STRENGTH, or ZOMBIE_SPAWN_REINFORCEMENTS''. Possible operations: ''ADD_NUMBER, ADD_SCALAR, or MULTIPLY_SCALAR_1''. Possible slots: ''WEAPON, OFF_HAND, BOOTS, LEGGINGS, CHESTPLATE, or HELMET''.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6875</id>
+	<key><![CDATA['''instrument''' : (string) The instrument name (can be ponder_goat_horn, sing_goat_horn, seek_goat_horn, feel_goat_horn, admire_goat_horn, call_goat_horn, yearn_goat_horn, dream_goat_horn). (MC 1.19.3+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6876</id>
+	<key><![CDATA['''variant''' : (string) The type of axolotl, one of ''BLUE, CYAN, GOLD, LUCY, or WILD''. (MC 1.17+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6877</id>
+	<key><![CDATA['''color''' : (string) The dye color for the text on the front. (default: 'BLACK')]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6878</id>
+	<key><![CDATA['''waxed''' : (boolean) Whether the sign is waxed. (MC 1.20.1+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6879</id>
+	<key><![CDATA['''flags''' : (array) Possible flags: ''HIDE_ENCHANTS, HIDE_ATTRIBUTES, HIDE_UNBREAKABLE, HIDE_DESTROYS, HIDE_PLACED_ON, HIDE_POTION_EFFECTS, HIDE_DYE, or HIDE_ARMOR_TRIM''.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6880</id>
+	<key><![CDATA['''command''' : (string) The command set for this commandblock.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6881</id>
+	<key><![CDATA['''trim''' : (array) An array that contains the keys '''"pattern"''' and '''"material"'''. Pattern can be COAST, DUNE, EYE, HOST, RAISER, RIB, SENTRY, SHAPER, SILENCE, SNOUT, SPIRE, TIDE, VEX, WARD, WAYFINDER, or WILD. Material can be AMETHYST, COPPER, DIAMOND, EMERALD, GOLD, IRON, LAPIS, NETHERITE, QUARTZ, or REDSTONE. (MC 1.20+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6882</id>
+	<key><![CDATA['''firework''' : (array) An array with the keys '''"strength"''' (int), how long in seconds the rocket will last, and '''"effects"''', an array of effect arrays (see Firework Charges).]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6883</id>
+	<key><![CDATA['''backtext''' : (array) An array of 4 strings, one for each line of text on the back. (MC 1.20+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6884</id>
+	<key><![CDATA['''patterns''' : (array) See Banner "patterns".]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6885</id>
+	<key><![CDATA['''backglowing''' : (boolean) Whether the sign has glowing text on the back. (MC 1.20+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6886</id>
+	<key><![CDATA[CommandBlocks]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6887</id>
+	<key><![CDATA['''items''' : (array) An array of item arrays that exist in this bundle. (MC 1.17+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6888</id>
+	<key><![CDATA[Armor Trim]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6889</id>
+	<key><![CDATA['''inventory''' : (array) An array of item arrays, where each index is an inventory slot. (exceptions exist for furnaces and brewing stands)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6890</id>
+	<key><![CDATA['''customname''' : (string) The name of this commandblock. (default: '@')]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6891</id>
+	<key><![CDATA[All Damageable Items]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6892</id>
+	<key><![CDATA[Signs]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6893</id>
+	<key><![CDATA[Gets an array of 4 strings of the text on the side of a sign. Side can be FRONT (default) or BACK. (MC 1.20+) If the location given isn't a sign, then a RangeException is thrown.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6894</id>
+	<key><![CDATA[Returns an associative array for the player's virtual world border. (MC 1.18.2+) The keys are 'width', 'center', 'warningtime', and 'warningdistance'. Returns %s if the player is using the existing border for the world that they're in.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6895</id>
+	<key><![CDATA[Plays a note for the given player, at the given note block location. Player defaults to the current player, and location defaults to the player's location. Instrument may be one of: PIANO, BASS_DRUM, SNARE_DRUM, STICKS, BASS_GUITAR, FLUTE, BELL, GUITAR, CHIME, XYLOPHONE, IRON_XYLOPHONE, COW_BELL, DIDGERIDOO, BIT, BANJO, PLING, ZOMBIE, SKELETON, CREEPER, DRAGON, WITHER_SKELETON, PIGLIN, or CUSTOM_HEAD, and note is an associative array with 2 values, array(octave: 0, tone: 'F#') where octave is either 0, 1, or 2, and tone is one of the notes G, A, B, C, D, E, or F, optionally suffixed with a pound symbol, which denotes a sharp. (Not all notes can be sharped.)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6896</id>
+	<key><![CDATA[Possible sounds: ENTITY_FOX_HURT%sENTITY_SPIDER_STEP%sBLOCK_NETHER_WOOD_DOOR_OPEN%sENTITY_IRON_GOLEM_STEP%sBLOCK_WOODEN_TRAPDOOR_CLOSE%sBLOCK_DISPENSER_LAUNCH%sBLOCK_SMALL_DRIPLEAF_HIT%sBLOCK_NETHER_WOOD_HANGING_SIGN_PLACE%sENTITY_SALMON_DEATH%sBLOCK_GLASS_STEP%sENTITY_ZOMBIE_VILLAGER_STEP%sAMBIENT_UNDERWATER_ENTER%sENTITY_PANDA_EAT%sENTITY_RAVAGER_HURT%sBLOCK_SHROOMLIGHT_HIT%sENTITY_VILLAGER_WORK_BUTCHER%sBLOCK_MANGROVE_ROOTS_PLACE%sBLOCK_LADDER_HIT%sENCHANT_THORNS_HIT%sENTITY_DROWNED_SHOOT%sBLOCK_NETHER_SPROUTS_PLACE%sENTITY_ITEM_FRAME_ADD_ITEM%sENTITY_PARROT_IMITATE_MAGMA_CUBE%sBLOCK_NETHER_BRICKS_FALL%sITEM_TRIDENT_THUNDER%sENTITY_PIGLIN_BRUTE_HURT%sENTITY_SILVERFISH_DEATH%sBLOCK_COPPER_BREAK%sMUSIC_OVERWORLD_JUNGLE%sBLOCK_SCULK_SHRIEKER_PLACE%sBLOCK_AMETHYST_CLUSTER_PLACE%sBLOCK_DRIPSTONE_BLOCK_HIT%sENTITY_FOX_AMBIENT%sENTITY_SPLASH_POTION_THROW%sENTITY_PANDA_HURT%sBLOCK_SCULK_VEIN_FALL%sBLOCK_SMALL_AMETHYST_BUD_PLACE%sENTITY_FOX_SNIFF%sENTITY_TURTLE_DEATH_BABY%sBLOCK_NETHERRACK_HIT%sBLOCK_CHERRY_WOOD_HANGING_SIGN_BREAK%sENTITY_BLAZE_SHOOT%sBLOCK_SNIFFER_EGG_PLOP%sITEM_BOTTLE_FILL%sENTITY_PARROT_DEATH%sBLOCK_BAMBOO_SAPLING_BREAK%sBLOCK_SHROOMLIGHT_STEP%sBLOCK_PUMPKIN_CARVE%sENTITY_VILLAGER_CELEBRATE%sBLOCK_TUFF_FALL%sBLOCK_POINTED_DRIPSTONE_HIT%sMUSIC_DISC_STRAD%sBLOCK_METAL_PRESSURE_PLATE_CLICK_ON%sBLOCK_GILDED_BLACKSTONE_STEP%sENTITY_GHAST_WARN%sITEM_ELYTRA_FLYING%sENTITY_AXOLOTL_HURT%sBLOCK_POINTED_DRIPSTONE_PLACE%sBLOCK_MANGROVE_ROOTS_FALL%sBLOCK_MANGROVE_ROOTS_HIT%sITEM_BUCKET_FILL_LAVA%sBLOCK_BAMBOO_WOOD_BUTTON_CLICK_OFF%sENTITY_GHAST_SCREAM%sMUSIC_OVERWORLD_SPARSE_JUNGLE%sENTITY_ILLUSIONER_CAST_SPELL%sBLOCK_CHAIN_FALL%sENTITY_HOGLIN_HURT%sENTITY_FOX_SLEEP%sENTITY_ENDER_PEARL_THROW%sENTITY_PUFFER_FISH_HURT%sENTITY_FIREWORK_ROCKET_LAUNCH%sBLOCK_SWEET_BERRY_BUSH_BREAK%sMUSIC_OVERWORLD_JAGGED_PEAKS%sENTITY_PLAYER_SMALL_FALL%sENTITY_ILLUSIONER_MIRROR_MOVE%sBLOCK_PACKED_MUD_HIT%sBLOCK_CANDLE_FALL%sENTITY_SLIME_DEATH%sENTITY_SPIDER_DEATH%sENTITY_SHULKER_BULLET_HURT%sENTITY_ENDER_DRAGON_SHOOT%sBLOCK_ROOTS_BREAK%sENTITY_PARROT_IMITATE_BLAZE%sBLOCK_BAMBOO_WOOD_HANGING_SIGN_PLACE%sBLOCK_GRASS_STEP%sBLOCK_ROOTS_PLACE%sENTITY_PARROT_IMITATE_SPIDER%sENTITY_ELDER_GUARDIAN_CURSE%sBLOCK_FUNGUS_BREAK%sITEM_ARMOR_EQUIP_ELYTRA%sBLOCK_WET_GRASS_STEP%sENTITY_IRON_GOLEM_REPAIR%sENTITY_VEX_HURT%sENTITY_WITCH_HURT%sBLOCK_NYLIUM_FALL%sENTITY_WITHER_SKELETON_AMBIENT%sUI_BUTTON_CLICK%sENTITY_ZOMBIE_AMBIENT%sBLOCK_NOTE_BLOCK_BASS%sENTITY_FROG_EAT%sENTITY_CAT_AMBIENT%sBLOCK_NOTE_BLOCK_IRON_XYLOPHONE%sBLOCK_CHERRY_WOOD_DOOR_OPEN%sBLOCK_SPORE_BLOSSOM_FALL%sENTITY_TADPOLE_DEATH%sENTITY_CHICKEN_EGG%sENTITY_STRIDER_EAT%sBLOCK_CAVE_VINES_PLACE%sENTITY_ZOMBIE_HORSE_HURT%sBLOCK_NETHER_WOOD_HANGING_SIGN_HIT%sBLOCK_CORAL_BLOCK_STEP%sENTITY_SKELETON_HORSE_GALLOP_WATER%sBLOCK_AMETHYST_BLOCK_FALL%sBLOCK_CALCITE_HIT%sENTITY_PUFFER_FISH_AMBIENT%sBLOCK_MANGROVE_ROOTS_STEP%sBLOCK_NOTE_BLOCK_IMITATE_CREEPER%sENTITY_STRIDER_HURT%sENTITY_COD_AMBIENT%sITEM_TRIDENT_RIPTIDE_2%sENTITY_SNIFFER_EAT%sENTITY_ITEM_PICKUP%sENTITY_LIGHTNING_BOLT_IMPACT%sITEM_TRIDENT_RIPTIDE_1%sBLOCK_SWEET_BERRY_BUSH_PLACE%sENTITY_ZOMBIE_VILLAGER_CURE%sITEM_TRIDENT_RIPTIDE_3%sBLOCK_WEEPING_VINES_PLACE%sBLOCK_CHORUS_FLOWER_DEATH%sMUSIC_OVERWORLD_FLOWER_FOREST%sENTITY_MULE_CHEST%sBLOCK_NETHERITE_BLOCK_PLACE%sBLOCK_SCULK_VEIN_STEP%sBLOCK_SUSPICIOUS_SAND_FALL%sAMBIENT_NETHER_WASTES_MOOD%sENTITY_TURTLE_EGG_HATCH%sENTITY_LLAMA_DEATH%sENTITY_PARROT_IMITATE_RAVAGER%sBLOCK_SCULK_SPREAD%sENTITY_ENDERMITE_AMBIENT%sBLOCK_NETHER_BRICKS_STEP%sBLOCK_LAVA_AMBIENT%sITEM_BOOK_PUT%sENTITY_GLOW_SQUID_HURT%sENTITY_PLAYER_ATTACK_NODAMAGE%sENTITY_VILLAGER_TRADE%sMUSIC_OVERWORLD_CHERRY_GROVE%sPARTICLE_SOUL_ESCAPE%sBLOCK_BASALT_FALL%sENTITY_GOAT_SCREAMING_PREPARE_RAM%sBLOCK_POLISHED_DEEPSLATE_STEP%sBLOCK_DEEPSLATE_BRICKS_PLACE%sBLOCK_NOTE_BLOCK_FLUTE%sENTITY_ZOGLIN_ANGRY%sBLOCK_NETHER_WOOD_PRESSURE_PLATE_CLICK_OFF%sENTITY_DROWNED_AMBIENT%sBLOCK_CALCITE_PLACE%sBLOCK_POINTED_DRIPSTONE_STEP%sITEM_BUNDLE_REMOVE_ONE%sBLOCK_BAMBOO_SAPLING_PLACE%sBLOCK_CANDLE_AMBIENT%sBLOCK_MUD_BREAK%sENTITY_SQUID_AMBIENT%sBLOCK_ANVIL_USE%sBLOCK_MUD_BRICKS_HIT%sBLOCK_BAMBOO_WOOD_HIT%sENTITY_HUSK_CONVERTED_TO_ZOMBIE%sENTITY_ENDER_DRAGON_DEATH%sENTITY_LLAMA_SPIT%sENTITY_SILVERFISH_AMBIENT%sBLOCK_SCULK_SENSOR_PLACE%sENTITY_PARROT_FLY%sITEM_ARMOR_EQUIP_GENERIC%sENTITY_ENDER_DRAGON_FLAP%sENTITY_TADPOLE_HURT%sENTITY_PUFFER_FISH_BLOW_UP%sENTITY_POLAR_BEAR_WARNING%sENTITY_MAGMA_CUBE_DEATH_SMALL%sENTITY_PARROT_IMITATE_ENDER_DRAGON%sBLOCK_HANGING_SIGN_HIT%sBLOCK_CHERRY_LEAVES_BREAK%sENTITY_WITCH_DEATH%sBLOCK_WOODEN_DOOR_CLOSE%sENTITY_SKELETON_HORSE_AMBIENT%sBLOCK_DEEPSLATE_TILES_HIT%sBLOCK_HANGING_SIGN_PLACE%sBLOCK_SNOW_STEP%sMUSIC_OVERWORLD_BADLANDS%sBLOCK_CHAIN_PLACE%sBLOCK_CHERRY_LEAVES_HIT%sENTITY_PHANTOM_AMBIENT%sBLOCK_SOUL_SOIL_HIT%sENTITY_WARDEN_ANGRY%sENTITY_EXPERIENCE_ORB_PICKUP%sENTITY_WOLF_WHINE%sBLOCK_AMETHYST_BLOCK_HIT%sBLOCK_DEEPSLATE_BRICKS_BREAK%sENTITY_ARROW_SHOOT%sBLOCK_SLIME_BLOCK_HIT%sENTITY_BLAZE_DEATH%sBLOCK_POINTED_DRIPSTONE_FALL%sBLOCK_DEEPSLATE_FALL%sBLOCK_ANVIL_PLACE%sENTITY_MULE_AMBIENT%sBLOCK_SMALL_DRIPLEAF_STEP%sMUSIC_NETHER_CRIMSON_FOREST%sBLOCK_CHERRY_LEAVES_STEP%sENTITY_PARROT_IMITATE_ZOMBIE_VILLAGER%sBLOCK_POLISHED_DEEPSLATE_FALL%sBLOCK_FROGLIGHT_HIT%sBLOCK_SMITHING_TABLE_USE%sENTITY_PARROT_HURT%sENTITY_MINECART_INSIDE_UNDERWATER%sENTITY_PIG_AMBIENT%sENTITY_FOX_BITE%sBLOCK_BEEHIVE_ENTER%sBLOCK_SMALL_DRIPLEAF_PLACE%sBLOCK_FROGLIGHT_STEP%sBLOCK_SCULK_CATALYST_FALL%sENTITY_GUARDIAN_HURT%sENTITY_WITHER_SKELETON_DEATH%sBLOCK_CHERRY_WOOD_PRESSURE_PLATE_CLICK_ON%sBLOCK_WOOD_PLACE%sBLOCK_ROOTED_DIRT_BREAK%sBLOCK_SNOW_FALL%sENTITY_HORSE_STEP%sBLOCK_CORAL_BLOCK_BREAK%sAMBIENT_CAVE%sENTITY_HORSE_EAT%sBLOCK_RESPAWN_ANCHOR_DEPLETE%sBLOCK_NETHER_WOOD_HANGING_SIGN_STEP%sITEM_GOAT_HORN_PLAY%sENTITY_PIGLIN_ADMIRING_ITEM%sBLOCK_HONEY_BLOCK_BREAK%sBLOCK_WEEPING_VINES_STEP%sENTITY_PARROT_IMITATE_SHULKER%sENTITY_ARMOR_STAND_FALL%sMUSIC_OVERWORLD_DRIPSTONE_CAVES%sBLOCK_PACKED_MUD_BREAK%sENTITY_ZOMBIE_VILLAGER_DEATH%sBLOCK_CONDUIT_AMBIENT_SHORT%sENTITY_SKELETON_HORSE_HURT%sITEM_ARMOR_EQUIP_NETHERITE%sENTITY_HORSE_AMBIENT%sENTITY_PIG_STEP%sBLOCK_COPPER_PLACE%sBLOCK_AMETHYST_BLOCK_PLACE%sUI_TOAST_OUT%sBLOCK_CORAL_BLOCK_HIT%sBLOCK_SCULK_SHRIEKER_BREAK%sENTITY_SNOW_GOLEM_AMBIENT%sBLOCK_FROGSPAWN_FALL%sBLOCK_CAVE_VINES_FALL%sBLOCK_NETHERITE_BLOCK_FALL%sBLOCK_AZALEA_FALL%sBLOCK_SNIFFER_EGG_CRACK%sBLOCK_BAMBOO_WOOD_TRAPDOOR_OPEN%sBLOCK_AMETHYST_CLUSTER_BREAK%sBLOCK_MUD_HIT%sENTITY_MINECART_INSIDE%sENTITY_BEE_DEATH%sBLOCK_CALCITE_STEP%sBLOCK_MOSS_CARPET_FALL%sENTITY_EVOKER_FANGS_ATTACK%sBLOCK_ENCHANTMENT_TABLE_USE%sENTITY_OCELOT_HURT%sITEM_CROSSBOW_HIT%sENTITY_SHULKER_CLOSE%sBLOCK_SCULK_SHRIEKER_SHRIEK%sENTITY_PARROT_IMITATE_ENDERMITE%sITEM_CROSSBOW_LOADING_END%sUI_TOAST_IN%sBLOCK_GLASS_FALL%sBLOCK_WART_BLOCK_BREAK%sENTITY_WOLF_AMBIENT%sENTITY_GOAT_LONG_JUMP%sBLOCK_MANGROVE_ROOTS_BREAK%sENTITY_SNIFFER_SNIFFING%sENTITY_CAMEL_EAT%sENTITY_ALLAY_AMBIENT_WITH_ITEM%sBLOCK_SMALL_AMETHYST_BUD_BREAK%sENTITY_BAT_HURT%sENTITY_ARMOR_STAND_HIT%sITEM_BUCKET_EMPTY_FISH%sENTITY_FROG_LAY_SPAWN%sENTITY_WANDERING_TRADER_AMBIENT%sENTITY_SLIME_JUMP%sENTITY_CAT_HISS%sENTITY_LINGERING_POTION_THROW%sBLOCK_WEEPING_VINES_FALL%sENTITY_ELDER_GUARDIAN_DEATH%sENTITY_DONKEY_HURT%sENTITY_ALLAY_DEATH%sENTITY_LLAMA_EAT%sBLOCK_CALCITE_BREAK%sBLOCK_RESPAWN_ANCHOR_SET_SPAWN%sBLOCK_CHAIN_STEP%sBLOCK_CHERRY_WOOD_FALL%sENTITY_FISH_SWIM%sMUSIC_DISC_PIGSTEP%sBLOCK_NETHER_WOOD_HANGING_SIGN_FALL%sENTITY_ILLUSIONER_HURT%sENTITY_WANDERING_TRADER_DRINK_MILK%sBLOCK_POINTED_DRIPSTONE_BREAK%sBLOCK_SCULK_CATALYST_STEP%sENTITY_WARDEN_NEARBY_CLOSER%sBLOCK_FROGSPAWN_PLACE%sBLOCK_BAMBOO_WOOD_FENCE_GATE_CLOSE%sENTITY_EVOKER_PREPARE_WOLOLO%sENTITY_LLAMA_ANGRY%sENTITY_HOSTILE_SPLASH%sENTITY_DROWNED_HURT%sITEM_HOE_TILL%sBLOCK_SCULK_SENSOR_BREAK%sENTITY_FROG_AMBIENT%sENTITY_ELDER_GUARDIAN_FLOP%sENTITY_BEE_LOOP_AGGRESSIVE%sBLOCK_WOODEN_PRESSURE_PLATE_CLICK_OFF%sENTITY_GHAST_HURT%sBLOCK_NETHER_SPROUTS_FALL%sBLOCK_WET_GRASS_PLACE%sBLOCK_ANVIL_BREAK%sENTITY_ZOMBIE_DEATH%sBLOCK_AZALEA_STEP%sBLOCK_ROOTS_STEP%sENTITY_CAT_PURR%sBLOCK_NETHERITE_BLOCK_STEP%sENTITY_DONKEY_CHEST%sBLOCK_SCAFFOLDING_HIT%sBLOCK_MOSS_CARPET_STEP%sENTITY_LLAMA_SWAG%sENTITY_PARROT_IMITATE_EVOKER%sENTITY_HORSE_SADDLE%sBLOCK_NETHER_WOOD_FALL%sMUSIC_GAME%sENTITY_ZOMBIFIED_PIGLIN_HURT%sBLOCK_SMALL_DRIPLEAF_FALL%sENTITY_ITEM_FRAME_ROTATE_ITEM%sBLOCK_NETHER_WOOD_PLACE%sENTITY_GENERIC_DRINK%sENTITY_PANDA_DEATH%sBLOCK_WET_GRASS_FALL%sBLOCK_AMETHYST_BLOCK_STEP%sENTITY_PARROT_IMITATE_ILLUSIONER%sBLOCK_ANVIL_STEP%sBLOCK_BASALT_STEP%sENTITY_HUSK_HURT%sAMBIENT_CRIMSON_FOREST_LOOP%sBLOCK_SPORE_BLOSSOM_STEP%sBLOCK_COMPOSTER_READY%sENTITY_WITHER_SKELETON_STEP%sBLOCK_CONDUIT_AMBIENT%sENTITY_MOOSHROOM_SHEAR%sBLOCK_NETHER_WOOD_HANGING_SIGN_BREAK%sBLOCK_WOOD_BREAK%sBLOCK_NETHER_SPROUTS_BREAK%sBLOCK_BUBBLE_COLUMN_WHIRLPOOL_INSIDE%sENTITY_VILLAGER_WORK_TOOLSMITH%sBLOCK_HANGING_ROOTS_HIT%sBLOCK_FROGLIGHT_FALL%sENTITY_ZOGLIN_AMBIENT%sENTITY_FROG_STEP%sENTITY_ALLAY_ITEM_TAKEN%sENTITY_GENERIC_EAT%sBLOCK_SHROOMLIGHT_FALL%sENTITY_BLAZE_HURT%sENTITY_SLIME_HURT%sBLOCK_GRASS_FALL%sBLOCK_AZALEA_LEAVES_FALL%sENTITY_GLOW_SQUID_SQUIRT%sENTITY_WARDEN_HURT%sBLOCK_NOTE_BLOCK_COW_BELL%sBLOCK_POLISHED_DEEPSLATE_HIT%sBLOCK_CORAL_BLOCK_PLACE%sENTITY_SNIFFER_IDLE%sENTITY_PHANTOM_SWOOP%sBLOCK_HONEY_BLOCK_PLACE%sBLOCK_VINE_HIT%sBLOCK_PACKED_MUD_PLACE%sENTITY_WANDERING_TRADER_DRINK_POTION%sBLOCK_BASALT_HIT%sBLOCK_GLASS_HIT%sBLOCK_NOTE_BLOCK_CHIME%sBLOCK_FROGSPAWN_STEP%sBLOCK_BAMBOO_WOOD_FALL%sMUSIC_OVERWORLD_MEADOW%sENTITY_DONKEY_EAT%sBLOCK_PINK_PETALS_HIT%sBLOCK_NETHER_WOOD_TRAPDOOR_CLOSE%sENTITY_OCELOT_AMBIENT%sENTITY_WITCH_CELEBRATE%sENTITY_PARROT_EAT%sAMBIENT_WARPED_FOREST_MOOD%sBLOCK_FROGLIGHT_BREAK%sENTITY_CHICKEN_DEATH%sENTITY_HOGLIN_RETREAT%sENTITY_MINECART_RIDING%sBLOCK_LARGE_AMETHYST_BUD_BREAK%sENTITY_COW_HURT%sENTITY_MULE_ANGRY%sBLOCK_SUSPICIOUS_GRAVEL_PLACE%sBLOCK_NOTE_BLOCK_SNARE%sENTITY_DOLPHIN_HURT%sBLOCK_TRIPWIRE_CLICK_OFF%sENTITY_WITHER_DEATH%sENTITY_SNIFFER_DEATH%sENTITY_PLAYER_BIG_FALL%sBLOCK_NYLIUM_PLACE%sENTITY_GOAT_SCREAMING_DEATH%sBLOCK_PINK_PETALS_PLACE%sENTITY_FISHING_BOBBER_THROW%sENTITY_POLAR_BEAR_AMBIENT_BABY%sENTITY_WARDEN_AMBIENT%sBLOCK_WART_BLOCK_HIT%sENTITY_PIGLIN_HURT%sBLOCK_WOODEN_TRAPDOOR_OPEN%sENTITY_DOLPHIN_SPLASH%sBLOCK_CHERRY_WOOD_HANGING_SIGN_FALL%sENTITY_PIGLIN_CELEBRATE%sBLOCK_GLASS_BREAK%sBLOCK_SOUL_SAND_STEP%sITEM_BRUSH_BRUSHING_GRAVEL%sENTITY_SKELETON_STEP%sENTITY_LIGHTNING_BOLT_THUNDER%sUI_LOOM_TAKE_RESULT%sENTITY_DOLPHIN_JUMP%sENTITY_SKELETON_CONVERTED_TO_STRAY%sENTITY_GUARDIAN_DEATH_LAND%sENTITY_ENDERMAN_AMBIENT%sENTITY_PIGLIN_BRUTE_AMBIENT%sBLOCK_SIGN_WAXED_INTERACT_FAIL%sBLOCK_CHERRY_WOOD_BUTTON_CLICK_ON%sENTITY_ILLUSIONER_AMBIENT%sBLOCK_END_PORTAL_FRAME_FILL%sENTITY_FIREWORK_ROCKET_TWINKLE%sENTITY_SNIFFER_DROP_SEED%sBLOCK_ROOTS_FALL%sENTITY_GHAST_SHOOT%sENTITY_PUFFER_FISH_BLOW_OUT%sENTITY_SLIME_HURT_SMALL%sENTITY_STRAY_DEATH%sENTITY_ZOMBIE_VILLAGER_CONVERTED%sENTITY_PLAYER_HURT_SWEET_BERRY_BUSH%sENTITY_VINDICATOR_AMBIENT%sBLOCK_DRIPSTONE_BLOCK_PLACE%sBLOCK_CROP_BREAK%sENTITY_DOLPHIN_DEATH%sBLOCK_METAL_STEP%sBLOCK_AZALEA_LEAVES_STEP%sENTITY_ALLAY_HURT%sBLOCK_WOODEN_DOOR_OPEN%sBLOCK_SMALL_DRIPLEAF_BREAK%sITEM_AXE_SCRAPE%sENTITY_FISHING_BOBBER_SPLASH%sBLOCK_SPORE_BLOSSOM_BREAK%sENTITY_COW_MILK%sENTITY_PLAYER_ATTACK_STRONG%sENTITY_CAT_EAT%sENTITY_SHULKER_SHOOT%sBLOCK_WOODEN_BUTTON_CLICK_ON%sENTITY_ZOMBIE_INFECT%sENTITY_GOAT_SCREAMING_HORN_BREAK%sENTITY_HORSE_GALLOP%sBLOCK_ANVIL_FALL%sAMBIENT_CRIMSON_FOREST_MOOD%sBLOCK_BAMBOO_BREAK%sBLOCK_CHISELED_BOOKSHELF_PICKUP%sUI_LOOM_SELECT_PATTERN%sENTITY_VILLAGER_AMBIENT%sENTITY_WITHER_SKELETON_HURT%sMUSIC_DISC_WAIT%sBLOCK_DRIPSTONE_BLOCK_BREAK%sBLOCK_BAMBOO_FALL%sBLOCK_COMPOSTER_EMPTY%sENTITY_SNOWBALL_THROW%sENTITY_STRIDER_RETREAT%sBLOCK_ROOTED_DIRT_STEP%sBLOCK_DEEPSLATE_BRICKS_HIT%sENTITY_ENDERMAN_DEATH%sMUSIC_NETHER_BASALT_DELTAS%sENTITY_VILLAGER_WORK_SHEPHERD%sENTITY_GUARDIAN_DEATH%sENTITY_SHEEP_AMBIENT%sENTITY_ILLUSIONER_PREPARE_BLINDNESS%sBLOCK_NETHER_GOLD_ORE_BREAK%sBLOCK_SPORE_BLOSSOM_PLACE%sENTITY_WARDEN_ATTACK_IMPACT%sBLOCK_IRON_TRAPDOOR_OPEN%sENTITY_GHAST_DEATH%sBLOCK_AZALEA_BREAK%sENTITY_PLAYER_SPLASH_HIGH_SPEED%sENTITY_VILLAGER_WORK_LIBRARIAN%sBLOCK_DEEPSLATE_STEP%sITEM_BUNDLE_DROP_CONTENTS%sENTITY_WANDERING_TRADER_DISAPPEARED%sENTITY_GLOW_ITEM_FRAME_BREAK%sBLOCK_LADDER_FALL%sENTITY_WOLF_PANT%sENTITY_SNOW_GOLEM_HURT%sENTITY_RAVAGER_STEP%sBLOCK_NOTE_BLOCK_BELL%sBLOCK_BAMBOO_PLACE%sBLOCK_CHEST_CLOSE%sENTITY_PANDA_PRE_SNEEZE%sBLOCK_METAL_FALL%sBLOCK_LADDER_PLACE%sBLOCK_NOTE_BLOCK_IMITATE_SKELETON%sENTITY_WARDEN_LISTENING_ANGRY%sENTITY_BOAT_PADDLE_WATER%sENTITY_ZOMBIE_ATTACK_WOODEN_DOOR%sENTITY_SKELETON_HORSE_JUMP_WATER%sBLOCK_WOOD_FALL%sAMBIENT_UNDERWATER_LOOP_ADDITIONS%sENTITY_FOX_SCREECH%sENTITY_CAMEL_DASH_READY%sENTITY_GOAT_AMBIENT%sENTITY_VILLAGER_NO%sENTITY_PARROT_IMITATE_SKELETON%sMUSIC_DISC_5%sENTITY_WANDERING_TRADER_REAPPEARED%sBLOCK_AMETHYST_CLUSTER_HIT%sBLOCK_SCULK_SENSOR_CLICKING%sBLOCK_BONE_BLOCK_STEP%sBLOCK_CHERRY_SAPLING_BREAK%sENTITY_VILLAGER_YES%sBLOCK_SAND_STEP%sENTITY_GENERIC_HURT%sENTITY_PIG_SADDLE%sBLOCK_AMETHYST_BLOCK_CHIME%sBLOCK_ANVIL_HIT%sBLOCK_PORTAL_TRAVEL%sENTITY_RAVAGER_AMBIENT%sENTITY_STRIDER_STEP_LAVA%sENTITY_MULE_EAT%sMUSIC_DISC_FAR%sBLOCK_CONDUIT_ACTIVATE%sENTITY_PARROT_IMITATE_ZOGLIN%sMUSIC_OVERWORLD_SWAMP%sENTITY_SHEEP_STEP%sENTITY_SHULKER_DEATH%sENTITY_VEX_DEATH%sENTITY_OCELOT_DEATH%sMUSIC_END%sENTITY_CAT_STRAY_AMBIENT%sENTITY_PARROT_IMITATE_STRAY%sBLOCK_SAND_HIT%sBLOCK_DECORATED_POT_BREAK%sBLOCK_BEACON_POWER_SELECT%sBLOCK_POWDER_SNOW_FALL%sENTITY_GOAT_PREPARE_RAM%sENTITY_CAMEL_DASH%sBLOCK_BAMBOO_WOOD_STEP%sBLOCK_NETHER_ORE_STEP%sBLOCK_MUDDY_MANGROVE_ROOTS_HIT%sBLOCK_NETHER_WOOD_BREAK%sENTITY_VILLAGER_WORK_MASON%sAMBIENT_SOUL_SAND_VALLEY_MOOD%sITEM_CHORUS_FRUIT_TELEPORT%sBLOCK_CONDUIT_ATTACK_TARGET%sBLOCK_CAKE_ADD_CANDLE%sENTITY_ELDER_GUARDIAN_AMBIENT_LAND%sENTITY_PARROT_IMITATE_PILLAGER%sBLOCK_FIRE_AMBIENT%sBLOCK_SCULK_CATALYST_BLOOM%sMUSIC_DISC_MELLOHI%sBLOCK_CANDLE_PLACE%sBLOCK_SOUL_SAND_PLACE%sAMBIENT_BASALT_DELTAS_MOOD%sBLOCK_CHERRY_SAPLING_STEP%sENTITY_ZOGLIN_DEATH%sBLOCK_BUBBLE_COLUMN_UPWARDS_INSIDE%sENTITY_RABBIT_HURT%sENTITY_RAVAGER_ROAR%sBLOCK_DEEPSLATE_TILES_FALL%sBLOCK_COMPARATOR_CLICK%sENTITY_PHANTOM_FLAP%sBLOCK_BONE_BLOCK_PLACE%sENTITY_SHEEP_SHEAR%sENTITY_SPLASH_POTION_BREAK%sENTITY_GOAT_STEP%sENTITY_PLAYER_BURP%sENTITY_PIGLIN_DEATH%sENTITY_GLOW_SQUID_DEATH%sBLOCK_NETHER_GOLD_ORE_PLACE%sITEM_BUCKET_FILL_POWDER_SNOW%sITEM_TRIDENT_RETURN%sITEM_HONEYCOMB_WAX_ON%sENTITY_BEE_HURT%sENTITY_GENERIC_DEATH%sENTITY_TROPICAL_FISH_FLOP%sBLOCK_METAL_BREAK%sENTITY_RAVAGER_STUNNED%sITEM_SPYGLASS_STOP_USING%sBLOCK_FUNGUS_FALL%sENTITY_DROWNED_SWIM%sITEM_SHIELD_BLOCK%sENTITY_MOOSHROOM_CONVERT%sBLOCK_DECORATED_POT_HIT%sBLOCK_ROOTED_DIRT_HIT%sENTITY_CAMEL_STEP%sENTITY_LLAMA_HURT%sBLOCK_SUSPICIOUS_GRAVEL_FALL%sBLOCK_STEM_PLACE%sBLOCK_CAVE_VINES_BREAK%sENTITY_DOLPHIN_AMBIENT%sBLOCK_DEEPSLATE_TILES_BREAK%sENTITY_PANDA_BITE%sENTITY_WANDERING_TRADER_TRADE%sBLOCK_LARGE_AMETHYST_BUD_PLACE%sENTITY_PLAYER_ATTACK_SWEEP%sENTITY_STRAY_HURT%sBLOCK_SOUL_SAND_FALL%sENTITY_HORSE_ARMOR%sENTITY_PUFFER_FISH_FLOP%sBLOCK_FROGLIGHT_PLACE%sENTITY_WOLF_SHAKE%sBLOCK_CHERRY_WOOD_PLACE%sITEM_ARMOR_EQUIP_CHAIN%sENTITY_MULE_DEATH%sBLOCK_BREWING_STAND_BREW%sENTITY_ENDERMITE_HURT%sBLOCK_TRIPWIRE_ATTACH%sENTITY_PIGLIN_BRUTE_ANGRY%sENTITY_RABBIT_JUMP%sBLOCK_FUNGUS_PLACE%sBLOCK_NYLIUM_BREAK%sBLOCK_AZALEA_PLACE%sENTITY_SKELETON_DEATH%sBLOCK_SCULK_SENSOR_CLICKING_STOP%sENTITY_WOLF_GROWL%sBLOCK_BELL_USE%sBLOCK_NOTE_BLOCK_BIT%sITEM_DYE_USE%sENTITY_PARROT_IMITATE_VINDICATOR%sBLOCK_NETHER_WOOD_BUTTON_CLICK_ON%sBLOCK_POINTED_DRIPSTONE_DRIP_LAVA_INTO_CAULDRON%sMUSIC_MENU%sENTITY_DONKEY_AMBIENT%sENTITY_DOLPHIN_EAT%sBLOCK_METAL_HIT%sBLOCK_CHERRY_WOOD_HANGING_SIGN_HIT%sBLOCK_SAND_FALL%sENTITY_ENDERMITE_DEATH%sENTITY_PIGLIN_BRUTE_DEATH%sENTITY_PILLAGER_CELEBRATE%sBLOCK_NETHER_WOOD_HIT%sBLOCK_SCULK_CATALYST_HIT%sITEM_CROSSBOW_LOADING_START%sBLOCK_COMPOSTER_FILL_SUCCESS%sBLOCK_NETHER_WOOD_FENCE_GATE_OPEN%sMUSIC_DISC_13%sBLOCK_DECORATED_POT_PLACE%sMUSIC_DISC_WARD%sMUSIC_DISC_11%sENTITY_HORSE_HURT%sENTITY_SKELETON_HORSE_STEP_WATER%sENTITY_DROWNED_DEATH_WATER%sBLOCK_NETHER_ORE_FALL%sENTITY_EXPERIENCE_BOTTLE_THROW%sENTITY_ENDER_DRAGON_GROWL%sBLOCK_NYLIUM_STEP%sBLOCK_LAVA_POP%sENTITY_VILLAGER_WORK_WEAPONSMITH%sBLOCK_NOTE_BLOCK_GUITAR%sENTITY_FIREWORK_ROCKET_LARGE_BLAST_FAR%sITEM_BONE_MEAL_USE%sENTITY_PARROT_IMITATE_WARDEN%sBLOCK_CHERRY_WOOD_FENCE_GATE_OPEN%sITEM_BRUSH_BRUSHING_SAND_COMPLETE%sBLOCK_CHERRY_LEAVES_PLACE%sITEM_BRUSH_BRUSHING_SAND%sBLOCK_BAMBOO_WOOD_HANGING_SIGN_BREAK%sBLOCK_AZALEA_LEAVES_BREAK%sENTITY_SNIFFER_SCENTING%sBLOCK_PISTON_CONTRACT%sENTITY_SKELETON_HORSE_DEATH%sENTITY_ILLUSIONER_PREPARE_MIRROR%sITEM_TRIDENT_HIT_GROUND%sBLOCK_IRON_TRAPDOOR_CLOSE%sBLOCK_LEVER_CLICK%sBLOCK_NETHER_WOOD_FENCE_GATE_CLOSE%sBLOCK_CHERRY_SAPLING_FALL%sENTITY_CHICKEN_HURT%sBLOCK_BAMBOO_STEP%sBLOCK_ROOTED_DIRT_FALL%sENTITY_PIG_HURT%sENTITY_WANDERING_TRADER_DEATH%sENTITY_BOAT_PADDLE_LAND%sBLOCK_MUDDY_MANGROVE_ROOTS_FALL%sENTITY_PLAYER_SWIM%sAMBIENT_UNDERWATER_EXIT%sENTITY_CAMEL_STAND%sMUSIC_DISC_RELIC%sENTITY_HOSTILE_DEATH%sBLOCK_NETHER_SPROUTS_HIT%sBLOCK_BEEHIVE_EXIT%sENTITY_WARDEN_AGITATED%sBLOCK_CHERRY_WOOD_HANGING_SIGN_STEP%sBLOCK_SUSPICIOUS_SAND_HIT%sWEATHER_RAIN%sBLOCK_WEEPING_VINES_BREAK%sBLOCK_NOTE_BLOCK_IMITATE_WITHER_SKELETON%sBLOCK_SUSPICIOUS_GRAVEL_STEP%sBLOCK_CORAL_BLOCK_FALL%sBLOCK_MUD_BRICKS_BREAK%sBLOCK_HANGING_SIGN_BREAK%sENTITY_COW_DEATH%sBLOCK_ANVIL_DESTROY%sENTITY_PARROT_IMITATE_VEX%sBLOCK_CHERRY_WOOD_TRAPDOOR_OPEN%sMUSIC_OVERWORLD_FOREST%sBLOCK_FURNACE_FIRE_CRACKLE%sENTITY_GOAT_SCREAMING_EAT%sENTITY_ENDERMAN_SCREAM%sBLOCK_SUSPICIOUS_GRAVEL_BREAK%sENTITY_HORSE_STEP_WOOD%sITEM_ARMOR_EQUIP_IRON%sBLOCK_FUNGUS_STEP%sENTITY_TADPOLE_GROW_UP%sBLOCK_LAVA_EXTINGUISH%sBLOCK_CHERRY_WOOD_HANGING_SIGN_PLACE%sUI_CARTOGRAPHY_TABLE_TAKE_RESULT%sBLOCK_LADDER_BREAK%sENTITY_HORSE_JUMP%sITEM_GLOW_INK_SAC_USE%sBLOCK_MUD_PLACE%sENTITY_CAMEL_SIT%sITEM_ARMOR_EQUIP_DIAMOND%sENTITY_PANDA_AGGRESSIVE_AMBIENT%sAMBIENT_BASALT_DELTAS_ADDITIONS%sENTITY_LEASH_KNOT_BREAK%sENTITY_SALMON_HURT%sBLOCK_DECORATED_POT_FALL%sBLOCK_DEEPSLATE_TILES_PLACE%sENTITY_ZOGLIN_ATTACK%sENTITY_FROG_TONGUE%sBLOCK_REDSTONE_TORCH_BURNOUT%sBLOCK_SCULK_SHRIEKER_HIT%sBLOCK_CHISELED_BOOKSHELF_PLACE%sENTITY_GENERIC_EXTINGUISH_FIRE%sENTITY_SHULKER_BULLET_HIT%sBLOCK_BIG_DRIPLEAF_PLACE%sENTITY_WANDERING_TRADER_NO%sENTITY_SHULKER_TELEPORT%sENTITY_FIREWORK_ROCKET_BLAST_FAR%sENTITY_TROPICAL_FISH_HURT%sBLOCK_PORTAL_TRIGGER%sENTITY_ELDER_GUARDIAN_HURT_LAND%sBLOCK_CHEST_OPEN%sEVENT_RAID_HORN%sENTITY_FIREWORK_ROCKET_LARGE_BLAST%sBLOCK_SCULK_CATALYST_BREAK%sBLOCK_SCULK_VEIN_PLACE%sBLOCK_MOSS_HIT%sBLOCK_CHERRY_WOOD_BREAK%sBLOCK_WOOL_PLACE%sBLOCK_MOSS_PLACE%sENTITY_CREEPER_HURT%sENTITY_ENDER_EYE_LAUNCH%sBLOCK_FROGSPAWN_HIT%sENTITY_TURTLE_SHAMBLE%sENTITY_WITHER_AMBIENT%sBLOCK_COMPOSTER_FILL%sENTITY_FOX_EAT%sITEM_FLINTANDSTEEL_USE%sBLOCK_PACKED_MUD_FALL%sENTITY_PARROT_IMITATE_PIGLIN_BRUTE%sBLOCK_ENDER_CHEST_CLOSE%sENTITY_LLAMA_CHEST%sBLOCK_NETHER_ORE_PLACE%sITEM_BUCKET_EMPTY_POWDER_SNOW%sENTITY_IRON_GOLEM_DAMAGE%sBLOCK_SOUL_SOIL_BREAK%sBLOCK_BAMBOO_WOOD_BUTTON_CLICK_ON%sENTITY_BLAZE_AMBIENT%sBLOCK_STONE_PRESSURE_PLATE_CLICK_OFF%sENTITY_STRAY_STEP%sENTITY_EVOKER_DEATH%sENTITY_WARDEN_STEP%sENTITY_MOOSHROOM_SUSPICIOUS_MILK%sBLOCK_DEEPSLATE_BRICKS_STEP%sENTITY_GOAT_SCREAMING_MILK%sENTITY_FOX_SPIT%sENTITY_VILLAGER_WORK_LEATHERWORKER%sMUSIC_DRAGON%sENTITY_ZOMBIE_DESTROY_EGG%sENTITY_GUARDIAN_FLOP%sENTITY_POLAR_BEAR_STEP%sENTITY_GOAT_SCREAMING_HURT%sITEM_CROSSBOW_QUICK_CHARGE_2%sBLOCK_SCULK_SHRIEKER_FALL%sITEM_CROSSBOW_QUICK_CHARGE_3%sENTITY_COD_FLOP%sITEM_CROSSBOW_QUICK_CHARGE_1%sENTITY_MAGMA_CUBE_DEATH%sBLOCK_CANDLE_BREAK%sBLOCK_DISPENSER_DISPENSE%sBLOCK_MEDIUM_AMETHYST_BUD_BREAK%sENTITY_HORSE_DEATH%sBLOCK_FLOWERING_AZALEA_BREAK%sBLOCK_MUDDY_MANGROVE_ROOTS_PLACE%sBLOCK_BONE_BLOCK_HIT%sENTITY_GENERIC_SWIM%sBLOCK_SNOW_PLACE%sUI_STONECUTTER_TAKE_RESULT%sENTITY_PILLAGER_AMBIENT%sENTITY_ILLUSIONER_DEATH%sBLOCK_ANCIENT_DEBRIS_HIT%sBLOCK_SUSPICIOUS_SAND_BREAK%sBLOCK_NOTE_BLOCK_IMITATE_ENDER_DRAGON%sBLOCK_CAVE_VINES_HIT%sBLOCK_CHERRY_WOOD_HIT%sENTITY_EVOKER_CAST_SPELL%sENTITY_MAGMA_CUBE_SQUISH%sBLOCK_BONE_BLOCK_BREAK%sBLOCK_BAMBOO_SAPLING_HIT%sENTITY_FISHING_BOBBER_RETRIEVE%sENTITY_FOX_TELEPORT%sBLOCK_BAMBOO_WOOD_HANGING_SIGN_STEP%sBLOCK_MUD_STEP%sBLOCK_ANCIENT_DEBRIS_STEP%sENTITY_SHULKER_HURT%sMUSIC_CREATIVE%sBLOCK_NYLIUM_HIT%sBLOCK_NETHER_WOOD_PRESSURE_PLATE_CLICK_ON%sMUSIC_DISC_BLOCKS%sBLOCK_PISTON_EXTEND%sENTITY_PIGLIN_ANGRY%sBLOCK_CHERRY_WOOD_BUTTON_CLICK_OFF%sENTITY_ARMOR_STAND_BREAK%sBLOCK_SCAFFOLDING_FALL%sBLOCK_SCULK_SENSOR_FALL%sBLOCK_DEEPSLATE_TILES_STEP%sBLOCK_MUDDY_MANGROVE_ROOTS_STEP%sENTITY_HUSK_DEATH%sBLOCK_FROGSPAWN_HATCH%sBLOCK_NETHER_WOOD_TRAPDOOR_OPEN%sENTITY_GLOW_ITEM_FRAME_REMOVE_ITEM%sENTITY_PILLAGER_DEATH%sITEM_ARMOR_EQUIP_GOLD%sENTITY_RABBIT_DEATH%sBLOCK_SHROOMLIGHT_PLACE%sENTITY_CREEPER_DEATH%sENTITY_ZOMBIE_CONVERTED_TO_DROWNED%sAMBIENT_NETHER_WASTES_LOOP%sENTITY_PANDA_AMBIENT%sENTITY_SILVERFISH_HURT%sBLOCK_SCULK_SENSOR_HIT%sENTITY_ELDER_GUARDIAN_HURT%sBLOCK_LODESTONE_FALL%sENTITY_MAGMA_CUBE_JUMP%sBLOCK_MUD_BRICKS_FALL%sBLOCK_SNIFFER_EGG_HATCH%sBLOCK_ANVIL_LAND%sENTITY_PARROT_IMITATE_HUSK%sBLOCK_FENCE_GATE_CLOSE%sBLOCK_TUFF_BREAK%sENTITY_FIREWORK_ROCKET_BLAST%sENTITY_EVOKER_HURT%sENTITY_WARDEN_SONIC_BOOM%sENTITY_SKELETON_AMBIENT%sBLOCK_DRIPSTONE_BLOCK_STEP%sBLOCK_AZALEA_HIT%sENTITY_PLAYER_HURT_ON_FIRE%sBLOCK_FLOWERING_AZALEA_PLACE%sITEM_SPYGLASS_USE%sBLOCK_LODESTONE_BREAK%sBLOCK_SOUL_SOIL_STEP%sENTITY_WARDEN_SONIC_CHARGE%sBLOCK_BAMBOO_WOOD_FENCE_GATE_OPEN%sBLOCK_WART_BLOCK_STEP%sBLOCK_POINTED_DRIPSTONE_DRIP_WATER_INTO_CAULDRON%sBLOCK_CHERRY_WOOD_PRESSURE_PLATE_CLICK_OFF%sENTITY_GHAST_AMBIENT%sBLOCK_LANTERN_BREAK%sBLOCK_BEEHIVE_SHEAR%sENTITY_DOLPHIN_ATTACK%sENTITY_AXOLOTL_ATTACK%sENTITY_ENDER_DRAGON_AMBIENT%sBLOCK_NETHER_WOOD_DOOR_CLOSE%sENTITY_MAGMA_CUBE_HURT%sENTITY_GENERIC_BURN%sBLOCK_SCULK_CHARGE%sBLOCK_MUD_BRICKS_PLACE%sENTITY_HORSE_ANGRY%sWEATHER_RAIN_ABOVE%sBLOCK_WOOL_STEP%sENTITY_BEE_LOOP%sBLOCK_MOSS_CARPET_HIT%sENTITY_LEASH_KNOT_PLACE%sBLOCK_ROOTS_HIT%sENTITY_DONKEY_ANGRY%sBLOCK_WART_BLOCK_FALL%sBLOCK_ANCIENT_DEBRIS_FALL%sENTITY_CAT_HURT%sENTITY_AXOLOTL_DEATH%sMUSIC_OVERWORLD_SNOWY_SLOPES%sENTITY_PARROT_IMITATE_WITCH%sENTITY_ZOMBIE_HORSE_DEATH%sENTITY_FROG_DEATH%sENTITY_SLIME_SQUISH_SMALL%sENTITY_PARROT_IMITATE_CREEPER%sENTITY_TURTLE_SHAMBLE_BABY%sENTITY_SKELETON_SHOOT%sENTITY_WARDEN_ROAR%sITEM_SHIELD_BREAK%sENTITY_PIGLIN_STEP%sENTITY_GOAT_RAM_IMPACT%sBLOCK_BAMBOO_WOOD_TRAPDOOR_CLOSE%sBLOCK_BUBBLE_COLUMN_WHIRLPOOL_AMBIENT%sITEM_GOAT_HORN_SOUND_3%sBLOCK_STEM_HIT%sBLOCK_MOSS_BREAK%sITEM_GOAT_HORN_SOUND_2%sITEM_AXE_WAX_OFF%sITEM_GOAT_HORN_SOUND_1%sITEM_GOAT_HORN_SOUND_0%sBLOCK_WOOL_BREAK%sENTITY_ZOMBIE_STEP%sBLOCK_DECORATED_POT_STEP%sENTITY_HOSTILE_HURT%sBLOCK_END_GATEWAY_SPAWN%sITEM_BUCKET_FILL_FISH%sBLOCK_SOUL_SOIL_PLACE%sENTITY_PIGLIN_RETREAT%sENTITY_COW_STEP%sBLOCK_METAL_PLACE%sBLOCK_CHORUS_FLOWER_GROW%sBLOCK_DISPENSER_FAIL%sENTITY_PIGLIN_AMBIENT%sBLOCK_BAMBOO_WOOD_PRESSURE_PLATE_CLICK_ON%sBLOCK_BASALT_PLACE%sENTITY_TNT_PRIMED%sBLOCK_DEEPSLATE_BRICKS_FALL%sENTITY_ZOMBIFIED_PIGLIN_DEATH%sBLOCK_NOTE_BLOCK_IMITATE_ZOMBIE%sBLOCK_SMOKER_SMOKE%sENTITY_HOGLIN_ATTACK%sBLOCK_MUD_FALL%sENTITY_WARDEN_SNIFF%sITEM_GOAT_HORN_SOUND_7%sITEM_GOAT_HORN_SOUND_6%sITEM_GOAT_HORN_SOUND_5%sENTITY_DROWNED_STEP%sITEM_ARMOR_EQUIP_TURTLE%sENTITY_ALLAY_ITEM_THROWN%sITEM_GOAT_HORN_SOUND_4%sBLOCK_NOTE_BLOCK_PLING%sENTITY_MOOSHROOM_EAT%sBLOCK_IRON_DOOR_CLOSE%sBLOCK_NOTE_BLOCK_XYLOPHONE%sENTITY_TROPICAL_FISH_AMBIENT%sBLOCK_SOUL_SAND_BREAK%sBLOCK_AZALEA_LEAVES_PLACE%sENTITY_COW_AMBIENT%sBLOCK_VINE_STEP%sBLOCK_CAVE_VINES_PICK_BERRIES%sITEM_BUCKET_FILL_AXOLOTL%sBLOCK_GRAVEL_HIT%sBLOCK_WOOD_STEP%sBLOCK_RESPAWN_ANCHOR_CHARGE%sENTITY_TURTLE_AMBIENT_LAND%sENTITY_PAINTING_PLACE%sENTITY_STRAY_AMBIENT%sENTITY_RAVAGER_CELEBRATE%sITEM_SHOVEL_FLATTEN%sENTITY_PARROT_IMITATE_PIGLIN%sBLOCK_NETHER_ORE_HIT%sENTITY_CAT_PURREOW%sBLOCK_CHISELED_BOOKSHELF_HIT%sITEM_BUCKET_EMPTY_LAVA%sENTITY_SLIME_DEATH_SMALL%sENTITY_IRON_GOLEM_ATTACK%sENTITY_SHULKER_HURT_CLOSED%sENTITY_SQUID_SQUIRT%sENTITY_ZOMBIE_HORSE_AMBIENT%sITEM_TRIDENT_HIT%sENTITY_MAGMA_CUBE_HURT_SMALL%sENTITY_ARMOR_STAND_PLACE%sBLOCK_POWDER_SNOW_BREAK%sBLOCK_STONE_PRESSURE_PLATE_CLICK_ON%sBLOCK_WOOL_FALL%sENTITY_PANDA_CANT_BREED%sENTITY_PARROT_IMITATE_GUARDIAN%sBLOCK_PINK_PETALS_BREAK%sBLOCK_BAMBOO_WOOD_HANGING_SIGN_FALL%sITEM_BUCKET_FILL%sBLOCK_BEEHIVE_DRIP%sBLOCK_COPPER_HIT%sENTITY_DOLPHIN_PLAY%sENTITY_VINDICATOR_DEATH%sBLOCK_POWDER_SNOW_STEP%sBLOCK_NETHERRACK_FALL%sMUSIC_OVERWORLD_STONY_PEAKS%sBLOCK_GRASS_BREAK%sITEM_CROSSBOW_SHOOT%sENTITY_EVOKER_PREPARE_ATTACK%sENTITY_POLAR_BEAR_DEATH%sITEM_BUCKET_EMPTY_TADPOLE%sENTITY_ELDER_GUARDIAN_AMBIENT%sENTITY_DONKEY_DEATH%sENTITY_TURTLE_SWIM%sENTITY_HORSE_BREATHE%sENTITY_POLAR_BEAR_AMBIENT%sENTITY_BEE_POLLINATE%sENTITY_STRIDER_SADDLE%sBLOCK_BIG_DRIPLEAF_BREAK%sBLOCK_MUD_BRICKS_STEP%sBLOCK_METAL_PRESSURE_PLATE_CLICK_OFF%sUI_STONECUTTER_SELECT_RECIPE%sBLOCK_FLOWERING_AZALEA_HIT%sBLOCK_MOSS_STEP%sBLOCK_BAMBOO_WOOD_DOOR_OPEN%sBLOCK_SAND_BREAK%sENTITY_PARROT_IMITATE_ELDER_GUARDIAN%sBLOCK_GILDED_BLACKSTONE_BREAK%sUI_TOAST_CHALLENGE_COMPLETE%sENTITY_IRON_GOLEM_HURT%sITEM_TOTEM_USE%sMUSIC_CREDITS%sENTITY_GENERIC_BIG_FALL%sENTITY_PLAYER_HURT%sENTITY_PARROT_AMBIENT%sENTITY_ALLAY_AMBIENT_WITHOUT_ITEM%sENTITY_PARROT_IMITATE_DROWNED%sENTITY_GLOW_ITEM_FRAME_ROTATE_ITEM%sBLOCK_CHISELED_BOOKSHELF_BREAK%sBLOCK_GLASS_PLACE%sBLOCK_WOODEN_BUTTON_CLICK_OFF%sENTITY_HUSK_AMBIENT%sBLOCK_SCULK_SHRIEKER_STEP%sENTITY_ARROW_HIT_PLAYER%sENTITY_HOGLIN_CONVERTED_TO_ZOMBIFIED%sBLOCK_PINK_PETALS_FALL%sENTITY_GUARDIAN_AMBIENT%sENTITY_RAVAGER_DEATH%sBLOCK_GRASS_HIT%sBLOCK_GRAVEL_STEP%sBLOCK_NETHER_ORE_BREAK%sENTITY_VEX_AMBIENT%sBLOCK_DEEPSLATE_BREAK%sENTITY_AXOLOTL_IDLE_WATER%sENTITY_PARROT_IMITATE_SLIME%sENTITY_ZOMBIE_VILLAGER_HURT%sENTITY_FOX_AGGRO%sENTITY_PANDA_STEP%sENTITY_SNOW_GOLEM_SHOOT%sBLOCK_SAND_PLACE%sMUSIC_DISC_CHIRP%sBLOCK_STEM_BREAK%sBLOCK_WOOD_HIT%sBLOCK_TRIPWIRE_CLICK_ON%sITEM_BOTTLE_EMPTY%sBLOCK_MEDIUM_AMETHYST_BUD_PLACE%sBLOCK_NETHER_WOOD_STEP%sINTENTIONALLY_EMPTY%sBLOCK_MOSS_FALL%sENTITY_PLAYER_ATTACK_WEAK%sBLOCK_NETHERRACK_STEP%sBLOCK_DEEPSLATE_PLACE%sENTITY_FROG_LONG_JUMP%sBLOCK_HANGING_ROOTS_FALL%sBLOCK_VINE_FALL%sENTITY_ENDERMAN_HURT%sENTITY_WANDERING_TRADER_YES%sENTITY_GOAT_SCREAMING_LONG_JUMP%sAMBIENT_SOUL_SAND_VALLEY_ADDITIONS%sENTITY_ENDERMITE_STEP%sENTITY_BAT_DEATH%sENTITY_DOLPHIN_SWIM%sENTITY_PANDA_SNEEZE%sAMBIENT_NETHER_WASTES_ADDITIONS%sBLOCK_NETHER_WOOD_BUTTON_CLICK_OFF%sBLOCK_CHERRY_SAPLING_PLACE%sENTITY_GENERIC_EXPLODE%sBLOCK_WOODEN_PRESSURE_PLATE_CLICK_ON%sENTITY_GOAT_SCREAMING_AMBIENT%sBLOCK_SCAFFOLDING_STEP%sENTITY_SNIFFER_HURT%sENTITY_SHEEP_HURT%sBLOCK_LANTERN_HIT%sBLOCK_BASALT_BREAK%sENTITY_WITCH_AMBIENT%sBLOCK_HONEY_BLOCK_HIT%sBLOCK_CANDLE_EXTINGUISH%sBLOCK_BONE_BLOCK_FALL%sENTITY_SNIFFER_SEARCHING%sENTITY_HORSE_LAND%sBLOCK_CHERRY_WOOD_DOOR_CLOSE%sITEM_BUNDLE_INSERT%sITEM_CROP_PLANT%sBLOCK_LODESTONE_HIT%sENTITY_TURTLE_EGG_BREAK%sENTITY_SNOW_GOLEM_SHEAR%sENTITY_RABBIT_AMBIENT%sENTITY_VILLAGER_WORK_CLERIC%sBLOCK_HANGING_ROOTS_STEP%sITEM_BOOK_PAGE_TURN%sENTITY_WOLF_HURT%sBLOCK_LODESTONE_PLACE%sENTITY_CAMEL_STEP_SAND%sENTITY_FOX_DEATH%sENTITY_TROPICAL_FISH_DEATH%sBLOCK_COPPER_FALL%sENTITY_CAMEL_SADDLE%sENTITY_TURTLE_LAY_EGG%sBLOCK_LODESTONE_STEP%sBLOCK_DRIPSTONE_BLOCK_FALL%sBLOCK_BEEHIVE_WORK%sAMBIENT_CRIMSON_FOREST_ADDITIONS%sITEM_LODESTONE_COMPASS_LOCK%sENTITY_FIREWORK_ROCKET_TWINKLE_FAR%sAMBIENT_WARPED_FOREST_ADDITIONS%sBLOCK_POWDER_SNOW_PLACE%sENTITY_CAMEL_DEATH%sENTITY_GENERIC_SPLASH%sENTITY_PIGLIN_BRUTE_STEP%sENTITY_WITHER_BREAK_BLOCK%sBLOCK_GRAVEL_FALL%sENTITY_ITEM_BREAK%sBLOCK_SCULK_VEIN_BREAK%sENTITY_SLIME_ATTACK%sITEM_BOTTLE_FILL_DRAGONBREATH%sBLOCK_DECORATED_POT_SHATTER%sENTITY_PLAYER_DEATH%sENTITY_GLOW_ITEM_FRAME_PLACE%sENTITY_VILLAGER_WORK_FLETCHER%sITEM_BRUSH_BRUSHING_GENERIC%sBLOCK_GRASS_PLACE%sBLOCK_SOUL_SAND_HIT%sENTITY_WARDEN_TENDRIL_CLICKS%sITEM_AXE_STRIP%sENTITY_TURTLE_DEATH%sENTITY_EVOKER_CELEBRATE%sENTITY_ZOMBIFIED_PIGLIN_ANGRY%sBLOCK_LANTERN_PLACE%sBLOCK_STONE_STEP%sBLOCK_POWDER_SNOW_HIT%sBLOCK_CONDUIT_DEACTIVATE%sENTITY_PHANTOM_DEATH%sBLOCK_LADDER_STEP%sENTITY_ZOGLIN_STEP%sMUSIC_NETHER_NETHER_WASTES%sBLOCK_LILY_PAD_PLACE%sENTITY_WARDEN_NEARBY_CLOSEST%sMUSIC_OVERWORLD_OLD_GROWTH_TAIGA%sITEM_BRUSH_BRUSHING_GRAVEL_COMPLETE%sBLOCK_CAVE_VINES_STEP%sENTITY_BAT_LOOP%sENTITY_PARROT_IMITATE_SILVERFISH%sENTITY_STRIDER_DEATH%sBLOCK_NETHERITE_BLOCK_HIT%sBLOCK_END_PORTAL_SPAWN%sBLOCK_NETHERRACK_PLACE%sENTITY_GENERIC_SMALL_FALL%sENTITY_WITCH_DRINK%sBLOCK_GRAVEL_BREAK%sENTITY_PLAYER_ATTACK_CRIT%sBLOCK_PINK_PETALS_STEP%sENTITY_HOSTILE_SMALL_FALL%sBLOCK_AMETHYST_BLOCK_BREAK%sENTITY_ZOMBIE_HURT%sAMBIENT_UNDERWATER_LOOP_ADDITIONS_RARE%sBLOCK_WOOL_HIT%sITEM_ARMOR_EQUIP_LEATHER%sBLOCK_SCULK_BREAK%sENTITY_CREEPER_PRIMED%sBLOCK_STONE_FALL%sBLOCK_WATER_AMBIENT%sENTITY_RAVAGER_ATTACK%sITEM_FIRECHARGE_USE%sITEM_TRIDENT_THROW%sBLOCK_POINTED_DRIPSTONE_DRIP_WATER%sENTITY_SHULKER_OPEN%sBLOCK_NETHER_BRICKS_BREAK%sENTITY_HUSK_STEP%sENTITY_BAT_AMBIENT%sENTITY_PIG_DEATH%sENTITY_STRIDER_HAPPY%sBLOCK_WET_GRASS_HIT%sBLOCK_CALCITE_FALL%sBLOCK_BEACON_ACTIVATE%sBLOCK_LANTERN_STEP%sBLOCK_BAMBOO_WOOD_PLACE%sENTITY_HOGLIN_ANGRY%sBLOCK_SCULK_FALL%sBLOCK_CANDLE_HIT%sBLOCK_STONE_BUTTON_CLICK_ON%sBLOCK_VINE_BREAK%sENTITY_WARDEN_HEARTBEAT%sBLOCK_CHERRY_WOOD_STEP%sBLOCK_SHULKER_BOX_OPEN%sBLOCK_CHISELED_BOOKSHELF_INSERT_ENCHANTED%sENTITY_PIGLIN_BRUTE_CONVERTED_TO_ZOMBIFIED%sENTITY_HOSTILE_SWIM%sENTITY_ENDERMAN_TELEPORT%sBLOCK_AZALEA_LEAVES_HIT%sENTITY_SLIME_SQUISH%sAMBIENT_UNDERWATER_LOOP%sENTITY_GOAT_DEATH%sENTITY_PAINTING_BREAK%sBLOCK_NETHER_SPROUTS_STEP%sBLOCK_CHERRY_LEAVES_FALL%sBLOCK_STEM_STEP%sBLOCK_GILDED_BLACKSTONE_HIT%sENTITY_LLAMA_AMBIENT%sBLOCK_NETHER_BRICKS_HIT%sMUSIC_DISC_MALL%sMUSIC_DISC_STAL%sBLOCK_POLISHED_DEEPSLATE_BREAK%sENTITY_AXOLOTL_SPLASH%sENTITY_WARDEN_LISTENING%sBLOCK_CHISELED_BOOKSHELF_STEP%sBLOCK_ROOTED_DIRT_PLACE%sENTITY_ENDER_EYE_DEATH%sBLOCK_HANGING_SIGN_STEP%sMUSIC_UNDER_WATER%sBLOCK_BELL_RESONATE%sENTITY_TURTLE_EGG_CRACK%sENTITY_EGG_THROW%sENTITY_SNIFFER_HAPPY%sBLOCK_SPORE_BLOSSOM_HIT%sITEM_INK_SAC_USE%sBLOCK_SWEET_BERRY_BUSH_PICK_BERRIES%sENTITY_CAMEL_HURT%sAMBIENT_WARPED_FOREST_LOOP%sENTITY_WITHER_SPAWN%sBLOCK_NETHER_GOLD_ORE_HIT%sENTITY_WOLF_STEP%sENTITY_PANDA_WORRIED_AMBIENT%sBLOCK_IRON_DOOR_OPEN%sENTITY_LLAMA_STEP%sENTITY_DROWNED_HURT_WATER%sBLOCK_BIG_DRIPLEAF_FALL%sENTITY_GOAT_EAT%sENTITY_ZOMBIE_VILLAGER_AMBIENT%sBLOCK_SUSPICIOUS_GRAVEL_HIT%sENTITY_VILLAGER_DEATH%sENTITY_PARROT_IMITATE_PHANTOM%sENTITY_POLAR_BEAR_HURT%sBLOCK_SCULK_HIT%sBLOCK_SLIME_BLOCK_STEP%sBLOCK_CHISELED_BOOKSHELF_INSERT%sENTITY_GUARDIAN_ATTACK%sENTITY_CHICKEN_STEP%sENTITY_ITEM_FRAME_PLACE%sBLOCK_HONEY_BLOCK_FALL%sAMBIENT_SOUL_SAND_VALLEY_LOOP%sBLOCK_ENDER_CHEST_OPEN%sENTITY_PHANTOM_BITE%sBLOCK_NOTE_BLOCK_BANJO%sENTITY_VILLAGER_WORK_CARTOGRAPHER%sBLOCK_BARREL_OPEN%sBLOCK_NOTE_BLOCK_HARP%sBLOCK_STEM_FALL%sENTITY_TURTLE_HURT%sBLOCK_BAMBOO_HIT%sENTITY_PUFFER_FISH_DEATH%sBLOCK_COPPER_STEP%sENTITY_DOLPHIN_AMBIENT_WATER%sENTITY_FROG_HURT%sBLOCK_GRAVEL_PLACE%sBLOCK_WART_BLOCK_PLACE%sENTITY_ZOGLIN_HURT%sENTITY_CAMEL_AMBIENT%sENTITY_GLOW_SQUID_AMBIENT%sENTITY_COD_DEATH%sBLOCK_CHERRY_WOOD_TRAPDOOR_CLOSE%sBLOCK_TRIPWIRE_DETACH%sBLOCK_BEACON_DEACTIVATE%sBLOCK_STONE_BUTTON_CLICK_OFF%sBLOCK_GILDED_BLACKSTONE_PLACE%sENTITY_HOGLIN_AMBIENT%sENTITY_SQUID_DEATH%sBLOCK_TUFF_HIT%sBLOCK_BLASTFURNACE_FIRE_CRACKLE%sBLOCK_SCAFFOLDING_PLACE%sBLOCK_VINE_PLACE%sENTITY_PUFFER_FISH_STING%sENTITY_PILLAGER_HURT%sENTITY_PARROT_STEP%sENTITY_ZOMBIE_BREAK_WOODEN_DOOR%sENTITY_MAGMA_CUBE_SQUISH_SMALL%sENTITY_AXOLOTL_SWIM%sBLOCK_BARREL_CLOSE%sBLOCK_MOSS_CARPET_BREAK%sBLOCK_CHAIN_HIT%sBLOCK_CHERRY_WOOD_FENCE_GATE_CLOSE%sENTITY_SALMON_AMBIENT%sBLOCK_FLOWERING_AZALEA_FALL%sBLOCK_RESPAWN_ANCHOR_AMBIENT%sBLOCK_BIG_DRIPLEAF_STEP%sENTITY_CAT_DEATH%sENTITY_VILLAGER_HURT%sBLOCK_ANCIENT_DEBRIS_PLACE%sBLOCK_HANGING_SIGN_FALL%sENTITY_BEE_STING%sBLOCK_HONEY_BLOCK_SLIDE%sBLOCK_SNOW_HIT%sBLOCK_SCULK_VEIN_HIT%sBLOCK_NOTE_BLOCK_HAT%sBLOCK_CHEST_LOCKED%sMUSIC_OVERWORLD_BAMBOO_JUNGLE%sENTITY_SHULKER_AMBIENT%sENTITY_PIGLIN_CONVERTED_TO_ZOMBIFIED%sENTITY_STRIDER_AMBIENT%sENTITY_PLAYER_HURT_FREEZE%sENTITY_SALMON_FLOP%sENTITY_SNIFFER_STEP%sENTITY_PLAYER_SPLASH%sENTITY_ZOMBIFIED_PIGLIN_AMBIENT%sENTITY_SPIDER_AMBIENT%sBLOCK_CAMPFIRE_CRACKLE%sMUSIC_OVERWORLD_FROZEN_PEAKS%sBLOCK_WET_GRASS_BREAK%sENTITY_PARROT_IMITATE_HOGLIN%sENTITY_GOAT_SCREAMING_RAM_IMPACT%sBLOCK_FROGSPAWN_BREAK%sBLOCK_BAMBOO_WOOD_DOOR_CLOSE%sENTITY_WOLF_DEATH%sENTITY_VILLAGER_WORK_ARMORER%sENTITY_ELDER_GUARDIAN_DEATH_LAND%sENTITY_SNOW_GOLEM_DEATH%sENTITY_SNIFFER_DIGGING%sBLOCK_SUSPICIOUS_SAND_PLACE%sBLOCK_SLIME_BLOCK_BREAK%sENTITY_ENDER_DRAGON_HURT%sBLOCK_SCAFFOLDING_BREAK%sBLOCK_AMETHYST_BLOCK_RESONATE%sBLOCK_SHROOMLIGHT_BREAK%sENTITY_SLIME_JUMP_SMALL%sENTITY_TADPOLE_FLOP%sENTITY_WITHER_SHOOT%sBLOCK_BAMBOO_WOOD_PRESSURE_PLATE_CLICK_OFF%sBLOCK_NETHER_GOLD_ORE_FALL%sENTITY_ALLAY_ITEM_GIVEN%sBLOCK_MUDDY_MANGROVE_ROOTS_BREAK%sENTITY_EVOKER_PREPARE_SUMMON%sBLOCK_CANDLE_STEP%sENTITY_DRAGON_FIREBALL_EXPLODE%sENTITY_HOGLIN_STEP%sMUSIC_DISC_OTHERSIDE%sENTITY_GLOW_ITEM_FRAME_ADD_ITEM%sENTITY_MULE_HURT%sENTITY_WANDERING_TRADER_HURT%sMUSIC_OVERWORLD_DEEP_DARK%sENTITY_HOGLIN_DEATH%sITEM_BUCKET_FILL_TADPOLE%sENTITY_GUARDIAN_HURT_LAND%sBLOCK_STONE_PLACE%sENTITY_DROWNED_DEATH%sENTITY_WARDEN_NEARBY_CLOSE%sBLOCK_BAMBOO_WOOD_HANGING_SIGN_HIT%sENTITY_SKELETON_HORSE_AMBIENT_WATER%sENTITY_SPIDER_HURT%sBLOCK_NOTE_BLOCK_IMITATE_PIGLIN%sITEM_BUCKET_EMPTY%sAMBIENT_BASALT_DELTAS_LOOP%sBLOCK_BIG_DRIPLEAF_TILT_DOWN%sENTITY_AXOLOTL_IDLE_AIR%sBLOCK_HONEY_BLOCK_STEP%sBLOCK_AMETHYST_CLUSTER_STEP%sBLOCK_FUNGUS_HIT%sBLOCK_TUFF_PLACE%sBLOCK_TUFF_STEP%sENTITY_GOAT_HORN_BREAK%sBLOCK_GILDED_BLACKSTONE_FALL%sENTITY_SHEEP_DEATH%sENTITY_TURTLE_HURT_BABY%sBLOCK_SCULK_STEP%sBLOCK_SCULK_PLACE%sENTITY_VEX_CHARGE%sBLOCK_HANGING_ROOTS_BREAK%sBLOCK_BAMBOO_WOOD_BREAK%sBLOCK_PORTAL_AMBIENT%sENTITY_PLAYER_HURT_DROWN%sMUSIC_OVERWORLD_LUSH_CAVES%sITEM_NETHER_WART_PLANT%sAMBIENT_UNDERWATER_LOOP_ADDITIONS_ULTRA_RARE%sENTITY_RABBIT_ATTACK%sBLOCK_FIRE_EXTINGUISH%sENTITY_SKELETON_HURT%sBLOCK_GRINDSTONE_USE%sITEM_BUCKET_EMPTY_AXOLOTL%sBLOCK_NETHER_BRICKS_PLACE%sENTITY_PARROT_IMITATE_ZOMBIE%sBLOCK_MOSS_CARPET_PLACE%sENTITY_SKELETON_HORSE_SWIM%sBLOCK_STONE_BREAK%sBLOCK_AMETHYST_CLUSTER_FALL%sENTITY_PHANTOM_HURT%sENTITY_PLAYER_LEVELUP%sENTITY_DROWNED_AMBIENT_WATER%sBLOCK_ANCIENT_DEBRIS_BREAK%sBLOCK_DEEPSLATE_HIT%sENTITY_CHICKEN_AMBIENT%sENTITY_VINDICATOR_CELEBRATE%sBLOCK_POINTED_DRIPSTONE_DRIP_LAVA%sBLOCK_POLISHED_DEEPSLATE_PLACE%sENTITY_ENDERMAN_STARE%sMUSIC_OVERWORLD_DESERT%sBLOCK_SNOW_BREAK%sBLOCK_BEACON_AMBIENT%sMUSIC_NETHER_WARPED_FOREST%sBLOCK_GROWING_PLANT_CROP%sENTITY_GOAT_MILK%sBLOCK_SHULKER_BOX_CLOSE%sBLOCK_NOTE_BLOCK_BASEDRUM%sMUSIC_DISC_CAT%sENTITY_ARROW_HIT%sENTITY_EVOKER_AMBIENT%sBLOCK_CHAIN_BREAK%sENTITY_BLAZE_BURN%sENTITY_VINDICATOR_HURT%sENTITY_SQUID_HURT%sENTITY_VILLAGER_WORK_FISHERMAN%sBLOCK_FLOWERING_AZALEA_STEP%sENTITY_GOAT_HURT%sBLOCK_WEEPING_VINES_HIT%sENTITY_HOSTILE_BIG_FALL%sBLOCK_POINTED_DRIPSTONE_LAND%sMUSIC_NETHER_SOUL_SAND_VALLEY%sENTITY_VILLAGER_WORK_FARMER%sBLOCK_NOTE_BLOCK_DIDGERIDOO%sBLOCK_FENCE_GATE_OPEN%sENTITY_ZOMBIE_ATTACK_IRON_DOOR%sENTITY_PIGLIN_JEALOUS%sENTITY_WARDEN_EMERGE%sENTITY_FIREWORK_ROCKET_SHOOT%sBLOCK_HANGING_ROOTS_PLACE%sENTITY_WITCH_THROW%sITEM_CROSSBOW_LOADING_MIDDLE%sENTITY_PARROT_IMITATE_WITHER%sENTITY_SNIFFER_DIGGING_STOP%sENTITY_COD_HURT%sBLOCK_SLIME_BLOCK_PLACE%sBLOCK_BIG_DRIPLEAF_HIT%sBLOCK_SOUL_SOIL_FALL%sBLOCK_BUBBLE_COLUMN_UPWARDS_AMBIENT%sENTITY_STRIDER_STEP%sBLOCK_BIG_DRIPLEAF_TILT_UP%sBLOCK_SLIME_BLOCK_FALL%sMUSIC_OVERWORLD_GROVE%sENTITY_GUARDIAN_AMBIENT_LAND%sENTITY_WOLF_HOWL%sBLOCK_NETHER_GOLD_ORE_STEP%sENTITY_WARDEN_DIG%sITEM_HONEY_BOTTLE_DRINK%sBLOCK_NETHERITE_BLOCK_BREAK%sBLOCK_NETHERRACK_BREAK%sBLOCK_CHERRY_SAPLING_HIT%sENTITY_SILVERFISH_STEP%sBLOCK_PACKED_MUD_STEP%sBLOCK_LANTERN_FALL%sBLOCK_SCULK_CATALYST_PLACE%sENTITY_BAT_TAKEOFF%sENTITY_IRON_GOLEM_DEATH%sBLOCK_SUSPICIOUS_SAND_STEP%sBLOCK_NETHER_WART_BREAK%sBLOCK_SCULK_SENSOR_STEP%sENTITY_PARROT_IMITATE_GHAST%sBLOCK_CHISELED_BOOKSHELF_FALL%sBLOCK_STONE_HIT%sENTITY_PARROT_IMITATE_WITHER_SKELETON%sENTITY_ITEM_FRAME_BREAK%sENTITY_WARDEN_DEATH%sENTITY_WITHER_HURT%sENTITY_CAT_BEG_FOR_FOOD%sBLOCK_BUBBLE_COLUMN_BUBBLE_POP%sENTITY_PLAYER_BREATH%sENTITY_PLAYER_ATTACK_KNOCKBACK%sENTITY_ITEM_FRAME_REMOVE_ITEM%sENTITY_MOOSHROOM_MILK%sBLOCK_CHISELED_BOOKSHELF_PICKUP_ENCHANTED]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6897</id>
+	<key><![CDATA[Gets the player's locale.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6898</id>
+	<key><![CDATA[Changes a sign's text only for the specified player. This will not change the sign in the world. If a normal array is used it cannot have more than 4 elements. If a line is %s, the existing line will still be displayed. An associative array of sign data may be sent instead. This is the same as sign item meta, and can include the keys: 'signtext', 'color', 'glowing' (MC 1.17.1+), 'backtext' (MC 1.20.1+), 'backcolor' (MC 1.20.1+), and 'backglowing' (MC 1.20.1+).]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6899</id>
+	<key><![CDATA[Sets the biome at a block location. Minecraft only provides one quarter precision for three dimensional biomes, so this sets the nearest center of a 4x4x4 region. When not using a location array, the entire column at the x and z coordinates are set.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6900</id>
+	<key><![CDATA[Biome may be one of the following: BEACH, SAVANNA, SUNFLOWER_PLAINS, FROZEN_OCEAN, BIRCH_FOREST, THE_VOID, WINDSWEPT_HILLS, DEEP_LUKEWARM_OCEAN, END_HIGHLANDS, DEEP_FROZEN_OCEAN, OLD_GROWTH_SPRUCE_TAIGA, END_MIDLANDS, FLOWER_FOREST, CHERRY_GROVE, ERODED_BADLANDS, END_BARRENS, SNOWY_TAIGA, DEEP_DARK, JUNGLE, OCEAN, ICE_SPIKES, SMALL_END_ISLANDS, FROZEN_RIVER, THE_END, DARK_FOREST, COLD_OCEAN, SNOWY_PLAINS, SNOWY_SLOPES, LUSH_CAVES, WINDSWEPT_SAVANNA, DRIPSTONE_CAVES, MEADOW, STONY_SHORE, WINDSWEPT_FOREST, PLAINS, OLD_GROWTH_BIRCH_FOREST, SAVANNA_PLATEAU, SPARSE_JUNGLE, STONY_PEAKS, RIVER, JAGGED_PEAKS, MANGROVE_SWAMP, WARPED_FOREST, WOODED_BADLANDS, NETHER_WASTES, LUKEWARM_OCEAN, WINDSWEPT_GRAVELLY_HILLS, BAMBOO_JUNGLE, CUSTOM, DEEP_COLD_OCEAN, BADLANDS, OLD_GROWTH_PINE_TAIGA, MUSHROOM_FIELDS, DEEP_OCEAN, TAIGA, WOODED_HILLS, DESERT, SNOWY_BEACH, WARM_OCEAN, BASALT_DELTAS, FOREST, SWAMP, SOUL_SAND_VALLEY, FROZEN_PEAKS, GROVE, or CRIMSON_FOREST]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6901</id>
+	<key><![CDATA[Sets the display name and/or slot of the given objective. If arg 2 is not an array, it is assumed to be the displayname, otherwise arg 2 should be an array with keys 'displayname' and/or 'slot', affecting their respective properties. A %s displayname resets it to the actual name, and a %s slot removes it from all displays. Slot can be one of: BELOW_NAME, PLAYER_LIST, or SIDEBAR]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6902</id>
+	<key><![CDATA[If the displayname is too long, a LengthException will be thrown. The max length will differ based on server version, but this limit was removed in 1.20.1.Scoreboard defaults to 'main' if not given.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6903</id>
+	<key><![CDATA[Creates or updates a player's virtual world border. (MC 1.18.2+) In addition to the keys returned by pborder(), you can also specify 'seconds'. This is the time in which the border will move from the previous width to the new 'width'. If give %s instead of an array, this resets the player's visible world border to the one of the world that they're in.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6904</id>
+	<key><![CDATA[Sets the text on the side of a sign at the given location. Side can be FRONT (default) or BACK. (MC 1.20+) If the block at x,y,z isn't a sign, a RangeException is thrown. If a text line cannot fit on the sign, it'll be cut off.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6905</id>
+	<key><![CDATA[Sets the display name, color, prefix, and/or suffix of the given team. If arg 2 is not an array, it is assumed to be the displayname, otherwise arg 2 should be an array with keys 'displayname', 'color', 'prefix', and/or 'suffix', affecting their respective properties. A %s displayname resets it to the actual name, and a %s prefix or suffix removes it from all displays. Color can be one of BLACK, DARK_BLUE, DARK_GREEN, DARK_AQUA, DARK_RED, DARK_PURPLE, GOLD, GRAY, DARK_GRAY, BLUE, GREEN, AQUA, RED, LIGHT_PURPLE, YELLOW, WHITE, RANDOM, BOLD, STRIKETHROUGH, UNDERLINE, ITALIC or PLAIN_WHITE.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6906</id>
+	<key><![CDATA[If the prefix, suffix, or displayname is too long, a LengthException will be thrown. The max length will differ based on server version, but these limits were removed in 1.20.1.Scoreboard defaults to 'main' if not given.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6907</id>
+	<key><![CDATA[Possible particle types: SMOKE_NORMAL, SOUL_FIRE_FLAME, BUBBLE_COLUMN_UP, REVERSE_PORTAL, CAMPFIRE_SIGNAL_SMOKE, BLOCK_DUST, DRIPPING_DRIPSTONE_LAVA, SWEEP_ATTACK, WATER_SPLASH, LANDING_LAVA, SLIME, FALLING_LAVA, DRIPPING_HONEY, ITEM_CRACK, WARPED_SPORE, DUST_COLOR_TRANSITION, FALLING_DUST, WATER_BUBBLE, FLASH, VILLAGER_ANGRY, FALLING_DRIPSTONE_LAVA, FALLING_DRIPSTONE_WATER, HEART, END_ROD, FALLING_NECTAR, SCULK_SOUL, SPELL_INSTANT, VILLAGER_HAPPY, SQUID_INK, VIBRATION, DRIPPING_DRIPSTONE_WATER, BUBBLE_POP, COMPOSTER, NAUTILUS, SHRIEK, FALLING_SPORE_BLOSSOM, SMALL_FLAME, EXPLOSION_LARGE, TOWN_AURA, ASH, DAMAGE_INDICATOR, TOTEM, SPIT, FALLING_OBSIDIAN_TEAR, PORTAL, EGG_CRACK, WAX_OFF, SPELL_WITCH, GLOW_SQUID_INK, EXPLOSION_HUGE, SNOWFLAKE, WATER_WAKE, FIREWORKS_SPARK, DRIP_LAVA, BLOCK_CRACK, BLOCK_MARKER, ENCHANTMENT_TABLE, REDSTONE, SNOW_SHOVEL, SPELL_MOB, FALLING_HONEY, SPORE_BLOSSOM_AIR, DRAGON_BREATH, DRIPPING_OBSIDIAN_TEAR, CURRENT_DOWN, ELECTRIC_SPARK, LANDING_OBSIDIAN_TEAR, CHERRY_LEAVES, SNEEZE, WHITE_ASH, GLOW, SCULK_CHARGE_POP, LANDING_HONEY, CRIT_MAGIC, SUSPENDED, WATER_DROP, SPELL, FALLING_WATER, LAVA, WAX_ON, CRIT, CLOUD, SCRAPE, SUSPENDED_DEPTH, CAMPFIRE_COSY_SMOKE, SOUL, NOTE, SNOWBALL, SPELL_MOB_AMBIENT, SMOKE_LARGE, SONIC_BOOM, CRIMSON_SPORE, EXPLOSION_NORMAL, FLAME, MOB_APPEARANCE, DOLPHIN, DRIP_WATER, or SCULK_CHARGE. %sSome particles have more specific keys and/or special behavior, but the common keys for the particle array are "count" (usually the number of particles to be spawned), "speed" (usually the velocity of the particle), "xoffset", "yoffset", and "zoffset" (usually the ranges from center within which the particle may be offset on that axis). %sBLOCK_DUST, BLOCK_CRACK and FALLING_DUST particles can take a block type name parameter under the key "block" (default: STONE). %sITEM_CRACK particles can take an item array or name under the key "item" (default: STONE). %sREDSTONE particles take an RGB color array (each 0 - 255) or name under the key "color" (default: RED). %sDUST_COLOR_TRANSITION particles take a "tocolor" in addition "color". %sVIBRATION particles take a "destination" location array or entity UUID. %sSCULK_CHARGE particles take an "angle" in radians. (defaults to 0.0) %sSHRIEK particles take an integer "delay" in ticks before playing. (defaults to 0)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6908</id>
+	<key><![CDATA[Takes a YML encoded string, and returns an associative array, depending on the contents of the YML string. If the YML string is improperly formatted, a FormatException is thrown. If an exception occurs in the YML parsing library, a PluginInternalException is thrown. By default YML strings up to 3 * 1024 * 1024 (3 MB) code points can be parsed. This limit can be exceeded through the 'function.yml_decode.code_point_limit' runtime setting.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

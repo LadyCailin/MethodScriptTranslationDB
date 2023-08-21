@@ -126,4 +126,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-6903</id>
+	<key><![CDATA[Creates or updates a player's virtual world border. (MC 1.18.2+) In addition to the keys returned by pborder(), you can also specify 'seconds'. This is the time in which the border will move from the previous width to the new 'width'. If give %s instead of an array, this resets the player's visible world border to the one of the world that they're in.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

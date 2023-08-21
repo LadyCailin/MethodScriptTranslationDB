@@ -1,6 +1,13 @@
 <translations>
 <comment></comment>
 <translationBlock>
+	<id>ko-311</id>
+	<key><![CDATA[No]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
 	<id>ko-411</id>
 	<key><![CDATA[text, %s[%ssymbol%s]]]></key>
 	<comment></comment>
@@ -52,6 +59,13 @@
 <translationBlock>
 	<id>ko-3792</id>
 	<key><![CDATA[Sorry, there are no examples for this function! :(]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-3805</id>
+	<key><![CDATA[See Also]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
@@ -115,6 +129,20 @@
 <translationBlock>
 	<id>ko-5158</id>
 	<key><![CDATA[Docs]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6843</id>
+	<key><![CDATA[Since the vanilla Minecraft client does not support RGB color codes, these are translated to json text components by the server when passed to messaging functions. As such, these are not directly supported in tellraw functions or commands. Instead, the color must be manually specified under the 'color' key of the json text component.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6844</id>
+	<key><![CDATA[Replaces all the colorizable character codes in the string. For instance, colorize('&aText') would be equivalent to (color('a').'Text'). By default, the symbol is '&', but that can be any arbitrary string that you specify. If text is not a string, that value is simply returned. If you need to "escape" a symbol, (that is have a literal symbol followed by a letter that is a valid color) just repeat the symbol twice, for instance '&&c' would return a literal '&c' instead of a red modifier. Additionally, any RGB color can be used in the hex format '&#rrggbb' (except in tellraw).]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>

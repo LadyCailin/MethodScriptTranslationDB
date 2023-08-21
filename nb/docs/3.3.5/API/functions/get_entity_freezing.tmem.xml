@@ -119,4 +119,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-6807</id>
+	<key><![CDATA[Returns the number of ticks the entity has been freezing in powdered snow. (MC 1.17+) Counts down by 2 every tick when entity is thawing.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

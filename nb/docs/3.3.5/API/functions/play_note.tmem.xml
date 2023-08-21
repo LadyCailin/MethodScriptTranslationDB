@@ -112,4 +112,11 @@
 	<translation></translation>
 	<auto><![CDATA[Dokumenter]]></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-6895</id>
+	<key><![CDATA[Plays a note for the given player, at the given note block location. Player defaults to the current player, and location defaults to the player's location. Instrument may be one of: PIANO, BASS_DRUM, SNARE_DRUM, STICKS, BASS_GUITAR, FLUTE, BELL, GUITAR, CHIME, XYLOPHONE, IRON_XYLOPHONE, COW_BELL, DIDGERIDOO, BIT, BANJO, PLING, ZOMBIE, SKELETON, CREEPER, DRAGON, WITHER_SKELETON, PIGLIN, or CUSTOM_HEAD, and note is an associative array with 2 values, array(octave: 0, tone: 'F#') where octave is either 0, 1, or 2, and tone is one of the notes G, A, B, C, D, E, or F, optionally suffixed with a pound symbol, which denotes a sharp. (Not all notes can be sharped.)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

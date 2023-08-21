@@ -119,4 +119,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nl-6905</id>
+	<key><![CDATA[Sets the display name, color, prefix, and/or suffix of the given team. If arg 2 is not an array, it is assumed to be the displayname, otherwise arg 2 should be an array with keys 'displayname', 'color', 'prefix', and/or 'suffix', affecting their respective properties. A %s displayname resets it to the actual name, and a %s prefix or suffix removes it from all displays. Color can be one of BLACK, DARK_BLUE, DARK_GREEN, DARK_AQUA, DARK_RED, DARK_PURPLE, GOLD, GRAY, DARK_GRAY, BLUE, GREEN, AQUA, RED, LIGHT_PURPLE, YELLOW, WHITE, RANDOM, BOLD, STRIKETHROUGH, UNDERLINE, ITALIC or PLAIN_WHITE.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6906</id>
+	<key><![CDATA[If the prefix, suffix, or displayname is too long, a LengthException will be thrown. The max length will differ based on server version, but these limits were removed in 1.20.1.Scoreboard defaults to 'main' if not given.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

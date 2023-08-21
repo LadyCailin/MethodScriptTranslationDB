@@ -1149,6 +1149,13 @@
 	<auto></auto>
 </translationBlock>
 <translationBlock>
+	<id>nl-5603</id>
+	<key><![CDATA[ZOMBIE, HUSK, DROWNED]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
 	<id>nl-5638</id>
 	<key><![CDATA[anger: The piglin zombie's anger level.]]></key>
 	<comment></comment>
@@ -1473,6 +1480,153 @@
 <translationBlock>
 	<id>nl-6789</id>
 	<key><![CDATA[particle: The particle type which comprises the cloud (can be SMOKE_NORMAL, SOUL_FIRE_FLAME, BUBBLE_COLUMN_UP, REVERSE_PORTAL, CAMPFIRE_SIGNAL_SMOKE, BLOCK_DUST, DRIPPING_DRIPSTONE_LAVA, SWEEP_ATTACK, WATER_SPLASH, LANDING_LAVA, SLIME, FALLING_LAVA, DRIPPING_HONEY, ITEM_CRACK, WARPED_SPORE, DUST_COLOR_TRANSITION, FALLING_DUST, WATER_BUBBLE, FLASH, VILLAGER_ANGRY, FALLING_DRIPSTONE_LAVA, FALLING_DRIPSTONE_WATER, HEART, END_ROD, FALLING_NECTAR, SCULK_SOUL, SPELL_INSTANT, VILLAGER_HAPPY, SQUID_INK, VIBRATION, DRIPPING_DRIPSTONE_WATER, BUBBLE_POP, COMPOSTER, NAUTILUS, SHRIEK, FALLING_SPORE_BLOSSOM, SMALL_FLAME, EXPLOSION_LARGE, TOWN_AURA, ASH, DAMAGE_INDICATOR, TOTEM, LANDING_CHERRY_LEAVES, SPIT, FALLING_OBSIDIAN_TEAR, PORTAL, WAX_OFF, SPELL_WITCH, GLOW_SQUID_INK, EXPLOSION_HUGE, SNOWFLAKE, WATER_WAKE, FIREWORKS_SPARK, DRIP_LAVA, BLOCK_CRACK, BLOCK_MARKER, ENCHANTMENT_TABLE, REDSTONE, SNOW_SHOVEL, SPELL_MOB, FALLING_HONEY, SPORE_BLOSSOM_AIR, DRAGON_BREATH, DRIPPING_OBSIDIAN_TEAR, CURRENT_DOWN, ELECTRIC_SPARK, LANDING_OBSIDIAN_TEAR, SNEEZE, WHITE_ASH, GLOW, SCULK_CHARGE_POP, FALLING_CHERRY_LEAVES, LANDING_HONEY, CRIT_MAGIC, SUSPENDED, WATER_DROP, SPELL, FALLING_WATER, LAVA, WAX_ON, CRIT, CLOUD, SCRAPE, SUSPENDED_DEPTH, CAMPFIRE_COSY_SMOKE, SOUL, NOTE, SNOWBALL, SPELL_MOB_AMBIENT, DRIPPING_CHERRY_LEAVES, SMOKE_LARGE, SONIC_BOOM, CRIMSON_SPORE, EXPLOSION_NORMAL, FLAME, MOB_APPEARANCE, DOLPHIN, DRIP_WATER, or SCULK_CHARGE). Can accept a particle array for setting index data required for specific particle types. This particle array must contain a "particle" key, and supports the keys "block", "item", or "color" when applicable.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6846</id>
+	<key><![CDATA[anger: The zombified piglin's anger level.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6847</id>
+	<key><![CDATA[baby: Whether the zombified piglin is a baby.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6848</id>
+	<key><![CDATA[breakdoors: Whether the zombie villager can break doors. (MC 1.19+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6849</id>
+	<key><![CDATA[rolling: Whether the panda is rolling. (MC 1.19+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6850</id>
+	<key><![CDATA[height: The height of the interaction's hit box on the Y axis.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6851</id>
+	<key><![CDATA[breakdoors: Whether the zombie can break doors. (MC 1.19+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6852</id>
+	<key><![CDATA[lastattack, lastinteraction: An associative array containing the keys 'puuid' and 'timestamp' which is updated when a player attacks or right clicks the interaction respectively. Cannot be updated with set_entity_spec().]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6853</id>
+	<key><![CDATA[angry: Whether the zombified piglin is angry.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6854</id>
+	<key><![CDATA[onback: Whether the panda is laying on its back. (MC 1.19+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6855</id>
+	<key><![CDATA[baby: Whether the zoglin is a baby.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6856</id>
+	<key><![CDATA[despawn: Whether or not the item will despawn after a time. (modifiable in MC 1.18.2+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6857</id>
+	<key><![CDATA[interested: Whether the wolf is interested, tilting its head. (MC 1.19+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6858</id>
+	<key><![CDATA[breakdoors: Whether the zombified piglin can break doors. (MC 1.19+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6859</id>
+	<key><![CDATA[eating: Whether the panda is eating. (MC 1.19+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6860</id>
+	<key><![CDATA[ZOGLIN]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6861</id>
+	<key><![CDATA[response: Whether vanilla responses occur such as sound and arm swing when interacting with the entity.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6862</id>
+	<key><![CDATA[INTERACTION]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6863</id>
+	<key><![CDATA[sneezing: Whether the panda is sneezing. (MC 1.19+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6864</id>
+	<key><![CDATA[type: Which tree species the boat is composed of. (can be ACACIA, BAMBOO, BIRCH, CHERRY, DARK_OAK, JUNGLE, MANGROVE, OAK, or SPRUCE)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6865</id>
+	<key><![CDATA[width: The width of the interaction's hit box on the X and Z axis.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6866</id>
+	<key><![CDATA[particle: The particle type which comprises the cloud (can be SMOKE_NORMAL, SOUL_FIRE_FLAME, BUBBLE_COLUMN_UP, REVERSE_PORTAL, CAMPFIRE_SIGNAL_SMOKE, BLOCK_DUST, DRIPPING_DRIPSTONE_LAVA, SWEEP_ATTACK, WATER_SPLASH, LANDING_LAVA, SLIME, FALLING_LAVA, DRIPPING_HONEY, ITEM_CRACK, WARPED_SPORE, DUST_COLOR_TRANSITION, FALLING_DUST, WATER_BUBBLE, FLASH, VILLAGER_ANGRY, FALLING_DRIPSTONE_LAVA, FALLING_DRIPSTONE_WATER, HEART, END_ROD, FALLING_NECTAR, SCULK_SOUL, SPELL_INSTANT, VILLAGER_HAPPY, SQUID_INK, VIBRATION, DRIPPING_DRIPSTONE_WATER, BUBBLE_POP, COMPOSTER, NAUTILUS, SHRIEK, FALLING_SPORE_BLOSSOM, SMALL_FLAME, EXPLOSION_LARGE, TOWN_AURA, ASH, DAMAGE_INDICATOR, TOTEM, SPIT, FALLING_OBSIDIAN_TEAR, PORTAL, EGG_CRACK, WAX_OFF, SPELL_WITCH, GLOW_SQUID_INK, EXPLOSION_HUGE, SNOWFLAKE, WATER_WAKE, FIREWORKS_SPARK, DRIP_LAVA, BLOCK_CRACK, BLOCK_MARKER, ENCHANTMENT_TABLE, REDSTONE, SNOW_SHOVEL, SPELL_MOB, FALLING_HONEY, SPORE_BLOSSOM_AIR, DRAGON_BREATH, DRIPPING_OBSIDIAN_TEAR, CURRENT_DOWN, ELECTRIC_SPARK, LANDING_OBSIDIAN_TEAR, CHERRY_LEAVES, SNEEZE, WHITE_ASH, GLOW, SCULK_CHARGE_POP, LANDING_HONEY, CRIT_MAGIC, SUSPENDED, WATER_DROP, SPELL, FALLING_WATER, LAVA, WAX_ON, CRIT, CLOUD, SCRAPE, SUSPENDED_DEPTH, CAMPFIRE_COSY_SMOKE, SOUL, NOTE, SNOWBALL, SPELL_MOB_AMBIENT, SMOKE_LARGE, SONIC_BOOM, CRIMSON_SPORE, EXPLOSION_NORMAL, FLAME, MOB_APPEARANCE, DOLPHIN, DRIP_WATER, or SCULK_CHARGE). Can accept a particle array for setting index data required for specific particle types. This particle array must contain a "particle" key, and supports the keys "block", "item", or "color" when applicable.]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>

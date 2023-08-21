@@ -112,4 +112,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nl-6808</id>
+	<key><![CDATA[Sets how many server ticks the entity has been freezing. (MC 1.17+) Must be above zero, and will clamp to the maximum the server allows.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

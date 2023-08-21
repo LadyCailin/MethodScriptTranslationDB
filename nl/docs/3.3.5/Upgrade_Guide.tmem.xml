@@ -469,4 +469,25 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nl-6839</id>
+	<key><![CDATA[Damage cause from the /kill command was changed from VOID to KILL, and damage cause from the world border was changed from SUFFOCATION to WORLD_BORDER.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6840</id>
+	<key><![CDATA[Minecraft 1.20]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-6841</id>
+	<key><![CDATA[Signs are editable and can have text on the back side. (affects 'sign_changed' event)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

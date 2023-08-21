@@ -952,4 +952,67 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-6830</id>
+	<key><![CDATA[Spigot 1.16.5 - 1.19]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6831</id>
+	<key><![CDATA[build-256]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6832</id>
+	<key><![CDATA[[%s 24fd970]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6833</id>
+	<key><![CDATA[Updated for Spigot 1.20]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6834</id>
+	<key><![CDATA[Updated for Spigot 1.19]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6835</id>
+	<key><![CDATA[[%s 918bd12]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6836</id>
+	<key><![CDATA[Spigot 1.16.5 - 1.20]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6837</id>
+	<key><![CDATA[build-334]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6838</id>
+	<key><![CDATA[Spigot/Paper 1.16.5 - 1.20.1 (when CH is used as a plugin)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

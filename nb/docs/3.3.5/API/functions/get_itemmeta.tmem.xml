@@ -756,4 +756,165 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-6870</id>
+	<key><![CDATA[Inventory Blocks]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6871</id>
+	<key><![CDATA['''glowing''' : (boolean) Whether the sign has glowing text on the front. (MC 1.17.1+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6872</id>
+	<key><![CDATA['''backcolor''' : (string) The dye color for the text on the back. (default: 'BLACK') (MC 1.20+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6873</id>
+	<key><![CDATA['''signtext''' : (array) An array of 4 strings, one for each line of text on the front.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6874</id>
+	<key><![CDATA['''modifiers''' : (array) An array of attribute modifier arrays, each with keys: '''"attribute"''', '''"operation"''', '''"amount"''' (double), '''"uuid"''' (optional), '''"name"''' (optional), and '''"slot"''' (optional). Possible attributes: ''GENERIC_ARMOR, GENERIC_ARMOR_TOUGHNESS, GENERIC_ATTACK_DAMAGE, GENERIC_ATTACK_KNOCKBACK, GENERIC_ATTACK_SPEED, GENERIC_FLYING_SPEED, GENERIC_FOLLOW_RANGE, GENERIC_KNOCKBACK_RESISTANCE, GENERIC_LUCK, GENERIC_MAX_HEALTH, GENERIC_MOVEMENT_SPEED, HORSE_JUMP_STRENGTH, or ZOMBIE_SPAWN_REINFORCEMENTS''. Possible operations: ''ADD_NUMBER, ADD_SCALAR, or MULTIPLY_SCALAR_1''. Possible slots: ''WEAPON, OFF_HAND, BOOTS, LEGGINGS, CHESTPLATE, or HELMET''.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6875</id>
+	<key><![CDATA['''instrument''' : (string) The instrument name (can be ponder_goat_horn, sing_goat_horn, seek_goat_horn, feel_goat_horn, admire_goat_horn, call_goat_horn, yearn_goat_horn, dream_goat_horn). (MC 1.19.3+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6876</id>
+	<key><![CDATA['''variant''' : (string) The type of axolotl, one of ''BLUE, CYAN, GOLD, LUCY, or WILD''. (MC 1.17+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6877</id>
+	<key><![CDATA['''color''' : (string) The dye color for the text on the front. (default: 'BLACK')]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6878</id>
+	<key><![CDATA['''waxed''' : (boolean) Whether the sign is waxed. (MC 1.20.1+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6879</id>
+	<key><![CDATA['''flags''' : (array) Possible flags: ''HIDE_ENCHANTS, HIDE_ATTRIBUTES, HIDE_UNBREAKABLE, HIDE_DESTROYS, HIDE_PLACED_ON, HIDE_POTION_EFFECTS, HIDE_DYE, or HIDE_ARMOR_TRIM''.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6880</id>
+	<key><![CDATA['''command''' : (string) The command set for this commandblock.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6881</id>
+	<key><![CDATA['''trim''' : (array) An array that contains the keys '''"pattern"''' and '''"material"'''. Pattern can be COAST, DUNE, EYE, HOST, RAISER, RIB, SENTRY, SHAPER, SILENCE, SNOUT, SPIRE, TIDE, VEX, WARD, WAYFINDER, or WILD. Material can be AMETHYST, COPPER, DIAMOND, EMERALD, GOLD, IRON, LAPIS, NETHERITE, QUARTZ, or REDSTONE. (MC 1.20+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6882</id>
+	<key><![CDATA['''firework''' : (array) An array with the keys '''"strength"''' (int), how long in seconds the rocket will last, and '''"effects"''', an array of effect arrays (see Firework Charges).]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6883</id>
+	<key><![CDATA['''backtext''' : (array) An array of 4 strings, one for each line of text on the back. (MC 1.20+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6884</id>
+	<key><![CDATA['''patterns''' : (array) See Banner "patterns".]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6885</id>
+	<key><![CDATA['''backglowing''' : (boolean) Whether the sign has glowing text on the back. (MC 1.20+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6886</id>
+	<key><![CDATA[CommandBlocks]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6887</id>
+	<key><![CDATA['''items''' : (array) An array of item arrays that exist in this bundle. (MC 1.17+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6888</id>
+	<key><![CDATA[Armor Trim]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6889</id>
+	<key><![CDATA['''inventory''' : (array) An array of item arrays, where each index is an inventory slot. (exceptions exist for furnaces and brewing stands)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6890</id>
+	<key><![CDATA['''customname''' : (string) The name of this commandblock. (default: '@')]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6891</id>
+	<key><![CDATA[All Damageable Items]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-6892</id>
+	<key><![CDATA[Signs]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

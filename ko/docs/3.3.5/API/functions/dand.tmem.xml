@@ -112,4 +112,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-6845</id>
+	<key><![CDATA[Returns the first falsey value. The arguments to this function are lazily evaluated, so if the first value evaluates to falsey, the rest of the arguments will not be evaluated. If none of the values are falsey, the last value is returned. Usage of the operator is preferred: &&&]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

@@ -119,4 +119,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-6894</id>
+	<key><![CDATA[Returns an associative array for the player's virtual world border. (MC 1.18.2+) The keys are 'width', 'center', 'warningtime', and 'warningdistance'. Returns %s if the player is using the existing border for the world that they're in.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
