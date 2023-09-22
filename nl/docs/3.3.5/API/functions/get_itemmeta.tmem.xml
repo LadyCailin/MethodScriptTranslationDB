@@ -910,4 +910,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nl-6913</id>
+	<key><![CDATA['''modifiers''' : (array) An array of attribute modifier arrays, each with keys: '''"attribute"''', '''"operation"''', '''"amount"''' (double), '''"uuid"''' (optional), '''"name"''' (optional), and '''"slot"''' (optional). Possible attributes: ''GENERIC_ARMOR, GENERIC_ARMOR_TOUGHNESS, GENERIC_ATTACK_DAMAGE, GENERIC_ATTACK_KNOCKBACK, GENERIC_ATTACK_SPEED, GENERIC_FLYING_SPEED, GENERIC_FOLLOW_RANGE, GENERIC_KNOCKBACK_RESISTANCE, GENERIC_LUCK, GENERIC_MAX_HEALTH, GENERIC_MOVEMENT_SPEED, HORSE_JUMP_STRENGTH, MAX_ABSORPTION, or ZOMBIE_SPAWN_REINFORCEMENTS''. Possible operations: ''ADD_NUMBER, ADD_SCALAR, or MULTIPLY_SCALAR_1''. Possible slots: ''WEAPON, OFF_HAND, BOOTS, LEGGINGS, CHESTPLATE, or HELMET''.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

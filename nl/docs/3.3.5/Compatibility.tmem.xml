@@ -1008,4 +1008,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nl-6911</id>
+	<key><![CDATA[Spigot/Paper 1.16.5 - 1.20.2 (when CH is used as a plugin)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
