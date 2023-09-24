@@ -126,4 +126,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-6915</id>
+	<key><![CDATA[Available attributes: GENERIC_ARMOR, GENERIC_ARMOR_TOUGHNESS, GENERIC_ATTACK_DAMAGE, GENERIC_ATTACK_KNOCKBACK, GENERIC_ATTACK_SPEED, GENERIC_FLYING_SPEED, GENERIC_FOLLOW_RANGE, GENERIC_KNOCKBACK_RESISTANCE, GENERIC_LUCK, GENERIC_MAX_ABSORPTION, GENERIC_MAX_HEALTH, GENERIC_MOVEMENT_SPEED, HORSE_JUMP_STRENGTH, and ZOMBIE_SPAWN_REINFORCEMENTS]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
