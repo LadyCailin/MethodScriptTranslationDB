@@ -3339,4 +3339,25 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-6917</id>
+	<key><![CDATA[This event is fired after a player changes worlds, so it is not cancellable. To prevent a player from changing worlds, consider cancelling or modifying player_teleport and player_spawn events.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6918</id>
+	<key><![CDATA[Fired when a player is teleported for any reason, except when respawning.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6919</id>
+	<key><![CDATA[player%sfrom%s: The location the player is teleporting from%sto%s: The location the player is teleporting to%stype%s: the type of teleport cause, one of COMMAND, END_PORTAL, ENDER_PEARL, NETHER_PORTAL, PLUGIN, SPECTATE, END_GATEWAY, CHORUS_FRUIT, DISMOUNT, EXIT_BED, UNKNOWN]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
