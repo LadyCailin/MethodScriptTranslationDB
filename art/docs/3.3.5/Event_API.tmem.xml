@@ -3360,4 +3360,368 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-6921</id>
+	<key><![CDATA[command%s: The entire command the player ran%sprefix%s: Just the first part of the command, i.e. '/cmd' in '/cmd blah blah']]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6922</id>
+	<key><![CDATA[Fires when a player interacts with a bed.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6923</id>
+	<key><![CDATA[Fires when a player is finishes eating/drinking an item. Cancelling the event will cause any effects to not be applied and the item to not be taken from the player.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6924</id>
+	<key><![CDATA[location%s: The location of the bed%splayer%s: The player interacting with the bed%sresult%s: The outcome of this attempt to enter bed. Can be one of NOT_POSSIBLE_HERE, NOT_POSSIBLE_NOW, NOT_SAFE, OK, OTHER_PROBLEM, TOO_FAR_AWAY, or OBSTRUCTED]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6925</id>
+	<key><![CDATA[Fires when a player steps on any block that is modifiable when stepped or stomped on. These blocks include pressure plates, redstone ore, farmland, tripwire, turtle eggs, shriekers, big dripleaves, etc.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6926</id>
+	<key><![CDATA[sprinting%s: %s&lt;[[%s|Boolean Match]]&gt; Whether or not the player is now sprinting.%sworld%s: %s&lt;[[%s|Macro]]&gt; The world the player is in.%splayer%s: %s&lt;[[%s|Player Match]]&gt; The player who changed their sprinting state.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6927</id>
+	<key><![CDATA[from%s: %s&lt;[[%s|Location Match]]&gt; The location where the player is coming from%sto%s: %s&lt;[[%s|Location Match]]&gt; The location the player is teleporting to. Returns %s when using nether portal and "allow-nether" in server.properties is set to false or when using end portal and "allow-end" in bukkit.yml is set to false.%stype%s: %s&lt;[[%s|Enum Match]]&gt; The type of portal occurring, either NETHER_PORTAL or END_PORTAL%splayer%s: %s&lt;[[%s|Player Match]]&gt; The player that entered the portal]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6928</id>
+	<key><![CDATA[Fires when a player is teleported for any reason, except when respawning.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6929</id>
+	<key><![CDATA[player%s: The player that edited the book%sslot%s: The inventory slot number where the book is%soldbook%s: The book before the editing (an array with keys title, author and pages)%snewbook%s: The book after the editing (an array with keys title, author and pages)%ssigning%s: Whether or not the book is being signed]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6930</id>
+	<key><![CDATA[message%s: The chat message to be sent%srecipients%s: An array of players that will receive the chat message%sformat%s: The "printf" format string, by default "&lt;%1$s> %2$s". The first parameter is the player's display name, and the second one is the message.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6931</id>
+	<key><![CDATA[Fires when any player sends a chat message. The event handler is run on the async thread, and not the main server thread, which can lead to undefined results if your code accesses non-threadsafe methods, hence why this feature is undocumented. If this event is cancelled, player_chat binds will not fire.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6932</id>
+	<key><![CDATA[Fires when a player changes worlds, so it is not cancellable. To prevent a player from changing worlds, consider cancelling or modifying player_teleport and player_spawn events.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6933</id>
+	<key><![CDATA[message%srecipients%s: Players in this array that are not online are ignored%sformat%s: Clients that are configured to only see secure chat will not see modified messages.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6934</id>
+	<key><![CDATA[Fires when a player clicks done after modifying a book and quill or signs a book.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6935</id>
+	<key><![CDATA[player%sworld%sfrom%s: The location the player moved from%sto%s: The location the player moved to]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6936</id>
+	<key><![CDATA[Fires when a player moves a certain distance, defined by the threshold prefilter, which defaults to 1 meter. Prefilters are encouraged if you have a lot of players.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6937</id>
+	<key><![CDATA[player%s: The player who changed their sneaking state%ssneaking%s: Whether or not the player is now sneaking%slocation%s: Where the player is]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6938</id>
+	<key><![CDATA[Fires when a player dies.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6939</id>
+	<key><![CDATA[Fires when a player toggles their flying state, typically by double tapping their jump key.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6940</id>
+	<key><![CDATA[player%s: The player that entered the portal%sfrom%s: The location the player is coming from%sto%s: The location the player is teleporting to. Returns %s when using nether portal and "allow-nether" in server.properties is set to false or when using end portal and "allow-end" in bukkit.yml is set to false.%stype%s: the type of portal occurring%screationallowed%s: If a new portal can be created.%screationradius%s: Gets the maximum radius from the given location to create a portal.%ssearchradius%s: Gets the search radius for finding an available portal.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6941</id>
+	<key><![CDATA[Fires when a player's food level changes. Cancelling the event will cause the change to not be applied.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6942</id>
+	<key><![CDATA[location%s: %s&lt;[[%s|Location Match]]&gt; The location of the block%splayer%s: %s&lt;[[%s|Player Match]]&gt; The player interacting with the block]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6943</id>
+	<key><![CDATA[Fires when a player changes their sprinting state.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6944</id>
+	<key><![CDATA[sneaking%s: %s&lt;[[%s|Boolean Match]]&gt; Whether or not the player is now sneaking%sworld%s: %s&lt;[[%s|Macro]]&gt; The world of the player%splayer%s: %s&lt;[[%s|Player Match]]&gt; The player who changed their sneaking state]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6945</id>
+	<key><![CDATA[Fires when a player's experience changes naturally.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6946</id>
+	<key><![CDATA[itemname%s: %s&lt;[[%s|Material Match]]&gt; The item being consumed%splayer%s: %s&lt;[[%s|Player Match]]&gt; The player consuming the item]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6947</id>
+	<key><![CDATA[player%s: %s&lt;[[%s|Player Match]]&gt; The player that is connecting]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6948</id>
+	<key><![CDATA[Fires when a player's client responds to a request to download and load a resource pack. Two of these events may be fired for each request: first when the client accepts the pack, and later when the client successfully loads (or fails to download) the pack.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6949</id>
+	<key><![CDATA[Fires when a player disconnects.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6950</id>
+	<key><![CDATA[Fires when a player connects to the server and is about to join. This event cannot be cancelled. Instead, you can deny them by setting 'result' to KICK_BANNED, KICK_WHITELIST, KICK_OTHER, or KICK_FULL. The default for 'result' is ALLOWED. When setting 'result', you can specify the kick message by modifying 'kickmsg'.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6951</id>
+	<key><![CDATA[message%s: The message to be sent%sformat%srecipients%s: An array of players that will receive the chat message]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6952</id>
+	<key><![CDATA[player%s: The player joining%sworld%sjoin_message%s: The message that displays in chat%sfirst_login%s: True if this is the first time the player has logged in.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6953</id>
+	<key><![CDATA[reason%s: %s&lt;[[%s|Macro]]&gt; The message shown to the player getting kicked%splayer%s: %s&lt;[[%s|Player Match]]&gt; The kicked player]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6954</id>
+	<key><![CDATA[location%s: The location of the bed%splayer%s: The player leaving the bed]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6955</id>
+	<key><![CDATA[player%s: The player consuming the item%sitem%s: The item being consumed]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6956</id>
+	<key><![CDATA[Fires when a player runs a command. This fires before CommandHelper aliases.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6957</id>
+	<key><![CDATA[player%s: The player that is connecting%suuid%s: The player's unique id%skickmsg%s: The kick message the player will see if kicked%sip%s: the player's IP address%shostname%s: The hostname used to reach the server%sresult%s: the default response to their logging in]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6958</id>
+	<key><![CDATA[signing%s: %s&lt;[[%s|Boolean Match]]&gt; Whether or not the book is being signed%splayer%s: %s&lt;[[%s|Player Match]]&gt; The player that edited the book]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6959</id>
+	<key><![CDATA[Fires when a player respawns. The player may not exist in the player list during this event.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6960</id>
+	<key><![CDATA[player%s: The player who changed their sprinting state%ssprinting%s: Whether or not the player is now sprinting%slocation%s: Where the player is]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6961</id>
+	<key><![CDATA[Fires when a player has finished login and is now joining the server and world. Cancelling the event does not prevent them from joining. See the player_login event or pkick().]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6962</id>
+	<key><![CDATA[Fires when a player is kicked from the game.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6963</id>
+	<key><![CDATA[Fires when a player changes their sneaking state.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6964</id>
+	<key><![CDATA[prefix%s: %s&lt;[[%s|String Match]]&gt; Just the first part of the command%scommand%s: %s&lt;[[%s|String Match]]&gt; The entire command string%splayer%s: %s&lt;[[%s|Player Match]]&gt; The player running the command]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6965</id>
+	<key><![CDATA[Fires when a player left or right clicks. Note that this event may fire for the main hand, off hand, or twice, one for each hand, depending on the item priority and what is clicked. If you don't want multiple events, you can prefilter on hand. If you want to remove the item that is being used, you must also cancel the event.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6966</id>
+	<key><![CDATA[world%s: %s&lt;[[%s|World Match]]&gt; The world the player is joining into%sjoin_message%s: %s&lt;[[%s|Regex]]&gt; The join message that displays in chat%splayer%s: %s&lt;[[%s|Player Match]]&gt; The player joining]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6967</id>
+	<key><![CDATA[join_message%s: Setting to %s will prevent any message from displaying in chat]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6968</id>
+	<key><![CDATA[result%s: %s&lt;[[%s|Enum Match]]&gt; The outcome of the attempt to enter this bed. Can be one of NOT_POSSIBLE_HERE, NOT_POSSIBLE_NOW, NOT_SAFE, OK, OTHER_PROBLEM, TOO_FAR_AWAY, or OBSTRUCTED%slocation%s: %s&lt;[[%s|Location Match]]&gt; The location of the bed%splayer%s: %s&lt;[[%s|Player Match]]&gt; The player interacting with the bed]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6969</id>
+	<key><![CDATA[Fires when any player sends a chat message.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6970</id>
+	<key><![CDATA[Fires when a player travels after entering a portal.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6971</id>
+	<key><![CDATA[threshold%s: %s&lt;custom prefilter&gt; The minimum distance the player must have travelled before the event will be triggered. This is based on the 3D distance in whole meters.%sfrom%s: %s&lt;[[%s|Location Match]]&gt; The location the player moved from.%sworld%s: %s&lt;[[%s|World Match]]&gt; The world the event is happening in. This is just based on the location of the from event, which can be filtered on instead.%sto%s: %s&lt;[[%s|Location Match]]&gt; The location the player moved to.%splayer%s: %s&lt;[[%s|Player Match]]&gt; The player that moved. Switching worlds does not trigger this event.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6972</id>
+	<key><![CDATA[player%s: The player that is respawning%slocation%s: The location they are going to respawn at%sbed_spawn%s: If the respawn location is the player's bedanchor_spawn]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

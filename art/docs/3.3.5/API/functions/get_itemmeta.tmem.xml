@@ -938,4 +938,95 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-6973</id>
+	<key><![CDATA[Decorated Pots]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6974</id>
+	<key><![CDATA[The "CanPlaceOn" tag for blocks and "CanDestroy" tag for tools are not yet supported.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6975</id>
+	<key><![CDATA[The entity's custom name is derived from the item '''"display"''' string. All other tropical fish NBT is not supported.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6976</id>
+	<key><![CDATA['''tags''' : (array) An associative array of custom tags used by plugins. A tag's key is namespaced (e.g. "commandhelper:mytag") and the value is an associative array containing the '''"type"''' and '''"value"''' of the tag. Possible types: ''BYTE, BYTE_ARRAY, DOUBLE, FLOAT, INTEGER, INTEGER_ARRAY, LONG, LONG_ARRAY, SHORT, STRING, TAG_CONTAINER, or TAG_CONTAINER_ARRAY''.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6977</id>
+	<key><![CDATA[Spawn Eggs]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6978</id>
+	<key><![CDATA[Some tags not yet supported.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6979</id>
+	<key><![CDATA[The entity's custom name is derived from the item '''"display"''' string. All other axolotl NBT is not supported.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6980</id>
+	<key><![CDATA['''lore''' : (array) An array of strings that is displayed when hovering the item. As lines are plain text, they do not yet support some advanced text components.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6981</id>
+	<key><![CDATA[The "generation" tag is not yet supported. As pages are plain text, they do not yet support some advanced text components.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6982</id>
+	<key><![CDATA[Below are the available fields in the item meta array. Fields can be %s when the item meta doesn't have that value. Some Minecraft NBT is not yet supported in item meta, and should be documented below.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6983</id>
+	<key><![CDATA[Not yet supported due to an upstream bug.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6984</id>
+	<key><![CDATA[The entity's custom name is derived from the item '''"display"''' string. Additional NBT for the entity spawned is not supported.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6985</id>
+	<key><![CDATA[NBT for spawn potentials other than entity type is not supported.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
