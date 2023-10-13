@@ -10262,4 +10262,53 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-6986</id>
+	<key><![CDATA[Returns the md5 hash of the specified string or byte array. The md5 hash is no longer considered secure, so you should not use it for storage of sensitive data, however for general hashing, it is a quick and easy solution. md5 is a one way hashing algorithm. This function is aware of and compatible with secure_string.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6987</id>
+	<key><![CDATA[Returns the sha1 hash of the specified string or byte array. Note that sha1 is considered no more secure than md5, and should not be used in a security context. sha-256 should be used instead for storing sensitive data. It is a one way hashing algorithm. This function is aware of and compatible with secure_string.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6988</id>
+	<key><![CDATA[Returns the sha256 HMAC of the specified value using the provided key. If the key or value is not a byte array, it will be converted to a byte array through its UTF-8 string representation. This function is aware of and compatible with secure_string.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6989</id>
+	<key><![CDATA[Returns the sha512 hash of the specified string or byte array. Note that sha512 is considered more secure than sha1 and md5 (and sha256, because it takes longer to calculate), and is typically used when storing sensitive data. It is a one way hashing algorithm. This function is aware of and compatible with secure_string.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6990</id>
+	<key><![CDATA[Returns the sha256 hash of the specified string or byte array. Note that sha256 is considered more secure than sha1 and md5, and is typically used when storing sensitive data. It is a one way hashing algorithm. This function is aware of and compatible with secure_string.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6991</id>
+	<key><![CDATA[Returns the md5 HMAC of the specified value using the provided key. If the key or value is not a byte array, it will be converted to a byte array through its UTF-8 string representation. This function is aware of and compatible with secure_string.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-6992</id>
+	<key><![CDATA[Returns the sha1 HMAC of the specified value using the provided key. If the key or value is not a byte array, it will be converted to a byte array through its UTF-8 string representation. This function is aware of and compatible with secure_string.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

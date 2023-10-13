@@ -133,4 +133,11 @@
 	<translation></translation>
 	<auto><![CDATA[Døcs]]></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-6988</id>
+	<key><![CDATA[Returns the sha256 HMAC of the specified value using the provided key. If the key or value is not a byte array, it will be converted to a byte array through its UTF-8 string representation. This function is aware of and compatible with secure_string.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

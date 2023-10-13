@@ -140,4 +140,11 @@
 	<translation></translation>
 	<auto><![CDATA[Dokumenter]]></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-6986</id>
+	<key><![CDATA[Returns the md5 hash of the specified string or byte array. The md5 hash is no longer considered secure, so you should not use it for storage of sensitive data, however for general hashing, it is a quick and easy solution. md5 is a one way hashing algorithm. This function is aware of and compatible with secure_string.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

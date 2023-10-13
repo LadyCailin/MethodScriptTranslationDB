@@ -140,4 +140,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nl-6989</id>
+	<key><![CDATA[Returns the sha512 hash of the specified string or byte array. Note that sha512 is considered more secure than sha1 and md5 (and sha256, because it takes longer to calculate), and is typically used when storing sensitive data. It is a one way hashing algorithm. This function is aware of and compatible with secure_string.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

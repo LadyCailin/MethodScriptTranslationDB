@@ -140,4 +140,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-6990</id>
+	<key><![CDATA[Returns the sha256 hash of the specified string or byte array. Note that sha256 is considered more secure than sha1 and md5, and is typically used when storing sensitive data. It is a one way hashing algorithm. This function is aware of and compatible with secure_string.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
