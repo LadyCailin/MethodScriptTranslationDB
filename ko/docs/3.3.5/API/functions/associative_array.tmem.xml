@@ -161,4 +161,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-6995</id>
+	<key><![CDATA[Works exactly like array(), except the array created will be an associative array, even if the array has been created with no elements. This is the only use case where this is necessary, vs using the normal array() function, or in the case where you assign sequential keys anyways, and the same array could have been created using array().]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

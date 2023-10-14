@@ -126,4 +126,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-7015</id>
+	<key><![CDATA[Asynchronously makes a query to an SQL server. The profile, query, and params arguments work the same as %s, so see the documentation of that function for details about those parameters. The callback should have the following signature: closure(@contents, @exception){ &lt;code&gt; }. @contents will contain the return value that query would normally return. If @exception is not %s, then an exception occurred during the query, and that exception will be passed in. If @exception is %s, then no error occurred, though @contents may still be %s if query() would otherwise have returned %s.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

@@ -105,4 +105,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-7010</id>
+	<key><![CDATA[Consumes an event, so that lower priority handlers don't even receive the event. Monitor level handlers will still receive it, however, and they can check to see if the event was consumed.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

@@ -8,20 +8,6 @@
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>art-769</id>
-	<key><![CDATA[type, %s[%sdata%s]]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto></auto>
-</translationBlock>
-<translationBlock>
-	<id>art-1226</id>
-	<key><![CDATA[resource]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto></auto>
-</translationBlock>
-<translationBlock>
 	<id>art-2878</id>
 	<key><![CDATA[Examples]]></key>
 	<comment></comment>
@@ -113,15 +99,15 @@
 	<auto><![CDATA[Døcs]]></auto>
 </translationBlock>
 <translationBlock>
-	<id>art-5751</id>
-	<key><![CDATA[Creates a new resource, which is stored in memory. Various functions require resources of certain types, which are created with this function. Barring resources that you intend on keeping around indefinitely, each call to res_create_resource should be paired with a res_free_resource, being careful to catch any exceptions and still calling res_free_resource anyways. Each resource has its own data to create the resource. Type may be one of: XML_DOCUMENT, STRING_BUILDER, or RANDOM It's worth noting that this function (and any function that relies on it) is a stopgap measure, and will eventually be deprecated and removed. For certain types of operations, it's completely unweildy to implement them in a procedural manner, so this is a temporary alternative to proper object support.]]></key>
+	<id>art-7002</id>
+	<key><![CDATA[locationArray, array]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>art-7016</id>
-	<key><![CDATA[Creates a new resource, which is stored in memory. Various functions require resources of certain types, which are created with this function. Barring resources that you intend on keeping around indefinitely, each call to res_create_resource should be paired with a res_free_resource, being careful to catch any exceptions and still calling res_free_resource anyways. Each resource has its own data to create the resource. Type may be one of: XML_DOCUMENT, STRING_BUILDER, or RANDOM It's worth noting that this function (and any function that relies on it) is a stopgap measure, and will eventually be deprecated and removed. For certain types of operations, it's completely unwieldy to implement them in a procedural manner, so this is a temporary alternative to proper object support.]]></key>
+	<id>art-7018</id>
+	<key><![CDATA[Set the sherds on the sides of a decorated pot. Takes an associative array with a key for each side: 'front', 'back', 'left', and 'right'. Each side accepts a sherd material name, or if no decoration is desired on that side, a brick. Throws a FormatException if a side or material is not valid.]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>

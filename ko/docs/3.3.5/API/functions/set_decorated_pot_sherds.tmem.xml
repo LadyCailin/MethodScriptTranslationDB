@@ -8,13 +8,6 @@
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>ko-463</id>
-	<key><![CDATA[syncObject, code]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto></auto>
-</translationBlock>
-<translationBlock>
 	<id>ko-2878</id>
 	<key><![CDATA[Examples]]></key>
 	<comment></comment>
@@ -43,36 +36,8 @@
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>ko-3795</id>
-	<key><![CDATA[Example 1]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto></auto>
-</translationBlock>
-<translationBlock>
-	<id>ko-3796</id>
-	<key><![CDATA[Given the following code:]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto></auto>
-</translationBlock>
-<translationBlock>
-	<id>ko-3797</id>
-	<key><![CDATA[Example 2]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto></auto>
-</translationBlock>
-<translationBlock>
-	<id>ko-3805</id>
-	<key><![CDATA[See Also]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto></auto>
-</translationBlock>
-<translationBlock>
-	<id>ko-3810</id>
-	<key><![CDATA[The output might be:]]></key>
+	<id>ko-3792</id>
+	<key><![CDATA[Sorry, there are no examples for this function! :(]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
@@ -80,27 +45,6 @@
 <translationBlock>
 	<id>ko-3813</id>
 	<key><![CDATA[None]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto></auto>
-</translationBlock>
-<translationBlock>
-	<id>ko-4958</id>
-	<key><![CDATA[Demonstrates two threads possibly overwriting eachother]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto></auto>
-</translationBlock>
-<translationBlock>
-	<id>ko-4959</id>
-	<key><![CDATA[Demonstrates two threads modifying the same variable without the possibility of overwriting eachother because they are synchronized.]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto></auto>
-</translationBlock>
-<translationBlock>
-	<id>ko-4960</id>
-	<key><![CDATA[Synchronizes access to the code block for all calls (from different threads) with the same syncObject argument. This means that if two threads will call synchronized('example', &lt;code&gt;), the second call will hang the thread until the passed code of the first call has finished executing. If you call this function from within this function on the same thread using the same syncObject, the code will simply be executed. For more information about synchronization, see: %s(computer_science)]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
@@ -155,15 +99,15 @@
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>ko-7021</id>
-	<key><![CDATA[Demonstrates two threads modifying the same variable without the possibility of overwriting each other because they are synchronized.]]></key>
+	<id>ko-7002</id>
+	<key><![CDATA[locationArray, array]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>ko-7022</id>
-	<key><![CDATA[Demonstrates two threads possibly overwriting each other]]></key>
+	<id>ko-7018</id>
+	<key><![CDATA[Set the sherds on the sides of a decorated pot. Takes an associative array with a key for each side: 'front', 'back', 'left', and 'right'. Each side accepts a sherd material name, or if no decoration is desired on that side, a brick. Throws a FormatException if a side or material is not valid.]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>

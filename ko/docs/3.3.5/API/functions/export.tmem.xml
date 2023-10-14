@@ -182,4 +182,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-7006</id>
+	<key><![CDATA[Stores a value in the global storage register. An arbitrary value is stored with the given key, and can be retrieved using import. If the value is already stored, it is overwritten. See %s. The reference to the value is stored, not a copy of the value, so in the case of arrays, manipulating the contents of the array will manipulate the stored value. An array may be used as a key. It is converted into a string with the array values separated by dots. export() is threadsafe.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

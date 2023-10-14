@@ -119,4 +119,11 @@
 	<translation></translation>
 	<auto><![CDATA[Døcs]]></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-6994</id>
+	<key><![CDATA[Returns true if the extension is known to MethodScript and loaded. Like function_exists(), this function is resolved at compile time.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

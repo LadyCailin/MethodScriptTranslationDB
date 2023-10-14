@@ -154,4 +154,18 @@
 	<translation></translation>
 	<auto><![CDATA[Dokumenter]]></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-7021</id>
+	<key><![CDATA[Demonstrates two threads modifying the same variable without the possibility of overwriting each other because they are synchronized.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7022</id>
+	<key><![CDATA[Demonstrates two threads possibly overwriting each other]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

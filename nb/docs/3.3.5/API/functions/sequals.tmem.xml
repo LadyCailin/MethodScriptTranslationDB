@@ -182,4 +182,11 @@
 	<translation></translation>
 	<auto><![CDATA[Dokumenter]]></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-7017</id>
+	<key><![CDATA[Uses a strict equals check, which determines if two values are not only equal, but also the same type. So, while equals('1', 1) returns true, sequals('1', 1) returns false, because the first one is a string, and the second one is an int. More often than not, you want to use plain equals(). In addition, type juggling is explicitly not performed on strings. Thus '2' !]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

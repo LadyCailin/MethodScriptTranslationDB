@@ -48944,4 +48944,214 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-6993</id>
+	<key><![CDATA[Creates a new resource, which is stored in memory. Various functions require resources of certain types, which are created with this function. Barring resources that you intend on keeping around indefinitely, each call to res_create_resource should be paired with a res_free_resource, being careful to catch any exceptions and still calling res_free_resource anyways. Each resource has its own data to create the resource. Type may be one of: XML_DOCUMENT, STRING_BUILDER, or RANDOM It&apos;s worth noting that this function (and any function that relies on it) is a stopgap measure, and will eventually be deprecated and removed. For certain types of operations, it&apos;s completely unwieldy to implement them in a procedural manner, so this is a temporary alternative to proper object support.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6994</id>
+	<key><![CDATA[Returns true if the extension is known to MethodScript and loaded. Like function_exists(), this function is resolved at compile time.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6995</id>
+	<key><![CDATA[Works exactly like array(), except the array created will be an associative array, even if the array has been created with no elements. This is the only use case where this is necessary, vs using the normal array() function, or in the case where you assign sequential keys anyways, and the same array could have been created using array().]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6996</id>
+	<key><![CDATA[Returns whether or not this event has been consumed. Usually only useful for Monitor level handlers, it could also be used for highly robust code, as an equal priority handler could have consumed the event, but this handler would still receive it.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6997</id>
+	<key><![CDATA[Consumes an event, so that lower priority handlers don&apos;t even receive the event. Monitor level handlers will still receive it, however, and they can check to see if the event was consumed.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6998</id>
+	<key><![CDATA[Writes the text to the system&apos;s std out, but does not automatically add a newline at the end. Unlike console(), this does not use anything else to format the output, though in many cases they will behave the same. Unlike other print methods, colors and other formatting characters WILL &quot;bleed&quot; through, so print_out(color(RED) . &apos;This is red&apos;) will also cause the next line to also be red, so if you need to print multiple lines out, you should manually reset the color with print_out(color(RESET)), or use sys_out..]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-6999</id>
+	<key><![CDATA[Asynchronously makes a query to an SQL server. The profile, query, and params arguments work the same as %s, so see the documentation of that function for details about those parameters. The callback should have the following signature: closure(@contents, @exception){ &amp;lt;code&amp;gt; }. @contents will contain the return value that query would normally return. If @exception is not %s, then an exception occurred during the query, and that exception will be passed in. If @exception is %s, then no error occurred, though @contents may still be %s if query() would otherwise have returned %s.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7000</id>
+	<key><![CDATA[Writes the text to the system&apos;s std err, but does not automatically add a newline at the end. Unlike console(), this does not use anything else to format the output, though in many cases they will behave the same. Unlike other print methods, colors and other formatting characters WILL &quot;bleed&quot; through, so print_err(color(RED) . &apos;This is red&apos;) will also cause the next line to also be red, so if you need to print multiple lines out, you should manually reset the color with print_out(color(RESET)), or use sys_err.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7001</id>
+	<key><![CDATA[Provides methods for viewing data about both CommandHelper and the other plugins in your server. Though not meant to be called by normal scripts, these methods are available everywhere other methods are available. Note that for some of these functions to even work, play-dirty mode must set to on. These are most useful in conjunction with interpreter mode.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7002</id>
+	<key><![CDATA[locationArray, array]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7003</id>
+	<key><![CDATA[Set the sherds on the sides of a decorated pot. Takes an associative array with a key for each side: &apos;front&apos;, &apos;back&apos;, &apos;left&apos;, and &apos;right&apos;. Each side accepts a sherd material name, or if no decoration is desired on that side, a brick. Throws a FormatException if a side or material is not valid.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7004</id>
+	<key><![CDATA[Returns an associative array of sherds for each side of a decorated pot. The keys for each side are &apos;front&apos;, &apos;back&apos;, &apos;left&apos;, and &apos;right&apos;. The values are one of any sherd materials or a brick if there&apos;s no decoration on that side.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7005</id>
+	<key><![CDATA[Asynchronously reads in a file. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7006</id>
+	<key><![CDATA[Stores a value in the global storage register. An arbitrary value is stored with the given key, and can be retrieved using import. If the value is already stored, it is overwritten. See %s. The reference to the value is stored, not a copy of the value, so in the case of arrays, manipulating the contents of the array will manipulate the stored value. An array may be used as a key. It is converted into a string with the array values separated by dots. export() is threadsafe.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7007</id>
+	<key><![CDATA[Uses a strict equals check, which determines if two values are not only equal, but also the same type. So, while equals(&apos;1&apos;, 1) returns true, sequals(&apos;1&apos;, 1) returns false, because the first one is a string, and the second one is an int. More often than not, you want to use plain equals(). In addition, type juggling is explicitly not performed on strings. Thus &apos;2&apos;]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7008</id>
+	<key><![CDATA[The complexity of this sort algorithm is guaranteed to be no worse than n log n, as it uses merge sort. The array is sorted in place, a new array is not explicitly created, so if you sort an array that is passed in as a variable, the contents of that variable will be sorted, even if you don't re-assign the returned array back to the variable. If you really need the old array, you should create a copy of the array first, like so: assign(@sorted, array_sort(@array[])). The sort type may be one of the following: REGULAR, NUMERIC, STRING or STRING_IC, or it may be a closure, if the sort should follow custom rules (explained below). A regular sort sorts the elements without changing types first. A numeric sort always converts numeric values to numbers first (so 001 becomes 1). A string sort compares values as strings, and a string_ic sort is the same as a string sort, but the comparison is case-insensitive. If the array contains array values, a CastException is thrown; inner arrays cannot be sorted against each other. If the array is associative, a warning will be raised if the General logging channel is set to verbose, because the array's keys will all be lost in the process. To a%s this warning, and to be more explicit, you can use array_normalize() to normalize the array first. Note that the reason this function is an in place sort instead of explicitly cloning the array is because in most cases, you may not need to actually clone the array, an expensive operation. Due to this, it has slightly different behavior than array_normalize, which could have also been implemented in place.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7009</id>
+	<key><![CDATA[Asynchronously reads in a file.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7010</id>
+	<key><![CDATA[Consumes an event, so that lower priority handlers don't even receive the event. Monitor level handlers will still receive it, however, and they can check to see if the event was consumed.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7011</id>
+	<key><![CDATA[Returns the smart comment on the currently running alias. The array returned will contain the comment body in the 'body' element, and the annotations in the 'annotations' element as an associative array. Each key in the annotation will contain an at symbol, so for instance '@annotation' and the value is an array of all occurrences.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7012</id>
+	<key><![CDATA[Returns an associative array of sherds for each side of a decorated pot. The keys for each side are 'front', 'back', 'left', and 'right'. The values are one of any sherd materials or a brick if there's no decoration on that side.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7013</id>
+	<key><![CDATA[Writes the text to the system's std err, but does not automatically add a newline at the end. Unlike console(), this does not use anything else to format the output, though in many cases they will behave the same. Unlike other print methods, colors and other formatting characters WILL "bleed" through, so print_err(color(RED) . 'This is red') will also cause the next line to also be red, so if you need to print multiple lines out, you should manually reset the color with print_out(color(RESET)), or use sys_err.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7014</id>
+	<key><![CDATA[Writes the text to the system's std out, but does not automatically add a newline at the end. Unlike console(), this does not use anything else to format the output, though in many cases they will behave the same. Unlike other print methods, colors and other formatting characters WILL "bleed" through, so print_out(color(RED) . 'This is red') will also cause the next line to also be red, so if you need to print multiple lines out, you should manually reset the color with print_out(color(RESET)), or use sys_out..]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7015</id>
+	<key><![CDATA[Asynchronously makes a query to an SQL server. The profile, query, and params arguments work the same as %s, so see the documentation of that function for details about those parameters. The callback should have the following signature: closure(@contents, @exception){ &lt;code&gt; }. @contents will contain the return value that query would normally return. If @exception is not %s, then an exception occurred during the query, and that exception will be passed in. If @exception is %s, then no error occurred, though @contents may still be %s if query() would otherwise have returned %s.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7016</id>
+	<key><![CDATA[Creates a new resource, which is stored in memory. Various functions require resources of certain types, which are created with this function. Barring resources that you intend on keeping around indefinitely, each call to res_create_resource should be paired with a res_free_resource, being careful to catch any exceptions and still calling res_free_resource anyways. Each resource has its own data to create the resource. Type may be one of: XML_DOCUMENT, STRING_BUILDER, or RANDOM It's worth noting that this function (and any function that relies on it) is a stopgap measure, and will eventually be deprecated and removed. For certain types of operations, it's completely unwieldy to implement them in a procedural manner, so this is a temporary alternative to proper object support.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7017</id>
+	<key><![CDATA[Uses a strict equals check, which determines if two values are not only equal, but also the same type. So, while equals('1', 1) returns true, sequals('1', 1) returns false, because the first one is a string, and the second one is an int. More often than not, you want to use plain equals(). In addition, type juggling is explicitly not performed on strings. Thus '2' !]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7018</id>
+	<key><![CDATA[Set the sherds on the sides of a decorated pot. Takes an associative array with a key for each side: 'front', 'back', 'left', and 'right'. Each side accepts a sherd material name, or if no decoration is desired on that side, a brick. Throws a FormatException if a side or material is not valid.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7019</id>
+	<key><![CDATA[If %s is returned, the default handling will occur. If false is returned, it will be "escalated" which in the current implementation is the same as returning %s (this will be used in the future). If true is returned, then default action will not occur, as it is assumed you have handled it. Only one exception handler can be registered at this time. If code inside the closure generates it's own exception, this will be handled by displaying both exceptions. To prevent this, you could put a try() block around the whole code block, but it is highly recommended you do not suppress this. It is possible to completely suppress all runtime exceptions using this method, but it is highly recommended that you still have a generic logging mechanism, perhaps to console, so you don't "lose" your exceptions, and fail to realize anything is wrong.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7020</id>
+	<key><![CDATA[In addition, slices may be used to indicate ranges of integers that should trigger the specified case. Slices embedded in an array are fine as well. Switch statements also support brace/case/default syntax, as in most languages, although unlike most languages, fallthrough isn't supported. Breaking with break() isn't required, but recommended. A number greater than 1 may be sent to break, and breaking out of the switch will consume a "break counter" and the break will continue up the chain. If you do use break(), the return value of switch is ignored. See the examples for usage of brace/case/default syntax, which is highly recommended.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7021</id>
+	<key><![CDATA[Demonstrates two threads modifying the same variable without the possibility of overwriting each other because they are synchronized.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7022</id>
+	<key><![CDATA[Demonstrates two threads possibly overwriting each other]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

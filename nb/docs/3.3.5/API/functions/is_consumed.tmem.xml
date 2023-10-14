@@ -105,4 +105,11 @@
 	<translation></translation>
 	<auto><![CDATA[Dokumenter]]></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-6996</id>
+	<key><![CDATA[Returns whether or not this event has been consumed. Usually only useful for Monitor level handlers, it could also be used for highly robust code, as an equal priority handler could have consumed the event, but this handler would still receive it.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
