@@ -1694,4 +1694,88 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-7024</id>
+	<key><![CDATA[shadow: Whether the text has a shadow. (default: false) Not to be confused with an entity shadow.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7025</id>
+	<key><![CDATA[opacity: The alpha opacity of the text from 0 to 255. (default: 255)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7026</id>
+	<key><![CDATA[blockdata: A blockdata array (or optionally string) for the block to be displayed.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7027</id>
+	<key><![CDATA[linewidth: The max width for a line of text before splitting. (default: 200)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7028</id>
+	<key><![CDATA[alignment: The text alignment. Can be CENTER (default), LEFT or RIGHT.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7029</id>
+	<key><![CDATA[itemdisplay: The item display model transform to use. Can be FIRSTPERSON_LEFTHAND, FIRSTPERSON_RIGHTHAND, FIXED, GROUND, GUI, HEAD, NONE, THIRDPERSON_LEFTHAND, or THIRDPERSON_RIGHTHAND.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7030</id>
+	<key><![CDATA[TEXT_DISPLAY]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7031</id>
+	<key><![CDATA[text: The text for this display entity.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7032</id>
+	<key><![CDATA[item: The item array for the item to be displayed.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7033</id>
+	<key><![CDATA[ITEM_DISPLAY]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7034</id>
+	<key><![CDATA[seethrough: Whether the text is visible through blocks. (default: false)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7035</id>
+	<key><![CDATA[BLOCK_DISPLAY]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
