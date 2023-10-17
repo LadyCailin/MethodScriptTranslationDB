@@ -1036,4 +1036,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-7036</id>
+	<key><![CDATA[Knowledge Books]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7037</id>
+	<key><![CDATA['''recipes''' : (array) A list of namespaced recipe keys. (or %s)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
