@@ -49259,4 +49259,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-7038</id>
+	<key><![CDATA[pickup: Whether picking up this arrow is ALLOWED, DISALLOWED, or CREATIVE_ONLY.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

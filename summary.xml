@@ -56294,4 +56294,12 @@
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
 </translationEntry>
+<translationEntry>
+	<id>7038</id>
+	<key><![CDATA[pickup: Whether picking up this arrow is ALLOWED, DISALLOWED, or CREATIVE_ONLY.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
 </summary>
