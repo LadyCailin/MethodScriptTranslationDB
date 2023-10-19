@@ -56302,4 +56302,20 @@
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
 </translationEntry>
+<translationEntry>
+	<id>7039</id>
+	<key><![CDATA[Returns an array of all matching entities for a Minecraft target selector. The selector will use the current command sender context unless a player is specified. Selector must be a valid vanilla target selector for the current version of Minecraft or a FormatException will be thrown.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>7040</id>
+	<key><![CDATA[[%splayer%s]%s, selector]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
 </summary>
