@@ -112,4 +112,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-7043</id>
+	<key><![CDATA[Returns an associative array of the drop rate for each equipment slot. If the rate is 0.0, the equipment will not drop. A rate of 1.0 will guarantee a drop if the entity is killed by a player. A rate above 1.0 will guarantee a drop by any cause.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

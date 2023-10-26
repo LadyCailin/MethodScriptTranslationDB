@@ -112,4 +112,11 @@
 	<translation></translation>
 	<auto><![CDATA[Døcs]]></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-7044</id>
+	<key><![CDATA[Sets if the given projectile should bounce when it hits something. (deprecated)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

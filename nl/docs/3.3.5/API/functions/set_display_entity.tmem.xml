@@ -1,120 +1,120 @@
 <translations>
 <comment></comment>
 <translationBlock>
-	<id>art-256</id>
-	<key><![CDATA[entityUUID]]></key>
+	<id>nl-222</id>
+	<key><![CDATA[entityUUID, array]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>art-445</id>
+	<id>nl-445</id>
 	<key><![CDATA[Yes]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>art-554</id>
-	<key><![CDATA[Returns an associative array of the drop rate for each equipment slot. If the rate is 0, the equipment will not drop. If it is 1, it is guaranteed to drop.]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto></auto>
-</translationBlock>
-<translationBlock>
-	<id>art-2878</id>
+	<id>nl-2878</id>
 	<key><![CDATA[Examples]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>art-3788</id>
+	<id>nl-3788</id>
 	<key><![CDATA[Vital Info]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>art-3789</id>
+	<id>nl-3789</id>
 	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.%s (Note this page is automatically generated from the documentation in the source code.)]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>art-3791</id>
+	<id>nl-3791</id>
 	<key><![CDATA[Usages]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>art-3792</id>
+	<id>nl-3792</id>
 	<key><![CDATA[Sorry, there are no examples for this function! :(]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>art-3813</id>
+	<id>nl-3805</id>
+	<key><![CDATA[See Also]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-3813</id>
 	<key><![CDATA[None]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>art-5152</id>
+	<id>nl-5152</id>
 	<key><![CDATA[About]]></key>
 	<comment></comment>
 	<translation></translation>
-	<auto><![CDATA[Abøüt]]></auto>
+	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>art-5153</id>
+	<id>nl-5153</id>
 	<key><![CDATA[Home]]></key>
 	<comment></comment>
 	<translation></translation>
-	<auto><![CDATA[Hømə]]></auto>
+	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>art-5154</id>
+	<id>nl-5154</id>
 	<key><![CDATA[Privacy Policy]]></key>
 	<comment></comment>
 	<translation></translation>
-	<auto><![CDATA[Prîvåcʎ Pølîcʎ]]></auto>
+	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>art-5155</id>
+	<id>nl-5155</id>
 	<key><![CDATA[Sponsors]]></key>
 	<comment></comment>
 	<translation></translation>
-	<auto><![CDATA[Spønsørs]]></auto>
+	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>art-5156</id>
+	<id>nl-5156</id>
 	<key><![CDATA[Help]]></key>
 	<comment></comment>
 	<translation></translation>
-	<auto><![CDATA[Həlp]]></auto>
+	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>art-5157</id>
+	<id>nl-5157</id>
 	<key><![CDATA[Team. All rights reserved.]]></key>
 	<comment></comment>
 	<translation></translation>
-	<auto><![CDATA[Təåm. All rîghts rəsərvəd.]]></auto>
+	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>art-5158</id>
+	<id>nl-5158</id>
 	<key><![CDATA[Docs]]></key>
 	<comment></comment>
 	<translation></translation>
-	<auto><![CDATA[Døcs]]></auto>
+	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>art-7043</id>
-	<key><![CDATA[Returns an associative array of the drop rate for each equipment slot. If the rate is 0.0, the equipment will not drop. A rate of 1.0 will guarantee a drop if the entity is killed by a player. A rate above 1.0 will guarantee a drop by any cause.]]></key>
+	<id>nl-7046</id>
+	<key><![CDATA[Sets the data for a display entity. See %s for details about the array format.]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>

@@ -112,4 +112,11 @@
 	<translation></translation>
 	<auto><![CDATA[Dokumenter]]></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-7042</id>
+	<key><![CDATA[Sets the drop chances for each equipment slot on a mob, but does not work on players. Passing %s instead of an array will automatically set all rates to 0.0, which will cause nothing to drop. A rate of 1.0 will guarantee a drop if the entity is killed by a player. A rate above 1.0 will guarantee a drop by any cause.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
