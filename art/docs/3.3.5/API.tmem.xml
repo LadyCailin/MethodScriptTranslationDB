@@ -10472,4 +10472,32 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-7049</id>
+	<key><![CDATA[Adds one or more recipes to a player&apos;s recipe book. Can take a single recipe key or an array of keys. Returns how many recipes were newly discovered.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7050</id>
+	<key><![CDATA[[%splayer%s]%s, recipeKey(s)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7051</id>
+	<key><![CDATA[Gets whether a player has a recipe in their recipe book.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7052</id>
+	<key><![CDATA[[%splayer%s]%s, recipeKey]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
