@@ -119,4 +119,11 @@
 	<translation></translation>
 	<auto><![CDATA[Dokumenter]]></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-7060</id>
+	<key><![CDATA[shoots an entity from the specified location (can be an entity UUID, player name or location array), or the current player if no arguments are passed. If no entity type is specified, it defaults to a fireball. If provide three arguments, with target (entity UUID, player name or location array), entity will shoot to target location. Last, fourth argument, is double and specifies the speed of projectile. Returns the UUID of the entity. Valid projectile types: LLAMA_SPIT or WIND_CHARGE]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

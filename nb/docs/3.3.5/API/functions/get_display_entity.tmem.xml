@@ -126,4 +126,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-7070</id>
+	<key><![CDATA[Returns an associative array of display entity data. Array keys are: 'billboard', 'brightness', 'glowcolor', 'height', 'width', 'viewrange', 'shadowradius', 'shadowstrength', and 'teleportduration'.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

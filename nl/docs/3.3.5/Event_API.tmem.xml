@@ -3710,4 +3710,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nl-7066</id>
+	<key><![CDATA[player%s: %s&lt;[[%s|Player Match]]&gt; The player requesting the resource pack%sstatus%s: %s&lt;[[%s|Enum Match]]&gt; The status received from the client: ACCEPTED, DECLINED, DISCARDED, DOWNLOADED, FAILED_DOWNLOAD, FAILED_RELOAD, INVALID_URL, or SUCCESSFULLY_LOADED]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
