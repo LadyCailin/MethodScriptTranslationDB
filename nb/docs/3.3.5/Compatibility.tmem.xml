@@ -1029,4 +1029,592 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-7084</id>
+	<key><![CDATA[commons-codec:commons-codec 1.9 -> 1.11]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7085</id>
+	<key><![CDATA[[%s 90d3bc1]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7086</id>
+	<key><![CDATA[jline:jline 2.11 -> 2.14.5]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7087</id>
+	<key><![CDATA[org.ow2.asm:asm-all 5.0.4 -> 6.0_BETA]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7088</id>
+	<key><![CDATA[[%s d911248]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7089</id>
+	<key><![CDATA[3.3.2-final]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7090</id>
+	<key><![CDATA[redis.clients:jedis 2.5.1 -> 2.9.0]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7091</id>
+	<key><![CDATA[3.3.5 build-256]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7092</id>
+	<key><![CDATA[Added support for Spigot 1.20]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7093</id>
+	<key><![CDATA[Removed WorldEdit dependency (See [%s SKCompat] extension)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7094</id>
+	<key><![CDATA[org.mockito:mockito-core 1.9.5 -> 2.15.0]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7095</id>
+	<key><![CDATA[3.3.5 build-382]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7096</id>
+	<key><![CDATA[3.3.5 build-268]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7097</id>
+	<key><![CDATA[Updated to Bukkit 1.13. Breaking changes require many scripts to be updated. See the [[%s|upgrade guide]].]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7098</id>
+	<key><![CDATA[com.jcraft:jsch 0.1.51 -> 0.1.54]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7099</id>
+	<key><![CDATA[3.3.5 build-149]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7100</id>
+	<key><![CDATA[org.xerial:sqlite-jdbc 3.7.15-M1 -> 3.21.0.1]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7101</id>
+	<key><![CDATA[Spigot 1.16.5 - 1.20.2]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7102</id>
+	<key><![CDATA[Spigot 1.16.5 - 1.20.1]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7103</id>
+	<key><![CDATA[org.yaml:snakeyaml 1.13 -> 1.20]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7104</id>
+	<key><![CDATA[Spigot 1.16.5 - 1.20.4]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7105</id>
+	<key><![CDATA[[%s 8b08d13]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7106</id>
+	<key><![CDATA[Updated dependencies:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7107</id>
+	<key><![CDATA[[%s 43b1b9b]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7108</id>
+	<key><![CDATA[3.3.5 build-285]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7109</id>
+	<key><![CDATA[Added support for Spigot 1.15]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7110</id>
+	<key><![CDATA[Added support for Spigot 1.14]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7111</id>
+	<key><![CDATA[Added support for Spigot 1.17]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7112</id>
+	<key><![CDATA[Added support for Spigot 1.20.2]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7113</id>
+	<key><![CDATA[Added support for Spigot 1.16]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7114</id>
+	<key><![CDATA[Added support for Spigot 1.19]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7115</id>
+	<key><![CDATA[[%s bbfa3c8]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7116</id>
+	<key><![CDATA[Added support for Spigot 1.18]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7117</id>
+	<key><![CDATA[[%s 8086fe6]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7118</id>
+	<key><![CDATA[3.3.5 build-320]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7119</id>
+	<key><![CDATA[Added support for Spigot 1.20.4]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7120</id>
+	<key><![CDATA[[%s d5a4321]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7121</id>
+	<key><![CDATA[CommandHelper may still be backwards and forward compatible to a large degree. Many of the advanced features that normally have hard dependencies on certain versions of external dependencies have been configured to "soft" fail. Individual components may not work, but in general CommandHelper should continue to function. Regardless, only the most current builds are officially supported.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7122</id>
+	<key><![CDATA[junit:junit 4.11 -> 4.12]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7123</id>
+	<key><![CDATA[Added support for Bukkit 1.12.1]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7124</id>
+	<key><![CDATA[[%s 7c49178]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7125</id>
+	<key><![CDATA[[%s 40dc779]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7126</id>
+	<key><![CDATA[Updated to Bukkit 1.4.6]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7127</id>
+	<key><![CDATA[Updated to Bukkit 1.4.7]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7128</id>
+	<key><![CDATA[3.3.5 build-38]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7129</id>
+	<key><![CDATA[CommandHelper 3.3.4 Final]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7130</id>
+	<key><![CDATA[3.3.5 build-334]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7131</id>
+	<key><![CDATA[Spigot or Paper 1.16.5 - 1.20.4 (when used as a plugin)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7132</id>
+	<key><![CDATA[Updated to Bukkit 1.6]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7133</id>
+	<key><![CDATA[3.3.1-final]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7134</id>
+	<key><![CDATA[Added support for Bukkit 1.7.9]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7135</id>
+	<key><![CDATA[CommandHelper 3.3.1 Final]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7136</id>
+	<key><![CDATA[Spigot 1.16.5]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7137</id>
+	<key><![CDATA[Bukkit 1.6.4]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7138</id>
+	<key><![CDATA[Spigot 1.16.5 - 1.19.3]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7139</id>
+	<key><![CDATA[Spigot 1.16.5 - 1.19.4]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7140</id>
+	<key><![CDATA[Spigot 1.16.5 - 1.19.2]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7141</id>
+	<key><![CDATA[This page lists compatibility changes of milestone versions of CommandHelper. In general, the compatibility requirements, if not listed, are the same as the previous milestone build. The minimum requirements for the current builds are:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7142</id>
+	<key><![CDATA[[%s 0cdc115]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7143</id>
+	<key><![CDATA[All extensions need to be updated for 3.3.2]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7144</id>
+	<key><![CDATA[[%s 7450f62]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7145</id>
+	<key><![CDATA[CommandHelper 3.3.2 Final]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7146</id>
+	<key><![CDATA[Added support for Bukkit 1.8]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7147</id>
+	<key><![CDATA[[%s f2b77ca]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7148</id>
+	<key><![CDATA[Added optional redis dependency [%s Redis 2.6.13]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7149</id>
+	<key><![CDATA[[%s 7277e87]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7150</id>
+	<key><![CDATA[[%s 676db51]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7151</id>
+	<key><![CDATA[Updated to Java 16. Dropped support for Spigot versions prior to 1.16.5. Extensions built on CommandHelper 3.3.4 and Java 8 are still supported.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7152</id>
+	<key><![CDATA[Updated to Bukkit 1.7.2]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7153</id>
+	<key><![CDATA[mysql:mysql-connector-java 5.1.30 -> 8.0.9-rc]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7154</id>
+	<key><![CDATA[All extensions must be updated for 3.3.4]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7155</id>
+	<key><![CDATA[3.3.5 build-354]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7156</id>
+	<key><![CDATA[Added support for Spigot 1.19.1]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7157</id>
+	<key><![CDATA[[%s fee9a1d]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7158</id>
+	<key><![CDATA[Added support for Spigot 1.19.3]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7159</id>
+	<key><![CDATA[Added support for Spigot 1.19.4]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7160</id>
+	<key><![CDATA[Added support for Bukkit 1.8.6]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7161</id>
+	<key><![CDATA[Updated to Java 7]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7162</id>
+	<key><![CDATA[Spigot 1.13.2 - 1.16.5]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7163</id>
+	<key><![CDATA[[%s 7cbdf86]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7164</id>
+	<key><![CDATA[Updated to Java 8]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7165</id>
+	<key><![CDATA[Added support to Bukkit 1.7.8]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7166</id>
+	<key><![CDATA[3.3.5 build-48]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7167</id>
+	<key><![CDATA[3.3.3-final]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

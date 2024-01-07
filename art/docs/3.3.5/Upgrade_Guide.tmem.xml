@@ -490,4 +490,32 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-7168</id>
+	<key><![CDATA[Minecraft 1.13]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7169</id>
+	<key><![CDATA[Minecraft 1.20.3]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7170</id>
+	<key><![CDATA[Updating to new versions of Minecraft can sometimes require updates to your scripts. Below is a reverse chronological guide to help you with the most notable of these changes to quickly update your code.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7171</id>
+	<key><![CDATA[GRASS changed to SHORT_GRASS (converted automatically where possible)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

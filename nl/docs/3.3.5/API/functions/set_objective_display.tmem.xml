@@ -126,4 +126,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nl-7172</id>
+	<key><![CDATA[Sets the display name and/or slot of the given objective. If arg 2 is not an array, it is assumed to be the displayname, otherwise arg 2 should be an array with keys 'displayname' and/or 'slot', affecting their respective properties. A %s displayname resets it to the actual name, and a %s slot removes it from all displays. Slot can be one of: BELOW_NAME, PLAYER_LIST, SIDEBAR, SIDEBAR_TEAM_BLACK, SIDEBAR_TEAM_DARK_BLUE, SIDEBAR_TEAM_DARK_GREEN, SIDEBAR_TEAM_DARK_AQUA, SIDEBAR_TEAM_DARK_RED, SIDEBAR_TEAM_DARK_PURPLE, SIDEBAR_TEAM_GOLD, SIDEBAR_TEAM_GRAY, SIDEBAR_TEAM_DARK_GRAY, SIDEBAR_TEAM_BLUE, SIDEBAR_TEAM_GREEN, SIDEBAR_TEAM_AQUA, SIDEBAR_TEAM_RED, SIDEBAR_TEAM_LIGHT_PURPLE, SIDEBAR_TEAM_YELLOW, or SIDEBAR_TEAM_WHITE]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7173</id>
+	<key><![CDATA[If the displayname is too long, a LengthException will be thrown. The max length will differ based on server version, but this limit was removed in 1.20.1. Sidebar display slots for teams was added to Spigot in 1.19.2 and Paper in 1.17.1.Scoreboard defaults to 'main' if not given.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
