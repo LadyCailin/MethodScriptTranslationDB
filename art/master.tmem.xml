@@ -50211,4 +50211,109 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-7174</id>
+	<key><![CDATA[player%sworld%sstate%sxp%shook%s: the fishhook entity id%scaught%s: the id of the snared entity, can be a fish item%shand%s: the hand the fishing rod is in, only when state is FISHING (MC 1.19.2+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7175</id>
+	<key><![CDATA[id%s: %s&lt;Macro&gt; The UUID of the projectile%stype%s: %s&lt;Macro&gt; the entity type of the projectile%shittype%s: %s&lt;String Match&gt; the type of object hit, either ENTITY or BLOCK]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7176</id>
+	<key><![CDATA[player%s: The player consuming the item%sitem%s: The item being consumed%shand%s: Either the main_hand or off_hand from which the item is consumed (MC 1.19.2+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7177</id>
+	<key><![CDATA[type%sid%slocation%s: the projectile's location upon impact%sshooter%shittype%shit%s: the entity id or block location array of the hit object.%shitface%s: the face that was hit on the block, if a block was hit]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7178</id>
+	<key><![CDATA[type%s: %s&lt;Macro&gt; The type of hanging entity%splayer%s: %s&lt;Macro&gt; The player placing the entity%sworld%s: %s&lt;Macro&gt; The world the entity is in]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7179</id>
+	<key><![CDATA[shooter%s: the entityID of the mob/player that fired the projectile, or location array if it is from a dispenser]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7180</id>
+	<key><![CDATA[action%s: One of either left_click_block, right_click_block, left_click_air, or right_click_air. If left or right_click_air, neither facing, location, nor position will be present.%sblock%s: The type of block they clicked, or %s if clicked air or if the block is now empty.%sitem%s: The item array the player used to click, or %s if not holding anything in that hand%splayer%s: The player associated with this event%sfacing%s: The (lowercase) face of the block they clicked. (One of NORTH, EAST, SOUTH, WEST, UP, DOWN, NORTH_EAST, NORTH_WEST, SOUTH_EAST, SOUTH_WEST, WEST_NORTH_WEST, NORTH_NORTH_WEST, NORTH_NORTH_EAST, EAST_NORTH_EAST, EAST_SOUTH_EAST, SOUTH_SOUTH_EAST, SOUTH_SOUTH_WEST, WEST_SOUTH_WEST, or SELF)%slocation%s: The location array of the block they clicked%sposition%s: Vector array of the position on the block that was right clicked (MC 1.20.1+)%shand%s: The hand used to click with, can be either main_hand or off_hand]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7181</id>
+	<key><![CDATA[world%s: the name of the world in which the strike occurred%sid%s: the lightning entityID%slocation%s: locationArray of the event%sis_effect%s: the data value for the block being changed%scause%s: The cause of the strike (COMMAND, CUSTOM, SPAWNER, TRIDENT, TRAP, WEATHER, or UNKNOWN)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7182</id>
+	<key><![CDATA[block%s: the block type that was burned%slocation%s: the location array of the burned block%sfirelocation%s: the location array of the fire (or %s)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7183</id>
+	<key><![CDATA[player%s: The player that is respawning%slocation%s: The location they are going to respawn at%sbed_spawn%s: If the respawn location is the player's bed%sanchor_spawn%s: If the respawn location is the player's respawn anchor%sreason%s: One of DEATH, END_PORTAL, or PLUGIN (MC 1.19.4+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7184</id>
+	<key><![CDATA[player%sid%s: The UUID of the resource pack (MC 1.20.4+)%sstatus%s: The resource pack status received from the client, one of]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7185</id>
+	<key><![CDATA[This event is called when a block is burned away.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7186</id>
+	<key><![CDATA[player%s: the player%slevel%s: the new food level to be applied%sdifference%s: the difference between the old level and the new%sitem%s: The item array for the item that caused this change, or %s if none]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7187</id>
+	<key><![CDATA[id%s: The UUID of the hanging entity.%stype%s: The type of the hanging entity (ITEM_FRAME, GLOW_ITEM_FRAME, PAINTING, or LEASE_HITCH)%slocation%s: Where the entity was placed.%sagainst%s: The location array of the block the hanging is being placed on.%sface%s: The face of the block the hanging is being placed.%splayer%s: The name of the player placing the entity, or %s.%sitem%s: The item array of the hanging being placed, or %s. (MC 1.17.1+)%shand%s: The hand used to place the item, or %s. Can be main_hand or off_hand. (MC 1.19.2+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7188</id>
+	<key><![CDATA[player%s: The player that enchanted the item%sitem%s: The item to be enchanted%sinventorytype%s: type of inventory%slevels%s: The amount of levels the player used%senchants%s: Array of added enchantments%slocation%s: Location of the used enchantment table%soption%s: The enchantment option the player clicked%slevelhint%s: The level displayed as a hint to the player (MC 1.20.1+)%senchanthint%s: The enchantment displayed as a hint to the player (MC 1.20.1+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
