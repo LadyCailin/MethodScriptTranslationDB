@@ -119,4 +119,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nl-7207</id>
+	<key><![CDATA[An item is an associative array with the following keys: 'name' (the string id of the item), 'qty' (the number of items in the stack), and 'meta' (an array of item meta or %s if none exists; see %s for details).]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

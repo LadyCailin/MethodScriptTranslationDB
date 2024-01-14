@@ -1,127 +1,113 @@
 <translations>
 <comment></comment>
 <translationBlock>
-	<id>nl-26</id>
-	<key><![CDATA[[%splayer, [index%s]%s]]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto></auto>
-</translationBlock>
-<translationBlock>
-	<id>nl-445</id>
+	<id>nb-445</id>
 	<key><![CDATA[Yes]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nl-2878</id>
+	<id>nb-2878</id>
 	<key><![CDATA[Examples]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nl-3788</id>
+	<id>nb-3788</id>
 	<key><![CDATA[Vital Info]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nl-3789</id>
+	<id>nb-3789</id>
 	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.%s (Note this page is automatically generated from the documentation in the source code.)]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nl-3791</id>
+	<id>nb-3791</id>
 	<key><![CDATA[Usages]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nl-3792</id>
+	<id>nb-3792</id>
 	<key><![CDATA[Sorry, there are no examples for this function! :(]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nl-3813</id>
+	<id>nb-3813</id>
 	<key><![CDATA[None]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nl-4262</id>
-	<key><![CDATA[If all slots are requested, an associative array of item objects is returned, and if only one item is requested, just that single item object is returned. An item is an associative array with the following keys, name: the string id of the item, qty: The number of items in their inventory, meta: An array of item meta or %s if none exists (see %s for details).]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto></auto>
-</translationBlock>
-<translationBlock>
-	<id>nl-4552</id>
-	<key><![CDATA[Gets the inventory for the specified player's enderchest, or the current player if none specified. If the index is specified, only the slot given will be returned. The index of the array in the array is 0 - 26, which corresponds to the slot in the enderchest inventory. If there is no item at the slot specified, %s is returned.]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto></auto>
-</translationBlock>
-<translationBlock>
-	<id>nl-5152</id>
+	<id>nb-5152</id>
 	<key><![CDATA[About]]></key>
 	<comment></comment>
 	<translation></translation>
-	<auto></auto>
+	<auto><![CDATA[Om]]></auto>
 </translationBlock>
 <translationBlock>
-	<id>nl-5153</id>
+	<id>nb-5153</id>
 	<key><![CDATA[Home]]></key>
 	<comment></comment>
-	<translation></translation>
+	<translation><![CDATA[Hjem]]></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nl-5154</id>
+	<id>nb-5154</id>
 	<key><![CDATA[Privacy Policy]]></key>
 	<comment></comment>
 	<translation></translation>
-	<auto></auto>
+	<auto><![CDATA[Personvern]]></auto>
 </translationBlock>
 <translationBlock>
-	<id>nl-5155</id>
+	<id>nb-5155</id>
 	<key><![CDATA[Sponsors]]></key>
 	<comment></comment>
 	<translation></translation>
-	<auto></auto>
+	<auto><![CDATA[Sponsorer]]></auto>
 </translationBlock>
 <translationBlock>
-	<id>nl-5156</id>
+	<id>nb-5156</id>
 	<key><![CDATA[Help]]></key>
 	<comment></comment>
-	<translation></translation>
-	<auto></auto>
+	<translation><![CDATA[Hjelp]]></translation>
+	<auto><![CDATA[hjelp]]></auto>
 </translationBlock>
 <translationBlock>
-	<id>nl-5157</id>
+	<id>nb-5157</id>
 	<key><![CDATA[Team. All rights reserved.]]></key>
 	<comment></comment>
 	<translation></translation>
-	<auto></auto>
+	<auto><![CDATA[Team. Alle rettigheter reservert.]]></auto>
 </translationBlock>
 <translationBlock>
-	<id>nl-5158</id>
+	<id>nb-5158</id>
 	<key><![CDATA[Docs]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto><![CDATA[Dokumenter]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7191</id>
+	<key><![CDATA[gatewayLocation, ticks]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nl-7196</id>
-	<key><![CDATA[If all slots are requested, an associative array of item objects is returned, and if only one item is requested, just that single item object is returned. An item is an associative array with the following keys: 'name' (the string id of the item), 'qty' (the number of items in the stack), and 'meta' (an array of item meta or %s if none exists; see %s for details).]]></key>
+	<id>nb-7206</id>
+	<key><![CDATA[Sets an end gateway's age in ticks. A magenta beam is emitted from 0 to 200 ticks (10 seconds). Also a purple beam is emitted very 2400 positive ticks (2 minutes). Setting this to a negative number, like math_const('LONG_MIN'), can be used to prevent beams.]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>

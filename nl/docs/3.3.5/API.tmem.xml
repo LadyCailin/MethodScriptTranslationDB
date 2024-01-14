@@ -10549,4 +10549,53 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nl-7189</id>
+	<key><![CDATA[Gets the inventory for a player, or the current player if none specified. If the slot is specified, only the item in the slot given will be returned. The indexes of the array are 0 - 35, 100 - 103, -106, which corresponds to the slots in the player&apos;s inventory. To access armor slots, you may also specify the slot index. (100 - 103). The quick bar is 0 - 8. If slot is %s, the item in the player&apos;s hand is returned, regardless of what slot is selected. If index is -106, the player&apos;s off-hand item is returned. If there is no item at the slot specified, %s is returned. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7190</id>
+	<key><![CDATA[Sets a player&apos;s inventory to the specified inventory array. An inventory array is one that matches what is returned by %s, so set_pinv(pinv()), while pointless, would be a correct call (though some item meta may not yet be supported). If a slot is specified as the second argument, only that slot is set with the given item array. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7191</id>
+	<key><![CDATA[gatewayLocation, ticks]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7192</id>
+	<key><![CDATA[Sets an end gateways teleport exit location. The exit location must be %s or a location array with the same world as the end gateway. Optionally change whether the end gateway teleports to the exact location or finds a nearby one.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7193</id>
+	<key><![CDATA[Sets an end gateway&apos;s age in ticks. A magenta beam is emitted from 0 to 200 ticks (10 seconds). Also a purple beam is emitted very 2400 positive ticks (2 minutes). Setting this to a negative number, like math_const(&apos;LONG_MIN&apos;), can be used to prevent beams.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7194</id>
+	<key><![CDATA[gatewayLocation, exitLocation, %s[%sexactTeleport%s]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7195</id>
+	<key><![CDATA[Applies the data from the given array to the item at the specified slot. Unused fields will be ignored. If %s or an empty array is supplied, or if none of the given fields are applicable, the item will become default, as this function overwrites any existing data. See %s for available fields. If the item does not yet exist, use %s instead.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

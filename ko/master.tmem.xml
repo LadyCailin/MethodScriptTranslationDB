@@ -50316,4 +50316,158 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-7189</id>
+	<key><![CDATA[Gets the inventory for a player, or the current player if none specified. If the slot is specified, only the item in the slot given will be returned. The indexes of the array are 0 - 35, 100 - 103, -106, which corresponds to the slots in the player&apos;s inventory. To access armor slots, you may also specify the slot index. (100 - 103). The quick bar is 0 - 8. If slot is %s, the item in the player&apos;s hand is returned, regardless of what slot is selected. If index is -106, the player&apos;s off-hand item is returned. If there is no item at the slot specified, %s is returned. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7190</id>
+	<key><![CDATA[Sets a player&apos;s inventory to the specified inventory array. An inventory array is one that matches what is returned by %s, so set_pinv(pinv()), while pointless, would be a correct call (though some item meta may not yet be supported). If a slot is specified as the second argument, only that slot is set with the given item array. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7191</id>
+	<key><![CDATA[gatewayLocation, ticks]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7192</id>
+	<key><![CDATA[Sets an end gateways teleport exit location. The exit location must be %s or a location array with the same world as the end gateway. Optionally change whether the end gateway teleports to the exact location or finds a nearby one.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7193</id>
+	<key><![CDATA[Sets an end gateway&apos;s age in ticks. A magenta beam is emitted from 0 to 200 ticks (10 seconds). Also a purple beam is emitted very 2400 positive ticks (2 minutes). Setting this to a negative number, like math_const(&apos;LONG_MIN&apos;), can be used to prevent beams.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7194</id>
+	<key><![CDATA[gatewayLocation, exitLocation, %s[%sexactTeleport%s]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7195</id>
+	<key><![CDATA[Applies the data from the given array to the item at the specified slot. Unused fields will be ignored. If %s or an empty array is supplied, or if none of the given fields are applicable, the item will become default, as this function overwrites any existing data. See %s for available fields. If the item does not yet exist, use %s instead.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7196</id>
+	<key><![CDATA[If all slots are requested, an associative array of item objects is returned, and if only one item is requested, just that single item object is returned. An item is an associative array with the following keys: 'name' (the string id of the item), 'qty' (the number of items in the stack), and 'meta' (an array of item meta or %s if none exists; see %s for details).]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7197</id>
+	<key><![CDATA['''tags''' : (array) An associative array of custom tags used by plugins. A tag's key is namespaced (e.g. "commandhelper:mytag") and the value is an associative array containing the '''"type"''' and '''"value"''' of the tag. Possible types: ''BYTE, BYTE_ARRAY, DOUBLE, FLOAT, INTEGER, INTEGER_ARRAY, LONG, LONG_ARRAY, SHORT, STRING, TAG_CONTAINER, or TAG_CONTAINER_ARRAY''. The "CanPlaceOn" tag for blocks and "CanDestroy" tag for tools are not yet supported.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7198</id>
+	<key><![CDATA['''fishpattern''' : (string) The pattern type on the fish, can be one of ''KOB, SUNSTREAK, SNOOPER, DASHER, BRINELY, SPOTTY, FLOPPER, STRIPEY, GLITTER, BLOCKFISH, BETTY, or CLAYFISH''. The entity's custom name is derived from the item '''"display"''' string. All other tropical fish NBT is not yet supported.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7199</id>
+	<key><![CDATA[Demonstrates generic meta for a tool in your main hand.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7200</id>
+	<key><![CDATA['''variant''' : (string) The type of axolotl, one of ''BLUE, CYAN, GOLD, LUCY, or WILD''. (MC 1.17+) The entity's custom name is derived from the item '''"display"''' string. All other axolotl NBT is not yet supported.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7201</id>
+	<key><![CDATA['''customname''' : (string) The name of this commandblock. (default: '@') The remaining tags are not yet supported.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7202</id>
+	<key><![CDATA['''generation''' : (string) The generation of the book. Can be ORIGINAL, COPY_OF_ORIGINAL, COPY_OF_COPY, or TATTERED (the last two cannot be copied). As pages are plain text, they do not yet support some advanced text components.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7203</id>
+	<key><![CDATA['''playerrange''' : (int) The maximum distance a player must be within to cause the spawner to spawn. NBT for spawn potentials other than entity type is not yet supported.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7204</id>
+	<key><![CDATA[If all slots are requested, an associative array of item objects is returned, and if only one item is requested, just that single item array is returned. An item is an associative array with the following keys: 'name' (the string id of the item), 'qty' (the number of items in the stack), and 'meta' (an array of item meta or %s if none exists; see %s for details).]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7205</id>
+	<key><![CDATA[Gets the inventory for a player, or the current player if none specified. If the slot is specified, only the item in the slot given will be returned. The indexes of the array are 0 - 35, 100 - 103, -106, which corresponds to the slots in the player's inventory. To access armor slots, you may also specify the slot index. (100 - 103). The quick bar is 0 - 8. If slot is %s, the item in the player's hand is returned, regardless of what slot is selected. If index is -106, the player's off-hand item is returned. If there is no item at the slot specified, %s is returned.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7206</id>
+	<key><![CDATA[Sets an end gateway's age in ticks. A magenta beam is emitted from 0 to 200 ticks (10 seconds). Also a purple beam is emitted very 2400 positive ticks (2 minutes). Setting this to a negative number, like math_const('LONG_MIN'), can be used to prevent beams.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7207</id>
+	<key><![CDATA[An item is an associative array with the following keys: 'name' (the string id of the item), 'qty' (the number of items in the stack), and 'meta' (an array of item meta or %s if none exists; see %s for details).]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7208</id>
+	<key><![CDATA[Demonstrates a player head]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7209</id>
+	<key><![CDATA[Sets a player's inventory to the specified inventory array. An inventory array is one that matches what is returned by %s, so set_pinv(pinv()), while pointless, would be a correct call (though some item meta may not yet be supported). If a slot is specified as the second argument, only that slot is set with the given item array.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7210</id>
+	<key><![CDATA[An inventory array must be associative, however, it may skip items, in which case, only the specified slots will be changed. If a key is out of range, or otherwise improper, a warning is logged, and it is skipped, but the function will not fail as a whole. A simple way to set one item in a player's inventory would be: set_pinv(player(), 2, array(name: 'STONE', qty: 64)). This sets the player's second slot to be a stack of stone. Whereas set_pinv(array(103: array(name: 'LEATHER_HELMET'))) gives them a hat. To set the item in hand, use something like set_pinv(player(), %s, array(name: 'TORCH')). Use an index of -106 to set the item in the player's off-hand. If you set a %s key in an inventory array, this will set the item in your main hand, but it will conflict with the slot number for that hand.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

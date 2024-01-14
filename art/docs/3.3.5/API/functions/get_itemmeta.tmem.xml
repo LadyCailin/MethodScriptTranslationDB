@@ -1071,4 +1071,53 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-7197</id>
+	<key><![CDATA['''tags''' : (array) An associative array of custom tags used by plugins. A tag's key is namespaced (e.g. "commandhelper:mytag") and the value is an associative array containing the '''"type"''' and '''"value"''' of the tag. Possible types: ''BYTE, BYTE_ARRAY, DOUBLE, FLOAT, INTEGER, INTEGER_ARRAY, LONG, LONG_ARRAY, SHORT, STRING, TAG_CONTAINER, or TAG_CONTAINER_ARRAY''. The "CanPlaceOn" tag for blocks and "CanDestroy" tag for tools are not yet supported.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7198</id>
+	<key><![CDATA['''fishpattern''' : (string) The pattern type on the fish, can be one of ''KOB, SUNSTREAK, SNOOPER, DASHER, BRINELY, SPOTTY, FLOPPER, STRIPEY, GLITTER, BLOCKFISH, BETTY, or CLAYFISH''. The entity's custom name is derived from the item '''"display"''' string. All other tropical fish NBT is not yet supported.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7199</id>
+	<key><![CDATA[Demonstrates generic meta for a tool in your main hand.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7200</id>
+	<key><![CDATA['''variant''' : (string) The type of axolotl, one of ''BLUE, CYAN, GOLD, LUCY, or WILD''. (MC 1.17+) The entity's custom name is derived from the item '''"display"''' string. All other axolotl NBT is not yet supported.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7201</id>
+	<key><![CDATA['''customname''' : (string) The name of this commandblock. (default: '@') The remaining tags are not yet supported.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7202</id>
+	<key><![CDATA['''generation''' : (string) The generation of the book. Can be ORIGINAL, COPY_OF_ORIGINAL, COPY_OF_COPY, or TATTERED (the last two cannot be copied). As pages are plain text, they do not yet support some advanced text components.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7203</id>
+	<key><![CDATA['''playerrange''' : (int) The maximum distance a player must be within to cause the spawner to spawn. NBT for spawn potentials other than entity type is not yet supported.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
