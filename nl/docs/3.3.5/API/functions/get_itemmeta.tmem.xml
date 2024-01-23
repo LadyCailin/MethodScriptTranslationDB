@@ -1113,4 +1113,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nl-7211</id>
+	<key><![CDATA['''item''' : (array) An item array for the stack contained in the decorated pot, or %s if empty. (MC 1.20.4+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
