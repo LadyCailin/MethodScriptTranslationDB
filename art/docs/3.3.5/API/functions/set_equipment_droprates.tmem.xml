@@ -119,4 +119,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-7214</id>
+	<key><![CDATA[Sets the drop chances for each equipment slot on a mob, but does not work on players. Passing %s instead of an array will automatically set all rates to 0.0, which will cause nothing to drop. A rate of 1.0 will guarantee a drop if the entity is killed by a player. A rate above 1.0 will guarantee a drop by any cause. Non-mobs, like players and armor stands, cannot have their drop-rates modified.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

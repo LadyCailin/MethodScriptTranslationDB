@@ -10626,4 +10626,39 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-7212</id>
+	<key><![CDATA[Returns an associative array showing the equipment this mob is wearing. This only works on mobs and armor stands.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7213</id>
+	<key><![CDATA[Returns an associative array of the drop rate for each equipment slot. If the rate is 0.0, the equipment will not drop. A rate of 1.0 will guarantee a drop if the entity is killed by a player. A rate above 1.0 will guarantee a drop by any cause. Non-mobs, like players and armor stands, cannot have their drop-rates modified.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7214</id>
+	<key><![CDATA[Sets the drop chances for each equipment slot on a mob, but does not work on players. Passing %s instead of an array will automatically set all rates to 0.0, which will cause nothing to drop. A rate of 1.0 will guarantee a drop if the entity is killed by a player. A rate above 1.0 will guarantee a drop by any cause. Non-mobs, like players and armor stands, cannot have their drop-rates modified.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7215</id>
+	<key><![CDATA[Forces a player to respawn immediately if they&apos;re currently dead.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7216</id>
+	<key><![CDATA[Takes an associative array with keys representing equipment slots and values of itemArrays, the same used by set_pinv(). This only works on mobs and armor stands. Unless a mod, plugin, or future update changes vanilla functionality, only humanoid mobs will render their equipment slots. The equipment slots are: WEAPON, OFF_HAND, BOOTS, LEGGINGS, CHESTPLATE, or HELMET]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

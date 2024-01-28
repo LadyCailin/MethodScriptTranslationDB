@@ -133,4 +133,11 @@
 	<translation></translation>
 	<auto><![CDATA[Dokumenter]]></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-7216</id>
+	<key><![CDATA[Takes an associative array with keys representing equipment slots and values of itemArrays, the same used by set_pinv(). This only works on mobs and armor stands. Unless a mod, plugin, or future update changes vanilla functionality, only humanoid mobs will render their equipment slots. The equipment slots are: WEAPON, OFF_HAND, BOOTS, LEGGINGS, CHESTPLATE, or HELMET]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

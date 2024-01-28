@@ -1,8 +1,8 @@
 <translations>
 <comment></comment>
 <translationBlock>
-	<id>nl-256</id>
-	<key><![CDATA[entityUUID]]></key>
+	<id>nl-150</id>
+	<key><![CDATA[[%splayer%s]]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
@@ -43,22 +43,8 @@
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nl-3795</id>
-	<key><![CDATA[Example 1]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto></auto>
-</translationBlock>
-<translationBlock>
-	<id>nl-3796</id>
-	<key><![CDATA[Given the following code:]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto></auto>
-</translationBlock>
-<translationBlock>
-	<id>nl-3810</id>
-	<key><![CDATA[The output might be:]]></key>
+	<id>nl-3792</id>
+	<key><![CDATA[Sorry, there are no examples for this function! :(]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
@@ -66,20 +52,6 @@
 <translationBlock>
 	<id>nl-3813</id>
 	<key><![CDATA[None]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto></auto>
-</translationBlock>
-<translationBlock>
-	<id>nl-4290</id>
-	<key><![CDATA[Returns an associative array showing the equipment this mob is wearing. This does not work on most "dumb" entities, only mobs (entities with AI).]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto></auto>
-</translationBlock>
-<translationBlock>
-	<id>nl-4291</id>
-	<key><![CDATA[Getting a mob&apos;s equipment]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
@@ -134,8 +106,8 @@
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nl-7212</id>
-	<key><![CDATA[Returns an associative array showing the equipment this mob is wearing. This only works on mobs and armor stands.]]></key>
+	<id>nl-7217</id>
+	<key><![CDATA[Forces a player to respawn immediately if they're currently dead.]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>

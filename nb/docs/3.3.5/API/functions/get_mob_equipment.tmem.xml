@@ -133,4 +133,11 @@
 	<translation></translation>
 	<auto><![CDATA[Dokumenter]]></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-7212</id>
+	<key><![CDATA[Returns an associative array showing the equipment this mob is wearing. This only works on mobs and armor stands.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
