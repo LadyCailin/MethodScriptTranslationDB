@@ -175,4 +175,11 @@
 	<translation></translation>
 	<auto><![CDATA[Dokumenter]]></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-7222</id>
+	<key><![CDATA[Returns a location array with the coordinates of the block the player has highlighted in their crosshairs. If player is omitted, the current player is used. If the block is too far, a RangeException is thrown. An array of block types to be considered transparent can be supplied, otherwise only air will be considered transparent. Providing an empty array will cause air to be considered a potential target, allowing a way to get the block containing the player's head. On paper servers, this teleports passengers of the player as well.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

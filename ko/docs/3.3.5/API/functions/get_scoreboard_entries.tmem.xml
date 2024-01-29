@@ -1,22 +1,8 @@
 <translations>
 <comment></comment>
 <translationBlock>
-	<id>ko-242</id>
-	<key><![CDATA[entityUUID, locationArray]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto></auto>
-</translationBlock>
-<translationBlock>
 	<id>ko-445</id>
 	<key><![CDATA[Yes]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto></auto>
-</translationBlock>
-<translationBlock>
-	<id>ko-708</id>
-	<key><![CDATA[Teleports the entity to the given location and returns whether the action was successful. Note this can set both location and direction.]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
@@ -50,43 +36,8 @@
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>ko-3795</id>
-	<key><![CDATA[Example 1]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto></auto>
-</translationBlock>
-<translationBlock>
-	<id>ko-3796</id>
-	<key><![CDATA[Given the following code:]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto></auto>
-</translationBlock>
-<translationBlock>
-	<id>ko-3797</id>
-	<key><![CDATA[Example 2]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto></auto>
-</translationBlock>
-<translationBlock>
-	<id>ko-3803</id>
-	<key><![CDATA[Example 3]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto></auto>
-</translationBlock>
-<translationBlock>
-	<id>ko-3804</id>
-	<key><![CDATA[Example 4]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto></auto>
-</translationBlock>
-<translationBlock>
-	<id>ko-3810</id>
-	<key><![CDATA[The output might be:]]></key>
+	<id>ko-3792</id>
+	<key><![CDATA[Sorry, there are no examples for this function! :(]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
@@ -94,34 +45,6 @@
 <translationBlock>
 	<id>ko-3813</id>
 	<key><![CDATA[None]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto></auto>
-</translationBlock>
-<translationBlock>
-	<id>ko-4748</id>
-	<key><![CDATA[Teleporting an entity to another]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto></auto>
-</translationBlock>
-<translationBlock>
-	<id>ko-4749</id>
-	<key><![CDATA[Setting location with an associative array]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto></auto>
-</translationBlock>
-<translationBlock>
-	<id>ko-4750</id>
-	<key><![CDATA[Teleporting an entity to you]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto></auto>
-</translationBlock>
-<translationBlock>
-	<id>ko-4751</id>
-	<key><![CDATA[Setting location with a normal array]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
@@ -176,8 +99,15 @@
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>ko-7220</id>
-	<key><![CDATA[Teleports the entity to the given location and returns whether the action was successful. Note this can set both location and direction. On paper servers, this teleports passengers along with the entity.]]></key>
+	<id>ko-7219</id>
+	<key><![CDATA[[%sscoreboardName%s]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7221</id>
+	<key><![CDATA[Gets a list of all the entries in the given scoreboard.]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
