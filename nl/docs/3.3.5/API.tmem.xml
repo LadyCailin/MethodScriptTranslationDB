@@ -10661,4 +10661,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nl-7223</id>
+	<key><![CDATA[origin, target, %s[%sdistance%s]%s, %s[%sclamp%s]%s %s origin, direction, %s[%sdistance%s]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

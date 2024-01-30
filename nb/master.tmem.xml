@@ -50554,4 +50554,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-7223</id>
+	<key><![CDATA[origin, target, %s[%sdistance%s]%s, %s[%sclamp%s]%s %s origin, direction, %s[%sdistance%s]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7224</id>
+	<key><![CDATA[If a target location is specified, the vector is obtained from that. The target's world is ignored. If a direction is specified, that vector is used instead. Distance defaults to 1.0. Direction can be one of NORTH, EAST, SOUTH, WEST, UP, DOWN, NORTH_EAST, NORTH_WEST, SOUTH_EAST, SOUTH_WEST, WEST_NORTH_WEST, NORTH_NORTH_WEST, NORTH_NORTH_EAST, EAST_NORTH_EAST, EAST_SOUTH_EAST, SOUTH_SOUTH_EAST, SOUTH_SOUTH_WEST, WEST_SOUTH_WEST, or SELF. If the distance is greater than the target (when using the first mode), the entity will move past the target if the distance is greater than the actual distance to the point, unless clamp is set to true.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
