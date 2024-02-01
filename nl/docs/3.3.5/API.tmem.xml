@@ -10668,4 +10668,32 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nl-7225</id>
+	<key><![CDATA[(equals) since two floating point numbers that might be actually semantically equivalent, are represented slightly differently in the computer, thus making them not actually equal, even though they are effectively equal. This function provides an epsilon argument to verify if two numbers are within that degree of difference. A good rule of thumb is to use 5-6 places of precision, but depending on your program&apos;s needs, more or less might be required.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7226</id>
+	<key><![CDATA[When comparing the equality of floating point numbers, it is often impossible to directly compare via]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7227</id>
+	<key><![CDATA[double d1, double d2, double epsilon]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7228</id>
+	<key><![CDATA[Clears the array of all values. This keeps the array reference the same, but empties it. Both normal and associative arrays are supported, but the internal type (normal or associative) is not reset.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
