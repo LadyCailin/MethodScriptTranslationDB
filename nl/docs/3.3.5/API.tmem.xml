@@ -10696,4 +10696,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nl-7233</id>
+	<key><![CDATA[Does a lookup to return the legacy data value of a name. For instance, returns 1 for &apos;stone&apos;. If the data value cannot be found, %s is returned. This function is deprecated and should only be used to convert legacy data that used CommandHelper&apos;s old material aliases. To be removed in version 3.3.6.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

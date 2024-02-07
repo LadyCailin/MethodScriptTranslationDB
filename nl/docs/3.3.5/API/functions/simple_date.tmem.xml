@@ -826,4 +826,116 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nl-7235</id>
+	<key><![CDATA[OneLetterISO8601TimeZone]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7236</id>
+	<key><![CDATA[For parsing, "Z" is parsed as the UTC time zone designator. General time zones are not accepted.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7237</id>
+	<key><![CDATA[Z Other definitions are as for general time zones or RFC 822 time zones.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7238</id>
+	<key><![CDATA[ISO 8601 Time zone: The number of pattern letters designates the format for both formatting and parsing as follows:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7239</id>
+	<key><![CDATA[Sign TwoDigitHours]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7240</id>
+	<key><![CDATA[X]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7241</id>
+	<key><![CDATA[For formatting, if the offset value from GMT is 0, "Z" is produced. If the number of pattern letters is 1, any fraction of an hour is ignored. For example, if the pattern is "X" and the time zone is "GMT+05:30", "+05" is produced.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7242</id>
+	<key><![CDATA[ThreeLetterISO8601TimeZone:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7243</id>
+	<key><![CDATA[ISO 8601 time zone]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7244</id>
+	<key><![CDATA[ISO8601TimeZone:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7245</id>
+	<key><![CDATA[Sign TwoDigitHours  : Minutes]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7246</id>
+	<key><![CDATA[ThreeLetterISO8601TimeZone]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7247</id>
+	<key><![CDATA[If the number of pattern letters is 4 or more, FormatException is thrown.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7248</id>
+	<key><![CDATA[OneLetterISO8601TimeZone:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7249</id>
+	<key><![CDATA[TwoLetterISO8601TimeZone:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7250</id>
+	<key><![CDATA[TwoLetterISO8601TimeZone]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
