@@ -10731,4 +10731,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-7252</id>
+	<key><![CDATA[Returns an associative array of display entity data. Array keys are: &apos;billboard&apos;, &apos;brightness&apos;, &apos;glowcolor&apos;, &apos;height&apos;, &apos;width&apos;, &apos;viewrange&apos;, &apos;shadowradius&apos;, &apos;shadowstrength&apos;, &apos;teleportduration&apos;, and &apos;transformation&apos;. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
