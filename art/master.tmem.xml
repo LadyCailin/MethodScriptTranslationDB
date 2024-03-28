@@ -50869,4 +50869,711 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-7268</id>
+	<key><![CDATA[EasingType type, double x]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7269</id>
+	<key><![CDATA[Given a permanent entity uuid, returns the transient entity id. This should not be stored, as it is reset every restart, and is only useful for dealing with low level packets.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7270</id>
+	<key><![CDATA[Given an easing type, and a duration percentage x, returns the given resulting interpolated distance. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7271</id>
+	<key><![CDATA[Sets an entity to no longer be seen or tracked by the player&apos;s client. Resets to default on player rejoin. (MC 1.18+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7272</id>
+	<key><![CDATA[array start, array finish, EasingType type, double x]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7273</id>
+	<key><![CDATA[Returns whether an entity is colliding with water. This accounts for waterlogged blocks, bubble columns, and fluid height. It does not account for water cauldrons.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7274</id>
+	<key><![CDATA[Plays a sound at the given source. Source can be a location array or entity UUID. SoundArray is in an associative array with keys &apos;sound&apos;, &apos;category&apos;, &apos;volume&apos;, &apos;pitch&apos;, where all are optional except sound. Volume, if greater than 1.0 (default), is the distance in chunks players can hear the sound. Pitch has a range of 0.5 - 2.0, where where 1.0 is the middle pitch and default. Players can be a single player or an array of players to play the sound to, if not given, all players can potentially hear it. Sound is a sound path, separated by periods. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7275</id>
+	<key><![CDATA[Gets whether the entity is known by the player&apos;s client or hidden by a plugin. (MC 1.18+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7276</id>
+	<key><![CDATA[Easings]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7277</id>
+	<key><![CDATA[Given an easing type, and a duration percentage x, returns the given resulting interpolation value. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7278</id>
+	<key><![CDATA[Easing related functions. Easings are based on the easings listed at %s, with the addition of the LINEAR easing, which just returns x.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7279</id>
+	<key><![CDATA[ArrayHandling%sBasicLogic%sBossBar%sBukkitMetadata%sByteArrays%sClipboard%sCmdline%sCommands%sCompiler%sControlFlow%sCrypto%sDataHandling%sDataTransformations%sDebug%sEasings%sEchoes%sEnchantments%sEntityManagement%sEnvironment%sEventBinding%sExceptions%sExecutionQueue%sExtensionMeta%sFileHandling%sInventoryManagement%sItemMeta%sMarquee%sMath%sMeta%sMinecraft%sMobManagement%sOAuth%sOS%sObjectManagement%sPerformance%sPermissions%sPersistence%sPlayerManagement%sPluginMeta%sRecipes%sReflection%sRegex%sResourceManager%sSQL%sSandbox%sScheduling%sScoreboards%sStatistics%sStringHandling%sTaskHandling%sThreading%sTrades%sWeather%sWeb%sWorld%sXGUI]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7280</id>
+	<key><![CDATA[Sets an entity to be sent to the player&apos;s client again. (MC 1.18+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7281</id>
+	<key><![CDATA[type%s: %s&lt;[[%s|Enum Match]]&gt; The teleportation cause.%sfrom%s: %s&lt;[[%s|Location Match]]&gt; The location the player is teleporting from.%sto%s: %s&lt;[[%s|Location Match]]&gt; The location the player is teleporting to.%splayer%s: %s&lt;[[%s|Player Match]]&gt; The player teleporting.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7282</id>
+	<key><![CDATA[type%s: %s&lt;[[%s|Enum Match]]&gt; The type of portal occurring, either NETHER_PORTAL or END_PORTAL%sfrom%s: %s&lt;[[%s|Location Match]]&gt; The location where the player is coming from%sto%s: %s&lt;[[%s|Location Match]]&gt; The location the player is teleporting to. Returns %s when using nether portal and "allow-nether" in server.properties is set to false or when using end portal and "allow-end" in bukkit.yml is set to false.%splayer%s: %s&lt;[[%s|Player Match]]&gt; The player that entered the portal]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7283</id>
+	<key><![CDATA[status%s: %s&lt;[[%s|Enum Match]]&gt; The status received from the client: ACCEPTED, DECLINED, DISCARDED, DOWNLOADED, FAILED_DOWNLOAD, FAILED_RELOAD, INVALID_URL, or SUCCESSFULLY_LOADED%splayer%s: %s&lt;[[%s|Player Match]]&gt; The player requesting the resource pack]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7284</id>
+	<key><![CDATA[button%s: %s&lt;[[%s|String IC Match]]&gt; "left" or "right". If they left or right clicked%sblock%s: %s&lt;[[%s|Material Match]]&gt; The block type the player interacts with, or %s if nothing%sitemname%s: %s&lt;[[%s|Material Match]]&gt; The item type they are holding when they interacted, or %shand%s: %s&lt;[[%s|String IC Match]]&gt; The hand the player clicked with.%splayer%s: %s&lt;[[%s|Player Match]]&gt; The player that triggered the event]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7285</id>
+	<key><![CDATA[command%s: %s&lt;[[%s|String Match]]&gt; The entire command string%sprefix%s: %s&lt;[[%s|String Match]]&gt; Just the first part of the command%splayer%s: %s&lt;[[%s|Player Match]]&gt; The player running the command]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7286</id>
+	<key><![CDATA[world%s: %s&lt;[[%s|World Match]]&gt; The world the event is happening in. This is just based on the location of the from event, which can be filtered on instead.%sthreshold%s: %s&lt;custom prefilter&gt; The minimum distance the player must have travelled before the event will be triggered. This is based on the 3D distance in whole meters.%sfrom%s: %s&lt;[[%s|Location Match]]&gt; The location the player moved from.%sto%s: %s&lt;[[%s|Location Match]]&gt; The location the player moved to.%splayer%s: %s&lt;[[%s|Player Match]]&gt; The player that moved. Switching worlds does not trigger this event.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7287</id>
+	<key><![CDATA[@usage - Overrides the default usage example @permission - The permission the user must have to run this command. Note that this permission is in *addition* to the normal alias permission system, and so it's recommended to continue using the * label on the alias itself. @noPermMsg - Overrides the no permission error message (unused as of Spigot 1.19) @alias - Alias for this command. A command can have multiple aliases, and you can repeat this annotation to provide more.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7288</id>
+	<key><![CDATA[Compilation converts the token stream into a Abstract Syntax Tree (AST). This step can emit only a few errors, (mostly mismatched parenthesis/braces) because the lexer will have already halted if the syntax is wrong, and the optimizer is what actually causes linking errors. The compiler is a typical recursive decent parser, only it offloads the complexity of the infix notation parsing to the __autoconcat__ function, which runs separately later, during optimization.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7289</id>
+	<key><![CDATA[The arguments() method returns the function's signature. For some functions, this will be quite complex, for others, it should be straightforward. By design, no arguments are passed to this method, because all arguments (and their defaults) should be constant, and should never vary based on runtime parameters. (This complicates the design, but more importantly prevents certain optimizations from occurring.) Functions may have multiple signatures, that is, completely conflicting signature types, though this behavior is only provided for backwards compatibility, and should not be used for new functions. Disjoint types are recommended instead, or general simplification of the function instead. See the methods in the  class for more information on the various options available when creating arguments, and  for information about the ArgumentBuilder as a whole.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7290</id>
+	<key><![CDATA[The annotations that are supported by either the compiler or runtime are listed below, but all of them must implement GET_SIMPLE_CLASS|.*compiler|CompilerAwareAnnotation to be valid parameter annotations. Each annotation has it's own documentation in the normal API.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7291</id>
+	<key><![CDATA[Each function has embedded java doc and type information. This is extremely important to keep accurate, both for the sake of the user, and for a technical need. The docs() method should return the plain text user readable documentation, which summarizes the behavior of the function. This information isn't used programmatically in any way by the compiler, but it is used of course by the users, and should accurately reflect the behavior of the function. Previously, the docs() method needed to return a string in the format %sreturnType {argumentList} documentation%s, however, this is no longer necessary, since the return type and argument list are used programmatically elsewhere, and therefore specified in different methods.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7292</id>
+	<key><![CDATA[The new argument builder greatly simplifies argument parsing, by providing generic type safety, range, and other compile time and runtime checks. This also provides the advantage of putting the documentation right next to the elements, and creating more documentation from the elements themselves, instead of relying on the programmer to provide the data correctly. This makes it so that if the documentation doesn't list a restriction, for instance, but the restriction being missing is a bug, then the bug will be in both the documentation AND the code, and will therefore be much easier to catch. Besides restrictions, which are discussed below, the biggest thing this provides is type safety. Until strong typing is fully supported, the system will be mostly a runtime-only check, though hard coded values that are incorrect will be able to be caught at runtime. Generics are also supported, and are required for return types that return closures and arrays, and eventually all parameters that are closures or arrays. These restrictions will be caught via unit test, as Java has no way to make this a compile error. Additionally, several restrictions (used as MAnnotations) may be added, which will provide runtime checks on the data passed in, or will check at compile time if possible. These restrictions are built in to the typing system, and ensure that the data passed in with be within those restrictions, whether they were checked at runtime or compile time. Using the new argument builder itself is optional. Providing the return type and arguments with the returnType() and arguments() methods is not optional, but using it to re-parse the data is. The way it works is that the function's arguments list is retrieved by the typing system once, to verify the arguments, using generic algorithms. The function itself can then use the builder to cast the data into the correct types, which is guaranteed to succeed at that point (barring programmer error, which will cause an Error to be thrown), and the code after that can safely assert that the restrictions placed on the parameters is true. However, if the code itself duplicates these checks, or manually casts the values, that will continue to work, since the raw arguments are passed in to the function as is. However, new code is strongly advised to use the builder, since eventually, backwards compatibility may be broken, and the parameters may not be passed in except as a list. Additionally, if the code simply requires the arguments to be processed manually, it is a sign that the arguments themselves are too complicated, and should be simplified.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7293</id>
+	<key><![CDATA[Adding a function is simple. Create a new class that implements , (or more probably extends  and tag it with @api. It is important to read and be very familiar with the methods in , so you know which methods that are optional should be overridden.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7294</id>
+	<key><![CDATA[LifeCycle]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7295</id>
+	<key><![CDATA[Functions will usually be the first thing a simpler extension will be used for. Functions should be "wrapped" in a parent class, which provides general documentation for that group of functions. The full class definition for functions is as follows:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7296</id>
+	<key><![CDATA[Please include the following snippet under the %s&lt;build&gt;&lt;plugins&gt;%s section in the project's pom:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7297</id>
+	<key><![CDATA[However, one should be able to use the annotated extension points as wrappers for the true code, which would reside in a different class.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7298</id>
+	<key><![CDATA[Some extension devs have expressed a desire to obfuscate their code. Unfortunately, there's a gotcha: the caching system we use runs before ProGuard obfuscates things, causing the original class names to be saved to the cache instead of the obfuscated ones. The only way currently known to get around this is to tell ProGuard to not obfuscate any of the extension points (lifecycle, function or event classes), via the %s-keep class%s option in the plugin's %sconfiguration%s section.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7299</id>
+	<key><![CDATA[Extensions provide a means of adding functionality to CommandHelper and the MethodScript engine.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7300</id>
+	<key><![CDATA[Also note that this guide has been written for 1.20.4, and while the overall procedures outlined will likely be relevant for all versions, the specifics (particularly packet ids and names) are likely to quickly become outdated.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7301</id>
+	<key><![CDATA[In our example of having entities move differently for different players, we are want to find something that can update an entity position. We're also wanting to run this during normal gameplay, and we want to send something from the server to the client. Given that, looking at wiki.vg, we're needing to look in the Play and Clientbound section. The "Play" section represents a "protocol", which is used at different phases of the client connection lifecycle, but the Play category outlines most of the packets that are interesting once the client is connected and playing the game. Since we're wanting to tell the client that the entity has moved, this is Clientbound, but when listening for packets send from the client, we're interested in the Serverbound ones. Scanning through, we can see a packet called "Update Entity Position". Reading the docs, it states that this is sent by the server when an entity moves less than 8 blocks.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7302</id>
+	<key><![CDATA[''name'' is the name of the field. This is the name you'll use in your code. ''type'' shows what type is expected. The inner ''type'' shows the MethodScript type, which is the type you'll use, but the ''originalType'' shows the actual Java type of the field. This is important to note, because it's up to you to ensure that for instance in the case of a Java short, your value is in fact within -32768 and 32767, because otherwise you'll get a runtime error when PacketJumper tries to shove the MethodScript integer (which is 32 bit) into the short (which is 16 bits). ''field'' is the field position, and is just for reference.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7303</id>
+	<key><![CDATA[Different servers have different class names, and so this list only gives you an indication of the specific class name, the specific class name is obtained via ProtocolLib. More classes will be supported over time, see the __UnsupportedTypes value in the return of %s for a list of types which PacketJumper does not currently support.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7304</id>
+	<key><![CDATA[Actually, the packet creation and packet logic doesn't strictly need to use known packets. Servers can dynamically create packets, as well as extensions and other packets that are unknown to PacketJumper. For these packet types, you can't actually use the string field names, but you can instead pass an integer, based on the field index, and an attempt will anyways be made to set the value. You can use arbitrary strings in create_packet, and it will fail if the system can't find the packet, but it will attempt to find the packet even if it's not one of the ones returned in all_packets().]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7305</id>
+	<key><![CDATA[We also need to handle the case where the player logs out and logs back in. In this case, the entity will be reset back to the original location, because the server sends the SPAWN_ENTITY packet to cause the player to load in the entities at first, but the trouble is, this includes the server-controlled position location, which is not where we want the entity to be for this player. Also, in this case, we can't simply cancel the packet as we did for the ENTITY_TELEPORT packet, if we did, the client wouldn't see the entity at all, we instead have to modify the contents of the packet individually. In this case, we'll keep it simple, and only modify the x, y, and z parameters, but there are others that you may need to modify as well, such as the velocity and angle, etc.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7306</id>
+	<key><![CDATA[This is because the server occasionally sends an ENTITY_TELEPORT packet to the client. We must intercept that packet, and ideally overwrite the position in the packet to that of our "fake" entity position. In this case you could also cancel the packet (all packet send and receive events are cancellable) but in this case it's probably a better idea to overwrite the values, but for example's sake here's how simply cancelling it would look:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7307</id>
+	<key><![CDATA[The ''enumType'' is just a reference type, but the ''enumValues'' list the valid enum values that can be sent. The type is still a string though, and it will automatically be converted into the correct enum type.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7308</id>
+	<key><![CDATA[However, after a few seconds, the entity will move back to its original position!]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7309</id>
+	<key><![CDATA[At the base level, the entire Minecraft server simply exists to send and receive ''packets'' from the client. However, the underlying APIs don't always expose direct access to do the things that you may wish to do. For instance, if you wanted to cause an entity to have different movements depending on which player is seeing the entity, this is not currently possible, as %s actually moves the entity for all players. Under the hood, however, the server is simply sending the "entity move" packet to each player individually. If we instead take over on tracking the entity (or indeed, not even creating a real entity, and just having a "ghost" entity that we manually track) we can instead send raw packets to whichever individual players we like. This has the effect of requiring us to implement entity movement and interaction ourselves, in addition to using raw packets, but it is technically possible.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7310</id>
+	<key><![CDATA[BlockPos]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7311</id>
+	<key><![CDATA[Also note that double comparisons are done with a delta of 0.0001. If you need something more or less precise, you must do so inside the event handler, not inside the prefilter.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7312</id>
+	<key><![CDATA[This provides a huge list of packet information, which is specific to the currently running server, and is subject to change across server types and versions. The first step is to cross check and find the packet we are interested in in this list. On wiki.vg, we saw that the packet id is 0x2C. In decimal, this is 44. In the list of packets returned by all_packets(), find the packet with id 44, where the protocol is "PLAY". Note that there may be multiple packets with the same id across different protocols, so you need to ensure you've found the right one.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7313</id>
+	<key><![CDATA[The list of unsupported types is added to a top level ''__UnsupportedTypes'' array. This is only for reference.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7314</id>
+	<key><![CDATA[Enums are another type that has special support:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7315</id>
+	<key><![CDATA[Packet Jumper is an extremely advanced system that allows direct Minecraft protocol access via MethodScript. In general, in order to successfully use this system, you must have a basic understanding of Java, and also of the actual Minecraft protocol, though this tutorial can help bridge any gaps you might have in your understanding. Code that uses this functionality is liable to break on every Minecraft version, and so should be a%sed as best as possible. Some tooling exists to help mitigate this churn, but it is always better to use other, existing API methods if they exist, and this should only be used as a last resort. Scoreboard operations, for instance, are fully covered by the API, and therefore should generally use packets to accomplish goals.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7316</id>
+	<key><![CDATA[The PacketId is 0x2C, the state is Play, and it is bound towards the client. There are 5 fields, entity id, delta x, delta y, delta z, and on ground. The entity id is a VarInt, X, Y, and Z deltas are shorts, and on ground is a boolean. The notes detail specific information about each field.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7317</id>
+	<key><![CDATA[When sending packets out, the first step is to create a packet of the desired type. You'll need the protocol, direction, and packet name.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7318</id>
+	<key><![CDATA[IChatBaseComponent]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7319</id>
+	<key><![CDATA[You also generally need to understand how the entire server works together, in order to provide a complete solution to the problem you're trying to solve. For instance, in our example, even if we successfully send the packet to move an entity for the individual player, the server will occasionally try to reset the entity position. You may not inherently know what packets the server is sending or receiving, so you may need to use a tool such as [%s SniffCraft] which works as a proxy between the client and server, and can log packets in both directions, which can give you an idea of what kind of packets you need to emulate and/or modify.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7320</id>
+	<key><![CDATA[So, if you don't know which packet events you need to intercept, how can you find that? One of the easiest ways is to use a packet sniffer, which will log incoming and outgoing packets to your client. This can be used to zero in on the packets you need to care about, but will take a bit of sleuthing. Using [%s SniffCraft] for instance, we can intercept the packets, and print the packet data for relevant looking packets, compare that to the wiki.vg and other docs, and see if that is the packet we're interested in intercepting. A warning, this is not necessarily easy, and you may not find answers for what you're looking to do, instead requiring reverse engineering to get there. Hopefully with the tools provided in this guide, you will be able to get a head start on any detective work.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7321</id>
+	<key><![CDATA[An array containing 'x', 'y', and 'z' integers.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7322</id>
+	<key><![CDATA[The same item stack array used elsewhere]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7323</id>
+	<key><![CDATA[Another thing to note is that some types are not (yet) supported. This could be due to the type only being supported in newer versions of PacketJumper, or because support simply hasn't been coded in at all yet. In those cases, the type will be "%s", which means that this field cannot actually be used. However, the plan is that all types will eventually be supported, and PRs that add support for missing types will generally be accepted. Even if the field is unsupported, it may be possible to write the packet anyways, if the field's default value (usually %s or %sish values) will work, and for incoming packets, for reading the other fields, if the unsupported types don't matter to your use case.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7324</id>
+	<key><![CDATA[A json string.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7325</id>
+	<key><![CDATA[{{TakeNote=In the REL_ENTITY_MOVE event, the id was named "entityId" and in ENTITY_TELEPORT, it's just "id". Luckily, PacketJumper offers some additional compile time checks on the values array, if you hardcode the protocol and type parameters, which is highly recommended. This will make it easier to quickly see if you have errors in your prefilters.}}]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7326</id>
+	<key><![CDATA[In this example, we also have a generic subtype. The top level object is an array, but it should be filled with strings, which are in fact UUIDs. This information can't inherently be encoded in the MethodScript type system, so it's up to you to ensure that you've populated it with the correct information. Generic types can have further subtypes, so for instance you could have a list of lists of strings, in which case you would need an array of arrays of strings in MethodScript.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7327</id>
+	<key><![CDATA[Conversions]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7328</id>
+	<key><![CDATA[Packet Jumper does not work out of the box. As this is an advanced feature that can cause your server to crash, cause clients connected to your server to crash, and generally cause havok, this broken out into a separate extension. You may find the extension for download from the [%s community run Jenkins], or if you have git, maven, and the jdk installed, build it yourself via %smscript -- build-extension -s %s.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7329</id>
+	<key><![CDATA[NOT SUPPORTED YET. An array with 0 items if the item isn't present, otherwise an array with the item at index 0. When writing, must be an array of length 0 or 1.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7330</id>
+	<key><![CDATA[In this example, there are no generics, but let's look at a field where that is the case:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7331</id>
+	<key><![CDATA[ItemStack]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7332</id>
+	<key><![CDATA[Once all the necessary packet and field information has been determined, we can begin implementation.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7333</id>
+	<key><![CDATA[Packet Jumper heavily re-uses code from the original [%s CHProtocol] extension, but builds on additional features such as additional compile time type safety, and support for Mojang mapping names, which are generally easier to read and understand. This obsoletes the CHProtocol extension. Big thanks to steakteam and entrypointkr for creating the original CHProtocol.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7334</id>
+	<key><![CDATA[This will send this packet to the single player, which will cause the entity to move forward one block in the x direction.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7335</id>
+	<key><![CDATA[For some types, conversions are obvious, a field with a Java int type accepts a MethodScript int type. However, for more complex type conversions, it is not always obvious. This table lists the supported conversions. Implicit conversions: All numeric types (floating point, integers, including bytes), Strings and UUIDs (to string), List/Collection/Set/EnumSet/Map/arrays except byte arrays to array, and byte arrays to byte_array.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7336</id>
+	<key><![CDATA[There is a bunch of information in this object, which tells us specifics about the packet. Let's take a look at this:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7337</id>
+	<key><![CDATA[Implementation]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7338</id>
+	<key><![CDATA[Version Differences]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7339</id>
+	<key><![CDATA[On first run, the mappings file will be downloaded. This will take a moment, as it is a large file.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7340</id>
+	<key><![CDATA[Research Phase]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7341</id>
+	<key><![CDATA[Efforts have been made to standardize as much as possible across server versions, but that means that you need to use naming conventions that PacketJumper recognizes. This full list can be obtained by calling %s, which returns an array of data that we can use to program against. Create an alias or otherwise grab the output of this code, and put it in a text editor, preferably one that supports json syntax formatting and highlighting.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7342</id>
+	<key><![CDATA[Unlike most events, we can't use the %s function, but we can write directly to the packet with %s.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7343</id>
+	<key><![CDATA[By default, PacketJumper doesn't actually register to listen to any packets, as this would be unnecessarily inefficient. The %s function tells PacketJumper that it needs to start processing events of the given type, and is required before the binds for these packets will start to be triggered.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7344</id>
+	<key><![CDATA[Before we can even begin writing code however, we need to understand exactly what task we are trying to accomplish, and which packets will need to be used to make the player see what we are wanting. The first step is to figure out which packet to use. In general, you'll want to familiarize yourself with [%s %s], which is the community's primary documentation on the Minecraft protocol. The wiki here is hand written, so in general, this isn't guaranteed to be accurate, but the guide is good enough to give you an idea of what fields do what. Additionally, you can use [%s %s] to cross check packet information across various mappings. PacketJumper exclusively exposes the Mojang mappings, regardless of what server you are running, and what mappings it uses (it is dynamically determined and translated into the appropriate mapping for you).]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7345</id>
+	<key><![CDATA[Note that in general, the Minecraft versions makes changes to the raw protocol on a regular basis, though it tends to be rarer that established packets get major incompatible overhauls. However, as the protocol itself is not officially supported, there is nothing stopping Mojang from changing the protocol, and completely breaking your code. PacketJumper exposes the protocol to you dynamically, which means that PacketJumper itself only needs minor updates on each version, and in general the same PacketJumper jar will work across versions. Your code however, will not necessarily.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7346</id>
+	<key><![CDATA[The protocol for this packet is PLAY, we're sending it out (as opposed to in), and the packet name is ''REL_ENTITY_MOVE''. Next, we need to write to the relevant fields with packet_write. Say we want to move the entity one block in the x direction.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7347</id>
+	<key><![CDATA[''fields'' is the most interesting property. This defines the different fields that are available in the packet. Each of the field objects contains the following properties:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7348</id>
+	<key><![CDATA[The ''protocol'' field tells you which of the protocols this packet belongs to, and is needed both for the method calls, and also for cross checking along with the id on wiki.vg. ''sender'' tells which direction the packet is going, in this case it's clientbound because the server is sending it. ''superclass'' denotes the Java superclass of this packet, and is only used for reference. If ''deprecated'' is true, you probably shouldn't be using this packet. Search to find a better packet. Most often, these are packets which have just been replaced by another class which has effectively the same functionality, but you may be forced to use the deprecated class anyways if there is no equivalent. ''name'' is the name of the packet that you will use in code, so make note of this. ''id'' is only for reference, and should not be used except to compare with other references to the exact same version of the protocol. ''class'' denotes the Java class of this packet, and is only used for reference. You'll also notice a blank ''comment'' field. This is rarely populated, but when present, offers useful additional information about the field or class.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7349</id>
+	<key><![CDATA[This is likely the best handling for the TELEPORT_ENTITY packet as well, rather than cancelling it, since this will prevent desyncs from moving the entity without any way to recover.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7350</id>
+	<key><![CDATA[This information tells us everything we need to know to properly create the packet, though we need to convert this to specific data to use in code.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7351</id>
+	<key><![CDATA[Unannounced Packets]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7352</id>
+	<key><![CDATA[Finally, we need to send the packet to the appropriate player.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7353</id>
+	<key><![CDATA[{{TakeNote=The ids and packet names change from version to version, so don't rely on the specific names and ids in this guide.}}]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7354</id>
+	<key><![CDATA[Given an easing type, and a duration percentage x, returns the given resulting interpolated distance.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7355</id>
+	<key><![CDATA[Usage with a LINEAR interpolation.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7356</id>
+	<key><![CDATA[For instance, given the location arrays representing x: 0 and x: 100, with a LINEAR easing and 0.25 duration, a location array of x: 25 would be returned. Easing type may be one of EASE_IN_SINE, EASE_OUT_SINE, EASE_IN_OUT_SINE, EASE_IN_CUBIC, EASE_OUT_CUBIC, EASE_IN_OUT_CUBIC, EASE_IN_QUINT, EASE_OUT_QUINT, EASE_IN_OUT_QUINT, EASE_IN_CIRC, EASE_OUT_CIRC, EASE_IN_OUT_CIRC, EASE_IN_ELASTIC, EASE_OUT_ELASTIC, EASE_IN_OUT_ELASTIC, EASE_IN_QUAD, EASE_OUT_QUAD, EASE_IN_OUT_QUAD, EASE_IN_QUART, EASE_OUT_QUART, EASE_IN_OUT_QUART, EASE_IN_EXPO, EASE_OUT_EXPO, EASE_IN_OUT_EXPO, EASE_IN_BACK, EASE_OUT_BACK, EASE_IN_OUT_BACK, EASE_IN_BOUNCE, EASE_OUT_BOUNCE, EASE_IN_OUT_BOUNCE, or LINEAR and x must be a double between 0 and 1, or it is clamped. The return value may be less than zero or above one, depending on the easing algorithm. See %s for visual examples. The start and finish arrays must contain x, y, and z parameters, but don't necessarily have to represent locations.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7357</id>
+	<key><![CDATA[Usage with a EASE_IN_CUBIC interpolation.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7358</id>
+	<key><![CDATA[Usage with EASE_IN_SINE interpolation.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7359</id>
+	<key><![CDATA[Given an easing type, and a duration percentage x, returns the given resulting interpolation value.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7360</id>
+	<key><![CDATA[Easing type may be one of EASE_IN_SINE, EASE_OUT_SINE, EASE_IN_OUT_SINE, EASE_IN_CUBIC, EASE_OUT_CUBIC, EASE_IN_OUT_CUBIC, EASE_IN_QUINT, EASE_OUT_QUINT, EASE_IN_OUT_QUINT, EASE_IN_CIRC, EASE_OUT_CIRC, EASE_IN_OUT_CIRC, EASE_IN_ELASTIC, EASE_OUT_ELASTIC, EASE_IN_OUT_ELASTIC, EASE_IN_QUAD, EASE_OUT_QUAD, EASE_IN_OUT_QUAD, EASE_IN_QUART, EASE_OUT_QUART, EASE_IN_OUT_QUART, EASE_IN_EXPO, EASE_OUT_EXPO, EASE_IN_OUT_EXPO, EASE_IN_BACK, EASE_OUT_BACK, EASE_IN_OUT_BACK, EASE_IN_BOUNCE, EASE_OUT_BOUNCE, EASE_IN_OUT_BOUNCE, or LINEAR and x must be a double between 0 and 1, or it is clamped. The return value may be less than zero or above one, depending on the easing algorithm. See %s for visual examples.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7361</id>
+	<key><![CDATA[Usage with LINEAR interpolation.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7362</id>
+	<key><![CDATA['''pages''' : (array) An array of pages as strings. New lines supported. (100 page limit)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7363</id>
+	<key><![CDATA['''title''' : (string) The title of the book. (32 character limit)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7364</id>
+	<key><![CDATA[Gets whether the entity is known by the player's client or hidden by a plugin. (MC 1.18+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7365</id>
+	<key><![CDATA[Sets an entity to no longer be seen or tracked by the player's client. Resets to default on player rejoin. (MC 1.18+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7366</id>
+	<key><![CDATA[Plays a sound at the given source. Source can be a location array or entity UUID. SoundArray is in an associative array with keys 'sound', 'category', 'volume', 'pitch', where all are optional except sound. Volume, if greater than 1.0 (default), is the distance in chunks players can hear the sound. Pitch has a range of 0.5 - 2.0, where where 1.0 is the middle pitch and default. Players can be a single player or an array of players to play the sound to, if not given, all players can potentially hear it. Sound is a sound path, separated by periods.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7367</id>
+	<key><![CDATA[Sets an entity to be sent to the player's client again. (MC 1.18+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7368</id>
+	<key><![CDATA[The 'noPermMsg' argument is the message displayed when the user doesn't have the permission specified in 'permission' (unused as of Spigot 1.19). The 'usage' is the message shown when the 'executor' returns false. The 'executor' is the closure run when the command is executed, and can return true or false (by default is treated as true). The 'tabcompleter' is the closure run when a user hits tab while the command is entered and ready for args. It is meant to return an array of completions, but if not the tab_complete_command event will be fired, and the completions of that event will be sent to the user. Both executor and tabcompleter closures are passed the following information in this order: alias used, name of the sender, array of arguments used, array of command info. When this function is not supported on the used platform, a NotFoundException is thrown. When the command name contains whitespaces, a FormatException is thrown.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

@@ -3836,4 +3836,46 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-7281</id>
+	<key><![CDATA[type%s: %s&lt;[[%s|Enum Match]]&gt; The teleportation cause.%sfrom%s: %s&lt;[[%s|Location Match]]&gt; The location the player is teleporting from.%sto%s: %s&lt;[[%s|Location Match]]&gt; The location the player is teleporting to.%splayer%s: %s&lt;[[%s|Player Match]]&gt; The player teleporting.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7282</id>
+	<key><![CDATA[type%s: %s&lt;[[%s|Enum Match]]&gt; The type of portal occurring, either NETHER_PORTAL or END_PORTAL%sfrom%s: %s&lt;[[%s|Location Match]]&gt; The location where the player is coming from%sto%s: %s&lt;[[%s|Location Match]]&gt; The location the player is teleporting to. Returns %s when using nether portal and "allow-nether" in server.properties is set to false or when using end portal and "allow-end" in bukkit.yml is set to false.%splayer%s: %s&lt;[[%s|Player Match]]&gt; The player that entered the portal]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7283</id>
+	<key><![CDATA[status%s: %s&lt;[[%s|Enum Match]]&gt; The status received from the client: ACCEPTED, DECLINED, DISCARDED, DOWNLOADED, FAILED_DOWNLOAD, FAILED_RELOAD, INVALID_URL, or SUCCESSFULLY_LOADED%splayer%s: %s&lt;[[%s|Player Match]]&gt; The player requesting the resource pack]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7284</id>
+	<key><![CDATA[button%s: %s&lt;[[%s|String IC Match]]&gt; "left" or "right". If they left or right clicked%sblock%s: %s&lt;[[%s|Material Match]]&gt; The block type the player interacts with, or %s if nothing%sitemname%s: %s&lt;[[%s|Material Match]]&gt; The item type they are holding when they interacted, or %shand%s: %s&lt;[[%s|String IC Match]]&gt; The hand the player clicked with.%splayer%s: %s&lt;[[%s|Player Match]]&gt; The player that triggered the event]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7285</id>
+	<key><![CDATA[command%s: %s&lt;[[%s|String Match]]&gt; The entire command string%sprefix%s: %s&lt;[[%s|String Match]]&gt; Just the first part of the command%splayer%s: %s&lt;[[%s|Player Match]]&gt; The player running the command]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7286</id>
+	<key><![CDATA[world%s: %s&lt;[[%s|World Match]]&gt; The world the event is happening in. This is just based on the location of the from event, which can be filtered on instead.%sthreshold%s: %s&lt;custom prefilter&gt; The minimum distance the player must have travelled before the event will be triggered. This is based on the 3D distance in whole meters.%sfrom%s: %s&lt;[[%s|Location Match]]&gt; The location the player moved from.%sto%s: %s&lt;[[%s|Location Match]]&gt; The location the player moved to.%splayer%s: %s&lt;[[%s|Player Match]]&gt; The player that moved. Switching worlds does not trigger this event.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

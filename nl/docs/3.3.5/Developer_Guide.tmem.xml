@@ -301,4 +301,46 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nl-7288</id>
+	<key><![CDATA[Compilation converts the token stream into a Abstract Syntax Tree (AST). This step can emit only a few errors, (mostly mismatched parenthesis/braces) because the lexer will have already halted if the syntax is wrong, and the optimizer is what actually causes linking errors. The compiler is a typical recursive decent parser, only it offloads the complexity of the infix notation parsing to the __autoconcat__ function, which runs separately later, during optimization.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7289</id>
+	<key><![CDATA[The arguments() method returns the function's signature. For some functions, this will be quite complex, for others, it should be straightforward. By design, no arguments are passed to this method, because all arguments (and their defaults) should be constant, and should never vary based on runtime parameters. (This complicates the design, but more importantly prevents certain optimizations from occurring.) Functions may have multiple signatures, that is, completely conflicting signature types, though this behavior is only provided for backwards compatibility, and should not be used for new functions. Disjoint types are recommended instead, or general simplification of the function instead. See the methods in the  class for more information on the various options available when creating arguments, and  for information about the ArgumentBuilder as a whole.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7290</id>
+	<key><![CDATA[The annotations that are supported by either the compiler or runtime are listed below, but all of them must implement GET_SIMPLE_CLASS|.*compiler|CompilerAwareAnnotation to be valid parameter annotations. Each annotation has it's own documentation in the normal API.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7291</id>
+	<key><![CDATA[Each function has embedded java doc and type information. This is extremely important to keep accurate, both for the sake of the user, and for a technical need. The docs() method should return the plain text user readable documentation, which summarizes the behavior of the function. This information isn't used programmatically in any way by the compiler, but it is used of course by the users, and should accurately reflect the behavior of the function. Previously, the docs() method needed to return a string in the format %sreturnType {argumentList} documentation%s, however, this is no longer necessary, since the return type and argument list are used programmatically elsewhere, and therefore specified in different methods.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7292</id>
+	<key><![CDATA[The new argument builder greatly simplifies argument parsing, by providing generic type safety, range, and other compile time and runtime checks. This also provides the advantage of putting the documentation right next to the elements, and creating more documentation from the elements themselves, instead of relying on the programmer to provide the data correctly. This makes it so that if the documentation doesn't list a restriction, for instance, but the restriction being missing is a bug, then the bug will be in both the documentation AND the code, and will therefore be much easier to catch. Besides restrictions, which are discussed below, the biggest thing this provides is type safety. Until strong typing is fully supported, the system will be mostly a runtime-only check, though hard coded values that are incorrect will be able to be caught at runtime. Generics are also supported, and are required for return types that return closures and arrays, and eventually all parameters that are closures or arrays. These restrictions will be caught via unit test, as Java has no way to make this a compile error. Additionally, several restrictions (used as MAnnotations) may be added, which will provide runtime checks on the data passed in, or will check at compile time if possible. These restrictions are built in to the typing system, and ensure that the data passed in with be within those restrictions, whether they were checked at runtime or compile time. Using the new argument builder itself is optional. Providing the return type and arguments with the returnType() and arguments() methods is not optional, but using it to re-parse the data is. The way it works is that the function's arguments list is retrieved by the typing system once, to verify the arguments, using generic algorithms. The function itself can then use the builder to cast the data into the correct types, which is guaranteed to succeed at that point (barring programmer error, which will cause an Error to be thrown), and the code after that can safely assert that the restrictions placed on the parameters is true. However, if the code itself duplicates these checks, or manually casts the values, that will continue to work, since the raw arguments are passed in to the function as is. However, new code is strongly advised to use the builder, since eventually, backwards compatibility may be broken, and the parameters may not be passed in except as a list. Additionally, if the code simply requires the arguments to be processed manually, it is a sign that the arguments themselves are too complicated, and should be simplified.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7293</id>
+	<key><![CDATA[Adding a function is simple. Create a new class that implements , (or more probably extends  and tag it with @api. It is important to read and be very familiar with the methods in , so you know which methods that are optional should be overridden.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

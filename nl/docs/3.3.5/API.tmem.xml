@@ -3193,6 +3193,13 @@
 	<auto></auto>
 </translationBlock>
 <translationBlock>
+	<id>nl-489</id>
+	<key><![CDATA[[%splayer%s]%s, entityUUID]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
 	<id>nl-490</id>
 	<key><![CDATA[This class of functions provides methods for accessing various SQL servers.]]></key>
 	<comment></comment>
@@ -10713,6 +10720,97 @@
 <translationBlock>
 	<id>nl-7266</id>
 	<key><![CDATA[Sets the data for a display entity. See %s for details about the array format. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7268</id>
+	<key><![CDATA[EasingType type, double x]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7269</id>
+	<key><![CDATA[Given a permanent entity uuid, returns the transient entity id. This should not be stored, as it is reset every restart, and is only useful for dealing with low level packets.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7270</id>
+	<key><![CDATA[Given an easing type, and a duration percentage x, returns the given resulting interpolated distance. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7271</id>
+	<key><![CDATA[Sets an entity to no longer be seen or tracked by the player&apos;s client. Resets to default on player rejoin. (MC 1.18+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7272</id>
+	<key><![CDATA[array start, array finish, EasingType type, double x]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7273</id>
+	<key><![CDATA[Returns whether an entity is colliding with water. This accounts for waterlogged blocks, bubble columns, and fluid height. It does not account for water cauldrons.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7274</id>
+	<key><![CDATA[Plays a sound at the given source. Source can be a location array or entity UUID. SoundArray is in an associative array with keys &apos;sound&apos;, &apos;category&apos;, &apos;volume&apos;, &apos;pitch&apos;, where all are optional except sound. Volume, if greater than 1.0 (default), is the distance in chunks players can hear the sound. Pitch has a range of 0.5 - 2.0, where where 1.0 is the middle pitch and default. Players can be a single player or an array of players to play the sound to, if not given, all players can potentially hear it. Sound is a sound path, separated by periods. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7275</id>
+	<key><![CDATA[Gets whether the entity is known by the player&apos;s client or hidden by a plugin. (MC 1.18+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7276</id>
+	<key><![CDATA[Easings]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7277</id>
+	<key><![CDATA[Given an easing type, and a duration percentage x, returns the given resulting interpolation value. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7278</id>
+	<key><![CDATA[Easing related functions. Easings are based on the easings listed at %s, with the addition of the LINEAR easing, which just returns x.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7279</id>
+	<key><![CDATA[ArrayHandling%sBasicLogic%sBossBar%sBukkitMetadata%sByteArrays%sClipboard%sCmdline%sCommands%sCompiler%sControlFlow%sCrypto%sDataHandling%sDataTransformations%sDebug%sEasings%sEchoes%sEnchantments%sEntityManagement%sEnvironment%sEventBinding%sExceptions%sExecutionQueue%sExtensionMeta%sFileHandling%sInventoryManagement%sItemMeta%sMarquee%sMath%sMeta%sMinecraft%sMobManagement%sOAuth%sOS%sObjectManagement%sPerformance%sPermissions%sPersistence%sPlayerManagement%sPluginMeta%sRecipes%sReflection%sRegex%sResourceManager%sSQL%sSandbox%sScheduling%sScoreboards%sStatistics%sStringHandling%sTaskHandling%sThreading%sTrades%sWeather%sWeb%sWorld%sXGUI]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7280</id>
+	<key><![CDATA[Sets an entity to be sent to the player&apos;s client again. (MC 1.18+)]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
