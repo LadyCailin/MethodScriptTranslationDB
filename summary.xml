@@ -58966,4 +58966,28 @@
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
 </translationEntry>
+<translationEntry>
+	<id>7372</id>
+	<key><![CDATA[Replaces any occurrences of pattern with the replacement in subject. Back references are allowed. &apos;replacement&apos; can be a string, or a closure that accepts a found occurrence of &apos;pattern&apos; and returns the replacement string value.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>7373</id>
+	<key><![CDATA[Replaces any occurrences of pattern with the replacement in subject. Back references are allowed. 'replacement' can be a string, or a closure that accepts a found occurrence of 'pattern' and returns the replacement string value.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>7374</id>
+	<key><![CDATA[Using closure as replacement function]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
 </summary>

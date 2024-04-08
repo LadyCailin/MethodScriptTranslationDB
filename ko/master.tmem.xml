@@ -51597,4 +51597,25 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-7372</id>
+	<key><![CDATA[Replaces any occurrences of pattern with the replacement in subject. Back references are allowed. &apos;replacement&apos; can be a string, or a closure that accepts a found occurrence of &apos;pattern&apos; and returns the replacement string value.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7373</id>
+	<key><![CDATA[Replaces any occurrences of pattern with the replacement in subject. Back references are allowed. 'replacement' can be a string, or a closure that accepts a found occurrence of 'pattern' and returns the replacement string value.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7374</id>
+	<key><![CDATA[Using closure as replacement function]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
