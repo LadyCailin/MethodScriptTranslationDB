@@ -10864,4 +10864,25 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-7375</id>
+	<key><![CDATA[Synchronizes access to the code block for all calls (from different threads) with the same syncObject argument. This means that if two threads will call synchronized(&apos;example&apos;, &amp;lt;code&amp;gt;), the second call will hang the thread until the passed code of the first call has finished executing. If you call this function from within this function on the same thread using the same syncObject, the code will simply be executed. Note that this uses the same pool of lock objects as x_get_lock, except this can be used off the main thread, whereas x_get_lock is preferred on the main thread. Generally speaking, it is almost always incorrect to use this on the main thread, though there is no technical restriction to doing so. Other than strings, ValueTypes cannot be used as the lock object, and reference types such as an array or other object is required. For more information about synchronization, see: %s(computer_science)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7376</id>
+	<key><![CDATA[Runs the specified action on the main thread (or a timer thread in cmdline) once the lock is obtained. Note that this lock is the same object as used in synchronized(). [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7377</id>
+	<key><![CDATA[mixed lock, Callable action]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

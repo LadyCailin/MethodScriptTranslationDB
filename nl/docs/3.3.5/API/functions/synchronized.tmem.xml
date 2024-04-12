@@ -168,4 +168,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nl-7378</id>
+	<key><![CDATA[Synchronizes access to the code block for all calls (from different threads) with the same syncObject argument. This means that if two threads will call synchronized('example', &lt;code&gt;), the second call will hang the thread until the passed code of the first call has finished executing. If you call this function from within this function on the same thread using the same syncObject, the code will simply be executed. Note that this uses the same pool of lock objects as x_get_lock, except this can be used off the main thread, whereas x_get_lock is preferred on the main thread. Generally speaking, it is almost always incorrect to use this on the main thread, though there is no technical restriction to doing so. Other than strings, ValueTypes cannot be used as the lock object, and reference types such as an array or other object is required. For more information about synchronization, see: %s(computer_science)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

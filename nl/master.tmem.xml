@@ -47908,4 +47908,53 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nl-7375</id>
+	<key><![CDATA[Synchronizes access to the code block for all calls (from different threads) with the same syncObject argument. This means that if two threads will call synchronized(&apos;example&apos;, &amp;lt;code&amp;gt;), the second call will hang the thread until the passed code of the first call has finished executing. If you call this function from within this function on the same thread using the same syncObject, the code will simply be executed. Note that this uses the same pool of lock objects as x_get_lock, except this can be used off the main thread, whereas x_get_lock is preferred on the main thread. Generally speaking, it is almost always incorrect to use this on the main thread, though there is no technical restriction to doing so. Other than strings, ValueTypes cannot be used as the lock object, and reference types such as an array or other object is required. For more information about synchronization, see: %s(computer_science)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7376</id>
+	<key><![CDATA[Runs the specified action on the main thread (or a timer thread in cmdline) once the lock is obtained. Note that this lock is the same object as used in synchronized(). [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7377</id>
+	<key><![CDATA[mixed lock, Callable action]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7378</id>
+	<key><![CDATA[Synchronizes access to the code block for all calls (from different threads) with the same syncObject argument. This means that if two threads will call synchronized('example', &lt;code&gt;), the second call will hang the thread until the passed code of the first call has finished executing. If you call this function from within this function on the same thread using the same syncObject, the code will simply be executed. Note that this uses the same pool of lock objects as x_get_lock, except this can be used off the main thread, whereas x_get_lock is preferred on the main thread. Generally speaking, it is almost always incorrect to use this on the main thread, though there is no technical restriction to doing so. Other than strings, ValueTypes cannot be used as the lock object, and reference types such as an array or other object is required. For more information about synchronization, see: %s(computer_science)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7379</id>
+	<key><![CDATA[Runs the specified action on the main thread (or a timer thread in cmdline) once the lock is obtained. Note that this lock is the same object as used in synchronized().]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7380</id>
+	<key><![CDATA[The primary difference being that this function always returns immediately, scheduling the task for later (as soon as possible, but with a small, random backoff), whereas synchronized blocks until the lock is obtained. This is an appropriate call to use when running on the main thread, though it can also be used off the main thread as well, though note that regardless of what thread this is started on, it always runs the Callable on the main thread. The lock is re-entrant, but as the function always runs the Callable at some future point, this only matters when used in conjunction with synchronized().]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7381</id>
+	<key><![CDATA[Note that in general, the queue of actions is unbounded, but will perform operations in a FIFO pattern. This is prone to overflowing though, and should not be used for large amounts of inputs. A good example of use for this function is when there is a synchronized block that runs on an external thread, but some sort of relatively infrequent player input has critical sections that must be locked against the same lock. Other than strings, ValueTypes cannot be used as the lock object, and reference types such as an array or other object is required.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
