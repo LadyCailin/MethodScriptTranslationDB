@@ -59046,4 +59046,76 @@
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
 </translationEntry>
+<translationEntry>
+	<id>7382</id>
+	<key><![CDATA[Synchronizes access to the code block for all calls (from different threads) with the same syncObject argument. This means that if two threads will call synchronized(&apos;example&apos;, &amp;lt;code&amp;gt;), the second call will hang the thread until the passed code of the first call has finished executing. If you call this function from within this function on the same thread using the same syncObject, the code will simply be executed. Note that this uses the same pool of lock objects as x_get_lock, except this is preferred to be used off the main thread, whereas x_get_lock is preferred on the main thread. Generally speaking, it is almost always incorrect to use this on the main thread, though there is no technical restriction to doing so. Other than strings, ValueTypes cannot be used as the lock object, and reference types such as an array or other object is required. For more information about synchronization, see: %s(computer_science)]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>7383</id>
+	<key><![CDATA[Runs the specified action once the lock is obtained. Note that this lock is the same underlying lock object as used in synchronized(). The action is run on the main thread (or a timer thread in cmdline). [[%s|See more...]]]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>7384</id>
+	<key><![CDATA[Synchronizes access to the code block for all calls (from different threads) with the same syncObject argument. This means that if two threads will call synchronized('example', &lt;code&gt;), the second call will hang the thread until the passed code of the first call has finished executing. If you call this function from within this function on the same thread using the same syncObject, the code will simply be executed. Note that this uses the same pool of lock objects as x_get_lock, except this is preferred to be used off the main thread, whereas x_get_lock is preferred on the main thread. Generally speaking, it is almost always incorrect to use this on the main thread, though there is no technical restriction to doing so. Other than strings, ValueTypes cannot be used as the lock object, and reference types such as an array or other object is required. For more information about synchronization, see: %s(computer_science)]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>7385</id>
+	<key><![CDATA[Usage across the main and off thread.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>7386</id>
+	<key><![CDATA[The queue of actions is unbounded, but will perform operations in a FIFO pattern. Only one action is performed at once. This means that code running on the main thread should usually always use this function, and code running on an off thread should usually use synchronized(), which can help prevent queue overload and main thread starvation.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>7387</id>
+	<key><![CDATA[The primary difference between this function and synchronized() is that this function always returns immediately, scheduling the task for later (as soon as possible, but with a small, random backoff if the lock is not currently available), obtaining the lock in the process, whereas synchronized blocks until the lock is obtained. This is an appropriate call to use when running on the main thread for instance. Regardless of what thread this is started on, it always runs the Callable on the main thread (or a timer thread in cmdline mode). The lock is re-entrant, (meaning if the current thread has the lock, trying to obtain the lock again will immediately go through) but as the function always runs the Callable at some future point, and only one action at a time, this only matters when used in conjunction with synchronized() blocks.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>7388</id>
+	<key><![CDATA[A good example of use for this function is when there is a synchronized block that runs on an external thread, but code that runs on the main thread has critical sections that must be locked against the same lock.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>7389</id>
+	<key><![CDATA[Other than strings, ValueTypes cannot be used as the lock object, and reference types such as an array or other object is required.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>7390</id>
+	<key><![CDATA[Runs the specified action once the lock is obtained. Note that this lock is the same underlying lock object as used in synchronized(). The action is run on the main thread (or a timer thread in cmdline).]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
 </summary>
