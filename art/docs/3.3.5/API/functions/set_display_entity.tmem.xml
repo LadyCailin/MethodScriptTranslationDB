@@ -133,4 +133,25 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-7394</id>
+	<key><![CDATA[Note that there a couple additional points for setting the data that is unique to the set function:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7395</id>
+	<key><![CDATA[The '''startinterpolation''' (int) property, if given, interpolates from the current values on the client to any changed values the server sent this tick. It halts existing interpolations, then starts interpolating on the current tick plus the given number of ticks (can be negative), and finishes after 'interpolationduration' ticks. The following values are interpolated if changed: transformation, shadow radius, shadow strength, text background, and text opacity. If none of those values are changed, it will use the last set again for interpolation. If the values are changed but 'startinterpolation' isn't sent, it will continue interpolation for the remaining duration but with the new values.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7396</id>
+	<key><![CDATA[The '''transformation''' property can be provided in the same format as received (i.e. with the leftRotation, rightRotation, scale, and translation properties) but you can also provide it as a length 16 array of floats. These are accepted in the same order that the /data command would accept them. Regardless of how they are input, the function will always return the complex object. Sub-properties of the transformation property are optional - missing values will not be changed.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

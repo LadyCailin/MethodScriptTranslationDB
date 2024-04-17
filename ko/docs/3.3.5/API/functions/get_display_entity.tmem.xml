@@ -231,4 +231,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-7392</id>
+	<key><![CDATA['''transformation''' (array) : An associative array that includes 4 values, leftRotation, rightRotation, scale, and translation. Both leftRotation and rightRotation have x, y, z, and w values, and scale and translation have x, y, and z values. All are 32 bit floats.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7393</id>
+	<key><![CDATA['''interpolationduration''' (int) : The duration in ticks of interpolations. (non-teleport)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
