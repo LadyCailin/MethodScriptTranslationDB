@@ -10878,4 +10878,25 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nl-7397</id>
+	<key><![CDATA[Compares two strings lexicographically. The comparison is based on the Unicode value of each character in the strings. Returns 0 if s1 is equal to s2, a negative value if s1 is lexographically less than s2, and a positive value if s1 is lexigraphically greater than s2. The magnitude of non-zero return values is the difference between the char values at the first index at which a different char was found in both strings. If all chars match but the strings differ in length, then the magnitude is this difference.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7398</id>
+	<key><![CDATA[string s1, string s2]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7399</id>
+	<key><![CDATA[Compares two strings lexicographically ignoring casing. The comparison is based on the Unicode value of each character in the strings. Returns 0 if s1 is equal to s2, a negative value if s1 is lexographically less than s2, and a positive value if s1 is lexigraphically greater than s2. The magnitude of non-zero return values is the difference between the char values at the first index at which a different char was found in both strings. If all chars match but the strings differ in length, then the magnitude is this difference.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

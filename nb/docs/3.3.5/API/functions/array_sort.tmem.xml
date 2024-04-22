@@ -224,4 +224,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-7400</id>
+	<key><![CDATA[If the sortType is a closure, it will perform a custom sort type, and the array may contain any values, including sub array values. The closure should accept two values, @left and @right, and should return true or a positive integer if the left value is larger than the right, and false or a negative integer if the left value is smaller than the right, and %s or 0 if they are equal. The array will then be re-ordered using a merge sort, using your custom comparator to determine the sort order.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
