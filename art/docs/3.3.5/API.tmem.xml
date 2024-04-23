@@ -10927,4 +10927,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-7401</id>
+	<key><![CDATA[array matrix %s float f0, float f1, float f2, float f3, float f4, float f5, float f6, float f7, float f8, float f9, float f10, float f11, float f12, float f13, float f14, float f15]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7402</id>
+	<key><![CDATA[Converts a Minecraft transformation matrix into a transformation object. This is the same underlying algorithm that set_display_entity uses when accepting a transformation matrix.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
