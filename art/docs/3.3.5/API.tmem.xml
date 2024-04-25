@@ -10941,4 +10941,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-7403</id>
+	<key><![CDATA[entityUUID, yaw, %s[%spitch%s]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7404</id>
+	<key><![CDATA[Sets an entity&apos;s yaw and pitch without teleporting or ejecting. If used on a player, an UnsupportedOperationException is thrown.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

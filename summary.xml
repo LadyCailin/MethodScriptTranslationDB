@@ -59214,4 +59214,28 @@
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
 </translationEntry>
+<translationEntry>
+	<id>7403</id>
+	<key><![CDATA[entityUUID, yaw, %s[%spitch%s]]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>7404</id>
+	<key><![CDATA[Sets an entity&apos;s yaw and pitch without teleporting or ejecting. If used on a player, an UnsupportedOperationException is thrown.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>7405</id>
+	<key><![CDATA[Sets an entity's yaw and pitch without teleporting or ejecting. If used on a player, an UnsupportedOperationException is thrown.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
 </summary>
