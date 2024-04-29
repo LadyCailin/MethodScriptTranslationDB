@@ -51835,4 +51835,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-7406</id>
+	<key><![CDATA[double d1, number d2, double epsilon %s number d1, double d2, double epsilon]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
