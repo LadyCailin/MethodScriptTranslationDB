@@ -189,4 +189,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-7451</id>
+	<key><![CDATA[Runs a shell command. %scommand%s can either be a string or an array of string arguments, which are run as an external process. Requires the allow-shell-commands option to be enabled in preferences, or run from command line, otherwise an InsufficientPermissionException is thrown.When the passed command results in an empty shell command, an IllegalArgumentException is thrown.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

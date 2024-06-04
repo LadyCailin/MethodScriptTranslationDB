@@ -518,4 +518,53 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-7422</id>
+	<key><![CDATA[Updating to new versions of Minecraft can sometimes require updates to your scripts. Below is a reverse chronological guide to help you with the most notable of these changes to quickly update your code. Where possible, any value changes are converted for backwards compatibility with saved data, but any script that checks output for equality will need to be updated. ----]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7423</id>
+	<key><![CDATA[In enchantment item meta, the arrays under the "enchants" key have had the "etype" key removed]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7424</id>
+	<key><![CDATA[Minecraft 1.20.5]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7425</id>
+	<key><![CDATA[In potion item meta, the potion array under the "base" key was replaced by a "potiontype" string]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7426</id>
+	<key><![CDATA[GRASS changed to SHORT_GRASS]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7427</id>
+	<key><![CDATA[SCUTE item has been renamed to TURTLE_SCUTE]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7428</id>
+	<key><![CDATA[GRASS_PATH changed to DIRT_PATH]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

@@ -154,4 +154,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-7409</id>
+	<key><![CDATA[Sets the value of the gamerule for the specified world. If world is not given the value is set for all worlds. Returns true if successful. The gameRule can be announceAdvancements, blockExplosionDropDecay, commandBlockOutput, commandModificationBlockLimit, disableElytraMovementCheck, disableRaids, doDaylightCycle, doEntityDrops, doFireTick, doImmediateRespawn, doInsomnia, doLimitedCrafting, doMobLoot, doMobSpawning, doPatrolSpawning, doTileDrops, doTraderSpawning, doVinesSpread, doWardenSpawning, doWeatherCycle, drowningDamage, enderPearlsVanishOnDeath, fallDamage, fireDamage, forgiveDeadPlayers, freezeDamage, globalSoundEvents, keepInventory, lavaSourceConversion, logAdminCommands, maxCommandChainLength, maxCommandForkCount, maxEntityCramming, mobExplosionDropDecay, mobGriefing, naturalRegeneration, playersNetherPortalCreativeDelay, playersNetherPortalDefaultDelay, playersSleepingPercentage, projectilesCanBreakBlocks, randomTickSpeed, reducedDebugInfo, sendCommandFeedback, showDeathMessages, snowAccumulationHeight, spawnChunkRadius, spawnRadius, spectatorsGenerateChunks, tntExplosionDropDecay, universalAnger, or waterSourceConversion.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

@@ -1792,4 +1792,32 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-7432</id>
+	<key><![CDATA[potionmeta: An associative array of potion item meta.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7433</id>
+	<key><![CDATA[type: The type of wolf (can be ASHEN, BLACK, CHESTNUT, PALE, RUSTY, SNOWY, SPOTTED, STRIPED, or WOODS) (MC 1.20.5+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7434</id>
+	<key><![CDATA[potionmeta: An associative array of potion item meta for a tipped arrow.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7435</id>
+	<key><![CDATA[particle: The particle type which comprises the cloud (can be SMOKE_NORMAL, SOUL_FIRE_FLAME, DUST_PILLAR, BUBBLE_COLUMN_UP, DUST_PLUME, REVERSE_PORTAL, CAMPFIRE_SIGNAL_SMOKE, TRIAL_OMEN, BLOCK_DUST, DRIPPING_DRIPSTONE_LAVA, SWEEP_ATTACK, WATER_SPLASH, LANDING_LAVA, SLIME, FALLING_LAVA, DRIPPING_HONEY, ITEM_CRACK, WARPED_SPORE, DUST_COLOR_TRANSITION, FALLING_DUST, WATER_BUBBLE, FLASH, VILLAGER_ANGRY, FALLING_DRIPSTONE_LAVA, FALLING_DRIPSTONE_WATER, HEART, END_ROD, FALLING_NECTAR, VAULT_CONNECTION, SCULK_SOUL, WHITE_SMOKE, SPELL_INSTANT, VILLAGER_HAPPY, SQUID_INK, VIBRATION, DRIPPING_DRIPSTONE_WATER, BUBBLE_POP, COMPOSTER, NAUTILUS, SHRIEK, FALLING_SPORE_BLOSSOM, SMALL_FLAME, EXPLOSION_LARGE, TOWN_AURA, ASH, DAMAGE_INDICATOR, TOTEM, SPIT, FALLING_OBSIDIAN_TEAR, PORTAL, EGG_CRACK, WAX_OFF, ITEM_COBWEB, SPELL_WITCH, GLOW_SQUID_INK, EXPLOSION_HUGE, SNOWFLAKE, WATER_WAKE, FIREWORKS_SPARK, DRIP_LAVA, GUST_EMITTER_SMALL, BLOCK_CRACK, BLOCK_MARKER, ENCHANTMENT_TABLE, REDSTONE, SNOW_SHOVEL, SPELL_MOB, FALLING_HONEY, SPORE_BLOSSOM_AIR, DRAGON_BREATH, DRIPPING_OBSIDIAN_TEAR, CURRENT_DOWN, TRIAL_SPAWNER_DETECTION_OMINOUS, ELECTRIC_SPARK, LANDING_OBSIDIAN_TEAR, INFESTED, GUST_EMITTER_LARGE, CHERRY_LEAVES, SNEEZE, WHITE_ASH, GLOW, OMINOUS_SPAWNING, SCULK_CHARGE_POP, LANDING_HONEY, TRIAL_SPAWNER_DETECTION, RAID_OMEN, CRIT_MAGIC, SUSPENDED, WATER_DROP, SPELL, FALLING_WATER, LAVA, WAX_ON, CRIT, CLOUD, SCRAPE, SMALL_GUST, SUSPENDED_DEPTH, CAMPFIRE_COSY_SMOKE, SOUL, NOTE, SNOWBALL, SMOKE_LARGE, SONIC_BOOM, CRIMSON_SPORE, EXPLOSION_NORMAL, FLAME, GUST, MOB_APPEARANCE, DOLPHIN, DRIP_WATER, or SCULK_CHARGE). Can accept a particle array for setting index data required for specific particle types. This particle array must contain a "particle" key, and supports the keys "block", "item", or "color" when applicable.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

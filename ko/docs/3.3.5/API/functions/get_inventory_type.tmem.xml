@@ -154,4 +154,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-7436</id>
+	<key><![CDATA[Note that not all valid inventory types may actually be returnable, due to lack of support in the server, but the valid return types are: BREWING, CHEST, COMPOSTER, CRAFTING, CREATIVE, DISPENSER, DROPPER, ENCHANTING, ENDER_CHEST, FURNACE, HOPPER, JUKEBOX, MERCHANT, PLAYER, WORKBENCH, ANVIL, SMITHING, BEACON, SHULKER_BOX, BARREL, BLAST_FURNACE, LECTERN, SMOKER, LOOM, CARTOGRAPHY, GRINDSTONE, STONECUTTER, CHISELED_BOOKSHELF, CRAFTER, DECORATED_POT]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

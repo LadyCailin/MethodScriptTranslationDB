@@ -168,4 +168,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-7450</id>
+	<key><![CDATA[Runs a shell command. %scommand%s can be either a string, or array of string arguments. This works mostly like %s however, it buffers then returns the output for sysout once the process is completed, and throws a ShellException with the exception message set to the syserr output if the process exits with an exit code that isn't the expectedExitCode, which defaults to 0. This is useful for simple commands that return output and don't need very complicated usage, and failures don't need to check the exact error code. If the underlying command throws an IOException, it is passed through. Requires the allow-shell-commands option to be enabled in preferences, or run from command line, otherwise an InsufficientPermissionException is thrown. When the passed command results in an empty shell command, an IllegalArgumentException is thrown. Options is an associative array which expects zero or more of the following options: expectedErrorCode - The expected error code indicating successful command completion. Defaults to 0. workingDir - Sets the working directory for the sub process. By default %s, which represents the directory of this script. If the path is relative, it is relative to the directory of this script.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

@@ -1134,4 +1134,74 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nl-7437</id>
+	<key><![CDATA['''flags''' : (array) A list of flags used to hide meta in the item tooltip: ''HIDE_ENCHANTS, HIDE_ATTRIBUTES, HIDE_UNBREAKABLE, HIDE_DESTROYS, HIDE_PLACED_ON, HIDE_POTION_EFFECTS, HIDE_ADDITIONAL_TOOLTIP, HIDE_DYE, HIDE_ARMOR_TRIM, or HIDE_STORED_ENCHANTS''.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7438</id>
+	<key><![CDATA[Tropical Fish Bucket]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7439</id>
+	<key><![CDATA[All]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7440</id>
+	<key><![CDATA['''potiontype'''' : (string) The base potion type, which can be one of: ''AWKWARD, FIRE_RESISTANCE, LONG_FIRE_RESISTANCE, INFESTED, HARMING, STRONG_HARMING, HEALING, STRONG_HEALING, INVISIBILITY, LONG_INVISIBILITY, LEAPING, LONG_LEAPING, STRONG_LEAPING, LUCK, MUNDANE, NIGHT_VISION, LONG_NIGHT_VISION, OOZING, POISON, LONG_POISON, STRONG_POISON, REGENERATION, LONG_REGENERATION, STRONG_REGENERATION, SLOWNESS, LONG_SLOWNESS, STRONG_SLOWNESS, SLOW_FALLING, LONG_SLOW_FALLING, SWIFTNESS, LONG_SWIFTNESS, STRONG_SWIFTNESS, STRENGTH, LONG_STRENGTH, STRONG_STRENGTH, THICK, TURTLE_MASTER, LONG_TURTLE_MASTER, STRONG_TURTLE_MASTER, WATER, WATER_BREATHING, LONG_WATER_BREATHING, WEAKNESS, LONG_WEAKNESS, WEAVING, or WIND_CHARGED''. (MC 1.20.6+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7441</id>
+	<key><![CDATA['''display''' : (string) The display name seen when renamed in an anvil.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7442</id>
+	<key><![CDATA['''spawntype''' : (string) May be one of ''ALLAY, AREA_EFFECT_CLOUD, ARMADILLO, ARMOR_STAND, ARROW, AXOLOTL, BAT, BEE, BLAZE, BLOCK_DISPLAY, BOAT, BOGGED, BREEZE, BREEZE_WIND_CHARGE, CAMEL, CAT, CAVE_SPIDER, CHEST_BOAT, CHICKEN, COD, COW, CREEPER, DOLPHIN, DRAGON_FIREBALL, DROPPED_ITEM, DROWNED, DONKEY, EGG, ELDER_GUARDIAN, ENDERMAN, ENDERMITE, ENDER_CRYSTAL, ENDER_DRAGON, ENDER_EYE, ENDER_PEARL, EVOKER, EVOKER_FANGS, EXPERIENCE_ORB, FALLING_BLOCK, FIREBALL, FIREWORK, FOX, FROG, GHAST, GIANT, GLOW_ITEM_FRAME, GLOW_SQUID, GOAT, GUARDIAN, HOGLIN, HORSE, HUSK, ILLUSIONER, INTERACTION, IRON_GOLEM, ITEM_DISPLAY, ITEM_FRAME, LLAMA, LLAMA_SPIT, LEASH_HITCH, LIGHTNING, MAGMA_CUBE, MARKER, MINECART, MINECART_CHEST, MINECART_COMMAND, MINECART_FURNACE, MINECART_HOPPER, MINECART_MOB_SPAWNER, MINECART_TNT, MULE, MUSHROOM_COW, OCELOT, OMINOUS_ITEM_SPAWNER, PAINTING, PANDA, PARROT, PHANTOM, PIG, PIGLIN, PIGLIN_BRUTE, PILLAGER, POLAR_BEAR, PRIMED_TNT, PUFFERFISH, RABBIT, RAVAGER, SALMON, SHEEP, SILVERFISH, SKELETON, SHULKER, SHULKER_BULLET, SKELETON_HORSE, SLIME, SMALL_FIREBALL, SNIFFER, SNOWBALL, SNOWMAN, SQUID, SPECTRAL_ARROW, SPIDER, SPLASH_POTION, STRAY, STRIDER, TADPOLE, TEXT_DISPLAY, THROWN_EXP_BOTTLE, TRADER_LLAMA, TRIDENT, TROPICAL_FISH, TURTLE, VEX, VILLAGER, VINDICATOR, WANDERING_TRADER, WARDEN, WIND_CHARGE, WITCH, WITHER, WITHER_SKELETON, WITHER_SKULL, WOLF, ZOGLIN, ZOMBIE, ZOMBIE_HORSE, ZOMBIE_VILLAGER, or ZOMBIFIED_PIGLIN''. Not all entity types will spawn from spawners, and some require special conditions.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7443</id>
+	<key><![CDATA['''trim''' : (array) An array that contains the keys '''"pattern"''' and '''"material"'''. Pattern can be BOLT, COAST, DUNE, EYE, FLOW, HOST, RAISER, RIB, SENTRY, SHAPER, SILENCE, SNOUT, SPIRE, TIDE, VEX, WARD, WAYFINDER, or WILD. Material can be AMETHYST, COPPER, DIAMOND, EMERALD, GOLD, IRON, LAPIS, NETHERITE, QUARTZ, or REDSTONE. (MC 1.20+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7444</id>
+	<key><![CDATA['''base''' : (array) Defined a base potion. Had the keys '''"extended"''', '''"upgraded"''', and '''"type"'''. This was used prior to MC 1.20.6 and is converted in later versions.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7445</id>
+	<key><![CDATA['''tags''' : (array) An associative array of custom tags used by plugins (or %s). A tag's key is namespaced (e.g. "commandhelper:mytag") and the value is an associative array containing the '''"type"''' and '''"value"''' of the tag. Possible types: ''BYTE, BYTE_ARRAY, DOUBLE, FLOAT, INTEGER, INTEGER_ARRAY, LONG, LONG_ARRAY, SHORT, STRING, TAG_CONTAINER, or TAG_CONTAINER_ARRAY''. The "CanPlaceOn" tag for blocks and "CanDestroy" tag for tools are not yet supported.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7446</id>
+	<key><![CDATA['''modifiers''' : (array) An array of attribute modifier arrays, each with keys: '''"attribute"''', '''"operation"''', '''"amount"''' (double), '''"uuid"''' (optional), '''"name"''' (optional), and '''"slot"''' (optional). Possible attributes: ''GENERIC_ARMOR, GENERIC_ARMOR_TOUGHNESS, GENERIC_ATTACK_DAMAGE, GENERIC_ATTACK_KNOCKBACK, GENERIC_ATTACK_SPEED, GENERIC_FALL_DAMAGE_MULTIPLIER, GENERIC_FLYING_SPEED, GENERIC_FOLLOW_RANGE, GENERIC_GRAVITY, GENERIC_JUMP_STRENGTH, GENERIC_KNOCKBACK_RESISTANCE, GENERIC_LUCK, GENERIC_MAX_ABSORPTION, GENERIC_MAX_HEALTH, GENERIC_MOVEMENT_SPEED, GENERIC_SAFE_FALL_DISTANCE, GENERIC_SCALE, GENERIC_STEP_HEIGHT, HORSE_JUMP_STRENGTH, PLAYER_BLOCK_BREAK_SPEED, PLAYER_BLOCK_INTERACTION_RANGE, PLAYER_ENTITY_INTERACTION_RANGE, or ZOMBIE_SPAWN_REINFORCEMENTS''. Possible operations: ''ADD_NUMBER, ADD_SCALAR, or MULTIPLY_SCALAR_1''. Possible slots are ''WEAPON, OFF_HAND, BOOTS, LEGGINGS, CHESTPLATE, or HELMET'' or one of the slot groups ''ANY, HAND, or ARMOR''.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
