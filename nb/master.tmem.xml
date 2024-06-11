@@ -52171,4 +52171,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-7454</id>
+	<key><![CDATA[player%s: The player's name%sblock%s: the block type that was placed%sagainst%s: a block array of the block being placed against%soldblock%s: the old block type that was replaced%slocation%s: A locationArray for this block%sitem%s: the item used to the place the block%shand%s: hand used to place the block]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

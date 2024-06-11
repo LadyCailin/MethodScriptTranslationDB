@@ -59622,4 +59622,12 @@
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
 </translationEntry>
+<translationEntry>
+	<id>7454</id>
+	<key><![CDATA[player%s: The player's name%sblock%s: the block type that was placed%sagainst%s: a block array of the block being placed against%soldblock%s: the old block type that was replaced%slocation%s: A locationArray for this block%sitem%s: the item used to the place the block%shand%s: hand used to place the block]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
 </summary>
