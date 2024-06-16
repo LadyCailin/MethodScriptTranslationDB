@@ -1820,4 +1820,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-7471</id>
+	<key><![CDATA[type: The art on the painting (can be KEBAB, AZTEC, ALBAN, AZTEC2, BOMB, PLANT, WASTELAND, MEDITATIVE, POOL, COURBET, SEA, SUNSET, CREEBET, WANDERER, GRAHAM, PRAIRIE_RIDE, MATCH, BUST, STAGE, VOID, SKULL_AND_ROSES, WITHER, BAROQUE, HUMBLE, EARTH, WIND, WATER, FIRE, FIGHTERS, CHANGING, FINDING, LOWMIST, PASSAGE, BOUQUET, CAVEBIRD, COTAN, ENDBOSS, FERN, OWLEMONS, SUNFLOWERS, TIDES, SKELETON, DONKEY_KONG, BACKYARD, POND, POINTER, PIGSCENE, BURNING_SKULL, ORB, or UNPACKED).]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7472</id>
+	<key><![CDATA[knockback: The knockback strength. (int) (before MC 1.21)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

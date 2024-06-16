@@ -1645,4 +1645,32 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-7460</id>
+	<key><![CDATA[Added support for Spigot 1.21]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7461</id>
+	<key><![CDATA[Spigot 1.16.5 - 1.21]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7462</id>
+	<key><![CDATA[Spigot or Paper 1.16.5 - 1.21 (when used as a plugin)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7463</id>
+	<key><![CDATA[3.3.5 build-478]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

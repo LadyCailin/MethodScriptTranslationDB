@@ -567,4 +567,46 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-7464</id>
+	<key><![CDATA[The "0:0" format is no longer guaranteed to be accurate, so it's deprecated wherever it's used. In most cases you will be warned on compile time if you use these anywhere. If not, you will be warned in the log at runtime, but the item/block will be attempted to be converted. Notably, get|set_block_at() have been replaced with get|set_block(). If you need to read or write block data, the get|set_blockdata_string() functions are available until further functionality is added. These use the same format as vanilla block commands.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7465</id>
+	<key><![CDATA[Attribute modifiers' optional "name" and "uuid" keys have been replaced with a namespaced key under "id". Old attribute modifiers will use the UUID to generate a namespaced key.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7466</id>
+	<key><![CDATA[In addition the vanilla changes to commands, they no longer automatically process vanilla selectors for plugin commands. You will have to implement selectors yourself if you need this behavior. If upgrading to 3.3.5, you can use the select_entites() function.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7467</id>
+	<key><![CDATA[HORSE_JUMP_STRENGTH attribute was changed to GENERIC_JUMP_STRENGTH]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7468</id>
+	<key><![CDATA[Pre-1.9 sound names are all removed and some post 1.9 sounds have been updated to reflect 1.13. However, these will no longer cause play_sound() to throw an exception. Instead, it will warn in the log and continue running. play_named_sound() always behaved like this, but did so silently. play_sound() will now simply warn you if the sound didn't play because the name is incorrect.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7469</id>
+	<key><![CDATA[Minecraft 1.21]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

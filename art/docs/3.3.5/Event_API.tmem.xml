@@ -3885,4 +3885,25 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-7457</id>
+	<key><![CDATA[id%s: %s&lt;Macro&gt; The entityID%stype%s: %s&lt;Macro&gt; The type of entity being damaged%scause%s: %s&lt;Macro&gt; One of CONTACT, ENTITY_ATTACK, PROJECTILE, SUFFOCATION, FALL, FIRE, FIRE_TICK, LAVA, DROWNING, BLOCK_EXPLOSION, ENTITY_EXPLOSION, VOID, LIGHTNING, SUICIDE, STARVATION, POISON, MAGIC, MELTING, WITHER, FALLING_BLOCK, THORNS, DRAGON_BREATH, FLY_INTO_WALL, HOT_FLOOR, CAMPFIRE, CRAMMING, ENTITY_SWEEP_ATTACK, DRYOUT, FREEZE, SONIC_BOOM, KILL, WORLD_BORDER, or CUSTOM%sworld%s: %s&lt;String Match&gt;]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7458</id>
+	<key><![CDATA[world%s: The world in which the tree has grown.%stype%s: The tree type, can be one of TREE, BIG_TREE, REDWOOD, TALL_REDWOOD, BIRCH, JUNGLE, SMALL_JUNGLE, JUNGLE_BUSH, RED_MUSHROOM, BROWN_MUSHROOM, SWAMP, ACACIA, DARK_OAK, COCOA_TREE, MEGA_REDWOOD, MEGA_PINE, TALL_BIRCH, CHORUS_PLANT, CRIMSON_FUNGUS, WARPED_FUNGUS, AZALEA, MANGROVE, TALL_MANGROVE, or CHERRY%sblocks%s: An array containing all locations of grown blocks.%slocation%s: The location of the sapling.%sbonemeal%s: If the tree has grown due to a bonemeal or not.%splayer%s: The player who used the bonemeal, or %s if no bonemeal was used.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7459</id>
+	<key><![CDATA[type%s: %s&lt;Macro&gt;%sreason%s: %s&lt;Macro&gt; One of BEEHIVE, BREEDING, BUILD_IRONGOLEM, BUILD_SNOWMAN, BUILD_WITHER, COMMAND, CUSTOM, DEFAULT, EGG, JOCKEY, LIGHTNING, NATURAL, PATROL, PIGLIN_ZOMBIFIED, RAID, REINFORCEMENTS, SHOULDER_ENTITY, SLIME_SPLIT, SPAWNER, SPAWNER_EGG, VILLAGE_DEFENSE, VILLAGE_INVASION, NETHER_PORTAL, DISPENSE_EGG, INFECTION, CURED, OCELOT_BABY, SILVERFISH_BLOCK, MOUNT, TRAP, ENDER_PEARL, DROWNED, SHEARED, EXPLOSION, FROZEN, SPELL, METAMORPHOSIS, DUPLICATION, or ENCHANTMENT]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

@@ -126,4 +126,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nl-7455</id>
+	<key><![CDATA[Generates a tree at the given location and returns if the generation succeeded or not. The treeType can be TREE, BIG_TREE, REDWOOD, TALL_REDWOOD, BIRCH, JUNGLE, SMALL_JUNGLE, JUNGLE_BUSH, RED_MUSHROOM, BROWN_MUSHROOM, SWAMP, ACACIA, DARK_OAK, COCOA_TREE, MEGA_REDWOOD, MEGA_PINE, TALL_BIRCH, CHORUS_PLANT, CRIMSON_FUNGUS, WARPED_FUNGUS, AZALEA, MANGROVE, TALL_MANGROVE, or CHERRY, defaulting to TREE.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

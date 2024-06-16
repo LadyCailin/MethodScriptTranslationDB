@@ -112,4 +112,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-7456</id>
+	<key><![CDATA[Removes an attribute modifier from an entity. Can provide either a modifier array or just the attribute and namespaced id of the modifier.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
