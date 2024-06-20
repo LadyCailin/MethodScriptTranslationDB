@@ -483,4 +483,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-7481</id>
+	<key><![CDATA[The smallest positive nonzero number that can be represented as a float]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
