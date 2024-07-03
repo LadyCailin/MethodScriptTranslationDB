@@ -48664,4 +48664,32 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nl-7482</id>
+	<key><![CDATA[item_pre_anvil]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7483</id>
+	<key><![CDATA[Fires when a recipe is formed in an anvil, but the result has not yet been clicked.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7484</id>
+	<key><![CDATA[player%s: the player using the anvil.%sfirst_item%s: the first item being used in the recipe.%ssecond_item%s: the second item being used in the recipe.%sresult%s: the result of the recipe.%smax_repair_cost%s: the maximum possible cost of this repair.%slevel_repair_cost%s: how many levels are needed to perform this repair.%sitem_repair_cost%s: how many items are needed to perform this repair.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7485</id>
+	<key><![CDATA[result%s: the result of the anvil]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
