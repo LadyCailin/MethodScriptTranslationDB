@@ -3941,4 +3941,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-7487</id>
+	<key><![CDATA[world%s: %s&lt;[[%s|World Match]]&gt; The world the fishing happens in.%sstate%s: %s&lt;[[%s|Enum Match]]&gt; Can be one of CAUGHT_ENTITY, CAUGHT_FISH, FAILED_ATTEMPT, FISHING, IN_GROUND, BITE, REEL_IN, or LURED.%splayer%s: %s&lt;[[%s|Player Match]]&gt; The player who is fishing.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

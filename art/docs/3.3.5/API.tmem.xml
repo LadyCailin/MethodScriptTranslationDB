@@ -11060,4 +11060,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-7486</id>
+	<key><![CDATA[Returns a player&apos;s average response time to ping packets in milliseconds. This is an indicator of the quality of the player&apos;s connection, as represented in the tab list.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
