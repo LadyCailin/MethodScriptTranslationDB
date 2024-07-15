@@ -52528,4 +52528,46 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-7505</id>
+	<key><![CDATA[Fires when a slot is clicked in a crafting matrix. Can also fire when clearing an inventory with the the /clear command or shift-clicking the 'Destroy Item' button in creative mode.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7506</id>
+	<key><![CDATA[result%s: the item array product of the recipe.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7507</id>
+	<key><![CDATA[Fires when a slot other than the result is clicked in a grindstone. (MC 1.19.3+) Can fire multiple times per click.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7508</id>
+	<key><![CDATA[Fires when a slot other than the result is clicked in a smithing table. Can fire multiple times per click.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7509</id>
+	<key><![CDATA[player%s: the name of the player who clicked%sviewers%smatrix%s: an array of item arrays in the crafting matrix%sresult%sisRepair%s: true if this event was triggered by a repair operation%srecipe%s: an array of data about the formed recipe, or %s if there is not one]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7510</id>
+	<key><![CDATA[Fires when a slot other than the result is clicked in an anvil. Can fire multiple times per click.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
