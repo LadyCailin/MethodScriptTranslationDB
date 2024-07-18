@@ -112,4 +112,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-7513</id>
+	<key><![CDATA[locationArray, owner, %s[%stexture%s]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7516</id>
+	<key><![CDATA[Sets the owner of the skull at the given location by name or uuid. Supplying %s will clear the skull owner, but due to limitations in Bukkit, clients will only see this change after reloading the block. If owner is not %s, the texture value as a Base64 encoded string may be provided. (Paper only) If no world is provided and the function is executed by a player, the player's world is used. If the block at the given location isn't a skull, a RangeException is thrown.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
