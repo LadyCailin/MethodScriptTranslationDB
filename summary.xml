@@ -60126,4 +60126,52 @@
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
 </translationEntry>
+<translationEntry>
+	<id>7517</id>
+	<key><![CDATA[player%s: the player who used the bucket.%slocation%s: where the bucket was emptied to.%shand%s: hand the player was holding the bucket in, either main_hand or off_hand (MC 1.19.2+).%sitem%s: the bucket item the player ended up with.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>7518</id>
+	<key><![CDATA[player_bucket_fill]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>7519</id>
+	<key><![CDATA[Fired when a player empties a bucket in their hand into the world.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>7520</id>
+	<key><![CDATA[Fired when a player fills a bucket in their hand from the world.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>7521</id>
+	<key><![CDATA[player%s: the player who used the bucket.%slocation%s: where the bucket was filled from.%shand%s: hand the player was holding the bucket in, either main_hand or off_hand (MC 1.19.2+).%sitem%s: the bucket item the player ended up with.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>7522</id>
+	<key><![CDATA[player_bucket_empty]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
 </summary>
