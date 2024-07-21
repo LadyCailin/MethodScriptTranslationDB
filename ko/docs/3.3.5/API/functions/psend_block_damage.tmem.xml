@@ -112,4 +112,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-7523</id>
+	<key><![CDATA[[%splayer%s]%s, locationArray, progress, %s[%sentity%s]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7525</id>
+	<key><![CDATA[Sends the player fake block damage progress. Progress is a percentage from 0.0 to 1.0, with 0.0 clearing any block damage. Alternatively you can specify the discrete damage state as an integer from 0 to 10. If a source entity UUID is specified, it will be as if that entity is damaging the block, otherwise the player will be used. If given %s, damage will disregard source entity. If that entity damages a different block, the previous block's damage will be cleared. If unchanged, the damage will clear on its own after 20 seconds. On versions prior to Spigot 1.19.4 or Paper 1.19.2, the source entity will always be the player this block damage is being sent to.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
