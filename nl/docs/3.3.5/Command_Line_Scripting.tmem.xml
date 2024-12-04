@@ -147,4 +147,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nl-7538</id>
+	<key><![CDATA[Finally, you may execute a MethodScript file on unix systems by executing it directly. To do so, be sure to put  %s#!/usr/bin/env /usr/local/bin/mscript%s at the top of your file, then set the file's execution bit,  using %schmod +x &gt;filename&lt;%s. Then, you may simply run %s./script.ms%s (assuming the filename is script.ms). Using the cmdline tool "new" you can create a blank file with the file set up correctly.  [[%s|See this page]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7539</id>
+	<key><![CDATA[To use the cmdline tools, there are three methods. First, the cmdline interpreter can be accessed by simply running  %smscript%s. This simply runs the command line interpreter, which is in fact the engine for all the other  methods. The second method is to use %smscript &gt;filename&lt;%s. This executes the file, assuming it is a valid pure mscript file.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

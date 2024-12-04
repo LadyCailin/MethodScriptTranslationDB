@@ -168,4 +168,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nl-7527</id>
+	<key><![CDATA[Returns an associative array containing the values of all existing gamerules for the given world. If the gameRule parameter is specified, the function only returns that one value instead of an array. The gameRule can be announceAdvancements, blockExplosionDropDecay, commandBlockOutput, commandModificationBlockLimit, disableElytraMovementCheck, disablePlayerMovementCheck, disableRaids, doDaylightCycle, doEntityDrops, doFireTick, doImmediateRespawn, doInsomnia, doLimitedCrafting, doMobLoot, doMobSpawning, doPatrolSpawning, doTileDrops, doTraderSpawning, doVinesSpread, doWardenSpawning, doWeatherCycle, drowningDamage, enderPearlsVanishOnDeath, fallDamage, fireDamage, forgiveDeadPlayers, freezeDamage, globalSoundEvents, keepInventory, lavaSourceConversion, logAdminCommands, maxCommandChainLength, maxCommandForkCount, maxEntityCramming, minecartMaxSpeed, mobExplosionDropDecay, mobGriefing, naturalRegeneration, playersNetherPortalCreativeDelay, playersNetherPortalDefaultDelay, playersSleepingPercentage, projectilesCanBreakBlocks, randomTickSpeed, reducedDebugInfo, sendCommandFeedback, showDeathMessages, snowAccumulationHeight, spawnChunkRadius, spawnRadius, spectatorsGenerateChunks, tntExplosionDropDecay, universalAnger, or waterSourceConversion.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

@@ -119,4 +119,11 @@
 	<translation></translation>
 	<auto><![CDATA[Dokumenter]]></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-7529</id>
+	<key><![CDATA[Stops the specified sound for a player.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

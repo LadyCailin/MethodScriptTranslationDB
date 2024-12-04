@@ -119,4 +119,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-7532</id>
+	<key><![CDATA[Stops all sounds in a category for a player. (MC 1.19+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

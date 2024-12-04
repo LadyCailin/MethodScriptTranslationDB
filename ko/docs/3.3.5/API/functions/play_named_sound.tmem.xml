@@ -133,4 +133,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-7559</id>
+	<key><![CDATA[Plays a sound at the given source. Source can be a location array (or entity UUID on MC 1.19.3+). The soundArray is in an associative array with the keys: 'sound', 'category', 'volume' (float), 'pitch' (float), 'seed' (int; MC 1.20.2+) -- all are optional except sound. Volume, if greater than 1.0 (default), controls the distance players can hear the sound. Pitch has a clamped range of 0.5 - 2.0, where where 1.0 is the middle pitch and default. Seed is an integer that determines which sound variant is played. Players can be a single player or an array of players to play the sound to, if not given, all players can potentially hear it. Sound is a sound path, separated by periods.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

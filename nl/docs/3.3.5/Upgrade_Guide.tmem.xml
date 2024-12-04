@@ -609,4 +609,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nl-7545</id>
+	<key><![CDATA[BOAT and CHEST_BOAT entity types have been split into wood types. ("OAK_BOAT", "ACACIA_CHEST_BOAT", etc.)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7546</id>
+	<key><![CDATA[Minecraft 1.21.2]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

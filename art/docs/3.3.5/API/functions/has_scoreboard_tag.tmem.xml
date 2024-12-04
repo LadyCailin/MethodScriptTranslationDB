@@ -8,6 +8,13 @@
 	<auto></auto>
 </translationBlock>
 <translationBlock>
+	<id>art-847</id>
+	<key><![CDATA[entityUUID, tag]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
 	<id>art-2878</id>
 	<key><![CDATA[Examples]]></key>
 	<comment></comment>
@@ -38,13 +45,6 @@
 <translationBlock>
 	<id>art-3792</id>
 	<key><![CDATA[Sorry, there are no examples for this function! :(]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto></auto>
-</translationBlock>
-<translationBlock>
-	<id>art-3805</id>
-	<key><![CDATA[See Also]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
@@ -106,22 +106,8 @@
 	<auto><![CDATA[Døcs]]></auto>
 </translationBlock>
 <translationBlock>
-	<id>art-7370</id>
-	<key><![CDATA[Stops all sounds in a category for the given player. (MC 1.19)]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto></auto>
-</translationBlock>
-<translationBlock>
-	<id>art-7371</id>
-	<key><![CDATA[player, category]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto></auto>
-</translationBlock>
-<translationBlock>
-	<id>art-7532</id>
-	<key><![CDATA[Stops all sounds in a category for a player. (MC 1.19+)]]></key>
+	<id>art-7531</id>
+	<key><![CDATA[Returns whether this entity has a specific tag.]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>

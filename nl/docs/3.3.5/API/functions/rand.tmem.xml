@@ -168,4 +168,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nl-7530</id>
+	<key><![CDATA[Returns a random number from 0 to max or min to max, depending on usage. Max is exclusive. Min must be less than max. This will return an integer. If no arguments are given, a random double from 0.0 to 1.0 (exclusive) will be returned.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
