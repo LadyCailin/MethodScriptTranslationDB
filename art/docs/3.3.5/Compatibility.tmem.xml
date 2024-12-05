@@ -1708,4 +1708,39 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-7567</id>
+	<key><![CDATA[Spigot 1.16.5 - 1.21.4]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7568</id>
+	<key><![CDATA[Added support for Spigot 1.21.4]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7569</id>
+	<key><![CDATA[[%s 62e47f3]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7570</id>
+	<key><![CDATA[3.3.5 build-500]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7571</id>
+	<key><![CDATA[Spigot or Paper 1.16.5 - 1.21.4 (when used as a plugin)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
