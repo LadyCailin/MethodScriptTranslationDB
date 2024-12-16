@@ -60670,4 +60670,20 @@
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
 </translationEntry>
+<translationEntry>
+	<id>7585</id>
+	<key><![CDATA[Recompiles specified files already compiled with include(). If there&apos;s no compile errors, scripts that then include() these files will use the updated code. Note that this bypasses Static Analysis, even if you have it enabled. The path can be a directory or file. It is executed recursively through all subdirectories. If there&apos;s a compile error in any of the files, the function will throw an exception and other scripts will continue to use the previous version of the code when included. Returns number of files recompiled.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>7586</id>
+	<key><![CDATA[Recompiles specified files already compiled with include(). If there's no compile errors, scripts that then include() these files will use the updated code. Note that this bypasses Static Analysis, even if you have it enabled. The path can be a directory or file. It is executed recursively through all subdirectories. If there's a compile error in any of the files, the function will throw an exception and other scripts will continue to use the previous version of the code when included. Returns number of files recompiled.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
 </summary>
