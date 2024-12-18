@@ -119,4 +119,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-7594</id>
+	<key><![CDATA[Adds enchantments to an item in the player's inventory. A single enchantment type and level can be specified or an enchantment array may be given. If slot is %s, the currently selected slot is used. If an enchantment cannot be applied to the specified item, an EnchantmentException is thrown. The enchantment array must have the enchantment as keys and levels as the values. (eg. array('unbreaking': 1)) The level parameter can be a number or a roman numeral.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7595</id>
+	<key><![CDATA[The available enchantments are: AQUA_AFFINITY, BANE_OF_ARTHROPODS, BINDING_CURSE, BLAST_PROTECTION, CHANNELING, DEPTH_STRIDER, EFFICIENCY, FEATHER_FALLING, FIRE_ASPECT, FIRE_PROTECTION, FLAME, FORTUNE, FROST_WALKER, IMPALING, INFINITY, KNOCKBACK, LOOTING, LOYALTY, LUCK_OF_THE_SEA, LURE, MENDING, POWER, PROJECTILE_PROTECTION, PROTECTION, PUNCH, RESPIRATION, RIPTIDE, SHARPNESS, SILK_TOUCH, SMITE, THORNS, UNBREAKING, VANISHING_CURSE, SWEEPING, MULTISHOT, PIERCING, QUICK_CHARGE, SOUL_SPEED, SWIFT_SNEAK, BREACH, DENSITY, and WIND_BURST.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

@@ -53102,4 +53102,130 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-7587</id>
+	<key><![CDATA[This function causes an exception to be thrown. The exceptionType may be any valid exception type. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7588</id>
+	<key><![CDATA[Adds enchantments to an item in the player&apos;s inventory. A single enchantment type and level can be specified or an enchantment array may be given. If slot is %s, the currently selected slot is used. If an enchantment cannot be applied to the specified item, an EnchantmentException is thrown. The enchantment array must have the enchantment as keys and levels as the values. (eg. array(&apos;unbreaking&apos;: 1)) The level parameter can be a number or a roman numeral. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7589</id>
+	<key><![CDATA[Returns an associative array containing the values of all existing gamerules for the given world. If the gameRule parameter is specified, the function only returns that one value instead of an array. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7590</id>
+	<key><![CDATA[Plays the specified effect at the given location for all players within the radius (or 64 by default). [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7591</id>
+	<key><![CDATA[Plays the given visual effect on the entity. Non-applicable effects simply won&apos;t happen. Note: the death effect makes the mob invisible to players and immune to melee attacks. When used on players, they are shown the respawn menu, but because they are not actually dead, they can only log out. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7592</id>
+	<key><![CDATA[Sets the value of the gamerule for the specified world. If world is not given the value is set for all worlds. Returns true if successful. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7593</id>
+	<key><![CDATA[Returns an array of all entities within the given distance from the location. Set type argument to filter entities to a specific entity type. You can pass an array of types. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7594</id>
+	<key><![CDATA[Adds enchantments to an item in the player's inventory. A single enchantment type and level can be specified or an enchantment array may be given. If slot is %s, the currently selected slot is used. If an enchantment cannot be applied to the specified item, an EnchantmentException is thrown. The enchantment array must have the enchantment as keys and levels as the values. (eg. array('unbreaking': 1)) The level parameter can be a number or a roman numeral.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7595</id>
+	<key><![CDATA[The available enchantments are: AQUA_AFFINITY, BANE_OF_ARTHROPODS, BINDING_CURSE, BLAST_PROTECTION, CHANNELING, DEPTH_STRIDER, EFFICIENCY, FEATHER_FALLING, FIRE_ASPECT, FIRE_PROTECTION, FLAME, FORTUNE, FROST_WALKER, IMPALING, INFINITY, KNOCKBACK, LOOTING, LOYALTY, LUCK_OF_THE_SEA, LURE, MENDING, POWER, PROJECTILE_PROTECTION, PROTECTION, PUNCH, RESPIRATION, RIPTIDE, SHARPNESS, SILK_TOUCH, SMITE, THORNS, UNBREAKING, VANISHING_CURSE, SWEEPING, MULTISHOT, PIERCING, QUICK_CHARGE, SOUL_SPEED, SWIFT_SNEAK, BREACH, DENSITY, and WIND_BURST.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7596</id>
+	<key><![CDATA[Valid types: DROPPED_ITEM, MAGMA_CUBE, SILVERFISH, MULE, HOGLIN, HUSK, VINDICATOR, WARDEN, OMINOUS_ITEM_SPAWNER, PILLAGER, SHULKER_BULLET, VILLAGER, AREA_EFFECT_CLOUD, PALE_OAK_BOAT, PAINTING, TURTLE, MANGROVE_CHEST_BOAT, TRADER_LLAMA, SMALL_FIREBALL, CAVE_SPIDER, SLIME, DROWNED, FIREBALL, EVOKER, MARKER, MINECART_HOPPER, CHERRY_BOAT, ENDERMITE, AXOLOTL, MANGROVE_BOAT, PLAYER, TEXT_DISPLAY, SALMON, ZOMBIE, BIRCH_CHEST_BOAT, OAK_CHEST_BOAT, GOAT, STRIDER, PANDA, MINECART_COMMAND, OCELOT, OAK_BOAT, CREAKING, ENDERMAN, ZOMBIE_VILLAGER, ACACIA_BOAT, LLAMA, ENDER_DRAGON, PALE_OAK_CHEST_BOAT, WITCH, EXPERIENCE_ORB, ARMADILLO, ITEM_FRAME, WITHER, ARROW, CREEPER, BOGGED, ILLUSIONER, BREEZE, CAMEL, COD, ENDER_EYE, ZOMBIE_HORSE, MINECART_TNT, FIREWORK, PRIMED_TNT, RAVAGER, SHULKER, SNIFFER, FISHING_HOOK, BEE, SPRUCE_CHEST_BOAT, ITEM_DISPLAY, PHANTOM, BLAZE, SKELETON_HORSE, COW, WANDERING_TRADER, PIG, ZOGLIN, MINECART_MOB_SPAWNER, BREEZE_WIND_CHARGE, WOLF, IRON_GOLEM, BIRCH_BOAT, CHERRY_CHEST_BOAT, FROG, SHEEP, VEX, ENDER_PEARL, BLOCK_DISPLAY, TRIDENT, PIGLIN_BRUTE, POLAR_BEAR, MINECART, SNOWMAN, MINECART_CHEST, LEASH_HITCH, BAMBOO_CHEST_RAFT, SQUID, DRAGON_FIREBALL, ELDER_GUARDIAN, HORSE, ARMOR_STAND, LIGHTNING, PARROT, JUNGLE_CHEST_BOAT, EVOKER_FANGS, FOX, GIANT, STRAY, SPECTRAL_ARROW, CAT, RABBIT, DONKEY, JUNGLE_BOAT, SPRUCE_BOAT, GLOW_ITEM_FRAME, ACACIA_CHEST_BOAT, ENDER_CRYSTAL, INTERACTION, TROPICAL_FISH, ALLAY, SPIDER, SKELETON, WITHER_SKELETON, BAMBOO_RAFT, MUSHROOM_COW, CHICKEN, ZOMBIFIED_PIGLIN, SNOWBALL, THROWN_EXP_BOTTLE, GLOW_SQUID, WITHER_SKULL, PUFFERFISH, GUARDIAN, EGG, LLAMA_SPIT, WIND_CHARGE, FALLING_BLOCK, SPLASH_POTION, PIGLIN, GHAST, DARK_OAK_CHEST_BOAT, BAT, DARK_OAK_BOAT, DOLPHIN, TADPOLE, MINECART_FURNACE, or UNKNOWN]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7597</id>
+	<key><![CDATA[Returns an array of all entities within the given distance from the location. Set type argument to filter entities to a specific entity type. You can pass an array of types.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7598</id>
+	<key><![CDATA[The gameRule can be announceAdvancements, blockExplosionDropDecay, commandBlockOutput, commandModificationBlockLimit, disableElytraMovementCheck, disablePlayerMovementCheck, disableRaids, doDaylightCycle, doEntityDrops, doFireTick, doImmediateRespawn, doInsomnia, doLimitedCrafting, doMobLoot, doMobSpawning, doPatrolSpawning, doTileDrops, doTraderSpawning, doVinesSpread, doWardenSpawning, doWeatherCycle, drowningDamage, enderPearlsVanishOnDeath, fallDamage, fireDamage, forgiveDeadPlayers, freezeDamage, globalSoundEvents, keepInventory, lavaSourceConversion, logAdminCommands, maxCommandChainLength, maxCommandForkCount, maxEntityCramming, minecartMaxSpeed, mobExplosionDropDecay, mobGriefing, naturalRegeneration, playersNetherPortalCreativeDelay, playersNetherPortalDefaultDelay, playersSleepingPercentage, projectilesCanBreakBlocks, randomTickSpeed, reducedDebugInfo, sendCommandFeedback, showDeathMessages, snowAccumulationHeight, spawnChunkRadius, spawnRadius, spectatorsGenerateChunks, tntExplosionDropDecay, universalAnger, or waterSourceConversion.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7599</id>
+	<key><![CDATA[Returns an associative array containing the values of all existing gamerules for the given world. If the gameRule parameter is specified, the function only returns that one value instead of an array.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7600</id>
+	<key><![CDATA[The effect can be one of the following: BEE_GROWTH, BONE_MEAL_USE, COMPOSTER_FILL_ATTEMPT, COPPER_WAX_OFF, COPPER_WAX_ON, DRAGON_BREATH, DRIPPING_DRIPSTONE, ELECTRIC_SPARK, ENDER_DRAGON_DESTROY_BLOCK, END_GATEWAY_SPAWN, END_PORTAL_FRAME_FILL, ENDER_SIGNAL, INSTANT_POTION_BREAK, LAVA_INTERACT, MOBSPAWNER_FLAMES, OXIDISED_COPPER_SCRAPE, PARTICLES_EGG_CRACK, PARTICLES_AND_SOUND_BRUSH_BLOCK_COMPLETE, PARTICLES_SCULK_CHARGE, POTION_BREAK, REDSTONE_TORCH_BURNOUT, SHOOT_WHITE_SMOKE, SMASH_ATTACK, SMOKE, SPAWN_COBWEB, SPONGE_DRY, TRIAL_SPAWNER_BECOME_OMINOUS, TRIAL_SPAWNER_DETECT_PLAYER, TRIAL_SPAWNER_DETECT_PLAYER_OMINOUS, TRIAL_SPAWNER_EJECT_ITEM, TRIAL_SPAWNER_SPAWN, TRIAL_SPAWNER_SPAWN_ITEM, TRIAL_SPAWNER_SPAWN_MOB_AT, TURTLE_EGG_PLACEMENT, VAULT_ACTIVATE, VAULT_DEACTIVATE, VAULT_EJECT_ITEM, VILLAGER_PLANT_GROW, ANVIL_BREAK, ANVIL_LAND, ANVIL_USE, BAT_TAKEOFF, BLAZE_SHOOT, BOOK_PAGE_TURN, BOW_FIRE, BREWING_STAND_BREW, CHORUS_FLOWER_DEATH, CHORUS_FLOWER_GROW, CLICK1, CLICK2, CRAFTER_CRAFT, CRAFTER_FAIL, DOOR_CLOSE, DOOR_TOGGLE, ENDERDRAGON_GROWL, ENDERDRAGON_SHOOT, ENDEREYE_LAUNCH, EXTINGUISH, FENCE_GATE_CLOSE, FENCE_GATE_TOGGLE, FIREWORK_SHOOT, GHAST_SHOOT, GHAST_SHRIEK, GRINDSTONE_USE, HUSK_CONVERTED_TO_ZOMBIE, IRON_DOOR_CLOSE, IRON_DOOR_TOGGLE, IRON_TRAPDOOR_CLOSE, IRON_TRAPDOOR_TOGGLE, PARTICLES_SCULK_SHRIEK, PHANTOM_BITE, POINTED_DRIPSTONE_DRIP_LAVA_INTO_CAULDRON, POINTED_DRIPSTONE_DRIP_WATER_INTO_CAULDRON, POINTED_DRIPSTONE_LAND, PORTAL_TRAVEL, RECORD_PLAY, SKELETON_CONVERTED_TO_STRAY, SMITHING_TABLE_USE, SOUND_STOP_JUKEBOX_SONG, SOUND_WITH_CHARGE_SHOT, STEP_SOUND, TRAPDOOR_CLOSE, TRAPDOOR_TOGGLE, ZOMBIE_CHEW_WOODEN_DOOR, ZOMBIE_CHEW_IRON_DOOR, ZOMBIE_DESTROY_DOOR, WITHER_BREAK_BLOCK, WITHER_SHOOT, ZOMBIE_CONVERTED_TO_DROWNED, ZOMBIE_CONVERTED_VILLAGER, or ZOMBIE_INFECT. Some effects may require an applicable block at the specified location. Additional data can be supplied with the syntax EFFECT:DATA.%sSTEP_SOUND and PARTICLES_AND_SOUND_BRUSH_BLOCK_COMPLETE (Paper) take a block material name.%sRECORD_PLAY takes a record material name.%sSHOOT_WHITE_SMOKE (Paper) and SMOKE take a facing, one of NORTH, EAST, SOUTH, WEST, UP, DOWN, NORTH_EAST, NORTH_WEST, SOUTH_EAST, SOUTH_WEST, WEST_NORTH_WEST, NORTH_NORTH_WEST, NORTH_NORTH_EAST, EAST_NORTH_EAST, EAST_SOUTH_EAST, SOUTH_SOUTH_EAST, SOUTH_SOUTH_WEST, WEST_SOUTH_WEST, or SELF%sPOTION_BREAK takes an int (represents color).%sBONE_MEAL_USE, BEE_GROWTH (Paper), SMASH_ATTACK (Paper) and TURTLE_EGG_PLACEMENT (Paper) take an int for the number of particles.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7601</id>
+	<key><![CDATA[Plays the specified effect at the given location for all players within the radius (or 64 by default).]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7602</id>
+	<key><![CDATA[Possible effects are: ARROW_PARTICLES, RABBIT_JUMP, DEATH, EGG_BREAK, SNOWBALL_BREAK, ENTITY_DEATH, HURT, SHEEP_EAT, SHEEP_EAT_GRASS, TNT_MINECART_IGNITE, WOLF_HEARTS, WOLF_SHAKE, WOLF_SMOKE, IRON_GOLEM_ROSE, VILLAGER_HEART, VILLAGER_ANGRY, VILLAGER_HAPPY, WITCH_MAGIC, ZOMBIE_TRANSFORM, FIREWORK_EXPLODE, LOVE_HEARTS, SQUID_ROTATE, ENTITY_POOF, GUARDIAN_TARGET, SHIELD_BLOCK, SHIELD_BREAK, ARMOR_STAND_HIT, THORNS_HURT, IRON_GOLEM_SHEATH, TOTEM_RESURRECT, HURT_DROWN, HURT_EXPLOSION, DOLPHIN_FED, RAVAGER_STUNNED, CAT_TAME_FAIL, CAT_TAME_SUCCESS, VILLAGER_SPLASH, PLAYER_BAD_OMEN_RAID, HURT_BERRY_BUSH, FOX_CHEW, TELEPORT_ENDER, BREAK_EQUIPMENT_MAIN_HAND, BREAK_EQUIPMENT_OFF_HAND, BREAK_EQUIPMENT_HELMET, BREAK_EQUIPMENT_CHESTPLATE, BREAK_EQUIPMENT_LEGGINGS, BREAK_EQUIPMENT_BOOTS, RESET_SPAWNER_MINECART_DELAY, FANG_ATTACK, HOGLIN_ATTACK, RAVAGER_ATTACK, WARDEN_ATTACK, ZOGLIN_ATTACK, HONEY_BLOCK_SLIDE_PARTICLES, HONEY_BLOCK_FALL_PARTICLES, SWAP_HAND_ITEMS, WOLF_SHAKE_STOP, GOAT_LOWER_HEAD, GOAT_RAISE_HEAD, SPAWN_DEATH_SMOKE, WARDEN_TENDRIL_SHAKE, WARDEN_SONIC_ATTACK, or SNIFFER_DIG]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7603</id>
+	<key><![CDATA[Plays the given visual effect on the entity. Non-applicable effects simply won't happen. Note: the death effect makes the mob invisible to players and immune to melee attacks. When used on players, they are shown the respawn menu, but because they are not actually dead, they can only log out.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7604</id>
+	<key><![CDATA[Sets the value of the gamerule for the specified world. If world is not given the value is set for all worlds. Returns true if successful.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

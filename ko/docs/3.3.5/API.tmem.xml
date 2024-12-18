@@ -11193,4 +11193,53 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-7587</id>
+	<key><![CDATA[This function causes an exception to be thrown. The exceptionType may be any valid exception type. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7588</id>
+	<key><![CDATA[Adds enchantments to an item in the player&apos;s inventory. A single enchantment type and level can be specified or an enchantment array may be given. If slot is %s, the currently selected slot is used. If an enchantment cannot be applied to the specified item, an EnchantmentException is thrown. The enchantment array must have the enchantment as keys and levels as the values. (eg. array(&apos;unbreaking&apos;: 1)) The level parameter can be a number or a roman numeral. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7589</id>
+	<key><![CDATA[Returns an associative array containing the values of all existing gamerules for the given world. If the gameRule parameter is specified, the function only returns that one value instead of an array. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7590</id>
+	<key><![CDATA[Plays the specified effect at the given location for all players within the radius (or 64 by default). [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7591</id>
+	<key><![CDATA[Plays the given visual effect on the entity. Non-applicable effects simply won&apos;t happen. Note: the death effect makes the mob invisible to players and immune to melee attacks. When used on players, they are shown the respawn menu, but because they are not actually dead, they can only log out. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7592</id>
+	<key><![CDATA[Sets the value of the gamerule for the specified world. If world is not given the value is set for all worlds. Returns true if successful. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7593</id>
+	<key><![CDATA[Returns an array of all entities within the given distance from the location. Set type argument to filter entities to a specific entity type. You can pass an array of types. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
