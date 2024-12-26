@@ -53935,4 +53935,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-7706</id>
+	<key><![CDATA[Returns a player&apos;s current input. (MC 1.21.3+) This can be used to detect which movement keys the player is pressing. Array contains the following keys: forward, backward, left, right, jump, sneak, and sprint.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7707</id>
+	<key><![CDATA[Returns a player's current input. (MC 1.21.3+) This can be used to detect which movement keys the player is pressing. Array contains the following keys: forward, backward, left, right, jump, sneak, and sprint.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
