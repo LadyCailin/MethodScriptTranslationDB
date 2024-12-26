@@ -50225,4 +50225,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nl-7705</id>
+	<key><![CDATA[Returns an array of info about the material. If a trait is specified, it returns only that trait. Available traits: hasGravity, isBlock, isItem, isBurnable, isEdible, isFlammable, isOccluding, isRecord, isSolid, isTransparent, isInteractable, maxDurability, hardness (for block materials only), blastResistance (for block materials only), and maxStacksize. The accuracy of these values depend on the server implementation.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
