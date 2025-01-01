@@ -61678,4 +61678,20 @@
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
 </translationEntry>
+<translationEntry>
+	<id>7711</id>
+	<key><![CDATA[Gets whether the entity will be saved to disk when it is unloaded.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
+<translationEntry>
+	<id>7712</id>
+	<key><![CDATA[Sets whether the entity is saved to disk when it is unloaded. By default an entity is saved. Setting this to false disables that. Can be used on players to disable player data saving on quit.]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
 </summary>

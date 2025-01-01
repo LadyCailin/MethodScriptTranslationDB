@@ -50267,4 +50267,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nl-7711</id>
+	<key><![CDATA[Gets whether the entity will be saved to disk when it is unloaded.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7712</id>
+	<key><![CDATA[Sets whether the entity is saved to disk when it is unloaded. By default an entity is saved. Setting this to false disables that. Can be used on players to disable player data saving on quit.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
