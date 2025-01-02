@@ -53984,4 +53984,32 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-7713</id>
+	<key><![CDATA[player%sadvancement%stitle%s: The advancement display title, if one exists (MC 1.18.2+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7714</id>
+	<key><![CDATA[player_advancement_done]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7715</id>
+	<key><![CDATA[advancement%s: %s&lt;[[%s|Macro]]&gt; The namespaced key of the advancement completed]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7716</id>
+	<key><![CDATA[Fires when a player completes all criteria to unlock an advancement or recipe.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
