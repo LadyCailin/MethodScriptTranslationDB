@@ -308,4 +308,11 @@
 	<translation></translation>
 	<auto><![CDATA[Døcs]]></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-7717</id>
+	<key><![CDATA[A note on file based URIs: The file path is specified after two forward slashes, so an absolute  path on unix looks like this: yml://path/to/file, and an absolute path on windows looks like this: yml://C:/path/to/file (alternatively yml://C:\path\to\file will also work). On all  platforms, a relative path would look like this: yml://path/to/file. Additionally, file based connections are '''usually''' going to be much faster, but less reliable than SQL based connections, so it is HIGHLY recommended that you use SQL connections, if nothing else, using the zero config SQLite (which is the default). The only case for a file based connection type is when using frequently read/written data, in which case a subset of your keys may be written out to a file based protocol. The %sser%s protocol is the fastest and most compact, but as it stores the data in a lump binary form, it is not (easily) editable by hand, and is prone to total data corruption in the event of any section of the file being corrupted. For a full rundown of the speed comparisons, see the chart below.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
