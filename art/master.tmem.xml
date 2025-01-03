@@ -54019,4 +54019,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-7718</id>
+	<key><![CDATA[[%splayer%s]%s, message]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7719</id>
+	<key><![CDATA[Sends a message to the action bar above the hot bar.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
