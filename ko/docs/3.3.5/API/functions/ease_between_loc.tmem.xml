@@ -36,6 +36,13 @@
 	<auto></auto>
 </translationBlock>
 <translationBlock>
+	<id>ko-3794</id>
+	<key><![CDATA[The output would be:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
 	<id>ko-3795</id>
 	<key><![CDATA[Example 1]]></key>
 	<comment></comment>
