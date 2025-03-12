@@ -4186,4 +4186,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-7721</id>
+	<key><![CDATA[player%sadvancement%stitle%s: The advancement display title, if one exists (MC 1.17.1+ on Paper, 1.18.2+ on Spigot)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
