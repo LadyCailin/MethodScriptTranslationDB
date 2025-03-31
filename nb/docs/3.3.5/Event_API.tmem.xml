@@ -4221,4 +4221,25 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-7729</id>
+	<key><![CDATA[player%sitem%s: The item that was used.%sticks%s: The number of ticks the item was used.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7730</id>
+	<key><![CDATA[type%s: %s&lt;Macro&gt;%sreason%s: %s&lt;Macro&gt; One of BEEHIVE, BREEDING, BUCKET, BUILD_IRONGOLEM, BUILD_SNOWMAN, BUILD_WITHER, COMMAND, CUSTOM, DEFAULT, EGG, JOCKEY, LIGHTNING, NATURAL, PATROL, PIGLIN_ZOMBIFIED, RAID, REINFORCEMENTS, SHOULDER_ENTITY, SLIME_SPLIT, SPAWNER, SPAWNER_EGG, VILLAGE_DEFENSE, VILLAGE_INVASION, NETHER_PORTAL, DISPENSE_EGG, INFECTION, CURED, OCELOT_BABY, SILVERFISH_BLOCK, MOUNT, TRAP, ENDER_PEARL, DROWNED, SHEARED, EXPLOSION, FROZEN, SPELL, METAMORPHOSIS, DUPLICATION, ENCHANTMENT, TRIAL_SPAWNER, or POTION_EFFECT]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7731</id>
+	<key><![CDATA[Fires when a player stops using an item such as shields, bows, crossbows, tridents, brushes, goat horns, or spyglasses (not including when changing the held item). Edible items will also fire this if the player stops consuming before completion. This event is only available on Paper 1.18.2+.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
