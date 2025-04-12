@@ -61862,4 +61862,12 @@
 	<untranslatable>false</untranslatable>
 	<suspectSegment>false</suspectSegment>
 </translationEntry>
+<translationEntry>
+	<id>7734</id>
+	<key><![CDATA[type%s: The type of entity the got damaged%sid%s: The entityID of the victim%splayer%s: the player who got damaged (only present if type is PLAYER)%sworld%slocation%scause%s: The type of damage%samount%sfinalamount%s: health entity will lose after modifiers%sdamager%s: If the source of damage is a player this will contain their name, otherwise it will be the entityID of the damager (only available when an entity causes damage)%sdamagertype%s: The type of entity that caused the damage, if there's a damager.%sshooter%s: The name of the player who shot, otherwise the entityID (only available when damager is a projectile)]]></key>
+	<eligibleForMachineTranslation>null</eligibleForMachineTranslation>
+	<comment></comment>
+	<untranslatable>false</untranslatable>
+	<suspectSegment>false</suspectSegment>
+</translationEntry>
 </summary>
