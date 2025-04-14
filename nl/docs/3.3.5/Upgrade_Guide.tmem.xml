@@ -623,4 +623,25 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nl-7742</id>
+	<key><![CDATA[Minecraft 1.21.5]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7743</id>
+	<key><![CDATA[Some vanilla keys passed to the tellraw functions and commands have changed.     * "clickEvent" is now "click_event"     * The actions "run_command" and "suggest_command" have had their "value" field renamed to "command"     * The action "open_url" has had their "value" field renamed to "url"     * The action "change_page" has had their "value" field renamed to "page"     * "hoverEvent" is now "hover_event"     * The actions "show_item" and "show_entity" have had their fields and value formats modified]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7744</id>
+	<key><![CDATA[SPLASH_POTION entity type has been split into LINGERING_POTION and SPLASH_POTION again.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

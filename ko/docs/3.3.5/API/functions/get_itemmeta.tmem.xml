@@ -1974,4 +1974,74 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-7750</id>
+	<key><![CDATA['''elevel''' : (int) The level of the enchantment.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7751</id>
+	<key><![CDATA['''slot''' : (string) Possible slots are WEAPON, OFF_HAND, BOOTS, LEGGINGS, CHESTPLATE, or HELMET or one of the slot groups ANY, HAND, ARMOR, BODY, or SADDLE.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7752</id>
+	<key><![CDATA['''modifiers''' : (array) A list of attribute modifier arrays (or %s).]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7753</id>
+	<key><![CDATA['''enchants''' : (associative array) The enchantments on this item.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7754</id>
+	<key><![CDATA['''block''' : (string) Block material name (optional)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7755</id>
+	<key><![CDATA['''spawntype''' : (string) May be one of ALLAY, AREA_EFFECT_CLOUD, ARMADILLO, ARMOR_STAND, ARROW, AXOLOTL, BAT, BEE, BLAZE, BLOCK_DISPLAY, ACACIA_BOAT, ACACIA_CHEST_BOAT, BAMBOO_RAFT, BAMBOO_CHEST_RAFT, BIRCH_BOAT, BIRCH_CHEST_BOAT, CHERRY_BOAT, CHERRY_CHEST_BOAT, DARK_OAK_BOAT, DARK_OAK_CHEST_BOAT, JUNGLE_BOAT, JUNGLE_CHEST_BOAT, MANGROVE_BOAT, MANGROVE_CHEST_BOAT, OAK_BOAT, OAK_CHEST_BOAT, PALE_OAK_BOAT, PALE_OAK_CHEST_BOAT, SPRUCE_BOAT, SPRUCE_CHEST_BOAT, BOGGED, BREEZE, BREEZE_WIND_CHARGE, CAMEL, CAT, CAVE_SPIDER, CHICKEN, COD, COW, CREAKING, CREEPER, DOLPHIN, DRAGON_FIREBALL, DROPPED_ITEM, DROWNED, DONKEY, EGG, ELDER_GUARDIAN, ENDERMAN, ENDERMITE, ENDER_CRYSTAL, ENDER_DRAGON, ENDER_EYE, ENDER_PEARL, EVOKER, EVOKER_FANGS, EXPERIENCE_ORB, FALLING_BLOCK, FIREBALL, FIREWORK, FOX, FROG, GHAST, GIANT, GLOW_ITEM_FRAME, GLOW_SQUID, GOAT, GUARDIAN, HOGLIN, HORSE, HUSK, ILLUSIONER, INTERACTION, IRON_GOLEM, ITEM_DISPLAY, ITEM_FRAME, LLAMA, LLAMA_SPIT, LEASH_HITCH, LIGHTNING, LINGERING_POTION, MAGMA_CUBE, MARKER, MINECART, MINECART_CHEST, MINECART_COMMAND, MINECART_FURNACE, MINECART_HOPPER, MINECART_MOB_SPAWNER, MINECART_TNT, MULE, MUSHROOM_COW, OCELOT, OMINOUS_ITEM_SPAWNER, PAINTING, PANDA, PARROT, PHANTOM, PIG, PIGLIN, PIGLIN_BRUTE, PILLAGER, POLAR_BEAR, PRIMED_TNT, PUFFERFISH, RABBIT, RAVAGER, SALMON, SHEEP, SILVERFISH, SKELETON, SHULKER, SHULKER_BULLET, SKELETON_HORSE, SLIME, SMALL_FIREBALL, SNIFFER, SNOWBALL, SNOWMAN, SQUID, SPECTRAL_ARROW, SPIDER, SPLASH_POTION, STRAY, STRIDER, TADPOLE, TEXT_DISPLAY, THROWN_EXP_BOTTLE, TRADER_LLAMA, TRIDENT, TROPICAL_FISH, TURTLE, VEX, VILLAGER, VINDICATOR, WANDERING_TRADER, WARDEN, WIND_CHARGE, WITCH, WITHER, WITHER_SKELETON, WITHER_SKULL, WOLF, ZOGLIN, ZOMBIE, ZOMBIE_HORSE, ZOMBIE_VILLAGER, or ZOMBIFIED_PIGLIN. Not all entity types will spawn from spawners, and some require special conditions.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7756</id>
+	<key><![CDATA['''lore''' : (array) A list of strings that is displayed when hovering the item (or %s). As lines are plain text, they do not yet support some advanced text components, but color codes are supported.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7757</id>
+	<key><![CDATA['''&lt;enchantment_name&gtl;''' : (associative array) Name of enchantment as the key (e.g. "fire_aspect") An integer for the level can be used as the value instead of an array.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7758</id>
+	<key><![CDATA['''pages''' : (array) An array of pages as strings. New lines supported. (100 page limit) In addition, signed Written Books have the following keys:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7759</id>
+	<key><![CDATA[These fields are present in all items with meta.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

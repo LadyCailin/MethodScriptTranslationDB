@@ -497,4 +497,11 @@
 	<translation><![CDATA[Før Jåvå vərsîøns >= 17, thîs prøcəss îs måndåtørʎ, ås --illegal-access wîll bə rəmøvəd frøm thə JVM, ånd thə nəcəssårʎ --add-opens påråmətərs wîll bə thə ønlʎ wåʎ tø prøvîdə thə nəcəssårʎ åccəss. Thîs îs ålsø nəcəssårʎ før füllʎ prøpər əxəcütîøn øf sîgnål håndlîng în MəthødScrîpt.]]></translation>
 	<auto><![CDATA[Før Jåvå vərsîøns >= 17, thîs prøcəss îs måndåtørʎ, ås --îlləgål-åccəss wîll bə rəmøvəd frøm thə JVM, ånd thə nəcəssårʎ --ådd-øpəns påråmətərs wîll bə thə ønlʎ wåʎ tø prøvîdə thə nəcəssårʎ åccəss. Thîs îs ålsø nəcəssårʎ før füllʎ prøpər əxəcütîøn øf sîgnål håndlîng în MəthødScrîpt.]]></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-7735</id>
+	<key><![CDATA[{{TakeNote|text=The manual installation instructions are still valid if you wish to customize your install, but for Windows, you can use the pre-packaged standalone installer, found [[%s|here]].}}]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
