@@ -112,4 +112,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nl-7765</id>
+	<key><![CDATA[Sets an entity's yaw and pitch without teleporting or ejecting. Can only be used on players when on Paper 1.19 or above, otherwise will throw an UnsupportedOperationException.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
