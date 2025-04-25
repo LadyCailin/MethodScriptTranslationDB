@@ -50652,4 +50652,39 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nl-7766</id>
+	<key><![CDATA[Sets whether &lt;player&gt; is ignored when counting sleepers to skip night.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7767</id>
+	<key><![CDATA[[%splayer%s]%s, boolean]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7768</id>
+	<key><![CDATA[Returns whether &lt;player&gt; is currently ignored by the night-skip sleep check.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7769</id>
+	<key><![CDATA[Returns whether %s is currently ignored by the night-skip sleep check.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7770</id>
+	<key><![CDATA[Sets whether %s is ignored when counting sleepers to skip night.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
