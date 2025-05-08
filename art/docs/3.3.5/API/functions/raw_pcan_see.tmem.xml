@@ -50,6 +50,13 @@
 	<auto></auto>
 </translationBlock>
 <translationBlock>
+	<id>art-3805</id>
+	<key><![CDATA[See Also]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
 	<id>art-3813</id>
 	<key><![CDATA[None]]></key>
 	<comment></comment>
@@ -111,5 +118,19 @@
 	<comment></comment>
 	<translation></translation>
 	<auto><![CDATA[Døcs]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7775</id>
+	<key><![CDATA[[%splayer%s]%s, otherPlayer]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7776</id>
+	<key><![CDATA[Returns whether this player can see another player or not. Hidden players are sometimes called vanished players.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
 </translationBlock>
 </translations>

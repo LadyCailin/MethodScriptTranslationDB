@@ -50,6 +50,20 @@
 	<auto></auto>
 </translationBlock>
 <translationBlock>
+	<id>nl-3797</id>
+	<key><![CDATA[Example 2]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-3805</id>
+	<key><![CDATA[See Also]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
 	<id>nl-3810</id>
 	<key><![CDATA[The output might be:]]></key>
 	<comment></comment>
@@ -136,6 +150,20 @@
 <translationBlock>
 	<id>nl-5158</id>
 	<key><![CDATA[Docs]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7782</id>
+	<key><![CDATA[Using a selector]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7783</id>
+	<key><![CDATA[A thin wrapper around the tellraw command from console context, this simply passes the input to the command. The raw is passed in as an array and json encoded. No validation is done on the input, so the command may fail. Do not use double quotes (smart string) when providing the selector. If not provided, the selector defaults to @a. See %s if you need player context.]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>

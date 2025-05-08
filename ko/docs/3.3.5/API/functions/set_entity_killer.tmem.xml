@@ -1,134 +1,113 @@
 <translations>
 <comment></comment>
 <translationBlock>
-	<id>nb-445</id>
+	<id>ko-117</id>
+	<key><![CDATA[entityUUID, player]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-445</id>
 	<key><![CDATA[Yes]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nb-466</id>
-	<key><![CDATA[[%splayer%s]%s, other]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto></auto>
-</translationBlock>
-<translationBlock>
-	<id>nb-2878</id>
+	<id>ko-2878</id>
 	<key><![CDATA[Examples]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nb-3788</id>
+	<id>ko-3788</id>
 	<key><![CDATA[Vital Info]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nb-3789</id>
+	<id>ko-3789</id>
 	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.%s (Note this page is automatically generated from the documentation in the source code.)]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nb-3791</id>
+	<id>ko-3791</id>
 	<key><![CDATA[Usages]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nb-3792</id>
+	<id>ko-3792</id>
 	<key><![CDATA[Sorry, there are no examples for this function! :(]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nb-3805</id>
-	<key><![CDATA[See Also]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto></auto>
-</translationBlock>
-<translationBlock>
-	<id>nb-3813</id>
+	<id>ko-3813</id>
 	<key><![CDATA[None]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nb-4640</id>
-	<key><![CDATA[Returns a boolean stating if the other player can see this player or not. This is the raw access function, you probably shouldn't use this, as the CommandHelper vanish api functions will probably be easier to use.]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto></auto>
-</translationBlock>
-<translationBlock>
-	<id>nb-5152</id>
+	<id>ko-5152</id>
 	<key><![CDATA[About]]></key>
 	<comment></comment>
 	<translation></translation>
-	<auto><![CDATA[Om]]></auto>
-</translationBlock>
-<translationBlock>
-	<id>nb-5153</id>
-	<key><![CDATA[Home]]></key>
-	<comment></comment>
-	<translation><![CDATA[Hjem]]></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nb-5154</id>
+	<id>ko-5153</id>
+	<key><![CDATA[Home]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5154</id>
 	<key><![CDATA[Privacy Policy]]></key>
 	<comment></comment>
 	<translation></translation>
-	<auto><![CDATA[Personvern]]></auto>
+	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nb-5155</id>
+	<id>ko-5155</id>
 	<key><![CDATA[Sponsors]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto><![CDATA[Sponsorer]]></auto>
-</translationBlock>
-<translationBlock>
-	<id>nb-5156</id>
-	<key><![CDATA[Help]]></key>
-	<comment></comment>
-	<translation><![CDATA[Hjelp]]></translation>
-	<auto><![CDATA[hjelp]]></auto>
-</translationBlock>
-<translationBlock>
-	<id>nb-5157</id>
-	<key><![CDATA[Team. All rights reserved.]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto><![CDATA[Team. Alle rettigheter reservert.]]></auto>
-</translationBlock>
-<translationBlock>
-	<id>nb-5158</id>
-	<key><![CDATA[Docs]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto><![CDATA[Dokumenter]]></auto>
-</translationBlock>
-<translationBlock>
-	<id>nb-7775</id>
-	<key><![CDATA[[%splayer%s]%s, otherPlayer]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nb-7776</id>
-	<key><![CDATA[Returns whether this player can see another player or not. Hidden players are sometimes called vanished players.]]></key>
+	<id>ko-5156</id>
+	<key><![CDATA[Help]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5157</id>
+	<key><![CDATA[Team. All rights reserved.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-5158</id>
+	<key><![CDATA[Docs]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7780</id>
+	<key><![CDATA[Sets the player killer of a living entity. (Paper only) Can be set at any time before the entity dies to change kill attribution for the next five seconds or until it's changed again. Can be set to %s.]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>

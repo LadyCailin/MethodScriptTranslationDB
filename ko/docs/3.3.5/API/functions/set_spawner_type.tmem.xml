@@ -182,4 +182,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-7781</id>
+	<key><![CDATA[Sets the mob spawner's entity type at the location specified. If the location is not a mob spawner, a FormatException is thrown. Entity type may be set to %s. If the entity type is invalid, a BadEntityException is thrown.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

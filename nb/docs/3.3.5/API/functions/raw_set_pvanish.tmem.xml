@@ -50,6 +50,13 @@
 	<auto></auto>
 </translationBlock>
 <translationBlock>
+	<id>nb-3805</id>
+	<key><![CDATA[See Also]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
 	<id>nb-3813</id>
 	<key><![CDATA[None]]></key>
 	<comment></comment>
@@ -111,5 +118,12 @@
 	<comment></comment>
 	<translation></translation>
 	<auto><![CDATA[Dokumenter]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7771</id>
+	<key><![CDATA[Sets the visibility of this player to another player.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
 </translationBlock>
 </translations>

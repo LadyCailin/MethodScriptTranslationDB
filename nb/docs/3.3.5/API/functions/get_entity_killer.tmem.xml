@@ -1,15 +1,15 @@
 <translations>
 <comment></comment>
 <translationBlock>
-	<id>nb-445</id>
-	<key><![CDATA[Yes]]></key>
+	<id>nb-256</id>
+	<key><![CDATA[entityUUID]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nb-466</id>
-	<key><![CDATA[[%splayer%s]%s, other]]></key>
+	<id>nb-445</id>
+	<key><![CDATA[Yes]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
@@ -50,22 +50,8 @@
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nb-3805</id>
-	<key><![CDATA[See Also]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto></auto>
-</translationBlock>
-<translationBlock>
 	<id>nb-3813</id>
 	<key><![CDATA[None]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto></auto>
-</translationBlock>
-<translationBlock>
-	<id>nb-4640</id>
-	<key><![CDATA[Returns a boolean stating if the other player can see this player or not. This is the raw access function, you probably shouldn't use this, as the CommandHelper vanish api functions will probably be easier to use.]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
@@ -120,15 +106,8 @@
 	<auto><![CDATA[Dokumenter]]></auto>
 </translationBlock>
 <translationBlock>
-	<id>nb-7775</id>
-	<key><![CDATA[[%splayer%s]%s, otherPlayer]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto></auto>
-</translationBlock>
-<translationBlock>
-	<id>nb-7776</id>
-	<key><![CDATA[Returns whether this player can see another player or not. Hidden players are sometimes called vanished players.]]></key>
+	<id>nb-7772</id>
+	<key><![CDATA[Gets the player killer of a living entity. Can be %s. Usually indicates the last player that damaged the entity within the last five seconds.]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>

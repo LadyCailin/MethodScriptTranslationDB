@@ -11333,4 +11333,60 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-7771</id>
+	<key><![CDATA[Sets the visibility of this player to another player.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7772</id>
+	<key><![CDATA[Gets the player killer of a living entity. Can be %s. Usually indicates the last player that damaged the entity within the last five seconds.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7773</id>
+	<key><![CDATA[Sets the mob spawner&apos;s entity type at the location specified. If the location is not a mob spawner, a FormatException is thrown. Entity type may be set to %s. If the entity type is invalid, a BadEntityException is thrown. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7774</id>
+	<key><![CDATA[A thin wrapper around the tellraw command from console context, this simply passes the input to the command. The raw is passed in as an array and json encoded. No validation is done on the input, so the command may fail. Do not use double quotes (smart string) when providing the selector. If not provided, the selector defaults to @a. See %s if you need player context. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7775</id>
+	<key><![CDATA[[%splayer%s]%s, otherPlayer]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7776</id>
+	<key><![CDATA[Returns whether this player can see another player or not. Hidden players are sometimes called vanished players.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7777</id>
+	<key><![CDATA[Sets the player killer of a living entity. (Paper only) Can be set at any time before the entity dies to change kill attribution for the next five seconds or until it&apos;s changed again. Can be set to %s.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7778</id>
+	<key><![CDATA[Gets the entity type that will spawn from the specified mob spawner. May be %s.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

@@ -112,4 +112,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nl-7778</id>
+	<key><![CDATA[Gets the entity type that will spawn from the specified mob spawner. May be %s.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
