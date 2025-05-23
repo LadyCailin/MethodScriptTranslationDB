@@ -57,6 +57,13 @@
 	<auto></auto>
 </translationBlock>
 <translationBlock>
+	<id>nl-3805</id>
+	<key><![CDATA[See Also]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
 	<id>nl-3813</id>
 	<key><![CDATA[None]]></key>
 	<comment></comment>
@@ -108,6 +115,13 @@
 <translationBlock>
 	<id>nl-5158</id>
 	<key><![CDATA[Docs]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7785</id>
+	<key><![CDATA[Sets a max speed for a minecart.]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>

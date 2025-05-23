@@ -57,6 +57,13 @@
 	<auto></auto>
 </translationBlock>
 <translationBlock>
+	<id>ko-3805</id>
+	<key><![CDATA[See Also]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
 	<id>ko-3813</id>
 	<key><![CDATA[None]]></key>
 	<comment></comment>

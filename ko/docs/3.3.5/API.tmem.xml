@@ -11389,4 +11389,39 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-7784</id>
+	<key><![CDATA[entityUUID, visibility]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7785</id>
+	<key><![CDATA[Sets a max speed for a minecart.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7786</id>
+	<key><![CDATA[Sets an entity&apos;s default visibility to a client. (MC 1.19.3+) Unrelated to the invisibility potion effect. If visibility is false, pshow_entity() must be used before a player&apos;s client can see this entity.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7787</id>
+	<key><![CDATA[Returns an entity&apos;s default visibility to a client. (MC 1.19.3+) Unrelated to the invisibility potion effect. If false, pshow_entity() must be used before a player&apos;s client can see this entity.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7788</id>
+	<key><![CDATA[Returns a max speed for a minecart.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
