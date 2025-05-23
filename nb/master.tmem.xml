@@ -54530,4 +54530,39 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-7791</id>
+	<key><![CDATA[entityUUID, hidden]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7792</id>
+	<key><![CDATA[Returns whether an entity is hidden by default to clients. (MC 1.19.3+) If true, pshow_entity() must be used before a player&apos;s client can see this entity. Unrelated to the invisibility potion effect.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7793</id>
+	<key><![CDATA[Sets whether an entity&apos;s is hidden by default to clients. (MC 1.19.3+) If set to true, pshow_entity() must be used before a player&apos;s client can see this entity. Unrelated to the invisibility potion effect.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7794</id>
+	<key><![CDATA[Returns whether an entity is hidden by default to clients. (MC 1.19.3+) If true, pshow_entity() must be used before a player's client can see this entity. Unrelated to the invisibility potion effect.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7795</id>
+	<key><![CDATA[Sets whether an entity's is hidden by default to clients. (MC 1.19.3+) If set to true, pshow_entity() must be used before a player's client can see this entity. Unrelated to the invisibility potion effect.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
