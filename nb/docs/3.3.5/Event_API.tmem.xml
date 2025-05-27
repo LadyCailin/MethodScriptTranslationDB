@@ -4249,4 +4249,32 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-7796</id>
+	<key><![CDATA[Fired when a player interacts with any inventory GUI. See also inventory_drag.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7797</id>
+	<key><![CDATA[virtual%s: %s&lt;Boolean Match&gt; If the inventory is virtually held in CH%sslottype%s: %s&lt;Macro&gt; ARMOR, CONTAINER, CRAFTING, FUEL, OUTSIDE, QUICKBAR, or RESULT%sclicktype%s: %s&lt;Macro&gt; LEFT, SHIFT_LEFT, RIGHT, SHIFT_RIGHT, WINDOW_BORDER_LEFT, WINDOW_BORDER_RIGHT, MIDDLE, NUMBER_KEY, DOUBLE_CLICK, DROP, CONTROL_DROP, CREATIVE, SWAP_OFFHAND, or UNKNOWN%saction%s: %s&lt;Macro&gt; NOTHING, PICKUP_ALL, PICKUP_SOME, PICKUP_HALF, PICKUP_ONE, PLACE_ALL, PLACE_SOME, PLACE_ONE, SWAP_WITH_CURSOR, DROP_ALL_CURSOR, DROP_ONE_CURSOR, DROP_ALL_SLOT, DROP_ONE_SLOT, MOVE_TO_OTHER_INVENTORY, HOTBAR_MOVE_AND_READD, HOTBAR_SWAP, CLONE_STACK, COLLECT_TO_CURSOR, PICKUP_FROM_BUNDLE, PICKUP_ALL_INTO_BUNDLE, PICKUP_SOME_INTO_BUNDLE, PLACE_FROM_BUNDLE, PLACE_ALL_INTO_BUNDLE, PLACE_SOME_INTO_BUNDLE, or UNKNOWN%sslotitem%s: %s&lt;String Match&gt; The item type%splayer%s: %s&lt;Macro&gt;]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7798</id>
+	<key><![CDATA[slottype%s: The type of slot being clicked%sclicktype%s: The type of input%saction%s: The resulting action%sslotitem%s: The item in the clicked slot%splayer%s: The player who clicked%sviewers%s: Every player looking at this inventory%sleftclick%s: If left mouse click%srightclick%s: If right mouse click%skeyboardclick%s: If key press%sshiftclick%s: If shift held%screativeclick%s: If action could only be performed in creative mode, like clone stack.%sslot%s: The slot number clicked. Will be -999 if the click occurred outside the window.%srawslot%s: The slot number clicked in the whole inventory window. This will be higher than inventorysize if the click did not occur in the open inventory.%sinventorytype%s: The type of open inventory (if self-inventory, this will be CRAFTING)%sinventorysize%s: Number of slots in the open inventory%scursoritem%s: The item on the cursor%sinventory%s: An array of all the items in the open inventory%shotbarbutton%s: The hotbar slot (0-8) if a number key was pressed, or -1 none.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7799</id>
+	<key><![CDATA[slotitem%s: The item to put in the clicked slot%scursoritem%s: The item to put on the cursor]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
