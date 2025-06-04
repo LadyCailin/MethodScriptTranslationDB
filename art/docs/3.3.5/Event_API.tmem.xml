@@ -4277,4 +4277,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-7800</id>
+	<key><![CDATA[Fires when a player left or right clicks. Dropping items can also fire this event for the main_hand if the player is not facing a block or is in adventure mode. This event may fire multiple times for each click, main_hand and/or off_hand, depending on item priorities and what block is clicked. You may want to prefilter by hand. An instant break block can fire two events in one tick, one for the block broken and one for the block or air behind it. If you want to remove the item that is being used, you should also cancel the event.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7801</id>
+	<key><![CDATA[action%s: Can be left_click_block, right_click_block, left_click_air, or right_click_air.%splayer%shand%s: The hand used, can be either main_hand or off_hand.%sitem%s: The item array in the hand used, or %s if there is nothing in that hand.%sblock%s: The type of block clicked, or %s if no block was clicked.%slocation%s: The location array of the block clicked (exists only if block clicked)%sfacing%s: The face of the block clicked%sposition%s: Vector array of the position on the block that was right clicked. (exists only if block right-clicked) (MC 1.20.1+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

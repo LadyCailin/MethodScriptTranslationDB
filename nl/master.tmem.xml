@@ -50890,4 +50890,214 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nl-7800</id>
+	<key><![CDATA[Fires when a player left or right clicks. Dropping items can also fire this event for the main_hand if the player is not facing a block or is in adventure mode. This event may fire multiple times for each click, main_hand and/or off_hand, depending on item priorities and what block is clicked. You may want to prefilter by hand. An instant break block can fire two events in one tick, one for the block broken and one for the block or air behind it. If you want to remove the item that is being used, you should also cancel the event.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7801</id>
+	<key><![CDATA[action%s: Can be left_click_block, right_click_block, left_click_air, or right_click_air.%splayer%shand%s: The hand used, can be either main_hand or off_hand.%sitem%s: The item array in the hand used, or %s if there is nothing in that hand.%sblock%s: The type of block clicked, or %s if no block was clicked.%slocation%s: The location array of the block clicked (exists only if block clicked)%sfacing%s: The face of the block clicked%sposition%s: Vector array of the position on the block that was right clicked. (exists only if block right-clicked) (MC 1.20.1+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7802</id>
+	<key><![CDATA['''enchantability''' : (int) Overrides an item's enchantability in an enchanting table. Value must be positive. Higher values allow applicable enchantments with higher costs to be picked. (MC 1.21.3+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7803</id>
+	<key><![CDATA[These fields exist for all items with meta.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7804</id>
+	<key><![CDATA[These fields only exist for specific item types.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7805</id>
+	<key><![CDATA['''maxstacksize''' : (int) Overrides the maximum quantity of items with identical meta that will stack. Must be from 1 to 99. (MC 1.20.6+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7806</id>
+	<key><![CDATA['''jukeboxsong''' : (string) Overrides an item's playable jukebox song. (MC 1.21+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7807</id>
+	<key><![CDATA['''rarity''' : (string) Overrides an item's rarity, which affects the item name color. Can be COMMON (white), UNCOMMON (yellow), RARE (aqua), or EPIC (light purple). (MC 1.20.6+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7808</id>
+	<key><![CDATA['''unbreakable''' : (boolean) If the item cannot be damaged when used. Also hides item durability bar. Field always exists if "damage" exists.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7809</id>
+	<key><![CDATA[This field may only return the default value on 1.21.5 due to a server API implementation bug.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7810</id>
+	<key><![CDATA['''maxdamage''' : (int) Overrides an item's max durability. Value must be positive. (MC 1.20.6+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7811</id>
+	<key><![CDATA['''playerrange''' : (int) The maximum distance a player must be within to cause the spawner to spawn. Spawn potentials other than entity type is not yet supported.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7812</id>
+	<key><![CDATA[These fields optionally exist for any item type.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7813</id>
+	<key><![CDATA['''&lt;enchantment_name&gt;''' : (associative array) Name of enchantment as the key (e.g. "fire_aspect") An integer for the level can be used as the value instead of an array.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7814</id>
+	<key><![CDATA['''nutrition''' : (int) Food restored on the hunger bar when consumed. (default: 0)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7815</id>
+	<key><![CDATA['''variant''' : (string) The type of axolotl, one of BLUE, CYAN, GOLD, LUCY, or WILD. (MC 1.17+) The entity's custom name is derived from the item "display" string. All other axolotl data is not yet supported.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7816</id>
+	<key><![CDATA['''&lt;custom_key&gt;''' : (associative array) Each tag's key is namespaced (e.g. "commandhelper:mytag"). If not provided, "commandhelper" will be used as a namespace.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7817</id>
+	<key><![CDATA['''food''' : (associative array) Overrides a consumable item's food stats. (MC 1.21.3+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7818</id>
+	<key><![CDATA[MC 1.13.2+: "can_break", "can_place_on" MC 1.20.6+: "hide_tooltip", "instrument", "intangible_projectile", "item_name", "lock", "note_block_sound", "tool" MC 1.21.3+: "consumable", "damage_resistant", "death_protection", "equippable", "item_model", "glider", "repairable", "tooltip_style", "use_cooldown", "use_remainder" MC 1.21.4+: "custom_model_data" for anything other than a single float MC 1.21.5+: "weapon", "potion_duration_scale", "blocks_attacks", "break_sound", "provides_banner_patterns", "provides_trim_material", "tooltip_display"]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7819</id>
+	<key><![CDATA[These fields may be %s on 1.21.5 due to a server API implementation bug.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7820</id>
+	<key><![CDATA['''ominousamplifier''' : (int) The bad omen potion effect amplifier for this ominous bottle. (0 - 4)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7821</id>
+	<key><![CDATA['''saturation''' : (double) The amount of saturation that is increased when consumed. (default: 0.0)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7822</id>
+	<key><![CDATA[The entity's custom name is derived from the item "display" string. Additional data for the entity spawned is not supported.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7823</id>
+	<key><![CDATA['''glint''' : (boolean) Overrides an item's enchantment glint state. (MC 1.20.6+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7824</id>
+	<key><![CDATA['''always''' : (boolean) Whether the food can be consumed even if the hunger bar is full. (default: false)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7825</id>
+	<key><![CDATA['''fishpattern''' : (string) The pattern type on the fish, can be one of KOB, SUNSTREAK, SNOOPER, DASHER, BRINELY, SPOTTY, FLOPPER, STRIPEY, GLITTER, BLOCKFISH, BETTY, or CLAYFISH. The entity's custom name is derived from the item "display" string. All other tropical fish data is not yet supported.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7826</id>
+	<key><![CDATA[Other data not yet supported in item meta:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7827</id>
+	<key><![CDATA['''beecount''' : (int) The number of bees stored in this hive or nest (0 - 3). (requires MC 1.20.6+ to set) Stored Bee data is not yet supported.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7828</id>
+	<key><![CDATA['''value''' : (mixed) A valid value for the given tag type.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7829</id>
+	<key><![CDATA['''damage''' : (int) The amount of damage on the durability of the item. 0 is undamaged. The max value is determined by the item type's default durability or "maxdamage" if set.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
