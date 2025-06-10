@@ -8,6 +8,13 @@
 	<auto></auto>
 </translationBlock>
 <translationBlock>
+	<id>nl-1276</id>
+	<key><![CDATA[int]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
 	<id>nl-2878</id>
 	<key><![CDATA[Examples]]></key>
 	<comment></comment>
@@ -2229,6 +2236,195 @@
 <translationBlock>
 	<id>nl-7829</id>
 	<key><![CDATA['''damage''' : (int) The amount of damage on the durability of the item. 0 is undamaged. The max value is determined by the item type's default durability or "maxdamage" if set.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7831</id>
+	<key><![CDATA[Overrides the item's max durability. Value must be positive. (MC 1.20.6+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7832</id>
+	<key><![CDATA[MC 1.21.4 : "custom_model_data" (for anything other than a single float rounded down)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7833</id>
+	<key><![CDATA[MC 1.21.5 : "weapon", "blocks_attacks", "break_sound", "provides_banner_patterns", "provides_trim_material", "potion_duration_scale" (Paper only), "tooltip_display" (partially supported with "flags")]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7834</id>
+	<key><![CDATA[associative array]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7835</id>
+	<key><![CDATA[MC 1.20.5 : "item_name", "note_block_sound", "intangible_projectile" (Paper 1.21.3 only), "instrument" (partial support due to partial server API), "tool" (partial server API), "hide_tooltip" (later integrated into "tooltip_display"), "lock" (insufficient server API)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7836</id>
+	<key><![CDATA[Custom tags used by plugins (or %s).]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7837</id>
+	<key><![CDATA[Overrides the item's playable jukebox song. (MC 1.21+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7838</id>
+	<key><![CDATA[Flags used to hide meta in the item tooltip: HIDE_ENCHANTS, HIDE_ATTRIBUTES, HIDE_UNBREAKABLE, HIDE_DESTROYS, HIDE_PLACED_ON, HIDE_POTION_EFFECTS, HIDE_ADDITIONAL_TOOLTIP, HIDE_DYE, HIDE_ARMOR_TRIM, or HIDE_STORED_ENCHANTS.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7839</id>
+	<key><![CDATA[Overrides the item's rarity, which affects the item name color. Can be COMMON (white), UNCOMMON (yellow), RARE (aqua), or EPIC (light purple). (MC 1.20.6+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7840</id>
+	<key><![CDATA[Overrides the remaining item when the this item is used. (MC 1.21.3+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7841</id>
+	<key><![CDATA[Overrides the maximum quantity of items with identical meta that will stack. Must be from 1 to 99. (MC 1.20.6+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7842</id>
+	<key><![CDATA[Represents vanilla's CustomModelData tag for use with resource packs (or %s). In 1.21.4+, this represents the first float in custom_model_data rounded down.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7843</id>
+	<key><![CDATA[Returns an associative array of known item data in the slot given, or %s if there isn't any.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7844</id>
+	<key><![CDATA[The additional cost to repair or combine this item in an anvil.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7845</id>
+	<key><![CDATA[Overrides the item's enchantability in an enchanting table. Value must be positive. Higher values allow applicable enchantments with higher costs to be picked. (MC 1.21.3+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7846</id>
+	<key><![CDATA[MC 1.21.2 : "damage_resistant", "tooltip_style", "use_cooldown", "item_model", "death_protection" (Paper only), "repairable" (Paper only), "consumable" (added in Spigot 1.21.4 API), "equippable" (added in Spigot 1.21.5 API)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7847</id>
+	<key><![CDATA[A list of attribute modifier arrays (or %s).]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7848</id>
+	<key><![CDATA[Overrides the consumable item's food stats. (MC 1.20.6+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7849</id>
+	<key><![CDATA[Overrides if the item allows gliding when equipped like an elytra. (MC 1.21.3+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7850</id>
+	<key><![CDATA[Overrides the item's enchantment glint state. (MC 1.20.6+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7851</id>
+	<key><![CDATA[The amount of damage on the durability of the item. 0 is undamaged. The max value is determined by the item type's default durability or "maxdamage" if set.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7852</id>
+	<key><![CDATA[MC 1.13.2 : "can_break" and "can_place_on" (Paper only)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7853</id>
+	<key><![CDATA[If the item cannot be damaged when used. Also hides item durability bar. Field always exists if "damage" exists.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7854</id>
+	<key><![CDATA[A list of strings that is displayed when hovering the item (or %s). As lines are plain text, they do not yet support some advanced text components, but color codes are supported.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7855</id>
+	<key><![CDATA[The enchantments on this item.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7856</id>
+	<key><![CDATA['''&lt;enchantment_name&gt;''' : (associative array) The name of the enchantment as the key (e.g. "fire_aspect") An integer for the level can be used as the value instead of an array.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7857</id>
+	<key><![CDATA[The display name seen when renamed in an anvil (or %s).]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>

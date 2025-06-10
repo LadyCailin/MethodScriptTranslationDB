@@ -11445,4 +11445,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-7830</id>
+	<key><![CDATA[Returns an associative array of known item data in the slot given, or %s if there isn&apos;t any. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
