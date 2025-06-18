@@ -189,4 +189,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-7866</id>
+	<key><![CDATA[The gameRule can be allowFireTicksAwayFromPlayer, announceAdvancements, blockExplosionDropDecay, commandBlockOutput, commandModificationBlockLimit, disableElytraMovementCheck, disablePlayerMovementCheck, disableRaids, doDaylightCycle, doEntityDrops, doFireTick, doImmediateRespawn, doInsomnia, doLimitedCrafting, doMobLoot, doMobSpawning, doPatrolSpawning, doTileDrops, doTraderSpawning, doVinesSpread, doWardenSpawning, doWeatherCycle, drowningDamage, enderPearlsVanishOnDeath, fallDamage, fireDamage, forgiveDeadPlayers, freezeDamage, globalSoundEvents, keepInventory, lavaSourceConversion, locatorBar, logAdminCommands, maxCommandChainLength, maxCommandForkCount, maxEntityCramming, minecartMaxSpeed, mobExplosionDropDecay, mobGriefing, naturalRegeneration, playersNetherPortalCreativeDelay, playersNetherPortalDefaultDelay, playersSleepingPercentage, projectilesCanBreakBlocks, randomTickSpeed, reducedDebugInfo, sendCommandFeedback, showDeathMessages, snowAccumulationHeight, spawnChunkRadius, spawnRadius, spectatorsGenerateChunks, tntExplodes, tntExplosionDropDecay, universalAnger, or waterSourceConversion.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

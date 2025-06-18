@@ -1785,4 +1785,39 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-7859</id>
+	<key><![CDATA[Spigot 1.16.5 - 1.21.6]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7860</id>
+	<key><![CDATA[[%s c6a961e]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7861</id>
+	<key><![CDATA[Added support for Spigot 1.21.6]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7862</id>
+	<key><![CDATA[3.3.5 build-564]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7863</id>
+	<key><![CDATA[Spigot or Paper 1.16.5 - 1.21.6 (when used as a plugin)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

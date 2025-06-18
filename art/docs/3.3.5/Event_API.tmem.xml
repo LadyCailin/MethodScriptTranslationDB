@@ -4291,4 +4291,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-7858</id>
+	<key><![CDATA[id%s: The entityID of the entity%stype%s: The entity type of the entity%sreason%s: The reason the leash broke. Can be one of HOLDER_GONE, PLAYER_UNLEASH, DISTANCE, SHEAR, FIREWORK, or UNKNOWN]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
