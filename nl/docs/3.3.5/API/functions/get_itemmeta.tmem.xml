@@ -2443,4 +2443,53 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nl-7874</id>
+	<key><![CDATA['''noteblocksound''' : (string) The namespaced sound id played when player head is on top of a noteblock. (MC 1.19.3+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7875</id>
+	<key><![CDATA['''instrument''' : (string) The instrument name (can be ponder_goat_horn, sing_goat_horn, seek_goat_horn, feel_goat_horn, admire_goat_horn, call_goat_horn, yearn_goat_horn, dream_goat_horn). (MC 1.19.3+) Custom instrument definitions featuring a different sound event, description, duration and range are not yet supported. (missing server API)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7876</id>
+	<key><![CDATA[Overrides if the item allows gliding like an elytra when equipped. (MC 1.21.3+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7877</id>
+	<key><![CDATA[MC 1.21.2 : "damage_resistant", "tooltip_style", "use_cooldown", "item_model", "death_protection" (Paper only), "repairable" (Paper only), "consumable" (added in Spigot 1.21.4 API, Paper API separate), "equippable" (added in Spigot 1.21.5 API)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7878</id>
+	<key><![CDATA[MC 1.20.5 : "item_name", "intangible_projectile" (Paper 1.21.3 only), "instrument" (can only get custom definitions in Paper, not set), "tool" (cannot get tags in 'rules', can_destroy_blocks_in_creative field only in Paper), "hide_tooltip" (later integrated into "tooltip_display"), "lock" (can only set with server API)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7879</id>
+	<key><![CDATA[Overrides the remaining item when the quantity of this item decreases after use. (e.g. a bucket after drinking a milk bucket) (MC 1.21.3+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7880</id>
+	<key><![CDATA[MC 1.21.5 : "weapon" (separate Paper/Spigot API), "blocks_attacks" (separate Paper/Spigot API), "break_sound" (separate Paper/Spigot API), "provides_banner_patterns" (Paper only), "provides_trim_material" (Paper only), "potion_duration_scale" (Paper only), "tooltip_display" (partially supported with "flags")]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
