@@ -126,4 +126,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-7941</id>
+	<key><![CDATA[Sets the visibility of this player to another player. If isVanished is true, the player's model and tablist name will not be visible to the other player.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

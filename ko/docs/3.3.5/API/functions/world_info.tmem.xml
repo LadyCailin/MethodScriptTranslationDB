@@ -119,4 +119,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-7882</id>
+	<key><![CDATA[Returns an associative array of immutable info about the world. The keys are name, uuid, seed, environment, generator, sealevel, minheight and maxheight. The worldtype key is deprecated as of 1.16.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

@@ -1,22 +1,15 @@
 <translations>
 <comment></comment>
 <translationBlock>
+	<id>nb-256</id>
+	<key><![CDATA[entityUUID]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
 	<id>nb-445</id>
 	<key><![CDATA[Yes]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto></auto>
-</translationBlock>
-<translationBlock>
-	<id>nb-980</id>
-	<key><![CDATA[entityUUID, boolean]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto></auto>
-</translationBlock>
-<translationBlock>
-	<id>nb-1091</id>
-	<key><![CDATA[Sets whether a living entity will despawn. True means it will not.]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
@@ -52,6 +45,13 @@
 <translationBlock>
 	<id>nb-3792</id>
 	<key><![CDATA[Sorry, there are no examples for this function! :(]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-3805</id>
+	<key><![CDATA[See Also]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
@@ -113,8 +113,92 @@
 	<auto><![CDATA[Dokumenter]]></auto>
 </translationBlock>
 <translationBlock>
-	<id>nb-7881</id>
-	<key><![CDATA[Sets whether a living entity will despawn when players are far enough away.]]></key>
+	<id>nb-7924</id>
+	<key><![CDATA[CROAKING, LONG_JUMPING, USING_TONGUE]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7925</id>
+	<key><![CDATA[Returns the pose of an entity. Poses are desynchronized from entity state, as the pose is set at the end of a tick and can be set to anything by a plugin.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7926</id>
+	<key><![CDATA[STANDING (default pose)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7927</id>
+	<key><![CDATA[DIGGING, EMERGING, ROARING, SNIFFING]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7928</id>
+	<key><![CDATA[SITTING]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7929</id>
+	<key><![CDATA[SNEAKING]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7930</id>
+	<key><![CDATA[SNEAKING, SWIMMING, FALL_FLYING]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7931</id>
+	<key><![CDATA[INHALING, LONG_JUMPING, SHOOTING, SLIDING]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7932</id>
+	<key><![CDATA[Only FALL_FLYING, SLEEPING, SNEAKING, STANDING, SWIMMING]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7933</id>
+	<key><![CDATA[Known poses:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7934</id>
+	<key><![CDATA[LONG_JUMPING]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7935</id>
+	<key><![CDATA[DYING, SLEEPING]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7936</id>
+	<key><![CDATA[SPIN_ATTACK]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>

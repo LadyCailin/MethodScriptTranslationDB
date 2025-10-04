@@ -112,4 +112,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nl-7887</id>
+	<key><![CDATA[Sets whether or not the spawn chunks in the given world should stay loaded. Spawn chunks are never kept loaded starting from MC 1.21.9.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

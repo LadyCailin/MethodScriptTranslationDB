@@ -140,4 +140,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nl-7923</id>
+	<key><![CDATA[Will be one of the following: KEBAB, AZTEC, ALBAN, AZTEC2, BOMB, PLANT, WASTELAND, MEDITATIVE, POOL, COURBET, SEA, SUNSET, CREEBET, WANDERER, GRAHAM, PRAIRIE_RIDE, MATCH, BUST, STAGE, VOID, SKULL_AND_ROSES, WITHER, BAROQUE, HUMBLE, EARTH, WIND, WATER, FIRE, FIGHTERS, CHANGING, FINDING, LOWMIST, PASSAGE, BOUQUET, CAVEBIRD, COTAN, ENDBOSS, FERN, OWLEMONS, SUNFLOWERS, TIDES, DENNIS, SKELETON, DONKEY_KONG, BACKYARD, POND, POINTER, PIGSCENE, BURNING_SKULL, ORB, UNPACKED.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

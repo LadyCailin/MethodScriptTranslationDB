@@ -1,134 +1,204 @@
 <translations>
 <comment></comment>
 <translationBlock>
-	<id>nl-445</id>
+	<id>ko-256</id>
+	<key><![CDATA[entityUUID]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-445</id>
 	<key><![CDATA[Yes]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nl-1184</id>
-	<key><![CDATA[[%splayer%s]%s, isVanished, otherPlayer]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto></auto>
-</translationBlock>
-<translationBlock>
-	<id>nl-2878</id>
+	<id>ko-2878</id>
 	<key><![CDATA[Examples]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nl-3788</id>
+	<id>ko-3788</id>
 	<key><![CDATA[Vital Info]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nl-3789</id>
+	<id>ko-3789</id>
 	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.%s (Note this page is automatically generated from the documentation in the source code.)]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nl-3791</id>
+	<id>ko-3791</id>
 	<key><![CDATA[Usages]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nl-3792</id>
+	<id>ko-3792</id>
 	<key><![CDATA[Sorry, there are no examples for this function! :(]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nl-3805</id>
+	<id>ko-3805</id>
 	<key><![CDATA[See Also]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nl-3813</id>
+	<id>ko-3813</id>
 	<key><![CDATA[None]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nl-4641</id>
-	<key><![CDATA[Sets the visibility of the current player (or the one specified) to visible or invisible (based on the value of isVanished) from the view of the otherPlayer. This is the raw access function, you probably shouldn't use this, as the CommandHelper vanish api functions will probably be easier to use.]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto></auto>
-</translationBlock>
-<translationBlock>
-	<id>nl-5152</id>
+	<id>ko-5152</id>
 	<key><![CDATA[About]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nl-5153</id>
+	<id>ko-5153</id>
 	<key><![CDATA[Home]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nl-5154</id>
+	<id>ko-5154</id>
 	<key><![CDATA[Privacy Policy]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nl-5155</id>
+	<id>ko-5155</id>
 	<key><![CDATA[Sponsors]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nl-5156</id>
+	<id>ko-5156</id>
 	<key><![CDATA[Help]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nl-5157</id>
+	<id>ko-5157</id>
 	<key><![CDATA[Team. All rights reserved.]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nl-5158</id>
+	<id>ko-5158</id>
 	<key><![CDATA[Docs]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nl-7771</id>
-	<key><![CDATA[Sets the visibility of this player to another player.]]></key>
+	<id>ko-7924</id>
+	<key><![CDATA[CROAKING, LONG_JUMPING, USING_TONGUE]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nl-7941</id>
-	<key><![CDATA[Sets the visibility of this player to another player. If isVanished is true, the player's model and tablist name will not be visible to the other player.]]></key>
+	<id>ko-7925</id>
+	<key><![CDATA[Returns the pose of an entity. Poses are desynchronized from entity state, as the pose is set at the end of a tick and can be set to anything by a plugin.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7926</id>
+	<key><![CDATA[STANDING (default pose)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7927</id>
+	<key><![CDATA[DIGGING, EMERGING, ROARING, SNIFFING]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7928</id>
+	<key><![CDATA[SITTING]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7929</id>
+	<key><![CDATA[SNEAKING]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7930</id>
+	<key><![CDATA[SNEAKING, SWIMMING, FALL_FLYING]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7931</id>
+	<key><![CDATA[INHALING, LONG_JUMPING, SHOOTING, SLIDING]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7932</id>
+	<key><![CDATA[Only FALL_FLYING, SLEEPING, SNEAKING, STANDING, SWIMMING]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7933</id>
+	<key><![CDATA[Known poses:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7934</id>
+	<key><![CDATA[LONG_JUMPING]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7935</id>
+	<key><![CDATA[DYING, SLEEPING]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7936</id>
+	<key><![CDATA[SPIN_ATTACK]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>

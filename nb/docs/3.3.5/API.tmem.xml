@@ -11452,4 +11452,116 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-7881</id>
+	<key><![CDATA[Sets whether a living entity will despawn when players are far enough away.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7882</id>
+	<key><![CDATA[Returns an associative array of immutable info about the world. The keys are name, uuid, seed, environment, generator, sealevel, minheight and maxheight. The worldtype key is deprecated as of 1.16.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7883</id>
+	<key><![CDATA[Sets the spawn of the world. Note that in some cases a plugin may override the spawn.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7884</id>
+	<key><![CDATA[Sets an entity&apos;s pose. (only Mannequins on Spigot) The fixed argument is a boolean for whether the pose should stay unless manually changed. (defaults to false) While in most cases you can set any pose to any entity, only certain poses will result in a noticable change for a particular entity type. Poses can affect entity hitboxes but do not otherwise change entity state. See %s for a list of poses.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7885</id>
+	<key><![CDATA[entityUUID, pose, %s[%sfixed%s]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7886</id>
+	<key><![CDATA[Opens a trading interface for the current player, or the one specified. Only one player can trade with a merchant at a time. If the merchant is already being traded with, the function will do nothing. When force is set to true, this function will first close trading with any other player. Function returns true if trading was successfully opened, and false if not.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7887</id>
+	<key><![CDATA[Sets whether or not the spawn chunks in the given world should stay loaded. Spawn chunks are never kept loaded starting from MC 1.21.9.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7888</id>
+	<key><![CDATA[Returns whether a living entity will despawn when players are far enough away.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7889</id>
+	<key><![CDATA[Sets an end gateways teleport exit location. The exit location must be %s or a location array with the same world as the end gateway. If exactTeleport is set to true, entities will teleport to the exit&apos;s exact block location. Otherwise a teleport location will be found near the exit location.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7890</id>
+	<key><![CDATA[Returns the UUID of the current player or the specified player. If dashless is set to true, the returned UUID format will not have any dashes. This will attempt to find an offline player, but if that also fails, a PlayerOfflineException will be thrown. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7891</id>
+	<key><![CDATA[Returns the pose of an entity. Poses are desynchronized from entity state, as the pose is set at the end of a tick and can be set to anything by a plugin. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7892</id>
+	<key><![CDATA[Sets the block at the location from a blockdata object. Blockdata can be an associative array or string format. If an array, a &apos;block&apos; key must exist with the block material. All the other keys must be a blockstate and its value. The physics boolean determines whether or not this causes a block update. Defaults to true.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7893</id>
+	<key><![CDATA[Sets the block at the location from a blockdata string. Forward compatibility is not ensured. The physics boolean determines whether or not this causes a block update. Defaults to true.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7894</id>
+	<key><![CDATA[Sets if PVP is allowed in the world with the given name, or all worlds if the name is not given. (uses gamerule in 1.21.9+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7895</id>
+	<key><![CDATA[Sets the visibility of this player to another player. If isVanished is true, the player&apos;s model and tablist name will not be visible to the other player.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7896</id>
+	<key><![CDATA[[%sworld%s]%s, locationArray %s %s[%sworld%s]%s, x, y, z]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

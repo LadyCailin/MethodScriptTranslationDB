@@ -112,4 +112,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nl-7894</id>
+	<key><![CDATA[Sets if PVP is allowed in the world with the given name, or all worlds if the name is not given. (uses gamerule in 1.21.9+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

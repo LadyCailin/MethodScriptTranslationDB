@@ -1820,4 +1820,67 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-7902</id>
+	<key><![CDATA[Spigot or Paper 1.16.5 - 1.21.9 (when used as a plugin)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7903</id>
+	<key><![CDATA[[%s e1da284]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7904</id>
+	<key><![CDATA[[%s 103f5fc]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7905</id>
+	<key><![CDATA[3.3.5 build-566]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7906</id>
+	<key><![CDATA[Spigot 1.16.5 - 1.21.9]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7907</id>
+	<key><![CDATA[Spigot 1.16.5 - 1.21.8]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7908</id>
+	<key><![CDATA[Added support for Spigot 1.21.7]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7909</id>
+	<key><![CDATA[Added support for Spigot 1.21.9]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7910</id>
+	<key><![CDATA[3.3.5 build-576]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

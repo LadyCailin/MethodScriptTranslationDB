@@ -112,4 +112,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-7944</id>
+	<key><![CDATA[Sets an end gateways teleport exit location. The exit location must be %s or a location array with the same world as the end gateway. If exactTeleport is set to true, entities will teleport to the exit's exact block location. Otherwise a teleport location will be found near the exit location.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

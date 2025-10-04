@@ -1,8 +1,8 @@
 <translations>
 <comment></comment>
 <translationBlock>
-	<id>art-91</id>
-	<key><![CDATA[locationArray %s %s[%sworld%s]%s, x, y, z]]></key>
+	<id>art-256</id>
+	<key><![CDATA[entityUUID]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
@@ -50,15 +50,15 @@
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>art-3813</id>
-	<key><![CDATA[None]]></key>
+	<id>art-3805</id>
+	<key><![CDATA[See Also]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>art-4801</id>
-	<key><![CDATA[Sets the spawn of the world. Note that in some cases a plugin may override the spawn, and this method will do nothing. In that case, you should use the plugin's commands to set the spawn.]]></key>
+	<id>art-3813</id>
+	<key><![CDATA[None]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
@@ -113,15 +113,92 @@
 	<auto><![CDATA[Døcs]]></auto>
 </translationBlock>
 <translationBlock>
-	<id>art-7883</id>
-	<key><![CDATA[Sets the spawn of the world. Note that in some cases a plugin may override the spawn.]]></key>
+	<id>art-7924</id>
+	<key><![CDATA[CROAKING, LONG_JUMPING, USING_TONGUE]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>art-7896</id>
-	<key><![CDATA[[%sworld%s]%s, locationArray %s %s[%sworld%s]%s, x, y, z]]></key>
+	<id>art-7925</id>
+	<key><![CDATA[Returns the pose of an entity. Poses are desynchronized from entity state, as the pose is set at the end of a tick and can be set to anything by a plugin.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7926</id>
+	<key><![CDATA[STANDING (default pose)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7927</id>
+	<key><![CDATA[DIGGING, EMERGING, ROARING, SNIFFING]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7928</id>
+	<key><![CDATA[SITTING]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7929</id>
+	<key><![CDATA[SNEAKING]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7930</id>
+	<key><![CDATA[SNEAKING, SWIMMING, FALL_FLYING]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7931</id>
+	<key><![CDATA[INHALING, LONG_JUMPING, SHOOTING, SLIDING]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7932</id>
+	<key><![CDATA[Only FALL_FLYING, SLEEPING, SNEAKING, STANDING, SWIMMING]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7933</id>
+	<key><![CDATA[Known poses:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7934</id>
+	<key><![CDATA[LONG_JUMPING]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7935</id>
+	<key><![CDATA[DYING, SLEEPING]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7936</id>
+	<key><![CDATA[SPIN_ATTACK]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>

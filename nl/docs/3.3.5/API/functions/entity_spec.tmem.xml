@@ -1827,4 +1827,60 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nl-7915</id>
+	<key><![CDATA[color: The color of the shulker or %s (can be WHITE, ORANGE, MAGENTA, LIGHT_BLUE, YELLOW, LIME, PINK, GRAY, LIGHT_GRAY, CYAN, PURPLE, BLUE, BROWN, GREEN, RED, or BLACK).]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7916</id>
+	<key><![CDATA[item: The item that will be shown and then spawned after a delay (can be %s). If the item is a projectile type, it will be shot as one downwards.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7917</id>
+	<key><![CDATA[immovable: Whether the mannequin cannot be moved.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7918</id>
+	<key><![CDATA[OMINOUS_ITEM_SPAWNER]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7919</id>
+	<key><![CDATA[delay: The number of ticks before the item will be spawned. (will play "about_to_spawn_item" sound at 37 ticks)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7920</id>
+	<key><![CDATA[type: The art on the painting (can be KEBAB, AZTEC, ALBAN, AZTEC2, BOMB, PLANT, WASTELAND, MEDITATIVE, POOL, COURBET, SEA, SUNSET, CREEBET, WANDERER, GRAHAM, PRAIRIE_RIDE, MATCH, BUST, STAGE, VOID, SKULL_AND_ROSES, WITHER, BAROQUE, HUMBLE, EARTH, WIND, WATER, FIRE, FIGHTERS, CHANGING, FINDING, LOWMIST, PASSAGE, BOUQUET, CAVEBIRD, COTAN, ENDBOSS, FERN, OWLEMONS, SUNFLOWERS, TIDES, DENNIS, SKELETON, DONKEY_KONG, BACKYARD, POND, POINTER, PIGSCENE, BURNING_SKULL, ORB, or UNPACKED).]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7921</id>
+	<key><![CDATA[particle: The particle type which comprises the cloud (can be SMOKE_NORMAL, SOUL_FIRE_FLAME, DUST_PILLAR, BUBBLE_COLUMN_UP, DUST_PLUME, REVERSE_PORTAL, CAMPFIRE_SIGNAL_SMOKE, TRIAL_OMEN, BLOCK_DUST, DRIPPING_DRIPSTONE_LAVA, SWEEP_ATTACK, WATER_SPLASH, LANDING_LAVA, TINTED_LEAVES, SLIME, FALLING_LAVA, TRAIL, DRIPPING_HONEY, ITEM_CRACK, WARPED_SPORE, DUST_COLOR_TRANSITION, FALLING_DUST, WATER_BUBBLE, FLASH, VILLAGER_ANGRY, FALLING_DRIPSTONE_LAVA, FALLING_DRIPSTONE_WATER, BLOCK_CRUMBLE, HEART, END_ROD, FALLING_NECTAR, VAULT_CONNECTION, SCULK_SOUL, WHITE_SMOKE, SPELL_INSTANT, VILLAGER_HAPPY, SQUID_INK, VIBRATION, DRIPPING_DRIPSTONE_WATER, BUBBLE_POP, COMPOSTER, NAUTILUS, SHRIEK, FALLING_SPORE_BLOSSOM, SMALL_FLAME, EXPLOSION_LARGE, TOWN_AURA, ASH, DAMAGE_INDICATOR, TOTEM, SPIT, FALLING_OBSIDIAN_TEAR, PORTAL, EGG_CRACK, WAX_OFF, ITEM_COBWEB, FIREFLY, SPELL_WITCH, GLOW_SQUID_INK, EXPLOSION_HUGE, SNOWFLAKE, WATER_WAKE, FIREWORKS_SPARK, DRIP_LAVA, GUST_EMITTER_SMALL, BLOCK_CRACK, BLOCK_MARKER, PALE_OAK_LEAVES, ENCHANTMENT_TABLE, REDSTONE, SNOW_SHOVEL, SPELL_MOB, FALLING_HONEY, SPORE_BLOSSOM_AIR, DRAGON_BREATH, DRIPPING_OBSIDIAN_TEAR, CURRENT_DOWN, TRIAL_SPAWNER_DETECTION_OMINOUS, ELECTRIC_SPARK, LANDING_OBSIDIAN_TEAR, INFESTED, GUST_EMITTER_LARGE, CHERRY_LEAVES, SNEEZE, WHITE_ASH, GLOW, OMINOUS_SPAWNING, SCULK_CHARGE_POP, LANDING_HONEY, TRIAL_SPAWNER_DETECTION, RAID_OMEN, CRIT_MAGIC, SUSPENDED, WATER_DROP, SPELL, FALLING_WATER, LAVA, WAX_ON, CRIT, CLOUD, SCRAPE, SMALL_GUST, SUSPENDED_DEPTH, CAMPFIRE_COSY_SMOKE, SOUL, NOTE, SNOWBALL, SMOKE_LARGE, COPPER_FIRE_FLAME, SONIC_BOOM, CRIMSON_SPORE, EXPLOSION_NORMAL, FLAME, GUST, MOB_APPEARANCE, DOLPHIN, DRIP_WATER, or SCULK_CHARGE). Can also accept a particle array for specific particle data. See spawn_particle().]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7922</id>
+	<key><![CDATA[MANNEQUIN]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

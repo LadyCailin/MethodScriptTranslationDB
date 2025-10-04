@@ -1,120 +1,120 @@
 <translations>
 <comment></comment>
 <translationBlock>
-	<id>nb-445</id>
+	<id>nl-445</id>
 	<key><![CDATA[Yes]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nb-980</id>
-	<key><![CDATA[entityUUID, boolean]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto></auto>
-</translationBlock>
-<translationBlock>
-	<id>nb-1091</id>
-	<key><![CDATA[Sets whether a living entity will despawn. True means it will not.]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto></auto>
-</translationBlock>
-<translationBlock>
-	<id>nb-2878</id>
+	<id>nl-2878</id>
 	<key><![CDATA[Examples]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nb-3788</id>
+	<id>nl-3788</id>
 	<key><![CDATA[Vital Info]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nb-3789</id>
+	<id>nl-3789</id>
 	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.%s (Note this page is automatically generated from the documentation in the source code.)]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nb-3791</id>
+	<id>nl-3791</id>
 	<key><![CDATA[Usages]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nb-3792</id>
+	<id>nl-3792</id>
 	<key><![CDATA[Sorry, there are no examples for this function! :(]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nb-3813</id>
+	<id>nl-3805</id>
+	<key><![CDATA[See Also]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-3813</id>
 	<key><![CDATA[None]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nb-5152</id>
+	<id>nl-5152</id>
 	<key><![CDATA[About]]></key>
 	<comment></comment>
 	<translation></translation>
-	<auto><![CDATA[Om]]></auto>
-</translationBlock>
-<translationBlock>
-	<id>nb-5153</id>
-	<key><![CDATA[Home]]></key>
-	<comment></comment>
-	<translation><![CDATA[Hjem]]></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nb-5154</id>
+	<id>nl-5153</id>
+	<key><![CDATA[Home]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-5154</id>
 	<key><![CDATA[Privacy Policy]]></key>
 	<comment></comment>
 	<translation></translation>
-	<auto><![CDATA[Personvern]]></auto>
+	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nb-5155</id>
+	<id>nl-5155</id>
 	<key><![CDATA[Sponsors]]></key>
 	<comment></comment>
 	<translation></translation>
-	<auto><![CDATA[Sponsorer]]></auto>
+	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nb-5156</id>
+	<id>nl-5156</id>
 	<key><![CDATA[Help]]></key>
 	<comment></comment>
-	<translation><![CDATA[Hjelp]]></translation>
-	<auto><![CDATA[hjelp]]></auto>
+	<translation></translation>
+	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nb-5157</id>
+	<id>nl-5157</id>
 	<key><![CDATA[Team. All rights reserved.]]></key>
 	<comment></comment>
 	<translation></translation>
-	<auto><![CDATA[Team. Alle rettigheter reservert.]]></auto>
+	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nb-5158</id>
+	<id>nl-5158</id>
 	<key><![CDATA[Docs]]></key>
 	<comment></comment>
 	<translation></translation>
-	<auto><![CDATA[Dokumenter]]></auto>
+	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>nb-7881</id>
-	<key><![CDATA[Sets whether a living entity will despawn when players are far enough away.]]></key>
+	<id>nl-7885</id>
+	<key><![CDATA[entityUUID, pose, %s[%sfixed%s]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7945</id>
+	<key><![CDATA[Sets an entity's pose. (only Mannequins on Spigot) The fixed argument is a boolean for whether the pose should stay unless manually changed. (defaults to false) While in most cases you can set any pose to any entity, only certain poses will result in a noticable change for a particular entity type. Poses can affect entity hitboxes but do not otherwise change entity state. See %s for a list of poses.]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>

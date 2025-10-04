@@ -112,4 +112,11 @@
 	<translation></translation>
 	<auto><![CDATA[Døcs]]></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-7886</id>
+	<key><![CDATA[Opens a trading interface for the current player, or the one specified. Only one player can trade with a merchant at a time. If the merchant is already being traded with, the function will do nothing. When force is set to true, this function will first close trading with any other player. Function returns true if trading was successfully opened, and false if not.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

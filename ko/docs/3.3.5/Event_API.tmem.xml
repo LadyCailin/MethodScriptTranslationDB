@@ -4298,4 +4298,39 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-7897</id>
+	<key><![CDATA[id%s: %s&lt;[[%s|String IC Match]]&gt; The ID of the entity that toggled swimming%stype%s: %s&lt;[[%s|String IC Match]]&gt; The entity type of the entity that toggled swimming%splayer%s: %s&lt;[[%s|Player Match]]&gt; The player that toggled swimming]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7898</id>
+	<key><![CDATA[id%s: The entityID of the entity%stype%s: The entity type of the entity%sswimming%s: true if the entity is entering swimming mode, false if the entity is leaving it%splayer%s: If the entity is a player, this will contain their name, otherwise]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7899</id>
+	<key><![CDATA[This event is called when an entity's swimming status is toggled]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7900</id>
+	<key><![CDATA[entity_toggle_swim]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-7901</id>
+	<key><![CDATA[type%s: %s&lt;Macro&gt;%sreason%s: %s&lt;Macro&gt; One of BEEHIVE, BREEDING, BUCKET, BUILD_COPPERGOLEM, BUILD_IRONGOLEM, BUILD_SNOWMAN, BUILD_WITHER, COMMAND, CUSTOM, DEFAULT, EGG, JOCKEY, LIGHTNING, NATURAL, PATROL, PIGLIN_ZOMBIFIED, RAID, REINFORCEMENTS, SHOULDER_ENTITY, SLIME_SPLIT, SPAWNER, SPAWNER_EGG, VILLAGE_DEFENSE, VILLAGE_INVASION, NETHER_PORTAL, DISPENSE_EGG, INFECTION, CURED, OCELOT_BABY, SILVERFISH_BLOCK, MOUNT, TRAP, ENDER_PEARL, DROWNED, SHEARED, EXPLOSION, FROZEN, SPELL, METAMORPHOSIS, DUPLICATION, ENCHANTMENT, TRIAL_SPAWNER, POTION_EFFECT, REHYDRATION, or REANIMATE]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

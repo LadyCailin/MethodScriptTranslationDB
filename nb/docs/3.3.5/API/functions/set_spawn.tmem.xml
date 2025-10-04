@@ -112,4 +112,18 @@
 	<translation></translation>
 	<auto><![CDATA[Dokumenter]]></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-7883</id>
+	<key><![CDATA[Sets the spawn of the world. Note that in some cases a plugin may override the spawn.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7896</id>
+	<key><![CDATA[[%sworld%s]%s, locationArray %s %s[%sworld%s]%s, x, y, z]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

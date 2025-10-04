@@ -112,4 +112,11 @@
 	<translation></translation>
 	<auto><![CDATA[Døcs]]></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-7893</id>
+	<key><![CDATA[Sets the block at the location from a blockdata string. Forward compatibility is not ensured. The physics boolean determines whether or not this causes a block update. Defaults to true.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
