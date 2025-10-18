@@ -11564,4 +11564,235 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-7950</id>
+	<key><![CDATA[MatrixHandling]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7951</id>
+	<key><![CDATA[Returns the Frobinius norm of the matrix, that is, the square root of the sum of the squares of all elements.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7952</id>
+	<key><![CDATA[Real2dMatrix%sarray matrix]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7953</id>
+	<key><![CDATA[Creates a submatrix by deleting the given row and column. A new matrix is returned. If either row or column are negative, only the other will be deleted. If both are negative, or either is greater than the dimensions of the matrix, a range exception is thrown.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7954</id>
+	<key><![CDATA[Does scalar multiplication on the matrix. The underlying left matrix object is modified in place if it is a Real2dMatrix, but a reference is always returned.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7955</id>
+	<key><![CDATA[Real2dMatrix%sarray matrix, double scalar]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7956</id>
+	<key><![CDATA[Adds the right matrix to the left. The underlying left matrix object is modified in place if it is a Real2dMatrix, but a reference is always returned.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7957</id>
+	<key><![CDATA[Real2dMatrix]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7958</id>
+	<key><![CDATA[Gets the specified zero indexed column of the matrix, as an array. A RangeException is thrown if the specified value exceeds the]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7959</id>
+	<key><![CDATA[Returns the trace of the matrix, that is, the sum of the values on the diagonal. This throws a RangeException if the matrix is not square.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7960</id>
+	<key><![CDATA[ArrayHandling%sBasicLogic%sBossBar%sBukkitMetadata%sByteArrays%sClipboard%sCmdline%sCommands%sCompiler%sControlFlow%sCrypto%sDataHandling%sDataTransformations%sDebug%sEasings%sEchoes%sEnchantments%sEntityManagement%sEnvironment%sEventBinding%sExceptions%sExecutionQueue%sExtensionMeta%sFileHandling%sInventoryManagement%sItemMeta%sMarquee%sMath%sMatrixHandling%sMeta%sMinecraft%sMobManagement%sOAuth%sOS%sObjectManagement%sPerformance%sPermissions%sPersistence%sPlayerManagement%sPluginMeta%sRecipes%sReflection%sRegex%sResourceManager%sSQL%sSandbox%sScheduling%sScoreboards%sStatistics%sStringHandling%sTaskHandling%sThreading%sTrades%sWeather%sWeb%sWorld%sXGUI]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7961</id>
+	<key><![CDATA[Performs matrix multiplication between this matrix and the specified matrix. A new matrix is returned.  The column count of the left matrix must match the row count of the right matrix, or a IllegalArgumentException is thrown.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7962</id>
+	<key><![CDATA[Real2dMatrix%sarray left, Real2dMatrix%sarray right, double tolerance]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7963</id>
+	<key><![CDATA[Contains functions related to matrices. The general format of a matrix object is either a Real2dMatrix object, or an array of two parameters, dimensions, and data. Dimensions is an array of dimensions, indicating the size of each dimension. The data parameter contains the actual matrix data, stored in row-major order. Currently, only 2 dimensional arrays of real numbers are supported. Dimension sizes must be 32 bit integers. The data array contains doubles, and the size of this array must be equal to the dimension values multiplied together. Matrix operations done via a Real2dMatrix object will be faster than equivalent operations directly on an array. If you have a flat array, use matrix_create() to convert it into a matrix object.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7964</id>
+	<key><![CDATA[Real2dArray%sarray matrix, int column]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7965</id>
+	<key><![CDATA[Returns true if the two matrices can be added (or subtracted). That is, are the dimensions of both matrices equal.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7966</id>
+	<key><![CDATA[int size]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7967</id>
+	<key><![CDATA[Real2dMatrix matrix]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7968</id>
+	<key><![CDATA[Subtracts the right matrix from the left. The underlying left matrix object is modified in place if it is a Real2dMatrix, but a reference is always returned.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7969</id>
+	<key><![CDATA[Returns true if the matrix is square, that is the row and column count are the same.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7970</id>
+	<key><![CDATA[Real2dMatrix%sarray left, Real2dMatrix%sarray right]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7971</id>
+	<key><![CDATA[Returns a new identity matrix of the given size. The size value is a single dimension, the other dimension will be the same size, as all identity matrices are square.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7972</id>
+	<key><![CDATA[array%sReal2dMatrix matrix]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7973</id>
+	<key><![CDATA[array matrixObject %s array matrix, int rows, int columns]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7974</id>
+	<key><![CDATA[Returns true if matrix multiplication would succed for the two matrices. That is, true if the column count of the left matrix matches the row count of the right matrix]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7975</id>
+	<key><![CDATA[Real2dMatrix%sarray matrix, string format = '%.3f']]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7976</id>
+	<key><![CDATA[Returns the determinant of the matrix, that is, the product of the main diagonal, minus the product of the other diagonal. This throws a RangeException if the matrix is not square.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7977</id>
+	<key><![CDATA[Real2dMatrix%sarray matrix, int row, int column]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7978</id>
+	<key><![CDATA[Returns true if the two matrices are equal to each other, within the given tolerance.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7979</id>
+	<key><![CDATA[Transposes a matrix. Transposing a matrix inverts the matrix about the diagonal, changing the length of dimensions (if they are different). The underlying matrix object is modified in place if it is a Real2dMatrix, but a reference is always returned.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7980</id>
+	<key><![CDATA[Creates a Real2dMatrix object from a flat array of doubles. The matrix may instead be %s, and a matrix of all zeros will be created with the specified row and column count. If an array is passed in, the length of the array must be equal to rows * columns, or a RangeException is thrown. Alternatively, if the underlying array is a matrix object (an associative array with a dimensions and data property) it is converted to a Real2dMatrix object.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7981</id>
+	<key><![CDATA[Returns a human readable representation of the matrix, formatting the numbers according to the format, by default &apos;%.3f&apos;. See sprintf for full formatting rules.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-7982</id>
+	<key><![CDATA[Converts a Real2dMatrix object into an array. Note that matrices implement ArrayAccess, so this step is not generally necessary just to access elements of the matrix. The returned array will have two keys, dimensions, and data. Dimensions will be a length 2 array of integers, containing the row and column count, and data is a flat array containing the doubles.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
