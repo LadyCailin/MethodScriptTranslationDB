@@ -55895,4 +55895,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-7986</id>
+	<key><![CDATA[Clones the matrix. This clone is a deep copy, fully independent from the source matrix.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
