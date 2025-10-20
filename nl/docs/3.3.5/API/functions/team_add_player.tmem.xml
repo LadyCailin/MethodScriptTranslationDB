@@ -119,4 +119,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nl-7993</id>
+	<key><![CDATA[teamName, entry, %s[%sscoreboard%s]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8008</id>
+	<key><![CDATA[Adds a player (or entity UUID) to a team, given the team exists. It will be removed from any other team on the same scoreboard. Scoreboard defaults to 'main' if not given.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

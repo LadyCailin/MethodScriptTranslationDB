@@ -11802,4 +11802,74 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-7987</id>
+	<key><![CDATA[Adds the specified item to a player&apos;s enderchest. Unlike %s, this does not use a specific slot. The items are distributed in the player&apos;s inventory, first filling up slots that have the same items, up to the max stack size, then fills up empty slots, until either the entire inventory is filled or the entire amount has been given. If the player&apos;s enderchest is full, the number of items that were not added is returned, which will be less than or equal to the quantity provided. Otherwise, returns 0.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7988</id>
+	<key><![CDATA[teamname, entry, %s[%sscoreboard%s]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7989</id>
+	<key><![CDATA[Applies the data from the given array to the item at the specified slot. Unused fields will use defaults. If %s or an empty array is supplied, or if none of the given fields are applicable, the item will become default, as this function overwrites any existing data. See %s for available fields. If the item does not yet exist, use %s instead.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7990</id>
+	<key><![CDATA[Sets the experience of a player within the current level, as a percentage, from 0 to 100. 100 will sometimes reset the experience to zero and add a level to the player.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7991</id>
+	<key><![CDATA[Adds a player (or entity UUID) to a team, given the team exists. It will be removed from any other team on the same scoreboard. Scoreboard defaults to &apos;main&apos; if not given.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7992</id>
+	<key><![CDATA[Gets the experience of a player within this level, as a percentage, from 0 to 100.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7993</id>
+	<key><![CDATA[teamName, entry, %s[%sscoreboard%s]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7994</id>
+	<key><![CDATA[[%splayer,%s]%s slot, itemMetaArray]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7995</id>
+	<key><![CDATA[Attempts to remove a player (or entity UUID) from a team, and returns true if successful, for false if it was not part of the team.Scoreboard defaults to &apos;main&apos; if not given.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7996</id>
+	<key><![CDATA[Sets an entity&apos;s pose. (only Mannequins on Spigot, 1.20.1+ on Paper) The fixed argument is a boolean for whether the pose should stay unless manually changed. (defaults to false) While in most cases you can set any pose to any entity, only certain poses will result in a noticable change for a particular entity type. Poses can affect entity hitboxes but do not otherwise change entity state. See %s for a list of poses.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

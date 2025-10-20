@@ -112,4 +112,11 @@
 	<translation></translation>
 	<auto><![CDATA[Dokumenter]]></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-7990</id>
+	<key><![CDATA[Sets the experience of a player within the current level, as a percentage, from 0 to 100. 100 will sometimes reset the experience to zero and add a level to the player.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

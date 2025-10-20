@@ -119,4 +119,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-7992</id>
+	<key><![CDATA[Gets the experience of a player within this level, as a percentage, from 0 to 100.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

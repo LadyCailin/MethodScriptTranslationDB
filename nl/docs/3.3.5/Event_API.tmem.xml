@@ -4319,4 +4319,32 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nl-7997</id>
+	<key><![CDATA[levels%s: The amount of levels required%sitem%s: The item to be enchanted%senchants%s: The enchants to add to the item]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7998</id>
+	<key><![CDATA[player%s: The player that enchanted the item%sitem%s: The item to be enchanted%sinventorytype%s: type of inventory%slevels%s: The minimum amount of levels the player required%senchants%s: Array of added enchantments%slocation%s: Location of the used enchantment table%soption%s: The listed option the player clicked (0-2). Can be used to get level cost.%slevelhint%s: The level displayed as a hint to the player (MC 1.20.1+)%senchanthint%s: The enchantment displayed as a hint to the player (MC 1.20.1+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-7999</id>
+	<key><![CDATA[id%s: The entityID of the entity%stype%s: The entity type of the entity%sreason%s: The reason the leash broke. Can be one of HOLDER_GONE, PLAYER_UNLEASH, DISTANCE, SHEAR (Spigot-only 1.21.6+), FIREWORK (Spigot-only 1.21.6+), UNKNOWN]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8000</id>
+	<key><![CDATA[type%s: %s&lt;Macro&gt;%sreason%s: %s&lt;Macro&gt; One of]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

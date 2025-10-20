@@ -71,6 +71,13 @@
 	<auto></auto>
 </translationBlock>
 <translationBlock>
+	<id>art-3805</id>
+	<key><![CDATA[See Also]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
 	<id>art-3810</id>
 	<key><![CDATA[The output might be:]]></key>
 	<comment></comment>
@@ -269,6 +276,20 @@
 <translationBlock>
 	<id>art-7208</id>
 	<key><![CDATA[Demonstrates a player head]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7989</id>
+	<key><![CDATA[Applies the data from the given array to the item at the specified slot. Unused fields will use defaults. If %s or an empty array is supplied, or if none of the given fields are applicable, the item will become default, as this function overwrites any existing data. See %s for available fields. If the item does not yet exist, use %s instead.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-7994</id>
+	<key><![CDATA[[%splayer,%s]%s slot, itemMetaArray]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>

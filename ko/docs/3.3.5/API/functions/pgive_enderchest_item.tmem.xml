@@ -64,6 +64,13 @@
 	<auto></auto>
 </translationBlock>
 <translationBlock>
+	<id>ko-3805</id>
+	<key><![CDATA[See Also]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
 	<id>ko-4560</id>
 	<key><![CDATA[Adds the specified item to a player's enderchest. Unlike set_penderchest(), this does not specify a slot. The items are distributed in the player's inventory, first filling up slots that have the same item type, up to the max stack size, then fills up empty slots, until either the entire inventory is filled or the entire amount has been given. If the player's enderchest is full, the number of items that were not added is returned, which will be less than or equal to the quantity provided. Otherwise, returns 0.]]></key>
 	<comment></comment>
@@ -115,6 +122,13 @@
 <translationBlock>
 	<id>ko-5158</id>
 	<key><![CDATA[Docs]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-8004</id>
+	<key><![CDATA[Adds the specified item to a player's enderchest. Unlike %s, this does not use a specific slot. The items are distributed in the player's inventory, first filling up slots that have the same items, up to the max stack size, then fills up empty slots, until either the entire inventory is filled or the entire amount has been given. If the player's enderchest is full, the number of items that were not added is returned, which will be less than or equal to the quantity provided. Otherwise, returns 0.]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>

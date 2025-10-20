@@ -112,4 +112,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-7988</id>
+	<key><![CDATA[teamname, entry, %s[%sscoreboard%s]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-8009</id>
+	<key><![CDATA[Attempts to remove a player (or entity UUID) from a team, and returns true if successful, for false if it was not part of the team.Scoreboard defaults to 'main' if not given.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
