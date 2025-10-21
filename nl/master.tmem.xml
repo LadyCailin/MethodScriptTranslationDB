@@ -52360,4 +52360,137 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nl-8010</id>
+	<key><![CDATA[Type Specific Fields]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8011</id>
+	<key><![CDATA[Separate Paper/Spigot API]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8012</id>
+	<key><![CDATA[Server API is write only]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8013</id>
+	<key><![CDATA[Data components not yet supported in item meta:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8014</id>
+	<key><![CDATA['''group''' : (string) If this namespaced id is present, it shares cooldowns with items with the same cooldown group instead of by item type. (optional)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8015</id>
+	<key><![CDATA[Paper only]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8016</id>
+	<key><![CDATA[Added in Spigot 1.21.4 API; Paper API separate]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8017</id>
+	<key><![CDATA[Paper 1.21.3+ only]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8018</id>
+	<key><![CDATA[Overrides the item's tooltip style using a namespaced resource location. (MC 1.21.3+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8019</id>
+	<key><![CDATA[Overrides the item's cooldown on use. The cooldown temporarily prevents any right-click actions for items of the same type or with the same cooldown group, if set. Not all item types activate cooldowns on use. (MC 1.21.3+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8020</id>
+	<key><![CDATA[Overrides the item's model using a namespaced resource location. (MC 1.21.3+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8021</id>
+	<key><![CDATA[Unsupported Fields]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8022</id>
+	<key><![CDATA[Optional Fields]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8023</id>
+	<key><![CDATA[Added in Spigot 1.21.5 API]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8024</id>
+	<key><![CDATA[Cannot read tags in 'rules' field; 'can_destroy_blocks_in_creative' field only in Paper]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8025</id>
+	<key><![CDATA['''seconds''' : (double) The number of seconds the cooldown lasts when the item is used. (default: 1.0)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8026</id>
+	<key><![CDATA[Partially supported with 'flags' field]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8027</id>
+	<key><![CDATA[Basic Fields]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8028</id>
+	<key><![CDATA[Needed for anything other than a single float rounded down in the 'model' field]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
