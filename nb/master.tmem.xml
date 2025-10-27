@@ -56196,4 +56196,60 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-8029</id>
+	<key><![CDATA[Returns an associative array showing the equipment this mob is wearing. The equipment slots are: weapon, off_hand, helmet, chestplate, leggings, boots, body (MC 1.20.6+), and saddle (MC 1.21.5+). This works on mobs, players, mannequins, and armor stands.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-8030</id>
+	<key><![CDATA[Sets the location of the player to the specified coordinates. If the coordinates are not valid, or the player was otherwise prevented from teleporting, false is returned, otherwise true. On Paper 1.19.3+, passengers do not automatically prevent teleports. If player is omitted, the current player is used. Important: unlike %s, 1.0 is automatically added to the y coordinate.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-8031</id>
+	<key><![CDATA[Changes a living entity&apos;s equipment only for the specified player. (MC 1.18+) Equipment array can be %s to make all equipment not visible. Otherwise equipment array must be an associative array where the keys are equipment slots and the values are item arrays or %s. The equipment slots are: weapon, off_hand, helmet, chestplate, leggings, boots, body (MC 1.20.6+), and saddle (MC 1.21.5+).]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-8032</id>
+	<key><![CDATA[Takes an associative array with keys representing equipment slots and values of item arrays. The equipment slots are: weapon, off_hand, helmet, chestplate, leggings, boots, body (MC 1.20.6+), and saddle (MC 1.21.5+). This works on mobs, players, mannequins, and armor stands. While you may set any slot for any of these entities, some slots are not used by some entities. Setting unused slots is not officially supported behavior, so your results may vary.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-8033</id>
+	<key><![CDATA[Teleports the entity to the given location and returns whether the action was successful. Note this can set both location and direction. On Paper 1.19.3+ servers, this teleports passengers along with the entity instead of canceling the teleport.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-8034</id>
+	<key><![CDATA[type%s: %s&lt;Macro&gt;%sreason%s: %s&lt;Macro&gt; One of BEEHIVE, BREEDING, BUCKET, BUILD_COPPERGOLEM, BUILD_IRONGOLEM, BUILD_SNOWMAN, BUILD_WITHER, COMMAND, CUSTOM, DEFAULT, EGG, JOCKEY, LIGHTNING, NATURAL, PATROL, PIGLIN_ZOMBIFIED, RAID, REINFORCEMENTS, SHOULDER_ENTITY, SLIME_SPLIT, SPAWNER, SPAWNER_EGG, VILLAGE_DEFENSE, VILLAGE_INVASION, NETHER_PORTAL, DISPENSE_EGG, INFECTION, CURED, OCELOT_BABY, SILVERFISH_BLOCK, MOUNT, TRAP, ENDER_PEARL, DROWNED, SHEARED, EXPLOSION, FROZEN, SPELL, METAMORPHOSIS, DUPLICATION, ENCHANTMENT, TRIAL_SPAWNER, POTION_EFFECT, REHYDRATION (Paper), REANIMATE]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-8035</id>
+	<key><![CDATA['''slot''' : (string) Possible slots are WEAPON, OFF_HAND, BOOTS, LEGGINGS, CHESTPLATE, HELMET, BODY, or SADDLE or one of the slot groups ANY, HAND, ARMOR, BODY, or SADDLE.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-8036</id>
+	<key><![CDATA[Changes a living entity's equipment only for the specified player. (MC 1.18+) Equipment array can be %s to make all equipment not visible. Otherwise equipment array must be an associative array where the keys are equipment slots and the values are item arrays or %s. The equipment slots are: weapon, off_hand, helmet, chestplate, leggings, boots, body (MC 1.20.6+), and saddle (MC 1.21.5+).]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

@@ -2646,4 +2646,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-8035</id>
+	<key><![CDATA['''slot''' : (string) Possible slots are WEAPON, OFF_HAND, BOOTS, LEGGINGS, CHESTPLATE, HELMET, BODY, or SADDLE or one of the slot groups ANY, HAND, ARMOR, BODY, or SADDLE.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

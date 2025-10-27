@@ -57,6 +57,13 @@
 	<auto></auto>
 </translationBlock>
 <translationBlock>
+	<id>ko-3805</id>
+	<key><![CDATA[See Also]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
 	<id>ko-3810</id>
 	<key><![CDATA[The output might be:]]></key>
 	<comment></comment>
@@ -136,6 +143,13 @@
 <translationBlock>
 	<id>ko-7212</id>
 	<key><![CDATA[Returns an associative array showing the equipment this mob is wearing. This only works on mobs and armor stands.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-8029</id>
+	<key><![CDATA[Returns an associative array showing the equipment this mob is wearing. The equipment slots are: weapon, off_hand, helmet, chestplate, leggings, boots, body (MC 1.20.6+), and saddle (MC 1.21.5+). This works on mobs, players, mannequins, and armor stands.]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>

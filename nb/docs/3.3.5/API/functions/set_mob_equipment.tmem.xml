@@ -57,6 +57,13 @@
 	<auto></auto>
 </translationBlock>
 <translationBlock>
+	<id>nb-3805</id>
+	<key><![CDATA[See Also]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
 	<id>nb-3810</id>
 	<key><![CDATA[The output might be:]]></key>
 	<comment></comment>
@@ -136,6 +143,13 @@
 <translationBlock>
 	<id>nb-7216</id>
 	<key><![CDATA[Takes an associative array with keys representing equipment slots and values of itemArrays, the same used by set_pinv(). This only works on mobs and armor stands. Unless a mod, plugin, or future update changes vanilla functionality, only humanoid mobs will render their equipment slots. The equipment slots are: WEAPON, OFF_HAND, BOOTS, LEGGINGS, CHESTPLATE, or HELMET]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-8032</id>
+	<key><![CDATA[Takes an associative array with keys representing equipment slots and values of item arrays. The equipment slots are: weapon, off_hand, helmet, chestplate, leggings, boots, body (MC 1.20.6+), and saddle (MC 1.21.5+). This works on mobs, players, mannequins, and armor stands. While you may set any slot for any of these entities, some slots are not used by some entities. Setting unused slots is not officially supported behavior, so your results may vary.]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>

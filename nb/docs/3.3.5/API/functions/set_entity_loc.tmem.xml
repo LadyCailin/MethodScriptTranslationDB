@@ -189,4 +189,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-8033</id>
+	<key><![CDATA[Teleports the entity to the given location and returns whether the action was successful. Note this can set both location and direction. On Paper 1.19.3+ servers, this teleports passengers along with the entity instead of canceling the teleport.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

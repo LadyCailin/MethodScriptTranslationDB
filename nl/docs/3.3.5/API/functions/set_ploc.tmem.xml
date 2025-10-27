@@ -112,4 +112,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nl-8030</id>
+	<key><![CDATA[Sets the location of the player to the specified coordinates. If the coordinates are not valid, or the player was otherwise prevented from teleporting, false is returned, otherwise true. On Paper 1.19.3+, passengers do not automatically prevent teleports. If player is omitted, the current player is used. Important: unlike %s, 1.0 is automatically added to the y coordinate.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
