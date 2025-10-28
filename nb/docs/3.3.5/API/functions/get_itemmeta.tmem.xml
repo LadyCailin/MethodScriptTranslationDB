@@ -2751,4 +2751,32 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-8051</id>
+	<key><![CDATA['''asset''' : (string) If this namespaced resource location is present, the equipment asset will be used to determine the model when the item is equipped. (assets/&lt;namespace&gt;/equipment/&lt;id&gt;.json)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-8052</id>
+	<key><![CDATA[Overrides the item's tooltip style using a namespaced resource location. (/assets/&lt;namespace&gt;/textures/gui/sprites/tooltip/&lt;id&gt;) (MC 1.21.3+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-8053</id>
+	<key><![CDATA['''overlay''' : (string) If this namespaced resource location is present, the texture will be used as a camera overlay when the item is equipped. (assets/&lt;namespace&gt;/textures/&lt;id&gt;)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-8054</id>
+	<key><![CDATA[Overrides the item's model using a namespaced resource location. (/assets/&lt;namespace&gt;/items/&lt;id&gt;) (MC 1.21.3+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
