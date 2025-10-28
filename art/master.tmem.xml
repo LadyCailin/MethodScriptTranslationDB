@@ -56252,4 +56252,102 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-8037</id>
+	<key><![CDATA['''swappable''' : (boolean) Whether the item can be equipped into the slot by right-clicking. (defaults to true)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-8038</id>
+	<key><![CDATA['''damageable''' : (boolean) Whether the durability is damaged when the wearer is damaged. (defaults to true)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-8039</id>
+	<key><![CDATA['''overlay''' : (string) If this namespaced resource location is present, the texture will be used as a camera overlay when the item is equipped. (assets/%s/textures/%s)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-8040</id>
+	<key><![CDATA['''slot''' : (string) The slot to put the item on. Can be WEAPON, OFF_HAND, BOOTS, LEGGINGS, CHESTPLATE, HELMET, BODY, or SADDLE.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-8041</id>
+	<key><![CDATA['''sound''' : (string) The namespaced id of the sound played when the item is equipped. (defaults to 'item.armor.equip_generic') New sound event definitions are not supported here.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-8042</id>
+	<key><![CDATA[Below is a reference for all the fields that can be found in an item meta array. Not all vanilla data is fully supported, though, whether due to limitations in the server API or missing support in CH. So if you use other plugins or vanilla commands to create unique items with fields unsupported here, then modifying, storing, and restoring those item meta arrays using CH functions can lead to data loss. However, in those cases CH functions can still safely create new items or be used to check data on existing items. See at the bottom for a list of unsupported fields. Supported fields or item types may have additional notes on limitations.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-8043</id>
+	<key><![CDATA['''asset''' : (string) If this namespaced resource location is present, the equipment asset will be used to determine the model when the item is equipped. (assets/%s/equipment/%s.json)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-8044</id>
+	<key><![CDATA['''entities''' : (array) If present, only the listed living entity types can equip this item. Entity tags cannot be set and are converted to an array of types when read.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-8045</id>
+	<key><![CDATA[Common Fields]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-8046</id>
+	<key><![CDATA[Overrides the item's model using a namespaced resource location. (/assets/%s/items/%s) (MC 1.21.3+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-8047</id>
+	<key><![CDATA['''interactable''' : (boolean) Whether the item can be equipped onto a valid entity by right-clicking them. (defaults to false) (MC 1.21.5+) The component fields "can_be_sheared" and "shearing_sound" are not yet supported.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-8048</id>
+	<key><![CDATA[Overrides the item's equippable component. Requires a slot. (MC 1.21.3+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-8049</id>
+	<key><![CDATA[Overrides the item's tooltip style using a namespaced resource location. (/assets/%s/textures/gui/sprites/tooltip/%s) (MC 1.21.3+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-8050</id>
+	<key><![CDATA['''dispensable''' : (boolean) Whether the item can be equipped using a dispenser. (defaults to true)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
