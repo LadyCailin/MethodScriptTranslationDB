@@ -112,4 +112,18 @@
 	<translation></translation>
 	<auto><![CDATA[Dokumenter]]></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-8057</id>
+	<key><![CDATA[entityUUID, holderUUID]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-8059</id>
+	<key><![CDATA[The first argument is the entity to be held on a leash, and must be a mob or a boat. The second is the holder of the leash and can be many types of entities, notably a leash hitch. Certain entity types may be excluded from being leashed depending on the Minecraft version. Boats are only supported on Paper 1.21.3+ and Spigot 1.21.10+.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

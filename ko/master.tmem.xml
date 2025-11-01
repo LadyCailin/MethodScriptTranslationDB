@@ -56392,4 +56392,32 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-8057</id>
+	<key><![CDATA[entityUUID, holderUUID]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-8058</id>
+	<key><![CDATA[Returns the UUID of the entity that is holding the given entity&apos;s leash, or %s if it isn&apos;t being held. Only mobs and boats can be leashed, otherwise a BadEntityException is thrown. Boats are only supported on Paper 1.21.3+ and Spigot 1.21.10+.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-8059</id>
+	<key><![CDATA[The first argument is the entity to be held on a leash, and must be a mob or a boat. The second is the holder of the leash and can be many types of entities, notably a leash hitch. Certain entity types may be excluded from being leashed depending on the Minecraft version. Boats are only supported on Paper 1.21.3+ and Spigot 1.21.10+.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-8060</id>
+	<key><![CDATA[Returns the UUID of the entity that is holding the given entity's leash, or %s if it isn't being held. Only mobs and boats can be leashed, otherwise a BadEntityException is thrown. Boats are only supported on Paper 1.21.3+ and Spigot 1.21.10+.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

@@ -112,4 +112,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-8060</id>
+	<key><![CDATA[Returns the UUID of the entity that is holding the given entity's leash, or %s if it isn't being held. Only mobs and boats can be leashed, otherwise a BadEntityException is thrown. Boats are only supported on Paper 1.21.3+ and Spigot 1.21.10+.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
