@@ -50,6 +50,13 @@
 	<auto></auto>
 </translationBlock>
 <translationBlock>
+	<id>ko-3805</id>
+	<key><![CDATA[See Also]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
 	<id>ko-3813</id>
 	<key><![CDATA[None]]></key>
 	<comment></comment>
@@ -108,6 +115,13 @@
 <translationBlock>
 	<id>ko-5158</id>
 	<key><![CDATA[Docs]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-8063</id>
+	<key><![CDATA[Sets the tameable mob to the specified player. The player argument supports offline players, so it should be a UUID or an exact player name. Setting the player to %s will untame the mob.]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>

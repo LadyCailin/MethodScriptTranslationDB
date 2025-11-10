@@ -50,6 +50,13 @@
 	<auto></auto>
 </translationBlock>
 <translationBlock>
+	<id>nl-3805</id>
+	<key><![CDATA[See Also]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
 	<id>nl-3813</id>
 	<key><![CDATA[None]]></key>
 	<comment></comment>
@@ -108,6 +115,13 @@
 <translationBlock>
 	<id>nl-5158</id>
 	<key><![CDATA[Docs]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8064</id>
+	<key><![CDATA[Returns the owner's name, or %s if the mob is unowned. Use %s to get the owner's unique id. An UntameableMobException is thrown if mob isn't tameable to begin with.]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>

@@ -50,6 +50,13 @@
 	<auto></auto>
 </translationBlock>
 <translationBlock>
+	<id>art-3805</id>
+	<key><![CDATA[See Also]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
 	<id>art-3813</id>
 	<key><![CDATA[None]]></key>
 	<comment></comment>
@@ -111,5 +118,12 @@
 	<comment></comment>
 	<translation></translation>
 	<auto><![CDATA[Døcs]]></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-8063</id>
+	<key><![CDATA[Sets the tameable mob to the specified player. The player argument supports offline players, so it should be a UUID or an exact player name. Setting the player to %s will untame the mob.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
 </translationBlock>
 </translations>

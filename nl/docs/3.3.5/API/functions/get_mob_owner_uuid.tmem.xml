@@ -1,127 +1,120 @@
 <translations>
 <comment></comment>
 <translationBlock>
-	<id>ko-256</id>
+	<id>nl-256</id>
 	<key><![CDATA[entityUUID]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>ko-445</id>
+	<id>nl-445</id>
 	<key><![CDATA[Yes]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>ko-2878</id>
+	<id>nl-2878</id>
 	<key><![CDATA[Examples]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>ko-3788</id>
+	<id>nl-3788</id>
 	<key><![CDATA[Vital Info]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>ko-3789</id>
+	<id>nl-3789</id>
 	<key><![CDATA[Find a bug in this page? %sEdit this page yourself, then submit a pull request.%s (Note this page is automatically generated from the documentation in the source code.)]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>ko-3791</id>
+	<id>nl-3791</id>
 	<key><![CDATA[Usages]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>ko-3792</id>
+	<id>nl-3792</id>
 	<key><![CDATA[Sorry, there are no examples for this function! :(]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>ko-3805</id>
+	<id>nl-3805</id>
 	<key><![CDATA[See Also]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>ko-3813</id>
+	<id>nl-3813</id>
 	<key><![CDATA[None]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>ko-4292</id>
-	<key><![CDATA[Returns the owner's name, or %s if the mob is unowned.An UntameableMobException is thrown if mob isn't tameable to begin with.]]></key>
-	<comment></comment>
-	<translation></translation>
-	<auto></auto>
-</translationBlock>
-<translationBlock>
-	<id>ko-5152</id>
+	<id>nl-5152</id>
 	<key><![CDATA[About]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>ko-5153</id>
+	<id>nl-5153</id>
 	<key><![CDATA[Home]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>ko-5154</id>
+	<id>nl-5154</id>
 	<key><![CDATA[Privacy Policy]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>ko-5155</id>
+	<id>nl-5155</id>
 	<key><![CDATA[Sponsors]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>ko-5156</id>
+	<id>nl-5156</id>
 	<key><![CDATA[Help]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>ko-5157</id>
+	<id>nl-5157</id>
 	<key><![CDATA[Team. All rights reserved.]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>ko-5158</id>
+	<id>nl-5158</id>
 	<key><![CDATA[Docs]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
 <translationBlock>
-	<id>ko-8064</id>
-	<key><![CDATA[Returns the owner's name, or %s if the mob is unowned. Use %s to get the owner's unique id. An UntameableMobException is thrown if mob isn't tameable to begin with.]]></key>
+	<id>nl-8065</id>
+	<key><![CDATA[Returns the owner's UUID, or %s if the mob is unowned.An UntameableMobException is thrown if mob isn't tameable to begin with.]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>

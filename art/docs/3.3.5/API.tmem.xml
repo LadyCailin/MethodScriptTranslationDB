@@ -11928,4 +11928,25 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-8061</id>
+	<key><![CDATA[Returns the owner&apos;s UUID, or %s if the mob is unowned.An UntameableMobException is thrown if mob isn&apos;t tameable to begin with.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-8062</id>
+	<key><![CDATA[Returns the owner&apos;s name, or %s if the mob is unowned. Use %s to get the owner&apos;s unique id. An UntameableMobException is thrown if mob isn&apos;t tameable to begin with.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-8063</id>
+	<key><![CDATA[Sets the tameable mob to the specified player. The player argument supports offline players, so it should be a UUID or an exact player name. Setting the player to %s will untame the mob.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
