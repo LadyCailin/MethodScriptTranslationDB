@@ -56455,4 +56455,25 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-8066</id>
+	<key><![CDATA[''Soft cast'']]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-8067</id>
+	<key><![CDATA[Soft (checking / non-converting) cast. Syntax %s(type) value%s.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-8068</id>
+	<key><![CDATA[mixed value, ClassType type]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
