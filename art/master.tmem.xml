@@ -56476,4 +56476,25 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-8069</id>
+	<key><![CDATA[SALMON]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-8070</id>
+	<key><![CDATA[type: The size type of salmon. Must be one of the sizes: SMALL, MEDIUM, or LARGE. (MC 1.21.3+)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-8071</id>
+	<key><![CDATA[size: The size of the slime. Must be an integer (0 - 126) where 0 is small, 1 is medium, and 3 is large.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
