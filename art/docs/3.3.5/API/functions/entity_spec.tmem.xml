@@ -1967,4 +1967,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-8072</id>
+	<key><![CDATA[color: Overrides the color of the arrow potion particles. Must be a color array or %s.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
