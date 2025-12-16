@@ -658,4 +658,39 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-8083</id>
+	<key><![CDATA[Old GameRules "doFireTick" and "allowFireTicksAwayFromPlayer" have been replaced with "fire_spread_radius_around_player".]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-8084</id>
+	<key><![CDATA[GameRule names have been changed and are now snake_case. While old names are converted at runtime, this is not possible when using the array from get_gamerule(world)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-8085</id>
+	<key><![CDATA[Old GameRules starting with "disable" have been inverted. These are inverted at runtime when using the old names.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-8086</id>
+	<key><![CDATA[Minecraft 1.21.11]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-8087</id>
+	<key><![CDATA[Several GameRules have new integer limits. (these appear to reset the next time the world attempts to save, but may case exceptions in the future)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

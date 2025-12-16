@@ -4368,4 +4368,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-8075</id>
+	<key><![CDATA[location%s: The location of the bed%splayer%s: The player interacting with the bed%sresult%s: The outcome of this attempt to enter bed. Can be one of NOT_POSSIBLE_HERE, NOT_POSSIBLE_NOW, NOT_SAFE, OK, OTHER_PROBLEM, TOO_FAR_AWAY, OBSTRUCTED, or EXPLOSION]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-8076</id>
+	<key><![CDATA[result%s: %s&lt;[[%s|Enum Match]]&gt; The outcome of the attempt to enter this bed. Can be one of NOT_POSSIBLE_HERE, NOT_POSSIBLE_NOW, NOT_SAFE, OK, OTHER_PROBLEM, TOO_FAR_AWAY, OBSTRUCTED, or EXPLOSION%slocation%s: %s&lt;[[%s|Location Match]]&gt; The location of the bed%splayer%s: %s&lt;[[%s|Player Match]]&gt; The player interacting with the bed]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

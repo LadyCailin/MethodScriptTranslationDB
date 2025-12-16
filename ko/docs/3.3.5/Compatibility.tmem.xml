@@ -1904,4 +1904,46 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-8077</id>
+	<key><![CDATA[3.3.5 build-615]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-8078</id>
+	<key><![CDATA[Spigot or Paper 1.16.5 - 1.21.11 (when used as a plugin)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-8079</id>
+	<key><![CDATA[This page lists compatibility changes of milestone versions of CommandHelper. In general, the compatibility requirements, if not listed, are the same as the previous milestone build. The requirements for the latest builds are:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-8080</id>
+	<key><![CDATA[Java 16+]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-8081</id>
+	<key><![CDATA[Added support for Spigot 1.21.11]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-8082</id>
+	<key><![CDATA[Spigot 1.16.5 - 1.21.11]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

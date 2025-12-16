@@ -133,4 +133,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-8074</id>
+	<key><![CDATA[Adds one, or modifies an existing, potion effect on a mob. The potionEffect can be SLOWNESS, INVISIBILITY, SLOW_FALLING, BAD_OMEN, WEAKNESS, DOLPHINS_GRACE, INSTANT_DAMAGE, BREATH_OF_THE_NAUTILUS, MINING_FATIGUE, TRIAL_OMEN, SPEED, WITHER, LUCK, FIRE_RESISTANCE, WIND_CHARGED, WATER_BREATHING, GLOWING, OOZING, ABSORPTION, HUNGER, BAD_LUCK, HERO_OF_THE_VILLAGE, REGENERATION, INFESTED, WEAVING, STRENGTH, BLINDNESS, LEVITATION, CONDUIT_POWER, RAID_OMEN, JUMP_BOOST, POISON, NAUSEA, RESISTANCE, HEALTH_BOOST, DARKNESS, NIGHT_VISION, INSTANT_HEALTH, HASTE, or SATURATION. It also accepts an integer corresponding to the effect id listed on the Minecraft wiki. Strength is an integer representing the power level of the effect, starting at 0. Seconds defaults to 30.0. To remove an effect, set the seconds to 0. If seconds is greater than 107374182 a RangeException is thrown. Negative seconds makes the effect infinite. (or max in versions prior to 1.19.4) Ambient takes a boolean of whether the particles should be more transparent. Particles takes a boolean of whether the particles should be visible at all. The function returns whether or not the effect was modified.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
