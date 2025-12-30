@@ -56672,4 +56672,46 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-8097</id>
+	<key><![CDATA[A thin wrapper around the tellraw command from console context, this simply passes the input to the command. The raw is passed in as an array and json encoded. No validation is done on the input, so the command may fail. Do not use double quotes (smart string) when providing the selector. If not provided, the selector defaults to @a. See %s if you need the @s selector with player context. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-8098</id>
+	<key><![CDATA[A thin wrapper around the tellraw command from player context, this simply passes the input to the command. The raw is passed in as a normal (possibly associative) array, and json encoded. No validation is done on the input, so the command may fail. If not provided, the selector defaults to @s. Do not use double quotes (smart string) when providing the selector. See %s if you don&apos;t need the @s selector with player context. [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-8099</id>
+	<key><![CDATA[The specification of the array may change from version to version of Minecraft, but is documented here: %s. This function is roughly equivalent to runas('~console', '/execute as '.player().' at @s tellraw '.@selector.' '.json_encode(@raw)) but uses the Gson serializer instead.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-8100</id>
+	<key><![CDATA[A thin wrapper around the tellraw command from player context, this simply passes the input to the command. The raw is passed in as a normal (possibly associative) array, and json encoded. No validation is done on the input, so the command may fail. If not provided, the selector defaults to @s. Do not use double quotes (smart string) when providing the selector. See %s if you don't need the @s selector with player context.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-8101</id>
+	<key><![CDATA[A thin wrapper around the tellraw command from console context, this simply passes the input to the command. The raw is passed in as an array and json encoded. No validation is done on the input, so the command may fail. Do not use double quotes (smart string) when providing the selector. If not provided, the selector defaults to @a. See %s if you need the @s selector with player context.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-8102</id>
+	<key><![CDATA[The specification of the array may change from version to version of Minecraft, but is documented here: %s. This function is roughly equivalent to runas('~console', '/tellraw '.@selector.' '.json_encode(@raw)) but uses the Gson serializer instead.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
