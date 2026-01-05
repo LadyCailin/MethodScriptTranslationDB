@@ -623,4 +623,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nl-8103</id>
+	<key><![CDATA[If this is true, the function will block and execute the success or error callback on the current thread. Otherwise the request will be executed asynchronously and the success or error callback will be executed on the main thread on a Minecraft server or a new thread when in cmdline mode. Note that blocking on the main Minecraft thread may disrupt any online players.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8104</id>
+	<key><![CDATA[If the request fails for whatever reason, this receives the [[%s|exception object]] generated. By default, the exception is logged using the default uncaught exception handler.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
