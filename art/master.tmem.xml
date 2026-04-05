@@ -57267,4 +57267,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-8182</id>
+	<key><![CDATA[The recommended way to debug MethodScript is with the official VS Code extension. It provides a full-featured debugging experience using the [%s Debug Adapter Protocol (DAP)], including:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-8183</id>
+	<key><![CDATA[Install the [%s MethodScript VS Code extension] from the VS Code Marketplace by searching for "MethodScript" in the Extensions panel, or install it from the command line:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
