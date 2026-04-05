@@ -8,6 +8,13 @@
 	<auto></auto>
 </translationBlock>
 <translationBlock>
+	<id>nl-1729</id>
+	<key><![CDATA[Installation]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
 	<id>nl-2519</id>
 	<key><![CDATA[Know the assumptions you are making, and test assumptions that matter]]></key>
 	<comment></comment>
@@ -206,6 +213,510 @@
 <translationBlock>
 	<id>nl-5158</id>
 	<key><![CDATA[Docs]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8108</id>
+	<key><![CDATA[While paused, the Variables panel shows all variables in the current scope. You can expand arrays to inspect their contents.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8109</id>
+	<key><![CDATA[Threading mode: %ssync%s (default) blocks the executing thread at breakpoints, %sasync%s snapshots state without blocking.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8110</id>
+	<key><![CDATA[Minecraft Server Debugging]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8111</id>
+	<key><![CDATA[debug-server-bind-address]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8112</id>
+	<key><![CDATA[Breakpoints]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8113</id>
+	<key><![CDATA['''Continue''' (F5) - Resume execution until the next breakpoint.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8114</id>
+	<key><![CDATA[When stepping into a line that calls multiple procedures, VS Code will show step-into targets so you can choose which procedure to enter.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8115</id>
+	<key><![CDATA[debug-server-threading]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8116</id>
+	<key><![CDATA[debug-server-timeout]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8117</id>
+	<key><![CDATA[The address the debug server binds to. Use %s0.0.0.0%s for remote connections (requires KEYPAIR security).]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8118</id>
+	<key><![CDATA[Regardless of whether you use the VS Code debugger, there are some key concepts to keep in mind when debugging.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8119</id>
+	<key><![CDATA[Command Line Debugging]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8120</id>
+	<key><![CDATA[The recommended way to debug MethodScript is with the official VS Code extension. It provides a full-featured debugging experience using the [[%s|Debug Adapter Protocol (DAP)]], including:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8121</id>
+	<key><![CDATA[debug-server-security]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8122</id>
+	<key><![CDATA[--debug]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8123</id>
+	<key><![CDATA[Shorthand for %s--debug-security NONE --debug-bind-address 0.0.0.0%s. For quick local testing only.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8124</id>
+	<key><![CDATA[off%s disables the debug server. %son%s starts it automatically when the plugin loads. %smanual%s allows starting it with %s/debug-server start%s.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8125</id>
+	<key><![CDATA[Variable inspection (locals and closure variables)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8126</id>
+	<key><![CDATA[Keypair Security]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8127</id>
+	<key><![CDATA[debug-server-mode]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8128</id>
+	<key><![CDATA[async%s snapshots state without blocking the server thread (default, recommended). %ssync%s blocks the executing thread at breakpoints.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8129</id>
+	<key><![CDATA[When attaching from VS Code, select "Keypair" security and provide your private key (or leave blank to auto-detect from %s~/.ssh/%s).]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8130</id>
+	<key><![CDATA[Stepping]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8131</id>
+	<key><![CDATA[KEYPAIR%s requires SSH-style authentication and enables TLS (recommended). %sNONE%s allows unauthenticated connections, restricted to localhost.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8132</id>
+	<key><![CDATA[VS Code Debugger]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8133</id>
+	<key><![CDATA[--debug-insecure]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8134</id>
+	<key><![CDATA[Right-click a breakpoint to add a condition (the breakpoint only fires when the condition is true) or convert it to a log point (outputs a message without pausing).]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8135</id>
+	<key><![CDATA[Install the [[%s|MethodScript VS Code extension]] from the VS Code Marketplace by searching for "MethodScript" in the Extensions panel, or install it from the command line:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8136</id>
+	<key><![CDATA['''Step Into''' (F11) - If the current line calls a procedure, step into it.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8137</id>
+	<key><![CDATA[Address to bind to. Defaults to 127.0.0.1.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8138</id>
+	<key><![CDATA[debug-server-port]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8139</id>
+	<key><![CDATA[off]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8140</id>
+	<key><![CDATA[Once the debug server is running, press F5 in VS Code, choose "Attach", and enter the host and port. If using keypair security, you will also need to provide your private key. By default, this looks for ´~/.ssh/id_rsa`.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8141</id>
+	<key><![CDATA[For remote debugging keypair security is required, but can also be used locally. It uses SSH-style key authentication and TLS encryption.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8142</id>
+	<key><![CDATA[The server will automatically shut down after the configured timeout (default 15 minutes) if no client connects.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8143</id>
+	<key><![CDATA[Debugging your code is an important, but challenging part of writing working code. MethodScript has an interactive debugger, offered through the official VS Code extension, which supports breakpoints, step execution, variable inspection, and more. This page covers how to set up and use the debugger, as well as general debugging techniques.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8144</id>
+	<key><![CDATA[--debug-bind-address &lt;address&gt;]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8145</id>
+	<key><![CDATA[Once paused at a breakpoint, use the debug toolbar to control execution:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8146</id>
+	<key><![CDATA[Call stack inspection]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8147</id>
+	<key><![CDATA[Step over, step into, step out]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8148</id>
+	<key><![CDATA[--debug-port &lt;port&gt;]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8149</id>
+	<key><![CDATA[--debug-suspend]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8150</id>
+	<key><![CDATA['''Step Out''' (Shift+F11) - Run until the current procedure returns.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8151</id>
+	<key><![CDATA[You can also launch the debugger manually from the command line:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8152</id>
+	<key><![CDATA[KEYPAIR]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8153</id>
+	<key><![CDATA[To set it up:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8154</id>
+	<key><![CDATA[Minutes before the debug server shuts down with no connected client. Set to 0 to disable. Only applies to manual mode.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8155</id>
+	<key><![CDATA[To debug a standalone %s.ms%s script, open it in VS Code and press F5, then "Launch". The extension will launch the script with the debug server enabled and automatically connect.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8156</id>
+	<key><![CDATA[Generate an SSH key pair if you don't have one: %sssh-keygen -t ed25519%s (or %smscript -- key-gen%s).]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8157</id>
+	<key><![CDATA[Using the Debugger]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8158</id>
+	<key><![CDATA[Variable Inspection]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8159</id>
+	<key><![CDATA['''Step Over''' (F10) - Execute the current line and pause at the next line.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8160</id>
+	<key><![CDATA[From command line, use %s--debug-security KEYPAIR%s. For CommandHelper, set %sdebug-server-security%s to %sKEYPAIR%s in preferences.ini.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8161</id>
+	<key><![CDATA[Click in the gutter next to a line number in VS Code to set a breakpoint. When execution reaches that line, the debugger will pause and let you inspect the current state.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8162</id>
+	<key><![CDATA[Breakpoints (line and conditional)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8163</id>
+	<key><![CDATA[The TCP port for the debug server.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8164</id>
+	<key><![CDATA[Log points (output a message without stopping)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8165</id>
+	<key><![CDATA[Security mode: %sNONE%s (localhost only, no auth) or %sKEYPAIR%s (SSH-style auth + TLS).]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8166</id>
+	<key><![CDATA[This starts the debug server on port 6732 (the default). You can then attach VS Code to it by pressing F5 and choosing "Attach". The following command line flags are available:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8167</id>
+	<key><![CDATA[--debug-security &lt;mode&gt;]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8168</id>
+	<key><![CDATA[Wait for a debugger to connect before executing the script.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8169</id>
+	<key><![CDATA[Manual mode (%sdebug-server-mode=manual%s) lets you start and stop the debug server on demand from the server console:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8170</id>
+	<key><![CDATA[To debug startup scripts (e.g. %smain.ms%s), connect the debugger first, then use %s/recompile%s to re-run the startup scripts with the debugger attached.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8171</id>
+	<key><![CDATA[Sometimes it's not obvious where a variable's values come from. If you are using the VS Code debugger, you can simply set a breakpoint and inspect variables in the Variables panel. Without a debugger, you can use runtime checks to gather the value of variables. The simplest way to do this is to use %s or %s to output the value of the variable at that moment in time. Say you have a value that is brought in from storage:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8172</id>
+	<key><![CDATA[Copy your public key to the authorized debug keys file at %s~/.mscript/authorized_debug_keys%s (for command line) or %splugins/CommandHelper/authorized_debug_keys%s (for CommandHelper). One public key per line, same format as %s~/.ssh/authorized_keys%s.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8173</id>
+	<key><![CDATA[Enable the DAP debug server.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8174</id>
+	<key><![CDATA[--debug-threading-mode &lt;mode&gt;]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8175</id>
+	<key><![CDATA[General Debugging Techniques]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8176</id>
+	<key><![CDATA[Manual Mode]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8177</id>
+	<key><![CDATA[The port for the debug server. Defaults to 6732.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8178</id>
+	<key><![CDATA[async]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8179</id>
+	<key><![CDATA[To debug scripts running inside a Minecraft server, configure the debug server in %splugins/CommandHelper/preferences.ini%s:]]></key>
 	<comment></comment>
 	<translation></translation>
 	<auto></auto>

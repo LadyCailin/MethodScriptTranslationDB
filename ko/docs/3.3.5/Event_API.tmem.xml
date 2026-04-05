@@ -4382,4 +4382,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-8107</id>
+	<key><![CDATA[type%s: %s&lt;[[%s|String IC Match]]&gt; The entity type of the entity that toggled swimming%sid%s: %s&lt;[[%s|String IC Match]]&gt; The ID of the entity that toggled swimming%splayer%s: %s&lt;[[%s|Player Match]]&gt; The player that toggled swimming]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

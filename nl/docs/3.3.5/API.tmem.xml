@@ -11949,4 +11949,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nl-8106</id>
+	<key><![CDATA[Returns true if a debugger is currently attached to this execution environment. This can be used to conditionally enable debug logging or other diagnostic behavior.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
