@@ -119,4 +119,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-8189</id>
+	<key><![CDATA[Returns the current day number of the specified world. As of MC 26.1 non-overworld dimensions do not have a world clock and will return 0.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

@@ -11956,4 +11956,46 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nl-8184</id>
+	<key><![CDATA[Plays a note for the given player, at the given note block location. Player defaults to the current player, and location defaults to the player&apos;s location. Instrument may be one of: PIANO, BASS_DRUM, SNARE_DRUM, STICKS, BASS_GUITAR, FLUTE, BELL, GUITAR, CHIME, XYLOPHONE, IRON_XYLOPHONE, COW_BELL, DIDGERIDOO, BIT, BANJO, PLING, ZOMBIE, TRUMPET, TRUMPET_EXPOSED, TRUMPET_OXIDIZED, TRUMPET_WEATHERED, SKELETON, CREEPER, DRAGON, WITHER_SKELETON, PIGLIN, or CUSTOM_HEAD, and note is an associative array with 2 values, array(octave: 0, tone: &apos;F#&apos;) where octave is either 0, 1, or 2, and tone is one of the notes G, A, B, C, D, E, or F, optionally suffixed with a pound symbol, which denotes a sharp. (Not all notes can be sharped.)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8185</id>
+	<key><![CDATA[Set the current day number of a given world. As of MC 26.1 all overworld dimensions share the same world clock and other dimensions will throw an InvalidWorldException.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8186</id>
+	<key><![CDATA[Returns the time of the specified world, as an integer in ticks from 0 to 23999. As of MC 26.1 non-overworld dimensions do not have a world clock and will return 0.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8187</id>
+	<key><![CDATA[Sets the time of a given world. As of MC 26.1 all overworld dimensions share a world clock and other dimensions will throw an InvalidWorldException. The time should be a number in ticks from 0 to 24000. If not, it is modulo scaled. Alternatively, common time notation (9:30pm, 4:00 am) is acceptable, and convenient english mappings also exist:&lt;ul&gt;&lt;li&gt;afternoon = 8000&lt;/li&gt;&lt;li&gt;dawn = 22500&lt;/li&gt;&lt;li&gt;day = 2000&lt;/li&gt;&lt;li&gt;dusk = 13500&lt;/li&gt;&lt;li&gt;earlymorning = 20000&lt;/li&gt;&lt;li&gt;evening = 12000&lt;/li&gt;&lt;li&gt;midday = 6000&lt;/li&gt;&lt;li&gt;midnight = 18000&lt;/li&gt;&lt;li&gt;morning = 0&lt;/li&gt;&lt;li&gt;night = 14000&lt;/li&gt;&lt;li&gt;noon = 6000&lt;/li&gt;&lt;li&gt;sunrise = 23000&lt;/li&gt;&lt;li&gt;sunset = 13000&lt;/li&gt;&lt;/ul&gt;]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8188</id>
+	<key><![CDATA[Returns the time of the specified player, as an integer in ticks from 0 to 23999. As of MC 26.1 non-overworld dimensions do not have a world clock and will return 0 unless modified for this player.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8189</id>
+	<key><![CDATA[Returns the current day number of the specified world. As of MC 26.1 non-overworld dimensions do not have a world clock and will return 0.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

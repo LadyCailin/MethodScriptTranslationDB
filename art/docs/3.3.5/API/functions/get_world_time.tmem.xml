@@ -119,4 +119,11 @@
 	<translation></translation>
 	<auto><![CDATA[Døcs]]></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-8186</id>
+	<key><![CDATA[Returns the time of the specified world, as an integer in ticks from 0 to 23999. As of MC 26.1 non-overworld dimensions do not have a world clock and will return 0.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

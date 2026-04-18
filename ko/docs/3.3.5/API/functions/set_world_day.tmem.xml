@@ -112,4 +112,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-8185</id>
+	<key><![CDATA[Set the current day number of a given world. As of MC 26.1 all overworld dimensions share the same world clock and other dimensions will throw an InvalidWorldException.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
