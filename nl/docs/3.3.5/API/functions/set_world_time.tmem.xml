@@ -126,4 +126,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nl-8208</id>
+	<key><![CDATA[afternoon = 8000%sdawn = 22500%sday = 2000%sdusk = 13500%searlymorning = 20000%sevening = 12000%smidday = 6000%smidnight = 18000%smorning = 0%snight = 14000%snoon = 6000%ssunrise = 23000%ssunset = 13000]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nl-8209</id>
+	<key><![CDATA[Sets the time of a given world. As of MC 26.1 some dimensions may not have a world clock. (e.g. nether) The time should be a number in ticks from 0 to 23999. If not, it is modulo scaled. Common time notation (9:30pm, 4:00 am) is also accepted, and convenient english mappings also exist:]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

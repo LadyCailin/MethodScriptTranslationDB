@@ -12026,4 +12026,32 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-8204</id>
+	<key><![CDATA[Set the current day number of a given world. As of MC 26.1 some dimensions may not have a world clock. (e.g. nether)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-8205</id>
+	<key><![CDATA[Sets the time of a given world. As of MC 26.1 some dimensions may not have a world clock. (e.g. nether) The time should be a number in ticks from 0 to 23999. If not, it is modulo scaled. Common time notation (9:30pm, 4:00 am) is also accepted, and convenient english mappings also exist: [[%s|See more...]]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-8206</id>
+	<key><![CDATA[Returns the current day number of the specified world. As of MC 26.1 dimensions without a world clock will return 0. (e.g. nether)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-8207</id>
+	<key><![CDATA[Returns the time of the specified world, as an integer in ticks from 0 to 23999. As of MC 26.1 dimensions without a world clock will return 0. (e.g. nether)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

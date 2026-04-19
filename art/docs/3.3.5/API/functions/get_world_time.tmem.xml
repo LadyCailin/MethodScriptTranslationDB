@@ -126,4 +126,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-8207</id>
+	<key><![CDATA[Returns the time of the specified world, as an integer in ticks from 0 to 23999. As of MC 26.1 dimensions without a world clock will return 0. (e.g. nether)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

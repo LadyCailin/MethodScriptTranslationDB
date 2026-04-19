@@ -119,4 +119,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-8204</id>
+	<key><![CDATA[Set the current day number of a given world. As of MC 26.1 some dimensions may not have a world clock. (e.g. nether)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
