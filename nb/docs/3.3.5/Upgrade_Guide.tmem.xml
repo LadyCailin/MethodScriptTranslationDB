@@ -693,4 +693,25 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-8211</id>
+	<key><![CDATA[Minecraft 26.1]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-8212</id>
+	<key><![CDATA[Several GameRules have new integer limits. (these appear to reset the next time the world attempts to save, but may cause exceptions in the future)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-8213</id>
+	<key><![CDATA[The world file structure has changed. This only affects scripts directly reading or writing these files.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
