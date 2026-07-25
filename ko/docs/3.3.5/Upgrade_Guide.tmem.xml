@@ -714,4 +714,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>ko-8222</id>
+	<key><![CDATA[Minecraft 26.2]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>ko-8223</id>
+	<key><![CDATA[Damage causes HOT_FLOOR and CAMPFIRE for damage events now use CONTACT instead (Paper).]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
