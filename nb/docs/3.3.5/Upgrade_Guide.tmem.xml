@@ -728,4 +728,11 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-8245</id>
+	<key><![CDATA[The projectile_launch event now properly gives a dispenser location for "shooter" (and "shootertype": "block") on Paper servers.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>

@@ -57701,4 +57701,18 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>art-8244</id>
+	<key><![CDATA[id%s: The entityID of the projectile%stype%s: The entity type of the projectile%sshooter%s: entityID or dispenser location of the shooter (can be %s for dispensers in Paper %sshootertype%s: entity type of the shooter or 'block' if a dispenser (can be %s for dispensers in Paper %splayer%s: the player which has launched the projectile (%s if the shooter is not a player)%slocation%s: from where the projectile is launched%svelocity%s: the velocity of the projectile]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>art-8245</id>
+	<key><![CDATA[The projectile_launch event now properly gives a dispenser location for "shooter" (and "shootertype": "block") on Paper servers.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
