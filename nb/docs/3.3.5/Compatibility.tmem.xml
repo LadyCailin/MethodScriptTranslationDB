@@ -2030,4 +2030,172 @@
 	<translation></translation>
 	<auto></auto>
 </translationBlock>
+<translationBlock>
+	<id>nb-8248</id>
+	<key><![CDATA[Added support for Paper 26.2]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-8249</id>
+	<key><![CDATA[Added support for Paper 26.3]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-8250</id>
+	<key><![CDATA[Added support for Paper 26.1]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-8251</id>
+	<key><![CDATA[3.3.5 build-668]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-8252</id>
+	<key><![CDATA[Paper 1.16.5 - 1.21.11]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-8253</id>
+	<key><![CDATA[Paper 1.16.5 - 1.21.10]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-8254</id>
+	<key><![CDATA[Added support for Paper 1.21.11]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-8255</id>
+	<key><![CDATA[3.3.5 build-663]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-8256</id>
+	<key><![CDATA[3.3.5 build-543]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-8257</id>
+	<key><![CDATA[Build against Paper. Basic Spigot support continues but API diverges more at this point.]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-8258</id>
+	<key><![CDATA[[%s 18fa049]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-8259</id>
+	<key><![CDATA[Paper (or Spigot) 1.16.5 - 26.3 (when used as a plugin)]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-8260</id>
+	<key><![CDATA[Added support for Paper 1.21.9]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-8261</id>
+	<key><![CDATA[Added support for Paper 1.21.7]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-8262</id>
+	<key><![CDATA[Added support for Paper 1.21.6]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-8263</id>
+	<key><![CDATA[Paper 1.16.5 - 26.3]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-8264</id>
+	<key><![CDATA[Paper 1.16.5 - 26.2]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-8265</id>
+	<key><![CDATA[Paper 1.16.5 - 1.21.6]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-8266</id>
+	<key><![CDATA[Paper 1.16.5 - 1.21.5]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-8267</id>
+	<key><![CDATA[Paper 1.16.5 - 1.21.4]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-8268</id>
+	<key><![CDATA[Paper 1.16.5 - 1.21.8]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-8269</id>
+	<key><![CDATA[[%s 0692fab]]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-8270</id>
+	<key><![CDATA[Paper 1.16.5 - 26.1.2]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
+<translationBlock>
+	<id>nb-8271</id>
+	<key><![CDATA[Added support for Paper 1.21.5]]></key>
+	<comment></comment>
+	<translation></translation>
+	<auto></auto>
+</translationBlock>
 </translations>
